@@ -1,0 +1,9 @@
+{
+  "name": "Bitcoin",
+  "symbol": "BTC",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

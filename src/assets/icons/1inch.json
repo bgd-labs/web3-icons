@@ -1,0 +1,9 @@
+{
+  "name": "1inch Network",
+  "symbol": "1INCH",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "generate": "tsx src/scripts/generate.ts"
+  },
+  "dependencies": {
+    "svgo": "^3.3.2",
+    "tsx": "^4.15.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2"
+  }
+}
