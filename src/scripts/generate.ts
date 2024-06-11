@@ -4,8 +4,8 @@ import { z } from "zod";
 import { optimize } from "svgo";
 import { generateAToken, generateStataToken } from "../utils";
 
-const ICONS_FOLDER = path.join(process.cwd(), "src/assets/icons");
-const OUTPUT_FOLDER = path.join(process.cwd(), "icons");
+const ICONS_FOLDER = "src/assets/icons";
+const OUTPUT_FOLDER = "icons";
 const MONO_SUFFIX = "_mono";
 const FULL_SUFFIX = "_full";
 
@@ -89,11 +89,17 @@ const iconsArray = Object.keys(groupedFiles).map((key) => ({
   ...groupedFiles[key],
 }));
 
-for (const icon of iconsArray) {
-  console.log(icon);
+// TODO: add types
+const iconsInfoFile: any[] = [];
 
+for (const icon of iconsArray) {
   const { meta, mono, full } = icon;
   const { name, variations } = meta;
+
+  const iconInfo = {
+    ...meta,
+    icons: {},
+  };
 
   if (!mono || !full) {
     console.error(
@@ -109,12 +115,15 @@ for (const icon of iconsArray) {
     .optimizeSVGContent()
     .getSVGContent();
 
+  const monoFilePath = path.join(
+    OUTPUT_FOLDER,
+    "mono",
+    `${meta.symbol.toLowerCase()}.svg`
+  );
+  iconInfo.icons.mono = monoFilePath;
+
   writeQueue.push({
-    filePath: path.join(
-      OUTPUT_FOLDER,
-      "mono",
-      `${meta.symbol.toLowerCase()}.svg`
-    ),
+    filePath: monoFilePath,
     content: monoContent,
   });
 
@@ -122,12 +131,15 @@ for (const icon of iconsArray) {
     .optimizeSVGContent()
     .getSVGContent();
 
+  const fullFilePath = path.join(
+    OUTPUT_FOLDER,
+    "full",
+    `${meta.symbol.toLowerCase()}.svg`
+  );
+  iconInfo.icons.full = fullFilePath;
+
   writeQueue.push({
-    filePath: path.join(
-      OUTPUT_FOLDER,
-      "full",
-      `${meta.symbol.toLowerCase()}.svg`
-    ),
+    filePath: fullFilePath,
     content: fullContent,
   });
 
@@ -135,46 +147,61 @@ for (const icon of iconsArray) {
     const aTokenMono = generateAToken(monoContent, "mono");
     const aTokenFull = generateAToken(fullContent, "full");
 
+    const aTokenMonoFilePath = path.join(
+      OUTPUT_FOLDER,
+      "mono",
+      `a${meta.symbol.toLowerCase()}.svg`
+    );
+    const aTokenFullFilePath = path.join(
+      OUTPUT_FOLDER,
+      "full",
+      `a${meta.symbol.toLowerCase()}.svg`
+    );
+    iconInfo.icons.aToken = {
+      mono: aTokenMonoFilePath,
+      full: aTokenFullFilePath,
+    };
+
     writeQueue.push(
       {
-        filePath: path.join(
-          OUTPUT_FOLDER,
-          "mono",
-          `a${meta.symbol.toLowerCase()}.svg`
-        ),
+        filePath: aTokenMonoFilePath,
         content: aTokenMono,
       },
       {
-        filePath: path.join(
-          OUTPUT_FOLDER,
-          "full",
-          `a${meta.symbol.toLowerCase()}.svg`
-        ),
+        filePath: aTokenFullFilePath,
         content: aTokenFull,
       }
     );
   }
 
   if (variations.includes("stataToken")) {
-    const aTokenMono = generateStataToken(monoContent, "mono");
-    const aTokenFull = generateStataToken(fullContent, "full");
+    const stataTokenMono = generateStataToken(monoContent, "mono");
+    const stataTokenFull = generateStataToken(fullContent, "full");
+
+    const stataTokenMonoFilePath = path.join(
+      OUTPUT_FOLDER,
+      "mono",
+      `stata${meta.symbol.toLowerCase()}.svg`
+    );
+    const stataTokenFullFilePath = path.join(
+      OUTPUT_FOLDER,
+      "full",
+      `stata${meta.symbol.toLowerCase()}.svg`
+    );
+
+    iconInfo.icons.stataToken = {
+      mono: stataTokenMonoFilePath,
+      full: stataTokenFullFilePath,
+    };
 
     writeQueue.push(
       {
-        filePath: path.join(
-          OUTPUT_FOLDER,
-          "mono",
-          `stata${meta.symbol.toLowerCase()}.svg`
-        ),
-        content: aTokenMono,
+        filePath: stataTokenMonoFilePath,
+        content: stataTokenMono,
       },
       {
-        filePath: path.join(
-          OUTPUT_FOLDER,
-          "full",
-          `stata${meta.symbol.toLowerCase()}.svg`
-        ),
-        content: aTokenFull,
+        filePath: stataTokenFullFilePath,
+        content: stataTokenFull,
       }
     );
   }
@@ -186,4 +213,12 @@ for (const icon of iconsArray) {
     }
     fs.writeFileSync(item.filePath, item.content);
   });
+  iconsInfoFile.push(iconInfo);
+  console.log(`✅ Icon ${name} (${meta.symbol}) processed.`);
 }
+
+
+const iconsJsonPath = path.join(OUTPUT_FOLDER, 'icons.json');
+const iconsJsonContent = JSON.stringify(iconsInfoFile, null, 2);
+fs.writeFileSync(iconsJsonPath, iconsJsonContent);
+console.log(`📋 Icons metadata file generated at ${iconsJsonPath}.`);

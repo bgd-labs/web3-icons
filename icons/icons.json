@@ -1,0 +1,44 @@
+[
+  {
+    "name": "1inch Network",
+    "symbol": "1INCH",
+    "symbolAliases": [],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/1inch.svg",
+      "full": "icons/full/1inch.svg",
+      "aToken": {
+        "mono": "icons/mono/a1inch.svg",
+        "full": "icons/full/a1inch.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/stata1inch.svg",
+        "full": "icons/full/stata1inch.svg"
+      }
+    }
+  },
+  {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "symbolAliases": [],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/btc.svg",
+      "full": "icons/full/btc.svg",
+      "aToken": {
+        "mono": "icons/mono/abtc.svg",
+        "full": "icons/full/abtc.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statabtc.svg",
+        "full": "icons/full/statabtc.svg"
+      }
+    }
+  }
+]
