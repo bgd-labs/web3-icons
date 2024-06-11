@@ -1,0 +1,9 @@
+{
+  "name": "StargateToken",
+  "symbol": "stg",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

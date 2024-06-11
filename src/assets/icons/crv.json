@@ -1,0 +1,9 @@
+{
+  "name": "Curve DAO Token",
+  "symbol": "crv",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

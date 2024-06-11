@@ -1,0 +1,9 @@
+{
+  "name": "Liquid staked Ether 2.0",
+  "symbol": "steth",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ftm",
+  "symbol": "ftm",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Wrapped ONE",
+  "symbol": "wone",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

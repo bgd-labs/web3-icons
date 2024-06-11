@@ -1,0 +1,9 @@
+{
+  "name": "Maker",
+  "symbol": "mkr",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

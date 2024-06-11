@@ -1,0 +1,9 @@
+{
+  "name": "renFIL",
+  "symbol": "renfil",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

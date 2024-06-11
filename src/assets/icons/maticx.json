@@ -1,0 +1,9 @@
+{
+  "name": "Liquid Staking Matic (PoS)",
+  "symbol": "maticx",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

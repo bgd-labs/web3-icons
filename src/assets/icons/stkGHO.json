@@ -1,0 +1,9 @@
+{
+  "name": "stkGHO",
+  "symbol": "stkGHO",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

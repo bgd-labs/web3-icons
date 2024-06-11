@@ -1,0 +1,9 @@
+{
+  "name": "SushiBar",
+  "symbol": "xsushi",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

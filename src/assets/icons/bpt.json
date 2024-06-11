@@ -1,0 +1,9 @@
+{
+  "name": "bpt",
+  "symbol": "bpt",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

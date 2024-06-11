@@ -1,0 +1,9 @@
+{
+  "name": "rep",
+  "symbol": "rep",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

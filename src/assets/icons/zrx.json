@@ -1,0 +1,9 @@
+{
+  "name": "0x Protocol Token",
+  "symbol": "zrx",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "WFTM",
+  "symbol": "wftm",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

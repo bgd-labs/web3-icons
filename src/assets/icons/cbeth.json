@@ -1,0 +1,9 @@
+{
+  "name": "Coinbase Wrapped Staked ETH",
+  "symbol": "cbeth",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

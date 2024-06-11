@@ -1,0 +1,9 @@
+{
+  "name": "Decentraland MANA",
+  "symbol": "mana",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

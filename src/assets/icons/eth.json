@@ -1,0 +1,9 @@
+{
+  "name": "Ethereum Token",
+  "symbol": "eth",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

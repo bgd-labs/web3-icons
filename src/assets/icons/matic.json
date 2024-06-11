@@ -1,0 +1,9 @@
+{
+  "name": "matic",
+  "symbol": "matic",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

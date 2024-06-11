@@ -1,0 +1,9 @@
+{
+  "name": "DefiPulse Index",
+  "symbol": "dpi",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

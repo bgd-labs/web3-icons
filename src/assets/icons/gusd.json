@@ -1,0 +1,9 @@
+{
+  "name": "Gemini dollar",
+  "symbol": "gusd",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

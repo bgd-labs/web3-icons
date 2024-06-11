@@ -1,0 +1,9 @@
+{
+  "name": "susde",
+  "symbol": "susde",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

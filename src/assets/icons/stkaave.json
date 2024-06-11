@@ -1,0 +1,9 @@
+{
+  "name": "stkaave",
+  "symbol": "stkaave",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

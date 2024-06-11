@@ -1,0 +1,9 @@
+{
+  "name": "Rai Reflex Index",
+  "symbol": "rai",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

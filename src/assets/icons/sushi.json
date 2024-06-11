@@ -1,0 +1,9 @@
+{
+  "name": "SushiToken (PoS)",
+  "symbol": "sushi",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

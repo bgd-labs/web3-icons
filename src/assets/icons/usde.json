@@ -1,0 +1,9 @@
+{
+  "name": "USDe",
+  "symbol": "usde",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

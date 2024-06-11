@@ -1,0 +1,11 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="16" cy="16" r="15" stroke="currentColor" stroke-width="2" />
+  <g clip-path="url(#circleClip)">
+    <g style="transform: scale(0.8125); transform-origin: 50% 50%;"><path fill="currentColor" d="M15.81.51C7.2.51.22 7.49.22 16.1S7.2 31.69 15.81 31.69 31.4 24.71 31.4 16.1 24.42.51 15.81.51m-4.95 26.9L8.95 25.5l4.47-4.47-4.47-4.47 1.91-1.91 6.37 6.37-6.37 6.37zm7.19-7.18-6.37-6.37 1.9-1.9 6.37 6.37zm4.62-4.61-1.91 1.91-6.37-6.37 6.37-6.37 1.91 1.91-4.47 4.47 4.47 4.47z"/></g>
+  </g>
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="16" cy="16" r="13" />
+    </clipPath>
+  </defs>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "name": "Convex Token",
+  "symbol": "cvx",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

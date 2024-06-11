@@ -1,0 +1,9 @@
+{
+  "name": "Tether USD",
+  "symbol": "usdt",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

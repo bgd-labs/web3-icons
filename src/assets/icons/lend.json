@@ -1,0 +1,9 @@
+{
+  "name": "lend",
+  "symbol": "lend",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

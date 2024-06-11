@@ -1,0 +1,9 @@
+{
+  "name": "Staked MATIC (PoS)",
+  "symbol": "stmatic",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

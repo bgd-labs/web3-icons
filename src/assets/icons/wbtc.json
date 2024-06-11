@@ -1,0 +1,9 @@
+{
+  "name": "Wrapped BTC",
+  "symbol": "wbtc",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

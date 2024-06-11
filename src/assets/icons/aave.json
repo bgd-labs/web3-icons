@@ -1,0 +1,9 @@
+{
+  "name": "Aave Token",
+  "symbol": "aave",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

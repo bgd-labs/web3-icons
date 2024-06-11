@@ -1,0 +1,9 @@
+{
+  "name": "Balancer",
+  "symbol": "bal",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

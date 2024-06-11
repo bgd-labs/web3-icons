@@ -1,0 +1,9 @@
+{
+  "name": "Pax Dollar",
+  "symbol": "usdp",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

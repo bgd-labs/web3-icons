@@ -1,0 +1,9 @@
+{
+  "name": "sd",
+  "symbol": "sd",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Uniswap",
+  "symbol": "uni",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

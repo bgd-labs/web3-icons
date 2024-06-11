@@ -1,0 +1,9 @@
+{
+  "name": "ChainLink Token",
+  "symbol": "link",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

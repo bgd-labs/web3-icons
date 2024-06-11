@@ -1,0 +1,9 @@
+{
+  "name": "Ampleforth",
+  "symbol": "ampl",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

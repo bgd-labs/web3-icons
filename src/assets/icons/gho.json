@@ -1,0 +1,9 @@
+{
+  "name": "Gho Token",
+  "symbol": "gho",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Optimism",
+  "symbol": "op",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

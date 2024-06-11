@@ -1,0 +1,9 @@
+{
+  "name": "STASIS EURS Token (PoS)",
+  "symbol": "eurs",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

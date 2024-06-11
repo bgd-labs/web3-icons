@@ -1,0 +1,9 @@
+{
+  "name": "UST",
+  "symbol": "ust",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

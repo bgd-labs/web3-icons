@@ -1,0 +1,9 @@
+{
+  "name": "one",
+  "symbol": "one",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

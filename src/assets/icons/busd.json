@@ -1,0 +1,9 @@
+{
+  "name": "BUSD",
+  "symbol": "busd",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

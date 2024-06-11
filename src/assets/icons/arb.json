@@ -1,0 +1,9 @@
+{
+  "name": "Arbitrum",
+  "symbol": "arb",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

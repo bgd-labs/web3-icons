@@ -1,0 +1,9 @@
+{
+  "name": "Basic Attention Token",
+  "symbol": "bat",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

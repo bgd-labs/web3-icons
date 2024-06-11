@@ -1,0 +1,9 @@
+{
+  "name": "EURA (previously agEUR)",
+  "symbol": "eura",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

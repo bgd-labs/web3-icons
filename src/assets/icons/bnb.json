@@ -1,0 +1,9 @@
+{
+  "name": "bnb",
+  "symbol": "bnb",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Aavegotchi GHST Token (PoS)",
+  "symbol": "ghst",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

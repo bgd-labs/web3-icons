@@ -1,0 +1,9 @@
+{
+  "name": "Wrapped Matic",
+  "symbol": "wmatic",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

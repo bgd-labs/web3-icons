@@ -1,0 +1,9 @@
+{
+  "name": "Staked AVAX",
+  "symbol": "savax",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

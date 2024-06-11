@@ -1,0 +1,9 @@
+{
+  "name": "Savings Dai",
+  "symbol": "sdai",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

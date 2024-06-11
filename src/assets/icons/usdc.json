@@ -1,0 +1,9 @@
+{
+  "name": "USD Coin",
+  "symbol": "usdc",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

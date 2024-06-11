@@ -1,0 +1,9 @@
+{
+  "name": "Wrapped eETH",
+  "symbol": "weeth",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

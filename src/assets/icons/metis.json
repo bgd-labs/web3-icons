@@ -1,0 +1,9 @@
+{
+  "name": "Metis Token",
+  "symbol": "metis",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

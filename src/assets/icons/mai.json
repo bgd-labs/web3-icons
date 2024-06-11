@@ -1,0 +1,9 @@
+{
+  "name": "Mai Stablecoin",
+  "symbol": "mai",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

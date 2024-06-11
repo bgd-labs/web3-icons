@@ -1,0 +1,9 @@
+{
+  "name": "seth",
+  "symbol": "seth",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
