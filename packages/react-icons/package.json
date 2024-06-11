@@ -1,12 +1,36 @@
 {
-  "name": "react-icons",
+  "name": "@smbdy/react-icons",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "React icons for web3 projects",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^16.9.24",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "rollup": "^1.32.1",
+    "rollup-plugin-sass": "^1.12.22",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "typescript": "^5.4.5"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "typescript",
+    "npm"
+  ],
+  "dependencies": {
+    "tslib": "^2.6.3"
+  }
 }

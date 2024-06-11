@@ -1,0 +1,266 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.2.3",
+  "deps": {
+    "svgo": "^3.3.2",
+    "tsx": "^4.15.1",
+    "zod": "^3.23.8",
+    "@types/node": "^20.14.2",
+    "nx": "^19.2.3"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "@smbdy/react-icons": [
+        {
+          "file": "packages/react-icons/README.md",
+          "hash": "18108859962688651291"
+        },
+        {
+          "file": "packages/react-icons/package.json",
+          "hash": "17993228545960404954",
+          "deps": [
+            "npm:react@16.14.0",
+            "npm:react-dom@16.14.0",
+            "npm:@types/react@18.3.3",
+            "npm:@types/react-dom@16.9.24",
+            "npm:babel-core",
+            "npm:babel-runtime",
+            "npm:rollup",
+            "npm:rollup-plugin-sass",
+            "npm:rollup-plugin-typescript2",
+            "npm:typescript",
+            "npm:tslib@2.6.3"
+          ]
+        },
+        {
+          "file": "packages/react-icons/rollup.config.js",
+          "hash": "2140909457109079684"
+        },
+        {
+          "file": "packages/react-icons/src/index.tsx",
+          "hash": "14050061943357643439"
+        },
+        {
+          "file": "packages/react-icons/src/styles.scss",
+          "hash": "11983961230025089015"
+        },
+        {
+          "file": "packages/react-icons/tsconfig.json",
+          "hash": "10018775360605013148"
+        }
+      ],
+      "docs": [
+        {
+          "file": "apps/docs/.eslintrc.json",
+          "hash": "10616060546436571437"
+        },
+        {
+          "file": "apps/docs/.gitignore",
+          "hash": "15751075988610075934"
+        },
+        {
+          "file": "apps/docs/README.md",
+          "hash": "12205685531602560652"
+        },
+        {
+          "file": "apps/docs/next.config.mjs",
+          "hash": "6567081978241091914"
+        },
+        {
+          "file": "apps/docs/package.json",
+          "hash": "16561159829063928206",
+          "deps": [
+            "npm:@types/node",
+            "npm:@types/react@18.3.3",
+            "npm:@types/react-dom@18.3.0",
+            "npm:eslint",
+            "npm:eslint-config-next",
+            "npm:postcss@8.4.38",
+            "npm:tailwindcss",
+            "npm:typescript",
+            "@smbdy/react-icons",
+            "npm:next",
+            "npm:react@18.3.1",
+            "npm:react-dom@18.3.1"
+          ]
+        },
+        {
+          "file": "apps/docs/postcss.config.mjs",
+          "hash": "2557392112968376575"
+        },
+        {
+          "file": "apps/docs/public/next.svg",
+          "hash": "8300767200008744458"
+        },
+        {
+          "file": "apps/docs/public/vercel.svg",
+          "hash": "2376673330454856631"
+        },
+        {
+          "file": "apps/docs/src/app/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "apps/docs/src/app/globals.css",
+          "hash": "10620967136394561243"
+        },
+        {
+          "file": "apps/docs/src/app/layout.tsx",
+          "hash": "14869893044596788660"
+        },
+        {
+          "file": "apps/docs/src/app/page.tsx",
+          "hash": "4888269900233157424"
+        },
+        {
+          "file": "apps/docs/tailwind.config.ts",
+          "hash": "8266647255848899898"
+        },
+        {
+          "file": "apps/docs/tsconfig.json",
+          "hash": "4320684160905164141"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "15530075357850977634"
+      },
+      {
+        "file": "icons/README.md",
+        "hash": "3523446812036844618"
+      },
+      {
+        "file": "icons/full/1inch.svg",
+        "hash": "17663190443646558452"
+      },
+      {
+        "file": "icons/full/a1inch.svg",
+        "hash": "12767905157333299915"
+      },
+      {
+        "file": "icons/full/abtc.svg",
+        "hash": "15545711398194878973"
+      },
+      {
+        "file": "icons/full/btc.svg",
+        "hash": "5694904979630444117"
+      },
+      {
+        "file": "icons/full/stata1inch.svg",
+        "hash": "3649404800777837415"
+      },
+      {
+        "file": "icons/full/statabtc.svg",
+        "hash": "6098615194542374035"
+      },
+      {
+        "file": "icons/icons.json",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "icons/mono/1inch.svg",
+        "hash": "7496855537908612563"
+      },
+      {
+        "file": "icons/mono/a1inch.svg",
+        "hash": "8755539343769753266"
+      },
+      {
+        "file": "icons/mono/abtc.svg",
+        "hash": "5074711594852264529"
+      },
+      {
+        "file": "icons/mono/btc.svg",
+        "hash": "10860393087697502"
+      },
+      {
+        "file": "icons/mono/stata1inch.svg",
+        "hash": "4338335722351016260"
+      },
+      {
+        "file": "icons/mono/statabtc.svg",
+        "hash": "13135758506484697745"
+      },
+      {
+        "file": "package.json",
+        "hash": "12745213721383332344"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "6077746886047904006"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "11805071067713496448"
+      },
+      {
+        "file": "src/assets/icons/1inch.json",
+        "hash": "7878687148455854232"
+      },
+      {
+        "file": "src/assets/icons/1inch_full.svg",
+        "hash": "12998905608862749209"
+      },
+      {
+        "file": "src/assets/icons/1inch_mono.svg",
+        "hash": "16224948362613695553"
+      },
+      {
+        "file": "src/assets/icons/btc.json",
+        "hash": "722249930967012617"
+      },
+      {
+        "file": "src/assets/icons/btc_full.svg",
+        "hash": "9742693116459295579"
+      },
+      {
+        "file": "src/assets/icons/btc_mono.svg",
+        "hash": "2340657289291965489"
+      },
+      {
+        "file": "src/assets/templates/aToken/full.svg",
+        "hash": "5377349993067215837"
+      },
+      {
+        "file": "src/assets/templates/aToken/mono.svg",
+        "hash": "13436563519508107280"
+      },
+      {
+        "file": "src/assets/templates/stataToken/full.svg",
+        "hash": "6536505874569939195"
+      },
+      {
+        "file": "src/assets/templates/stataToken/mono.svg",
+        "hash": "6499881633278685525"
+      },
+      {
+        "file": "src/assets/templates/unknown.svg",
+        "hash": "15203937339747299971"
+      },
+      {
+        "file": "src/scripts/generate.ts",
+        "hash": "11377683572822489211"
+      },
+      {
+        "file": "src/utils/generateAToken.ts",
+        "hash": "10932957663911852018"
+      },
+      {
+        "file": "src/utils/generateStataToken.ts",
+        "hash": "12603765840986034320"
+      },
+      {
+        "file": "src/utils/getIconForSymbol.ts",
+        "hash": "12266505346336890328"
+      },
+      {
+        "file": "src/utils/index.ts",
+        "hash": "9557920512553020383"
+      }
+    ]
+  }
+}
