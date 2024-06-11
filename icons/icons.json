@@ -21,7 +21,7 @@
     }
   },
   {
-    "name": "Aave Token",
+    "name": "Aave",
     "symbol": "aave",
     "symbolAliases": [],
     "variations": [
@@ -84,7 +84,7 @@
     }
   },
   {
-    "name": "avax",
+    "name": "Avalanche",
     "symbol": "avax",
     "symbolAliases": [],
     "variations": [
@@ -126,7 +126,7 @@
     }
   },
   {
-    "name": "Basic Attention Token",
+    "name": "Basic Attention",
     "symbol": "bat",
     "symbolAliases": [],
     "variations": [
@@ -147,7 +147,7 @@
     }
   },
   {
-    "name": "bnb",
+    "name": "BNB",
     "symbol": "bnb",
     "symbolAliases": [],
     "variations": [
@@ -168,7 +168,7 @@
     }
   },
   {
-    "name": "bpt",
+    "name": "BlackPool",
     "symbol": "bpt",
     "symbolAliases": [],
     "variations": [
@@ -189,7 +189,7 @@
     }
   },
   {
-    "name": "Bitcoin",
+    "name": "batcat",
     "symbol": "btc",
     "symbolAliases": [],
     "variations": [
@@ -210,7 +210,7 @@
     }
   },
   {
-    "name": "BUSD",
+    "name": "Binance-Peg BUSD",
     "symbol": "busd",
     "symbolAliases": [],
     "variations": [
@@ -231,7 +231,7 @@
     }
   },
   {
-    "name": "PancakeSwap Token",
+    "name": "PancakeSwap",
     "symbol": "cake",
     "symbolAliases": [],
     "variations": [
@@ -273,7 +273,7 @@
     }
   },
   {
-    "name": "Curve DAO Token",
+    "name": "Bridged Curve DAO Token (Stargate)",
     "symbol": "crv",
     "symbolAliases": [],
     "variations": [
@@ -294,7 +294,7 @@
     }
   },
   {
-    "name": "Curve.Fi USD Stablecoin",
+    "name": "crvUSD",
     "symbol": "crvusd",
     "symbolAliases": [],
     "variations": [
@@ -315,7 +315,7 @@
     }
   },
   {
-    "name": "Convex Token",
+    "name": "Convex Finance",
     "symbol": "cvx",
     "symbolAliases": [],
     "variations": [
@@ -336,7 +336,7 @@
     }
   },
   {
-    "name": "Dai Stablecoin",
+    "name": "Bridged Dai Stablecoin (Linea)",
     "symbol": "dai",
     "symbolAliases": [],
     "variations": [
@@ -357,7 +357,7 @@
     }
   },
   {
-    "name": "DefiPulse Index",
+    "name": "DeFi Pulse Index",
     "symbol": "dpi",
     "symbolAliases": [],
     "variations": [
@@ -420,7 +420,7 @@
     }
   },
   {
-    "name": "Ethereum Token",
+    "name": "Bridged Binance-Peg Ethereum (opBNB)",
     "symbol": "eth",
     "symbolAliases": [],
     "variations": [
@@ -441,7 +441,7 @@
     }
   },
   {
-    "name": "EURA (previously agEUR)",
+    "name": "EURA",
     "symbol": "eura",
     "symbolAliases": [],
     "variations": [
@@ -483,7 +483,7 @@
     }
   },
   {
-    "name": "STASIS EURS Token (PoS)",
+    "name": "STASIS EURO",
     "symbol": "eurs",
     "symbolAliases": [],
     "variations": [
@@ -567,7 +567,7 @@
     }
   },
   {
-    "name": "ftm",
+    "name": "Fantom",
     "symbol": "ftm",
     "symbolAliases": [],
     "variations": [
@@ -609,7 +609,7 @@
     }
   },
   {
-    "name": "Gho Token",
+    "name": "GHO",
     "symbol": "gho",
     "symbolAliases": [],
     "variations": [
@@ -630,7 +630,7 @@
     }
   },
   {
-    "name": "Aavegotchi GHST Token (PoS)",
+    "name": "Aavegotchi",
     "symbol": "ghst",
     "symbolAliases": [],
     "variations": [
@@ -651,7 +651,7 @@
     }
   },
   {
-    "name": "Gnosis Token on xDai",
+    "name": "Gnosis",
     "symbol": "gno",
     "symbolAliases": [],
     "variations": [
@@ -693,7 +693,7 @@
     }
   },
   {
-    "name": "Gemini dollar",
+    "name": "Gemini Dollar",
     "symbol": "gusd",
     "symbolAliases": [],
     "variations": [
@@ -756,7 +756,7 @@
     }
   },
   {
-    "name": "Lido DAO Token",
+    "name": "Lido DAO",
     "symbol": "ldo",
     "symbolAliases": [],
     "variations": [
@@ -777,7 +777,7 @@
     }
   },
   {
-    "name": "lend",
+    "name": "Aave [OLD]",
     "symbol": "lend",
     "symbolAliases": [],
     "variations": [
@@ -798,7 +798,7 @@
     }
   },
   {
-    "name": "ChainLink Token",
+    "name": "Chainlink",
     "symbol": "link",
     "symbolAliases": [],
     "variations": [
@@ -819,7 +819,7 @@
     }
   },
   {
-    "name": "LUSD Stablecoin",
+    "name": "Liquity USD",
     "symbol": "lusd",
     "symbolAliases": [],
     "variations": [
@@ -840,7 +840,7 @@
     }
   },
   {
-    "name": "Mai Stablecoin",
+    "name": "MatrixGPT",
     "symbol": "mai",
     "symbolAliases": [],
     "variations": [
@@ -861,7 +861,7 @@
     }
   },
   {
-    "name": "Decentraland MANA",
+    "name": "Decentraland",
     "symbol": "mana",
     "symbolAliases": [],
     "variations": [
@@ -882,7 +882,7 @@
     }
   },
   {
-    "name": "matic",
+    "name": "Bridged MATIC (Manta Pacific)",
     "symbol": "matic",
     "symbolAliases": [],
     "variations": [
@@ -903,7 +903,7 @@
     }
   },
   {
-    "name": "Liquid Staking Matic (PoS)",
+    "name": "Stader MaticX",
     "symbol": "maticx",
     "symbolAliases": [],
     "variations": [
@@ -924,7 +924,7 @@
     }
   },
   {
-    "name": "Metis Token",
+    "name": "Metis",
     "symbol": "metis",
     "symbolAliases": [],
     "variations": [
@@ -966,7 +966,7 @@
     }
   },
   {
-    "name": "one",
+    "name": "Harmony",
     "symbol": "one",
     "symbolAliases": [],
     "variations": [
@@ -1071,7 +1071,7 @@
     }
   },
   {
-    "name": "Republic Token",
+    "name": "Ren",
     "symbol": "ren",
     "symbolAliases": [],
     "variations": [
@@ -1092,7 +1092,7 @@
     }
   },
   {
-    "name": "renFIL",
+    "name": "renfil",
     "symbol": "renfil",
     "symbolAliases": [],
     "variations": [
@@ -1113,7 +1113,7 @@
     }
   },
   {
-    "name": "rep",
+    "name": "Augur",
     "symbol": "rep",
     "symbolAliases": [],
     "variations": [
@@ -1134,7 +1134,7 @@
     }
   },
   {
-    "name": "Staked AVAX",
+    "name": "BENQI Liquid Staked AVAX",
     "symbol": "savax",
     "symbolAliases": [],
     "variations": [
@@ -1155,7 +1155,7 @@
     }
   },
   {
-    "name": "sd",
+    "name": "dog wif spinning hat",
     "symbol": "sd",
     "symbolAliases": [],
     "variations": [
@@ -1197,7 +1197,7 @@
     }
   },
   {
-    "name": "seth",
+    "name": "sETH",
     "symbol": "seth",
     "symbolAliases": [],
     "variations": [
@@ -1218,7 +1218,7 @@
     }
   },
   {
-    "name": "Synthetix Network Token",
+    "name": "Synthetix Network",
     "symbol": "snx",
     "symbolAliases": [],
     "variations": [
@@ -1239,7 +1239,7 @@
     }
   },
   {
-    "name": "Liquid staked Ether 2.0",
+    "name": "Lido Staked Ether",
     "symbol": "steth",
     "symbolAliases": [],
     "variations": [
@@ -1260,7 +1260,7 @@
     }
   },
   {
-    "name": "StargateToken",
+    "name": "Stargate Finance",
     "symbol": "stg",
     "symbolAliases": [],
     "variations": [
@@ -1344,7 +1344,7 @@
     }
   },
   {
-    "name": "Staked MATIC (PoS)",
+    "name": "Lido Staked Matic",
     "symbol": "stmatic",
     "symbolAliases": [],
     "variations": [
@@ -1365,7 +1365,7 @@
     }
   },
   {
-    "name": "Synth sUSD",
+    "name": "sUSD",
     "symbol": "susd",
     "symbolAliases": [],
     "variations": [
@@ -1386,7 +1386,7 @@
     }
   },
   {
-    "name": "susde",
+    "name": "Ethena Staked USDe",
     "symbol": "susde",
     "symbolAliases": [],
     "variations": [
@@ -1407,7 +1407,7 @@
     }
   },
   {
-    "name": "SushiToken (PoS)",
+    "name": "Sushi",
     "symbol": "sushi",
     "symbolAliases": [],
     "variations": [
@@ -1428,7 +1428,7 @@
     }
   },
   {
-    "name": "tribe",
+    "name": "Tribe",
     "symbol": "tribe",
     "symbolAliases": [],
     "variations": [
@@ -1449,7 +1449,7 @@
     }
   },
   {
-    "name": "TrueUSD",
+    "name": "Bridged TrueUSD",
     "symbol": "tusd",
     "symbolAliases": [],
     "variations": [
@@ -1470,7 +1470,7 @@
     }
   },
   {
-    "name": "Uniswap",
+    "name": "UNICORN",
     "symbol": "uni",
     "symbolAliases": [],
     "variations": [
@@ -1491,7 +1491,7 @@
     }
   },
   {
-    "name": "USD Base Coin",
+    "name": "Bridged USD Coin (Base)",
     "symbol": "usdbc",
     "symbolAliases": [],
     "variations": [
@@ -1512,7 +1512,7 @@
     }
   },
   {
-    "name": "USD Coin",
+    "name": "Beam Bridged USDC (Beam)",
     "symbol": "usdc",
     "symbolAliases": [],
     "variations": [
@@ -1533,7 +1533,7 @@
     }
   },
   {
-    "name": "USDe",
+    "name": "Energi Dollar",
     "symbol": "usde",
     "symbolAliases": [],
     "variations": [
@@ -1575,7 +1575,7 @@
     }
   },
   {
-    "name": "Tether USD",
+    "name": "Alcor IBC Bridged USDT (WAX)",
     "symbol": "usdt",
     "symbolAliases": [],
     "variations": [
@@ -1596,7 +1596,7 @@
     }
   },
   {
-    "name": "UST",
+    "name": "TerraUSD (Wormhole)",
     "symbol": "ust",
     "symbolAliases": [],
     "variations": [
@@ -1617,7 +1617,7 @@
     }
   },
   {
-    "name": "Wrapped BTC",
+    "name": "Bridged Wrapped Bitcoin (Manta Pacific)",
     "symbol": "wbtc",
     "symbolAliases": [],
     "variations": [
@@ -1638,7 +1638,7 @@
     }
   },
   {
-    "name": "Wrapped eETH",
+    "name": "LayerZero Bridged weETH (Linea)",
     "symbol": "weeth",
     "symbolAliases": [],
     "variations": [
@@ -1659,7 +1659,7 @@
     }
   },
   {
-    "name": "Wrapped Ether",
+    "name": "Bridged Wrapped Ether (Fuse)",
     "symbol": "weth",
     "symbolAliases": [],
     "variations": [
@@ -1680,7 +1680,7 @@
     }
   },
   {
-    "name": "WFTM",
+    "name": "Wrapped Fantom",
     "symbol": "wftm",
     "symbolAliases": [],
     "variations": [
@@ -1722,7 +1722,7 @@
     }
   },
   {
-    "name": "Wrapped ONE",
+    "name": "Wrapped One",
     "symbol": "wone",
     "symbolAliases": [],
     "variations": [
@@ -1743,7 +1743,7 @@
     }
   },
   {
-    "name": "Wrapped liquid staked Ether 2.0",
+    "name": "Bridged Wrapped Lido Staked Ether (Scroll)",
     "symbol": "wsteth",
     "symbolAliases": [],
     "variations": [
@@ -1764,7 +1764,7 @@
     }
   },
   {
-    "name": "Wrapped XDAI",
+    "name": "wxdai",
     "symbol": "wxdai",
     "symbolAliases": [],
     "variations": [
@@ -1785,7 +1785,7 @@
     }
   },
   {
-    "name": "xdai",
+    "name": "XDAI",
     "symbol": "xdai",
     "symbolAliases": [],
     "variations": [
@@ -1806,7 +1806,7 @@
     }
   },
   {
-    "name": "SushiBar",
+    "name": "xSUSHI",
     "symbol": "xsushi",
     "symbolAliases": [],
     "variations": [
@@ -1848,7 +1848,7 @@
     }
   },
   {
-    "name": "0x Protocol Token",
+    "name": "0x Protocol",
     "symbol": "zrx",
     "symbolAliases": [],
     "variations": [

@@ -217,7 +217,6 @@ for (const icon of iconsArray) {
   console.log(`✅ Icon ${name} (${meta.symbol}) processed.`);
 }
 
-
 const iconsJsonPath = path.join(OUTPUT_FOLDER, 'icons.json');
 const iconsJsonContent = JSON.stringify(iconsInfoFile, null, 2);
 fs.writeFileSync(iconsJsonPath, iconsJsonContent);
