@@ -87,7 +87,10 @@ Promise.all(
   })
 ).then(() => {
   const fileContent = componentFiles
-    .map((file) => `export * from "${file.replace(".tsx", "")}";`)
+    .map(
+      (file) =>
+        `export { default as ${file.replace(".tsx", "").replace("./", "")} } from "${file.replace(".tsx", "")}";`
+    )
     .join("\n");
 
   fs.writeFileSync(`${REACT_COMPONENTS_PATH}/index.ts`, fileContent);

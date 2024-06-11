@@ -36,6 +36,9 @@ importers:
       '@bgd-labs/aave-address-book':
         specifier: ^2.26.1
         version: 2.29.0
+      '@bgd-labs/react-icons':
+        specifier: workspace:^
+        version: link:../../packages/react-icons
       clsx:
         specifier: ^2.1.0
         version: 2.1.1

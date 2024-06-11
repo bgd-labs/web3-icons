@@ -1,9 +1,8 @@
 import icons from "../../../../../icons/icons.json";
+// import { Icon1inchFull } from "@bgd-labs/react-icons";
 
 
 const IconsPage = () => {
-  console.log(icons);
-
   return (
     <div>
       {icons.map((item) => (

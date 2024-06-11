@@ -47,7 +47,18 @@ const processIconFile = (filePath: string) => {
       return this;
     },
     optimizeSVGContent: function () {
-      const optimizationResult = optimize(svgContent);
+      const optimizationResult = optimize(svgContent, {
+        plugins: [
+          {
+            name: "preset-default",
+            params: {
+              overrides: {
+                removeViewBox: false,
+              },
+            },
+          },
+        ],
+      });
       svgContent = optimizationResult.data;
       return this;
     },
@@ -217,7 +228,7 @@ for (const icon of iconsArray) {
   console.log(`✅ Icon ${name} (${meta.symbol}) processed.`);
 }
 
-const iconsJsonPath = path.join(OUTPUT_FOLDER, 'icons.json');
+const iconsJsonPath = path.join(OUTPUT_FOLDER, "icons.json");
 const iconsJsonContent = JSON.stringify(iconsInfoFile, null, 2);
 fs.writeFileSync(iconsJsonPath, iconsJsonContent);
 console.log(`📋 Icons metadata file generated at ${iconsJsonPath}.`);

@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@bgd-labs/aave-address-book": "^2.26.1",
+    "@bgd-labs/react-icons": "workspace:^",
     "clsx": "^2.1.0",
     "next": "^14.1.4",
     "next-themes": "^0.3.0",
