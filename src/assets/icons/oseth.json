@@ -1,0 +1,9 @@
+{
+  "name": "StakeWise Staked ETH",
+  "symbol": "oseth",
+  "symbolAliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
