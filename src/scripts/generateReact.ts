@@ -4,19 +4,6 @@ import assets from "../../icons/icons.json";
 
 const REACT_COMPONENTS_PATH = "packages/react-icons/src/components";
 
-// const iconContent = fs.readFileSync("icons/full/statazrx.svg", "utf-8");
-// const tsxCode = transform(
-//   iconContent,
-//   {
-//     icon: true,
-//     plugins: ["@svgr/plugin-jsx", "@svgr/plugin-prettier"],
-//     typescript: true,
-//   },
-//   { componentName: "Component" }
-// ).then((code) => {
-//   console.log(code);
-// });
-
 interface QueueItem {
   filePath: string;
   type: "full" | "mono";
@@ -28,11 +15,9 @@ const queue: QueueItem[] = [];
 for (const asset of assets) {
   const { icons, symbol } = asset;
 
-  // Add mono and full icons for the base token
   queue.push({ filePath: icons.mono, type: "mono", symbol });
   queue.push({ filePath: icons.full, type: "full", symbol });
 
-  // Check for aToken and add if exists
   if (icons.aToken) {
     queue.push({
       filePath: icons.aToken.mono,
@@ -46,7 +31,6 @@ for (const asset of assets) {
     });
   }
 
-  // Check for stataToken and add if exists
   if (icons.stataToken) {
     queue.push({
       filePath: icons.stataToken.mono,
@@ -72,9 +56,10 @@ Promise.all(
     const tsxCode = await transform(
       iconContent,
       {
-        icon: true,
+        icon: "32px",
         plugins: ["@svgr/plugin-jsx", "@svgr/plugin-prettier"],
         typescript: true,
+        svgo: false,
       },
       { componentName }
     );
