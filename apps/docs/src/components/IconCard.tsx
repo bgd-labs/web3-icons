@@ -1,12 +1,13 @@
 export const IconCard = ({
   name,
   symbol,
-  icon,
+  children,
 }: {
   name: string;
   symbol: string;
-  icon: string;
+  children: React.ReactNode;
 }) => {
+  // TODO: refactor to use components
   // TODO: implement downloads
   // TODO: implement copy to clipboard
 
@@ -18,9 +19,7 @@ export const IconCard = ({
           {symbol}
         </div>
       </div>
-      {icon && (
-        <div className="scale-125" dangerouslySetInnerHTML={{ __html: icon }} />
-      )}
+      {children}
       <div className="absolute bottom-0 w-full p-2 items-center flex">
         <button className="ml-auto text-gray-400 hover:text-gray-800 px-0.5 py-1">
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24">
