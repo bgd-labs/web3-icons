@@ -1,7 +1,12 @@
 {
-  "name": "Alcor IBC Bridged USDT (WAX)",
+  "name": "Tether",
   "symbol": "usdt",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "USDT",
+    "m.USDT",
+    "USDt",
+    "USDT.e"
+  ],
   "variations": [
     "aToken",
     "stataToken"

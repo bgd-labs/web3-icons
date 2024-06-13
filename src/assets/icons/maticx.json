@@ -1,7 +1,9 @@
 {
-  "name": "Stader MaticX",
+  "name": "Liquid Staking Matic",
   "symbol": "maticx",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "MaticX"
+  ],
   "variations": [
     "aToken",
     "stataToken"

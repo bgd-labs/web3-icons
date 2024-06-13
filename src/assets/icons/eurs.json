@@ -1,7 +1,9 @@
 {
-  "name": "STASIS EURO",
+  "name": "STASIS EURS Token",
   "symbol": "eurs",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "EURS"
+  ],
   "variations": [
     "aToken",
     "stataToken"

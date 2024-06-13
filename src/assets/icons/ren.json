@@ -1,7 +1,9 @@
 {
-  "name": "Ren",
+  "name": "Republic Token",
   "symbol": "ren",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "REN"
+  ],
   "variations": [
     "aToken",
     "stataToken"

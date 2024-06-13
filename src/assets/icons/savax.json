@@ -1,7 +1,9 @@
 {
-  "name": "BENQI Liquid Staked AVAX",
+  "name": "Benqi Staked Avalanche",
   "symbol": "savax",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "sAVAX"
+  ],
   "variations": [
     "aToken",
     "stataToken"

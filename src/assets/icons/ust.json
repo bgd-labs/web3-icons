@@ -1,7 +1,9 @@
 {
-  "name": "TerraUSD (Wormhole)",
+  "name": "TerraUSD",
   "symbol": "ust",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "UST"
+  ],
   "variations": [
     "aToken",
     "stataToken"

@@ -1,7 +1,9 @@
 {
   "name": "Frax",
   "symbol": "frax",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "FRAX"
+  ],
   "variations": [
     "aToken",
     "stataToken"

@@ -1,7 +1,9 @@
 {
-  "name": "gnosissdai",
+  "name": "Savings xDAI",
   "symbol": "gnosissdai",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "sDAI"
+  ],
   "variations": [
     "aToken",
     "stataToken"

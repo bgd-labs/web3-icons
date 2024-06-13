@@ -1,7 +1,7 @@
 {
-  "name": "Wrapped One",
+  "name": "Wrapped Harmony",
   "symbol": "wone",
-  "symbolAliases": [],
+  "symbolAliases": ["WONE"],
   "variations": [
     "aToken",
     "stataToken"

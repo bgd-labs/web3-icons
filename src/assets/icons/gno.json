@@ -1,7 +1,9 @@
 {
-  "name": "Gnosis",
+  "name": "Gnosis Token on xDai",
   "symbol": "gno",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "GNO"
+  ],
   "variations": [
     "aToken",
     "stataToken"

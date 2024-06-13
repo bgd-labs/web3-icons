@@ -1,7 +1,9 @@
 {
   "name": "Fei USD",
   "symbol": "fei",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "FEI"
+  ],
   "variations": [
     "aToken",
     "stataToken"

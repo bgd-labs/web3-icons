@@ -1,7 +1,9 @@
 {
-  "name": "LayerZero Bridged weETH (Linea)",
+  "name": "Wrapped eETH",
   "symbol": "weeth",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "weETH"
+  ],
   "variations": [
     "aToken",
     "stataToken"

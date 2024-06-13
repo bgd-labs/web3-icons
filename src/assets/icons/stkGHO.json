@@ -1,7 +1,7 @@
 {
   "name": "Aave stkGHO",
   "symbol": "stkgho",
-  "symbolAliases": [],
+  "symbolAliases": ["stkGHO"],
   "variations": [
     "aToken",
     "stataToken"

@@ -1,7 +1,10 @@
 {
-  "name": "batcat",
+  "name": "Bitcoin",
   "symbol": "btc",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "BTCB",
+    "BTC.b"
+  ],
   "variations": [
     "aToken",
     "stataToken"

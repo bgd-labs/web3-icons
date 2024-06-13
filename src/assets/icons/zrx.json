@@ -1,7 +1,9 @@
 {
-  "name": "0x Protocol",
+  "name": "0x Coin",
   "symbol": "zrx",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "ZRX"
+  ],
   "variations": [
     "aToken",
     "stataToken"

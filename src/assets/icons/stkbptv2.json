@@ -1,7 +1,7 @@
 {
-  "name": "stkbptv2",
+  "name": "stkbptv2 TODO:",
   "symbol": "stkbptv2",
-  "symbolAliases": [],
+  "symbolAliases": ["stkBPTV2"],
   "variations": [
     "aToken",
     "stataToken"

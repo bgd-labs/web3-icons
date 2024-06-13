@@ -1,7 +1,9 @@
 {
   "name": "Frax Share",
   "symbol": "fxs",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "FXS"
+  ],
   "variations": [
     "aToken",
     "stataToken"

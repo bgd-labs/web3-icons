@@ -1,7 +1,9 @@
 {
-  "name": "UNICORN",
+  "name": "Uniswap",
   "symbol": "uni",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "UNI"
+  ],
   "variations": [
     "aToken",
     "stataToken"

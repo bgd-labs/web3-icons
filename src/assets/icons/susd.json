@@ -1,7 +1,9 @@
 {
-  "name": "sUSD",
+  "name": "Synth sUSD",
   "symbol": "susd",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "sUSD"
+  ],
   "variations": [
     "aToken",
     "stataToken"

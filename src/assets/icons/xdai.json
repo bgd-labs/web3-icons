@@ -1,7 +1,7 @@
 {
   "name": "XDAI",
   "symbol": "xdai",
-  "symbolAliases": [],
+  "symbolAliases": ["XDAI"],
   "variations": [
     "aToken",
     "stataToken"

@@ -1,7 +1,7 @@
 {
   "name": "Augur",
   "symbol": "rep",
-  "symbolAliases": [],
+  "symbolAliases": ["REP"],
   "variations": [
     "aToken",
     "stataToken"

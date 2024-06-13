@@ -1,7 +1,9 @@
 {
-  "name": "Bridged Curve DAO Token (Stargate)",
+  "name": "Curve DAO Token",
   "symbol": "crv",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "CRV"
+  ],
   "variations": [
     "aToken",
     "stataToken"

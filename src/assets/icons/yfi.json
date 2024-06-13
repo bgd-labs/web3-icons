@@ -1,7 +1,9 @@
 {
   "name": "yearn.finance",
   "symbol": "yfi",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "YFI"
+  ],
   "variations": [
     "aToken",
     "stataToken"

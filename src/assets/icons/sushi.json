@@ -1,7 +1,9 @@
 {
-  "name": "Sushi",
+  "name": "SushiToken",
   "symbol": "sushi",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "SUSHI"
+  ],
   "variations": [
     "aToken",
     "stataToken"

@@ -1,7 +1,9 @@
 {
-  "name": "Stargate Finance",
+  "name": "StargateToken",
   "symbol": "stg",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "STG"
+  ],
   "variations": [
     "aToken",
     "stataToken"

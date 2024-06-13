@@ -1,7 +1,9 @@
 {
-  "name": "StakeWise Staked ETH",
+  "name": "Staked ETH",
   "symbol": "oseth",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "osETH"
+  ],
   "variations": [
     "aToken",
     "stataToken"

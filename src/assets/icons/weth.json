@@ -1,7 +1,10 @@
 {
-  "name": "Bridged Wrapped Ether (Fuse)",
+  "name": "Wrapped ETH",
   "symbol": "weth",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "WETH",
+    "WETH.e"
+  ],
   "variations": [
     "aToken",
     "stataToken"

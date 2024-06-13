@@ -1,7 +1,9 @@
 {
-  "name": "Synthetix Network",
+  "name": "Synthetix Network Token",
   "symbol": "snx",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "SNX"
+  ],
   "variations": [
     "aToken",
     "stataToken"

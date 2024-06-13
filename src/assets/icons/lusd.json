@@ -1,7 +1,9 @@
 {
-  "name": "Liquity USD",
+  "name": "LUSD Stablecoin",
   "symbol": "lusd",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "LUSD"
+  ],
   "variations": [
     "aToken",
     "stataToken"
