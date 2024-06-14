@@ -418,6 +418,8 @@ export { default as IconAuniMono } from "./IconAuniMono";
 export { default as IconAuniFull } from "./IconAuniFull";
 export { default as IconStatauniMono } from "./IconStatauniMono";
 export { default as IconStatauniFull } from "./IconStatauniFull";
+export { default as IconUnknownMono } from "./IconUnknownMono";
+export { default as IconUnknownFull } from "./IconUnknownFull";
 export { default as IconUsdbcMono } from "./IconUsdbcMono";
 export { default as IconUsdbcFull } from "./IconUsdbcFull";
 export { default as IconAusdbcMono } from "./IconAusdbcMono";

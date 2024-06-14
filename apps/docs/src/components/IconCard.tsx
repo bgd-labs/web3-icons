@@ -19,7 +19,11 @@ export const IconCard = ({
           {symbol}
         </div>
       </div>
-      {children}
+
+      <div className="size-11">
+        {children}
+      </div>
+
       <div className="absolute bottom-0 w-full p-2 items-center flex">
         <button className="ml-auto text-gray-400 hover:text-gray-800 px-0.5 py-1">
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24">

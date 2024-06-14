@@ -1430,7 +1430,7 @@
     }
   },
   {
-    "name": "stkbptv2 TODO:",
+    "name": "stkbptv2",
     "symbol": "stkbptv2",
     "symbolAliases": [
       "stkBPTV2"
@@ -1611,6 +1611,16 @@
         "mono": "icons/mono/statauni.svg",
         "full": "icons/full/statauni.svg"
       }
+    }
+  },
+  {
+    "name": "Unknown",
+    "symbol": "unknown",
+    "symbolAliases": [],
+    "variations": [],
+    "icons": {
+      "mono": "icons/mono/unknown.svg",
+      "full": "icons/full/unknown.svg"
     }
   },
   {
