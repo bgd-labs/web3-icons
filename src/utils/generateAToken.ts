@@ -4,14 +4,14 @@ import path from "path";
 const templatesDir = path.join(process.cwd(), "src/assets/templates");
 const unknownIcon = fs.readFileSync(
   path.join(templatesDir, "unknown.svg"),
-  "utf8"
+  "utf8",
 );
 
 export const generateAToken = (icon: string, type: string) => {
   if (type === "mono") {
     const template = fs.readFileSync(
       path.join(templatesDir, "aToken/mono.svg"),
-      "utf8"
+      "utf8",
     );
 
     const svgContentsMatch = icon.match(/<svg[^>]*>([\s\S]*?)<\/svg>/i);
@@ -26,7 +26,7 @@ export const generateAToken = (icon: string, type: string) => {
   if (type === "full") {
     const template = fs.readFileSync(
       path.join(templatesDir, "aToken/full.svg"),
-      "utf8"
+      "utf8",
     );
 
     const svgContentsMatch = icon.match(/<svg[^>]*>([\s\S]*?)<\/svg>/i);

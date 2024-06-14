@@ -1,7 +1,8 @@
 import fs from "fs";
 import path from "path";
-import { z } from "zod";
 import { optimize } from "svgo";
+import { z } from "zod";
+
 import { generateAToken, generateStataToken } from "../utils";
 
 const ICONS_FOLDER = "src/assets/icons";
@@ -24,7 +25,7 @@ interface WriteQueueItem {
 // ----------------------------------------
 // Helper functions
 // ----------------------------------------
-const getPrefix = (fileName: string) => fileName.split(/[_\.]/)[0];
+const getPrefix = (fileName: string) => fileName.split(/[_.]/)[0];
 
 const readJsonFile = (filePath: string) => {
   const content = fs.readFileSync(filePath, { encoding: "utf8" });
@@ -74,15 +75,44 @@ const files = fs
   .readdirSync(ICONS_FOLDER)
   .filter((file) => file.endsWith(".svg") || file.endsWith(".json"));
 
-const groupedFiles = {};
-const uniquePrefixes = new Set(files.map(getPrefix));
+type IconMetaData = {
+  symbol?: string;
+  name?: string;
+  symbolAliases?: string[];
+  variations?: string[];
+};
 
+type IconType = {
+  mono: string;
+  full: string;
+};
+
+type IconWithMetaType = IconType & {
+  meta: IconMetaData;
+};
+
+type IconInfoIcons = IconType & {
+  aToken?: IconType;
+  stataToken?: IconType;
+};
+
+type IconInfo = {
+  icons: IconInfoIcons;
+  symbol?: string;
+  name?: string;
+  symbolAliases?: string[];
+  variations?: string[];
+};
+
+const groupedFiles: Record<string, IconWithMetaType> = {};
+
+const uniquePrefixes = new Set(files.map(getPrefix));
 uniquePrefixes.forEach((prefix) => {
   const jsonFilePath = path.join(ICONS_FOLDER, `${prefix}.json`);
 
   if (!fs.existsSync(jsonFilePath)) {
     console.error(
-      `🟡 Warn: The metadata file ${prefix}.json is missing. Please ensure the file exists to generate icons correctly.`
+      `🟡 Warn: The metadata file ${prefix}.json is missing. Please ensure the file exists to generate icons correctly.`,
     );
     return;
   }
@@ -100,8 +130,7 @@ const iconsArray = Object.keys(groupedFiles).map((key) => ({
   ...groupedFiles[key],
 }));
 
-// TODO: add types
-const iconsInfoFile: any[] = [];
+const iconsInfoFile: IconInfo[] = [];
 
 for (const icon of iconsArray) {
   const { meta, mono, full } = icon;
@@ -109,12 +138,12 @@ for (const icon of iconsArray) {
 
   const iconInfo = {
     ...meta,
-    icons: {},
+    icons: {} as IconInfoIcons,
   };
 
   if (!mono || !full) {
     console.error(
-      `🟡 Warn: The icon ${name} is missing either mono or full version and was not added.`
+      `🟡 Warn: The icon ${name} is missing either mono or full version and was not added.`,
     );
     continue;
   }
@@ -129,7 +158,7 @@ for (const icon of iconsArray) {
   const monoFilePath = path.join(
     OUTPUT_FOLDER,
     "mono",
-    `${meta.symbol.toLowerCase()}.svg`
+    `${meta.symbol.toLowerCase()}.svg`,
   );
   iconInfo.icons.mono = monoFilePath;
 
@@ -145,7 +174,7 @@ for (const icon of iconsArray) {
   const fullFilePath = path.join(
     OUTPUT_FOLDER,
     "full",
-    `${meta.symbol.toLowerCase()}.svg`
+    `${meta.symbol.toLowerCase()}.svg`,
   );
   iconInfo.icons.full = fullFilePath;
 
@@ -161,12 +190,12 @@ for (const icon of iconsArray) {
     const aTokenMonoFilePath = path.join(
       OUTPUT_FOLDER,
       "mono",
-      `a${meta.symbol.toLowerCase()}.svg`
+      `a${meta.symbol.toLowerCase()}.svg`,
     );
     const aTokenFullFilePath = path.join(
       OUTPUT_FOLDER,
       "full",
-      `a${meta.symbol.toLowerCase()}.svg`
+      `a${meta.symbol.toLowerCase()}.svg`,
     );
     iconInfo.icons.aToken = {
       mono: aTokenMonoFilePath,
@@ -181,7 +210,7 @@ for (const icon of iconsArray) {
       {
         filePath: aTokenFullFilePath,
         content: aTokenFull,
-      }
+      },
     );
   }
 
@@ -192,12 +221,12 @@ for (const icon of iconsArray) {
     const stataTokenMonoFilePath = path.join(
       OUTPUT_FOLDER,
       "mono",
-      `stata${meta.symbol.toLowerCase()}.svg`
+      `stata${meta.symbol.toLowerCase()}.svg`,
     );
     const stataTokenFullFilePath = path.join(
       OUTPUT_FOLDER,
       "full",
-      `stata${meta.symbol.toLowerCase()}.svg`
+      `stata${meta.symbol.toLowerCase()}.svg`,
     );
 
     iconInfo.icons.stataToken = {
@@ -213,7 +242,7 @@ for (const icon of iconsArray) {
       {
         filePath: stataTokenFullFilePath,
         content: stataTokenFull,
-      }
+      },
     );
   }
 
