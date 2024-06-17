@@ -1,15 +1,30 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const IconWxdaiFull = (props: SVGProps<SVGSVGElement>) => (
+import type { SVGProps } from "react"
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+  desc?: string;
+  descId?: string;
+}
+const IconWxdaiFull = ({
+  title,
+  titleId,
+  desc,
+  descId,
+  ...props
+}: SVGProps<SVGSVGElement> & SVGRProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="32px"
-    height="32px"
+    width="100%"
+    height="100%"
     fill="none"
     viewBox="0 0 32 32"
+    aria-labelledby={titleId}
+    aria-describedby={descId}
     {...props}
   >
-    <g clipPath="url(#a)">
+    {desc ? <desc id={descId}>{desc}</desc> : null}
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath="url(#clip0_297_211)">
       <path
         fill="#12326C"
         d="M27.28 0H4.72A4.72 4.72 0 0 0 0 4.72v22.56A4.72 4.72 0 0 0 4.72 32h22.56A4.72 4.72 0 0 0 32 27.28V4.72A4.72 4.72 0 0 0 27.28 0"
@@ -28,10 +43,10 @@ const IconWxdaiFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="a">
+      <clipPath id="clip0_297_211">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>
   </svg>
-);
-export default IconWxdaiFull;
+)
+export default IconWxdaiFull

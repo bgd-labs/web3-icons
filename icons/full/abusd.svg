@@ -1,7 +1,7 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
   <circle cx="16" cy="16" r="15" stroke="url(#paint0_linear_40_91)" stroke-width="2" />
   <g clip-path="url(#circleClip)">
-    <g style="transform: scale(0.8125); transform-origin: 50% 50%;"><g clip-path="url(#a)"><path fill="#fff" d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"/><path fill="#F0B90B" d="m16 3.25 3.18 3.18-7.98 7.98-3.18-3.18zM8.03 20.78l3.18 3.18 12.75-12.75-3.18-3.18zm4.78 4.78 3.18 3.19L28.74 16l-3.18-3.18zM9.61 16l-3.18-3.18L3.25 16l3.18 3.18z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h32v32H0z"/></clipPath></defs></g>
+    <g style="transform: scale(0.8125); transform-origin: 50% 50%;"><g clip-path="url(#clip0_292_114)"><path fill="#fff" d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"/><path fill="#F0B90B" d="m16 3.25 3.18 3.18-7.98 7.98-3.18-3.18zM8.03 20.78l3.18 3.18 12.75-12.75-3.18-3.18zm4.78 4.78 3.18 3.19L28.74 16l-3.18-3.18zM9.61 16l-3.18-3.18L3.25 16l3.18 3.18z"/></g><defs><clipPath id="clip0_292_114"><path fill="#fff" d="M0 0h32v32H0z"/></clipPath></defs></g>
   </g>
   <defs>
     <clipPath id="circleClip">

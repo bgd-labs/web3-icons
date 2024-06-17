@@ -1,14 +1,29 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const IconStatagnoFull = (props: SVGProps<SVGSVGElement>) => (
+import type { SVGProps } from "react"
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+  desc?: string;
+  descId?: string;
+}
+const IconStatagnoFull = ({
+  title,
+  titleId,
+  desc,
+  descId,
+  ...props
+}: SVGProps<SVGSVGElement> & SVGRProps) => (
   <svg
-    width="32px"
-    height="32px"
+    width="100%"
+    height="100%"
     viewBox="0 0 32 32"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    aria-labelledby={titleId}
+    aria-describedby={descId}
     {...props}
   >
+    {desc ? <desc id={descId}>{desc}</desc> : null}
+    {title ? <title id={titleId}>{title}</title> : null}
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -22,7 +37,7 @@ const IconStatagnoFull = (props: SVGProps<SVGSVGElement>) => (
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#a)">
+        <g clipPath="url(#clip0_294_317)">
           <path
             fill="#fff"
             d="M15.99 30.87c8.146 0 14.75-6.604 14.75-14.75S24.136 1.37 15.99 1.37 1.24 7.974 1.24 16.12s6.604 14.75 14.75 14.75"
@@ -35,7 +50,7 @@ const IconStatagnoFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="a">
+          <clipPath id="clip0_294_317">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -58,5 +73,5 @@ const IconStatagnoFull = (props: SVGProps<SVGSVGElement>) => (
       </linearGradient>
     </defs>
   </svg>
-);
-export default IconStatagnoFull;
+)
+export default IconStatagnoFull

@@ -1,14 +1,29 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const IconAwmaticFull = (props: SVGProps<SVGSVGElement>) => (
+import type { SVGProps } from "react"
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+  desc?: string;
+  descId?: string;
+}
+const IconAwmaticFull = ({
+  title,
+  titleId,
+  desc,
+  descId,
+  ...props
+}: SVGProps<SVGSVGElement> & SVGRProps) => (
   <svg
-    width="32px"
-    height="32px"
+    width="100%"
+    height="100%"
     viewBox="0 0 32 32"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    aria-labelledby={titleId}
+    aria-describedby={descId}
     {...props}
   >
+    {desc ? <desc id={descId}>{desc}</desc> : null}
+    {title ? <title id={titleId}>{title}</title> : null}
     <circle
       cx={16}
       cy={16}
@@ -23,19 +38,19 @@ const IconAwmaticFull = (props: SVGProps<SVGSVGElement>) => (
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#a)">
+        <g clipPath="url(#clip0_297_199)">
           <path
             fill="#fff"
             d="M16 32c8.84 0 16-7.16 16-16S24.84 0 16 0 0 7.16 0 16s7.16 16 16 16"
           />
           <path
-            fill="url(#b)"
+            fill="url(#paint0_linear_297_199)"
             d="m21.44 20.06 5.32-3.07c.28-.16.46-.46.46-.79v-6.14c0-.32-.17-.63-.46-.79L21.44 6.2a.92.92 0 0 0-.91 0l-5.32 3.07c-.28.16-.46.46-.46.79v10.97l-3.73 2.15-3.73-2.15v-4.3l3.73-2.15L13.48 16v-2.89l-2-1.16a.92.92 0 0 0-.91 0l-5.32 3.07c-.28.16-.46.46-.46.79v6.14c0 .32.17.63.46.79l5.32 3.07c.28.16.63.16.91 0l5.32-3.07c.28-.16.46-.46.46-.79V10.98l.07-.04 3.66-2.11 3.73 2.15v4.3l-3.73 2.15-2.46-1.42v2.89l2 1.15c.28.16.63.16.91 0z"
           />
         </g>
         <defs>
           <linearGradient
-            id="b"
+            id="paint0_linear_297_199"
             x1={6.7}
             x2={25.96}
             y1={22.78}
@@ -46,7 +61,7 @@ const IconAwmaticFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={0.88} stopColor="#773FD6" />
             <stop offset={1} stopColor="#7342DB" />
           </linearGradient>
-          <clipPath id="a">
+          <clipPath id="clip0_297_199">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -69,5 +84,5 @@ const IconAwmaticFull = (props: SVGProps<SVGSVGElement>) => (
       </linearGradient>
     </defs>
   </svg>
-);
-export default IconAwmaticFull;
+)
+export default IconAwmaticFull

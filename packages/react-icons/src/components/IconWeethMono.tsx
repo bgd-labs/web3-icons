@@ -1,15 +1,30 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const IconWeethMono = (props: SVGProps<SVGSVGElement>) => (
+import type { SVGProps } from "react"
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+  desc?: string;
+  descId?: string;
+}
+const IconWeethMono = ({
+  title,
+  titleId,
+  desc,
+  descId,
+  ...props
+}: SVGProps<SVGSVGElement> & SVGRProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="32px"
-    height="32px"
+    width="100%"
+    height="100%"
     fill="none"
     viewBox="0 0 32 32"
+    aria-labelledby={titleId}
+    aria-describedby={descId}
     {...props}
   >
-    <g fill="currentColor" clipPath="url(#a)">
+    {desc ? <desc id={descId}>{desc}</desc> : null}
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g fill="currentColor" clipPath="url(#clip0_298_798)">
       <path d="M15.09 4.92 9.21 8.53l2.68 1.61zM11.56 10.67 8.92 9.08v5.9zM8.92 18.71v4.22l2.13-1.29zM22.77 8.47l-5.93-3.62 3.23 5.25zM15.99 19.63l6.87-3.78-6.87-11.21-6.88 11.21zM23.06 14.98V9.02l-2.67 1.61zM9.21 23.49l5.75 3.53-3.54-4.87c-.59.36-2.22 1.34-2.22 1.34z" />
       <path d="M16.14 22.3a.29.29 0 0 1-.31 0l-6.11-3.54 6.26 8.62 6.21-8.59zM20.93 21.6l2.13 1.28v-4.23z" />
       <path d="M16 0C7.16 0 0 7.17 0 16s7.16 16 16 16 16-7.16 16-16S24.84 0 16 0m0 31.14C7.65 31.14.86 24.35.86 16.01S7.65.88 16 .88s15.13 6.79 15.13 15.13S24.34 31.14 16 31.14" />
@@ -17,10 +32,10 @@ const IconWeethMono = (props: SVGProps<SVGSVGElement>) => (
       <path d="m17.06 26.96 5.71-3.53-2.2-1.33z" />
     </g>
     <defs>
-      <clipPath id="a">
+      <clipPath id="clip0_298_798">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>
   </svg>
-);
-export default IconWeethMono;
+)
+export default IconWeethMono

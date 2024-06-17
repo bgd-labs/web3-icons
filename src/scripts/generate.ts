@@ -55,6 +55,8 @@ const processIconFile = (filePath: string) => {
             params: {
               overrides: {
                 removeViewBox: false,
+                cleanupIds: false,
+                collapseGroups: false,
               },
             },
           },

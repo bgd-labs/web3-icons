@@ -1,15 +1,30 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const IconLusdFull = (props: SVGProps<SVGSVGElement>) => (
+import type { SVGProps } from "react"
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+  desc?: string;
+  descId?: string;
+}
+const IconLusdFull = ({
+  title,
+  titleId,
+  desc,
+  descId,
+  ...props
+}: SVGProps<SVGSVGElement> & SVGRProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="32px"
-    height="32px"
+    width="100%"
+    height="100%"
     fill="none"
     viewBox="0 0 32 32"
+    aria-labelledby={titleId}
+    aria-describedby={descId}
     {...props}
   >
-    <g clipPath="url(#a)">
+    {desc ? <desc id={descId}>{desc}</desc> : null}
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath="url(#clip0_297_185)">
       <path
         fill="#705ED6"
         d="M31.368 20.52a15.98 15.98 0 0 1-12.517 11.294v-4.56a7.5 7.5 0 0 0 3.962-3.487c.57-1.082.87-2.295.86-3.528 0-4.029-2.911-5.642-5.633-6.844l-1.38-.612c-1.481-.661-2.602-1.252-2.602-2.265 0-1.393 1.22-2.144 2.361-2.144 1.221 0 1.912.45 2.642 1.723l.57.982 3.652-2.345-.48-.881a7.12 7.12 0 0 0-3.952-3.408V.276c.35.06.7.14 1.06.23.03 0 .07.02.11.02s.08.02.12.03h.03c.1.021.19.051.29.081C28.948 3.112 33.83 12.012 31.359 20.51z"
@@ -24,10 +39,10 @@ const IconLusdFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="a">
+      <clipPath id="clip0_297_185">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>
   </svg>
-);
-export default IconLusdFull;
+)
+export default IconLusdFull

@@ -1,15 +1,30 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const IconCbethFull = (props: SVGProps<SVGSVGElement>) => (
+import type { SVGProps } from "react"
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+  desc?: string;
+  descId?: string;
+}
+const IconCbethFull = ({
+  title,
+  titleId,
+  desc,
+  descId,
+  ...props
+}: SVGProps<SVGSVGElement> & SVGRProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="32px"
-    height="32px"
+    width="100%"
+    height="100%"
     fill="none"
     viewBox="0 0 32 32"
+    aria-labelledby={titleId}
+    aria-describedby={descId}
     {...props}
   >
-    <g clipPath="url(#a)">
+    {desc ? <desc id={descId}>{desc}</desc> : null}
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath="url(#clip0_292_184)">
       <path
         fill="#fff"
         d="M31.78 16.11C31.78 7.33 24.67.22 15.89.22S0 7.33 0 16.11 7.11 32 15.89 32s15.89-7.11 15.89-15.89"
@@ -28,10 +43,10 @@ const IconCbethFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="a">
+      <clipPath id="clip0_292_184">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>
   </svg>
-);
-export default IconCbethFull;
+)
+export default IconCbethFull

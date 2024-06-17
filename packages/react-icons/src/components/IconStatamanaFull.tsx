@@ -1,14 +1,29 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const IconStatamanaFull = (props: SVGProps<SVGSVGElement>) => (
+import type { SVGProps } from "react"
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+  desc?: string;
+  descId?: string;
+}
+const IconStatamanaFull = ({
+  title,
+  titleId,
+  desc,
+  descId,
+  ...props
+}: SVGProps<SVGSVGElement> & SVGRProps) => (
   <svg
-    width="32px"
-    height="32px"
+    width="100%"
+    height="100%"
     viewBox="0 0 32 32"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    aria-labelledby={titleId}
+    aria-describedby={descId}
     {...props}
   >
+    {desc ? <desc id={descId}>{desc}</desc> : null}
+    {title ? <title id={titleId}>{title}</title> : null}
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -22,13 +37,13 @@ const IconStatamanaFull = (props: SVGProps<SVGSVGElement>) => (
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#a)">
+        <g clipPath="url(#clip0_297_229)">
           <path
-            fill="url(#b)"
+            fill="url(#paint0_linear_297_229)"
             d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
           />
           <path
-            fill="url(#c)"
+            fill="url(#paint1_linear_297_229)"
             fillRule="evenodd"
             d="M11.32 10.4v11.99h9.99z"
             clipRule="evenodd"
@@ -52,7 +67,7 @@ const IconStatamanaFull = (props: SVGProps<SVGSVGElement>) => (
             clipRule="evenodd"
           />
           <path
-            fill="url(#d)"
+            fill="url(#paint2_linear_297_229)"
             fillRule="evenodd"
             d="M21.44 16.79v8.79h7.33z"
             clipRule="evenodd"
@@ -76,7 +91,7 @@ const IconStatamanaFull = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
           <linearGradient
-            id="b"
+            id="paint0_linear_297_229"
             x1={26.92}
             x2={3.88}
             y1={5.07}
@@ -87,7 +102,7 @@ const IconStatamanaFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#F4BE6C" />
           </linearGradient>
           <linearGradient
-            id="c"
+            id="paint1_linear_297_229"
             x1={15.936}
             x2={15.936}
             y1={1.936}
@@ -98,7 +113,7 @@ const IconStatamanaFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#EA445A" />
           </linearGradient>
           <linearGradient
-            id="d"
+            id="paint2_linear_297_229"
             x1={15.198}
             x2={15.198}
             y1={-2.891}
@@ -108,7 +123,7 @@ const IconStatamanaFull = (props: SVGProps<SVGSVGElement>) => (
             <stop stopColor="#9730AC" />
             <stop offset={1} stopColor="#EA445A" />
           </linearGradient>
-          <clipPath id="a">
+          <clipPath id="clip0_297_229">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -131,5 +146,5 @@ const IconStatamanaFull = (props: SVGProps<SVGSVGElement>) => (
       </linearGradient>
     </defs>
   </svg>
-);
-export default IconStatamanaFull;
+)
+export default IconStatamanaFull

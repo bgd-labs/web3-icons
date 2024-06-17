@@ -1,14 +1,29 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const IconStatacvxFull = (props: SVGProps<SVGSVGElement>) => (
+import type { SVGProps } from "react"
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+  desc?: string;
+  descId?: string;
+}
+const IconStatacvxFull = ({
+  title,
+  titleId,
+  desc,
+  descId,
+  ...props
+}: SVGProps<SVGSVGElement> & SVGRProps) => (
   <svg
-    width="32px"
-    height="32px"
+    width="100%"
+    height="100%"
     viewBox="0 0 32 32"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    aria-labelledby={titleId}
+    aria-describedby={descId}
     {...props}
   >
+    {desc ? <desc id={descId}>{desc}</desc> : null}
+    {title ? <title id={titleId}>{title}</title> : null}
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -22,13 +37,13 @@ const IconStatacvxFull = (props: SVGProps<SVGSVGElement>) => (
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#a)">
+        <g clipPath="url(#clip0_294_266)">
           <path
             fill="#fff"
             d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
           />
           <path
-            fill="url(#b)"
+            fill="url(#paint0_linear_294_266)"
             d="M25.19 13.5v-5h-2.5V6h-5V3.5h-5V6h-5v2.5h-2.5v15h2.5V26h5v2.5h5V26h5v-2.5h2.5v-5h-5V21h-2.5v2.5h-5V21h-2.5V11h2.5V8.5h5V11h2.5v2.5z"
           />
           <path
@@ -51,7 +66,7 @@ const IconStatacvxFull = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
           <linearGradient
-            id="b"
+            id="paint0_linear_294_266"
             x1={24.031}
             x2={10.449}
             y1={6.358}
@@ -63,7 +78,7 @@ const IconStatacvxFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={0.7} stopColor="#FCA75B" />
             <stop offset={1} stopColor="#FF5A5A" />
           </linearGradient>
-          <clipPath id="a">
+          <clipPath id="clip0_294_266">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -86,5 +101,5 @@ const IconStatacvxFull = (props: SVGProps<SVGSVGElement>) => (
       </linearGradient>
     </defs>
   </svg>
-);
-export default IconStatacvxFull;
+)
+export default IconStatacvxFull

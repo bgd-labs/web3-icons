@@ -1,21 +1,36 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const IconMaiFull = (props: SVGProps<SVGSVGElement>) => (
+import type { SVGProps } from "react"
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+  desc?: string;
+  descId?: string;
+}
+const IconMaiFull = ({
+  title,
+  titleId,
+  desc,
+  descId,
+  ...props
+}: SVGProps<SVGSVGElement> & SVGRProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="32px"
-    height="32px"
+    width="100%"
+    height="100%"
     fill="none"
     viewBox="0 0 32 32"
+    aria-labelledby={titleId}
+    aria-describedby={descId}
     {...props}
   >
-    <g clipPath="url(#a)">
+    {desc ? <desc id={descId}>{desc}</desc> : null}
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath="url(#clip0_298_258)">
       <path
-        fill="url(#b)"
+        fill="url(#paint0_linear_298_258)"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
       />
       <path
-        stroke="url(#c)"
+        stroke="url(#paint1_linear_298_258)"
         strokeMiterlimit={5.12}
         strokeWidth={0.75}
         d="M16 28.81c7.075 0 12.81-5.735 12.81-12.81S23.075 3.19 16 3.19 3.19 8.925 3.19 16 8.925 28.81 16 28.81Z"
@@ -27,7 +42,7 @@ const IconMaiFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="b"
+        id="paint0_linear_298_258"
         x1={16.002}
         x2={16.002}
         y1={0.004}
@@ -40,7 +55,7 @@ const IconMaiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#EB676A" />
       </linearGradient>
       <linearGradient
-        id="c"
+        id="paint1_linear_298_258"
         x1={16.002}
         x2={16.002}
         y1={2.756}
@@ -50,10 +65,10 @@ const IconMaiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#D03B38" />
         <stop offset={1} stopColor="#EE8E90" />
       </linearGradient>
-      <clipPath id="a">
+      <clipPath id="clip0_298_258">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>
   </svg>
-);
-export default IconMaiFull;
+)
+export default IconMaiFull

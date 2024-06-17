@@ -1,14 +1,29 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const IconAwbtcFull = (props: SVGProps<SVGSVGElement>) => (
+import type { SVGProps } from "react"
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+  desc?: string;
+  descId?: string;
+}
+const IconAwbtcFull = ({
+  title,
+  titleId,
+  desc,
+  descId,
+  ...props
+}: SVGProps<SVGSVGElement> & SVGRProps) => (
   <svg
-    width="32px"
-    height="32px"
+    width="100%"
+    height="100%"
     viewBox="0 0 32 32"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    aria-labelledby={titleId}
+    aria-describedby={descId}
     {...props}
   >
+    {desc ? <desc id={descId}>{desc}</desc> : null}
+    {title ? <title id={titleId}>{title}</title> : null}
     <circle
       cx={16}
       cy={16}
@@ -23,7 +38,7 @@ const IconAwbtcFull = (props: SVGProps<SVGSVGElement>) => (
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#a)">
+        <g clipPath="url(#clip0_298_911)">
           <path
             fill="#595563"
             d="m26.09 6.72-.88.88c4.35 4.75 4.35 12.03 0 16.79l.88.88a13.69 13.69 0 0 0 0-18.57zM7.62 6.79c4.75-4.35 12.03-4.35 16.79 0l.88-.88a13.69 13.69 0 0 0-18.57 0zM6.79 24.39a12.44 12.44 0 0 1 0-16.78l-.88-.88a13.69 13.69 0 0 0 0 18.57zM24.39 25.2c-4.75 4.35-12.03 4.35-16.79 0l-.88.88a13.69 13.69 0 0 0 18.57 0z"
@@ -38,7 +53,7 @@ const IconAwbtcFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="a">
+          <clipPath id="clip0_298_911">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -61,5 +76,5 @@ const IconAwbtcFull = (props: SVGProps<SVGSVGElement>) => (
       </linearGradient>
     </defs>
   </svg>
-);
-export default IconAwbtcFull;
+)
+export default IconAwbtcFull

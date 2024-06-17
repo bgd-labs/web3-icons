@@ -1,17 +1,32 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const IconEnsFull = (props: SVGProps<SVGSVGElement>) => (
+import type { SVGProps } from "react"
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+  desc?: string;
+  descId?: string;
+}
+const IconEnsFull = ({
+  title,
+  titleId,
+  desc,
+  descId,
+  ...props
+}: SVGProps<SVGSVGElement> & SVGRProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="32px"
-    height="32px"
+    width="100%"
+    height="100%"
     fill="none"
     viewBox="0 0 32 32"
+    aria-labelledby={titleId}
+    aria-describedby={descId}
     {...props}
   >
-    <g clipPath="url(#a)">
+    {desc ? <desc id={descId}>{desc}</desc> : null}
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath="url(#clip0_294_308)">
       <path
-        fill="url(#b)"
+        fill="url(#paint0_linear_294_308)"
         d="M16 0c8.84 0 16 7.16 16 16s-7.16 16-16 16S0 24.84 0 16 7.16 0 16 0"
       />
       <path
@@ -21,7 +36,7 @@ const IconEnsFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="b"
+        id="paint0_linear_294_308"
         x1={25.787}
         x2={-5.306}
         y1={33.249}
@@ -32,10 +47,10 @@ const IconEnsFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.38} stopColor="#7298F8" />
         <stop offset={1} stopColor="#A099FF" />
       </linearGradient>
-      <clipPath id="a">
+      <clipPath id="clip0_294_308">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>
   </svg>
-);
-export default IconEnsFull;
+)
+export default IconEnsFull

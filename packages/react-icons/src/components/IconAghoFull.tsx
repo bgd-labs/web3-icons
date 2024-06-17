@@ -1,14 +1,29 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const IconAghoFull = (props: SVGProps<SVGSVGElement>) => (
+import type { SVGProps } from "react"
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+  desc?: string;
+  descId?: string;
+}
+const IconAghoFull = ({
+  title,
+  titleId,
+  desc,
+  descId,
+  ...props
+}: SVGProps<SVGSVGElement> & SVGRProps) => (
   <svg
-    width="32px"
-    height="32px"
+    width="100%"
+    height="100%"
     viewBox="0 0 32 32"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    aria-labelledby={titleId}
+    aria-describedby={descId}
     {...props}
   >
+    {desc ? <desc id={descId}>{desc}</desc> : null}
+    {title ? <title id={titleId}>{title}</title> : null}
     <circle
       cx={16}
       cy={16}
@@ -23,9 +38,9 @@ const IconAghoFull = (props: SVGProps<SVGSVGElement>) => (
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#a)">
+        <g clipPath="url(#clip0_292_229)">
           <path
-            fill="url(#b)"
+            fill="url(#paint0_linear_292_229)"
             d="M16 0c8.84 0 16 7.16 16 16s-7.16 16-16 16S0 24.84 0 16 7.16 0 16 0"
           />
           <path
@@ -43,7 +58,7 @@ const IconAghoFull = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
           <linearGradient
-            id="b"
+            id="paint0_linear_292_229"
             x1={15.99}
             x2={15.99}
             y1={0}
@@ -54,7 +69,7 @@ const IconAghoFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={0.53} stopColor="#8C8ADA" />
             <stop offset={1} stopColor="#6D69DE" />
           </linearGradient>
-          <clipPath id="a">
+          <clipPath id="clip0_292_229">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -77,5 +92,5 @@ const IconAghoFull = (props: SVGProps<SVGSVGElement>) => (
       </linearGradient>
     </defs>
   </svg>
-);
-export default IconAghoFull;
+)
+export default IconAghoFull
