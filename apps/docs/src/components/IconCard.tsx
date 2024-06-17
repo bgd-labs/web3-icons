@@ -12,7 +12,7 @@ export const IconCard = ({
   // TODO: implement copy to clipboard
 
   return (
-    <div className="border border-gray-200 aspect-square flex items-center justify-center relative">
+    <div className="border border-gray-200 aspect-square flex items-center justify-center relative min-w-[170px]">
       <div className="absolute top-0 left-0 p-4">
         <div className="font-semibold text-sm text-gray-800">{name}</div>
         <div className="text-xs font-mono text-gray-400 uppercase">

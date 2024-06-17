@@ -763,6 +763,29 @@
     }
   },
   {
+    "name": "Gelato Uniswap",
+    "symbol": "guni",
+    "symbolAliases": [
+      "G-UNI"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/guni.svg",
+      "full": "icons/full/guni.svg",
+      "aToken": {
+        "mono": "icons/mono/aguni.svg",
+        "full": "icons/full/aguni.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/stataguni.svg",
+        "full": "icons/full/stataguni.svg"
+      }
+    }
+  },
+  {
     "name": "Gemini Dollar",
     "symbol": "gusd",
     "symbolAliases": [
@@ -828,6 +851,29 @@
       "stataToken": {
         "mono": "icons/mono/stataknc.svg",
         "full": "icons/full/stataknc.svg"
+      }
+    }
+  },
+  {
+    "name": "Kyber Legacy",
+    "symbol": "kncl",
+    "symbolAliases": [
+      "KNC"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/kncl.svg",
+      "full": "icons/full/kncl.svg",
+      "aToken": {
+        "mono": "icons/mono/akncl.svg",
+        "full": "icons/full/akncl.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statakncl.svg",
+        "full": "icons/full/statakncl.svg"
       }
     }
   },
@@ -1242,6 +1288,52 @@
       "stataToken": {
         "mono": "icons/mono/statarep.svg",
         "full": "icons/full/statarep.svg"
+      }
+    }
+  },
+  {
+    "name": "Rocket Pool ETH",
+    "symbol": "reth",
+    "symbolAliases": [
+      "rETH"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/reth.svg",
+      "full": "icons/full/reth.svg",
+      "aToken": {
+        "mono": "icons/mono/areth.svg",
+        "full": "icons/full/areth.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statareth.svg",
+        "full": "icons/full/statareth.svg"
+      }
+    }
+  },
+  {
+    "name": "Rocket Pool Protocol",
+    "symbol": "rpl",
+    "symbolAliases": [
+      "RPL"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/rpl.svg",
+      "full": "icons/full/rpl.svg",
+      "aToken": {
+        "mono": "icons/mono/arpl.svg",
+        "full": "icons/full/arpl.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statarpl.svg",
+        "full": "icons/full/statarpl.svg"
       }
     }
   },
@@ -1763,6 +1855,29 @@
       "stataToken": {
         "mono": "icons/mono/stataust.svg",
         "full": "icons/full/stataust.svg"
+      }
+    }
+  },
+  {
+    "name": "Wrapped Avalanche",
+    "symbol": "wavax",
+    "symbolAliases": [
+      "WAVAX"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/wavax.svg",
+      "full": "icons/full/wavax.svg",
+      "aToken": {
+        "mono": "icons/mono/awavax.svg",
+        "full": "icons/full/awavax.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statawavax.svg",
+        "full": "icons/full/statawavax.svg"
       }
     }
   },

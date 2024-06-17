@@ -1,0 +1,11 @@
+{
+  "name": "Rocket Pool Protocol",
+  "symbol": "rpl",
+  "symbolAliases": [
+    "RPL"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
