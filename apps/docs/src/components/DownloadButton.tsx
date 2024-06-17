@@ -32,7 +32,7 @@ export const DownloadButton = ({
 
   return (
     <button
-      className="ml-auto px-0.5 py-1 text-gray-400 hover:text-gray-800"
+      className="ml-auto p-1 text-gray-400 hover:text-gray-800"
       type="button"
       onClick={downloadSVG}
     >
