@@ -3,7 +3,7 @@ import fs from "fs";
 
 import assets from "../../icons/icons.json";
 
-const REACT_COMPONENTS_PATH = "packages/react-icons/src/components";
+const REACT_COMPONENTS_PATH = "packages/react-web3-icons/src/components";
 
 interface QueueItem {
   filePath: string;

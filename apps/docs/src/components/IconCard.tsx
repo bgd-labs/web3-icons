@@ -1,5 +1,6 @@
 "use client";
 
+import { AssetIcon, TokenTag } from "@bgd-labs/react-web3-icons";
 import { useState } from "react";
 import { renderToString } from "react-dom/server";
 
@@ -7,14 +8,15 @@ import { CopyToClipboard } from "@/components/CopyToClipboard";
 import { DownloadButton } from "@/components/DownloadButton";
 import { cn } from "@/utils/cn";
 
-import { AssetIcon, TokenTag } from "../../../../packages/react-icons";
-
-const tags = [
+// eslint-disable-next-line @typescript-eslint/no-redundant-type-constituents
+const tags: { tag: TokenTag | undefined; symbol: string }[] = [
   {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-assignment
     tag: TokenTag.AToken,
     symbol: "AT",
   },
   {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-assignment
     tag: TokenTag.StataToken,
     symbol: "StaT",
   },
@@ -70,10 +72,12 @@ export const IconCard = ({
   name: string;
   symbol: string;
 }) => {
+  // eslint-disable-next-line @typescript-eslint/no-redundant-type-constituents,@typescript-eslint/no-unsafe-assignment
   const [activeTag, setActiveTag] = useState<TokenTag | undefined>(undefined);
   const [activeType, setActiveType] = useState<"full" | "mono">("full");
 
   const Icon = () => (
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     <AssetIcon symbol={symbol} variant={activeType} tokenTag={activeTag} />
   );
 
