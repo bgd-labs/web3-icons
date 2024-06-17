@@ -5,8 +5,6 @@
   "type": "module",
   "scripts": {
     "build": "next build",
-    "generate": "tsx src/scripts/generate.ts",
-    "prebuild": "npm run generate",
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start"

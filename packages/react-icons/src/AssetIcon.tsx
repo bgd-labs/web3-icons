@@ -115,5 +115,5 @@ export function AssetIcon({ symbol, marketPrefix, ...rest }: AssetIconProps) {
     return <MultiAssetsIcon {...rest} symbols={symbols} badgeSymbol={badge} />;
   }
 
-  return <SingleAssetIcon symbol={symbolChunks[0]} {...rest} />;
+  return <SingleAssetIcon symbol={symbolChunks[0] || 'unknown'} {...rest} />;
 }
