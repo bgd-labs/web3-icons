@@ -7,36 +7,34 @@ const unknownIcon = fs.readFileSync(
   "utf8",
 );
 
-export const generateStataToken = (icon: string, type: string) => {
+export const generateTokenIcon = (
+  icon: string,
+  type: string,
+  dirName: string,
+) => {
   if (type === "mono") {
     const template = fs.readFileSync(
-      path.join(templatesDir, "stataToken/mono.svg"),
+      path.join(templatesDir, `${dirName}/mono.svg`),
       "utf8",
     );
 
     const svgContentsMatch = icon.match(/<svg[^>]*>([\s\S]*?)<\/svg>/i);
     const svgContents = svgContentsMatch ? svgContentsMatch[1] : "";
-
     const preparedIcon = `<g style="transform: scale(0.8125); transform-origin: 50% 50%;">${svgContents}</g>`;
 
-    const generatedIcon = template.replace("<template />", preparedIcon);
-
-    return generatedIcon;
+    return template.replace("<template />", preparedIcon);
   }
   if (type === "full") {
     const template = fs.readFileSync(
-      path.join(templatesDir, "stataToken/full.svg"),
+      path.join(templatesDir, `${dirName}/full.svg`),
       "utf8",
     );
 
     const svgContentsMatch = icon.match(/<svg[^>]*>([\s\S]*?)<\/svg>/i);
     const svgContents = svgContentsMatch ? svgContentsMatch[1] : "";
-
     const preparedIcon = `<g style="transform: scale(0.8125); transform-origin: 50% 50%;">${svgContents}</g>`;
 
-    const generatedIcon = template.replace("<template />", preparedIcon);
-
-    return generatedIcon;
+    return template.replace("<template />", preparedIcon);
   }
 
   return unknownIcon;

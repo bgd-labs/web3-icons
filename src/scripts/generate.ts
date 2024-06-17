@@ -3,7 +3,7 @@ import path from "path";
 import { optimize } from "svgo";
 import { z } from "zod";
 
-import { generateAToken, generateStataToken } from "../utils";
+import { generateTokenIcon } from "../utils/generateTokenIcon.ts";
 import {
   IconInfo,
   IconInfoIcons,
@@ -158,8 +158,8 @@ for (const icon of iconsArray) {
   });
 
   if (variations.includes("aToken")) {
-    const aTokenMono = generateAToken(monoContent, "mono");
-    const aTokenFull = generateAToken(fullContent, "full");
+    const aTokenMono = generateTokenIcon(monoContent, "mono", "aToken");
+    const aTokenFull = generateTokenIcon(fullContent, "full", "aToken");
 
     const aTokenMonoFilePath = path.join(
       OUTPUT_FOLDER,
@@ -189,8 +189,8 @@ for (const icon of iconsArray) {
   }
 
   if (variations.includes("stataToken")) {
-    const stataTokenMono = generateStataToken(monoContent, "mono");
-    const stataTokenFull = generateStataToken(fullContent, "full");
+    const stataTokenMono = generateTokenIcon(monoContent, "mono", "stataToken");
+    const stataTokenFull = generateTokenIcon(fullContent, "full", "stataToken");
 
     const stataTokenMonoFilePath = path.join(
       OUTPUT_FOLDER,
