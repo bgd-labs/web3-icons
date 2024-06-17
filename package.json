@@ -1,6 +1,28 @@
 {
-  "private": true,
+  "name": "@bgd-labs/web3-icons",
+  "description": "Svg set of web3 assets icons and utils for easy generation.",
   "version": "0.0.1",
+  "author": "BGD labs",
+  "license": "MIT",
+  "private": true,
+  "contributors": [
+    {
+      "name": "Karen Kakosyan",
+      "url": "https://github.com/smbdy"
+    },
+    {
+      "name": "Oleksandr Tkach",
+      "url": "https://github.com/Argeare5"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgd-labs/icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bgd-labs/icons/issues"
+  },
+  "homepage": "https://github.com/bgd-labs/icons/blob/main/README.md",
   "scripts": {
     "generate": "tsx src/scripts/generate.ts && tsx src/scripts/generateReact.ts"
   },
