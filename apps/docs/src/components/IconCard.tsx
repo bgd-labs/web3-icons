@@ -1,3 +1,9 @@
+"use client";
+
+import { renderToString } from "react-dom/server";
+
+import { CopyToClipboard } from "@/components/CopyToClipboard";
+
 export const IconCard = ({
   name,
   symbol,
@@ -12,21 +18,19 @@ export const IconCard = ({
   // TODO: implement copy to clipboard
 
   return (
-    <div className="border border-gray-200 aspect-square flex items-center justify-center relative min-w-[170px]">
-      <div className="absolute top-0 left-0 p-4">
-        <div className="font-semibold text-sm text-gray-800">{name}</div>
-        <div className="text-xs font-mono text-gray-400 uppercase">
+    <div className="relative flex aspect-square min-w-[170px] items-center justify-center border border-gray-200">
+      <div className="absolute left-0 top-0 p-4">
+        <div className="text-sm font-semibold text-gray-800">{name}</div>
+        <div className="font-mono text-xs uppercase text-gray-400">
           {symbol}
         </div>
       </div>
 
-      <div className="size-11">
-        {children}
-      </div>
+      <div className="size-11">{children}</div>
 
-      <div className="absolute bottom-0 w-full p-2 items-center flex">
-        <button className="ml-auto text-gray-400 hover:text-gray-800 px-0.5 py-1">
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24">
+      <div className="absolute bottom-0 flex w-full items-center p-2">
+        <button className="ml-auto px-0.5 py-1 text-gray-400 hover:text-gray-800">
+          <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24">
             <path
               stroke="currentColor"
               strokeLinecap="round"
@@ -50,28 +54,7 @@ export const IconCard = ({
             ></path>
           </svg>
         </button>
-        <button className="text-gray-400 hover:text-gray-800 p-1">
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24">
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="1.5"
-              d="M6.5 15.25V15.25C5.5335 15.25 4.75 14.4665 4.75 13.5V6.75C4.75 5.64543 5.64543 4.75 6.75 4.75H13.5C14.4665 4.75 15.25 5.5335 15.25 6.5V6.5"
-            ></path>
-            <rect
-              width="10.5"
-              height="10.5"
-              x="8.75"
-              y="8.75"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="1.5"
-              rx="2"
-            ></rect>
-          </svg>
-        </button>
+        <CopyToClipboard copyText={renderToString(children)} />
       </div>
     </div>
   );

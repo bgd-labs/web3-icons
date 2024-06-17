@@ -4,6 +4,12 @@ import { optimize } from "svgo";
 import { z } from "zod";
 
 import { generateAToken, generateStataToken } from "../utils";
+import {
+  IconInfo,
+  IconInfoIcons,
+  IconWithMetaType,
+  WriteQueueItem,
+} from "./types.ts";
 
 const ICONS_FOLDER = "src/assets/icons";
 const OUTPUT_FOLDER = "icons";
@@ -16,11 +22,6 @@ const IconMetaSchema = z.object({
   symbolAliases: z.array(z.string()),
   variations: z.array(z.string()),
 });
-
-interface WriteQueueItem {
-  filePath: string;
-  content: string;
-}
 
 // ----------------------------------------
 // Helper functions
@@ -76,35 +77,6 @@ const processIconFile = (filePath: string) => {
 const files = fs
   .readdirSync(ICONS_FOLDER)
   .filter((file) => file.endsWith(".svg") || file.endsWith(".json"));
-
-type IconMetaData = {
-  symbol?: string;
-  name?: string;
-  symbolAliases?: string[];
-  variations?: string[];
-};
-
-type IconType = {
-  mono: string;
-  full: string;
-};
-
-type IconWithMetaType = IconType & {
-  meta: IconMetaData;
-};
-
-type IconInfoIcons = IconType & {
-  aToken?: IconType;
-  stataToken?: IconType;
-};
-
-type IconInfo = {
-  icons: IconInfoIcons;
-  symbol?: string;
-  name?: string;
-  symbolAliases?: string[];
-  variations?: string[];
-};
 
 const groupedFiles: Record<string, IconWithMetaType> = {};
 

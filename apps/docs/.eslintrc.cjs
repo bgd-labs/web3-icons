@@ -7,8 +7,7 @@ const config = {
   "plugins": [
     "@typescript-eslint",
     "prettier",
-    "simple-import-sort",
-    "drizzle"
+    "simple-import-sort"
   ],
   "extends": [
     "next/core-web-vitals",
@@ -41,8 +40,6 @@ const config = {
         }
       }
     ],
-    "drizzle/enforce-delete-with-where": "error",
-    "drizzle/enforce-update-with-where": "error",
     "prettier/prettier": "warn",
     'simple-import-sort/imports': "error",
     'simple-import-sort/exports': "warn",

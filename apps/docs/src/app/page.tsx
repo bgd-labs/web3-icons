@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex h-screen flex-col items-center justify-center">
-      <h1 className="mx-auto mb-6 text-left text-center text-7xl font-bold leading-snug">
+      <h1 className="mx-auto mb-6 text-center text-7xl font-bold leading-snug">
         Reliable{" "}
         <span className="mx-3‰ rounded-xl bg-gray-100 px-2 py-1 font-mono font-normal text-gray-600">
           {"<svg/>"}
