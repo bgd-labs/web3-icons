@@ -15,13 +15,18 @@ const SingleAssetIcon = ({
   tokenTag,
 }: AssetIconProps) => {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
-  const Icon = require(
-    `./components/Icon${tokenTag ? tokenTag : ""}${tokenTag ? symbol : capitalize(symbol)}${capitalize(variant)}`,
-  )?.default;
-  if (!Icon)
+  const UnknownIcon = require(
+    `./components/IconUnknown${capitalize(variant)}`,
+  ).default;
+  try {
     // eslint-disable-next-line @typescript-eslint/no-var-requires
-    return require(`./components/IconUnknown${capitalize(variant)}`).default;
-  return <Icon />;
+    const Icon = require(
+      `./components/Icon${tokenTag ? tokenTag : ""}${tokenTag ? symbol : capitalize(symbol)}${capitalize(variant)}`,
+    )?.default;
+    return <Icon />;
+  } catch (e) {
+    return <UnknownIcon />;
+  }
 };
 
 interface MultiAssetsIconProps {
