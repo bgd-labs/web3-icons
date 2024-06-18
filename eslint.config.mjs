@@ -21,7 +21,7 @@ export default tseslint.config(
     },
   },
   {
-    ignores: ['dist', 'node_modules', 'coverage', 'eslint.config.js', "apps", "icons", "packages"],
+    ignores: ['dist', 'node_modules', 'coverage', 'eslint.config.mjs', "icons"],
   },
   js.configs.recommended,
   ...tseslint.configs.recommended,

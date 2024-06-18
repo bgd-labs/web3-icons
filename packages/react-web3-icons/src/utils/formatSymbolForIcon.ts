@@ -7,6 +7,7 @@ const SYMBOLS_MAP: Record<string, string> = {
   BTCB: "BTC",
   "BTC.b": "BTC",
   fUSDT: "USDT",
+  "G-UNI": "GUNI",
   // old aave amm market symbols
   BPTBALWETH: "BPT_BAL_WETH",
   BPTWBTCWETH: "BPT_WBTC_WETH",
@@ -41,14 +42,23 @@ export function unPrefixSymbol(symbol: string, prefix: string) {
  * Format symbol for get icon
  * @param symbol
  * @param marketPrefix
+ * @param symbolsMap
  */
-export function formatSymbolForIcon(symbol: string, marketPrefix?: string) {
+export function formatSymbolForIcon({
+  symbol,
+  marketPrefix,
+  symbolsMap,
+}: {
+  symbol: string;
+  marketPrefix?: string;
+  symbolsMap?: Record<string, string>;
+}) {
   if (/\.e/.test(symbol)) return symbol.replace(".e", "").toLowerCase();
   if (/m\./.test(symbol)) return symbol.replace("m.", "").toLowerCase();
   if (marketPrefix)
     return unPrefixSymbol(
-      SYMBOLS_MAP[symbol] || symbol,
+      (symbolsMap || SYMBOLS_MAP)[symbol] || symbol,
       marketPrefix,
     ).toLowerCase();
-  return (SYMBOLS_MAP[symbol] || symbol).toLowerCase();
+  return ((symbolsMap || SYMBOLS_MAP)[symbol] || symbol).toLowerCase();
 }

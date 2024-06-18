@@ -15,24 +15,4 @@
     "src/utils/**/*.ts"
   ],
   "exclude": ["node_modules", "docs", "apps", "packages"],
-//  "typedocOptions": {
-//    "entryPoints": [
-//      "src/scripts/**/*.ts",
-//      "src/utils/**/*.ts",
-//    ],
-//    "name": "Modules",
-//    "readme": "none",
-//    "hidePageHeader": true,
-//    "hidePageTitle": true,
-//    "plugin": ["typedoc-plugin-markdown"],
-//    "skipErrorChecking": true,
-//    "compilerOptions": {
-//      "ignoreCompilerErrors": true
-//    },
-//    "parametersFormat": "table",
-//    "propertiesFormat": "table",
-//    "enumMembersFormat": "table",
-//    "typeDeclarationFormat": "table",
-//    "indexFormat": "table",
-//  }
 }

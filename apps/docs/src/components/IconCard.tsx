@@ -8,15 +8,12 @@ import { CopyToClipboard } from "@/components/CopyToClipboard";
 import { DownloadButton } from "@/components/DownloadButton";
 import { cn } from "@/utils/cn";
 
-// eslint-disable-next-line @typescript-eslint/no-redundant-type-constituents
 const tags: { tag: TokenTag | undefined; symbol: string }[] = [
   {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-assignment
     tag: TokenTag.AToken,
     symbol: "AT",
   },
   {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-assignment
     tag: TokenTag.StataToken,
     symbol: "StaT",
   },
@@ -28,27 +25,25 @@ const tags: { tag: TokenTag | undefined; symbol: string }[] = [
 
 const types = [
   {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-assignment
     tag: TokenVariant.Full,
     symbol: "Full",
   },
   {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-assignment
     tag: TokenVariant.Mono,
     symbol: "Mono",
   },
 ];
 
-export const TagButton = ({
+const TagButton = <T extends string>({
   tag,
   tagName,
   isActive,
   onClick,
 }: {
-  tag: string | undefined;
+  tag: T | undefined;
   tagName: string;
   isActive: boolean;
-  onClick: (value: string | undefined) => void;
+  onClick: (value: T | undefined) => void;
 }) => {
   return (
     <button
@@ -74,13 +69,10 @@ export const IconCard = ({
   name: string;
   symbol: string;
 }) => {
-  // eslint-disable-next-line @typescript-eslint/no-redundant-type-constituents,@typescript-eslint/no-unsafe-assignment
   const [activeTag, setActiveTag] = useState<TokenTag | undefined>(undefined);
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-assignment
-  const [activeType, setActiveType] = useState<TokenVariant>(TokenVariant.Full);
+  const [activeType, setActiveType] = useState(TokenVariant.Full);
 
   const Icon = () => (
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     <AssetIcon symbol={symbol} variant={activeType} tokenTag={activeTag} />
   );
 
@@ -101,9 +93,7 @@ export const IconCard = ({
               tag={tag.tag}
               tagName={tag.symbol}
               isActive={tag.tag === activeType}
-              // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-              // @ts-expect-error
-              onClick={setActiveType}
+              onClick={() => setActiveType(tag.tag)}
             />
           ))}
         </div>
@@ -123,9 +113,7 @@ export const IconCard = ({
               tag={tag.tag}
               tagName={tag.symbol}
               isActive={tag.tag === activeTag}
-              // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-              // @ts-expect-error
-              onClick={setActiveTag}
+              onClick={() => setActiveTag(tag.tag)}
             />
           ))}
         </div>
@@ -133,7 +121,6 @@ export const IconCard = ({
         <div className="flex flex-1 items-end justify-end">
           <DownloadButton
             svgComponent={<Icon />}
-            // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
             fileName={`${activeTag ? activeTag : ""}${symbol}${activeType === TokenVariant.Full ? "" : activeType}`}
           />
           <CopyToClipboard copyText={renderToString(<Icon />)} />

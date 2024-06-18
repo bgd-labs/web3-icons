@@ -12,5 +12,5 @@ export interface AssetIconProps {
   symbol: string;
   variant?: TokenVariant;
   tokenTag?: TokenTag;
-  marketPrefix?: string;
+  formatSymbol?: (symbol: string) => string;
 }
