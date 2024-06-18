@@ -1,7 +1,7 @@
 {
   "name": "@bgd-labs/react-web3-icons-docs",
   "description": "Gallery for easy export in svg of all assets icons from the package.",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "author": "BGD labs",
   "license": "MIT",
   "private": true,

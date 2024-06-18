@@ -1,0 +1,14 @@
+name: Test & alpha release
+
+concurrency:
+  group: ${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
+
+on:
+  pull_request:
+
+jobs:
+  release-node-alpha:
+    uses: ./release-node-alpha.yml
+    secrets:
+      NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
