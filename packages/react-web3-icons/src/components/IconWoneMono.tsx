@@ -1,29 +1,13 @@
-import type { SVGProps } from "react"
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-  desc?: string;
-  descId?: string;
-}
-const IconWoneMono = ({
-  title,
-  titleId,
-  desc,
-  descId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
+import type { SVGProps } from "react";
+const IconWoneMono = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 32"
-    aria-labelledby={titleId}
-    aria-describedby={descId}
     {...props}
   >
-    {desc ? <desc id={descId}>{desc}</desc> : null}
-    {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill="currentColor"
       d="M6.55 14.88c.01-.06.03-.11.04-.17l-1.17-.58c-.04.48-.06.96-.03 1.44l1 .46c.03-.38.08-.77.16-1.15M5.56 16.84c.04.21.08.43.14.64.02.08.03.12.05.24v.02c.03.15.09.3.16.43.09.2.28.56.5.96.09.16.19.31.29.46-.2-.77-.31-1.57-.33-2.39l-.8-.37zM6.58 10.33c-.46.84-.79 1.74-.99 2.66l1.3.65c1.65-5.04 6.84-8.17 12.17-7.11.32.06.63.15.93.24-.09-.07-.18-.14-.27-.2-4.67-2.59-10.55-.9-13.13 3.77z"
@@ -41,5 +25,5 @@ const IconWoneMono = ({
       d="M23.81 10.13c-3.77-3.77-9.89-3.77-13.66 0-.45.45-.85.94-1.2 1.46-2.96 4.43-1.77 10.43 2.66 13.39a9.7 9.7 0 0 0 5.37 1.63c3.91 0 7.43-2.35 8.92-5.96a9.66 9.66 0 0 0-2.09-10.52m-1.09 10.08c0 1.33-1.08 2.41-2.44 2.45-1.4.04-2.51-1.08-2.55-2.45V17.4c-.25.04-.5.04-.79.04s-.54.04-.79.04v2.77c0 1.33-1.08 2.41-2.44 2.45-1.4.04-2.51-1.08-2.55-2.45v-6.62c.04-1.33 1.11-2.45 2.44-2.45 1.4-.04 2.55 1.08 2.55 2.45v2.84c.25-.04.5-.04.79-.04s.54-.04.79-.04v-2.77c.04-1.37 1.15-2.48 2.51-2.48s2.47 1.12 2.47 2.48v6.58z"
     />
   </svg>
-)
-export default IconWoneMono
+);
+export default IconWoneMono;

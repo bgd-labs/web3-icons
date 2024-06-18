@@ -32,7 +32,8 @@
   ],
   "scripts": {
     "start": "tsup src/index.tsx --watch",
-    "build": "tsup"
+    "build": "tsup",
+    "ci:publish": "npm run build && npm publish --access=public"
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.6",

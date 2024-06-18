@@ -58,35 +58,12 @@ Promise.all(
       iconContent,
       {
         icon: "100%",
-        titleProp: true,
-        descProp: true,
         typescript: true,
         svgo: false,
         expandProps: "end",
         exportType: "default",
         jsxRuntime: "automatic",
-        plugins: [
-          "@svgr/plugin-svgo",
-          "@svgr/plugin-jsx",
-          "@svgr/plugin-prettier",
-        ],
-        prettierConfig: {
-          semi: false,
-        },
-        svgoConfig: {
-          plugins: [
-            {
-              name: "preset-default",
-              params: {
-                overrides: {
-                  removeTitle: false,
-                  cleanupIds: false,
-                  collapseGroups: false,
-                },
-              },
-            },
-          ],
-        },
+        plugins: ["@svgr/plugin-jsx", "@svgr/plugin-prettier"],
       },
       { componentName },
     );

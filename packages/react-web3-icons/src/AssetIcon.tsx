@@ -1,17 +1,14 @@
 "use client";
 
 import { formatSymbolForIcon } from "../../../src/utils/formatSymbolForIcon";
-import { AssetIconProps, TokenTag } from "./types";
+import { AssetIconProps, TokenTag, TokenVariant } from "./types";
 
 const capitalize = (word: string) =>
   word.charAt(0).toUpperCase() + word.slice(1);
 
-/**
- * Renders a tokenIcon specified by symbol.
- */
 const SingleAssetIcon = ({
   symbol,
-  variant = "full",
+  variant = TokenVariant.Full,
   tokenTag,
 }: AssetIconProps) => {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
@@ -32,7 +29,7 @@ const SingleAssetIcon = ({
 interface MultiAssetsIconProps {
   symbols: string[];
   badgeSymbol?: string;
-  variant?: "full" | "mono";
+  variant?: TokenVariant,
   tokenTag?: TokenTag;
 }
 
@@ -107,6 +104,9 @@ const MultiAssetsIcon = ({
   );
 };
 
+/**
+ * Renders a tokenIcon specified by symbol.
+ */
 export function AssetIcon({ symbol, marketPrefix, ...rest }: AssetIconProps) {
   const symbolChunks = formatSymbolForIcon(symbol, marketPrefix).split("_");
 

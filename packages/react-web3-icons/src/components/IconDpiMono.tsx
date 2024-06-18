@@ -1,29 +1,13 @@
-import type { SVGProps } from "react"
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-  desc?: string;
-  descId?: string;
-}
-const IconDpiMono = ({
-  title,
-  titleId,
-  desc,
-  descId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
+import type { SVGProps } from "react";
+const IconDpiMono = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 32"
-    aria-labelledby={titleId}
-    aria-describedby={descId}
     {...props}
   >
-    {desc ? <desc id={descId}>{desc}</desc> : null}
-    {title ? <title id={titleId}>{title}</title> : null}
     <g fill="currentColor" clipPath="url(#clip0_294_3750)">
       <path d="M17.94 18.689c.503-.4.903-.924 1.19-1.57.288-.647.442-1.427.442-2.35 0-.462-.031-.863-.103-1.242a4 4 0 0 0-.78-.34 6.5 6.5 0 0 0-1.848-.256h-1.467v6.805c.267-.041.523-.093.78-.154a5.1 5.1 0 0 0 1.775-.893z" />
       <path d="M16.852 12.162c.749 0 1.437.092 2.073.287.103.03.185.082.287.123 0-.02-.01-.051-.02-.072q-.385-.982-1.078-1.58a4.5 4.5 0 0 0-1.632-.893 7.4 7.4 0 0 0-2.021-.287h-2.29v10.13H14c.215 0 .41-.021.626-.042v-7.666h2.237z" />
@@ -36,5 +20,5 @@ const IconDpiMono = ({
       </clipPath>
     </defs>
   </svg>
-)
-export default IconDpiMono
+);
+export default IconDpiMono;

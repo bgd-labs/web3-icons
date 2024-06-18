@@ -1,29 +1,13 @@
-import type { SVGProps } from "react"
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-  desc?: string;
-  descId?: string;
-}
-const IconGuniFull = ({
-  title,
-  titleId,
-  desc,
-  descId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
+import type { SVGProps } from "react";
+const IconGuniFull = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 33"
-    aria-labelledby={titleId}
-    aria-describedby={descId}
     {...props}
   >
-    {desc ? <desc id={descId}>{desc}</desc> : null}
-    {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill="#FFE7D4"
       d="M27.33 5.46H15.95V.75C7.14.78 0 7.93 0 16.75s7.16 16 16 16 16-7.16 16-16c0-4.42-1.77-8.39-4.67-11.29"
@@ -131,5 +115,5 @@ const IconGuniFull = ({
       </radialGradient>
     </defs>
   </svg>
-)
-export default IconGuniFull
+);
+export default IconGuniFull;

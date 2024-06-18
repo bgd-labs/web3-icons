@@ -7,6 +7,12 @@ const unknownIcon = fs.readFileSync(
   "utf8",
 );
 
+/**
+ * Generate original icon with template
+ * @param icon
+ * @param type
+ * @param dirName
+ */
 export const generateTokenIcon = (
   icon: string,
   type: string,
@@ -24,6 +30,7 @@ export const generateTokenIcon = (
 
     return template.replace("<template />", preparedIcon);
   }
+
   if (type === "full") {
     const template = fs.readFileSync(
       path.join(templatesDir, `${dirName}/full.svg`),

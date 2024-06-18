@@ -1,6 +1,6 @@
 "use client";
 
-import { AssetIcon, TokenTag } from "@bgd-labs/react-web3-icons";
+import { AssetIcon, TokenTag, TokenVariant } from "@bgd-labs/react-web3-icons";
 import { useState } from "react";
 import { renderToString } from "react-dom/server";
 
@@ -28,11 +28,13 @@ const tags: { tag: TokenTag | undefined; symbol: string }[] = [
 
 const types = [
   {
-    tag: "full",
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-assignment
+    tag: TokenVariant.Full,
     symbol: "Full",
   },
   {
-    tag: "mono",
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-assignment
+    tag: TokenVariant.Mono,
     symbol: "Mono",
   },
 ];
@@ -74,7 +76,8 @@ export const IconCard = ({
 }) => {
   // eslint-disable-next-line @typescript-eslint/no-redundant-type-constituents,@typescript-eslint/no-unsafe-assignment
   const [activeTag, setActiveTag] = useState<TokenTag | undefined>(undefined);
-  const [activeType, setActiveType] = useState<"full" | "mono">("full");
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-assignment
+  const [activeType, setActiveType] = useState<TokenVariant>(TokenVariant.Full);
 
   const Icon = () => (
     // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
@@ -130,7 +133,8 @@ export const IconCard = ({
         <div className="flex flex-1 items-end justify-end">
           <DownloadButton
             svgComponent={<Icon />}
-            fileName={`${activeTag ? activeTag : ""}${symbol}${activeType === "full" ? "" : activeType}`}
+            // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
+            fileName={`${activeTag ? activeTag : ""}${symbol}${activeType === TokenVariant.Full ? "" : activeType}`}
           />
           <CopyToClipboard copyText={renderToString(<Icon />)} />
         </div>

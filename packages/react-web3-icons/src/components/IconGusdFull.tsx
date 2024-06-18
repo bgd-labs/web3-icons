@@ -1,29 +1,13 @@
-import type { SVGProps } from "react"
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-  desc?: string;
-  descId?: string;
-}
-const IconGusdFull = ({
-  title,
-  titleId,
-  desc,
-  descId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
+import type { SVGProps } from "react";
+const IconGusdFull = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 32"
-    aria-labelledby={titleId}
-    aria-describedby={descId}
     {...props}
   >
-    {desc ? <desc id={descId}>{desc}</desc> : null}
-    {title ? <title id={titleId}>{title}</title> : null}
     <g clipPath="url(#clip0_294_3797)">
       <path
         fill="#fff"
@@ -44,5 +28,5 @@ const IconGusdFull = ({
       </clipPath>
     </defs>
   </svg>
-)
-export default IconGusdFull
+);
+export default IconGusdFull;

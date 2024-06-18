@@ -1,29 +1,13 @@
-import type { SVGProps } from "react"
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-  desc?: string;
-  descId?: string;
-}
-const IconGuniMono = ({
-  title,
-  titleId,
-  desc,
-  descId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
+import type { SVGProps } from "react";
+const IconGuniMono = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 33"
-    aria-labelledby={titleId}
-    aria-describedby={descId}
     {...props}
   >
-    {desc ? <desc id={descId}>{desc}</desc> : null}
-    {title ? <title id={titleId}>{title}</title> : null}
     <path fill="currentColor" d="m21.65 10.97-5.69-5.6 8.64 3.99z" />
     <path
       fill="currentColor"
@@ -34,5 +18,5 @@ const IconGuniMono = ({
       d="M19.32 3.56c0 .36-.08.63-.23.79q-.225.24-.63.24t-.63-.24c-.15-.16-.23-.43-.23-.79V1.44h-.89v2.38c0 .57.15.83.46 1.13s.73.4 1.28.4.97-.1 1.27-.4c.31-.3.46-.56.46-1.13V1.44h-.87v2.12zM23.72 3.76l-1.91-2.33h-.73v3.84h.88V2.94l1.91 2.33h.73V1.43h-.88zM26.4 1.43h-.89v3.84h.89z"
     />
   </svg>
-)
-export default IconGuniMono
+);
+export default IconGuniMono;

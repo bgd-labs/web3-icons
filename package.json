@@ -28,7 +28,6 @@
   },
   "dependencies": {
     "@svgr/core": "^8.1.0",
-    "@svgr/plugin-svgo": "^8.1.0",
     "@svgr/plugin-jsx": "^8.1.0",
     "@svgr/plugin-prettier": "^8.1.0",
     "svgo": "^3.3.2",

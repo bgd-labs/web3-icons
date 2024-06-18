@@ -1,29 +1,13 @@
-import type { SVGProps } from "react"
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-  desc?: string;
-  descId?: string;
-}
-const IconAbusdMono = ({
-  title,
-  titleId,
-  desc,
-  descId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
+import type { SVGProps } from "react";
+const IconAbusdMono = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width="100%"
     height="100%"
     viewBox="0 0 32 32"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    aria-labelledby={titleId}
-    aria-describedby={descId}
     {...props}
   >
-    {desc ? <desc id={descId}>{desc}</desc> : null}
-    {title ? <title id={titleId}>{title}</title> : null}
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
     <g clipPath="url(#circleClip)">
       <g
@@ -44,5 +28,5 @@ const IconAbusdMono = ({
       </clipPath>
     </defs>
   </svg>
-)
-export default IconAbusdMono
+);
+export default IconAbusdMono;

@@ -1,29 +1,13 @@
-import type { SVGProps } from "react"
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-  desc?: string;
-  descId?: string;
-}
-const IconKnclFull = ({
-  title,
-  titleId,
-  desc,
-  descId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
+import type { SVGProps } from "react";
+const IconKnclFull = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 32"
-    aria-labelledby={titleId}
-    aria-describedby={descId}
     {...props}
   >
-    {desc ? <desc id={descId}>{desc}</desc> : null}
-    {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill="#fff"
       d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -37,5 +21,5 @@ const IconKnclFull = ({
       d="m12.14 15.6 2.5-11.71a.49.49 0 0 0-.39-.58.47.47 0 0 0-.38.08L7.46 8.31c-.33.25-.52.64-.52 1.06v12.48c0 .42.19.82.52 1.08l6.38 4.9c.23.16.54.1.69-.13.08-.11.1-.25.08-.38l-2.47-11.71z"
     />
   </svg>
-)
-export default IconKnclFull
+);
+export default IconKnclFull;

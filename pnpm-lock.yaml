@@ -17,9 +17,6 @@ importers:
       '@svgr/plugin-prettier':
         specifier: ^8.1.0
         version: 8.1.0(@svgr/core@8.1.0)
-      '@svgr/plugin-svgo':
-        specifier: ^8.1.0
-        version: 8.1.0(@svgr/core@8.1.0)(typescript@5.4.5)
       svgo:
         specifier: ^3.3.2
         version: 3.3.2
@@ -1131,20 +1128,6 @@ packages:
       '@svgr/core': 8.1.0(typescript@5.4.5)
       deepmerge: 4.3.1
       prettier: 2.8.8
-    dev: false
-
-  /@svgr/plugin-svgo@8.1.0(@svgr/core@8.1.0)(typescript@5.4.5):
-    resolution: {integrity: sha512-Ywtl837OGO9pTLIN/onoWLmDQ4zFUycI1g76vuKGEz6evR/ZTJlJuz3G/fIkb6OVBJ2g0o6CGJzaEjfmEo3AHA==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      '@svgr/core': '*'
-    dependencies:
-      '@svgr/core': 8.1.0(typescript@5.4.5)
-      cosmiconfig: 8.3.6(typescript@5.4.5)
-      deepmerge: 4.3.1
-      svgo: 3.3.2
-    transitivePeerDependencies:
-      - typescript
     dev: false
 
   /@swc/counter@0.1.3:

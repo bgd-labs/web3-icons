@@ -1,29 +1,13 @@
-import type { SVGProps } from "react"
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-  desc?: string;
-  descId?: string;
-}
-const IconGusdMono = ({
-  title,
-  titleId,
-  desc,
-  descId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
+import type { SVGProps } from "react";
+const IconGusdMono = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 32"
-    aria-labelledby={titleId}
-    aria-describedby={descId}
     {...props}
   >
-    {desc ? <desc id={descId}>{desc}</desc> : null}
-    {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill="currentColor"
       d="M19.79 18.21c1.1-.17 2.12-.68 2.91-1.47s1.3-1.81 1.47-2.91h-4.38zM18.28 13.83h-4.44v4.44h4.44zM19.79 7.94a5.194 5.194 0 0 0-5.9 4.38h10.28a5.18 5.18 0 0 0-4.38-4.38M12.32 24.17c2.84.42 5.48-1.54 5.9-4.38H7.94a5.18 5.18 0 0 0 4.38 4.38M12.32 13.89a5.22 5.22 0 0 0-4.38 4.38h4.38z"
@@ -37,5 +21,5 @@ const IconGusdMono = ({
       d="M28.13 7.82a14.7 14.7 0 0 0-6.44-5.3c-.89-.37-1.8-.66-2.75-.85a14.6 14.6 0 0 0-5.9 0c-1.87.38-3.65 1.13-5.23 2.2a14.7 14.7 0 0 0-5.3 6.44c-.37.89-.66 1.8-.85 2.75-.4 1.95-.4 3.95 0 5.9.38 1.87 1.13 3.65 2.2 5.23 1.59 2.35 3.82 4.19 6.44 5.3.88.37 1.8.66 2.75.85 1.95.4 3.95.4 5.9 0 1.87-.38 3.65-1.13 5.23-2.2 2.35-1.59 4.19-3.82 5.3-6.44.37-.89.66-1.8.85-2.75.4-1.95.4-3.95 0-5.9-.38-1.87-1.13-3.65-2.2-5.23m-8.38 11.93c-.03.26-.07.51-.13.77-.82 3.61-4.42 5.88-8.03 5.06-.25-.06-.5-.13-.75-.22a6.71 6.71 0 0 1 1.51-13c.38-3.4 3.25-5.97 6.67-5.99 3.57 0 6.52 2.79 6.71 6.35a6.71 6.71 0 0 1-5.99 7.03z"
     />
   </svg>
-)
-export default IconGusdMono
+);
+export default IconGusdMono;

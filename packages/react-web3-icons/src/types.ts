@@ -3,9 +3,14 @@ export enum TokenTag {
   StataToken = "Stata",
 }
 
+export enum TokenVariant {
+  Full = "full",
+  Mono = "mono",
+}
+
 export interface AssetIconProps {
   symbol: string;
-  variant?: "full" | "mono";
+  variant?: TokenVariant;
   tokenTag?: TokenTag;
   marketPrefix?: string;
 }
