@@ -9,6 +9,6 @@ on:
 
 jobs:
   release-node-alpha:
-    uses: ../actions/release-node-alpha.yml
+    uses: ../actions/release-node-alpha.yml@main
     secrets:
       NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
