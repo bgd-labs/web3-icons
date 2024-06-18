@@ -25,7 +25,7 @@ jobs:
           tag-separator: '@'
 
   release-node:
-    uses: ./release-node.yml@main
+    uses: bgd-labs/icons/.github/workflows/release-node.yml@main
     if: ${{ needs.release-please.outputs.releaseCreated }}
     needs:
       - release-please

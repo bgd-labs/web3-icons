@@ -9,6 +9,6 @@ on:
 
 jobs:
   release-node-alpha:
-    uses: ./release-node-alpha.yml@main
+    uses: bgd-labs/icons/.github/workflows/release-node-alpha.yml@main
     secrets:
       NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
