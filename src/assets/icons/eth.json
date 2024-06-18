@@ -1,7 +1,9 @@
 {
-  "name": "Bridged Binance-Peg Ethereum (opBNB)",
+  "name": "Ethereum",
   "symbol": "eth",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "ETH"
+  ],
   "variations": [
     "aToken",
     "stataToken"

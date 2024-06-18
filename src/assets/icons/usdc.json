@@ -1,7 +1,11 @@
 {
-  "name": "Beam Bridged USDC (Beam)",
+  "name": "USD Coin",
   "symbol": "usdc",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "USDC",
+    "m.USDC",
+    "USDC.e"
+  ],
   "variations": [
     "aToken",
     "stataToken"

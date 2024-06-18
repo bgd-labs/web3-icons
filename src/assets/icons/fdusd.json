@@ -1,7 +1,9 @@
 {
   "name": "First Digital USD",
   "symbol": "fdusd",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "FDUSD"
+  ],
   "variations": [
     "aToken",
     "stataToken"

@@ -1,7 +1,9 @@
 {
   "name": "Monerium EUR emoney",
   "symbol": "eure",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "EURe"
+  ],
   "variations": [
     "aToken",
     "stataToken"

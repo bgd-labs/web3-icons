@@ -1,9 +1,0 @@
-{
-  "name": "pax",
-  "symbol": "pax",
-  "symbolAliases": [],
-  "variations": [
-    "aToken",
-    "stataToken"
-  ]
-}

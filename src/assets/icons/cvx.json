@@ -1,7 +1,9 @@
 {
-  "name": "Convex Finance",
+  "name": "Convex Token",
   "symbol": "cvx",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "CVX"
+  ],
   "variations": [
     "aToken",
     "stataToken"

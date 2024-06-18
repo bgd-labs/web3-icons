@@ -1,7 +1,9 @@
 {
-  "name": "xSUSHI",
+  "name": "SushiBar",
   "symbol": "xsushi",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "xSUSHI"
+  ],
   "variations": [
     "aToken",
     "stataToken"

@@ -1,7 +1,9 @@
 {
-  "name": "DeFi Pulse Index",
+  "name": "DefiPulse Index",
   "symbol": "dpi",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "DPI"
+  ],
   "variations": [
     "aToken",
     "stataToken"

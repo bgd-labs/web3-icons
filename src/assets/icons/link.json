@@ -1,7 +1,10 @@
 {
-  "name": "Chainlink",
+  "name": "ChainLink",
   "symbol": "link",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "LINK",
+    "LINK.e"
+  ],
   "variations": [
     "aToken",
     "stataToken"

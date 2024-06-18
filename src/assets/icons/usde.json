@@ -1,7 +1,9 @@
 {
-  "name": "Energi Dollar",
+  "name": "USDe",
   "symbol": "usde",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "USDe"
+  ],
   "variations": [
     "aToken",
     "stataToken"

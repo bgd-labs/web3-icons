@@ -1,0 +1,11 @@
+{
+  "name": "Rocket Pool ETH",
+  "symbol": "reth",
+  "symbolAliases": [
+    "rETH"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

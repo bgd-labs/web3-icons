@@ -1,7 +1,9 @@
 {
-  "name": "Kyber Network Crystal",
+  "name": "Kyber Network Crystal v2",
   "symbol": "knc",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "KNC"
+  ],
   "variations": [
     "aToken",
     "stataToken"

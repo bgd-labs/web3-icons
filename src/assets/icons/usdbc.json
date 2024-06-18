@@ -1,7 +1,9 @@
 {
-  "name": "Bridged USD Coin (Base)",
+  "name": "USD Base Coin",
   "symbol": "usdbc",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "USDbC"
+  ],
   "variations": [
     "aToken",
     "stataToken"

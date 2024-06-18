@@ -1,7 +1,9 @@
 {
-  "name": "PancakeSwap",
+  "name": "PancakeSwap Token",
   "symbol": "cake",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "Cake"
+  ],
   "variations": [
     "aToken",
     "stataToken"

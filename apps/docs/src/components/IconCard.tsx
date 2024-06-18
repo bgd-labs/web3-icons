@@ -1,73 +1,143 @@
+"use client";
+
+import { AssetIcon, TokenTag, TokenVariant } from "@bgd-labs/react-web3-icons";
+import { useState } from "react";
+import { renderToString } from "react-dom/server";
+
+import { CopyToClipboard } from "@/components/CopyToClipboard";
+import { DownloadButton } from "@/components/DownloadButton";
+import { cn } from "@/utils/cn";
+
+// eslint-disable-next-line @typescript-eslint/no-redundant-type-constituents
+const tags: { tag: TokenTag | undefined; symbol: string }[] = [
+  {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-assignment
+    tag: TokenTag.AToken,
+    symbol: "AT",
+  },
+  {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-assignment
+    tag: TokenTag.StataToken,
+    symbol: "StaT",
+  },
+  {
+    tag: undefined,
+    symbol: "Def",
+  },
+];
+
+const types = [
+  {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-assignment
+    tag: TokenVariant.Full,
+    symbol: "Full",
+  },
+  {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-assignment
+    tag: TokenVariant.Mono,
+    symbol: "Mono",
+  },
+];
+
+export const TagButton = ({
+  tag,
+  tagName,
+  isActive,
+  onClick,
+}: {
+  tag: string | undefined;
+  tagName: string;
+  isActive: boolean;
+  onClick: (value: string | undefined) => void;
+}) => {
+  return (
+    <button
+      type="button"
+      onClick={() => onClick(tag)}
+      disabled={isActive}
+      className={cn(
+        "mb-[-2px] inline-flex min-w-[25px] items-center bg-gray-400 px-0 py-0 text-center text-[4px] font-medium text-white transition hover:bg-gray-800 hover:text-[10px]",
+        {
+          ["bg-gray-800 px-2 py-[2px] text-[10px]"]: isActive,
+        },
+      )}
+    >
+      <span>{tagName}</span>
+    </button>
+  );
+};
+
 export const IconCard = ({
   name,
   symbol,
-  children,
 }: {
   name: string;
   symbol: string;
-  children: React.ReactNode;
 }) => {
-  // TODO: refactor to use components
-  // TODO: implement downloads
-  // TODO: implement copy to clipboard
+  // eslint-disable-next-line @typescript-eslint/no-redundant-type-constituents,@typescript-eslint/no-unsafe-assignment
+  const [activeTag, setActiveTag] = useState<TokenTag | undefined>(undefined);
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-assignment
+  const [activeType, setActiveType] = useState<TokenVariant>(TokenVariant.Full);
+
+  const Icon = () => (
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+    <AssetIcon symbol={symbol} variant={activeType} tokenTag={activeTag} />
+  );
 
   return (
-    <div className="border border-gray-200 aspect-square w-44 flex items-center justify-center relative">
-      <div className="absolute top-0 left-0 p-4">
-        <div className="font-semibold text-sm text-gray-800">{name}</div>
-        <div className="text-xs font-mono text-gray-400 uppercase">
-          {symbol}
+    <div className="relative flex h-[175px] w-[175px] flex-col justify-center border border-gray-200">
+      <div className="absolute top-0 w-full flex-1">
+        <div className="max-w-[75%] p-2">
+          <div className="text-sm font-semibold text-gray-800">{name}</div>
+          <div className="font-mono text-xs uppercase text-gray-400">
+            {symbol}
+          </div>
+        </div>
+
+        <div className="absolute right-0 top-0 z-10 flex max-w-[50%] flex-col items-end justify-start">
+          {types.map((tag) => (
+            <TagButton
+              key={tag.symbol}
+              tag={tag.tag}
+              tagName={tag.symbol}
+              isActive={tag.tag === activeType}
+              // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+              // @ts-expect-error
+              onClick={setActiveType}
+            />
+          ))}
         </div>
       </div>
-      {children}
-      <div className="absolute bottom-0 w-full p-2 items-center flex">
-        <button className="ml-auto text-gray-400 hover:text-gray-800 px-0.5 py-1">
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24">
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="1.5"
-              d="M4.75 14.75V16.25C4.75 17.9069 6.09315 19.25 7.75 19.25H16.25C17.9069 19.25 19.25 17.9069 19.25 16.25V14.75"
-            ></path>
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="1.5"
-              d="M12 14.25L12 4.75"
-            ></path>
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="1.5"
-              d="M8.75 10.75L12 14.25L15.25 10.75"
-            ></path>
-          </svg>
-        </button>
-        <button className="text-gray-400 hover:text-gray-800 p-1">
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24">
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="1.5"
-              d="M6.5 15.25V15.25C5.5335 15.25 4.75 14.4665 4.75 13.5V6.75C4.75 5.64543 5.64543 4.75 6.75 4.75H13.5C14.4665 4.75 15.25 5.5335 15.25 6.5V6.5"
-            ></path>
-            <rect
-              width="10.5"
-              height="10.5"
-              x="8.75"
-              y="8.75"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="1.5"
-              rx="2"
-            ></rect>
-          </svg>
-        </button>
+
+      <div className="flex-1" />
+
+      <div className="flex size-11 w-full flex-1 items-center justify-center">
+        <Icon />
+      </div>
+
+      <div className="relative flex flex-1 items-end justify-between">
+        <div className="absolute flex max-w-[50%] flex-col justify-end">
+          {tags.map((tag) => (
+            <TagButton
+              key={tag.symbol}
+              tag={tag.tag}
+              tagName={tag.symbol}
+              isActive={tag.tag === activeTag}
+              // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+              // @ts-expect-error
+              onClick={setActiveTag}
+            />
+          ))}
+        </div>
+
+        <div className="flex flex-1 items-end justify-end">
+          <DownloadButton
+            svgComponent={<Icon />}
+            // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
+            fileName={`${activeTag ? activeTag : ""}${symbol}${activeType === TokenVariant.Full ? "" : activeType}`}
+          />
+          <CopyToClipboard copyText={renderToString(<Icon />)} />
+        </div>
       </div>
     </div>
   );

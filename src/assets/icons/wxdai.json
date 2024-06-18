@@ -1,7 +1,9 @@
 {
-  "name": "wxdai",
+  "name": "Wrapped XDAI",
   "symbol": "wxdai",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "WXDAI"
+  ],
   "variations": [
     "aToken",
     "stataToken"

@@ -1,7 +1,10 @@
 {
-  "name": "Bridged Wrapped Bitcoin (Manta Pacific)",
+  "name": "Wrapped BTC",
   "symbol": "wbtc",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "WBTC",
+    "WBTC.e"
+  ],
   "variations": [
     "aToken",
     "stataToken"

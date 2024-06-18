@@ -1,7 +1,9 @@
 {
-  "name": "BNB",
-  "symbol": "bnb",
-  "symbolAliases": [],
+  "name": "Wrapped BNB",
+  "symbol": "wbnb",
+  "symbolAliases": [
+    "WBNB"
+  ],
   "variations": [
     "aToken",
     "stataToken"

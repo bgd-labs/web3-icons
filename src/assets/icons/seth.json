@@ -1,7 +1,7 @@
 {
   "name": "sETH",
   "symbol": "seth",
-  "symbolAliases": [],
+  "symbolAliases": ["SETH"],
   "variations": [
     "aToken",
     "stataToken"

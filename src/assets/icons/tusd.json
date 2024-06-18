@@ -1,7 +1,9 @@
 {
-  "name": "Bridged TrueUSD",
+  "name": "TrueUSD",
   "symbol": "tusd",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "TUSD"
+  ],
   "variations": [
     "aToken",
     "stataToken"

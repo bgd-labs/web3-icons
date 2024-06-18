@@ -1,6 +1,28 @@
 {
-  "private": true,
+  "name": "@bgd-labs/web3-icons",
+  "description": "Svg set of web3 assets icons and utils for easy generation.",
   "version": "0.0.1",
+  "author": "BGD labs",
+  "license": "MIT",
+  "private": true,
+  "contributors": [
+    {
+      "name": "Karen Kakosyan",
+      "url": "https://github.com/smbdy"
+    },
+    {
+      "name": "Oleksandr Tkach",
+      "url": "https://github.com/Argeare5"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgd-labs/icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bgd-labs/icons/issues"
+  },
+  "homepage": "https://github.com/bgd-labs/icons/blob/main/README.md",
   "scripts": {
     "generate": "tsx src/scripts/generate.ts && tsx src/scripts/generateReact.ts"
   },
@@ -9,10 +31,22 @@
     "@svgr/plugin-jsx": "^8.1.0",
     "@svgr/plugin-prettier": "^8.1.0",
     "svgo": "^3.3.2",
-    "tsx": "^4.15.1",
+    "tsx": "^4.15.4",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@types/node": "^20.14.2"
-  }
+    "@types/node": "^20.14.2",
+    "eslint": "^9.4.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-simple-import-sort": "^12.1.0",
+    "globals": "^15.4.0",
+    "prettier": "^3.3.2",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.13.0"
+  },
+  "packageManager": "pnpm@8.15.5+sha1.a58c038faac410c947dbdb93eb30994037d0fce2"
 }

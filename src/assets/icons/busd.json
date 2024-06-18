@@ -1,7 +1,9 @@
 {
-  "name": "Binance-Peg BUSD",
+  "name": "BUSD",
   "symbol": "busd",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "BUSD"
+  ],
   "variations": [
     "aToken",
     "stataToken"

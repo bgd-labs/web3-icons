@@ -1,7 +1,7 @@
 {
-  "name": "dog wif spinning hat",
+  "name": "Stader",
   "symbol": "sd",
-  "symbolAliases": [],
+  "symbolAliases": ["SD"],
   "variations": [
     "aToken",
     "stataToken"

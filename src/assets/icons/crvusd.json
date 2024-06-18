@@ -1,7 +1,9 @@
 {
-  "name": "crvUSD",
+  "name": "Curve.Fi USD Stablecoin",
   "symbol": "crvusd",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "crvUSD"
+  ],
   "variations": [
     "aToken",
     "stataToken"

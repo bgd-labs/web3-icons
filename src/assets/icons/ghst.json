@@ -1,7 +1,9 @@
 {
-  "name": "Aavegotchi",
+  "name": "Aavegotchi GHST",
   "symbol": "ghst",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "GHST"
+  ],
   "variations": [
     "aToken",
     "stataToken"

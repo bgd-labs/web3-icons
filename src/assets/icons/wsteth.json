@@ -1,7 +1,9 @@
 {
-  "name": "Bridged Wrapped Lido Staked Ether (Scroll)",
+  "name": "Wrapped liquid staked Ether 2.0",
   "symbol": "wsteth",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "wstETH"
+  ],
   "variations": [
     "aToken",
     "stataToken"

@@ -1,7 +1,10 @@
 {
-  "name": "MatrixGPT",
+  "name": "MAI (mimatic)",
   "symbol": "mai",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "MAI",
+    "miMATIC"
+  ],
   "variations": [
     "aToken",
     "stataToken"

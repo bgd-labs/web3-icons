@@ -1,19 +1,38 @@
 {
-  "name": "docs",
-  "version": "0.1.0",
+  "name": "@bgd-labs/react-web3-icons-docs",
+  "description": "Gallery for easy export in svg of all assets icons from the package.",
+  "version": "0.0.1",
+  "author": "BGD labs",
+  "license": "MIT",
   "private": true,
   "type": "module",
+  "contributors": [
+    {
+      "name": "Karen Kakosyan",
+      "url": "https://github.com/smbdy"
+    },
+    {
+      "name": "Oleksandr Tkach",
+      "url": "https://github.com/Argeare5"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgd-labs/icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bgd-labs/icons/issues"
+  },
+  "homepage": "https://github.com/bgd-labs/icons/blob/main/README.md",
   "scripts": {
     "build": "next build",
-    "generate": "tsx src/scripts/generate.ts",
-    "prebuild": "npm run generate",
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start"
   },
   "dependencies": {
     "@bgd-labs/aave-address-book": "^2.26.1",
-    "@bgd-labs/react-icons": "workspace:^",
+    "@bgd-labs/react-web3-icons": "workspace:^",
     "clsx": "^2.1.0",
     "next": "^14.1.4",
     "next-themes": "^0.3.0",

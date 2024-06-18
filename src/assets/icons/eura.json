@@ -1,7 +1,9 @@
 {
-  "name": "EURA",
+  "name": "EURA (agEUR)",
   "symbol": "eura",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "EURA"
+  ],
   "variations": [
     "aToken",
     "stataToken"

@@ -1,0 +1,11 @@
+{
+  "name": "Kyber Legacy",
+  "symbol": "kncl",
+  "symbolAliases": [
+    "KNC"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

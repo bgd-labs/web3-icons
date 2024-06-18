@@ -1,7 +1,9 @@
 {
   "name": "PayPal USD",
   "symbol": "pyusd",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "PYUSD"
+  ],
   "variations": [
     "aToken",
     "stataToken"

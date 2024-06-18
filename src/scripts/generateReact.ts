@@ -1,8 +1,9 @@
 import { transform } from "@svgr/core";
 import fs from "fs";
+
 import assets from "../../icons/icons.json";
 
-const REACT_COMPONENTS_PATH = "packages/react-icons/src/components";
+const REACT_COMPONENTS_PATH = "packages/react-web3-icons/src/components";
 
 interface QueueItem {
   filePath: string;
@@ -56,25 +57,28 @@ Promise.all(
     const tsxCode = await transform(
       iconContent,
       {
-        icon: "32px",
-        plugins: ["@svgr/plugin-jsx", "@svgr/plugin-prettier"],
+        icon: "100%",
         typescript: true,
         svgo: false,
+        expandProps: "end",
+        exportType: "default",
+        jsxRuntime: "automatic",
+        plugins: ["@svgr/plugin-jsx", "@svgr/plugin-prettier"],
       },
-      { componentName }
+      { componentName },
     );
 
     fs.writeFileSync(`${REACT_COMPONENTS_PATH}/${componentName}.tsx`, tsxCode);
     componentFiles.push(`./${componentName}.tsx`);
     console.log(
-      `⚛️ Generated a new component: ${REACT_COMPONENTS_PATH}/${componentName}.tsx`
+      `⚛️ Generated a new component: ${REACT_COMPONENTS_PATH}/${componentName}.tsx`,
     );
-  })
+  }),
 ).then(() => {
   const fileContent = componentFiles
     .map(
       (file) =>
-        `export { default as ${file.replace(".tsx", "").replace("./", "")} } from "${file.replace(".tsx", "")}";`
+        `export { default as ${file.replace(".tsx", "").replace("./", "")} } from "${file.replace(".tsx", "")}";`,
     )
     .join("\n");
 

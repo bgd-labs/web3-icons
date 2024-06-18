@@ -1,7 +1,9 @@
 {
-  "name": "Lido DAO",
+  "name": "Lido DAO Token",
   "symbol": "ldo",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "LDO"
+  ],
   "variations": [
     "aToken",
     "stataToken"

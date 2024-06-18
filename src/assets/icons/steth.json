@@ -1,7 +1,9 @@
 {
   "name": "Lido Staked Ether",
   "symbol": "steth",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "stETH"
+  ],
   "variations": [
     "aToken",
     "stataToken"

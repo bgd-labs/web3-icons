@@ -1,7 +1,11 @@
 {
-  "name": "Bridged Dai Stablecoin (Linea)",
+  "name": "Dai Stablecoin",
   "symbol": "dai",
-  "symbolAliases": [],
+  "symbolAliases": [
+    "DAI",
+    "m.DAI",
+    "DAI.e"
+  ],
   "variations": [
     "aToken",
     "stataToken"
