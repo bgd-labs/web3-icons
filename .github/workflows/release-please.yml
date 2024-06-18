@@ -25,7 +25,7 @@ jobs:
           tag-separator: '@'
 
   release-node:
-    uses: ./release-node.yml
+    uses: ../actions/release-node.yml
     if: ${{ needs.release-please.outputs.releaseCreated }}
     needs:
       - release-please
