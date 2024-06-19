@@ -9,9 +9,6 @@ export const getPrefix = (fileName: string) => fileName.split(/[_.]/)[0];
 export const readJsonFile = (filePath: string, schema: any) => {
   const content = fs.readFileSync(filePath, { encoding: "utf8" });
   const jsonData = JSON.parse(content);
-
-  console.log(jsonData);
-
   const parsedData = schema.safeParse(jsonData);
   if (!parsedData.success) {
     throw new Error(`Invalid JSON structure in ${filePath}.`);
