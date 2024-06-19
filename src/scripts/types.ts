@@ -31,3 +31,14 @@ export type IconInfo = {
   symbolAliases?: string[];
   variations?: string[];
 };
+
+export type ChainType = {
+  name: string;
+  chainId: number;
+};
+
+export type ChainInfoType = {
+  name: string;
+  chainId: number;
+  icon: string;
+};

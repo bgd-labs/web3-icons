@@ -11,10 +11,10 @@ We have prepared a package with all the icons for easy use in the React.js ecosy
 #### pnpm
 <code>pnpm add @bgd-labs/react-web3-icons</code>
 
-### Adding new icons
-1. Add new `svg` icon files to `src/assets/icons` folder
+### Adding new asset icon
+1. Add new `svg` icon files to `src/assets/assets-icons` folder
 2. Naming convention is `[symbol]_mono.svg` and `[symbol]_full.svg`
-3. Prepare a metadata file in `src/assets/icons` folder with the same name as the icon file, but with `.json` extension:
+3. Prepare a metadata file in `src/assets/assets-icons` folder with the same name as the icon file, but with `.json` extension:
 ```json
 {
   "name": "Aave",
@@ -24,6 +24,22 @@ We have prepared a package with all the icons for easy use in the React.js ecosy
     "aToken",
     "stataToken"
   ]
+}
+```
+4. Generate icons and react components, run:
+```bash
+pnpm generate
+```
+
+### Adding new chain icon
+1. Add new `svg` icon files to `src/assets/chains-icons` folder
+2. Naming convention is `[chainName.replaceAll(/\s/g, '').toLowerCase()].svg`
+3. Prepare a metadata file in `src/assets/chains-icons` folder with the same name as the icon file, but with `.json` extension:
+
+```json
+{
+  "name": "Ethereum",
+  "chainId": 1
 }
 ```
 4. Generate icons and react components, run:

@@ -1,10 +1,8 @@
 "use client";
 
 import { AssetIconProps, TokenVariant } from "./types";
+import { capitalize } from "./utils/capitalize";
 import { formatSymbolForIcon } from "./utils/formatSymbolForIcon";
-
-const capitalize = (word: string) =>
-  word.charAt(0).toUpperCase() + word.slice(1);
 
 /**
  * Renders a tokenIcon specified by symbol.

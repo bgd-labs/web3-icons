@@ -1,0 +1,2185 @@
+[
+  {
+    "name": "One inch Network",
+    "symbol": "1inch",
+    "symbolAliases": [
+      "1INCH"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/1inch.svg",
+      "full": "icons/assets-icons/full/1inch.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/a1inch.svg",
+        "full": "icons/assets-icons/full/a1inch.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stata1inch.svg",
+        "full": "icons/assets-icons/full/stata1inch.svg"
+      }
+    }
+  },
+  {
+    "name": "Aave Token",
+    "symbol": "aave",
+    "symbolAliases": [
+      "AAVE",
+      "AAVE.e"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/aave.svg",
+      "full": "icons/assets-icons/full/aave.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aaave.svg",
+        "full": "icons/assets-icons/full/aaave.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataaave.svg",
+        "full": "icons/assets-icons/full/stataaave.svg"
+      }
+    }
+  },
+  {
+    "name": "Ampleforth",
+    "symbol": "ampl",
+    "symbolAliases": [
+      "AMPL"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/ampl.svg",
+      "full": "icons/assets-icons/full/ampl.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aampl.svg",
+        "full": "icons/assets-icons/full/aampl.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataampl.svg",
+        "full": "icons/assets-icons/full/stataampl.svg"
+      }
+    }
+  },
+  {
+    "name": "Arbitrum",
+    "symbol": "arb",
+    "symbolAliases": [
+      "ARB"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/arb.svg",
+      "full": "icons/assets-icons/full/arb.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aarb.svg",
+        "full": "icons/assets-icons/full/aarb.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataarb.svg",
+        "full": "icons/assets-icons/full/stataarb.svg"
+      }
+    }
+  },
+  {
+    "name": "Avalanche",
+    "symbol": "avax",
+    "symbolAliases": [
+      "AVAX"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/avax.svg",
+      "full": "icons/assets-icons/full/avax.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aavax.svg",
+        "full": "icons/assets-icons/full/aavax.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataavax.svg",
+        "full": "icons/assets-icons/full/stataavax.svg"
+      }
+    }
+  },
+  {
+    "name": "Balancer",
+    "symbol": "bal",
+    "symbolAliases": [
+      "BAL"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/bal.svg",
+      "full": "icons/assets-icons/full/bal.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/abal.svg",
+        "full": "icons/assets-icons/full/abal.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statabal.svg",
+        "full": "icons/assets-icons/full/statabal.svg"
+      }
+    }
+  },
+  {
+    "name": "Basic Attention Token",
+    "symbol": "bat",
+    "symbolAliases": [
+      "BAT"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/bat.svg",
+      "full": "icons/assets-icons/full/bat.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/abat.svg",
+        "full": "icons/assets-icons/full/abat.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statabat.svg",
+        "full": "icons/assets-icons/full/statabat.svg"
+      }
+    }
+  },
+  {
+    "name": "Wrapped BNB",
+    "symbol": "wbnb",
+    "symbolAliases": [
+      "WBNB"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/wbnb.svg",
+      "full": "icons/assets-icons/full/wbnb.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/awbnb.svg",
+        "full": "icons/assets-icons/full/awbnb.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statawbnb.svg",
+        "full": "icons/assets-icons/full/statawbnb.svg"
+      }
+    }
+  },
+  {
+    "name": "BlackPool",
+    "symbol": "bpt",
+    "symbolAliases": [
+      "BPT"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/bpt.svg",
+      "full": "icons/assets-icons/full/bpt.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/abpt.svg",
+        "full": "icons/assets-icons/full/abpt.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statabpt.svg",
+        "full": "icons/assets-icons/full/statabpt.svg"
+      }
+    }
+  },
+  {
+    "name": "Bitcoin",
+    "symbol": "btc",
+    "symbolAliases": [
+      "BTCB",
+      "BTC.b"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/btc.svg",
+      "full": "icons/assets-icons/full/btc.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/abtc.svg",
+        "full": "icons/assets-icons/full/abtc.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statabtc.svg",
+        "full": "icons/assets-icons/full/statabtc.svg"
+      }
+    }
+  },
+  {
+    "name": "BUSD",
+    "symbol": "busd",
+    "symbolAliases": [
+      "BUSD"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/busd.svg",
+      "full": "icons/assets-icons/full/busd.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/abusd.svg",
+        "full": "icons/assets-icons/full/abusd.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statabusd.svg",
+        "full": "icons/assets-icons/full/statabusd.svg"
+      }
+    }
+  },
+  {
+    "name": "PancakeSwap Token",
+    "symbol": "cake",
+    "symbolAliases": [
+      "Cake"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/cake.svg",
+      "full": "icons/assets-icons/full/cake.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/acake.svg",
+        "full": "icons/assets-icons/full/acake.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statacake.svg",
+        "full": "icons/assets-icons/full/statacake.svg"
+      }
+    }
+  },
+  {
+    "name": "Coinbase Wrapped Staked ETH",
+    "symbol": "cbeth",
+    "symbolAliases": [
+      "cbETH"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/cbeth.svg",
+      "full": "icons/assets-icons/full/cbeth.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/acbeth.svg",
+        "full": "icons/assets-icons/full/acbeth.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statacbeth.svg",
+        "full": "icons/assets-icons/full/statacbeth.svg"
+      }
+    }
+  },
+  {
+    "name": "Curve DAO Token",
+    "symbol": "crv",
+    "symbolAliases": [
+      "CRV"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/crv.svg",
+      "full": "icons/assets-icons/full/crv.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/acrv.svg",
+        "full": "icons/assets-icons/full/acrv.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statacrv.svg",
+        "full": "icons/assets-icons/full/statacrv.svg"
+      }
+    }
+  },
+  {
+    "name": "Curve.Fi USD Stablecoin",
+    "symbol": "crvusd",
+    "symbolAliases": [
+      "crvUSD"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/crvusd.svg",
+      "full": "icons/assets-icons/full/crvusd.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/acrvusd.svg",
+        "full": "icons/assets-icons/full/acrvusd.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statacrvusd.svg",
+        "full": "icons/assets-icons/full/statacrvusd.svg"
+      }
+    }
+  },
+  {
+    "name": "Convex Token",
+    "symbol": "cvx",
+    "symbolAliases": [
+      "CVX"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/cvx.svg",
+      "full": "icons/assets-icons/full/cvx.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/acvx.svg",
+        "full": "icons/assets-icons/full/acvx.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statacvx.svg",
+        "full": "icons/assets-icons/full/statacvx.svg"
+      }
+    }
+  },
+  {
+    "name": "Dai Stablecoin",
+    "symbol": "dai",
+    "symbolAliases": [
+      "DAI",
+      "m.DAI",
+      "DAI.e"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/dai.svg",
+      "full": "icons/assets-icons/full/dai.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/adai.svg",
+        "full": "icons/assets-icons/full/adai.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statadai.svg",
+        "full": "icons/assets-icons/full/statadai.svg"
+      }
+    }
+  },
+  {
+    "name": "DefiPulse Index",
+    "symbol": "dpi",
+    "symbolAliases": [
+      "DPI"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/dpi.svg",
+      "full": "icons/assets-icons/full/dpi.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/adpi.svg",
+        "full": "icons/assets-icons/full/adpi.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statadpi.svg",
+        "full": "icons/assets-icons/full/statadpi.svg"
+      }
+    }
+  },
+  {
+    "name": "Enjin Coin",
+    "symbol": "enj",
+    "symbolAliases": [
+      "ENJ"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/enj.svg",
+      "full": "icons/assets-icons/full/enj.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aenj.svg",
+        "full": "icons/assets-icons/full/aenj.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataenj.svg",
+        "full": "icons/assets-icons/full/stataenj.svg"
+      }
+    }
+  },
+  {
+    "name": "Ethereum Name Service",
+    "symbol": "ens",
+    "symbolAliases": [
+      "ENS"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/ens.svg",
+      "full": "icons/assets-icons/full/ens.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aens.svg",
+        "full": "icons/assets-icons/full/aens.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataens.svg",
+        "full": "icons/assets-icons/full/stataens.svg"
+      }
+    }
+  },
+  {
+    "name": "Ethereum",
+    "symbol": "eth",
+    "symbolAliases": [
+      "ETH"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/eth.svg",
+      "full": "icons/assets-icons/full/eth.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aeth.svg",
+        "full": "icons/assets-icons/full/aeth.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataeth.svg",
+        "full": "icons/assets-icons/full/stataeth.svg"
+      }
+    }
+  },
+  {
+    "name": "EURA (agEUR)",
+    "symbol": "eura",
+    "symbolAliases": [
+      "EURA"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/eura.svg",
+      "full": "icons/assets-icons/full/eura.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aeura.svg",
+        "full": "icons/assets-icons/full/aeura.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataeura.svg",
+        "full": "icons/assets-icons/full/stataeura.svg"
+      }
+    }
+  },
+  {
+    "name": "Monerium EUR emoney",
+    "symbol": "eure",
+    "symbolAliases": [
+      "EURe"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/eure.svg",
+      "full": "icons/assets-icons/full/eure.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aeure.svg",
+        "full": "icons/assets-icons/full/aeure.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataeure.svg",
+        "full": "icons/assets-icons/full/stataeure.svg"
+      }
+    }
+  },
+  {
+    "name": "STASIS EURS Token",
+    "symbol": "eurs",
+    "symbolAliases": [
+      "EURS"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/eurs.svg",
+      "full": "icons/assets-icons/full/eurs.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aeurs.svg",
+        "full": "icons/assets-icons/full/aeurs.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataeurs.svg",
+        "full": "icons/assets-icons/full/stataeurs.svg"
+      }
+    }
+  },
+  {
+    "name": "First Digital USD",
+    "symbol": "fdusd",
+    "symbolAliases": [
+      "FDUSD"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/fdusd.svg",
+      "full": "icons/assets-icons/full/fdusd.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/afdusd.svg",
+        "full": "icons/assets-icons/full/afdusd.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statafdusd.svg",
+        "full": "icons/assets-icons/full/statafdusd.svg"
+      }
+    }
+  },
+  {
+    "name": "Fei USD",
+    "symbol": "fei",
+    "symbolAliases": [
+      "FEI"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/fei.svg",
+      "full": "icons/assets-icons/full/fei.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/afei.svg",
+        "full": "icons/assets-icons/full/afei.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statafei.svg",
+        "full": "icons/assets-icons/full/statafei.svg"
+      }
+    }
+  },
+  {
+    "name": "Frax",
+    "symbol": "frax",
+    "symbolAliases": [
+      "FRAX"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/frax.svg",
+      "full": "icons/assets-icons/full/frax.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/afrax.svg",
+        "full": "icons/assets-icons/full/afrax.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statafrax.svg",
+        "full": "icons/assets-icons/full/statafrax.svg"
+      }
+    }
+  },
+  {
+    "name": "Fantom",
+    "symbol": "ftm",
+    "symbolAliases": [
+      "FTM"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/ftm.svg",
+      "full": "icons/assets-icons/full/ftm.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aftm.svg",
+        "full": "icons/assets-icons/full/aftm.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataftm.svg",
+        "full": "icons/assets-icons/full/stataftm.svg"
+      }
+    }
+  },
+  {
+    "name": "Frax Share",
+    "symbol": "fxs",
+    "symbolAliases": [
+      "FXS"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/fxs.svg",
+      "full": "icons/assets-icons/full/fxs.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/afxs.svg",
+        "full": "icons/assets-icons/full/afxs.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statafxs.svg",
+        "full": "icons/assets-icons/full/statafxs.svg"
+      }
+    }
+  },
+  {
+    "name": "Gho Token",
+    "symbol": "gho",
+    "symbolAliases": [
+      "GHO"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/gho.svg",
+      "full": "icons/assets-icons/full/gho.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/agho.svg",
+        "full": "icons/assets-icons/full/agho.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statagho.svg",
+        "full": "icons/assets-icons/full/statagho.svg"
+      }
+    }
+  },
+  {
+    "name": "Aavegotchi GHST",
+    "symbol": "ghst",
+    "symbolAliases": [
+      "GHST"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/ghst.svg",
+      "full": "icons/assets-icons/full/ghst.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aghst.svg",
+        "full": "icons/assets-icons/full/aghst.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataghst.svg",
+        "full": "icons/assets-icons/full/stataghst.svg"
+      }
+    }
+  },
+  {
+    "name": "Gnosis Token on xDai",
+    "symbol": "gno",
+    "symbolAliases": [
+      "GNO"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/gno.svg",
+      "full": "icons/assets-icons/full/gno.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/agno.svg",
+        "full": "icons/assets-icons/full/agno.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statagno.svg",
+        "full": "icons/assets-icons/full/statagno.svg"
+      }
+    }
+  },
+  {
+    "name": "Savings xDAI",
+    "symbol": "gnosissdai",
+    "symbolAliases": [
+      "sDAI"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/gnosissdai.svg",
+      "full": "icons/assets-icons/full/gnosissdai.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/agnosissdai.svg",
+        "full": "icons/assets-icons/full/agnosissdai.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statagnosissdai.svg",
+        "full": "icons/assets-icons/full/statagnosissdai.svg"
+      }
+    }
+  },
+  {
+    "name": "Gelato Uniswap",
+    "symbol": "guni",
+    "symbolAliases": [
+      "G-UNI"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/guni.svg",
+      "full": "icons/assets-icons/full/guni.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aguni.svg",
+        "full": "icons/assets-icons/full/aguni.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataguni.svg",
+        "full": "icons/assets-icons/full/stataguni.svg"
+      }
+    }
+  },
+  {
+    "name": "Gemini Dollar",
+    "symbol": "gusd",
+    "symbolAliases": [
+      "GUSD"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/gusd.svg",
+      "full": "icons/assets-icons/full/gusd.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/agusd.svg",
+        "full": "icons/assets-icons/full/agusd.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statagusd.svg",
+        "full": "icons/assets-icons/full/statagusd.svg"
+      }
+    }
+  },
+  {
+    "name": "Jarvis Synthetic Euro",
+    "symbol": "jeur",
+    "symbolAliases": [
+      "jEUR"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/jeur.svg",
+      "full": "icons/assets-icons/full/jeur.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/ajeur.svg",
+        "full": "icons/assets-icons/full/ajeur.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statajeur.svg",
+        "full": "icons/assets-icons/full/statajeur.svg"
+      }
+    }
+  },
+  {
+    "name": "Kyber Network Crystal v2",
+    "symbol": "knc",
+    "symbolAliases": [
+      "KNC"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/knc.svg",
+      "full": "icons/assets-icons/full/knc.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aknc.svg",
+        "full": "icons/assets-icons/full/aknc.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataknc.svg",
+        "full": "icons/assets-icons/full/stataknc.svg"
+      }
+    }
+  },
+  {
+    "name": "Kyber Legacy",
+    "symbol": "kncl",
+    "symbolAliases": [
+      "KNC"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/kncl.svg",
+      "full": "icons/assets-icons/full/kncl.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/akncl.svg",
+        "full": "icons/assets-icons/full/akncl.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statakncl.svg",
+        "full": "icons/assets-icons/full/statakncl.svg"
+      }
+    }
+  },
+  {
+    "name": "Lido DAO Token",
+    "symbol": "ldo",
+    "symbolAliases": [
+      "LDO"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/ldo.svg",
+      "full": "icons/assets-icons/full/ldo.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aldo.svg",
+        "full": "icons/assets-icons/full/aldo.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataldo.svg",
+        "full": "icons/assets-icons/full/stataldo.svg"
+      }
+    }
+  },
+  {
+    "name": "Aave [OLD]",
+    "symbol": "lend",
+    "symbolAliases": [],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/lend.svg",
+      "full": "icons/assets-icons/full/lend.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/alend.svg",
+        "full": "icons/assets-icons/full/alend.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statalend.svg",
+        "full": "icons/assets-icons/full/statalend.svg"
+      }
+    }
+  },
+  {
+    "name": "ChainLink",
+    "symbol": "link",
+    "symbolAliases": [
+      "LINK",
+      "LINK.e"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/link.svg",
+      "full": "icons/assets-icons/full/link.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/alink.svg",
+        "full": "icons/assets-icons/full/alink.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statalink.svg",
+        "full": "icons/assets-icons/full/statalink.svg"
+      }
+    }
+  },
+  {
+    "name": "LUSD Stablecoin",
+    "symbol": "lusd",
+    "symbolAliases": [
+      "LUSD"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/lusd.svg",
+      "full": "icons/assets-icons/full/lusd.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/alusd.svg",
+        "full": "icons/assets-icons/full/alusd.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statalusd.svg",
+        "full": "icons/assets-icons/full/statalusd.svg"
+      }
+    }
+  },
+  {
+    "name": "MAI (mimatic)",
+    "symbol": "mai",
+    "symbolAliases": [
+      "MAI",
+      "miMATIC"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/mai.svg",
+      "full": "icons/assets-icons/full/mai.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/amai.svg",
+        "full": "icons/assets-icons/full/amai.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statamai.svg",
+        "full": "icons/assets-icons/full/statamai.svg"
+      }
+    }
+  },
+  {
+    "name": "Decentraland",
+    "symbol": "mana",
+    "symbolAliases": [
+      "MANA"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/mana.svg",
+      "full": "icons/assets-icons/full/mana.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/amana.svg",
+        "full": "icons/assets-icons/full/amana.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statamana.svg",
+        "full": "icons/assets-icons/full/statamana.svg"
+      }
+    }
+  },
+  {
+    "name": "Polygon",
+    "symbol": "matic",
+    "symbolAliases": [
+      "MATIC"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/matic.svg",
+      "full": "icons/assets-icons/full/matic.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/amatic.svg",
+        "full": "icons/assets-icons/full/amatic.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statamatic.svg",
+        "full": "icons/assets-icons/full/statamatic.svg"
+      }
+    }
+  },
+  {
+    "name": "Liquid Staking Matic",
+    "symbol": "maticx",
+    "symbolAliases": [
+      "MaticX"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/maticx.svg",
+      "full": "icons/assets-icons/full/maticx.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/amaticx.svg",
+        "full": "icons/assets-icons/full/amaticx.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statamaticx.svg",
+        "full": "icons/assets-icons/full/statamaticx.svg"
+      }
+    }
+  },
+  {
+    "name": "Metis Token",
+    "symbol": "metis",
+    "symbolAliases": [
+      "Metis"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/metis.svg",
+      "full": "icons/assets-icons/full/metis.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/ametis.svg",
+        "full": "icons/assets-icons/full/ametis.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statametis.svg",
+        "full": "icons/assets-icons/full/statametis.svg"
+      }
+    }
+  },
+  {
+    "name": "Maker",
+    "symbol": "mkr",
+    "symbolAliases": [
+      "MKR"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/mkr.svg",
+      "full": "icons/assets-icons/full/mkr.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/amkr.svg",
+        "full": "icons/assets-icons/full/amkr.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statamkr.svg",
+        "full": "icons/assets-icons/full/statamkr.svg"
+      }
+    }
+  },
+  {
+    "name": "Harmony",
+    "symbol": "one",
+    "symbolAliases": [
+      "ONE"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/one.svg",
+      "full": "icons/assets-icons/full/one.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aone.svg",
+        "full": "icons/assets-icons/full/aone.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataone.svg",
+        "full": "icons/assets-icons/full/stataone.svg"
+      }
+    }
+  },
+  {
+    "name": "Optimism",
+    "symbol": "op",
+    "symbolAliases": [
+      "OP"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/op.svg",
+      "full": "icons/assets-icons/full/op.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aop.svg",
+        "full": "icons/assets-icons/full/aop.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataop.svg",
+        "full": "icons/assets-icons/full/stataop.svg"
+      }
+    }
+  },
+  {
+    "name": "Staked ETH",
+    "symbol": "oseth",
+    "symbolAliases": [
+      "osETH"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/oseth.svg",
+      "full": "icons/assets-icons/full/oseth.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aoseth.svg",
+        "full": "icons/assets-icons/full/aoseth.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataoseth.svg",
+        "full": "icons/assets-icons/full/stataoseth.svg"
+      }
+    }
+  },
+  {
+    "name": "PayPal USD",
+    "symbol": "pyusd",
+    "symbolAliases": [
+      "PYUSD"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/pyusd.svg",
+      "full": "icons/assets-icons/full/pyusd.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/apyusd.svg",
+        "full": "icons/assets-icons/full/apyusd.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statapyusd.svg",
+        "full": "icons/assets-icons/full/statapyusd.svg"
+      }
+    }
+  },
+  {
+    "name": "Rai Reflex Index",
+    "symbol": "rai",
+    "symbolAliases": [
+      "RAI"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/rai.svg",
+      "full": "icons/assets-icons/full/rai.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/arai.svg",
+        "full": "icons/assets-icons/full/arai.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statarai.svg",
+        "full": "icons/assets-icons/full/statarai.svg"
+      }
+    }
+  },
+  {
+    "name": "Republic Token",
+    "symbol": "ren",
+    "symbolAliases": [
+      "REN"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/ren.svg",
+      "full": "icons/assets-icons/full/ren.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aren.svg",
+        "full": "icons/assets-icons/full/aren.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataren.svg",
+        "full": "icons/assets-icons/full/stataren.svg"
+      }
+    }
+  },
+  {
+    "name": "renFIL",
+    "symbol": "renfil",
+    "symbolAliases": [
+      "renFIL"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/renfil.svg",
+      "full": "icons/assets-icons/full/renfil.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/arenfil.svg",
+        "full": "icons/assets-icons/full/arenfil.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statarenfil.svg",
+        "full": "icons/assets-icons/full/statarenfil.svg"
+      }
+    }
+  },
+  {
+    "name": "Augur",
+    "symbol": "rep",
+    "symbolAliases": [
+      "REP"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/rep.svg",
+      "full": "icons/assets-icons/full/rep.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/arep.svg",
+        "full": "icons/assets-icons/full/arep.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statarep.svg",
+        "full": "icons/assets-icons/full/statarep.svg"
+      }
+    }
+  },
+  {
+    "name": "Rocket Pool ETH",
+    "symbol": "reth",
+    "symbolAliases": [
+      "rETH"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/reth.svg",
+      "full": "icons/assets-icons/full/reth.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/areth.svg",
+        "full": "icons/assets-icons/full/areth.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statareth.svg",
+        "full": "icons/assets-icons/full/statareth.svg"
+      }
+    }
+  },
+  {
+    "name": "Rocket Pool Protocol",
+    "symbol": "rpl",
+    "symbolAliases": [
+      "RPL"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/rpl.svg",
+      "full": "icons/assets-icons/full/rpl.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/arpl.svg",
+        "full": "icons/assets-icons/full/arpl.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statarpl.svg",
+        "full": "icons/assets-icons/full/statarpl.svg"
+      }
+    }
+  },
+  {
+    "name": "Benqi Staked Avalanche",
+    "symbol": "savax",
+    "symbolAliases": [
+      "sAVAX"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/savax.svg",
+      "full": "icons/assets-icons/full/savax.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/asavax.svg",
+        "full": "icons/assets-icons/full/asavax.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statasavax.svg",
+        "full": "icons/assets-icons/full/statasavax.svg"
+      }
+    }
+  },
+  {
+    "name": "Stader",
+    "symbol": "sd",
+    "symbolAliases": [
+      "SD"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/sd.svg",
+      "full": "icons/assets-icons/full/sd.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/asd.svg",
+        "full": "icons/assets-icons/full/asd.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statasd.svg",
+        "full": "icons/assets-icons/full/statasd.svg"
+      }
+    }
+  },
+  {
+    "name": "Savings Dai",
+    "symbol": "sdai",
+    "symbolAliases": [
+      "sDAI"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/sdai.svg",
+      "full": "icons/assets-icons/full/sdai.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/asdai.svg",
+        "full": "icons/assets-icons/full/asdai.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statasdai.svg",
+        "full": "icons/assets-icons/full/statasdai.svg"
+      }
+    }
+  },
+  {
+    "name": "sETH",
+    "symbol": "seth",
+    "symbolAliases": [
+      "SETH"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/seth.svg",
+      "full": "icons/assets-icons/full/seth.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aseth.svg",
+        "full": "icons/assets-icons/full/aseth.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataseth.svg",
+        "full": "icons/assets-icons/full/stataseth.svg"
+      }
+    }
+  },
+  {
+    "name": "Synthetix Network Token",
+    "symbol": "snx",
+    "symbolAliases": [
+      "SNX"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/snx.svg",
+      "full": "icons/assets-icons/full/snx.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/asnx.svg",
+        "full": "icons/assets-icons/full/asnx.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statasnx.svg",
+        "full": "icons/assets-icons/full/statasnx.svg"
+      }
+    }
+  },
+  {
+    "name": "Lido Staked Ether",
+    "symbol": "steth",
+    "symbolAliases": [
+      "stETH"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/steth.svg",
+      "full": "icons/assets-icons/full/steth.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/asteth.svg",
+        "full": "icons/assets-icons/full/asteth.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statasteth.svg",
+        "full": "icons/assets-icons/full/statasteth.svg"
+      }
+    }
+  },
+  {
+    "name": "StargateToken",
+    "symbol": "stg",
+    "symbolAliases": [
+      "STG"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/stg.svg",
+      "full": "icons/assets-icons/full/stg.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/astg.svg",
+        "full": "icons/assets-icons/full/astg.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statastg.svg",
+        "full": "icons/assets-icons/full/statastg.svg"
+      }
+    }
+  },
+  {
+    "name": "Staked Aave",
+    "symbol": "stkaave",
+    "symbolAliases": [
+      "stkAAVE"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/stkaave.svg",
+      "full": "icons/assets-icons/full/stkaave.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/astkaave.svg",
+        "full": "icons/assets-icons/full/astkaave.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statastkaave.svg",
+        "full": "icons/assets-icons/full/statastkaave.svg"
+      }
+    }
+  },
+  {
+    "name": "stkbptv2",
+    "symbol": "stkbptv2",
+    "symbolAliases": [
+      "stkBPTV2"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/stkbptv2.svg",
+      "full": "icons/assets-icons/full/stkbptv2.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/astkbptv2.svg",
+        "full": "icons/assets-icons/full/astkbptv2.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statastkbptv2.svg",
+        "full": "icons/assets-icons/full/statastkbptv2.svg"
+      }
+    }
+  },
+  {
+    "name": "Aave stkGHO",
+    "symbol": "stkgho",
+    "symbolAliases": [
+      "stkGHO"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/stkgho.svg",
+      "full": "icons/assets-icons/full/stkgho.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/astkgho.svg",
+        "full": "icons/assets-icons/full/astkgho.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statastkgho.svg",
+        "full": "icons/assets-icons/full/statastkgho.svg"
+      }
+    }
+  },
+  {
+    "name": "Staked MATIC (PoS)",
+    "symbol": "stmatic",
+    "symbolAliases": [
+      "stMATIC"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/stmatic.svg",
+      "full": "icons/assets-icons/full/stmatic.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/astmatic.svg",
+        "full": "icons/assets-icons/full/astmatic.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statastmatic.svg",
+        "full": "icons/assets-icons/full/statastmatic.svg"
+      }
+    }
+  },
+  {
+    "name": "Synth sUSD",
+    "symbol": "susd",
+    "symbolAliases": [
+      "sUSD"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/susd.svg",
+      "full": "icons/assets-icons/full/susd.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/asusd.svg",
+        "full": "icons/assets-icons/full/asusd.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statasusd.svg",
+        "full": "icons/assets-icons/full/statasusd.svg"
+      }
+    }
+  },
+  {
+    "name": "SushiToken",
+    "symbol": "sushi",
+    "symbolAliases": [
+      "SUSHI"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/sushi.svg",
+      "full": "icons/assets-icons/full/sushi.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/asushi.svg",
+        "full": "icons/assets-icons/full/asushi.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statasushi.svg",
+        "full": "icons/assets-icons/full/statasushi.svg"
+      }
+    }
+  },
+  {
+    "name": "Tribe",
+    "symbol": "tribe",
+    "symbolAliases": [
+      "TRIBE"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/tribe.svg",
+      "full": "icons/assets-icons/full/tribe.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/atribe.svg",
+        "full": "icons/assets-icons/full/atribe.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statatribe.svg",
+        "full": "icons/assets-icons/full/statatribe.svg"
+      }
+    }
+  },
+  {
+    "name": "TrueUSD",
+    "symbol": "tusd",
+    "symbolAliases": [
+      "TUSD"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/tusd.svg",
+      "full": "icons/assets-icons/full/tusd.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/atusd.svg",
+        "full": "icons/assets-icons/full/atusd.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statatusd.svg",
+        "full": "icons/assets-icons/full/statatusd.svg"
+      }
+    }
+  },
+  {
+    "name": "Uniswap",
+    "symbol": "uni",
+    "symbolAliases": [
+      "UNI"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/uni.svg",
+      "full": "icons/assets-icons/full/uni.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/auni.svg",
+        "full": "icons/assets-icons/full/auni.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statauni.svg",
+        "full": "icons/assets-icons/full/statauni.svg"
+      }
+    }
+  },
+  {
+    "name": "Unknown",
+    "symbol": "unknown",
+    "symbolAliases": [],
+    "variations": [],
+    "icons": {
+      "mono": "icons/assets-icons/mono/unknown.svg",
+      "full": "icons/assets-icons/full/unknown.svg"
+    }
+  },
+  {
+    "name": "USD Base Coin",
+    "symbol": "usdbc",
+    "symbolAliases": [
+      "USDbC"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/usdbc.svg",
+      "full": "icons/assets-icons/full/usdbc.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/ausdbc.svg",
+        "full": "icons/assets-icons/full/ausdbc.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statausdbc.svg",
+        "full": "icons/assets-icons/full/statausdbc.svg"
+      }
+    }
+  },
+  {
+    "name": "USD Coin",
+    "symbol": "usdc",
+    "symbolAliases": [
+      "USDC",
+      "m.USDC",
+      "USDC.e"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/usdc.svg",
+      "full": "icons/assets-icons/full/usdc.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/ausdc.svg",
+        "full": "icons/assets-icons/full/ausdc.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statausdc.svg",
+        "full": "icons/assets-icons/full/statausdc.svg"
+      }
+    }
+  },
+  {
+    "name": "USDe",
+    "symbol": "usde",
+    "symbolAliases": [
+      "USDe"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/usde.svg",
+      "full": "icons/assets-icons/full/usde.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/ausde.svg",
+        "full": "icons/assets-icons/full/ausde.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statausde.svg",
+        "full": "icons/assets-icons/full/statausde.svg"
+      }
+    }
+  },
+  {
+    "name": "Pax Dollar",
+    "symbol": "usdp",
+    "symbolAliases": [
+      "USDP"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/usdp.svg",
+      "full": "icons/assets-icons/full/usdp.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/ausdp.svg",
+        "full": "icons/assets-icons/full/ausdp.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statausdp.svg",
+        "full": "icons/assets-icons/full/statausdp.svg"
+      }
+    }
+  },
+  {
+    "name": "Tether",
+    "symbol": "usdt",
+    "symbolAliases": [
+      "USDT",
+      "m.USDT",
+      "USDt",
+      "USDT.e"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/usdt.svg",
+      "full": "icons/assets-icons/full/usdt.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/ausdt.svg",
+        "full": "icons/assets-icons/full/ausdt.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statausdt.svg",
+        "full": "icons/assets-icons/full/statausdt.svg"
+      }
+    }
+  },
+  {
+    "name": "TerraUSD",
+    "symbol": "ust",
+    "symbolAliases": [
+      "UST"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/ust.svg",
+      "full": "icons/assets-icons/full/ust.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aust.svg",
+        "full": "icons/assets-icons/full/aust.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataust.svg",
+        "full": "icons/assets-icons/full/stataust.svg"
+      }
+    }
+  },
+  {
+    "name": "Wrapped Avalanche",
+    "symbol": "wavax",
+    "symbolAliases": [
+      "WAVAX"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/wavax.svg",
+      "full": "icons/assets-icons/full/wavax.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/awavax.svg",
+        "full": "icons/assets-icons/full/awavax.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statawavax.svg",
+        "full": "icons/assets-icons/full/statawavax.svg"
+      }
+    }
+  },
+  {
+    "name": "Wrapped Beacon ETH",
+    "symbol": "wbeth",
+    "symbolAliases": [
+      "WBETH"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/wbeth.svg",
+      "full": "icons/assets-icons/full/wbeth.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/awbeth.svg",
+        "full": "icons/assets-icons/full/awbeth.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statawbeth.svg",
+        "full": "icons/assets-icons/full/statawbeth.svg"
+      }
+    }
+  },
+  {
+    "name": "Wrapped BTC",
+    "symbol": "wbtc",
+    "symbolAliases": [
+      "WBTC",
+      "WBTC.e"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/wbtc.svg",
+      "full": "icons/assets-icons/full/wbtc.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/awbtc.svg",
+        "full": "icons/assets-icons/full/awbtc.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statawbtc.svg",
+        "full": "icons/assets-icons/full/statawbtc.svg"
+      }
+    }
+  },
+  {
+    "name": "Wrapped eETH",
+    "symbol": "weeth",
+    "symbolAliases": [
+      "weETH"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/weeth.svg",
+      "full": "icons/assets-icons/full/weeth.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aweeth.svg",
+        "full": "icons/assets-icons/full/aweeth.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataweeth.svg",
+        "full": "icons/assets-icons/full/stataweeth.svg"
+      }
+    }
+  },
+  {
+    "name": "Wrapped ETH",
+    "symbol": "weth",
+    "symbolAliases": [
+      "WETH",
+      "WETH.e"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/weth.svg",
+      "full": "icons/assets-icons/full/weth.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aweth.svg",
+        "full": "icons/assets-icons/full/aweth.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataweth.svg",
+        "full": "icons/assets-icons/full/stataweth.svg"
+      }
+    }
+  },
+  {
+    "name": "Wrapped Fantom",
+    "symbol": "wftm",
+    "symbolAliases": [
+      "WFTM"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/wftm.svg",
+      "full": "icons/assets-icons/full/wftm.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/awftm.svg",
+        "full": "icons/assets-icons/full/awftm.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statawftm.svg",
+        "full": "icons/assets-icons/full/statawftm.svg"
+      }
+    }
+  },
+  {
+    "name": "Wrapped Matic",
+    "symbol": "wmatic",
+    "symbolAliases": [
+      "WMATIC"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/wmatic.svg",
+      "full": "icons/assets-icons/full/wmatic.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/awmatic.svg",
+        "full": "icons/assets-icons/full/awmatic.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statawmatic.svg",
+        "full": "icons/assets-icons/full/statawmatic.svg"
+      }
+    }
+  },
+  {
+    "name": "Wrapped Harmony",
+    "symbol": "wone",
+    "symbolAliases": [
+      "WONE"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/wone.svg",
+      "full": "icons/assets-icons/full/wone.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/awone.svg",
+        "full": "icons/assets-icons/full/awone.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statawone.svg",
+        "full": "icons/assets-icons/full/statawone.svg"
+      }
+    }
+  },
+  {
+    "name": "Wrapped liquid staked Ether 2.0",
+    "symbol": "wsteth",
+    "symbolAliases": [
+      "wstETH"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/wsteth.svg",
+      "full": "icons/assets-icons/full/wsteth.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/awsteth.svg",
+        "full": "icons/assets-icons/full/awsteth.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statawsteth.svg",
+        "full": "icons/assets-icons/full/statawsteth.svg"
+      }
+    }
+  },
+  {
+    "name": "Wrapped XDAI",
+    "symbol": "wxdai",
+    "symbolAliases": [
+      "WXDAI"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/wxdai.svg",
+      "full": "icons/assets-icons/full/wxdai.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/awxdai.svg",
+        "full": "icons/assets-icons/full/awxdai.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statawxdai.svg",
+        "full": "icons/assets-icons/full/statawxdai.svg"
+      }
+    }
+  },
+  {
+    "name": "XDAI",
+    "symbol": "xdai",
+    "symbolAliases": [
+      "XDAI"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/xdai.svg",
+      "full": "icons/assets-icons/full/xdai.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/axdai.svg",
+        "full": "icons/assets-icons/full/axdai.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataxdai.svg",
+        "full": "icons/assets-icons/full/stataxdai.svg"
+      }
+    }
+  },
+  {
+    "name": "SushiBar",
+    "symbol": "xsushi",
+    "symbolAliases": [
+      "xSUSHI"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/xsushi.svg",
+      "full": "icons/assets-icons/full/xsushi.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/axsushi.svg",
+        "full": "icons/assets-icons/full/axsushi.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataxsushi.svg",
+        "full": "icons/assets-icons/full/stataxsushi.svg"
+      }
+    }
+  },
+  {
+    "name": "yearn.finance",
+    "symbol": "yfi",
+    "symbolAliases": [
+      "YFI"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/yfi.svg",
+      "full": "icons/assets-icons/full/yfi.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/ayfi.svg",
+        "full": "icons/assets-icons/full/ayfi.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statayfi.svg",
+        "full": "icons/assets-icons/full/statayfi.svg"
+      }
+    }
+  },
+  {
+    "name": "0x Coin",
+    "symbol": "zrx",
+    "symbolAliases": [
+      "ZRX"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/zrx.svg",
+      "full": "icons/assets-icons/full/zrx.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/azrx.svg",
+        "full": "icons/assets-icons/full/azrx.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statazrx.svg",
+        "full": "icons/assets-icons/full/statazrx.svg"
+      }
+    }
+  }
+]
