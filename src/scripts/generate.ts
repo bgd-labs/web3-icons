@@ -1,9 +1,13 @@
 import fs from "fs";
 import path from "path";
-import { optimize } from "svgo";
 import { z } from "zod";
 
 import { generateTokenIcon } from "../utils/generateTokenIcon.ts";
+import {
+  getPrefix,
+  processIconFile,
+  readJsonFile,
+} from "../utils/helperFunctions.ts";
 import {
   IconInfo,
   IconInfoIcons,
@@ -11,8 +15,8 @@ import {
   WriteQueueItem,
 } from "./types.ts";
 
-const ICONS_FOLDER = "src/assets/icons";
-const OUTPUT_FOLDER = "icons";
+const ICONS_FOLDER = "src/assets/assets-icons";
+const OUTPUT_FOLDER = "icons/assets-icons";
 const MONO_SUFFIX = "_mono";
 const FULL_SUFFIX = "_full";
 
@@ -22,57 +26,6 @@ const IconMetaSchema = z.object({
   symbolAliases: z.array(z.string()),
   variations: z.array(z.string()),
 });
-
-// ----------------------------------------
-// Helper functions
-// ----------------------------------------
-const getPrefix = (fileName: string) => fileName.split(/[_.]/)[0];
-
-const readJsonFile = (filePath: string) => {
-  const content = fs.readFileSync(filePath, { encoding: "utf8" });
-  const jsonData = JSON.parse(content);
-
-  const parsedData = IconMetaSchema.safeParse(jsonData);
-  if (!parsedData.success) {
-    throw new Error(`Invalid JSON structure in ${filePath}.`);
-  }
-
-  return parsedData.data;
-};
-
-const processIconFile = (filePath: string) => {
-  let svgContent = fs.readFileSync(filePath, { encoding: "utf8" });
-
-  return {
-    replaceColorWithCurrent: function () {
-      svgContent = svgContent.replace(/#[0-9a-fA-F]{6}/g, "currentColor");
-      return this;
-    },
-    optimizeSVGContent: function () {
-      const optimizationResult = optimize(svgContent, {
-        plugins: [
-          {
-            name: "preset-default",
-            params: {
-              overrides: {
-                removeViewBox: false,
-                cleanupIds: false,
-                collapseGroups: false,
-              },
-            },
-          },
-        ],
-      });
-      svgContent = optimizationResult.data;
-      return this;
-    },
-    getSVGContent: function () {
-      return svgContent;
-    },
-  };
-};
-
-// ----------------------------------------
 
 const files = fs
   .readdirSync(ICONS_FOLDER)
@@ -91,7 +44,7 @@ uniquePrefixes.forEach((prefix) => {
     return;
   }
 
-  const metaData = readJsonFile(jsonFilePath);
+  const metaData = readJsonFile(jsonFilePath, IconMetaSchema);
 
   const prefixFiles = files.filter((file) => getPrefix(file) === prefix);
   const mono = prefixFiles.find((file) => file.includes(MONO_SUFFIX)) || null;
@@ -231,7 +184,7 @@ for (const icon of iconsArray) {
   console.log(`✅ Icon ${name} (${meta.symbol}) processed.`);
 }
 
-const iconsJsonPath = path.join(OUTPUT_FOLDER, "icons.json");
+const iconsJsonPath = path.join(OUTPUT_FOLDER, "assets-icons.json");
 const iconsJsonContent = JSON.stringify(iconsInfoFile, null, 2);
 fs.writeFileSync(iconsJsonPath, iconsJsonContent);
 console.log(`📋 Icons metadata file generated at ${iconsJsonPath}.`);
