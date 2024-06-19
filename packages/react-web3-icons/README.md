@@ -18,8 +18,9 @@ export const UsageExample = () => {
   return <IconAaveFull />;
 };
 ```
-2) You can use `AssetIcon` component.
+2) You can use `AssetIcon` or `ChainIcon` components.
 
+#### AssetIcon
 | Parameter  | Type                             | Description |
 |:-----------|:---------------------------------| :------ |
 | `symbol`   | `string`                         | The `symbol` parameter is not case sensitive, you can pass it as `AAVE` or `aave` or `AaVe`. The result will always be the AAVE asset token icon.
@@ -31,6 +32,18 @@ export const UsageExample = () => {
 import { AssetIcon } from "@bgd-labs/react-web3-icons";
 export const UsageExample = () => {
   return <AssetIcon symbol="aave" />;
+};
+```
+
+#### ChainIcon
+| Parameter  | Type                             | Description |
+|:-----------|:---------------------------------| :------ |
+| `chainId`   | `number`                         | Id of the chain.
+
+```tsx
+import { ChainIcon } from "@bgd-labs/react-web3-icons";
+export const UsageExample = () => {
+  return <ChainIcon chainId={1} />;
 };
 ```
 
