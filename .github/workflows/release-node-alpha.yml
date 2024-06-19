@@ -19,10 +19,12 @@ jobs:
         with:
           node-version: 20
           registry-url: "https://registry.npmjs.org"
-          cache: "yarn"
+
+      - name: Install PNPM
+        run: npm i -g pnpm
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: install standard
         run: npm i -g standard-version
@@ -32,6 +34,6 @@ jobs:
           standard-version --prerelease ${{ github.sha }} --skip.changelog --skip.commit --skip.tag
 
       - name: Publish
-        run: yarn --filter react-web3-icons ci:publish --tag beta
+        run: pnpm --filter react-web3-icons ci:publish --tag beta
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
