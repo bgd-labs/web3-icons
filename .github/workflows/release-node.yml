@@ -24,9 +24,9 @@ jobs:
           cache: "yarn"
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: yarn install --frozen-lockfile
 
       - name: Publish
-        run: pnpm --filter react-web3-icons ci:publish
+        run: yarn --filter react-web3-icons ci:publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
