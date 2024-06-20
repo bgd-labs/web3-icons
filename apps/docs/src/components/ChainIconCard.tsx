@@ -18,7 +18,7 @@ export const ChainIconCard = ({
   return (
     <div className="relative flex h-[175px] w-[175px] flex-col justify-center border border-gray-200">
       <div className="absolute top-0 w-full flex-1">
-        <div className="max-w-[75%] p-2">
+        <div className="max-w-[100%] p-2">
           <div className="text-sm font-semibold text-gray-800">{name}</div>
           <div className="font-mono text-xs uppercase text-gray-400">
             {chainId}

@@ -14,3 +14,8 @@ export interface AssetIconProps {
   tokenTag?: TokenTag;
   formatSymbol?: (symbol: string) => string;
 }
+
+export type ChainType = {
+  name: string;
+  chainId: number;
+};

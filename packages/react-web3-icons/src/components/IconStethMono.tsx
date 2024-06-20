@@ -1,12 +1,11 @@
-import type { SVGProps } from "react";
-const IconStethMono = (props: SVGProps<SVGSVGElement>) => (
+import * as React from "react";
+const IconStethMono = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 32"
-    {...props}
   >
     <g fill="currentColor" clipPath="url(#clip0_298_543)">
       <path d="m21.3 16.46-5.31 3.13-5.3-3.13 5.3 9.66zM11.6 13.23l4.41 2.56 4.41-2.54L16 10.81z" />

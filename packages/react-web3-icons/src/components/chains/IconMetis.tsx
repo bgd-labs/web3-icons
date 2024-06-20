@@ -1,12 +1,11 @@
-import type { SVGProps } from "react";
-const IconMetis = (props: SVGProps<SVGSVGElement>) => (
+import * as React from "react";
+const IconMetis = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 50 50"
-    {...props}
   >
     <g clipPath="url(#clip0_1_10)">
       <path

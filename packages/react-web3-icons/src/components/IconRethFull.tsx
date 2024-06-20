@@ -1,12 +1,11 @@
-import type { SVGProps } from "react";
-const IconRethFull = (props: SVGProps<SVGSVGElement>) => (
+import * as React from "react";
+const IconRethFull = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 33"
-    {...props}
   >
     <path
       fill="url(#paint0_radial_348_108)"

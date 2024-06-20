@@ -1,12 +1,11 @@
-import type { SVGProps } from "react";
-const IconEnsMono = (props: SVGProps<SVGSVGElement>) => (
+import * as React from "react";
+const IconEnsMono = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 32"
-    {...props}
   >
     <path
       fill="currentColor"

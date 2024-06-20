@@ -1,12 +1,11 @@
-import type { SVGProps } from "react";
-const IconStkaaveMono = (props: SVGProps<SVGSVGElement>) => (
+import * as React from "react";
+const IconStkaaveMono = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 32"
-    {...props}
   >
     <g fill="currentColor" clipPath="url(#clip0_298_885)">
       <path d="M16 0C7.16 0 0 7.16 0 16s7.16 16 16 16 16-7.16 16-16S24.84 0 16 0m9.49 18.45a6.26 6.26 0 0 1-1.51 3.82c-.91 1.11-1.97 2.09-3.15 2.92a28.3 28.3 0 0 1-4.51 2.64c-.17.08-.36.08-.53 0a28.3 28.3 0 0 1-4.51-2.64c-1.18-.82-2.24-1.8-3.15-2.92a6.26 6.26 0 0 1-1.51-3.82V8.79c0-.29.19-.54.47-.63l8.78-2.63c.12-.04.25-.04.38 0l8.78 2.63c.28.08.47.34.47.63v9.66z" />

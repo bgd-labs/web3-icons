@@ -1,12 +1,11 @@
-import type { SVGProps } from "react";
-const IconSusdMono = (props: SVGProps<SVGSVGElement>) => (
+import * as React from "react";
+const IconSusdMono = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 32"
-    {...props}
   >
     <g fill="currentColor" clipPath="url(#clip0_298_628)">
       <path d="m17.03 16.9-.27-.05v2.98q.75-.135 1.17-.54c.28-.29.42-.65.42-1.09 0-.41-.13-.7-.4-.9s-.57-.34-.91-.4zM13.97 13.5c0 .37.1.66.3.85.21.18.49.3.83.35l.48.08v-2.82c-.45.06-.83.23-1.15.5-.31.26-.46.6-.46 1.04" />

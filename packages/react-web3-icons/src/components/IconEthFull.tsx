@@ -1,12 +1,11 @@
-import type { SVGProps } from "react";
-const IconEthFull = (props: SVGProps<SVGSVGElement>) => (
+import * as React from "react";
+const IconEthFull = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 32"
-    {...props}
   >
     <g clipPath="url(#clip0_294_3463)">
       <path

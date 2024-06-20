@@ -1,12 +1,11 @@
-import type { SVGProps } from "react";
-const IconWbtcMono = (props: SVGProps<SVGSVGElement>) => (
+import * as React from "react";
+const IconWbtcMono = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 32"
-    {...props}
   >
     <g fill="currentColor" clipPath="url(#clip0_298_909)">
       <path d="M16 0C7.16 0 0 7.16 0 16s7.16 16 16 16 16-7.16 16-16S24.84 0 16 0m.12 31.13C7.77 31.13 1 24.36 1 16 1 7.65 7.77.88 16.13.88 24.48.88 31.25 7.65 31.25 16s-6.77 15.12-15.12 15.13z" />

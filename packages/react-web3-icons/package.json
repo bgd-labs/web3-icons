@@ -1,10 +1,10 @@
 {
   "name": "@bgd-labs/react-web3-icons",
   "description": "Svg set of web3 assets icons.",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "author": "BGD labs",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "publishConfig": {
     "access": "public"
   },
@@ -30,8 +30,9 @@
   "files": [
     "src/**/*"
   ],
+  "type": "module",
   "scripts": {
-    "start": "tsup src/index.tsx --watch",
+    "start": "tsup src/index.ts --watch",
     "build": "tsup",
     "ci:publish": "npm run build && npm publish --access=public"
   },
