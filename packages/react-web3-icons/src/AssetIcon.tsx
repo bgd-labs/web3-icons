@@ -1,5 +1,7 @@
 "use client";
 
+import React, { Suspense } from "react";
+
 import { AssetIconProps, TokenVariant } from "./types";
 import { formatSymbolForIcon } from "./utils";
 import { capitalize } from "./utils/capitalize";
@@ -18,16 +20,27 @@ export const AssetIcon = ({
     : formatSymbolForIcon({ symbol });
 
   try {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const Icon = require(
-      `./components/Icon${tokenTag ? tokenTag : ""}${tokenTag ? formattedSymbol : capitalize(formattedSymbol)}${capitalize(variant)}`,
-    )?.default;
-    return <Icon />;
+    const Icon = React.lazy(
+      () =>
+        import(
+          `./components/Icon${tokenTag ? tokenTag : ""}${tokenTag ? formattedSymbol : capitalize(formattedSymbol)}${capitalize(variant)}`
+        ),
+    );
+    return (
+      // TODO: need think about fallback
+      <Suspense fallback={<div />}>
+        <Icon />
+      </Suspense>
+    );
   } catch (e) {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const UnknownIcon = require(
-      `./components/IconUnknown${capitalize(variant)}`,
-    ).default;
-    return <UnknownIcon />;
+    const UnknownIcon = React.lazy(
+      () => import(`./components/IconUnknown${capitalize(variant)}`),
+    );
+    return (
+      // TODO: need think about fallback
+      <Suspense fallback={<div />}>
+        <UnknownIcon />
+      </Suspense>
+    );
   }
 };

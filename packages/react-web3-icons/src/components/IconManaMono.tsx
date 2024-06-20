@@ -1,12 +1,11 @@
-import type { SVGProps } from "react";
-const IconManaMono = (props: SVGProps<SVGSVGElement>) => (
+import * as React from "react";
+const IconManaMono = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 32"
-    {...props}
   >
     <g fill="currentColor" clipPath="url(#clip0_297_227)">
       <path d="m14.335 25.33 2.25-2.7H1.45c.44.95.96 1.86 1.571 2.7z" />

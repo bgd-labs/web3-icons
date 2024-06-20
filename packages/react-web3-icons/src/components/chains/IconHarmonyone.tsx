@@ -1,12 +1,11 @@
-import type { SVGProps } from "react";
-const IconHarmonyone = (props: SVGProps<SVGSVGElement>) => (
+import * as React from "react";
+const IconHarmonyone = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 50 50"
-    {...props}
   >
     <g clipPath="url(#clip0_62_2)">
       <g clipPath="url(#clip1_62_2)">

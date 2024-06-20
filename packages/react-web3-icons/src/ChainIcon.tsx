@@ -1,5 +1,7 @@
 "use client";
 
+import React, { Suspense } from "react";
+
 import { ChainType } from "./types";
 import { getChainName } from "./utils";
 import { capitalize } from "./utils/capitalize";
@@ -10,14 +12,27 @@ import { capitalize } from "./utils/capitalize";
 export const ChainIcon = ({ chainId }: Pick<ChainType, "chainId">) => {
   const chainName = getChainName({ chainId });
   try {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const Icon = require(
-      `./components/chains/Icon${capitalize(chainName.replace(/\s/g, "").toLowerCase())}`,
-    )?.default;
-    return <Icon />;
+    const Icon = React.lazy(
+      () =>
+        import(
+          `./components/chains/Icon${capitalize(chainName.replace(/\s/g, "").toLowerCase())}`
+        ),
+    );
+    return (
+      // TODO: need think about fallback
+      <Suspense fallback={<div />}>
+        <Icon />
+      </Suspense>
+    );
   } catch (e) {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const UnknownIcon = require(`./components/IconUnknownFull`).default;
-    return <UnknownIcon />;
+    const UnknownIcon = React.lazy(
+      () => import(`./components/IconUnknownFull`),
+    );
+    return (
+      // TODO: need think about fallback
+      <Suspense fallback={<div />}>
+        <UnknownIcon />
+      </Suspense>
+    );
   }
 };

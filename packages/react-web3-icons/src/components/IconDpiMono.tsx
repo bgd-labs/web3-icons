@@ -1,12 +1,11 @@
-import type { SVGProps } from "react";
-const IconDpiMono = (props: SVGProps<SVGSVGElement>) => (
+import * as React from "react";
+const IconDpiMono = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 32"
-    {...props}
   >
     <g fill="currentColor" clipPath="url(#clip0_294_3750)">
       <path d="M17.94 18.689c.503-.4.903-.924 1.19-1.57.288-.647.442-1.427.442-2.35 0-.462-.031-.863-.103-1.242a4 4 0 0 0-.78-.34 6.5 6.5 0 0 0-1.848-.256h-1.467v6.805c.267-.041.523-.093.78-.154a5.1 5.1 0 0 0 1.775-.893z" />

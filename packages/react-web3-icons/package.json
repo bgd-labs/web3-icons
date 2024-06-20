@@ -32,9 +32,9 @@
   ],
   "type": "module",
   "scripts": {
-    "start": "tsup src/index.tsx --watch",
+    "start": "tsup src/index.ts --watch",
     "build": "tsup",
-    "ci:publish": "npm run build && npm publish --access=public"
+    "ci:publish": "pnpm run build && pnpm publish --access=public"
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.6",

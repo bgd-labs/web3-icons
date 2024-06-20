@@ -1,12 +1,11 @@
-import type { SVGProps } from "react";
-const IconGuniMono = (props: SVGProps<SVGSVGElement>) => (
+import * as React from "react";
+const IconGuniMono = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 33"
-    {...props}
   >
     <path fill="currentColor" d="m21.65 10.97-5.69-5.6 8.64 3.99z" />
     <path

@@ -1,12 +1,11 @@
-import type { SVGProps } from "react";
-const IconBnbsmartchain = (props: SVGProps<SVGSVGElement>) => (
+import * as React from "react";
+const IconBnbsmartchain = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 50 50"
     width="100%"
     height="100%"
-    {...props}
   >
     <g clipPath="url(#clip0_1_8)">
       <path
