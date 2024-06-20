@@ -1,7 +1,7 @@
 {
   "name": "@bgd-labs/react-web3-icons",
   "description": "Svg set of web3 assets icons.",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "author": "BGD labs",
   "license": "MIT",
   "private": false,
@@ -26,18 +26,23 @@
     "url": "https://github.com/bgd-labs/icons/issues"
   },
   "homepage": "https://github.com/bgd-labs/icons/blob/main/README.md",
-  "main": "src/index.ts",
-  "files": [
-    "src/**/*"
-  ],
-  "type": "module",
   "scripts": {
     "start": "tsup src/index.ts --watch",
     "build": "tsup",
     "ci:publish": "npm run build && npm publish --access=public"
   },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
-    "@tsconfig/recommended": "^1.0.6",
     "@types/react": "^18.2.75",
     "tsup": "^8.1.0"
   },

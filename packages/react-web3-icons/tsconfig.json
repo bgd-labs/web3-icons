@@ -1,13 +1,14 @@
 {
-  "extends": "@tsconfig/recommended/tsconfig.json",
   "compilerOptions": {
     "target": "es2020",
     "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
     "resolveJsonModule": true,
     "moduleResolution": "node",
     "allowImportingTsExtensions": true,
-    "strictNullChecks": false,
-    "jsx": "react"
+    "jsx": "react",
+    "strictNullChecks": false
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules", "dist"]
