@@ -30,6 +30,7 @@
   "files": [
     "src/**/*"
   ],
+  "type": "module",
   "scripts": {
     "start": "tsup src/index.tsx --watch",
     "build": "tsup",

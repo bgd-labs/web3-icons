@@ -1,6 +1,6 @@
 "use client";
 
-import { ChainType } from "../../../src/scripts/types";
+import { ChainType } from "./types";
 import { capitalize } from "./utils/capitalize";
 import { getChainName } from "./utils/getChainName";
 
