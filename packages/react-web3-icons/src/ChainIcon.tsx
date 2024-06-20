@@ -1,8 +1,8 @@
 "use client";
 
 import { ChainType } from "./types";
+import { getChainName } from "./utils";
 import { capitalize } from "./utils/capitalize";
-import { getChainName } from "./utils/getChainName";
 
 /**
  * Renders a chain icon specified by chainId.

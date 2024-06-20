@@ -1,8 +1,8 @@
 "use client";
 
 import { AssetIconProps, TokenVariant } from "./types";
+import { formatSymbolForIcon } from "./utils";
 import { capitalize } from "./utils/capitalize";
-import { formatSymbolForIcon } from "./utils/formatSymbolForIcon";
 
 /**
  * Renders a tokenIcon specified by symbol.
