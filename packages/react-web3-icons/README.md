@@ -10,15 +10,14 @@ This package includes all the icons in several variations related to the Aave ec
 <code>pnpm add @bgd-labs/react-web3-icons</code>
 
 ### Usage
-You have two use cases of this package:
-1) You can directly use the icon you need as a react component. This will be just a svg, which you can style if necessary.
+### 1) You can directly use the icon you need as a react component. This will be just a svg, which you can style if necessary.
 ```tsx
 import { IconAaveFull } from "@bgd-labs/react-web3-icons";
 export const UsageExample = () => {
   return <IconAaveFull />;
 };
 ```
-2) You can use `AssetIcon` or `ChainIcon` components.
+### 2) You can use `AssetIcon` or `ChainIcon` components.
 
 #### AssetIcon
 | Parameter  | Type                             | Description |
@@ -44,6 +43,33 @@ export const UsageExample = () => {
 import { ChainIcon } from "@bgd-labs/react-web3-icons";
 export const UsageExample = () => {
   return <ChainIcon chainId={1} />;
+};
+```
+
+### 3) You can get chain or asset name without rpc call.
+#### Get asset name
+| Parameter  | Type                             | Description |
+|:-----------|:---------------------------------| :------ |
+| `symbol`   | `string`                         | The `symbol` parameter is not case sensitive, you can pass it as `AAVE` or `aave` or `AaVe`. The result will always be the AAVE asset token icon.
+| `formatSymbol`   | `(symbol: string) => string`     | If you have a special condition for asset symbol formatting, you can replace the formatting function inside the component.
+
+```tsx
+import { AssetIcon, getAssetName } from "@bgd-labs/react-web3-icons";
+export const UsageExample = () => {
+  const assetName = getAssetName({ symbol: "aave" });
+  return <div><span>{assetName}</span><AssetIcon symbol="aave" /></div>;
+};
+```
+#### Get chain name
+| Parameter  | Type                             | Description |
+|:-----------|:---------------------------------| :------ |
+| `chainId`   | `number`                         | Id of the chain.
+
+```tsx
+import { ChainIcon, getChainName } from "@bgd-labs/react-web3-icons";
+export const UsageExample = () => {
+  const chainName = getChainName({ chainId: 1 });
+  return <div><span>{chainName}</span><ChainIcon chainId={1} /></div>;
 };
 ```
 
