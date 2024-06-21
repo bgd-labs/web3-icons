@@ -1,0 +1,11 @@
+{
+  "name": "Stader BNBx",
+  "symbol": "bnbx",
+  "symbolAliases": [
+    "BNBx"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

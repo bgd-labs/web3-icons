@@ -1,6 +1,6 @@
-import { AssetIconProps } from "../types";
 import { assetsNames } from "./assetsNames";
 import { formatSymbolForIcon } from "./formatSymbolForIcon";
+import { AssetIconProps } from "./types";
 export const getAssetName = ({
   symbol,
   formatSymbol,

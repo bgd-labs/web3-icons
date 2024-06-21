@@ -1,11 +1,13 @@
 import * as React from "react";
-const IconPyusdMono = () => (
+import type { SVGProps } from "react";
+const IconPyusdMono = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 32"
+    {...props}
   >
     <g fill="currentColor" clipPath="url(#clip0_298_734)">
       <path d="M18.66 8.26h-5.25l-.28 1.81 5.4.02c1.51 0 2.76 1.25 2.76 2.76 0 1.52-1.24 2.76-2.76 2.76h-6.29l-1.23 7.93h3.1l.81-5.06c.11-.62.64-1.08 1.27-1.08h2.38c2.51 0 4.61-1.96 4.69-4.46.06-2.57-2.02-4.69-4.59-4.69z" />

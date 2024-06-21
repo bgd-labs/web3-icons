@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/bgd-labs/icons/blob/main/README.md",
   "scripts": {
-    "build": "next build",
+    "build": "pnpm --filter react-web3-icons build && next build",
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start"

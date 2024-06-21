@@ -1,7 +1,6 @@
 "use client";
 
-import { type ReactNode, useCallback } from "react";
-import { renderToString } from "react-dom/server";
+import { useCallback } from "react";
 
 function downloadBlob(blob: Blob, filename: string) {
   const objectUrl = URL.createObjectURL(blob);
@@ -15,20 +14,18 @@ function downloadBlob(blob: Blob, filename: string) {
 }
 
 interface DownloadButtonProps {
-  svgComponent: ReactNode;
+  svgPath: string;
   fileName: string;
 }
 
-export const DownloadButton = ({
-  svgComponent,
-  fileName,
-}: DownloadButtonProps) => {
-  const downloadSVG = useCallback(() => {
-    const blob = new Blob([renderToString(svgComponent)], {
-      type: "image/svg+xml",
-    });
-    downloadBlob(blob, `${fileName}.svg`);
-  }, [fileName, svgComponent]);
+export const DownloadButton = ({ svgPath, fileName }: DownloadButtonProps) => {
+  const downloadSVG = useCallback(async () => {
+    const svgResponse = await fetch(svgPath);
+    if (svgResponse.ok) {
+      const blob = await svgResponse.blob();
+      downloadBlob(blob, `${fileName}.svg`);
+    }
+  }, [fileName, svgPath]);
 
   return (
     <button

@@ -1,0 +1,11 @@
+{
+  "name": "Stader ETHx",
+  "symbol": "ethx",
+  "symbolAliases": [
+    "ETHx"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

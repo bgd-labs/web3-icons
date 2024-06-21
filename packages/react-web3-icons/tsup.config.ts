@@ -3,8 +3,8 @@ import { Options } from "tsup";
 const config: Options = {
   entry: [
     "src/index.ts",
-    "src/components/index.ts",
-    "src/components/chains/index.ts",
+    "src/components/*.tsx",
+    "src/components/chains/*.tsx",
     "src/utils/index.ts",
   ],
   sourcemap: true,
@@ -13,9 +13,15 @@ const config: Options = {
   format: ["iife", "cjs", "esm"],
   dts: {
     compilerOptions: {
-      moduleResolution: "node",
-      allowSyntheticDefaultImports: true,
+      target: "es2020",
+      module: "esnext",
       strict: true,
+      esModuleInterop: true,
+      resolveJsonModule: true,
+      moduleResolution: "node",
+      allowImportingTsExtensions: true,
+      jsx: "react",
+      strictNullChecks: false,
     },
   },
   // otherwise .env is ordered wrongly

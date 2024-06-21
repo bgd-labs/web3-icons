@@ -1,11 +1,13 @@
 import * as React from "react";
-const IconEuraMono = () => (
+import type { SVGProps } from "react";
+const IconEuraMono = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 32"
+    {...props}
   >
     <g fill="currentColor" clipPath="url(#clip0_297_3)">
       <path d="M21.717 21.285h-1.212v1.766h1.212c.307 0 .543-.072.697-.216.165-.144.236-.349.236-.616v-.113a.8.8 0 0 0-.236-.574c-.164-.165-.39-.247-.698-.247" />

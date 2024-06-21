@@ -66,7 +66,7 @@ Promise.all(
         icon: "100%",
         typescript: true,
         svgo: false,
-        expandProps: false,
+        expandProps: "end",
         exportType: "default",
         jsxRuntime: "classic",
         plugins: ["@svgr/plugin-jsx", "@svgr/plugin-prettier"],
