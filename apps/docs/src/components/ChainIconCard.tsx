@@ -1,10 +1,10 @@
 "use client";
 
-import { ChainIcon } from "@bgd-labs/react-web3-icons";
 import { renderToString } from "react-dom/server";
 
 import { CopyToClipboard } from "@/components/CopyToClipboard";
 import { DownloadButton } from "@/components/DownloadButton";
+import { ChainIcon } from "@/components/Web3Icons/ChainIcon";
 
 export const ChainIconCard = ({
   name,

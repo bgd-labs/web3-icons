@@ -1,11 +1,12 @@
 "use client";
 
-import { AssetIcon, TokenTag, TokenVariant } from "@bgd-labs/react-web3-icons";
+import { TokenTag, TokenVariant } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 import { renderToString } from "react-dom/server";
 
 import { CopyToClipboard } from "@/components/CopyToClipboard";
 import { DownloadButton } from "@/components/DownloadButton";
+import { AssetIcon } from "@/components/Web3Icons/AssetIcon";
 import { cn } from "@/utils/cn";
 
 const tags: { tag: TokenTag | undefined; symbol: string }[] = [

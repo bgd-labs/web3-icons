@@ -1,11 +1,13 @@
 import * as React from "react";
-const IconGnosis = () => (
+import type { SVGProps } from "react";
+const IconGnosis = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 50 50"
+    {...props}
   >
     <g fill="#04795B" clipPath="url(#clip0_1_2)">
       <path d="M14.846 28.386c1.474 0 2.836-.49 3.933-1.338l-9.001-8.973a6.27 6.27 0 0 0-1.343 3.92c-.019 3.526 2.855 6.391 6.41 6.391M41.621 21.977c0-1.47-.492-2.828-1.343-3.92l-9 8.972c1.078.848 2.439 1.338 3.933 1.338 3.536.019 6.41-2.846 6.41-6.39" />

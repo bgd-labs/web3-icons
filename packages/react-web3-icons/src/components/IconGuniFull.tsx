@@ -1,11 +1,13 @@
 import * as React from "react";
-const IconGuniFull = () => (
+import type { SVGProps } from "react";
+const IconGuniFull = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 33"
+    {...props}
   >
     <path
       fill="#FFE7D4"

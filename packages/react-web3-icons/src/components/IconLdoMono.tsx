@@ -1,11 +1,13 @@
 import * as React from "react";
-const IconLdoMono = () => (
+import type { SVGProps } from "react";
+const IconLdoMono = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
     fill="none"
     viewBox="0 0 32 32"
+    {...props}
   >
     <g fill="currentColor" clipPath="url(#clip0_297_32)">
       <path d="m19.9 13.034-3.89-6.086-3.9 6.086 3.9 2.268z" />
