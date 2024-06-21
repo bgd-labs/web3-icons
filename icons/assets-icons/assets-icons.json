@@ -185,6 +185,29 @@
     }
   },
   {
+    "name": "Stader BNBx",
+    "symbol": "bnbx",
+    "symbolAliases": [
+      "BNBx"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/bnbx.svg",
+      "full": "icons/assets-icons/full/bnbx.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/abnbx.svg",
+        "full": "icons/assets-icons/full/abnbx.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statabnbx.svg",
+        "full": "icons/assets-icons/full/statabnbx.svg"
+      }
+    }
+  },
+  {
     "name": "BlackPool",
     "symbol": "bpt",
     "symbolAliases": [
@@ -483,6 +506,29 @@
       "stataToken": {
         "mono": "icons/assets-icons/mono/stataeth.svg",
         "full": "icons/assets-icons/full/stataeth.svg"
+      }
+    }
+  },
+  {
+    "name": "Stader ETHx",
+    "symbol": "ethx",
+    "symbolAliases": [
+      "ETHx"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/ethx.svg",
+      "full": "icons/assets-icons/full/ethx.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/aethx.svg",
+        "full": "icons/assets-icons/full/aethx.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/stataethx.svg",
+        "full": "icons/assets-icons/full/stataethx.svg"
       }
     }
   },
@@ -1430,6 +1476,29 @@
     }
   },
   {
+    "name": "Frax Staked Ether",
+    "symbol": "sfrxeth",
+    "symbolAliases": [
+      "sfrxETH"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/sfrxeth.svg",
+      "full": "icons/assets-icons/full/sfrxeth.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/asfrxeth.svg",
+        "full": "icons/assets-icons/full/asfrxeth.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statasfrxeth.svg",
+        "full": "icons/assets-icons/full/statasfrxeth.svg"
+      }
+    }
+  },
+  {
     "name": "Synthetix Network Token",
     "symbol": "snx",
     "symbolAliases": [
@@ -1472,6 +1541,29 @@
       "stataToken": {
         "mono": "icons/assets-icons/mono/statasteth.svg",
         "full": "icons/assets-icons/full/statasteth.svg"
+      }
+    }
+  },
+  {
+    "name": "Angle Staked EURA",
+    "symbol": "steur",
+    "symbolAliases": [
+      "stEUR"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/steur.svg",
+      "full": "icons/assets-icons/full/steur.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/asteur.svg",
+        "full": "icons/assets-icons/full/asteur.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statasteur.svg",
+        "full": "icons/assets-icons/full/statasteur.svg"
       }
     }
   },
