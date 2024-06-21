@@ -16,6 +16,7 @@ const IconsPage = () => {
               key={asset.symbol}
               name={asset.name}
               symbol={asset.symbol}
+              icons={asset.icons}
             />
           ))}
       </div>
@@ -27,6 +28,7 @@ const IconsPage = () => {
             key={chain.chainId}
             chainId={chain.chainId}
             name={chain.name}
+            iconPath={chain.icon}
           />
         ))}
       </div>

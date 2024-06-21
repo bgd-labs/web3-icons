@@ -1,7 +1,5 @@
 "use client";
 
-// TODO: need fix
-
 import { type ReactNode, useState } from "react";
 import * as React from "react";
 
@@ -9,21 +7,25 @@ import { CopyIcon } from "@/components/CopyIcon";
 import { cn } from "@/utils/cn";
 
 type Props = {
-  copyText: string | number | null | ReactNode;
+  svgPath: string;
   children?: ReactNode;
   className?: React.ComponentProps<"div">["className"];
 };
 
-export const CopyToClipboard = ({ copyText, className, children }: Props) => {
+export const CopyToClipboard = ({ svgPath, className, children }: Props) => {
   const [copied, setCopied] = useState(false);
 
   const handleCopyClick = async (event: React.MouseEvent) => {
     event.preventDefault();
-    await navigator.clipboard.writeText(String(copyText));
-    setCopied(true);
-    setTimeout(() => {
-      setCopied(false);
-    }, 1500);
+    const svgResponse = await fetch(svgPath);
+    if (svgResponse.ok) {
+      const copyText = await svgResponse.text();
+      await navigator.clipboard.writeText(String(copyText));
+      setCopied(true);
+      setTimeout(() => {
+        setCopied(false);
+      }, 1500);
+    }
   };
 
   return (

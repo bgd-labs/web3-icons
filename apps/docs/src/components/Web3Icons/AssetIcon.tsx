@@ -7,7 +7,7 @@ import {
 } from "@bgd-labs/react-web3-icons/dist/utils";
 
 /**
- * Renders a Token icon specified by symbol.
+ * Renders an asset icon specified by symbol.
  */
 export const AssetIcon = ({ ...props }: AssetIconProps) => {
   const iconPath = getAssetIconPath(props);

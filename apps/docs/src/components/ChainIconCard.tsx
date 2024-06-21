@@ -1,17 +1,18 @@
 "use client";
 
-import { renderToString } from "react-dom/server";
-
 import { CopyToClipboard } from "@/components/CopyToClipboard";
 import { DownloadButton } from "@/components/DownloadButton";
 import { ChainIcon } from "@/components/Web3Icons/ChainIcon";
+import { githubIconsPath } from "@/utils/constants";
 
 export const ChainIconCard = ({
   name,
   chainId,
+  iconPath,
 }: {
   name: string;
   chainId: number;
+  iconPath: string;
 }) => {
   const Icon = () => <ChainIcon chainId={chainId} />;
 
@@ -34,8 +35,11 @@ export const ChainIconCard = ({
 
       <div className="relative flex flex-1 items-end justify-between">
         <div className="flex flex-1 items-end justify-end">
-          <DownloadButton svgComponent={<Icon />} fileName={name} />
-          <CopyToClipboard copyText={renderToString(<Icon />)} />
+          <DownloadButton
+            svgPath={`${githubIconsPath}${iconPath}`}
+            fileName={name}
+          />
+          <CopyToClipboard svgPath={`${githubIconsPath}${iconPath}`} />
         </div>
       </div>
     </div>

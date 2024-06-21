@@ -2,12 +2,14 @@
 
 import { TokenTag, TokenVariant } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
-import { renderToString } from "react-dom/server";
 
 import { CopyToClipboard } from "@/components/CopyToClipboard";
 import { DownloadButton } from "@/components/DownloadButton";
 import { AssetIcon } from "@/components/Web3Icons/AssetIcon";
 import { cn } from "@/utils/cn";
+import { githubIconsPath } from "@/utils/constants";
+
+import { IconInfoIcons } from "../../../../src/scripts/types";
 
 const tags: { tag: TokenTag | undefined; symbol: string }[] = [
   {
@@ -66,12 +68,26 @@ const TagButton = <T extends string>({
 export const IconCard = ({
   name,
   symbol,
+  icons,
 }: {
   name: string;
   symbol: string;
+  icons: IconInfoIcons;
 }) => {
   const [activeTag, setActiveTag] = useState<TokenTag | undefined>(undefined);
   const [activeType, setActiveType] = useState(TokenVariant.Full);
+
+  const iconPath = activeTag
+    ? // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-expect-error
+      icons[
+        activeTag === TokenTag.AToken
+          ? "aToken"
+          : activeTag === TokenTag.StataToken
+            ? "stataToken"
+            : "aToken"
+      ][activeType]
+    : icons[activeType];
 
   const Icon = () => (
     <AssetIcon symbol={symbol} variant={activeType} tokenTag={activeTag} />
@@ -121,10 +137,10 @@ export const IconCard = ({
 
         <div className="flex flex-1 items-end justify-end">
           <DownloadButton
-            svgComponent={<Icon />}
+            svgPath={`${githubIconsPath}${iconPath}`}
             fileName={`${activeTag ? activeTag : ""}${symbol}${activeType === TokenVariant.Full ? "" : activeType}`}
           />
-          <CopyToClipboard copyText={renderToString(<Icon />)} />
+          <CopyToClipboard svgPath={`${githubIconsPath}${iconPath}`} />
         </div>
       </div>
     </div>

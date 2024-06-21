@@ -1,5 +1,4 @@
 # React web3 icons
-DOCS WIP
 
 This package includes all the icons in several variations related to the Aave ecosystem. Is only suitable for use if you have a `react` application.
 
@@ -14,14 +13,14 @@ This package includes all the icons in several variations related to the Aave ec
 ### Usage
 ### 1) You can directly use the icon you need as a react component. This will be just a svg, which you can style if necessary.
 ```tsx
-import { IconAaveFull } from "@bgd-labs/react-web3-icons";
+import { IconAaveFull } from "@bgd-labs/react-web3-icons/components";
 export const UsageExample = () => {
   return <IconAaveFull />;
 };
 ```
-### 2) You can use `AssetIcon` or `ChainIcon` components.
+### 2) You can use `DynamicIcon` component.
 
-#### AssetIcon
+#### AssetIcon example
 | Parameter  | Type                             | Description |
 |:-----------|:---------------------------------| :------ |
 | `symbol`   | `string`                         | The `symbol` parameter is not case sensitive, you can pass it as `AAVE` or `aave` or `AaVe`. The result will always be the AAVE asset token icon.
@@ -30,22 +29,60 @@ export const UsageExample = () => {
 | `formatSymbol`   | `(symbol: string) => string`     | If you have a special condition for asset symbol formatting, you can replace the formatting function inside the component.
 
 ```tsx
-import { AssetIcon } from "@bgd-labs/react-web3-icons";
-export const UsageExample = () => {
-  return <AssetIcon symbol="aave" />;
+"use client";
+
+import { DynamicIcon } from "@bgd-labs/react-web3-icons";
+import {
+  AssetIconProps,
+  getAssetIconPath,
+} from "@bgd-labs/react-web3-icons/dist/utils";
+
+/**
+ * Renders an asset icon specified by symbol.
+ */
+export const AssetIcon = ({ ...props }: AssetIconProps) => {
+  const iconPath = getAssetIconPath(props);
+  return (
+    <DynamicIcon
+      dynamicComponent={() =>
+        import(`@bgd-labs/react-web3-icons/dist/components/Icon${iconPath}.cjs`)
+      }
+    />
+  );
 };
+
 ```
 
-#### ChainIcon
+#### ChainIcon example
 | Parameter  | Type                             | Description |
 |:-----------|:---------------------------------| :------ |
 | `chainId`   | `number`                         | Id of the chain.
 
 ```tsx
-import { ChainIcon } from "@bgd-labs/react-web3-icons";
-export const UsageExample = () => {
-  return <ChainIcon chainId={1} />;
+"use client";
+
+import { DynamicIcon } from "@bgd-labs/react-web3-icons";
+import {
+  ChainType,
+  getChainIconPath,
+} from "@bgd-labs/react-web3-icons/dist/utils";
+
+/**
+ * Renders a chain icon specified by chain id.
+ */
+export const ChainIcon = ({ ...props }: Pick<ChainType, "chainId">) => {
+  const iconPath = getChainIconPath(props);
+  return (
+    <DynamicIcon
+      dynamicComponent={() =>
+        import(
+          `@bgd-labs/react-web3-icons/dist/components/chains/Icon${iconPath}.cjs`
+          )
+      }
+    />
+  );
 };
+
 ```
 
 ### 3) You can get chain or asset name without rpc call.
