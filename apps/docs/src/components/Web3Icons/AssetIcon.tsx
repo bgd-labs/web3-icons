@@ -13,8 +13,9 @@ export const AssetIcon = ({ ...props }: AssetIconProps) => {
   const iconPath = getAssetIconPath(props);
   return (
     <DynamicIcon
+      iconPath={iconPath}
       dynamicComponent={() =>
-        import(`@bgd-labs/react-web3-icons/dist/components/Icon${iconPath}.cjs`)
+        import("@bgd-labs/react-web3-icons/dist/components/index.cjs")
       }
       loadingComponent={
         <div className="size-11 animate-pulse rounded-full bg-brand-300" />

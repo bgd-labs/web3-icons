@@ -1,15 +1,13 @@
 {
+  "include": ["./src"],
   "compilerOptions": {
-    "target": "es2020",
-    "module": "esnext",
-    "strict": true,
     "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "moduleResolution": "node",
-    "allowImportingTsExtensions": true,
     "jsx": "react",
-    "strictNullChecks": false
-  },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
-  "exclude": ["node_modules", "dist"]
+    "module": "CommonJS",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true
+  }
 }

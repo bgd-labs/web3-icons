@@ -27,13 +27,12 @@ Promise.all(
     const tsxCode = await transform(
       iconContent,
       {
+        plugins: ["@svgr/plugin-jsx", "@svgr/plugin-prettier"],
         icon: "100%",
         typescript: true,
         svgo: false,
         expandProps: "end",
-        exportType: "default",
         jsxRuntime: "classic",
-        plugins: ["@svgr/plugin-jsx", "@svgr/plugin-prettier"],
       },
       { componentName },
     );

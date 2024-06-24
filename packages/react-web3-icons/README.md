@@ -44,13 +44,13 @@ export const AssetIcon = ({ ...props }: AssetIconProps) => {
   const iconPath = getAssetIconPath(props);
   return (
     <DynamicIcon
+      iconPath={iconPath}
       dynamicComponent={() =>
-        import(`@bgd-labs/react-web3-icons/dist/components/Icon${iconPath}.cjs`)
+        import("@bgd-labs/react-web3-icons/dist/components/index.cjs")
       }
     />
   );
 };
-
 ```
 
 #### ChainIcon example
@@ -74,15 +74,13 @@ export const ChainIcon = ({ ...props }: Pick<ChainType, "chainId">) => {
   const iconPath = getChainIconPath(props);
   return (
     <DynamicIcon
+      iconPath={iconPath}
       dynamicComponent={() =>
-        import(
-          `@bgd-labs/react-web3-icons/dist/components/chains/Icon${iconPath}.cjs`
-          )
+        import("@bgd-labs/react-web3-icons/dist/components/chains/index.cjs")
       }
     />
   );
 };
-
 ```
 
 ### 3) You can get chain or asset name without rpc call.

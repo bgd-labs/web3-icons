@@ -7,16 +7,22 @@ import React from "react";
  */
 export const DynamicIcon = ({
   dynamicComponent,
+  iconPath,
   loadingComponent,
 }: {
-  dynamicComponent: () => Promise<{ default: () => Element }>;
+  dynamicComponent: () => Promise<any>;
+  iconPath: string;
   loadingComponent?: React.ReactNode;
 }) => {
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-expect-error
   const Icon = React.lazy(async () => {
     try {
-      return await dynamicComponent();
+      return dynamicComponent().then((module) => {
+        {
+          return {
+            default: module[`Icon${iconPath}`] ?? module[`IconUnknownFull`],
+          };
+        }
+      });
     } catch (e) {
       return await import("./components/IconUnknownFull");
     }

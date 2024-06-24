@@ -13,10 +13,9 @@ export const ChainIcon = ({ ...props }: Pick<ChainType, "chainId">) => {
   const iconPath = getChainIconPath(props);
   return (
     <DynamicIcon
+      iconPath={iconPath}
       dynamicComponent={() =>
-        import(
-          `@bgd-labs/react-web3-icons/dist/components/chains/Icon${iconPath}.cjs`
-        )
+        import("@bgd-labs/react-web3-icons/dist/components/chains/index.cjs")
       }
       loadingComponent={<div className="size-11 animate-pulse bg-brand-300" />}
     />
