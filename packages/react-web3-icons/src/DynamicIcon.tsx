@@ -1,5 +1,6 @@
 "use client";
 
+import loadable from "@loadable/component";
 import React from "react";
 
 /**
@@ -12,25 +13,26 @@ export const DynamicIcon = ({
 }: {
   dynamicComponent: () => Promise<any>;
   iconPath: string;
-  loadingComponent?: React.ReactNode;
+  loadingComponent?: React.JSX.Element;
 }) => {
-  const Icon = React.lazy(async () => {
-    try {
-      return dynamicComponent().then((module) => {
-        {
-          return {
-            default: module[`Icon${iconPath}`] ?? module[`IconUnknownFull`],
-          };
-        }
-      });
-    } catch (e) {
-      return await import("./components/IconUnknownFull");
-    }
-  });
-
-  return (
-    <React.Suspense fallback={loadingComponent ?? <div />}>
-      <Icon />
-    </React.Suspense>
+  const Icon = loadable(
+    async () => {
+      try {
+        return dynamicComponent().then((module) => {
+          {
+            return {
+              default: module[`Icon${iconPath}`] ?? module[`IconUnknownFull`],
+            };
+          }
+        });
+      } catch (e) {
+        return await import("./components/IconUnknownFull");
+      }
+    },
+    {
+      fallback: loadingComponent,
+    },
   );
+
+  return <Icon />;
 };

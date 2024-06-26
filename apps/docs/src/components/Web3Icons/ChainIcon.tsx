@@ -17,7 +17,9 @@ export const ChainIcon = ({ ...props }: Pick<ChainType, "chainId">) => {
       dynamicComponent={() =>
         import("@bgd-labs/react-web3-icons/dist/components/chains/index.cjs")
       }
-      loadingComponent={<div className="size-11 animate-pulse bg-brand-300" />}
+      loadingComponent={
+        <div className="size-11 animate-pulse rounded-full bg-brand-300" />
+      }
     />
   );
 };
