@@ -1,8 +1,8 @@
 {
-  "name": "Ethena USDe",
-  "symbol": "usde",
+  "name": "Ethena Staked USDe",
+  "symbol": "susde",
   "symbolAliases": [
-    "USDe"
+    "sUSDe"
   ],
   "variations": [
     "aToken",

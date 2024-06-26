@@ -1706,6 +1706,29 @@
     }
   },
   {
+    "name": "Ethena Staked USDe",
+    "symbol": "susde",
+    "symbolAliases": [
+      "sUSDe"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/assets-icons/mono/susde.svg",
+      "full": "icons/assets-icons/full/susde.svg",
+      "aToken": {
+        "mono": "icons/assets-icons/mono/asusde.svg",
+        "full": "icons/assets-icons/full/asusde.svg"
+      },
+      "stataToken": {
+        "mono": "icons/assets-icons/mono/statasusde.svg",
+        "full": "icons/assets-icons/full/statasusde.svg"
+      }
+    }
+  },
+  {
     "name": "SushiToken",
     "symbol": "sushi",
     "symbolAliases": [
@@ -1856,7 +1879,7 @@
     }
   },
   {
-    "name": "USDe",
+    "name": "Ethena USDe",
     "symbol": "usde",
     "symbolAliases": [
       "USDe"
