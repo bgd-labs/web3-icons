@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Enjin Coin",
+  "symbol": "enj",
+  "symbolAliases": [
+    "ENJ"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Ampleforth",
+  "symbol": "ampl",
+  "symbolAliases": [
+    "AMPL"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

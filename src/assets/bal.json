@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Balancer",
+  "symbol": "bal",
+  "symbolAliases": [
+    "BAL"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -24,8 +24,8 @@ export const UsageExample = () => {
 | Parameter  | Type                             | Description |
 |:-----------|:---------------------------------| :------ |
 | `symbol`   | `string`                         | The `symbol` parameter is not case sensitive, you can pass it as `AAVE` or `aave` or `AaVe`. The result will always be the AAVE asset token icon.
-| `variant`  | [`TokenVariant`](src/utils/types.ts) | Color variant of the icon, maybe full is color, and mono is black and white.
-| `tokenTag` | [`TokenTag`](src/utils/types.ts)     | Token tag, can be `aToken`, a circle is added around the standard icon, and can be `stataToken`, a circle with cuts is added around the standard icon.
+| `variant`  | [`IconVariant`](src/utils/types.ts) | Color variant of the icon, maybe full is color, and mono is black and white.
+| `tokenTag` | [`AssetTag`](src/utils/types.ts)     | Asset tag, can be `aToken`, a circle is added around the standard icon, and can be `stataToken`, a circle with cuts is added around the standard icon.
 | `formatSymbol`   | `(symbol: string) => string`     | If you have a special condition for asset symbol formatting, you can replace the formatting function inside the component.
 
 ```tsx
@@ -57,6 +57,7 @@ export const AssetIcon = ({ ...props }: AssetIconProps) => {
 | Parameter  | Type                             | Description |
 |:-----------|:---------------------------------| :------ |
 | `chainId`   | `number`                         | Id of the chain.
+| `variant`  | [`IconVariant`](src/utils/types.ts) | Color variant of the icon, maybe full is color, and mono is black and white.
 
 ```tsx
 "use client";
@@ -65,12 +66,13 @@ import { DynamicIcon } from "@bgd-labs/react-web3-icons";
 import {
   ChainType,
   getChainIconPath,
+  IconVariant,
 } from "@bgd-labs/react-web3-icons/dist/utils";
 
 /**
  * Renders a chain icon specified by chain id.
  */
-export const ChainIcon = ({ ...props }: Pick<ChainType, "chainId">) => {
+export const ChainIcon = ({ ...props }: Pick<ChainType, "chainId"> & { variant?: IconVariant }) => {
   const iconPath = getChainIconPath(props);
   return (
     <DynamicIcon
@@ -91,7 +93,8 @@ export const ChainIcon = ({ ...props }: Pick<ChainType, "chainId">) => {
 | `formatSymbol`   | `(symbol: string) => string`     | If you have a special condition for asset symbol formatting, you can replace the formatting function inside the component.
 
 ```tsx
-import { AssetIcon, getAssetName } from "@bgd-labs/react-web3-icons";
+import { getAssetName } from "@bgd-labs/react-web3-icons";
+import { AssetIcon } from "./components";
 export const UsageExample = () => {
   const assetName = getAssetName({ symbol: "aave" });
   return <div><span>{assetName}</span><AssetIcon symbol="aave" /></div>;
@@ -103,7 +106,8 @@ export const UsageExample = () => {
 | `chainId`   | `number`                         | Id of the chain.
 
 ```tsx
-import { ChainIcon, getChainName } from "@bgd-labs/react-web3-icons";
+import { getChainName } from "@bgd-labs/react-web3-icons";
+import { ChainIcon } from "./components";
 export const UsageExample = () => {
   const chainName = getChainName({ chainId: 1 });
   return <div><span>{chainName}</span><ChainIcon chainId={1} /></div>;

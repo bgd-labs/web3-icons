@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "SushiBar",
+  "symbol": "xsushi",
+  "symbolAliases": [
+    "xSUSHI"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

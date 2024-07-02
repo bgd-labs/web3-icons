@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "TerraUSD",
+  "symbol": "ust",
+  "symbolAliases": [
+    "UST"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

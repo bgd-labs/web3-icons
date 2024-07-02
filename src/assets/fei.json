@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Fei USD",
+  "symbol": "fei",
+  "symbolAliases": [
+    "FEI"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

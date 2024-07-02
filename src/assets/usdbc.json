@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "USD Base Coin",
+  "symbol": "usdbc",
+  "symbolAliases": [
+    "USDbC"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

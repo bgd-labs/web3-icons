@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "StargateToken",
+  "symbol": "stg",
+  "symbolAliases": [
+    "STG"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

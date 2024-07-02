@@ -1,0 +1,13 @@
+{
+  "type": ["asset", "chain"],
+  "chainId": 42161,
+  "name": "Arbitrum",
+  "symbol": "arb",
+  "symbolAliases": [
+    "ARB"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

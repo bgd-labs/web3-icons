@@ -1,0 +1,10 @@
+{
+  "type": ["asset"],
+  "name": "Staked Aave",
+  "symbol": "stkaave",
+  "symbolAliases": ["stkAAVE"],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

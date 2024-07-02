@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Synth sUSD",
+  "symbol": "susd",
+  "symbolAliases": [
+    "sUSD"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

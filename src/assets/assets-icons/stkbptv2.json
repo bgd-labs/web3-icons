@@ -1,9 +1,0 @@
-{
-  "name": "stkbptv2",
-  "symbol": "stkbptv2",
-  "symbolAliases": ["stkBPTV2"],
-  "variations": [
-    "aToken",
-    "stataToken"
-  ]
-}

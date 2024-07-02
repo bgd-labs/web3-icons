@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Jarvis Synthetic Euro",
+  "symbol": "jeur",
+  "symbolAliases": [
+    "jEUR"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

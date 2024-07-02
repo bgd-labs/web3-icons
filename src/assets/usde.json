@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Ethena USDe",
+  "symbol": "usde",
+  "symbolAliases": [
+    "USDe"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1,6 +1,6 @@
 import { capitalize } from "./capitalize";
 import { formatSymbolForIcon } from "./formatSymbolForIcon";
-import { AssetIconProps, TokenVariant } from "./types";
+import { AssetIconProps, IconVariant } from "./types";
 
 export const getAssetIconPath = ({
   formatSymbol,
@@ -11,5 +11,5 @@ export const getAssetIconPath = ({
   const formattedSymbol = formatSymbol
     ? formatSymbol(symbol)
     : formatSymbolForIcon({ symbol });
-  return `${tokenTag ? tokenTag : ""}${tokenTag ? formattedSymbol : capitalize(formattedSymbol)}${capitalize(variant ?? TokenVariant.Full)}`;
+  return `${tokenTag ? tokenTag : ""}${tokenTag ? formattedSymbol : capitalize(formattedSymbol)}${capitalize(variant ?? IconVariant.Full)}`;
 };

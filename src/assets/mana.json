@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Decentraland",
+  "symbol": "mana",
+  "symbolAliases": [
+    "MANA"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

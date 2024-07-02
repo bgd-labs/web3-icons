@@ -1,17 +1,17 @@
-export enum TokenTag {
+export enum AssetTag {
   AToken = "A",
   StataToken = "Stata",
 }
 
-export enum TokenVariant {
+export enum IconVariant {
   Full = "full",
   Mono = "mono",
 }
 
 export interface AssetIconProps {
   symbol: string;
-  variant?: TokenVariant;
-  tokenTag?: TokenTag;
+  variant?: IconVariant;
+  tokenTag?: AssetTag;
   formatSymbol?: (symbol: string) => string;
 }
 

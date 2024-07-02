@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Curve DAO Token",
+  "symbol": "crv",
+  "symbolAliases": [
+    "CRV"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -3,25 +3,33 @@ export interface WriteQueueItem {
   content: string;
 }
 
+export enum IconType {
+  asset = "asset",
+  chain = "chain",
+}
+
 export type IconMetaData = {
+  type: IconType[];
+  chainName?: string;
+  chainId?: number;
   symbol?: string;
   name?: string;
   symbolAliases?: string[];
   variations?: string[];
 };
 
-export type IconType = {
+export type IconStyle = {
   mono: string;
   full: string;
 };
 
-export type IconWithMetaType = IconType & {
+export type IconWithMetaType = IconStyle & {
   meta: IconMetaData;
 };
 
-export type IconInfoIcons = IconType & {
-  aToken?: IconType;
-  stataToken?: IconType;
+export type IconInfoIcons = IconStyle & {
+  aToken?: IconStyle;
+  stataToken?: IconStyle;
 };
 
 export type IconInfo = {
@@ -35,10 +43,4 @@ export type IconInfo = {
 export type ChainType = {
   name: string;
   chainId: number;
-};
-
-export type ChainInfoType = {
-  name: string;
-  chainId: number;
-  icon: string;
 };

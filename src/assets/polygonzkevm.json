@@ -1,0 +1,5 @@
+{
+  "type": ["chain"],
+  "chainName": "Polygon zkEVM",
+  "chainId": 1101
+}

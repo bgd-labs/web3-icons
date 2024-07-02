@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "BUSD",
+  "symbol": "busd",
+  "symbolAliases": [
+    "BUSD"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Pax Dollar",
+  "symbol": "usdp",
+  "symbolAliases": [
+    "USDP"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

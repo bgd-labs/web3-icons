@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "One inch Network",
+  "symbol": "1inch",
+  "symbolAliases": [
+    "1INCH"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Uniswap",
+  "symbol": "uni",
+  "symbolAliases": [
+    "UNI"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

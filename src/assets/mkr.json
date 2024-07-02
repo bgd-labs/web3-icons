@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Maker",
+  "symbol": "mkr",
+  "symbolAliases": [
+    "MKR"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

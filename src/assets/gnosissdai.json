@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Savings xDAI",
+  "symbol": "gnosissdai",
+  "symbolAliases": [
+    "sDAI"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

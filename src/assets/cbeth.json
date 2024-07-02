@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Coinbase Wrapped Staked ETH",
+  "symbol": "cbeth",
+  "symbolAliases": [
+    "cbETH"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Wrapped Matic",
+  "symbol": "wmatic",
+  "symbolAliases": [
+    "WMATIC"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

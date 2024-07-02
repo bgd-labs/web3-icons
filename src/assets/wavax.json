@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Wrapped Avalanche",
+  "symbol": "wavax",
+  "symbolAliases": [
+    "WAVAX"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

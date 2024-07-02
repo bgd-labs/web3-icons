@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "STASIS EURS Token",
+  "symbol": "eurs",
+  "symbolAliases": [
+    "EURS"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

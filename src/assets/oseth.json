@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Staked ETH",
+  "symbol": "oseth",
+  "symbolAliases": [
+    "osETH"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "First Digital USD",
+  "symbol": "fdusd",
+  "symbolAliases": [
+    "FDUSD"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

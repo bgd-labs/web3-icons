@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "PancakeSwap Token",
+  "symbol": "cake",
+  "symbolAliases": [
+    "Cake"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

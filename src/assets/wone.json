@@ -1,0 +1,10 @@
+{
+  "type": ["asset"],
+  "name": "Wrapped Harmony",
+  "symbol": "wone",
+  "symbolAliases": ["WONE"],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

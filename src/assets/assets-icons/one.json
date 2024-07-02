@@ -1,9 +1,0 @@
-{
-  "name": "Harmony",
-  "symbol": "one",
-  "symbolAliases": ["ONE"],
-  "variations": [
-    "aToken",
-    "stataToken"
-  ]
-}

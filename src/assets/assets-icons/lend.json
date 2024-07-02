@@ -1,9 +1,0 @@
-{
-  "name": "Aave [OLD]",
-  "symbol": "lend",
-  "symbolAliases": [],
-  "variations": [
-    "aToken",
-    "stataToken"
-  ]
-}

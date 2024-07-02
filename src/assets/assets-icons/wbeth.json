@@ -1,9 +1,0 @@
-{
-  "name": "Wrapped Beacon ETH",
-  "symbol": "wbeth",
-  "symbolAliases": ["WBETH"],
-  "variations": [
-    "aToken",
-    "stataToken"
-  ]
-}

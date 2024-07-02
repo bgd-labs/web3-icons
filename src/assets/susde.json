@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Ethena Staked USDe",
+  "symbol": "susde",
+  "symbolAliases": [
+    "sUSDe"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

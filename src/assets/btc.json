@@ -1,0 +1,13 @@
+{
+  "type": ["asset"],
+  "name": "Bitcoin",
+  "symbol": "btc",
+  "symbolAliases": [
+    "BTCB",
+    "BTC.b"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
