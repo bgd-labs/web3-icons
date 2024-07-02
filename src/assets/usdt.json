@@ -1,0 +1,15 @@
+{
+  "type": ["asset"],
+  "name": "Tether",
+  "symbol": "usdt",
+  "symbolAliases": [
+    "USDT",
+    "m.USDT",
+    "USDt",
+    "USDT.e"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

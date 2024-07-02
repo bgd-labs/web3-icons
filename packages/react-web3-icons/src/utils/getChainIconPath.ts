@@ -1,6 +1,9 @@
-import { capitalize, getChainName } from "./index";
+import { capitalize, getChainName, IconVariant } from "./index";
 import { ChainType } from "./types";
-export const getChainIconPath = ({ chainId }: Pick<ChainType, "chainId">) => {
+export const getChainIconPath = ({
+  chainId,
+  variant,
+}: Pick<ChainType, "chainId"> & { variant?: IconVariant }) => {
   const chainName = getChainName({ chainId });
-  return `${capitalize(chainName.replace(/\s/g, "").toLowerCase())}`;
+  return `${capitalize(chainName.replace(/\s/g, "").toLowerCase())}${capitalize(variant ?? IconVariant.Full)}`;
 };

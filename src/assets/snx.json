@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Synthetix Network Token",
+  "symbol": "snx",
+  "symbolAliases": [
+    "SNX"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

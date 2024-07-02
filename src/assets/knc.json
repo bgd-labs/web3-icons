@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Kyber Network Crystal v2",
+  "symbol": "knc",
+  "symbolAliases": [
+    "KNC"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

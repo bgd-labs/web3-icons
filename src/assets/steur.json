@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Angle Staked EURA",
+  "symbol": "steur",
+  "symbolAliases": [
+    "stEUR"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

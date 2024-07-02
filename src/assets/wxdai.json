@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Wrapped XDAI",
+  "symbol": "wxdai",
+  "symbolAliases": [
+    "WXDAI"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

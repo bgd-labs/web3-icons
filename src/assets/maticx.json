@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Liquid Staking Matic",
+  "symbol": "maticx",
+  "symbolAliases": [
+    "MaticX"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

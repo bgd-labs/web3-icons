@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Frax Share",
+  "symbol": "fxs",
+  "symbolAliases": [
+    "FXS"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

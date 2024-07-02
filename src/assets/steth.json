@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Lido Staked Ether",
+  "symbol": "steth",
+  "symbolAliases": [
+    "stETH"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

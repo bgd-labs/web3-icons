@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Gelato Uniswap",
+  "symbol": "guni",
+  "symbolAliases": [
+    "G-UNI"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

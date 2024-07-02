@@ -1,9 +1,0 @@
-{
-  "name": "Tribe",
-  "symbol": "tribe",
-  "symbolAliases": ["TRIBE"],
-  "variations": [
-    "aToken",
-    "stataToken"
-  ]
-}

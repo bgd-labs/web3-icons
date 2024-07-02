@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "PayPal USD",
+  "symbol": "pyusd",
+  "symbolAliases": [
+    "PYUSD"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

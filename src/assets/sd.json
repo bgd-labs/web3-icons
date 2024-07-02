@@ -1,0 +1,10 @@
+{
+  "type": ["asset"],
+  "name": "Stader",
+  "symbol": "sd",
+  "symbolAliases": ["SD"],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

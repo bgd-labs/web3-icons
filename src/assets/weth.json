@@ -1,0 +1,13 @@
+{
+  "type": ["asset"],
+  "name": "Wrapped ETH",
+  "symbol": "weth",
+  "symbolAliases": [
+    "WETH",
+    "WETH.e"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "EURA (agEUR)",
+  "symbol": "eura",
+  "symbolAliases": [
+    "EURA"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

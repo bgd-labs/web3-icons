@@ -1,0 +1,14 @@
+{
+  "type": ["asset", "chain"],
+  "chainName": "OP Mainnet",
+  "chainId": 10,
+  "name": "Optimism",
+  "symbol": "op",
+  "symbolAliases": [
+    "OP"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

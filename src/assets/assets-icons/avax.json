@@ -1,9 +1,0 @@
-{
-  "name": "Avalanche",
-  "symbol": "avax",
-  "symbolAliases": ["AVAX"],
-  "variations": [
-    "aToken",
-    "stataToken"
-  ]
-}

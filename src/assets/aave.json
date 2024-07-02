@@ -1,0 +1,13 @@
+{
+  "type": ["asset"],
+  "name": "Aave Token",
+  "symbol": "aave",
+  "symbolAliases": [
+    "AAVE",
+    "AAVE.e"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

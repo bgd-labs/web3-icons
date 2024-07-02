@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Ethereum Name Service",
+  "symbol": "ens",
+  "symbolAliases": [
+    "ENS"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

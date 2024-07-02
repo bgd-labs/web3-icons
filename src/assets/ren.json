@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Republic Token",
+  "symbol": "ren",
+  "symbolAliases": [
+    "REN"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

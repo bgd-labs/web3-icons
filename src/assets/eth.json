@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Ethereum",
+  "symbol": "eth",
+  "symbolAliases": [
+    "ETH"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

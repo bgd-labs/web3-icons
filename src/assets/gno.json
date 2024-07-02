@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Gnosis Token on xDai",
+  "symbol": "gno",
+  "symbolAliases": [
+    "GNO"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

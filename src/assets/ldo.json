@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Lido DAO Token",
+  "symbol": "ldo",
+  "symbolAliases": [
+    "LDO"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

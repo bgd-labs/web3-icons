@@ -1,7 +1,11 @@
 "use client";
 
+import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils/index";
+import { useState } from "react";
+
 import { CopyToClipboard } from "@/components/CopyToClipboard";
 import { DownloadButton } from "@/components/DownloadButton";
+import { TagButton, types } from "@/components/IconCard";
 import { ChainIcon } from "@/components/Web3Icons/ChainIcon";
 import { githubIconsPath } from "@/utils/constants";
 
@@ -14,7 +18,9 @@ export const ChainIconCard = ({
   chainId: number;
   iconPath: string;
 }) => {
-  const Icon = () => <ChainIcon chainId={chainId} />;
+  const [activeType, setActiveType] = useState(IconVariant.Full);
+
+  const Icon = () => <ChainIcon chainId={chainId} variant={activeType} />;
 
   return (
     <div className="relative flex h-[175px] w-[175px] flex-col justify-center border border-gray-200">
@@ -24,6 +30,18 @@ export const ChainIconCard = ({
           <div className="font-mono text-xs uppercase text-gray-400">
             {chainId}
           </div>
+        </div>
+
+        <div className="absolute right-0 top-0 z-10 flex max-w-[50%] flex-col items-end justify-start">
+          {types.map((tag) => (
+            <TagButton
+              key={tag.symbol}
+              tag={tag.tag}
+              tagName={tag.symbol}
+              isActive={tag.tag === activeType}
+              onClick={() => setActiveType(tag.tag)}
+            />
+          ))}
         </div>
       </div>
 

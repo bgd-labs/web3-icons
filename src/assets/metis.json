@@ -1,0 +1,14 @@
+{
+  "type": ["asset", "chain"],
+  "chainName": "Metis",
+  "chainId": 1088,
+  "name": "Metis Token",
+  "symbol": "metis",
+  "symbolAliases": [
+    "Metis"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

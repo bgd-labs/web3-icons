@@ -13,7 +13,6 @@ export const readJsonFile = (filePath: string, schema: any) => {
   if (!parsedData.success) {
     throw new Error(`Invalid JSON structure in ${filePath}.`);
   }
-
   return parsedData.data;
 };
 

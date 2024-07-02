@@ -1,9 +1,0 @@
-{
-  "name": "BlackPool",
-  "symbol": "bpt",
-  "symbolAliases": ["BPT"],
-  "variations": [
-    "aToken",
-    "stataToken"
-  ]
-}

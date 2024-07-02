@@ -1,0 +1,14 @@
+{
+  "type": ["asset"],
+  "name": "Dai Stablecoin",
+  "symbol": "dai",
+  "symbolAliases": [
+    "DAI",
+    "m.DAI",
+    "DAI.e"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

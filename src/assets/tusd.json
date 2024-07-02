@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "TrueUSD",
+  "symbol": "tusd",
+  "symbolAliases": [
+    "TUSD"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "DefiPulse Index",
+  "symbol": "dpi",
+  "symbolAliases": [
+    "DPI"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1,7 +1,8 @@
 import { transform } from "@svgr/core";
 import fs from "fs";
 
-import assets from "../../icons//assets-icons/assets-icons.json";
+import allIcons from "../../icons/icons.json";
+import { IconType } from "./types.ts";
 
 const REACT_COMPONENTS_PATH = "packages/react-web3-icons/src/components";
 const REACT_UTILS_PATH = "packages/react-web3-icons/src/utils";
@@ -15,6 +16,7 @@ interface QueueItem {
 
 const queue: QueueItem[] = [];
 
+const assets = allIcons.filter((icon) => icon.type.includes(IconType.asset));
 for (const asset of assets) {
   const { icons, symbol, name } = asset;
 

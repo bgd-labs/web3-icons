@@ -1,6 +1,6 @@
 "use client";
 
-import { TokenTag, TokenVariant } from "@bgd-labs/react-web3-icons/dist/utils";
+import { AssetTag, IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 
 import { CopyToClipboard } from "@/components/CopyToClipboard";
@@ -11,13 +11,13 @@ import { githubIconsPath } from "@/utils/constants";
 
 import { IconInfoIcons } from "../../../../src/scripts/types";
 
-const tags: { tag: TokenTag | undefined; symbol: string }[] = [
+const tags: { tag: AssetTag | undefined; symbol: string }[] = [
   {
-    tag: TokenTag.AToken,
+    tag: AssetTag.AToken,
     symbol: "AT",
   },
   {
-    tag: TokenTag.StataToken,
+    tag: AssetTag.StataToken,
     symbol: "StaT",
   },
   {
@@ -26,18 +26,18 @@ const tags: { tag: TokenTag | undefined; symbol: string }[] = [
   },
 ];
 
-const types = [
+export const types = [
   {
-    tag: TokenVariant.Full,
+    tag: IconVariant.Full,
     symbol: "Full",
   },
   {
-    tag: TokenVariant.Mono,
+    tag: IconVariant.Mono,
     symbol: "Mono",
   },
 ];
 
-const TagButton = <T extends string>({
+export const TagButton = <T extends string>({
   tag,
   tagName,
   isActive,
@@ -74,16 +74,16 @@ export const IconCard = ({
   symbol: string;
   icons: IconInfoIcons;
 }) => {
-  const [activeTag, setActiveTag] = useState<TokenTag | undefined>(undefined);
-  const [activeType, setActiveType] = useState(TokenVariant.Full);
+  const [activeTag, setActiveTag] = useState<AssetTag | undefined>(undefined);
+  const [activeType, setActiveType] = useState(IconVariant.Full);
 
   const iconPath = activeTag
     ? // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-expect-error
       icons[
-        activeTag === TokenTag.AToken
+        activeTag === AssetTag.AToken
           ? "aToken"
-          : activeTag === TokenTag.StataToken
+          : activeTag === AssetTag.StataToken
             ? "stataToken"
             : "aToken"
       ][activeType]
@@ -138,7 +138,7 @@ export const IconCard = ({
         <div className="flex flex-1 items-end justify-end">
           <DownloadButton
             svgPath={`${githubIconsPath}${iconPath}`}
-            fileName={`${activeTag ? activeTag : ""}${symbol}${activeType === TokenVariant.Full ? "" : activeType}`}
+            fileName={`${activeTag ? activeTag : ""}${symbol}${activeType === IconVariant.Full ? "" : activeType}`}
           />
           <CopyToClipboard svgPath={`${githubIconsPath}${iconPath}`} />
         </div>

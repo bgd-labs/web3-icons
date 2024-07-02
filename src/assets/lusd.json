@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "LUSD Stablecoin",
+  "symbol": "lusd",
+  "symbolAliases": [
+    "LUSD"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

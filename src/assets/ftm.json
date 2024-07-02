@@ -1,0 +1,12 @@
+{
+  "type": ["asset", "chain"],
+  "chainName": "Fantom",
+  "chainId": 250,
+  "name": "Fantom",
+  "symbol": "ftm",
+  "symbolAliases": ["FTM"],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

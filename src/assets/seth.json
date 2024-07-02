@@ -1,0 +1,10 @@
+{
+  "type": ["asset"],
+  "name": "sETH",
+  "symbol": "seth",
+  "symbolAliases": ["SETH"],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

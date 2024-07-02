@@ -1,0 +1,13 @@
+{
+  "type": ["asset"],
+  "name": "MAI (mimatic)",
+  "symbol": "mai",
+  "symbolAliases": [
+    "MAI",
+    "miMATIC"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

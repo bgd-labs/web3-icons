@@ -1,9 +1,0 @@
-{
-  "name": "Polygon",
-  "symbol": "matic",
-  "symbolAliases": ["MATIC"],
-  "variations": [
-    "aToken",
-    "stataToken"
-  ]
-}

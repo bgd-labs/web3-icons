@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "Frax",
+  "symbol": "frax",
+  "symbolAliases": [
+    "FRAX"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
