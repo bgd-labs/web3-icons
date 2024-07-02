@@ -65,7 +65,7 @@ export const AssetIcon = ({ ...props }: AssetIconProps) => {
 import { DynamicIcon } from "@bgd-labs/react-web3-icons";
 import {
   ChainType,
-  getChainIconPath,
+  getChainIconNameAndPath,
   IconVariant,
 } from "@bgd-labs/react-web3-icons/dist/utils";
 
@@ -73,7 +73,7 @@ import {
  * Renders a chain icon specified by chain id.
  */
 export const ChainIcon = ({ ...props }: Pick<ChainType, "chainId"> & { variant?: IconVariant }) => {
-  const iconPath = getChainIconPath(props);
+  const iconPath = getChainIconNameAndPath(props);
   return (
     <DynamicIcon
       iconPath={iconPath}
