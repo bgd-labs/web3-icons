@@ -3,17 +3,18 @@
 import { DynamicIcon } from "@bgd-labs/react-web3-icons";
 import {
   AssetIconProps,
-  getAssetIconPath,
+  getAssetIconNameAndPath,
 } from "@bgd-labs/react-web3-icons/dist/utils";
 
 /**
  * Renders an asset icon specified by symbol.
  */
 export const AssetIcon = ({ ...props }: AssetIconProps) => {
-  const iconPath = getAssetIconPath(props);
+  const { iconPathToRepo, iconName } = getAssetIconNameAndPath(props);
   return (
     <DynamicIcon
-      iconPath={iconPath}
+      iconPath={iconPathToRepo}
+      iconName={iconName}
       dynamicComponent={() =>
         import("@bgd-labs/react-web3-icons/dist/components/index.cjs")
       }
