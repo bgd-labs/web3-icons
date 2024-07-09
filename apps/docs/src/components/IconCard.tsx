@@ -3,6 +3,7 @@
 import { AssetTag, IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 
+import { Box } from "@/components/Box";
 import { CopyToClipboard } from "@/components/CopyToClipboard";
 import { DownloadButton } from "@/components/DownloadButton";
 import { AssetIcon } from "@/components/Web3Icons/AssetIcon";
@@ -94,55 +95,57 @@ export const IconCard = ({
   );
 
   return (
-    <div className="relative flex h-[175px] w-[175px] flex-col justify-center border border-gray-200">
-      <div className="absolute top-0 w-full flex-1">
-        <div className="max-w-[75%] p-2">
-          <div className="text-sm font-semibold text-gray-800">{name}</div>
-          <div className="font-mono text-xs uppercase text-gray-400">
-            {symbol}
+    <Box>
+      <div className="relative flex h-[175px] w-[175px] flex-col justify-center overflow-hidden rounded-lg">
+        <div className="absolute top-0 w-full flex-1">
+          <div className="max-w-[75%] p-2">
+            <div className="text-sm font-semibold text-gray-800">{name}</div>
+            <div className="font-mono text-xs uppercase text-gray-400">
+              {symbol}
+            </div>
+          </div>
+
+          <div className="absolute right-0 top-0 z-10 flex max-w-[50%] flex-col items-end justify-start">
+            {types.map((tag) => (
+              <TagButton
+                key={tag.symbol}
+                tag={tag.tag}
+                tagName={tag.symbol}
+                isActive={tag.tag === activeType}
+                onClick={() => setActiveType(tag.tag)}
+              />
+            ))}
           </div>
         </div>
 
-        <div className="absolute right-0 top-0 z-10 flex max-w-[50%] flex-col items-end justify-start">
-          {types.map((tag) => (
-            <TagButton
-              key={tag.symbol}
-              tag={tag.tag}
-              tagName={tag.symbol}
-              isActive={tag.tag === activeType}
-              onClick={() => setActiveType(tag.tag)}
+        <div className="flex-1" />
+
+        <div className="flex size-11 w-full flex-1 items-center justify-center">
+          <Icon />
+        </div>
+
+        <div className="relative flex flex-1 items-end justify-between">
+          <div className="absolute flex max-w-[50%] flex-col justify-end">
+            {tags.map((tag) => (
+              <TagButton
+                key={tag.symbol}
+                tag={tag.tag}
+                tagName={tag.symbol}
+                isActive={tag.tag === activeTag}
+                onClick={() => setActiveTag(tag.tag)}
+              />
+            ))}
+          </div>
+
+          <div className="flex flex-1 items-end justify-end">
+            <DownloadButton
+              svgPath={`${githubIconsPath}${iconPath}`}
+              fileName={`${activeTag ? activeTag : ""}${symbol}${activeType === IconVariant.Full ? "" : activeType}`}
             />
-          ))}
+            <CopyToClipboard svgPath={`${githubIconsPath}${iconPath}`} />
+          </div>
         </div>
       </div>
-
-      <div className="flex-1" />
-
-      <div className="flex size-11 w-full flex-1 items-center justify-center">
-        <Icon />
-      </div>
-
-      <div className="relative flex flex-1 items-end justify-between">
-        <div className="absolute flex max-w-[50%] flex-col justify-end">
-          {tags.map((tag) => (
-            <TagButton
-              key={tag.symbol}
-              tag={tag.tag}
-              tagName={tag.symbol}
-              isActive={tag.tag === activeTag}
-              onClick={() => setActiveTag(tag.tag)}
-            />
-          ))}
-        </div>
-
-        <div className="flex flex-1 items-end justify-end">
-          <DownloadButton
-            svgPath={`${githubIconsPath}${iconPath}`}
-            fileName={`${activeTag ? activeTag : ""}${symbol}${activeType === IconVariant.Full ? "" : activeType}`}
-          />
-          <CopyToClipboard svgPath={`${githubIconsPath}${iconPath}`} />
-        </div>
-      </div>
-    </div>
+    </Box>
   );
 };
