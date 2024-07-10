@@ -38,6 +38,9 @@ export type IconInfo = {
   name?: string;
   symbolAliases?: string[];
   variations?: string[];
+  type: IconType[];
+  chainName?: string;
+  chainId?: number;
 };
 
 export type ChainType = {

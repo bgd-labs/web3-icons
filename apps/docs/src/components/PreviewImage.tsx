@@ -1,3 +1,5 @@
+// TODO: need add animation
+
 "use client";
 
 export const PreviewImage = () => {

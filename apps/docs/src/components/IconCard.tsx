@@ -1,16 +1,14 @@
+// TODO: need add styles for tags (need design)
+
 "use client";
 
 import { AssetTag, IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
-import { useState } from "react";
+import { ReactNode } from "react";
 
 import { Box } from "@/components/Box";
 import { CopyToClipboard } from "@/components/CopyToClipboard";
 import { DownloadButton } from "@/components/DownloadButton";
-import { AssetIcon } from "@/components/Web3Icons/AssetIcon";
 import { cn } from "@/utils/cn";
-import { githubIconsPath } from "@/utils/constants";
-
-import { IconInfoIcons } from "../../../../src/scripts/types";
 
 const tags: { tag: AssetTag | undefined; symbol: string }[] = [
   {
@@ -67,29 +65,28 @@ export const TagButton = <T extends string>({
 };
 
 export const IconCard = ({
+  children,
   name,
-  symbol,
-  icons,
+  subName,
+  svgPath,
+  fileName,
+  setActiveType,
+  activeType,
+  setActiveTag,
+  activeTag,
+  withTags,
 }: {
+  children: ReactNode;
   name: string;
-  symbol: string;
-  icons: IconInfoIcons;
+  subName: string;
+  svgPath: string;
+  fileName: string;
+  setActiveType: (type: IconVariant) => void;
+  activeType: IconVariant;
+  setActiveTag?: (tag: AssetTag | undefined) => void;
+  activeTag?: AssetTag | undefined;
+  withTags?: boolean;
 }) => {
-  const [activeTag, setActiveTag] = useState<AssetTag | undefined>(undefined);
-  const [activeType, setActiveType] = useState(IconVariant.Full);
-
-  const iconPath = activeTag
-    ? // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-expect-error
-      icons[
-        activeTag === AssetTag.AToken
-          ? "aToken"
-          : activeTag === AssetTag.StataToken
-            ? "stataToken"
-            : "aToken"
-      ][activeType]
-    : icons[activeType];
-
   const handleSetIconVariant = () => {
     if (activeType === IconVariant.Full) {
       setActiveType(IconVariant.Mono);
@@ -98,38 +95,48 @@ export const IconCard = ({
     }
   };
 
-  const Icon = () => (
-    <AssetIcon symbol={symbol} variant={activeType} tokenTag={activeTag} />
-  );
-
   return (
     <Box>
-      <div className="relative flex h-[285px] w-[200px] flex-col justify-center overflow-hidden rounded-lg">
-        <div className="max-w-[90%] flex-1 p-2">
+      <div className="relative flex min-h-[285px] w-[200px] flex-col justify-center overflow-hidden rounded-lg pb-4">
+        <div className="relative flex-1 p-2">
           <div className="text-sm font-semibold text-gray-800">{name}</div>
           <div className="font-mono text-xs uppercase text-gray-400">
-            {symbol}
+            {subName}
           </div>
+
+          {withTags && setActiveTag && (
+            <div className="absolute right-0 top-0 z-10 flex max-w-[50%] flex-col items-end justify-start">
+              {tags.map((tag) => (
+                <TagButton
+                  key={tag.symbol}
+                  tag={tag.tag}
+                  tagName={tag.symbol}
+                  isActive={tag.tag === activeTag}
+                  onClick={() => setActiveTag(tag.tag)}
+                />
+              ))}
+            </div>
+          )}
         </div>
 
         <div
           onClick={handleSetIconVariant}
-          className="group relative flex flex-1 cursor-pointer items-center justify-center transition"
+          className="group relative flex h-[153px] cursor-pointer items-center justify-center transition"
         >
           <div className="flex flex-col">
             <div className="border-main-400 bg-main-500 group-hover:bg-main-100 flex h-[124px] w-[124px] items-center justify-center rounded-full border transition">
               <div className="border-main-400 relative z-10 flex h-[116px] w-[116px] items-center justify-center rounded-full border bg-white">
-                <div className="flex h-[70px] w-[70px] items-center justify-center overflow-hidden rounded-full">
-                  <Icon />
+                <div className="flex h-[70px] w-[70px] items-center justify-center overflow-hidden">
+                  {children}
                 </div>
               </div>
             </div>
 
             <div
               className={cn(
-                "border-main-400 bg-main-500 group-hover:bg-main-100 absolute bottom-[18px] left-[15px] h-[45px] w-[95px] rotate-[-60deg] rounded-full border transition",
+                "border-main-400 bg-main-500 group-hover:bg-main-100 absolute bottom-[20px] left-[14.5px] h-[45px] w-[95px] rotate-[-60deg] rounded-full border transition",
                 {
-                  ["left-[90px] rotate-[-120deg]"]:
+                  ["left-[88px] rotate-[-125deg]"]:
                     activeType === IconVariant.Mono,
                 },
               )}
@@ -162,12 +169,11 @@ export const IconCard = ({
           </div>
         </div>
 
-        <div className="flex flex-1 items-end justify-end">
-          <DownloadButton
-            svgPath={`${githubIconsPath}${iconPath}`}
-            fileName={`${activeTag ? activeTag : ""}${symbol}${activeType === IconVariant.Full ? "" : activeType}`}
-          />
-          <CopyToClipboard svgPath={`${githubIconsPath}${iconPath}`} />
+        <div className="mt-4 flex flex-1 items-center justify-center">
+          <div className="mr-6">
+            <DownloadButton svgPath={svgPath} fileName={fileName} />
+          </div>
+          <CopyToClipboard svgPath={svgPath} />
         </div>
       </div>
     </Box>
