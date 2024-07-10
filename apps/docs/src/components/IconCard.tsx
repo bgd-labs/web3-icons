@@ -90,60 +90,84 @@ export const IconCard = ({
       ][activeType]
     : icons[activeType];
 
+  const handleSetIconVariant = () => {
+    if (activeType === IconVariant.Full) {
+      setActiveType(IconVariant.Mono);
+    } else {
+      setActiveType(IconVariant.Full);
+    }
+  };
+
   const Icon = () => (
     <AssetIcon symbol={symbol} variant={activeType} tokenTag={activeTag} />
   );
 
   return (
     <Box>
-      <div className="relative flex h-[175px] w-[175px] flex-col justify-center overflow-hidden rounded-lg">
-        <div className="absolute top-0 w-full flex-1">
-          <div className="max-w-[75%] p-2">
-            <div className="text-sm font-semibold text-gray-800">{name}</div>
-            <div className="font-mono text-xs uppercase text-gray-400">
-              {symbol}
+      <div className="relative flex h-[285px] w-[200px] flex-col justify-center overflow-hidden rounded-lg">
+        <div className="max-w-[90%] flex-1 p-2">
+          <div className="text-sm font-semibold text-gray-800">{name}</div>
+          <div className="font-mono text-xs uppercase text-gray-400">
+            {symbol}
+          </div>
+        </div>
+
+        <div
+          onClick={handleSetIconVariant}
+          className="group relative flex flex-1 cursor-pointer items-center justify-center transition"
+        >
+          <div className="flex flex-col">
+            <div className="border-main-400 bg-main-500 group-hover:bg-main-100 flex h-[124px] w-[124px] items-center justify-center rounded-full border transition">
+              <div className="border-main-400 relative z-10 flex h-[116px] w-[116px] items-center justify-center rounded-full border bg-white">
+                <div className="flex h-[70px] w-[70px] items-center justify-center overflow-hidden rounded-full">
+                  <Icon />
+                </div>
+              </div>
+            </div>
+
+            <div
+              className={cn(
+                "border-main-400 bg-main-500 group-hover:bg-main-100 absolute bottom-[18px] left-[15px] h-[45px] w-[95px] rotate-[-60deg] rounded-full border transition",
+                {
+                  ["left-[90px] rotate-[-120deg]"]:
+                    activeType === IconVariant.Mono,
+                },
+              )}
+            />
+
+            <div className="z-5 relative ml-[-5%] mt-[-15px] flex w-[110%] items-center justify-between text-[10px]">
+              <div
+                className={cn(
+                  `bg-main-200 text-main-600 group-hover:bg-main-200 group-hover:text-main-600 flex h-[36px] w-[36px] items-center justify-center rounded-full transition`,
+                  {
+                    ["bg-main-100 text-main-200"]:
+                      activeType === IconVariant.Full,
+                  },
+                )}
+              >
+                Full
+              </div>
+              <div
+                className={cn(
+                  `bg-main-200 text-main-600 group-hover:bg-main-200 group-hover:text-main-600 flex h-[36px] w-[36px] items-center justify-center rounded-full transition`,
+                  {
+                    ["bg-main-100 text-main-200"]:
+                      activeType === IconVariant.Mono,
+                  },
+                )}
+              >
+                Mono
+              </div>
             </div>
           </div>
-
-          <div className="absolute right-0 top-0 z-10 flex max-w-[50%] flex-col items-end justify-start">
-            {types.map((tag) => (
-              <TagButton
-                key={tag.symbol}
-                tag={tag.tag}
-                tagName={tag.symbol}
-                isActive={tag.tag === activeType}
-                onClick={() => setActiveType(tag.tag)}
-              />
-            ))}
-          </div>
         </div>
 
-        <div className="flex-1" />
-
-        <div className="flex size-11 w-full flex-1 items-center justify-center">
-          <Icon />
-        </div>
-
-        <div className="relative flex flex-1 items-end justify-between">
-          <div className="absolute flex max-w-[50%] flex-col justify-end">
-            {tags.map((tag) => (
-              <TagButton
-                key={tag.symbol}
-                tag={tag.tag}
-                tagName={tag.symbol}
-                isActive={tag.tag === activeTag}
-                onClick={() => setActiveTag(tag.tag)}
-              />
-            ))}
-          </div>
-
-          <div className="flex flex-1 items-end justify-end">
-            <DownloadButton
-              svgPath={`${githubIconsPath}${iconPath}`}
-              fileName={`${activeTag ? activeTag : ""}${symbol}${activeType === IconVariant.Full ? "" : activeType}`}
-            />
-            <CopyToClipboard svgPath={`${githubIconsPath}${iconPath}`} />
-          </div>
+        <div className="flex flex-1 items-end justify-end">
+          <DownloadButton
+            svgPath={`${githubIconsPath}${iconPath}`}
+            fileName={`${activeTag ? activeTag : ""}${symbol}${activeType === IconVariant.Full ? "" : activeType}`}
+          />
+          <CopyToClipboard svgPath={`${githubIconsPath}${iconPath}`} />
         </div>
       </div>
     </Box>
