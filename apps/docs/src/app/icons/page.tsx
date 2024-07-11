@@ -17,7 +17,7 @@ async function IconsPage({
     search?: string;
   };
 }) {
-  const searchString = searchParams?.search || "";
+  const searchString = searchParams?.search ?? "";
 
   const filteredIcons = useMemo(
     () =>
@@ -133,6 +133,7 @@ async function IconsPage({
             }
           })}
         {!filteredIcons.length && searchString !== "" && (
+          // TODO: need add image
           <div>No icons with the specified search parameters were found</div>
         )}
       </div>

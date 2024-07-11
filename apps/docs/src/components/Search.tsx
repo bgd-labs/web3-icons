@@ -15,7 +15,7 @@ export const Search = ({ placeholder }: { placeholder: string }) => {
     if (value) {
       params.set("search", value);
     } else {
-      params.delete("search");
+      params.set("search", "");
     }
     replace(`${pathname}?${params.toString()}`);
   }, 350);

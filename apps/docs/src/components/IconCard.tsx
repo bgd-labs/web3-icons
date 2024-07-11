@@ -48,8 +48,8 @@ export const IconCard = ({
           className="group relative flex h-[153px] cursor-pointer items-center justify-center transition"
         >
           <div className="flex flex-col">
-            <div className="border-main-400 bg-main-500 group-hover:bg-main-100 flex h-[124px] w-[124px] items-center justify-center rounded-full border transition">
-              <div className="border-main-400 relative z-10 flex h-[116px] w-[116px] items-center justify-center rounded-full border bg-white">
+            <div className="flex h-[124px] w-[124px] items-center justify-center rounded-full border border-main-400 bg-main-500 transition group-hover:bg-main-100">
+              <div className="relative z-10 flex h-[116px] w-[116px] items-center justify-center rounded-full border border-main-400 bg-white">
                 <div className="flex h-[70px] w-[70px] items-center justify-center overflow-hidden">
                   {children}
                 </div>
@@ -58,7 +58,7 @@ export const IconCard = ({
 
             <div
               className={cn(
-                "border-main-400 bg-main-500 group-hover:bg-main-100 absolute bottom-[20px] left-[14.5px] h-[45px] w-[95px] rotate-[-60deg] rounded-full border transition",
+                "absolute bottom-[20px] left-[14.5px] h-[45px] w-[95px] rotate-[-60deg] rounded-full border border-main-400 bg-main-500 transition group-hover:bg-main-100",
                 {
                   ["left-[88px] rotate-[-125deg]"]:
                     activeType === IconVariant.Mono,
@@ -69,7 +69,7 @@ export const IconCard = ({
             <div className="z-5 relative ml-[-5%] mt-[-15px] flex w-[110%] items-center justify-between text-[10px]">
               <div
                 className={cn(
-                  `bg-main-200 text-main-600 group-hover:bg-main-200 group-hover:text-main-600 flex h-[36px] w-[36px] items-center justify-center rounded-full transition`,
+                  `flex h-[36px] w-[36px] items-center justify-center rounded-full bg-main-200 text-main-600 transition group-hover:bg-main-200 group-hover:text-main-600`,
                   {
                     ["bg-main-100 text-main-200"]:
                       activeType === IconVariant.Full,
@@ -80,7 +80,7 @@ export const IconCard = ({
               </div>
               <div
                 className={cn(
-                  `bg-main-200 text-main-600 group-hover:bg-main-200 group-hover:text-main-600 flex h-[36px] w-[36px] items-center justify-center rounded-full transition`,
+                  `flex h-[36px] w-[36px] items-center justify-center rounded-full bg-main-200 text-main-600 transition group-hover:bg-main-200 group-hover:text-main-600`,
                   {
                     ["bg-main-100 text-main-200"]:
                       activeType === IconVariant.Mono,

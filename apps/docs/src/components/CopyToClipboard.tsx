@@ -34,7 +34,7 @@ export const CopyToClipboard = ({ svgPath, className, children }: Props) => {
       {children}
       <ButtonBox w={32} h={32} color="white">
         <button
-          className="text-main-100 flex h-[32px] w-[32px] items-center justify-center"
+          className="flex h-[32px] w-[32px] items-center justify-center text-main-100"
           type="button"
           onClick={handleCopyClick}
         >
