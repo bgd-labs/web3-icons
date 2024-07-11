@@ -1,28 +1,41 @@
-// TODO: need add search
-
-import React from "react";
+import Fuse from "fuse.js";
+import React, { useMemo } from "react";
 
 import { AssetIconCard } from "@/components/AssetIconCard";
 import { Branding } from "@/components/Branding";
 import { ChainIconCard } from "@/components/ChainIconCard";
+import { Search } from "@/components/Search";
 
 import icons from "../../../../../icons/icons.json";
-import { IconType } from "../../../../../src/scripts/types";
+import { IconInfo, IconType } from "../../../../../src/scripts/types";
 
 async function IconsPage({
   searchParams,
 }: {
   searchParams?: {
-    query?: string;
-    page?: string;
+    search?: string;
   };
 }) {
-  const query = searchParams?.query || "";
+  const searchString = searchParams?.search || "";
+
+  const filteredIcons = useMemo(
+    () =>
+      new Fuse(icons as IconInfo[], {
+        keys: ["chainId", "symbol"],
+        threshold: 0.3,
+        distance: 1000,
+      })
+        .search(searchString)
+        .map((item) => item.item),
+    [searchString],
+  );
 
   return (
     <main className="p-4 md:p-8 xl:p-16">
+      <Search placeholder="Enter asset symbol or chain id" />
+
       <div className="flex flex-wrap items-center justify-center gap-2 sm:justify-start">
-        {icons
+        {(!filteredIcons.length && searchString === "" ? icons : filteredIcons)
           .filter((item) => item.name !== "Unknown")
           .map((item) => {
             const asset = item;
@@ -48,6 +61,9 @@ async function IconsPage({
               );
             }
           })}
+        {!filteredIcons.length && searchString !== "" && (
+          <div>No icons with the specified search parameters were found</div>
+        )}
       </div>
 
       <Branding />
