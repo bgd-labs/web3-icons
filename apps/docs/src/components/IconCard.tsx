@@ -1,68 +1,12 @@
-// TODO: need add styles for tags (need design)
-
 "use client";
 
-import { AssetTag, IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
+import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
 import { ReactNode } from "react";
 
 import { Box } from "@/components/Box";
 import { CopyToClipboard } from "@/components/CopyToClipboard";
 import { DownloadButton } from "@/components/DownloadButton";
 import { cn } from "@/utils/cn";
-
-const tags: { tag: AssetTag | undefined; symbol: string }[] = [
-  {
-    tag: AssetTag.AToken,
-    symbol: "AT",
-  },
-  {
-    tag: AssetTag.StataToken,
-    symbol: "StaT",
-  },
-  {
-    tag: undefined,
-    symbol: "Def",
-  },
-];
-
-export const types = [
-  {
-    tag: IconVariant.Full,
-    symbol: "Full",
-  },
-  {
-    tag: IconVariant.Mono,
-    symbol: "Mono",
-  },
-];
-
-export const TagButton = <T extends string>({
-  tag,
-  tagName,
-  isActive,
-  onClick,
-}: {
-  tag: T | undefined;
-  tagName: string;
-  isActive: boolean;
-  onClick: (value: T | undefined) => void;
-}) => {
-  return (
-    <button
-      type="button"
-      onClick={() => onClick(tag)}
-      disabled={isActive}
-      className={cn(
-        "mb-[-2px] inline-flex min-w-[25px] items-center bg-gray-400 px-0 py-0 text-center text-[4px] font-medium text-white transition hover:bg-gray-800 hover:text-[10px]",
-        {
-          ["bg-gray-800 px-2 py-[2px] text-[10px]"]: isActive,
-        },
-      )}
-    >
-      <span>{tagName}</span>
-    </button>
-  );
-};
 
 export const IconCard = ({
   children,
@@ -72,9 +16,6 @@ export const IconCard = ({
   fileName,
   setActiveType,
   activeType,
-  setActiveTag,
-  activeTag,
-  withTags,
 }: {
   children: ReactNode;
   name: string;
@@ -83,9 +24,6 @@ export const IconCard = ({
   fileName: string;
   setActiveType: (type: IconVariant) => void;
   activeType: IconVariant;
-  setActiveTag?: (tag: AssetTag | undefined) => void;
-  activeTag?: AssetTag | undefined;
-  withTags?: boolean;
 }) => {
   const handleSetIconVariant = () => {
     if (activeType === IconVariant.Full) {
@@ -103,20 +41,6 @@ export const IconCard = ({
           <div className="font-mono text-xs uppercase text-gray-400">
             {subName}
           </div>
-
-          {withTags && setActiveTag && (
-            <div className="absolute right-0 top-0 z-10 flex max-w-[50%] flex-col items-end justify-start">
-              {tags.map((tag) => (
-                <TagButton
-                  key={tag.symbol}
-                  tag={tag.tag}
-                  tagName={tag.symbol}
-                  isActive={tag.tag === activeTag}
-                  onClick={() => setActiveTag(tag.tag)}
-                />
-              ))}
-            </div>
-          )}
         </div>
 
         <div

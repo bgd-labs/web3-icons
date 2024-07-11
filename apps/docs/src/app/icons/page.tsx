@@ -1,3 +1,4 @@
+import { AssetTag } from "@bgd-labs/react-web3-icons/dist/utils/index";
 import Fuse from "fuse.js";
 import React, { useMemo } from "react";
 
@@ -40,16 +41,86 @@ async function IconsPage({
           .map((item) => {
             const asset = item;
             if (asset.type.includes(IconType.asset)) {
-              return (
-                <AssetIconCard
-                  key={asset?.symbol ?? asset?.chainId}
-                  name={asset.name ?? ""}
-                  symbol={asset?.symbol ?? ""}
-                  chainId={asset.chainId}
-                  chainName={asset.chainName}
-                  icons={asset.icons}
-                />
-              );
+              if (asset.icons.aToken && !asset.icons.stataToken) {
+                return (
+                  <React.Fragment key={asset?.symbol ?? asset?.chainId}>
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                    />
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                      assetTag={AssetTag.AToken}
+                    />
+                  </React.Fragment>
+                );
+              } else if (!asset.icons.aToken && asset.icons.stataToken) {
+                return (
+                  <React.Fragment key={asset?.symbol ?? asset?.chainId}>
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                    />
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                      assetTag={AssetTag.StataToken}
+                    />
+                  </React.Fragment>
+                );
+              } else if (asset.icons.aToken && asset.icons.stataToken) {
+                return (
+                  <React.Fragment key={asset?.symbol ?? asset?.chainId}>
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                    />
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                      assetTag={AssetTag.AToken}
+                    />
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                      assetTag={AssetTag.StataToken}
+                    />
+                  </React.Fragment>
+                );
+              } else {
+                return (
+                  <AssetIconCard
+                    key={asset?.symbol ?? asset?.chainId}
+                    name={asset.name ?? ""}
+                    symbol={asset?.symbol ?? ""}
+                    chainId={asset.chainId}
+                    chainName={asset.chainName}
+                    icons={asset.icons}
+                  />
+                );
+              }
             } else {
               return (
                 <ChainIconCard

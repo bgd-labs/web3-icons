@@ -15,43 +15,41 @@ export const AssetIconCard = ({
   icons,
   chainId,
   chainName,
+  assetTag,
 }: {
   name: string;
   symbol: string;
   icons: IconInfoIcons;
   chainId?: number;
   chainName?: string;
+  assetTag?: AssetTag;
 }) => {
-  const [activeTag, setActiveTag] = useState<AssetTag | undefined>(undefined);
   const [activeType, setActiveType] = useState(IconVariant.Full);
 
-  const iconPath = activeTag
+  const iconPath = assetTag
     ? // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
       icons[
-        activeTag === AssetTag.AToken
+        assetTag === AssetTag.AToken
           ? "aToken"
-          : activeTag === AssetTag.StataToken
+          : assetTag === AssetTag.StataToken
             ? "stataToken"
             : "aToken"
       ][activeType]
     : icons[activeType];
 
   const Icon = () => (
-    <AssetIcon symbol={symbol} variant={activeType} tokenTag={activeTag} />
+    <AssetIcon symbol={symbol} variant={activeType} tokenTag={assetTag} />
   );
 
   return (
     <IconCard
       svgPath={`${githubIconsPath}${iconPath}`}
       name={`${name}${chainName ? `(${chainName})` : ""}`}
-      subName={`${symbol}${chainId ? `(${chainId})` : ""}`}
-      fileName={`${activeTag ? activeTag : ""}${symbol}${activeType === IconVariant.Full ? "" : activeType}`}
-      setActiveTag={setActiveTag}
+      subName={`${assetTag ? assetTag : ""}${symbol}${chainId ? `(${chainId})` : ""}`}
+      fileName={`${assetTag ? assetTag : ""}${symbol}${activeType === IconVariant.Full ? "" : activeType}`}
       setActiveType={setActiveType}
       activeType={activeType}
-      activeTag={activeTag}
-      withTags
     >
       <Icon />
     </IconCard>

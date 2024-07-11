@@ -27,7 +27,6 @@ export const ChainIconCard = ({
       fileName={`${githubIconsPath}${iconPath}`}
       setActiveType={setActiveType}
       activeType={activeType}
-      withTags
     >
       <Icon />
     </IconCard>
