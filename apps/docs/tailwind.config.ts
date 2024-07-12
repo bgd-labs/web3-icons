@@ -16,6 +16,12 @@ export default {
         "brand-700": "#6f6d76",
         "brand-800": "#444342",
         "brand-900": "#1d1d1b",
+        "main-100": "#101423",
+        "main-200": "#F2F0F9",
+        "main-300": "#CDC8E1",
+        "main-400": "#C6C3D1",
+        "main-500": "#F5F7FD",
+        "main-600": "#6C6781",
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],

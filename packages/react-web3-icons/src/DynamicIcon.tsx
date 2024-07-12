@@ -26,12 +26,16 @@ export const DynamicIcon = ({
             try {
               const svgFromGithubResponse = await fetch(iconPath);
               if (svgFromGithubResponse.ok) {
+                const svgCode = await svgFromGithubResponse.text();
                 return {
                   default: () => (
-                    <img
-                      style={{ width: "100%", height: "100%" }}
-                      src={iconPath}
-                      alt={iconName}
+                    <div
+                      style={{ width: "fit-content", height: "inherit" }}
+                      dangerouslySetInnerHTML={{
+                        __html: svgCode
+                          .replace(`height="32"`, `height="100%"`)
+                          .replace(`width="32"`, `width="100%"`),
+                      }}
                     />
                   ),
                 };

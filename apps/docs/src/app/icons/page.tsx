@@ -1,42 +1,146 @@
+import { AssetTag } from "@bgd-labs/react-web3-icons/dist/utils/index";
+import Fuse from "fuse.js";
+import React, { useMemo } from "react";
+
+import { AssetIconCard } from "@/components/AssetIconCard";
+import { Branding } from "@/components/Branding";
 import { ChainIconCard } from "@/components/ChainIconCard";
-import { IconCard } from "@/components/IconCard";
+import { Search } from "@/components/Search";
 
 import icons from "../../../../../icons/icons.json";
-import { IconType } from "../../../../../src/scripts/types";
+import { IconInfo, IconType } from "../../../../../src/scripts/types";
 
-const IconsPage = () => {
+async function IconsPage({
+  searchParams,
+}: {
+  searchParams?: {
+    search?: string;
+  };
+}) {
+  const searchString = searchParams?.search ?? "";
+
+  const filteredIcons = useMemo(
+    () =>
+      new Fuse(icons as IconInfo[], {
+        keys: ["chainId", "symbol"],
+        threshold: 0.3,
+        distance: 1000,
+      })
+        .search(searchString)
+        .map((item) => item.item),
+    [searchString],
+  );
+
   return (
     <main className="p-4 md:p-8 xl:p-16">
-      <h2 className="mb-4 text-4xl font-bold">Assets icons</h2>
+      <Search placeholder="Enter asset symbol or chain id" />
+
       <div className="flex flex-wrap items-center justify-center gap-2 sm:justify-start">
-        {icons
-          .filter((asset) => asset.type.includes(IconType.asset))
-          .filter((asset) => asset.symbol !== "unknown")
-          .map((asset) => (
-            <IconCard
-              key={asset.symbol}
-              name={asset.name ?? ""}
-              symbol={asset.symbol ?? ""}
-              icons={asset.icons}
-            />
-          ))}
+        {(!filteredIcons.length && searchString === "" ? icons : filteredIcons)
+          .filter((item) => item.name !== "Unknown")
+          .map((item) => {
+            const asset = item;
+            if (asset.type.includes(IconType.asset)) {
+              if (asset.icons.aToken && !asset.icons.stataToken) {
+                return (
+                  <React.Fragment key={asset?.symbol ?? asset?.chainId}>
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                    />
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                      assetTag={AssetTag.AToken}
+                    />
+                  </React.Fragment>
+                );
+              } else if (!asset.icons.aToken && asset.icons.stataToken) {
+                return (
+                  <React.Fragment key={asset?.symbol ?? asset?.chainId}>
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                    />
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                      assetTag={AssetTag.StataToken}
+                    />
+                  </React.Fragment>
+                );
+              } else if (asset.icons.aToken && asset.icons.stataToken) {
+                return (
+                  <React.Fragment key={asset?.symbol ?? asset?.chainId}>
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                    />
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                      assetTag={AssetTag.AToken}
+                    />
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                      assetTag={AssetTag.StataToken}
+                    />
+                  </React.Fragment>
+                );
+              } else {
+                return (
+                  <AssetIconCard
+                    key={asset?.symbol ?? asset?.chainId}
+                    name={asset.name ?? ""}
+                    symbol={asset?.symbol ?? ""}
+                    chainId={asset.chainId}
+                    chainName={asset.chainName}
+                    icons={asset.icons}
+                  />
+                );
+              }
+            } else {
+              return (
+                <ChainIconCard
+                  key={asset.chainId}
+                  chainId={asset.chainId ?? 1}
+                  name={asset.chainName ?? asset.name ?? "Unknown"}
+                  iconPath={asset.icons.mono}
+                />
+              );
+            }
+          })}
+        {!filteredIcons.length && searchString !== "" && (
+          // TODO: need add image
+          <div>No icons with the specified search parameters were found</div>
+        )}
       </div>
 
-      <h2 className="mb-4 mt-12 text-4xl font-bold">Chains icons</h2>
-      <div className="mt-8 flex flex-wrap items-center justify-center gap-2 sm:justify-start">
-        {icons
-          .filter((asset) => asset.type.includes(IconType.chain))
-          .map((chain) => (
-            <ChainIconCard
-              key={chain.chainId}
-              chainId={chain.chainId ?? 1}
-              name={chain.chainName ?? chain.name ?? "Unknown"}
-              iconPath={chain.icons.mono}
-            />
-          ))}
-      </div>
+      <Branding />
     </main>
   );
-};
+}
 
 export default IconsPage;

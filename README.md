@@ -2,7 +2,7 @@
 Svg set of web3 icons and utils for easy generation.
 
 ### Installation
-We have prepared a package with all the icons for easy use in the React.js ecosystem. Described in more detail [here](./packages/react-web3-icons/README.md).
+Package with some of web3 assets and chains icons for easy use in the React.js ecosystem. Described in more detail [here](./packages/react-web3-icons/README.md).
 
 #### npm
 <code>npm i @bgd-labs/react-web3-icons</code>

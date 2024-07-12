@@ -3,6 +3,7 @@
 import { type ReactNode, useState } from "react";
 import * as React from "react";
 
+import { ButtonBox } from "@/components/ButtonBox";
 import { CopyIcon } from "@/components/CopyIcon";
 import { cn } from "@/utils/cn";
 
@@ -31,13 +32,15 @@ export const CopyToClipboard = ({ svgPath, className, children }: Props) => {
   return (
     <div className={cn("flex flex-wrap items-center", className)}>
       {children}
-      <button
-        className="p-1 text-gray-400 hover:text-gray-800"
-        type="button"
-        onClick={handleCopyClick}
-      >
-        <CopyIcon isCopied={copied} />
-      </button>
+      <ButtonBox w={32} h={32} color="white">
+        <button
+          className="flex h-[32px] w-[32px] items-center justify-center text-main-100"
+          type="button"
+          onClick={handleCopyClick}
+        >
+          <CopyIcon isCopied={copied} />
+        </button>
+      </ButtonBox>
     </div>
   );
 };
