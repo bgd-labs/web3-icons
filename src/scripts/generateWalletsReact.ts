@@ -2,30 +2,27 @@ import { transform } from "@svgr/core";
 import fs from "fs";
 
 import allIcons from "../../icons/icons.json";
-import { IconType } from "./types.ts";
+import { IconType, WalletType } from "./types.ts";
 
-const REACT_COMPONENTS_PATH = "packages/react-web3-icons/src/components/chains";
+const REACT_COMPONENTS_PATH =
+  "packages/react-web3-icons/src/components/wallets";
 const REACT_UTILS_PATH = "packages/react-web3-icons/src/utils";
 
-const chains = allIcons.filter((icon) => icon.type.includes(IconType.chain));
+const wallets = allIcons.filter((icon) => icon.type.includes(IconType.wallet));
 
 interface QueueItem {
   name: string;
   filePath: string;
   type: "full" | "mono";
-  chainId: number;
+  identityFlag: string;
 }
 
 const queue: QueueItem[] = [];
-for (const chain of chains) {
-  const { chainId, icons } = chain;
-  const name = chain?.chainName
-    ? chain.chainName
-    : chain?.name
-      ? chain.name
-      : "Unknown";
-  queue.push({ name, filePath: icons.mono, chainId, type: "mono" });
-  queue.push({ name, filePath: icons.full, chainId, type: "full" });
+for (const wallet of wallets) {
+  const { identityFlag, icons } = wallet;
+  const name = wallet?.name ? wallet.name : "Unknown";
+  queue.push({ name, filePath: icons.mono, identityFlag, type: "mono" });
+  queue.push({ name, filePath: icons.full, identityFlag, type: "full" });
 }
 
 const componentFiles: string[] = [];
@@ -63,18 +60,20 @@ Promise.all(
   fs.writeFileSync(`${REACT_COMPONENTS_PATH}/index.ts`, fileContent);
   console.log("✅ All React components generated");
 
-  const chainsNames: Record<string, string> = {};
-  chains.forEach(
+  const walletsData: Record<
+    string,
+    Pick<WalletType, "name" | "identityFlag">
+  > = {};
+  wallets.forEach(
     (item) =>
-      (chainsNames[item.chainId] = item?.chainName
-        ? item.chainName
-        : item?.name
-          ? item.name
-          : "Unknown"),
+      (walletsData[item.name.replace(/\s/g, "").toLowerCase()] = {
+        name: item?.name ? item.name : "Unknown",
+        identityFlag: item.identityFlag,
+      }),
   );
   fs.writeFileSync(
-    `${REACT_UTILS_PATH}/chainsNames.ts`,
-    `export const chainsNames: Record<number, string> = ${JSON.stringify(chainsNames)};`,
+    `${REACT_UTILS_PATH}/walletsNames.ts`,
+    `export const wallets: Record<string, { name: string; identityFlag: string }> = ${JSON.stringify(walletsData)};`,
   );
-  console.log("✅ All chains names are generated");
+  console.log("✅ All wallets data generated");
 });

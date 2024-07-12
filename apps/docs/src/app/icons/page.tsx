@@ -6,6 +6,7 @@ import { AssetIconCard } from "@/components/AssetIconCard";
 import { Branding } from "@/components/Branding";
 import { ChainIconCard } from "@/components/ChainIconCard";
 import { Search } from "@/components/Search";
+import { WalletIconCard } from "@/components/WalletIconCard";
 
 import icons from "../../../../../icons/icons.json";
 import { IconInfo, IconType } from "../../../../../src/scripts/types";
@@ -22,7 +23,7 @@ async function IconsPage({
   const filteredIcons = useMemo(
     () =>
       new Fuse(icons as IconInfo[], {
-        keys: ["chainId", "symbol"],
+        keys: ["chainId", "symbol", "identityFlag"],
         threshold: 0.3,
         distance: 1000,
       })
@@ -121,13 +122,20 @@ async function IconsPage({
                   />
                 );
               }
-            } else {
+            } else if (asset.type.includes(IconType.chain)) {
               return (
                 <ChainIconCard
                   key={asset.chainId}
                   chainId={asset.chainId ?? 1}
                   name={asset.chainName ?? asset.name ?? "Unknown"}
-                  iconPath={asset.icons.mono}
+                  iconPath={asset.icons.mono} // TODO: need fix should be icons
+                />
+              );
+            } else if (asset.type.includes(IconType.wallet)) {
+              return (
+                <WalletIconCard
+                  iconPath={asset.icons.mono} // TODO: need fix should be icons
+                  name={asset?.name ?? "Unknown"}
                 />
               );
             }

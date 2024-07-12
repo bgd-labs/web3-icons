@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/bgd-labs/icons/blob/main/README.md",
   "scripts": {
-    "generate": "tsx src/scripts/generate.ts && tsx src/scripts/generateReact.ts && tsx src/scripts/generateChainsReact.ts"
+    "generate": "tsx src/scripts/generate.ts && tsx src/scripts/generateReact.ts && tsx src/scripts/generateChainsReact.ts && tsx src/scripts/generateWalletsReact.ts"
   },
   "dependencies": {
     "@svgr/core": "^8.1.0",

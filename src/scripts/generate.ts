@@ -29,6 +29,7 @@ const IconMetaSchema = z.object({
   symbol: z.string().or(z.undefined()),
   symbolAliases: z.array(z.string()).or(z.undefined()),
   variations: z.array(z.string()).or(z.undefined()),
+  identityFlag: z.string().or(z.undefined()),
 });
 
 const files = fs
@@ -86,6 +87,30 @@ for (const icon of iconsArray) {
   const fullContent = processIconFile(path.join(ICONS_FOLDER, full))
     .optimizeSVGContent()
     .getSVGContent();
+
+  if (meta.type.includes(IconType.wallet)) {
+    const monoFilePath = path.join(
+      OUTPUT_FOLDER,
+      "mono",
+      `${name.replace(/\s/g, "").toLowerCase()}.svg`,
+    );
+    iconInfo.icons.mono = monoFilePath;
+    writeQueue.push({
+      filePath: monoFilePath,
+      content: monoContent,
+    });
+
+    const fullFilePath = path.join(
+      OUTPUT_FOLDER,
+      "full",
+      `${name.replace(/\s/g, "").toLowerCase()}.svg`,
+    );
+    iconInfo.icons.full = fullFilePath;
+    writeQueue.push({
+      filePath: fullFilePath,
+      content: fullContent,
+    });
+  }
 
   if (meta.type.includes(IconType.chain)) {
     const monoFilePath = path.join(

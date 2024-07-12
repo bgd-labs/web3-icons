@@ -54,6 +54,17 @@
   },
   {
     "type": [
+      "wallet"
+    ],
+    "name": "Alpha Wallet",
+    "identityFlag": "isAlphaWallet",
+    "icons": {
+      "mono": "icons/mono/alphawallet.svg",
+      "full": "icons/full/alphawallet.svg"
+    }
+  },
+  {
+    "type": [
       "asset"
     ],
     "name": "Ampleforth",
@@ -104,6 +115,17 @@
         "mono": "icons/mono/stataarb.svg",
         "full": "icons/full/stataarb.svg"
       }
+    }
+  },
+  {
+    "type": [
+      "wallet"
+    ],
+    "name": "AToken Wallet",
+    "identityFlag": "isAToken",
+    "icons": {
+      "mono": "icons/mono/atokenwallet.svg",
+      "full": "icons/full/atokenwallet.svg"
     }
   },
   {

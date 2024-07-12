@@ -6,4 +6,6 @@ export * from "./getAssetIconNameAndPath";
 export * from "./getAssetName";
 export * from "./getChainIconNameAndPath";
 export * from "./getChainName";
+export * from "./getWalletIconNameAndPath";
+export * from "./getWalletName";
 export * from "./types";

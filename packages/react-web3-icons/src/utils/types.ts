@@ -18,4 +18,11 @@ export interface AssetIconProps {
 export type ChainType = {
   name: string;
   chainId: number;
+  variant?: IconVariant;
+};
+
+export type WalletType = {
+  name: string;
+  identityFlag?: string;
+  variant?: IconVariant;
 };
