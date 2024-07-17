@@ -2,34 +2,34 @@ import * as React from "react";
 import type { SVGProps } from "react";
 const IconAmaiFull = (props: SVGProps<SVGSVGElement>) => (
   <svg
+    xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
-    viewBox="0 0 32 32"
     fill="none"
-    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 32"
     {...props}
   >
     <circle
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#paint0_linear_40_91)"
+      stroke="url(#f6p9qh__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#circleClip)">
+    <g clipPath="url(#f6p9qh__circleClip)">
       <g
         style={{
-          transform: "scale(0.8125)",
+          transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#clip0_298_258)">
+        <g clipPath="url(#f6p9qh__pof3h__clip0_298_258)">
           <path
-            fill="url(#paint0_linear_298_258)"
+            fill="url(#f6p9qh__pof3h__paint0_linear_298_258)"
             d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
           />
           <path
-            stroke="url(#paint1_linear_298_258)"
+            stroke="url(#f6p9qh__pof3h__paint1_linear_298_258)"
             strokeMiterlimit={5.12}
             strokeWidth={0.75}
             d="M16 28.81c7.075 0 12.81-5.735 12.81-12.81S23.075 3.19 16 3.19 3.19 8.925 3.19 16 8.925 28.81 16 28.81Z"
@@ -41,7 +41,7 @@ const IconAmaiFull = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
           <linearGradient
-            id="paint0_linear_298_258"
+            id="f6p9qh__pof3h__paint0_linear_298_258"
             x1={16.002}
             x2={16.002}
             y1={0.004}
@@ -54,7 +54,7 @@ const IconAmaiFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#EB676A" />
           </linearGradient>
           <linearGradient
-            id="paint1_linear_298_258"
+            id="f6p9qh__pof3h__paint1_linear_298_258"
             x1={16.002}
             x2={16.002}
             y1={2.756}
@@ -64,27 +64,27 @@ const IconAmaiFull = (props: SVGProps<SVGSVGElement>) => (
             <stop stopColor="#D03B38" />
             <stop offset={1} stopColor="#EE8E90" />
           </linearGradient>
-          <clipPath id="clip0_298_258">
+          <clipPath id="f6p9qh__pof3h__clip0_298_258">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
       </g>
     </g>
     <defs>
-      <clipPath id="circleClip">
-        <circle cx={16} cy={16} r={13} />
-      </clipPath>
       <linearGradient
-        id="paint0_linear_40_91"
+        id="f6p9qh__paint0_linear_40_91"
         x1={26.976}
+        x2={6.592}
         y1={4.32}
-        x2={6.59198}
         y2={28.352}
         gradientUnits="userSpaceOnUse"
       >
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
+      <clipPath id="f6p9qh__circleClip">
+        <circle cx={16} cy={16} r={13} />
+      </clipPath>
     </defs>
   </svg>
 );

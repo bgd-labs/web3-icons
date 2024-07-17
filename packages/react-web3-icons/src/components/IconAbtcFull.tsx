@@ -2,28 +2,28 @@ import * as React from "react";
 import type { SVGProps } from "react";
 const IconAbtcFull = (props: SVGProps<SVGSVGElement>) => (
   <svg
+    xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
-    viewBox="0 0 32 32"
     fill="none"
-    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 32"
     {...props}
   >
     <circle
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#paint0_linear_40_91)"
+      stroke="url(#egkzc__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#circleClip)">
+    <g clipPath="url(#egkzc__circleClip)">
       <g
         style={{
-          transform: "scale(0.8125)",
+          transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#clip0_97_2747)">
+        <g clipPath="url(#egkzc__njvte__clip0_97_2747)">
           <path
             fill="#F7931A"
             d="M31.52 19.87c-2.14 8.57-10.82 13.79-19.39 11.65S-1.66 20.7.48 12.13 11.3-1.66 19.87.48 33.66 11.3 31.52 19.87"
@@ -34,27 +34,27 @@ const IconAbtcFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="clip0_97_2747">
+          <clipPath id="egkzc__njvte__clip0_97_2747">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
       </g>
     </g>
     <defs>
-      <clipPath id="circleClip">
-        <circle cx={16} cy={16} r={13} />
-      </clipPath>
       <linearGradient
-        id="paint0_linear_40_91"
+        id="egkzc__paint0_linear_40_91"
         x1={26.976}
+        x2={6.592}
         y1={4.32}
-        x2={6.59198}
         y2={28.352}
         gradientUnits="userSpaceOnUse"
       >
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
+      <clipPath id="egkzc__circleClip">
+        <circle cx={16} cy={16} r={13} />
+      </clipPath>
     </defs>
   </svg>
 );

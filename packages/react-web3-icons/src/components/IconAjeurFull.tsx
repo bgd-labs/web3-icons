@@ -2,39 +2,39 @@ import * as React from "react";
 import type { SVGProps } from "react";
 const IconAjeurFull = (props: SVGProps<SVGSVGElement>) => (
   <svg
+    xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
-    viewBox="0 0 32 32"
     fill="none"
-    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 32"
     {...props}
   >
     <circle
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#paint0_linear_40_91)"
+      stroke="url(#xrv0u__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#circleClip)">
+    <g clipPath="url(#xrv0u__circleClip)">
       <g
         style={{
-          transform: "scale(0.8125)",
+          transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#clip0_294_241)">
+        <g clipPath="url(#xrv0u__3izcj__clip0_294_241)">
           <path
             fill="#FC0"
             d="M16.004 32.002C24.842 32.002 32 24.844 32 16.006S24.842.01 16.004.01.008 7.168.008 16.006s7.158 15.996 15.996 15.996"
           />
           <path
             fill="#039"
-            d="M16.004 1.34C7.946 1.36 1.427 7.898 1.437 15.966c.02 8.058 6.559 14.577 14.627 14.567 8.058-.02 14.576-6.559 14.566-14.627 0-3.849-1.54-7.538-4.249-10.267a14.67 14.67 0 0 0-10.367-4.3zm0-1.33C24.842.01 32 7.168 32 16.006c0 4.24-1.69 8.308-4.689 11.308-6.248 6.248-16.376 6.248-22.625 0s-6.248-16.377 0-22.625c3-3 7.069-4.689 11.308-4.689z"
+            d="M16.004 1.34C7.946 1.36 1.427 7.898 1.437 15.966c.02 8.058 6.559 14.577 14.627 14.567 8.058-.02 14.576-6.559 14.566-14.627a14.6 14.6 0 0 0-4.249-10.267 14.67 14.67 0 0 0-10.367-4.3zm0-1.33C24.842.01 32 7.168 32 16.006c0 4.24-1.69 8.308-4.689 11.308-6.248 6.248-16.376 6.248-22.625 0s-6.248-16.377 0-22.625c3-3 7.069-4.689 11.308-4.689z"
           />
           <path
             fill="#039"
-            d="M29.34 16.006c0 5.389-3.249 10.248-8.227 12.317-6.799 2.82-14.597-.41-17.416-7.218-.33-.81-.59-1.64-.76-2.5C1.497 11.388 6.187 4.37 13.414 2.93c.86-.17 1.73-.26 2.6-.26 7.348 0 13.317 5.939 13.327 13.297z"
+            d="M29.34 16.006a13.34 13.34 0 0 1-8.227 12.317c-6.799 2.82-14.597-.41-17.416-7.218-.33-.81-.59-1.64-.76-2.5C1.497 11.388 6.187 4.37 13.414 2.93c.86-.17 1.73-.26 2.6-.26 7.348 0 13.317 5.939 13.327 13.297z"
           />
           <path
             fill="#FC0"
@@ -42,27 +42,27 @@ const IconAjeurFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="clip0_294_241">
+          <clipPath id="xrv0u__3izcj__clip0_294_241">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
       </g>
     </g>
     <defs>
-      <clipPath id="circleClip">
-        <circle cx={16} cy={16} r={13} />
-      </clipPath>
       <linearGradient
-        id="paint0_linear_40_91"
+        id="xrv0u__paint0_linear_40_91"
         x1={26.976}
+        x2={6.592}
         y1={4.32}
-        x2={6.59198}
         y2={28.352}
         gradientUnits="userSpaceOnUse"
       >
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
+      <clipPath id="xrv0u__circleClip">
+        <circle cx={16} cy={16} r={13} />
+      </clipPath>
     </defs>
   </svg>
 );

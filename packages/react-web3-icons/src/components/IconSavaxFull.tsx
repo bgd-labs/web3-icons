@@ -9,7 +9,7 @@ const IconSavaxFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#clip0_297_98)">
+    <g clipPath="url(#hr43h__clip0_297_98)">
       <path
         fill="#50AFE7"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -20,7 +20,7 @@ const IconSavaxFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="clip0_297_98">
+      <clipPath id="hr43h__clip0_297_98">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

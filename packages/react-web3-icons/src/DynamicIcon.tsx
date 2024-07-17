@@ -1,64 +1,36 @@
 "use client";
 
-import loadable from "@loadable/component";
 import React from "react";
+import SVG from "react-inlinesvg";
+
+import IconUnknownFull from "./components/IconUnknownFull";
 
 /**
- * Wrapper for Icon component with dynamic import
+ * Wrapper for get icons dynamically
  */
 export const DynamicIcon = ({
-  dynamicComponent,
-  iconPath,
-  iconName,
+  src,
   loadingComponent,
 }: {
-  dynamicComponent: () => Promise<any>;
-  iconPath: string;
-  iconName: string;
+  src: string;
   loadingComponent?: React.JSX.Element;
 }) => {
-  const Icon = loadable(
-    async () => {
-      try {
-        return await dynamicComponent().then(async (module) => {
-          const iconModule = module[`Icon${iconName}`];
-          if (!iconModule) {
-            try {
-              const svgFromGithubResponse = await fetch(iconPath);
-              if (svgFromGithubResponse.ok) {
-                const svgCode = await svgFromGithubResponse.text();
-                return {
-                  default: () => (
-                    <div
-                      style={{ width: "fit-content", height: "inherit" }}
-                      dangerouslySetInnerHTML={{
-                        __html: svgCode
-                          .replace(`height="32"`, `height="100%"`)
-                          .replace(`width="32"`, `width="100%"`),
-                      }}
-                    />
-                  ),
-                };
-              } else {
-                return await import("./components/IconUnknownFull");
-              }
-            } catch (e) {
-              return await import("./components/IconUnknownFull");
-            }
-          } else {
-            return {
-              default: iconModule,
-            };
-          }
-        });
-      } catch (e) {
-        return await import("./components/IconUnknownFull");
-      }
-    },
-    {
-      fallback: loadingComponent,
-    },
+  const [isError, setIsError] = React.useState(false);
+  return (
+    <>
+      {isError ? (
+        <IconUnknownFull />
+      ) : (
+        <SVG
+          src={src}
+          width="100%"
+          height="100%"
+          loader={loadingComponent}
+          uniqueHash={(Math.random() + 1).toString(36).substring(7)}
+          uniquifyIDs
+          onError={() => setIsError(true)}
+        />
+      )}
+    </>
   );
-
-  return <Icon />;
 };

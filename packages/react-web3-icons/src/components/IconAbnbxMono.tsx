@@ -2,18 +2,18 @@ import * as React from "react";
 import type { SVGProps } from "react";
 const IconAbnbxMono = (props: SVGProps<SVGSVGElement>) => (
   <svg
+    xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
-    viewBox="0 0 32 32"
     fill="none"
-    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 32"
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#circleClip)">
+    <g clipPath="url(#evps1h__circleClip)">
       <g
         style={{
-          transform: "scale(0.8125)",
+          transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
@@ -24,7 +24,7 @@ const IconAbnbxMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="circleClip">
+      <clipPath id="evps1h__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

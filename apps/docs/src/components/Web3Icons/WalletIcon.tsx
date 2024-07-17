@@ -1,28 +1,17 @@
 "use client";
-
 import { DynamicIcon } from "@bgd-labs/react-web3-icons";
 import {
-  getWalletIconNameAndPath,
+  getWalletIconPath,
   WalletType,
 } from "@bgd-labs/react-web3-icons/dist/utils";
 
+import { IconLoader } from "@/components/Web3Icons/IconLoader";
 /**
- * Renders a chain icon specified by chain id.
+ * Renders a wallet icon specified by chain id.
  */
 export const WalletIcon = ({
   ...props
 }: Pick<WalletType, "name" | "variant">) => {
-  const { iconName, iconPathToRepo } = getWalletIconNameAndPath(props);
-  return (
-    <DynamicIcon
-      iconPath={iconPathToRepo}
-      iconName={iconName}
-      dynamicComponent={() =>
-        import("@bgd-labs/react-web3-icons/dist/components/wallets/index.cjs")
-      }
-      loadingComponent={
-        <div className="size-11 animate-pulse rounded-full bg-brand-300" />
-      }
-    />
-  );
+  const iconPath = getWalletIconPath(props);
+  return <DynamicIcon src={iconPath} loadingComponent={<IconLoader />} />;
 };

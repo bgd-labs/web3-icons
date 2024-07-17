@@ -2,28 +2,28 @@ import * as React from "react";
 import type { SVGProps } from "react";
 const IconAfxsFull = (props: SVGProps<SVGSVGElement>) => (
   <svg
+    xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
-    viewBox="0 0 32 32"
     fill="none"
-    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 32"
     {...props}
   >
     <circle
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#paint0_linear_40_91)"
+      stroke="url(#4u04t__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#circleClip)">
+    <g clipPath="url(#4u04t__circleClip)">
       <g
         style={{
-          transform: "scale(0.8125)",
+          transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#clip0_294_3479)">
+        <g clipPath="url(#4u04t__6bm3t__clip0_294_3479)">
           <path
             fill="#000"
             d="M30.739 9.774a16.1 16.1 0 0 0-3.426-5.087 15.8 15.8 0 0 0-5.087-3.425A15.9 15.9 0 0 0 16 0c-2.164 0-4.256.42-6.226 1.262a16.1 16.1 0 0 0-5.087 3.425 15.8 15.8 0 0 0-3.425 5.087A15.9 15.9 0 0 0 0 16c0 2.164.42 4.256 1.262 6.226a16.1 16.1 0 0 0 3.425 5.087 15.8 15.8 0 0 0 5.087 3.425A15.9 15.9 0 0 0 16 32c2.154 0 4.256-.42 6.226-1.262a16.1 16.1 0 0 0 5.087-3.425 15.8 15.8 0 0 0 3.425-5.087A15.9 15.9 0 0 0 32 16c0-2.164-.42-4.256-1.262-6.226"
@@ -34,27 +34,27 @@ const IconAfxsFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="clip0_294_3479">
+          <clipPath id="4u04t__6bm3t__clip0_294_3479">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
       </g>
     </g>
     <defs>
-      <clipPath id="circleClip">
-        <circle cx={16} cy={16} r={13} />
-      </clipPath>
       <linearGradient
-        id="paint0_linear_40_91"
+        id="4u04t__paint0_linear_40_91"
         x1={26.976}
+        x2={6.592}
         y1={4.32}
-        x2={6.59198}
         y2={28.352}
         gradientUnits="userSpaceOnUse"
       >
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
+      <clipPath id="4u04t__circleClip">
+        <circle cx={16} cy={16} r={13} />
+      </clipPath>
     </defs>
   </svg>
 );

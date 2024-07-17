@@ -2,30 +2,30 @@ import * as React from "react";
 import type { SVGProps } from "react";
 const IconAraiFull = (props: SVGProps<SVGSVGElement>) => (
   <svg
+    xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
-    viewBox="0 0 32 32"
     fill="none"
-    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 32"
     {...props}
   >
     <circle
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#paint0_linear_40_91)"
+      stroke="url(#t6vq__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#circleClip)">
+    <g clipPath="url(#t6vq__circleClip)">
       <g
         style={{
-          transform: "scale(0.8125)",
+          transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#clip0_298_431)">
+        <g clipPath="url(#t6vq__4fila__clip0_298_431)">
           <path
-            fill="url(#paint0_linear_298_431)"
+            fill="url(#t6vq__4fila__paint0_linear_298_431)"
             d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
           />
           <path
@@ -42,7 +42,7 @@ const IconAraiFull = (props: SVGProps<SVGSVGElement>) => (
           />
           <path
             fill="#B2E5DA"
-            d="m12.35 11.55 1.34 5.59 1.03-1.88-.96-4.05zM14.8 10.98l.69 2.86.51-.96-.5-2.07z"
+            d="m12.35 11.55 1.34 5.59 1.03-1.88-.96-4.05zm2.45-.57.69 2.86.51-.96-.5-2.07z"
           />
           <path
             fill="#408587"
@@ -62,16 +62,16 @@ const IconAraiFull = (props: SVGProps<SVGSVGElement>) => (
           />
           <path
             fill="#B2E5DA"
-            d="m17.25 16.61 5.34 2.96-.46-1.68-4.29-2.37zM18.36 14.55l.39-.71 2.68 1.49.28 1.01z"
+            d="m17.25 16.61 5.34 2.96-.46-1.68-4.29-2.37zm1.11-2.06.39-.71 2.68 1.49.28 1.01z"
           />
           <path
             fill="#fff"
-            d="m11.42 10.4.1.26c.12.33.39.6.72.72l.26.1-.26.1c-.33.12-.6.39-.72.72l-.1.26-.1-.26c-.12-.33-.39-.6-.72-.72l-.26-.1.26-.1c.33-.12.6-.39.72-.72zM14.64 11.87l.04.12c.05.14.16.25.3.3l.12.04-.12.04c-.14.05-.25.16-.3.3l-.04.12-.04-.12a.5.5 0 0 0-.3-.3l-.12-.04.12-.04c.14-.05.25-.16.3-.3zM17.22 21.34l.04.11c.05.13.15.23.28.28l.11.04-.11.04c-.13.05-.23.15-.28.28l-.04.11-.04-.11a.48.48 0 0 0-.28-.28l-.11-.04.11-.04c.13-.05.23-.15.28-.28z"
+            d="m11.42 10.4.1.26c.12.33.39.6.72.72l.26.1-.26.1c-.33.12-.6.39-.72.72l-.1.26-.1-.26c-.12-.33-.39-.6-.72-.72l-.26-.1.26-.1c.33-.12.6-.39.72-.72zm3.22 1.47.04.12c.05.14.16.25.3.3l.12.04-.12.04c-.14.05-.25.16-.3.3l-.04.12-.04-.12a.5.5 0 0 0-.3-.3l-.12-.04.12-.04c.14-.05.25-.16.3-.3zm2.58 9.47.04.11c.05.13.15.23.28.28l.11.04-.11.04c-.13.05-.23.15-.28.28l-.04.11-.04-.11a.48.48 0 0 0-.28-.28l-.11-.04.11-.04c.13-.05.23-.15.28-.28z"
           />
         </g>
         <defs>
           <linearGradient
-            id="paint0_linear_298_431"
+            id="t6vq__4fila__paint0_linear_298_431"
             x1={4.69}
             x2={27.32}
             y1={4.69}
@@ -81,27 +81,27 @@ const IconAraiFull = (props: SVGProps<SVGSVGElement>) => (
             <stop stopColor="#2A3035" />
             <stop offset={1} stopColor="#539283" />
           </linearGradient>
-          <clipPath id="clip0_298_431">
+          <clipPath id="t6vq__4fila__clip0_298_431">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
       </g>
     </g>
     <defs>
-      <clipPath id="circleClip">
-        <circle cx={16} cy={16} r={13} />
-      </clipPath>
       <linearGradient
-        id="paint0_linear_40_91"
+        id="t6vq__paint0_linear_40_91"
         x1={26.976}
+        x2={6.592}
         y1={4.32}
-        x2={6.59198}
         y2={28.352}
         gradientUnits="userSpaceOnUse"
       >
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
+      <clipPath id="t6vq__circleClip">
+        <circle cx={16} cy={16} r={13} />
+      </clipPath>
     </defs>
   </svg>
 );

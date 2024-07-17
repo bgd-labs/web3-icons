@@ -2,31 +2,31 @@ import * as React from "react";
 import type { SVGProps } from "react";
 const IconAwbtcFull = (props: SVGProps<SVGSVGElement>) => (
   <svg
+    xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
-    viewBox="0 0 32 32"
     fill="none"
-    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 32"
     {...props}
   >
     <circle
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#paint0_linear_40_91)"
+      stroke="url(#5eo41__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#circleClip)">
+    <g clipPath="url(#5eo41__circleClip)">
       <g
         style={{
-          transform: "scale(0.8125)",
+          transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#clip0_298_911)">
+        <g clipPath="url(#5eo41__v6gt1__clip0_298_911)">
           <path
             fill="#595563"
-            d="m26.09 6.72-.88.88c4.35 4.75 4.35 12.03 0 16.79l.88.88a13.69 13.69 0 0 0 0-18.57zM7.62 6.79c4.75-4.35 12.03-4.35 16.79 0l.88-.88a13.69 13.69 0 0 0-18.57 0zM6.79 24.39a12.44 12.44 0 0 1 0-16.78l-.88-.88a13.69 13.69 0 0 0 0 18.57zM24.39 25.2c-4.75 4.35-12.03 4.35-16.79 0l-.88.88a13.69 13.69 0 0 0 18.57 0z"
+            d="m26.09 6.72-.88.88c4.35 4.75 4.35 12.03 0 16.79l.88.88a13.69 13.69 0 0 0 0-18.57zm-18.47.07c4.75-4.35 12.03-4.35 16.79 0l.88-.88a13.69 13.69 0 0 0-18.57 0zm-.83 17.6a12.44 12.44 0 0 1 0-16.78l-.88-.88a13.69 13.69 0 0 0 0 18.57zm17.6.81c-4.75 4.35-12.03 4.35-16.79 0l-.88.88a13.69 13.69 0 0 0 18.57 0z"
           />
           <path
             fill="#E29552"
@@ -38,27 +38,27 @@ const IconAwbtcFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="clip0_298_911">
+          <clipPath id="5eo41__v6gt1__clip0_298_911">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
       </g>
     </g>
     <defs>
-      <clipPath id="circleClip">
-        <circle cx={16} cy={16} r={13} />
-      </clipPath>
       <linearGradient
-        id="paint0_linear_40_91"
+        id="5eo41__paint0_linear_40_91"
         x1={26.976}
+        x2={6.592}
         y1={4.32}
-        x2={6.59198}
         y2={28.352}
         gradientUnits="userSpaceOnUse"
       >
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
+      <clipPath id="5eo41__circleClip">
+        <circle cx={16} cy={16} r={13} />
+      </clipPath>
     </defs>
   </svg>
 );

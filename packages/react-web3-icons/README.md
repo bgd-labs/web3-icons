@@ -34,14 +34,14 @@ export const UsageExample = () => {
 import { DynamicIcon } from "@bgd-labs/react-web3-icons";
 import {
   AssetIconProps,
-  getAssetIconNameAndPath,
+  getAssetIconPath,
 } from "@bgd-labs/react-web3-icons/dist/utils";
 
 /**
  * Renders an asset icon specified by symbol.
  */
 export const AssetIcon = ({ ...props }: AssetIconProps) => {
-  const { iconPathToRepo, iconName } = getAssetIconNameAndPath(props);
+  const { iconPathToRepo, iconName } = getAssetIconPath(props);
   return (
     <DynamicIcon
       iconPath={iconPathToRepo}
@@ -66,14 +66,14 @@ export const AssetIcon = ({ ...props }: AssetIconProps) => {
 import { DynamicIcon } from "@bgd-labs/react-web3-icons";
 import {
   ChainType,
-  getChainIconNameAndPath,
+  getChainIconPath,
   IconVariant,
 } from "@bgd-labs/react-web3-icons/dist/utils";
 /**
  * Renders a chain icon specified by chain id.
  */
 export const ChainIcon = ({ ...props }: Pick<ChainType, "chainId"> & { variant?: IconVariant }) => {
-  const { iconPathToRepo, iconName } = getChainIconNameAndPath(props);
+  const { iconPathToRepo, iconName } = getChainIconPath(props);
   return (
     <DynamicIcon
       iconPath={iconPathToRepo}

@@ -9,7 +9,7 @@ const IconWethFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#clip0_298_454)">
+    <g clipPath="url(#ez4dtj__clip0_298_454)">
       <path
         fill="#fff"
         d="M32 16c0 8.84-7.16 16-16 16S0 24.84 0 16 7.17 0 16 0s16 7.16 16 16"
@@ -46,7 +46,7 @@ const IconWethFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="clip0_298_454">
+      <clipPath id="ez4dtj__clip0_298_454">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>
