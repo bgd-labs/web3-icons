@@ -13,17 +13,17 @@ const IconAfeiFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#cogyk__paint0_linear_40_91)"
+      stroke="url(#gum73f__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#cogyk__circleClip)">
+    <g clipPath="url(#gum73f__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#cogyk__zufrzk__clip0_292_219)">
+        <g clipPath="url(#gum73f__clip0_292_219)">
           <path
             fill="#22996E"
             d="M16 32c8.84 0 16-7.16 16-16S24.84 0 16 0 0 7.16 0 16s7.16 16 16 16"
@@ -34,7 +34,7 @@ const IconAfeiFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="cogyk__zufrzk__clip0_292_219">
+          <clipPath id="gum73f__clip0_292_219">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -42,7 +42,7 @@ const IconAfeiFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="cogyk__paint0_linear_40_91"
+        id="gum73f__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -52,7 +52,7 @@ const IconAfeiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="cogyk__circleClip">
+      <clipPath id="gum73f__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

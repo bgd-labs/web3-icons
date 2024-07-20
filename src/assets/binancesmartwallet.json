@@ -1,0 +1,5 @@
+{
+  "type": ["wallet"],
+  "name": "Binance Smart Wallet",
+  "identityFlag": "bbcSignTx"
+}

@@ -13,17 +13,17 @@ const IconAdpiFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#khd2o__paint0_linear_40_91)"
+      stroke="url(#zbo2__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#khd2o__circleClip)">
+    <g clipPath="url(#zbo2__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#khd2o__di6if__clip0_294_3752)">
+        <g clipPath="url(#zbo2__clip0_294_3752)">
           <path
             fill="#8150E6"
             d="M32 16.051c0 8.868-7.164 16.052-16 16.052S0 24.919 0 16.05 7.164 0 16 0s16 7.184 16 16.051"
@@ -46,7 +46,7 @@ const IconAdpiFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="khd2o__di6if__clip0_294_3752">
+          <clipPath id="zbo2__clip0_294_3752">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -54,7 +54,7 @@ const IconAdpiFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="khd2o__paint0_linear_40_91"
+        id="zbo2__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -64,7 +64,7 @@ const IconAdpiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="khd2o__circleClip">
+      <clipPath id="zbo2__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

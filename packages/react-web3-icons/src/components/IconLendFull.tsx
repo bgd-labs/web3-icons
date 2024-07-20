@@ -9,9 +9,9 @@ const IconLendFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#z5w6v__clip0_297_24)">
+    <g clipPath="url(#clip0_297_24)">
       <path
-        fill="url(#z5w6v__paint0_linear_297_24)"
+        fill="url(#paint0_linear_297_24)"
         d="M16 32c8.836 0 16-7.164 16-16S24.836 0 16 0 0 7.164 0 16s7.164 16 16 16"
       />
       <path
@@ -21,7 +21,7 @@ const IconLendFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="z5w6v__paint0_linear_297_24"
+        id="paint0_linear_297_24"
         x1={0}
         x2={32}
         y1={16}
@@ -31,7 +31,7 @@ const IconLendFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#01AEC9" />
         <stop offset={1} stopColor="#1E8FCA" />
       </linearGradient>
-      <clipPath id="z5w6v__clip0_297_24">
+      <clipPath id="clip0_297_24">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

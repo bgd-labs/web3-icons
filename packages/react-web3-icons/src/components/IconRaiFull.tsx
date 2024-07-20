@@ -9,9 +9,9 @@ const IconRaiFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#4fila__clip0_298_431)">
+    <g clipPath="url(#clip0_298_431)">
       <path
-        fill="url(#4fila__paint0_linear_298_431)"
+        fill="url(#paint0_linear_298_431)"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
       />
       <path
@@ -57,7 +57,7 @@ const IconRaiFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="4fila__paint0_linear_298_431"
+        id="paint0_linear_298_431"
         x1={4.69}
         x2={27.32}
         y1={4.69}
@@ -67,7 +67,7 @@ const IconRaiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#2A3035" />
         <stop offset={1} stopColor="#539283" />
       </linearGradient>
-      <clipPath id="4fila__clip0_298_431">
+      <clipPath id="clip0_298_431">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

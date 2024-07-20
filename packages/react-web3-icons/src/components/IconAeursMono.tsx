@@ -10,7 +10,7 @@ const IconAeursMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#7lyn4__circleClip)">
+    <g clipPath="url(#wc9pi__circleClip)">
       <g
         fill="currentColor"
         fillRule="evenodd"
@@ -25,7 +25,7 @@ const IconAeursMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="7lyn4__circleClip">
+      <clipPath id="wc9pi__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

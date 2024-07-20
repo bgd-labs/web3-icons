@@ -10,7 +10,7 @@ const IconAgnosissdaiMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#v74m7__circleClip)">
+    <g clipPath="url(#aw8pb__circleClip)">
       <g
         fill="currentColor"
         style={{
@@ -23,7 +23,7 @@ const IconAgnosissdaiMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="v74m7__circleClip">
+      <clipPath id="aw8pb__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

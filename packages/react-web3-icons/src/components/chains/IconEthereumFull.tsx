@@ -9,7 +9,7 @@ const IconEthereumFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#869l3__clip0_423_6)">
+    <g clipPath="url(#clip0_423_6)">
       <path
         fill="#627EEA"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.164 0 16s7.164 16 16 16"
@@ -30,7 +30,7 @@ const IconEthereumFull = (props: SVGProps<SVGSVGElement>) => (
       <path fill="#fff" fillOpacity={0.602} d="m9 16.22 7.498 4.353v-7.701z" />
     </g>
     <defs>
-      <clipPath id="869l3__clip0_423_6">
+      <clipPath id="clip0_423_6">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

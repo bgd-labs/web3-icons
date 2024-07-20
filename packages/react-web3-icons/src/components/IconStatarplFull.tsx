@@ -10,29 +10,29 @@ const IconStatarplFull = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="url(#stmmr__paint0_linear_42_5)"
+      fill="url(#ijwhc__paint0_linear_42_5)"
       fillRule="evenodd"
       d="m31.951 17.257-1.994-.155a14 14 0 0 0 0-2.204l1.994-.155a16 16 0 0 1 0 2.514m-.39-4.994-1.945.466q-.26-1.08-.677-2.087l1.847-.767q.478 1.154.775 2.388M29.644 7.64 27.94 8.686a14 14 0 0 0-1.293-1.778l1.52-1.3a16 16 0 0 1 1.477 2.031m-3.253-3.806-1.3 1.52a14 14 0 0 0-1.777-1.293l1.047-1.704q1.076.661 2.03 1.477m-4.266-2.619-.767 1.848a14 14 0 0 0-2.087-.678l.466-1.945c.822.196 1.62.457 2.388.775M17.257.05l-.155 1.994a14 14 0 0 0-2.204 0L14.743.049a16 16 0 0 1 2.514 0m-4.994.39.466 1.945q-1.08.26-2.087.678l-.767-1.848A16 16 0 0 1 12.263.44M7.64 2.356 8.686 4.06a14 14 0 0 0-1.778 1.293l-1.3-1.52A16 16 0 0 1 7.64 2.356M3.833 5.609l1.52 1.3A14 14 0 0 0 4.06 8.685L2.356 7.639q.661-1.076 1.477-2.03M1.214 9.875l1.848.767a14 14 0 0 0-.678 2.087l-1.945-.466c.196-.822.457-1.62.775-2.388M.05 14.743a16 16 0 0 0 0 2.514l1.994-.155a14 14 0 0 1 0-2.204zm.39 4.994 1.945-.466q.26 1.08.678 2.087l-1.848.767a16 16 0 0 1-.775-2.388m1.917 4.624 1.704-1.047q.579.941 1.293 1.778l-1.52 1.3a16 16 0 0 1-1.477-2.031m3.253 3.806 1.3-1.52q.835.714 1.777 1.293l-1.047 1.704a16 16 0 0 1-2.03-1.477m4.266 2.619.767-1.848q1.007.42 2.087.678l-.466 1.945a16 16 0 0 1-2.388-.775m4.868 1.165.155-1.994a14 14 0 0 0 2.204 0l.155 1.994a16 16 0 0 1-2.514 0m4.994-.39-.466-1.945q1.08-.26 2.087-.677l.767 1.847a16 16 0 0 1-2.388.775m4.624-1.917-1.047-1.704q.941-.579 1.778-1.293l1.3 1.52a16 16 0 0 1-2.031 1.477m3.806-3.253-1.52-1.3a14 14 0 0 0 1.293-1.777l1.704 1.047q-.661 1.076-1.477 2.03m2.619-4.266-1.848-.767q.42-1.007.678-2.087l1.945.466a16 16 0 0 1-.775 2.388"
       clipRule="evenodd"
     />
-    <g clipPath="url(#stmmr__circleClip)">
+    <g clipPath="url(#ijwhc__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#stmmr__pgwitl__clip0_348_155)">
+        <g clipPath="url(#ijwhc__clip0_348_155)">
           <path
-            fill="url(#stmmr__pgwitl__paint0_radial_348_155)"
+            fill="url(#ijwhc__paint0_radial_348_155)"
             d="M16 32c8.84 0 16-7.16 16-16S24.84 0 16 0 0 7.16 0 16s7.16 16 16 16"
           />
           <path
-            fill="url(#stmmr__pgwitl__paint1_radial_348_155)"
+            fill="url(#ijwhc__paint1_radial_348_155)"
             d="M16 32c8.84 0 16-7.16 16-16S24.84 0 16 0 0 7.16 0 16s7.16 16 16 16"
           />
           <path
-            fill="url(#stmmr__pgwitl__paint2_linear_348_155)"
+            fill="url(#ijwhc__paint2_linear_348_155)"
             d="M16.8 13.81h12.05c.35 0 .64-.29.64-.64V7.42A16.02 16.02 0 0 0 16.16 0v13.17c0 .35.29.64.64.64"
             opacity={0.2}
           />
@@ -67,12 +67,12 @@ const IconStatarplFull = (props: SVGProps<SVGSVGElement>) => (
             opacity={0.2}
           />
           <path
-            fill="url(#stmmr__pgwitl__paint3_linear_348_155)"
+            fill="url(#ijwhc__paint3_linear_348_155)"
             d="M12.96 10.4c.35 0 .64.29.64.64v8.59c0 .35-.29.64-.64.64H8.21c-.35 0-.64-.29-.64-.64v-8.59c0-.35.29-.64.64-.64z"
             opacity={0.1}
           />
           <path
-            fill="url(#stmmr__pgwitl__paint4_linear_348_155)"
+            fill="url(#ijwhc__paint4_linear_348_155)"
             d="M3.04 12.96c0-.35.29-.64.64-.64h7.79c.35 0 .64.29.64.64v8.16c0 .35-.29.64-.64.64H3.68c-.35 0-.64-.29-.64-.64z"
             opacity={0.1}
           />
@@ -147,20 +147,20 @@ const IconStatarplFull = (props: SVGProps<SVGSVGElement>) => (
             opacity={0.1}
           />
           <path
-            fill="url(#stmmr__pgwitl__paint5_linear_348_155)"
+            fill="url(#ijwhc__paint5_linear_348_155)"
             d="M9.49 23.68V8.8c0-.35-.29-.64-.64-.64H2.06A15.9 15.9 0 0 0 0 16c0 3.05.87 5.9 2.35 8.32h6.5c.35 0 .64-.29.64-.64"
             opacity={0.2}
           />
           <path
-            fill="url(#stmmr__pgwitl__paint6_radial_348_155)"
+            fill="url(#ijwhc__paint6_radial_348_155)"
             d="M26.69 26.02c-5.88 5.88-15.32 5.99-21.05.26S.03 11.11 5.91 5.24c5.88-5.88 15.46-6.41 21.19-.68s5.46 15.59-.41 21.47"
           />
           <path
-            fill="url(#stmmr__pgwitl__paint7_radial_348_155)"
+            fill="url(#ijwhc__paint7_radial_348_155)"
             d="M5.34 5.9C11.22.01 20.67-.11 26.4 5.62s5.6 15.18-.28 21.07-15.48 6.43-21.21.7C-.82 21.65-.55 11.78 5.34 5.9"
           />
           <path
-            fill="url(#stmmr__pgwitl__paint8_linear_348_155)"
+            fill="url(#ijwhc__paint8_linear_348_155)"
             d="m16.84 20.26.4-2.09c.61-.42 1.22-.93 1.82-1.53 2.55-2.55 3.02-7.12 3.02-7.12s-4.58.47-7.12 3.02c-.6.6-1.12 1.22-1.54 1.83l-2.09.39-1.75 1.75 2.55.69c-.09.51-.07.96.07 1.33l-.8.8.87.87.81-.81c.37.14.82.16 1.33.07l.69 2.55 1.75-1.75zm-.64-4.86a1.31 1.31 0 0 1 0-1.85 1.31 1.31 0 0 1 1.85 0c.51.51.51 1.34 0 1.85s-1.34.51-1.85 0"
           />
           <path
@@ -174,7 +174,7 @@ const IconStatarplFull = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
           <linearGradient
-            id="stmmr__pgwitl__paint2_linear_348_155"
+            id="ijwhc__paint2_linear_348_155"
             x1={22.83}
             x2={22.83}
             y1={13.81}
@@ -185,7 +185,7 @@ const IconStatarplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#CC4521" />
           </linearGradient>
           <linearGradient
-            id="stmmr__pgwitl__paint3_linear_348_155"
+            id="ijwhc__paint3_linear_348_155"
             x1={10.59}
             x2={10.59}
             y1={10.4}
@@ -196,7 +196,7 @@ const IconStatarplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#CC4521" stopOpacity={0} />
           </linearGradient>
           <linearGradient
-            id="stmmr__pgwitl__paint4_linear_348_155"
+            id="ijwhc__paint4_linear_348_155"
             x1={3.04}
             x2={11.42}
             y1={17.04}
@@ -207,7 +207,7 @@ const IconStatarplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#CC4521" stopOpacity={0} />
           </linearGradient>
           <linearGradient
-            id="stmmr__pgwitl__paint5_linear_348_155"
+            id="ijwhc__paint5_linear_348_155"
             x1={4.75}
             x2={4.75}
             y1={24.32}
@@ -218,7 +218,7 @@ const IconStatarplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#F9E099" />
           </linearGradient>
           <linearGradient
-            id="stmmr__pgwitl__paint8_linear_348_155"
+            id="ijwhc__paint8_linear_348_155"
             x1={30.83}
             x2={15.27}
             y1={36.42}
@@ -233,7 +233,7 @@ const IconStatarplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#FF571C" />
           </linearGradient>
           <radialGradient
-            id="stmmr__pgwitl__paint0_radial_348_155"
+            id="ijwhc__paint0_radial_348_155"
             cx={0}
             cy={0}
             r={1}
@@ -244,7 +244,7 @@ const IconStatarplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#DB6443" />
           </radialGradient>
           <radialGradient
-            id="stmmr__pgwitl__paint1_radial_348_155"
+            id="ijwhc__paint1_radial_348_155"
             cx={0}
             cy={0}
             r={1}
@@ -255,7 +255,7 @@ const IconStatarplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#DB6443" />
           </radialGradient>
           <radialGradient
-            id="stmmr__pgwitl__paint6_radial_348_155"
+            id="ijwhc__paint6_radial_348_155"
             cx={0}
             cy={0}
             r={1}
@@ -276,7 +276,7 @@ const IconStatarplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#FF822F" />
           </radialGradient>
           <radialGradient
-            id="stmmr__pgwitl__paint7_radial_348_155"
+            id="ijwhc__paint7_radial_348_155"
             cx={0}
             cy={0}
             r={1}
@@ -294,7 +294,7 @@ const IconStatarplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={0.98} stopColor="#ED3C00" stopOpacity={0.36} />
             <stop offset={1} stopColor="#E85000" stopOpacity={0.8} />
           </radialGradient>
-          <clipPath id="stmmr__pgwitl__clip0_348_155">
+          <clipPath id="ijwhc__clip0_348_155">
             <path fill="#fff" d="M0 0h32.02v32H0z" />
           </clipPath>
         </defs>
@@ -302,7 +302,7 @@ const IconStatarplFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="stmmr__paint0_linear_42_5"
+        id="ijwhc__paint0_linear_42_5"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -312,7 +312,7 @@ const IconStatarplFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="stmmr__circleClip">
+      <clipPath id="ijwhc__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

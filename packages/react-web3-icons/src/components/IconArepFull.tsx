@@ -13,17 +13,17 @@ const IconArepFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#7mztj__paint0_linear_40_91)"
+      stroke="url(#rchx4__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#7mztj__circleClip)">
+    <g clipPath="url(#rchx4__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#7mztj__9pu7f__clip0_297_171)">
+        <g clipPath="url(#rchx4__clip0_297_171)">
           <path
             fill="#fff"
             d="M32 16c0 8.84-7.16 16-16 16S0 24.84 0 16 7.16 0 16 0s16 7.16 16 16"
@@ -34,7 +34,7 @@ const IconArepFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="7mztj__9pu7f__clip0_297_171">
+          <clipPath id="rchx4__clip0_297_171">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -42,7 +42,7 @@ const IconArepFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="7mztj__paint0_linear_40_91"
+        id="rchx4__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -52,7 +52,7 @@ const IconArepFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="7mztj__circleClip">
+      <clipPath id="rchx4__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

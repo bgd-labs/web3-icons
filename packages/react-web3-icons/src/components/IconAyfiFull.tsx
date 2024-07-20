@@ -13,19 +13,19 @@ const IconAyfiFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#7lwkx__paint0_linear_40_91)"
+      stroke="url(#bx3yo__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#7lwkx__circleClip)">
+    <g clipPath="url(#bx3yo__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#7lwkx__nmfoy__clip0_298_773)">
+        <g clipPath="url(#bx3yo__clip0_298_773)">
           <path
-            fill="url(#7lwkx__nmfoy__paint0_linear_298_773)"
+            fill="url(#bx3yo__paint0_linear_298_773)"
             d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
           />
           <path
@@ -39,7 +39,7 @@ const IconAyfiFull = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
           <linearGradient
-            id="7lwkx__nmfoy__paint0_linear_298_773"
+            id="bx3yo__paint0_linear_298_773"
             x1={31.87}
             x2={1.15}
             y1={16.45}
@@ -49,7 +49,7 @@ const IconAyfiFull = (props: SVGProps<SVGSVGElement>) => (
             <stop stopColor="#285DAF" />
             <stop offset={1} stopColor="#3375F2" />
           </linearGradient>
-          <clipPath id="7lwkx__nmfoy__clip0_298_773">
+          <clipPath id="bx3yo__clip0_298_773">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -57,7 +57,7 @@ const IconAyfiFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="7lwkx__paint0_linear_40_91"
+        id="bx3yo__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -67,7 +67,7 @@ const IconAyfiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="7lwkx__circleClip">
+      <clipPath id="bx3yo__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

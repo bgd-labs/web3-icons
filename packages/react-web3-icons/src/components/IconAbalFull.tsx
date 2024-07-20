@@ -13,17 +13,17 @@ const IconAbalFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#1a6mr__paint0_linear_40_91)"
+      stroke="url(#loa2e__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#1a6mr__circleClip)">
+    <g clipPath="url(#loa2e__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#1a6mr__mem06__clip0_292_137)">
+        <g clipPath="url(#loa2e__clip0_292_137)">
           <path
             fill="#fff"
             d="M16 31.75C7.32 31.75.25 24.68.25 16S7.32.25 16 .25 31.75 7.32 31.75 16 24.68 31.75 16 31.75"
@@ -44,7 +44,7 @@ const IconAbalFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="1a6mr__mem06__clip0_292_137">
+          <clipPath id="loa2e__clip0_292_137">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -52,7 +52,7 @@ const IconAbalFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="1a6mr__paint0_linear_40_91"
+        id="loa2e__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -62,7 +62,7 @@ const IconAbalFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="1a6mr__circleClip">
+      <clipPath id="loa2e__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

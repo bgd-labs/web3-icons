@@ -9,7 +9,7 @@ const IconEthFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#kborx__clip0_294_3463)">
+    <g clipPath="url(#clip0_294_3463)">
       <path
         fill="#fff"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -24,7 +24,7 @@ const IconEthFull = (props: SVGProps<SVGSVGElement>) => (
       <path fill="#959190" d="m15.661 29.096-8.005-11.29 8.005 4.803z" />
     </g>
     <defs>
-      <clipPath id="kborx__clip0_294_3463">
+      <clipPath id="clip0_294_3463">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

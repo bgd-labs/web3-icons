@@ -9,7 +9,7 @@ const IconWbtcFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#v6gt1__clip0_298_911)">
+    <g clipPath="url(#clip0_298_911)">
       <path
         fill="#595563"
         d="m26.09 6.72-.88.88c4.35 4.75 4.35 12.03 0 16.79l.88.88a13.69 13.69 0 0 0 0-18.57zM7.62 6.79c4.75-4.35 12.03-4.35 16.79 0l.88-.88a13.69 13.69 0 0 0-18.57 0zM6.79 24.39a12.44 12.44 0 0 1 0-16.78l-.88-.88a13.69 13.69 0 0 0 0 18.57zM24.39 25.2c-4.75 4.35-12.03 4.35-16.79 0l-.88.88a13.69 13.69 0 0 0 18.57 0z"
@@ -24,7 +24,7 @@ const IconWbtcFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="v6gt1__clip0_298_911">
+      <clipPath id="clip0_298_911">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

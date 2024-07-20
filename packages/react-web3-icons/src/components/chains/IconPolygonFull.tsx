@@ -9,9 +9,9 @@ const IconPolygonFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#e8jbe__clip0_298_364)">
+    <g clipPath="url(#clip0_298_364)">
       <path
-        fill="url(#e8jbe__paint0_linear_298_364)"
+        fill="url(#paint0_linear_298_364)"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
       />
       <path
@@ -21,7 +21,7 @@ const IconPolygonFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="e8jbe__paint0_linear_298_364"
+        id="paint0_linear_298_364"
         x1={0.1}
         x2={24.13}
         y1={6.27}
@@ -31,7 +31,7 @@ const IconPolygonFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#9433BD" />
         <stop offset={1} stopColor="#7342DB" />
       </linearGradient>
-      <clipPath id="e8jbe__clip0_298_364">
+      <clipPath id="clip0_298_364">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

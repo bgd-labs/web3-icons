@@ -9,7 +9,7 @@ const IconDpiFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#di6if__clip0_294_3752)">
+    <g clipPath="url(#clip0_294_3752)">
       <path
         fill="#8150E6"
         d="M32 16.051c0 8.868-7.164 16.052-16 16.052S0 24.919 0 16.05 7.164 0 16 0s16 7.184 16 16.051"
@@ -32,7 +32,7 @@ const IconDpiFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="di6if__clip0_294_3752">
+      <clipPath id="clip0_294_3752">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

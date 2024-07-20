@@ -13,19 +13,19 @@ const IconAensFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#5i9hq__paint0_linear_40_91)"
+      stroke="url(#pioe5__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#5i9hq__circleClip)">
+    <g clipPath="url(#pioe5__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#5i9hq__wyyxz__clip0_294_308)">
+        <g clipPath="url(#pioe5__clip0_294_308)">
           <path
-            fill="url(#5i9hq__wyyxz__paint0_linear_294_308)"
+            fill="url(#pioe5__paint0_linear_294_308)"
             d="M16 0c8.84 0 16 7.16 16 16s-7.16 16-16 16S0 24.84 0 16 7.16 0 16 0"
           />
           <path
@@ -35,7 +35,7 @@ const IconAensFull = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
           <linearGradient
-            id="5i9hq__wyyxz__paint0_linear_294_308"
+            id="pioe5__paint0_linear_294_308"
             x1={25.787}
             x2={-5.306}
             y1={33.249}
@@ -46,7 +46,7 @@ const IconAensFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={0.38} stopColor="#7298F8" />
             <stop offset={1} stopColor="#A099FF" />
           </linearGradient>
-          <clipPath id="5i9hq__wyyxz__clip0_294_308">
+          <clipPath id="pioe5__clip0_294_308">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -54,7 +54,7 @@ const IconAensFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="5i9hq__paint0_linear_40_91"
+        id="pioe5__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -64,7 +64,7 @@ const IconAensFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="5i9hq__circleClip">
+      <clipPath id="pioe5__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

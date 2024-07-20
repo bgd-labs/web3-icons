@@ -10,7 +10,7 @@ const IconAsushiMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#ae946__circleClip)">
+    <g clipPath="url(#lni47__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -24,7 +24,7 @@ const IconAsushiMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="ae946__circleClip">
+      <clipPath id="lni47__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

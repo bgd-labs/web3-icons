@@ -221,6 +221,17 @@
   },
   {
     "type": [
+      "wallet"
+    ],
+    "name": "Binance Smart Wallet",
+    "identityFlag": "bbcSignTx",
+    "icons": {
+      "mono": "icons/mono/binancesmartwallet.svg",
+      "full": "icons/full/binancesmartwallet.svg"
+    }
+  },
+  {
+    "type": [
       "asset",
       "chain"
     ],

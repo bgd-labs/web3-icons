@@ -10,7 +10,7 @@ const IconAcbethMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#fpp8b__circleClip)">
+    <g clipPath="url(#jbc3mh__circleClip)">
       <g
         fill="currentColor"
         style={{
@@ -23,7 +23,7 @@ const IconAcbethMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="fpp8b__circleClip">
+      <clipPath id="jbc3mh__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

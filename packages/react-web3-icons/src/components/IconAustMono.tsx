@@ -10,7 +10,7 @@ const IconAustMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#db0a3g__circleClip)">
+    <g clipPath="url(#jbwuo__circleClip)">
       <g
         fill="currentColor"
         style={{
@@ -27,7 +27,7 @@ const IconAustMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="db0a3g__circleClip">
+      <clipPath id="jbwuo__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>
