@@ -1,8 +1,24 @@
+import { IconMetaData } from "../../../../src/scripts/types";
+
 export enum Web3IconType {
   wallet = "wallet",
   chain = "chain",
   asset = "asset",
 }
+
+export type IconStyle = {
+  mono: string;
+  full: string;
+};
+
+export type IconWithMetaType = IconStyle & {
+  meta: IconMetaData;
+};
+
+export type IconInfoIcons = IconStyle & {
+  aToken?: IconStyle;
+  stataToken?: IconStyle;
+};
 
 export enum AssetTag {
   AToken = "A",

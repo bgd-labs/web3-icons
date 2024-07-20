@@ -1,6 +1,9 @@
 "use client";
 
-import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
+import {
+  IconInfoIcons,
+  IconVariant,
+} from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 
 import { IconCard } from "@/components/IconCard";
@@ -9,19 +12,19 @@ import { githubIconsPath } from "@/utils/constants";
 
 export const WalletIconCard = ({
   name,
-  iconPath,
+  icons,
 }: {
   name: string;
-  iconPath: string;
+  icons: IconInfoIcons;
 }) => {
   const [variant, setVariant] = useState(IconVariant.Full);
   const Icon = () => <Web3Icon wallet={{ name, variant }} />;
   return (
     <IconCard
-      svgPath={`${githubIconsPath}${iconPath}`}
+      svgPath={`${githubIconsPath}${icons[variant]}`}
       name={name}
       subName={""}
-      fileName={`${githubIconsPath}${iconPath}`}
+      fileName={name}
       setActiveType={setVariant}
       activeType={variant}
     >

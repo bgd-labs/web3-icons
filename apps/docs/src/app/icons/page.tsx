@@ -128,13 +128,13 @@ async function IconsPage({
                   key={asset.chainId}
                   chainId={asset.chainId ?? 1}
                   name={asset.chainName ?? asset.name ?? "Unknown"}
-                  iconPath={asset.icons.mono} // TODO: need fix should be icons
+                  icons={asset.icons}
                 />
               );
             } else if (asset.type.includes(IconType.wallet)) {
               return (
                 <WalletIconCard
-                  iconPath={asset.icons.mono} // TODO: need fix should be icons
+                  icons={asset.icons}
                   name={asset?.name ?? "Unknown"}
                 />
               );
