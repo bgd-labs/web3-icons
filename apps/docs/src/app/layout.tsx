@@ -1,7 +1,6 @@
 import "@/styles/globals.css";
 
 import { Inter, Space_Grotesk } from "next/font/google";
-import CacheProvider from "react-inlinesvg/provider";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 const inter = Inter({
@@ -32,7 +31,7 @@ const RootLayout = async ({ children }: { children: React.ReactNode }) => {
           defaultTheme="light"
           disableTransitionOnChange
         >
-          <CacheProvider>{children}</CacheProvider>
+          {children}
         </ThemeProvider>
       </body>
     </html>

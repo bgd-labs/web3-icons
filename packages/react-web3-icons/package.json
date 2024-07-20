@@ -1,7 +1,7 @@
 {
   "name": "@bgd-labs/react-web3-icons",
   "description": "Svg set of web3 icons.",
-  "version": "0.0.52",
+  "version": "0.0.54",
   "author": "BGD labs",
   "license": "MIT",
   "private": false,
@@ -49,6 +49,7 @@
   },
   "dependencies": {
     "@loadable/component": "5.16.4",
+    "alova": "2.13.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-inlinesvg": "^4.1.3"

@@ -1,3 +1,9 @@
+export enum Web3IconType {
+  wallet = "wallet",
+  chain = "chain",
+  asset = "asset",
+}
+
 export enum AssetTag {
   AToken = "A",
   StataToken = "Stata",
@@ -25,4 +31,9 @@ export type WalletType = {
   name: string;
   identityFlag?: string;
   variant?: IconVariant;
+};
+
+export type ComponentsFallback = {
+  path: () => Promise<any>;
+  name: string;
 };

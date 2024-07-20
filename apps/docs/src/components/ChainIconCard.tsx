@@ -4,7 +4,7 @@ import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 
 import { IconCard } from "@/components/IconCard";
-import { ChainIcon } from "@/components/Web3Icons/ChainIcon";
+import { Web3Icon } from "@/components/Web3Icon";
 import { githubIconsPath } from "@/utils/constants";
 
 export const ChainIconCard = ({
@@ -16,17 +16,16 @@ export const ChainIconCard = ({
   chainId: number;
   iconPath: string;
 }) => {
-  const [activeType, setActiveType] = useState(IconVariant.Full);
-  const Icon = () => <ChainIcon chainId={chainId} variant={activeType} />;
-
+  const [variant, setVariant] = useState(IconVariant.Full);
+  const Icon = () => <Web3Icon chain={{ chainId, variant }} />;
   return (
     <IconCard
       svgPath={`${githubIconsPath}${iconPath}`}
       name={name}
       subName={chainId.toString()}
       fileName={`${githubIconsPath}${iconPath}`}
-      setActiveType={setActiveType}
-      activeType={activeType}
+      setActiveType={setVariant}
+      activeType={variant}
     >
       <Icon />
     </IconCard>

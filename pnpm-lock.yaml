@@ -127,6 +127,9 @@ importers:
       '@loadable/component':
         specifier: 5.16.4
         version: 5.16.4(react@18.3.1)
+      alova:
+        specifier: 2.13.0
+        version: 2.13.0
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -1249,6 +1252,11 @@ packages:
       json-schema-traverse: 0.4.1
       uri-js: 4.4.1
     dev: true
+
+  /alova@2.13.0:
+    resolution: {integrity: sha512-w+HDC8/g6k/vQFdtee0P/EhtJcNSDEXfypdhIzKSdaqYcERE+Mz41VMfqHdPyB9O8cu/c39FxCamUm1wO+cNDw==}
+    engines: {node: '>= 0.12.0'}
+    dev: false
 
   /ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
