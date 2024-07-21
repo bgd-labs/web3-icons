@@ -4,7 +4,7 @@ import loadable from "@loadable/component";
 import { createAlova, useRequest } from "alova";
 import GlobalFetch from "alova/GlobalFetch";
 import ReactHook from "alova/react";
-import React from "react";
+import React, { useMemo } from "react";
 import SVG, { Props } from "react-inlinesvg";
 
 import { ComponentsFallback } from "./utils/types";
@@ -36,14 +36,15 @@ export const Web3DynamicIcon = ({
   componentsFallback?: ComponentsFallback;
 } & Props) => {
   const { loading, data: svgCode } = useRequest(alovaInstance.Get<string>(src));
-  if (loading && !svgCode) {
+  const memoSvgCode = useMemo(() => svgCode, [svgCode]);
+  if (loading && !memoSvgCode) {
     return loader;
   }
-  if (svgCode) {
+  if (memoSvgCode) {
     return (
       <SVG
         {...props}
-        src={svgCode}
+        src={memoSvgCode}
         uniqueHash={(Math.random() + 1).toString(36).substring(7)}
         uniquifyIDs
       />
