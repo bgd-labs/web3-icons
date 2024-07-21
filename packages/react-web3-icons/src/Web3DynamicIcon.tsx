@@ -1,10 +1,10 @@
 "use client";
 
 import loadable from "@loadable/component";
-import { createAlova, useRequest } from "alova";
+import { createAlova } from "alova";
 import GlobalFetch from "alova/GlobalFetch";
 import ReactHook from "alova/react";
-import React, { useMemo } from "react";
+import React from "react";
 import SVG, { Props } from "react-inlinesvg";
 
 import { ComponentsFallback } from "./utils/types";
@@ -35,47 +35,43 @@ export const Web3DynamicIcon = ({
   loader?: React.JSX.Element;
   componentsFallback?: ComponentsFallback;
 } & Props) => {
-  const { loading, data: svgCode } = useRequest(alovaInstance.Get<string>(src));
-  const memoSvgCode = useMemo(() => svgCode, [svgCode]);
-  if (loading && !memoSvgCode) {
-    return loader;
-  }
-  if (memoSvgCode) {
-    return (
-      <SVG
-        {...props}
-        src={memoSvgCode}
-        uniqueHash={(Math.random() + 1).toString(36).substring(7)}
-        uniquifyIDs
-      />
-    );
-  } else {
-    const Icon = loadable(
-      async () => {
-        if (componentsFallback) {
-          try {
-            return await componentsFallback.path().then(async (module) => {
-              const iconModule = module[`Icon${componentsFallback.name}`];
-              if (!iconModule) {
-                return await import("./components/IconUnknownFull");
-              } else {
-                return {
-                  default: iconModule,
-                };
-              }
-            });
-          } catch (e) {
-            return await import("./components/IconUnknownFull");
-          }
-        } else {
+  const Icon = loadable(
+    async () => {
+      const svgCode = await alovaInstance.Get<string>(src).send();
+      if (svgCode) {
+        return {
+          default: () => (
+            <SVG
+              {...props}
+              src={svgCode}
+              uniqueHash={(Math.random() + 1).toString(36).substring(7)}
+              uniquifyIDs
+            />
+          ),
+        };
+      } else if (componentsFallback && !svgCode) {
+        try {
+          return await componentsFallback.path().then(async (module) => {
+            const iconModule = module[`Icon${componentsFallback.name}`];
+            if (!iconModule) {
+              return await import("./components/IconUnknownFull");
+            } else {
+              return {
+                default: iconModule,
+              };
+            }
+          });
+        } catch (e) {
           return await import("./components/IconUnknownFull");
         }
-      },
-      {
-        fallback: loader,
-        ssr: true,
-      },
-    );
-    return <Icon className={props.className} />;
-  }
+      } else {
+        return await import("./components/IconUnknownFull");
+      }
+    },
+    {
+      fallback: loader,
+      ssr: true,
+    },
+  );
+  return <Icon className={props.className} />;
 };
