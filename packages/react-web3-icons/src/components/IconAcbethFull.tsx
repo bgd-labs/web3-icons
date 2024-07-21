@@ -13,17 +13,17 @@ const IconAcbethFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#om77f__paint0_linear_40_91)"
+      stroke="url(#9g2cf__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#om77f__circleClip)">
+    <g clipPath="url(#9g2cf__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#om77f__clip0_292_184)">
+        <g clipPath="url(#9g2cf__o9mcu__clip0_292_184)">
           <path
             fill="#fff"
             d="M31.78 16.11C31.78 7.33 24.67.22 15.89.22S0 7.33 0 16.11 7.11 32 15.89 32s15.89-7.11 15.89-15.89"
@@ -42,7 +42,7 @@ const IconAcbethFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="om77f__clip0_292_184">
+          <clipPath id="9g2cf__o9mcu__clip0_292_184">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -50,7 +50,7 @@ const IconAcbethFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="om77f__paint0_linear_40_91"
+        id="9g2cf__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -60,7 +60,7 @@ const IconAcbethFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="om77f__circleClip">
+      <clipPath id="9g2cf__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

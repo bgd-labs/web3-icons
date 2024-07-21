@@ -6,6 +6,11 @@ export enum Web3IconType {
   asset = "asset",
 }
 
+export type IconInfo<T> = {
+  type: Web3IconType;
+  info: T;
+};
+
 export type IconStyle = {
   mono: string;
   full: string;

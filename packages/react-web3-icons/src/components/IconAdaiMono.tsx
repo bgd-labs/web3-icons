@@ -10,7 +10,7 @@ const IconAdaiMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#jbtpl__circleClip)">
+    <g clipPath="url(#as2bl__circleClip)">
       <g
         fill="currentColor"
         style={{
@@ -23,7 +23,7 @@ const IconAdaiMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="jbtpl__circleClip">
+      <clipPath id="as2bl__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

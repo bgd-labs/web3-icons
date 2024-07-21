@@ -5,6 +5,7 @@ import React, { useMemo } from "react";
 import { AssetIconCard } from "@/components/AssetIconCard";
 import { Branding } from "@/components/Branding";
 import { ChainIconCard } from "@/components/ChainIconCard";
+import InstalledWalletIcon from "@/components/InstalledWalletIcon";
 import { Search } from "@/components/Search";
 import { WalletIconCard } from "@/components/WalletIconCard";
 
@@ -34,6 +35,8 @@ async function IconsPage({
 
   return (
     <main className="p-4 md:p-8 xl:p-16">
+      <InstalledWalletIcon />
+
       <Search placeholder="Enter asset symbol or chain id" />
 
       <div className="flex flex-wrap items-center justify-center gap-2 sm:justify-start">

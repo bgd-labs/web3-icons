@@ -9,7 +9,7 @@ const IconFraxFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#clip0_294_3448)">
+    <g clipPath="url(#qr9q8__clip0_294_3448)">
       <path
         fill="#000"
         d="M16 32c8.83 0 16-7.16 16-16S24.84 0 16 0 0 7.16 0 16s7.16 16 16 16"
@@ -20,7 +20,7 @@ const IconFraxFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="clip0_294_3448">
+      <clipPath id="qr9q8__clip0_294_3448">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

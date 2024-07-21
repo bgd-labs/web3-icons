@@ -5,4 +5,5 @@ export * from "./formatSymbolForIcon";
 export * from "./getAssetInfo";
 export * from "./getChainInfo";
 export * from "./getWalletInfo";
+export * from "./getWeb3WalletName";
 export * from "./types";

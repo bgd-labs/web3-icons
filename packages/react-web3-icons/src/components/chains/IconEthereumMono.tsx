@@ -9,7 +9,7 @@ const IconEthereumMono = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#clip0_423_4)">
+    <g clipPath="url(#w0ggb__clip0_423_4)">
       <path
         fill="currentColor"
         fillRule="evenodd"
@@ -18,7 +18,7 @@ const IconEthereumMono = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="clip0_423_4">
+      <clipPath id="w0ggb__clip0_423_4">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

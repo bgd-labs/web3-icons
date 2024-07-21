@@ -3,6 +3,7 @@
 import {
   IconInfoIcons,
   IconVariant,
+  Web3IconType,
 } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 
@@ -18,7 +19,12 @@ export const WalletIconCard = ({
   icons: IconInfoIcons;
 }) => {
   const [variant, setVariant] = useState(IconVariant.Full);
-  const Icon = () => <Web3Icon wallet={{ name, variant }} />;
+  const Icon = () => (
+    <Web3Icon
+      iconInfo={{ type: Web3IconType.wallet, info: { name, variant } }}
+    />
+  );
+
   return (
     <IconCard
       svgPath={`${githubIconsPath}${icons[variant]}`}

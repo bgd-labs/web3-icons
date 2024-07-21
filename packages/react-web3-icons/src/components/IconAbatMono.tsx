@@ -10,7 +10,7 @@ const IconAbatMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#kmm4z__circleClip)">
+    <g clipPath="url(#nf47i__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -24,7 +24,7 @@ const IconAbatMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="kmm4z__circleClip">
+      <clipPath id="nf47i__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

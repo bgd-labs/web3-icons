@@ -13,17 +13,17 @@ const IconAusdpFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#bymyk__paint0_linear_40_91)"
+      stroke="url(#q8c74__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#bymyk__circleClip)">
+    <g clipPath="url(#q8c74__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#bymyk__clip0_298_345)">
+        <g clipPath="url(#q8c74__co45r__clip0_298_345)">
           <path
             fill="#fff"
             d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -66,7 +66,7 @@ const IconAusdpFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="bymyk__clip0_298_345">
+          <clipPath id="q8c74__co45r__clip0_298_345">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -74,7 +74,7 @@ const IconAusdpFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="bymyk__paint0_linear_40_91"
+        id="q8c74__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -84,7 +84,7 @@ const IconAusdpFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="bymyk__circleClip">
+      <clipPath id="q8c74__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

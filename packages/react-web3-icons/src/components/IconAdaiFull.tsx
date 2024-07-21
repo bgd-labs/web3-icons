@@ -13,19 +13,19 @@ const IconAdaiFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#uydnb__paint0_linear_40_91)"
+      stroke="url(#etqhq__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#uydnb__circleClip)">
+    <g clipPath="url(#etqhq__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#uydnb__clip0_294_3770)">
+        <g clipPath="url(#etqhq__a0pmr__clip0_294_3770)">
           <path
-            fill="url(#uydnb__paint0_linear_294_3770)"
+            fill="url(#etqhq__a0pmr__paint0_linear_294_3770)"
             d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
           />
           <path
@@ -35,7 +35,7 @@ const IconAdaiFull = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
           <linearGradient
-            id="uydnb__paint0_linear_294_3770"
+            id="etqhq__a0pmr__paint0_linear_294_3770"
             x1={16.174}
             x2={16.174}
             y1={36.505}
@@ -45,7 +45,7 @@ const IconAdaiFull = (props: SVGProps<SVGSVGElement>) => (
             <stop stopColor="#F9A606" />
             <stop offset={1} stopColor="#FBCC5F" />
           </linearGradient>
-          <clipPath id="uydnb__clip0_294_3770">
+          <clipPath id="etqhq__a0pmr__clip0_294_3770">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -53,7 +53,7 @@ const IconAdaiFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="uydnb__paint0_linear_40_91"
+        id="etqhq__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -63,7 +63,7 @@ const IconAdaiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="uydnb__circleClip">
+      <clipPath id="etqhq__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

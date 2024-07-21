@@ -1,6 +1,10 @@
 "use client";
 
-import { AssetTag, IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
+import {
+  AssetTag,
+  IconVariant,
+  Web3IconType,
+} from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 
 import { IconCard } from "@/components/IconCard";
@@ -38,7 +42,12 @@ export const AssetIconCard = ({
     : icons[variant];
 
   const Icon = () => (
-    <Web3Icon asset={{ symbol, variant, tokenTag: assetTag }} />
+    <Web3Icon
+      iconInfo={{
+        type: Web3IconType.asset,
+        info: { symbol, variant, tokenTag: assetTag },
+      }}
+    />
   );
 
   return (

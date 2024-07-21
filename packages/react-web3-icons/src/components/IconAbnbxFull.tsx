@@ -13,10 +13,10 @@ const IconAbnbxFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#i60g7k__paint0_linear_40_91)"
+      stroke="url(#l80es__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#i60g7k__circleClip)">
+    <g clipPath="url(#l80es__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -47,7 +47,7 @@ const IconAbnbxFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="i60g7k__paint0_linear_40_91"
+        id="l80es__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -57,7 +57,7 @@ const IconAbnbxFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="i60g7k__circleClip">
+      <clipPath id="l80es__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

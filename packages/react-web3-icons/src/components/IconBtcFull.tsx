@@ -9,7 +9,7 @@ const IconBtcFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#clip0_97_2747)">
+    <g clipPath="url(#na1dy__clip0_97_2747)">
       <path
         fill="#F7931A"
         d="M31.52 19.87c-2.14 8.57-10.82 13.79-19.39 11.65S-1.66 20.7.48 12.13 11.3-1.66 19.87.48 33.66 11.3 31.52 19.87"
@@ -20,7 +20,7 @@ const IconBtcFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="clip0_97_2747">
+      <clipPath id="na1dy__clip0_97_2747">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

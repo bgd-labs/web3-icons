@@ -4,3 +4,7 @@ export { default as IconAtokenwalletMono } from "./IconAtokenwalletMono";
 export { default as IconAtokenwalletFull } from "./IconAtokenwalletFull";
 export { default as IconBinancesmartwalletMono } from "./IconBinancesmartwalletMono";
 export { default as IconBinancesmartwalletFull } from "./IconBinancesmartwalletFull";
+export { default as IconBrowserwalletMono } from "./IconBrowserwalletMono";
+export { default as IconBrowserwalletFull } from "./IconBrowserwalletFull";
+export { default as IconMetamaskMono } from "./IconMetamaskMono";
+export { default as IconMetamaskFull } from "./IconMetamaskFull";

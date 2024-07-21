@@ -10,7 +10,7 @@ const IconAgnoMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#ypu6e__circleClip)">
+    <g clipPath="url(#w6ntuj__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -26,7 +26,7 @@ const IconAgnoMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="ypu6e__circleClip">
+      <clipPath id="w6ntuj__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

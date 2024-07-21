@@ -10,7 +10,7 @@ const IconAstkaaveMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#ei43a__circleClip)">
+    <g clipPath="url(#3xn6v__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -24,7 +24,7 @@ const IconAstkaaveMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="ei43a__circleClip">
+      <clipPath id="3xn6v__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

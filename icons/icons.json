@@ -313,6 +313,17 @@
   },
   {
     "type": [
+      "wallet"
+    ],
+    "name": "Browser wallet",
+    "identityFlag": "",
+    "icons": {
+      "mono": "icons/mono/browserwallet.svg",
+      "full": "icons/full/browserwallet.svg"
+    }
+  },
+  {
+    "type": [
       "asset"
     ],
     "name": "Bitcoin",
@@ -1338,6 +1349,17 @@
         "mono": "icons/mono/statamaticx.svg",
         "full": "icons/full/statamaticx.svg"
       }
+    }
+  },
+  {
+    "type": [
+      "wallet"
+    ],
+    "name": "MetaMask",
+    "identityFlag": "isMetaMask",
+    "icons": {
+      "mono": "icons/mono/metamask.svg",
+      "full": "icons/full/metamask.svg"
     }
   },
   {

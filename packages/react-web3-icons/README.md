@@ -18,7 +18,7 @@ export const UsageExample = () => {
   return <IconAaveFull />;
 };
 ```
-### 2) You can use `DynamicIcon` component.
+### 2) You can use `Web3DynamicIcon` component.
 
 #### AssetIcon example
 | Parameter  | Type                             | Description |
@@ -102,6 +102,19 @@ export const UsageExample = () => {
 };
 ```
 #### Get chain name
+| Parameter  | Type                             | Description |
+|:-----------|:---------------------------------| :------ |
+| `chainId`   | `number`                         | Id of the chain.
+
+```tsx
+import { getChainName } from "@bgd-labs/react-web3-icons";
+import { ChainIcon } from "./components";
+export const UsageExample = () => {
+  const chainName = getChainName({ chainId: 1 });
+  return <div><span>{chainName}</span><ChainIcon chainId={1} /></div>;
+};
+```
+#### Get browser wallet name
 | Parameter  | Type                             | Description |
 |:-----------|:---------------------------------| :------ |
 | `chainId`   | `number`                         | Id of the chain.

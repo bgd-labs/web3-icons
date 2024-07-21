@@ -13,17 +13,17 @@ const IconAamplFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#mnq5n__paint0_linear_40_91)"
+      stroke="url(#oeuifk__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#mnq5n__circleClip)">
+    <g clipPath="url(#oeuifk__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#mnq5n__clip0_292_102)">
+        <g clipPath="url(#oeuifk__wk5xjk__clip0_292_102)">
           <path
             fill="#fff"
             d="M16 31.75C7.32 31.75.25 24.68.25 16S7.32.25 16 .25 31.75 7.32 31.75 16 24.68 31.75 16 31.75"
@@ -38,7 +38,7 @@ const IconAamplFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="mnq5n__clip0_292_102">
+          <clipPath id="oeuifk__wk5xjk__clip0_292_102">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -46,7 +46,7 @@ const IconAamplFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="mnq5n__paint0_linear_40_91"
+        id="oeuifk__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -56,7 +56,7 @@ const IconAamplFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="mnq5n__circleClip">
+      <clipPath id="oeuifk__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

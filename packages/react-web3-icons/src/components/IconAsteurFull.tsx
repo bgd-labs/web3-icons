@@ -13,10 +13,10 @@ const IconAsteurFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#1qo4q__paint0_linear_40_91)"
+      stroke="url(#i0xf7h__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#1qo4q__circleClip)">
+    <g clipPath="url(#i0xf7h__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -24,11 +24,11 @@ const IconAsteurFull = (props: SVGProps<SVGSVGElement>) => (
         }}
       >
         <path
-          fill="url(#1qo4q__paint0_linear_165_88)"
+          fill="url(#i0xf7h__wgr5__paint0_linear_165_88)"
           d="M31.96 16.09c0 8.82-7.15 15.98-15.98 15.98S0 24.92 0 16.09 7.16.11 15.98.11s15.98 7.15 15.98 15.98"
         />
         <path
-          fill="url(#1qo4q__paint1_linear_165_88)"
+          fill="url(#i0xf7h__wgr5__paint1_linear_165_88)"
           d="M15.99 32.04C7.18 32.04.03 24.91.03 16.12c0 0 7.14-3.28 15.96-3.28s15.96 3.28 15.96 3.28c0 8.79-7.14 15.92-15.96 15.92"
         />
         <path
@@ -46,12 +46,12 @@ const IconAsteurFull = (props: SVGProps<SVGSVGElement>) => (
           clipRule="evenodd"
         />
         <path
-          fill="url(#1qo4q__paint2_linear_165_88)"
+          fill="url(#i0xf7h__wgr5__paint2_linear_165_88)"
           d="M20.48 3.76c.02-.13.2-.13.22 0l.13 1.07c.17 1.38 1.28 2.47 2.68 2.63l1.09.13c.13.02.13.2 0 .22l-1.09.13c-1.41.16-2.52 1.25-2.68 2.63l-.13 1.07a.11.11 0 0 1-.22 0l-.13-1.07c-.17-1.38-1.28-2.47-2.68-2.63l-1.09-.13a.11.11 0 0 1 0-.22l1.09-.13c1.41-.16 2.52-1.25 2.68-2.63z"
         />
         <defs>
           <linearGradient
-            id="1qo4q__paint0_linear_165_88"
+            id="i0xf7h__wgr5__paint0_linear_165_88"
             x1={2.85}
             x2={29.89}
             y1={14.14}
@@ -62,7 +62,7 @@ const IconAsteurFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#6B90F6" />
           </linearGradient>
           <linearGradient
-            id="1qo4q__paint1_linear_165_88"
+            id="i0xf7h__wgr5__paint1_linear_165_88"
             x1={12.94}
             x2={20.92}
             y1={12.42}
@@ -73,7 +73,7 @@ const IconAsteurFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#7F9EF4" />
           </linearGradient>
           <linearGradient
-            id="1qo4q__paint2_linear_165_88"
+            id="i0xf7h__wgr5__paint2_linear_165_88"
             x1={19.91}
             x2={23.12}
             y1={8.3}
@@ -88,7 +88,7 @@ const IconAsteurFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="1qo4q__paint0_linear_40_91"
+        id="i0xf7h__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -98,7 +98,7 @@ const IconAsteurFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="1qo4q__circleClip">
+      <clipPath id="i0xf7h__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

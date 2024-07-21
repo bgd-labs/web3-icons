@@ -13,10 +13,10 @@ const IconAsfrxethFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#kvlkn__paint0_linear_40_91)"
+      stroke="url(#7jhkp__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#kvlkn__circleClip)">
+    <g clipPath="url(#7jhkp__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -39,7 +39,7 @@ const IconAsfrxethFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="kvlkn__paint0_linear_40_91"
+        id="7jhkp__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -49,7 +49,7 @@ const IconAsfrxethFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="kvlkn__circleClip">
+      <clipPath id="7jhkp__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

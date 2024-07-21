@@ -9,13 +9,13 @@ const IconManaFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#clip0_297_229)">
+    <g clipPath="url(#khq6p__clip0_297_229)">
       <path
-        fill="url(#paint0_linear_297_229)"
+        fill="url(#khq6p__paint0_linear_297_229)"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
       />
       <path
-        fill="url(#paint1_linear_297_229)"
+        fill="url(#khq6p__paint1_linear_297_229)"
         fillRule="evenodd"
         d="M11.32 10.4v11.99h9.99z"
         clipRule="evenodd"
@@ -39,7 +39,7 @@ const IconManaFull = (props: SVGProps<SVGSVGElement>) => (
         clipRule="evenodd"
       />
       <path
-        fill="url(#paint2_linear_297_229)"
+        fill="url(#khq6p__paint2_linear_297_229)"
         fillRule="evenodd"
         d="M21.44 16.79v8.79h7.33z"
         clipRule="evenodd"
@@ -63,7 +63,7 @@ const IconManaFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="paint0_linear_297_229"
+        id="khq6p__paint0_linear_297_229"
         x1={26.92}
         x2={3.88}
         y1={5.07}
@@ -74,7 +74,7 @@ const IconManaFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#F4BE6C" />
       </linearGradient>
       <linearGradient
-        id="paint1_linear_297_229"
+        id="khq6p__paint1_linear_297_229"
         x1={15.936}
         x2={15.936}
         y1={1.936}
@@ -85,7 +85,7 @@ const IconManaFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#EA445A" />
       </linearGradient>
       <linearGradient
-        id="paint2_linear_297_229"
+        id="khq6p__paint2_linear_297_229"
         x1={15.198}
         x2={15.198}
         y1={-2.891}
@@ -95,7 +95,7 @@ const IconManaFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#9730AC" />
         <stop offset={1} stopColor="#EA445A" />
       </linearGradient>
-      <clipPath id="clip0_297_229">
+      <clipPath id="khq6p__clip0_297_229">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

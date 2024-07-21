@@ -9,7 +9,7 @@ const IconWftmFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#clip0_298_319)">
+    <g clipPath="url(#a4a43__clip0_298_319)">
       <path
         fill="#fff"
         d="M16 32c8.84 0 16-7.16 16-16S24.84 0 16 0 0 7.16 0 16s7.16 16 16 16"
@@ -36,7 +36,7 @@ const IconWftmFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="clip0_298_319">
+      <clipPath id="a4a43__clip0_298_319">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

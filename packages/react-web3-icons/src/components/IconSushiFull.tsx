@@ -9,7 +9,7 @@ const IconSushiFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#clip0_298_602)">
+    <g clipPath="url(#856md__clip0_298_602)">
       <path
         fill="#fff"
         d="M16 32c8.84 0 16-7.16 16-16S24.84 0 16 0 0 7.16 0 16s7.16 16 16 16"
@@ -33,11 +33,11 @@ const IconSushiFull = (props: SVGProps<SVGSVGElement>) => (
         clipRule="evenodd"
       />
       <path
-        fill="url(#paint0_linear_298_602)"
+        fill="url(#856md__paint0_linear_298_602)"
         d="M27.16 15.93c-.06-.18-.13-.35-.2-.52-.89-2.06-2.98-4.5-5.84-6.55-2.86-2.04-5.84-3.24-8.08-3.43-1.63-.13-2.89.27-3.54 1.18l-4.48 6.25c-.65.91-.63 2.23.02 3.73.59 1.36 1.71 2.89 3.22 4.36.13-.01.27-.03.4-.06.81-.18 1.58-.89 2.35-1.61.99-.92 1.98-1.83 3.02-1.58.73.16 1.31.94 1.91 1.73.25.34.51.68.78.97.87 1 1.82 1.44 2.79 1.24 1.1-.22 1.94-1.19 2.73-2.28-1.92-.44-4.21-1.5-6.42-3.09-2.72-1.95-4.73-4.26-5.59-6.24-.51-1.17-.62-2.2-.13-2.93l.02-.04c.52-.73 1.55-.97 2.85-.86 2.14.17 4.97 1.33 7.69 3.29 2.73 1.95 4.74 4.26 5.6 6.22h.13c.31.03.56.11.77.22"
       />
       <path
-        fill="url(#paint1_linear_298_602)"
+        fill="url(#856md__paint1_linear_298_602)"
         d="M22.19 14.37c-.42-.99-1.43-2.15-2.8-3.12-1.36-.98-2.78-1.55-3.84-1.65-.61-.04-1.1.05-1.33.39-.24.34-.17.82.07 1.38.42.99 1.43 2.14 2.8 3.11 1.37.98 2.78 1.56 3.85 1.65.6.05 1.08-.04 1.32-.38.25-.34.18-.82-.07-1.38"
       />
       <path
@@ -49,7 +49,7 @@ const IconSushiFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="paint0_linear_298_602"
+        id="856md__paint0_linear_298_602"
         x1={13.155}
         x2={21.145}
         y1={-0.189}
@@ -61,7 +61,7 @@ const IconSushiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#E65F9D" />
       </linearGradient>
       <linearGradient
-        id="paint1_linear_298_602"
+        id="856md__paint1_linear_298_602"
         x1={9.774}
         x2={28.189}
         y1={-23.597}
@@ -72,7 +72,7 @@ const IconSushiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.52} stopColor="#B56FAE" />
         <stop offset={1} stopColor="#E65F9D" />
       </linearGradient>
-      <clipPath id="clip0_298_602">
+      <clipPath id="856md__clip0_298_602">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>
