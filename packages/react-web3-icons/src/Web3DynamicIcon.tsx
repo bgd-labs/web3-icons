@@ -1,10 +1,10 @@
 "use client";
 
 import loadable from "@loadable/component";
-import { createAlova } from "alova";
+import { createAlova, useRequest } from "alova";
 import GlobalFetch from "alova/GlobalFetch";
 import ReactHook from "alova/react";
-import React from "react";
+import React, { useMemo } from "react";
 import SVG, { Props } from "react-inlinesvg";
 
 import { ComponentsFallback } from "./utils/types";
@@ -35,10 +35,14 @@ export const Web3DynamicIcon = ({
   loader?: React.JSX.Element;
   componentsFallback?: ComponentsFallback;
 } & Props) => {
+  const { data: svgCodeRequest, loading: loadingRequest } = useRequest(
+    alovaInstance.Get<string>(src),
+  );
+  const svgCode = useMemo(() => svgCodeRequest, [svgCodeRequest]);
+  const loading = useMemo(() => loadingRequest, [loadingRequest]);
   const Icon = loadable(
     async () => {
-      const svgCode = await alovaInstance.Get<string>(src).send();
-      if (svgCode) {
+      if (svgCode && !loading) {
         return {
           default: () => (
             <SVG
@@ -49,7 +53,7 @@ export const Web3DynamicIcon = ({
             />
           ),
         };
-      } else if (componentsFallback && !svgCode) {
+      } else if (componentsFallback && !svgCode && !loading) {
         try {
           return await componentsFallback.path().then(async (module) => {
             const iconModule = module[`Icon${componentsFallback.name}`];
@@ -64,6 +68,10 @@ export const Web3DynamicIcon = ({
         } catch (e) {
           return await import("./components/IconUnknownFull");
         }
+      } else if (loading) {
+        return {
+          default: () => loader,
+        };
       } else {
         return await import("./components/IconUnknownFull");
       }
