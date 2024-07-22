@@ -42,7 +42,7 @@ export const Web3DynamicIcon = ({
   const loading = useMemo(() => loadingRequest, [loadingRequest]);
   const Icon = loadable(
     async () => {
-      if (svgCode && !loading) {
+      if (svgCode) {
         return {
           default: () => (
             <SVG
