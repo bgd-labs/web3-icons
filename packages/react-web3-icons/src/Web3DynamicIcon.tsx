@@ -38,48 +38,50 @@ export const Web3DynamicIcon = ({
   const { data: svgCodeRequest, loading: loadingRequest } = useRequest(
     alovaInstance.Get<string>(src),
   );
-  const svgCode = useMemo(() => svgCodeRequest, [svgCodeRequest]);
+  const svgCode = useMemo(
+    () => (svgCodeRequest ? svgCodeRequest : undefined),
+    [svgCodeRequest],
+  );
   const loading = useMemo(() => loadingRequest, [loadingRequest]);
-  const Icon = loadable(
-    async () => {
-      if (svgCode) {
-        return {
-          default: () => (
-            <SVG
-              {...props}
-              src={svgCode}
-              uniqueHash={(Math.random() + 1).toString(36).substring(7)}
-              uniquifyIDs
-            />
-          ),
-        };
-      } else if (componentsFallback && !svgCode && !loading) {
-        try {
-          return await componentsFallback.path().then(async (module) => {
-            const iconModule = module[`Icon${componentsFallback.name}`];
-            if (!iconModule) {
-              return await import("./components/IconUnknownFull");
-            } else {
-              return {
-                default: iconModule,
-              };
-            }
-          });
-        } catch (e) {
+
+  if (svgCode) {
+    return (
+      <SVG
+        {...props}
+        src={svgCode}
+        uniqueHash={(Math.random() + 1).toString(36).substring(7)}
+        uniquifyIDs
+      />
+    );
+  } else if (loading) {
+    return loader;
+  } else {
+    const Icon = loadable(
+      async () => {
+        if (componentsFallback && !svgCode && !loading) {
+          try {
+            return await componentsFallback.path().then(async (module) => {
+              const iconModule = module[`Icon${componentsFallback.name}`];
+              if (!iconModule) {
+                return await import("./components/IconUnknownFull");
+              } else {
+                return {
+                  default: iconModule,
+                };
+              }
+            });
+          } catch (e) {
+            return await import("./components/IconUnknownFull");
+          }
+        } else {
           return await import("./components/IconUnknownFull");
         }
-      } else if (loading) {
-        return {
-          default: () => loader,
-        };
-      } else {
-        return await import("./components/IconUnknownFull");
-      }
-    },
-    {
-      fallback: loader,
-      ssr: true,
-    },
-  );
-  return <Icon className={props.className} />;
+      },
+      {
+        fallback: loader,
+        ssr: true,
+      },
+    );
+    return <Icon className={props.className} />;
+  }
 };
