@@ -1,0 +1,12 @@
+{
+  "include-component-in-tag": true,
+  "tag-separator": "@",
+  "release-type": "node",
+  "separate-pull-requests": true,
+  "pull-request-header": "I have created a release",
+  "packages": {
+    "./packages/react-web3-icons": {
+      "package-name": "react-web3-icons"
+    }
+  }
+}

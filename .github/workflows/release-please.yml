@@ -15,14 +15,6 @@ jobs:
       releaseCreated: ${{ steps.release.outputs.release_created }}
     steps:
       - uses: googleapis/release-please-action@v4
-        id: release
-        with:
-          release-type: node
-          package-name: react-web3-icons
-          pull-request-header: "I have created a release"
-          path: packages/react-web3-icons
-          monorepo-tags: true
-          tag-separator: '@'
 
   release-node:
     uses: bgd-labs/icons/.github/workflows/release-node.yml@main
