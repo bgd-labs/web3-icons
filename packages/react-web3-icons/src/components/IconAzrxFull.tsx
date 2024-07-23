@@ -13,17 +13,17 @@ const IconAzrxFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#0xcoin__paint0_linear_40_91)"
+      stroke="url(#azrx__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#0xcoin__circleClip)">
+    <g clipPath="url(#azrx__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#0xcoin__clip0_298_476)">
+        <g clipPath="url(#azrx__0xcoin__clip0_298_476)">
           <path
             fill="#2F2C2C"
             d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -36,7 +36,7 @@ const IconAzrxFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="0xcoin__clip0_298_476">
+          <clipPath id="azrx__0xcoin__clip0_298_476">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -44,7 +44,7 @@ const IconAzrxFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="0xcoin__paint0_linear_40_91"
+        id="azrx__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -54,7 +54,7 @@ const IconAzrxFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="0xcoin__circleClip">
+      <clipPath id="azrx__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

@@ -157,13 +157,13 @@ for (const icon of iconsArray) {
     if (variations.includes("aToken")) {
       const aTokenMono = generateTokenIcon(
         monoContent,
-        lowercasedName,
+        `a${meta.symbol.toLowerCase()}`,
         "mono",
         "aToken",
       );
       const aTokenFull = generateTokenIcon(
         fullContent,
-        lowercasedName,
+        `a${meta.symbol.toLowerCase()}`,
         "full",
         "aToken",
       );
@@ -198,13 +198,13 @@ for (const icon of iconsArray) {
     if (variations.includes("stataToken")) {
       const stataTokenMono = generateTokenIcon(
         monoContent,
-        lowercasedName,
+        `stata${meta.symbol.toLowerCase()}`,
         "mono",
         "stataToken",
       );
       const stataTokenFull = generateTokenIcon(
         fullContent,
-        lowercasedName,
+        `stata${meta.symbol.toLowerCase()}`,
         "full",
         "stataToken",
       );

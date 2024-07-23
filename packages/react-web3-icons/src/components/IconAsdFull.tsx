@@ -13,17 +13,17 @@ const IconAsdFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#stader__paint0_linear_40_91)"
+      stroke="url(#asd__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#stader__circleClip)">
+    <g clipPath="url(#asd__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#stader__clip0_298_275)">
+        <g clipPath="url(#asd__stader__clip0_298_275)">
           <path
             fill="#fff"
             d="M32 16c0-8.84-7.16-16-16-16S0 7.16 0 16s7.16 16 16 16 16-7.16 16-16"
@@ -76,7 +76,7 @@ const IconAsdFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="stader__clip0_298_275">
+          <clipPath id="asd__stader__clip0_298_275">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -84,7 +84,7 @@ const IconAsdFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="stader__paint0_linear_40_91"
+        id="asd__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -94,7 +94,7 @@ const IconAsdFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="stader__circleClip">
+      <clipPath id="asd__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

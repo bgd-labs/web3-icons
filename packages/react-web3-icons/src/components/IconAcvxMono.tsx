@@ -10,7 +10,7 @@ const IconAcvxMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#convextoken__circleClip)">
+    <g clipPath="url(#acvx__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -24,7 +24,7 @@ const IconAcvxMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="convextoken__circleClip">
+      <clipPath id="acvx__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

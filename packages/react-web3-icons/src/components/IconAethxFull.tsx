@@ -13,10 +13,10 @@ const IconAethxFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#staderethx__paint0_linear_40_91)"
+      stroke="url(#aethx__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#staderethx__circleClip)">
+    <g clipPath="url(#aethx__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -45,7 +45,7 @@ const IconAethxFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="staderethx__paint0_linear_40_91"
+        id="aethx__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -55,7 +55,7 @@ const IconAethxFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="staderethx__circleClip">
+      <clipPath id="aethx__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

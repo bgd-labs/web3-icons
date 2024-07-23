@@ -10,7 +10,7 @@ const IconAbusdMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#busd__circleClip)">
+    <g clipPath="url(#abusd__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -24,7 +24,7 @@ const IconAbusdMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="busd__circleClip">
+      <clipPath id="abusd__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

@@ -10,7 +10,7 @@ const IconAstkghoMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#aavestkgho__circleClip)">
+    <g clipPath="url(#astkgho__circleClip)">
       <g
         fill="currentColor"
         style={{
@@ -24,7 +24,7 @@ const IconAstkghoMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="aavestkgho__circleClip">
+      <clipPath id="astkgho__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

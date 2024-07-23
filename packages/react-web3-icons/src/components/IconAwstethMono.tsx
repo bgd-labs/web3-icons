@@ -10,7 +10,7 @@ const IconAwstethMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#wrappedliquidstakedether2.0__circleClip)">
+    <g clipPath="url(#awsteth__circleClip)">
       <g
         fill="currentColor"
         style={{
@@ -23,7 +23,7 @@ const IconAwstethMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="wrappedliquidstakedether2.0__circleClip">
+      <clipPath id="awsteth__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

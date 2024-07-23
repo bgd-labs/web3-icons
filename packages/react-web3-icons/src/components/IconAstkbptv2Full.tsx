@@ -13,10 +13,10 @@ const IconAstkbptv2Full = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#stkbptv2__paint0_linear_40_91)"
+      stroke="url(#astkbptv2__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#stkbptv2__circleClip)">
+    <g clipPath="url(#astkbptv2__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -76,7 +76,7 @@ const IconAstkbptv2Full = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="stkbptv2__paint0_linear_40_91"
+        id="astkbptv2__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -86,7 +86,7 @@ const IconAstkbptv2Full = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="stkbptv2__circleClip">
+      <clipPath id="astkbptv2__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

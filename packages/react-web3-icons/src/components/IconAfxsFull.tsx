@@ -13,17 +13,17 @@ const IconAfxsFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#fraxshare__paint0_linear_40_91)"
+      stroke="url(#afxs__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#fraxshare__circleClip)">
+    <g clipPath="url(#afxs__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#fraxshare__clip0_294_3479)">
+        <g clipPath="url(#afxs__fraxshare__clip0_294_3479)">
           <path
             fill="#000"
             d="M30.739 9.774a16.1 16.1 0 0 0-3.426-5.087 15.8 15.8 0 0 0-5.087-3.425A15.9 15.9 0 0 0 16 0c-2.164 0-4.256.42-6.226 1.262a16.1 16.1 0 0 0-5.087 3.425 15.8 15.8 0 0 0-3.425 5.087A15.9 15.9 0 0 0 0 16c0 2.164.42 4.256 1.262 6.226a16.1 16.1 0 0 0 3.425 5.087 15.8 15.8 0 0 0 5.087 3.425A15.9 15.9 0 0 0 16 32c2.154 0 4.256-.42 6.226-1.262a16.1 16.1 0 0 0 5.087-3.425 15.8 15.8 0 0 0 3.425-5.087A15.9 15.9 0 0 0 32 16c0-2.164-.42-4.256-1.262-6.226"
@@ -34,7 +34,7 @@ const IconAfxsFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="fraxshare__clip0_294_3479">
+          <clipPath id="afxs__fraxshare__clip0_294_3479">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -42,7 +42,7 @@ const IconAfxsFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="fraxshare__paint0_linear_40_91"
+        id="afxs__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -52,7 +52,7 @@ const IconAfxsFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="fraxshare__circleClip">
+      <clipPath id="afxs__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

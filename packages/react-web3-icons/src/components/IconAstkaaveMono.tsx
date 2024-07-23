@@ -10,7 +10,7 @@ const IconAstkaaveMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#stakedaave__circleClip)">
+    <g clipPath="url(#astkaave__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -24,7 +24,7 @@ const IconAstkaaveMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="stakedaave__circleClip">
+      <clipPath id="astkaave__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

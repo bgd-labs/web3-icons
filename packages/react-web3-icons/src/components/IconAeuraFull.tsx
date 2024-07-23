@@ -13,19 +13,19 @@ const IconAeuraFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#euraageur__paint0_linear_40_91)"
+      stroke="url(#aeura__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#euraageur__circleClip)">
+    <g clipPath="url(#aeura__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#euraageur__clip0_297_5)">
+        <g clipPath="url(#aeura__euraageur__clip0_297_5)">
           <path
-            fill="url(#euraageur__paint0_linear_297_5)"
+            fill="url(#aeura__euraageur__paint0_linear_297_5)"
             d="M16 32c8.836 0 16-7.163 16-16S24.836 0 16 0 0 7.164 0 16s7.164 16 16 16"
           />
           <path
@@ -39,7 +39,7 @@ const IconAeuraFull = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
           <linearGradient
-            id="euraageur__paint0_linear_297_5"
+            id="aeura__euraageur__paint0_linear_297_5"
             x1={16}
             x2={16}
             y1={0}
@@ -49,7 +49,7 @@ const IconAeuraFull = (props: SVGProps<SVGSVGElement>) => (
             <stop stopColor="#99B998" />
             <stop offset={1} stopColor="#FDCEAA" />
           </linearGradient>
-          <clipPath id="euraageur__clip0_297_5">
+          <clipPath id="aeura__euraageur__clip0_297_5">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -57,7 +57,7 @@ const IconAeuraFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="euraageur__paint0_linear_40_91"
+        id="aeura__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -67,7 +67,7 @@ const IconAeuraFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="euraageur__circleClip">
+      <clipPath id="aeura__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

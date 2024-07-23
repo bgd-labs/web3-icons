@@ -13,17 +13,17 @@ const IconAftmFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#fantom__paint0_linear_40_91)"
+      stroke="url(#aftm__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#fantom__circleClip)">
+    <g clipPath="url(#aftm__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#fantom__clip0_294_3389)">
+        <g clipPath="url(#aftm__fantom__clip0_294_3389)">
           <path
             fill="#1969FF"
             d="M16 32c8.83 0 16-7.16 16-16S24.84 0 16 0 0 7.17 0 16s7.16 16 16 16"
@@ -34,7 +34,7 @@ const IconAftmFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="fantom__clip0_294_3389">
+          <clipPath id="aftm__fantom__clip0_294_3389">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -42,7 +42,7 @@ const IconAftmFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="fantom__paint0_linear_40_91"
+        id="aftm__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -52,7 +52,7 @@ const IconAftmFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="fantom__circleClip">
+      <clipPath id="aftm__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

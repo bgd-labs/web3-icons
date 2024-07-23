@@ -13,17 +13,17 @@ const IconAstgFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#stargatetoken__paint0_linear_40_91)"
+      stroke="url(#astg__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#stargatetoken__circleClip)">
+    <g clipPath="url(#astg__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#stargatetoken__clip0_298_1022)">
+        <g clipPath="url(#astg__stargatetoken__clip0_298_1022)">
           <path
             fill="#000"
             d="M0 16C0 7.16 7.16 0 16 0s16 7.16 16 16-7.16 16-16 16S0 24.84 0 16"
@@ -38,7 +38,7 @@ const IconAstgFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="stargatetoken__clip0_298_1022">
+          <clipPath id="astg__stargatetoken__clip0_298_1022">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -46,7 +46,7 @@ const IconAstgFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="stargatetoken__paint0_linear_40_91"
+        id="astg__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -56,7 +56,7 @@ const IconAstgFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="stargatetoken__circleClip">
+      <clipPath id="astg__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

@@ -10,7 +10,7 @@ const IconAfraxMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#frax__circleClip)">
+    <g clipPath="url(#afrax__circleClip)">
       <g
         fill="currentColor"
         style={{
@@ -23,7 +23,7 @@ const IconAfraxMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="frax__circleClip">
+      <clipPath id="afrax__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

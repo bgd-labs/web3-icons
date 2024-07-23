@@ -10,7 +10,7 @@ const IconAftmMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#fantom__circleClip)">
+    <g clipPath="url(#aftm__circleClip)">
       <g
         fill="currentColor"
         style={{
@@ -24,7 +24,7 @@ const IconAftmMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="fantom__circleClip">
+      <clipPath id="aftm__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

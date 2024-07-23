@@ -13,17 +13,17 @@ const IconAwstethFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#wrappedliquidstakedether2.0__paint0_linear_40_91)"
+      stroke="url(#awsteth__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#wrappedliquidstakedether2.0__circleClip)">
+    <g clipPath="url(#awsteth__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#wrappedliquidstakedether2.0__clip0_297_75)">
+        <g clipPath="url(#awsteth__wrappedliquidstakedether2.0__clip0_297_75)">
           <path
             fill="#48A0F7"
             d="M16 0c8.84 0 16 7.16 16 16s-7.16 16-16 16S0 24.84 0 16 7.16 0 16 0"
@@ -57,7 +57,7 @@ const IconAwstethFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="wrappedliquidstakedether2.0__clip0_297_75">
+          <clipPath id="awsteth__wrappedliquidstakedether2.0__clip0_297_75">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -65,7 +65,7 @@ const IconAwstethFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="wrappedliquidstakedether2.0__paint0_linear_40_91"
+        id="awsteth__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -75,7 +75,7 @@ const IconAwstethFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="wrappedliquidstakedether2.0__circleClip">
+      <clipPath id="awsteth__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>
