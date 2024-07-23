@@ -9,13 +9,13 @@ const IconCvxFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#3ctv2__clip0_294_266)">
+    <g clipPath="url(#dh97o__clip0_294_266)">
       <path
         fill="#fff"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
       />
       <path
-        fill="url(#3ctv2__paint0_linear_294_266)"
+        fill="url(#dh97o__paint0_linear_294_266)"
         d="M25.19 13.5v-5h-2.5V6h-5V3.5h-5V6h-5v2.5h-2.5v15h2.5V26h5v2.5h5V26h5v-2.5h2.5v-5h-5V21h-2.5v2.5h-5V21h-2.5V11h2.5V8.5h5V11h2.5v2.5z"
       />
       <path
@@ -38,7 +38,7 @@ const IconCvxFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="3ctv2__paint0_linear_294_266"
+        id="dh97o__paint0_linear_294_266"
         x1={24.031}
         x2={10.449}
         y1={6.358}
@@ -50,7 +50,7 @@ const IconCvxFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.7} stopColor="#FCA75B" />
         <stop offset={1} stopColor="#FF5A5A" />
       </linearGradient>
-      <clipPath id="3ctv2__clip0_294_266">
+      <clipPath id="dh97o__clip0_294_266">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

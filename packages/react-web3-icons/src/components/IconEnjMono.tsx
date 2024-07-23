@@ -9,7 +9,7 @@ const IconEnjMono = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#55auvg__clip0_294_3412)">
+    <g clipPath="url(#x1s33__clip0_294_3412)">
       <path
         fill="currentColor"
         fillRule="evenodd"
@@ -18,7 +18,7 @@ const IconEnjMono = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="55auvg__clip0_294_3412">
+      <clipPath id="x1s33__clip0_294_3412">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

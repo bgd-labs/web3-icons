@@ -9,9 +9,9 @@ const IconSdaiFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#nfea8__clip0_298_392)">
+    <g clipPath="url(#vub37__clip0_298_392)">
       <path
-        fill="url(#nfea8__paint0_linear_298_392)"
+        fill="url(#vub37__paint0_linear_298_392)"
         d="M16 32c8.84 0 16-7.16 16-16S24.83 0 16 0 0 7.16 0 16s7.16 16 16 16"
       />
       <path
@@ -21,7 +21,7 @@ const IconSdaiFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="nfea8__paint0_linear_298_392"
+        id="vub37__paint0_linear_298_392"
         x1={15.99}
         x2={15.99}
         y1={0}
@@ -31,7 +31,7 @@ const IconSdaiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#91BE5C" />
         <stop offset={1} stopColor="#6DAE5C" />
       </linearGradient>
-      <clipPath id="nfea8__clip0_298_392">
+      <clipPath id="vub37__clip0_298_392">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

@@ -13,17 +13,17 @@ const IconAcrvFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#jscjo__paint0_linear_40_91)"
+      stroke="url(#qzmoz__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#jscjo__circleClip)">
+    <g clipPath="url(#qzmoz__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#jscjo__1jaa__clip0_294_330)">
+        <g clipPath="url(#qzmoz__lncefj__clip0_294_330)">
           <path
             fill="#fff"
             d="M16.24 32.01c8.837 0 16-7.163 16-16s-7.164-16-16-16-16 7.163-16 16 7.163 16 16 16"
@@ -2346,7 +2346,7 @@ const IconAcrvFull = (props: SVGProps<SVGSVGElement>) => (
           <path fill="#FF3800" d="m11.7 13.81-.24.63.6.62.28-.59-.65-.66z" />
         </g>
         <defs>
-          <clipPath id="jscjo__1jaa__clip0_294_330">
+          <clipPath id="qzmoz__lncefj__clip0_294_330">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -2354,7 +2354,7 @@ const IconAcrvFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="jscjo__paint0_linear_40_91"
+        id="qzmoz__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -2364,7 +2364,7 @@ const IconAcrvFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="jscjo__circleClip">
+      <clipPath id="qzmoz__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

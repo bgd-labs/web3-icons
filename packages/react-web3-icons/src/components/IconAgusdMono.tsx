@@ -10,7 +10,7 @@ const IconAgusdMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#bunkq__circleClip)">
+    <g clipPath="url(#n68v5__circleClip)">
       <g
         fill="currentColor"
         style={{
@@ -24,7 +24,7 @@ const IconAgusdMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="bunkq__circleClip">
+      <clipPath id="n68v5__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

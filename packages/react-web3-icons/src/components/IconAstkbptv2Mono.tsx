@@ -10,7 +10,7 @@ const IconAstkbptv2Mono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#qh8ab__circleClip)">
+    <g clipPath="url(#mkqvt__circleClip)">
       <g
         fill="currentColor"
         style={{
@@ -25,7 +25,7 @@ const IconAstkbptv2Mono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="qh8ab__circleClip">
+      <clipPath id="mkqvt__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

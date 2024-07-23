@@ -9,7 +9,7 @@ const IconBalFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#gwe5q__clip0_292_137)">
+    <g clipPath="url(#p15w7__clip0_292_137)">
       <path
         fill="#fff"
         d="M16 31.75C7.32 31.75.25 24.68.25 16S7.32.25 16 .25 31.75 7.32 31.75 16 24.68 31.75 16 31.75"
@@ -30,7 +30,7 @@ const IconBalFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="gwe5q__clip0_292_137">
+      <clipPath id="p15w7__clip0_292_137">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

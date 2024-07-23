@@ -1,0 +1,5 @@
+{
+  "type": ["wallet"],
+  "name": "DeFi Wallet",
+  "identityFlag": "isDeficonnectProvider"
+}

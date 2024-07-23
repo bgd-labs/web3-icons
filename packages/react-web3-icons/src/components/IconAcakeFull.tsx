@@ -13,19 +13,19 @@ const IconAcakeFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#6b9rg__paint0_linear_40_91)"
+      stroke="url(#eg63i__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#6b9rg__circleClip)">
+    <g clipPath="url(#eg63i__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#6b9rg__4lt7w__clip0_98_2762)">
+        <g clipPath="url(#eg63i__on5u2h__clip0_98_2762)">
           <path
-            fill="url(#6b9rg__4lt7w__paint0_linear_98_2762)"
+            fill="url(#eg63i__on5u2h__paint0_linear_98_2762)"
             d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
           />
           <path
@@ -49,7 +49,7 @@ const IconAcakeFull = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
           <linearGradient
-            id="6b9rg__4lt7w__paint0_linear_98_2762"
+            id="eg63i__on5u2h__paint0_linear_98_2762"
             x1={16}
             x2={16}
             y1={0}
@@ -59,7 +59,7 @@ const IconAcakeFull = (props: SVGProps<SVGSVGElement>) => (
             <stop stopColor="#53DEE9" />
             <stop offset={1} stopColor="#1FC7D4" />
           </linearGradient>
-          <clipPath id="6b9rg__4lt7w__clip0_98_2762">
+          <clipPath id="eg63i__on5u2h__clip0_98_2762">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -67,7 +67,7 @@ const IconAcakeFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="6b9rg__paint0_linear_40_91"
+        id="eg63i__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -77,7 +77,7 @@ const IconAcakeFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="6b9rg__circleClip">
+      <clipPath id="eg63i__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

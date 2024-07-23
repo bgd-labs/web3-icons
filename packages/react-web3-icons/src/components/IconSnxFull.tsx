@@ -9,9 +9,9 @@ const IconSnxFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#kp38f__clip0_298_407)">
+    <g clipPath="url(#e9j9d__clip0_298_407)">
       <path
-        fill="url(#kp38f__paint0_linear_298_407)"
+        fill="url(#e9j9d__paint0_linear_298_407)"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
       />
       <path
@@ -21,7 +21,7 @@ const IconSnxFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="kp38f__paint0_linear_298_407"
+        id="e9j9d__paint0_linear_298_407"
         x1={15.83}
         x2={15.83}
         y1={0.67}
@@ -31,7 +31,7 @@ const IconSnxFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#08021E" />
         <stop offset={1} stopColor="#150755" />
       </linearGradient>
-      <clipPath id="kp38f__clip0_298_407">
+      <clipPath id="e9j9d__clip0_298_407">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

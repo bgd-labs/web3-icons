@@ -1,0 +1,5 @@
+{
+  "type": ["wallet"],
+  "name": "BitKeep Wallet",
+  "identityFlag": "isBitKeep"
+}

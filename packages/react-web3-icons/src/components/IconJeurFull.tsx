@@ -9,7 +9,7 @@ const IconJeurFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#ff4tsk__clip0_294_241)">
+    <g clipPath="url(#xhjn9__clip0_294_241)">
       <path
         fill="#FC0"
         d="M16.004 32.002C24.842 32.002 32 24.844 32 16.006S24.842.01 16.004.01.008 7.168.008 16.006s7.158 15.996 15.996 15.996"
@@ -28,7 +28,7 @@ const IconJeurFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="ff4tsk__clip0_294_241">
+      <clipPath id="xhjn9__clip0_294_241">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

@@ -9,7 +9,7 @@ const IconUniFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#9ltms__clip0_298_573)">
+    <g clipPath="url(#qdpoq__clip0_298_573)">
       <path
         fill="#fff"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -38,7 +38,7 @@ const IconUniFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="9ltms__clip0_298_573">
+      <clipPath id="qdpoq__clip0_298_573">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

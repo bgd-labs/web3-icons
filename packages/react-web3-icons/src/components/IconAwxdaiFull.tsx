@@ -13,17 +13,17 @@ const IconAwxdaiFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#nol5z__paint0_linear_40_91)"
+      stroke="url(#bkeo6__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#nol5z__circleClip)">
+    <g clipPath="url(#bkeo6__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#nol5z__au9ve__clip0_297_211)">
+        <g clipPath="url(#bkeo6__f64dm__clip0_297_211)">
           <path
             fill="#12326C"
             d="M27.28 0H4.72A4.72 4.72 0 0 0 0 4.72v22.56A4.72 4.72 0 0 0 4.72 32h22.56A4.72 4.72 0 0 0 32 27.28V4.72A4.72 4.72 0 0 0 27.28 0"
@@ -42,7 +42,7 @@ const IconAwxdaiFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="nol5z__au9ve__clip0_297_211">
+          <clipPath id="bkeo6__f64dm__clip0_297_211">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -50,7 +50,7 @@ const IconAwxdaiFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="nol5z__paint0_linear_40_91"
+        id="bkeo6__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -60,7 +60,7 @@ const IconAwxdaiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="nol5z__circleClip">
+      <clipPath id="bkeo6__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

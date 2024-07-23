@@ -13,10 +13,10 @@ const IconAstkbptv2Full = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#biyysi__paint0_linear_40_91)"
+      stroke="url(#w33bsg__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#biyysi__circleClip)">
+    <g clipPath="url(#w33bsg__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -76,7 +76,7 @@ const IconAstkbptv2Full = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="biyysi__paint0_linear_40_91"
+        id="w33bsg__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -86,7 +86,7 @@ const IconAstkbptv2Full = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="biyysi__circleClip">
+      <clipPath id="w33bsg__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

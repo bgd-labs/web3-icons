@@ -9,13 +9,13 @@ const IconMaiFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#qw3uy__clip0_298_258)">
+    <g clipPath="url(#ttapu__clip0_298_258)">
       <path
-        fill="url(#qw3uy__paint0_linear_298_258)"
+        fill="url(#ttapu__paint0_linear_298_258)"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
       />
       <path
-        stroke="url(#qw3uy__paint1_linear_298_258)"
+        stroke="url(#ttapu__paint1_linear_298_258)"
         strokeMiterlimit={5.12}
         strokeWidth={0.75}
         d="M16 28.81c7.075 0 12.81-5.735 12.81-12.81S23.075 3.19 16 3.19 3.19 8.925 3.19 16 8.925 28.81 16 28.81Z"
@@ -27,7 +27,7 @@ const IconMaiFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="qw3uy__paint0_linear_298_258"
+        id="ttapu__paint0_linear_298_258"
         x1={16.002}
         x2={16.002}
         y1={0.004}
@@ -40,7 +40,7 @@ const IconMaiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#EB676A" />
       </linearGradient>
       <linearGradient
-        id="qw3uy__paint1_linear_298_258"
+        id="ttapu__paint1_linear_298_258"
         x1={16.002}
         x2={16.002}
         y1={2.756}
@@ -50,7 +50,7 @@ const IconMaiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#D03B38" />
         <stop offset={1} stopColor="#EE8E90" />
       </linearGradient>
-      <clipPath id="qw3uy__clip0_298_258">
+      <clipPath id="ttapu__clip0_298_258">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

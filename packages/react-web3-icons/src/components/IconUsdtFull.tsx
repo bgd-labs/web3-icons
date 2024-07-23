@@ -9,7 +9,7 @@ const IconUsdtFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#vc8i4j__clip0_298_873)">
+    <g clipPath="url(#7li0yj__clip0_298_873)">
       <path
         fill="#509E7D"
         d="M16.27 32.07c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.164-16 16 7.163 16 16 16"
@@ -22,7 +22,7 @@ const IconUsdtFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="vc8i4j__clip0_298_873">
+      <clipPath id="7li0yj__clip0_298_873">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

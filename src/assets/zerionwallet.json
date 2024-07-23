@@ -1,0 +1,5 @@
+{
+  "type": ["wallet"],
+  "name": "Zerion Wallet",
+  "identityFlag": "isZerion"
+}

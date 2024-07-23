@@ -1,0 +1,5 @@
+{
+  "type": ["wallet"],
+  "name": "SafePal Wallet",
+  "identityFlag": "isSafePal"
+}

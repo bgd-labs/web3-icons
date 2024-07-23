@@ -9,7 +9,7 @@ const IconBusdFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#pf2os__clip0_292_114)">
+    <g clipPath="url(#zgm0y__clip0_292_114)">
       <path
         fill="#fff"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -20,7 +20,7 @@ const IconBusdFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="pf2os__clip0_292_114">
+      <clipPath id="zgm0y__clip0_292_114">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

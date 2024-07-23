@@ -1,0 +1,5 @@
+{
+  "type": ["wallet"],
+  "name": "XDEFI Wallet",
+  "identityFlag": "isXDEFI"
+}

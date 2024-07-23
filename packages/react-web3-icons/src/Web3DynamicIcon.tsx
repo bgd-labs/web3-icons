@@ -1,28 +1,11 @@
 "use client";
 
 import loadable from "@loadable/component";
-import { createAlova, useRequest } from "alova";
-import GlobalFetch from "alova/GlobalFetch";
-import ReactHook from "alova/react";
-import React, { useMemo } from "react";
+import React from "react";
 import SVG, { Props } from "react-inlinesvg";
 
 import { ComponentsFallback } from "./utils/types";
 
-const alovaInstance = createAlova({
-  requestAdapter: GlobalFetch(),
-  statesHook: ReactHook,
-  responded: {
-    onSuccess: async (response) => {
-      if (response && response.ok) {
-        const svgCode = await response.text();
-        return svgCode ? svgCode : undefined;
-      } else {
-        return undefined;
-      }
-    },
-  },
-});
 /**
  * Wrapper for get web3 icons dynamically
  */
@@ -35,30 +18,22 @@ export const Web3DynamicIcon = ({
   loader?: React.JSX.Element;
   componentsFallback?: ComponentsFallback;
 } & Props) => {
-  const { data: svgCodeRequest, loading: loadingRequest } = useRequest(
-    alovaInstance.Get<string>(src),
-  );
-  const svgCode = useMemo(
-    () => (svgCodeRequest ? svgCodeRequest : undefined),
-    [svgCodeRequest],
-  );
-  const loading = useMemo(() => loadingRequest, [loadingRequest]);
-
-  if (svgCode) {
+  const [isError, setIsError] = React.useState(false);
+  if (!isError) {
     return (
       <SVG
         {...props}
-        src={svgCode}
+        src={src}
         uniqueHash={(Math.random() + 1).toString(36).substring(7)}
         uniquifyIDs
+        onError={() => setIsError(true)}
+        loader={loader}
       />
     );
-  } else if (loading) {
-    return loader;
   } else {
     const Icon = loadable(
       async () => {
-        if (componentsFallback && !svgCode && !loading) {
+        if (componentsFallback) {
           try {
             return await componentsFallback.path().then(async (module) => {
               const iconModule = module[`Icon${componentsFallback.name}`];

@@ -13,23 +13,23 @@ const IconAmanaFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#x9aqr__paint0_linear_40_91)"
+      stroke="url(#yypvmk__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#x9aqr__circleClip)">
+    <g clipPath="url(#yypvmk__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#x9aqr__khq6p__clip0_297_229)">
+        <g clipPath="url(#yypvmk__b6df__clip0_297_229)">
           <path
-            fill="url(#x9aqr__khq6p__paint0_linear_297_229)"
+            fill="url(#yypvmk__b6df__paint0_linear_297_229)"
             d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
           />
           <path
-            fill="url(#x9aqr__khq6p__paint1_linear_297_229)"
+            fill="url(#yypvmk__b6df__paint1_linear_297_229)"
             fillRule="evenodd"
             d="M11.32 10.4v11.99h9.99z"
             clipRule="evenodd"
@@ -53,7 +53,7 @@ const IconAmanaFull = (props: SVGProps<SVGSVGElement>) => (
             clipRule="evenodd"
           />
           <path
-            fill="url(#x9aqr__khq6p__paint2_linear_297_229)"
+            fill="url(#yypvmk__b6df__paint2_linear_297_229)"
             fillRule="evenodd"
             d="M21.44 16.79v8.79h7.33z"
             clipRule="evenodd"
@@ -77,7 +77,7 @@ const IconAmanaFull = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
           <linearGradient
-            id="x9aqr__khq6p__paint0_linear_297_229"
+            id="yypvmk__b6df__paint0_linear_297_229"
             x1={26.92}
             x2={3.88}
             y1={5.07}
@@ -88,7 +88,7 @@ const IconAmanaFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#F4BE6C" />
           </linearGradient>
           <linearGradient
-            id="x9aqr__khq6p__paint1_linear_297_229"
+            id="yypvmk__b6df__paint1_linear_297_229"
             x1={15.936}
             x2={15.936}
             y1={1.936}
@@ -99,7 +99,7 @@ const IconAmanaFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#EA445A" />
           </linearGradient>
           <linearGradient
-            id="x9aqr__khq6p__paint2_linear_297_229"
+            id="yypvmk__b6df__paint2_linear_297_229"
             x1={15.198}
             x2={15.198}
             y1={-2.891}
@@ -109,7 +109,7 @@ const IconAmanaFull = (props: SVGProps<SVGSVGElement>) => (
             <stop stopColor="#9730AC" />
             <stop offset={1} stopColor="#EA445A" />
           </linearGradient>
-          <clipPath id="x9aqr__khq6p__clip0_297_229">
+          <clipPath id="yypvmk__b6df__clip0_297_229">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -117,7 +117,7 @@ const IconAmanaFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="x9aqr__paint0_linear_40_91"
+        id="yypvmk__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -127,7 +127,7 @@ const IconAmanaFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="x9aqr__circleClip">
+      <clipPath id="yypvmk__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

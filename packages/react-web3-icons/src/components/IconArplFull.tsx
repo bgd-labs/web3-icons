@@ -13,27 +13,27 @@ const IconArplFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#17zza__paint0_linear_40_91)"
+      stroke="url(#o1y8e__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#17zza__circleClip)">
+    <g clipPath="url(#o1y8e__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#17zza__93bxy__clip0_348_155)">
+        <g clipPath="url(#o1y8e__36yyy__clip0_348_155)">
           <path
-            fill="url(#17zza__93bxy__paint0_radial_348_155)"
+            fill="url(#o1y8e__36yyy__paint0_radial_348_155)"
             d="M16 32c8.84 0 16-7.16 16-16S24.84 0 16 0 0 7.16 0 16s7.16 16 16 16"
           />
           <path
-            fill="url(#17zza__93bxy__paint1_radial_348_155)"
+            fill="url(#o1y8e__36yyy__paint1_radial_348_155)"
             d="M16 32c8.84 0 16-7.16 16-16S24.84 0 16 0 0 7.16 0 16s7.16 16 16 16"
           />
           <path
-            fill="url(#17zza__93bxy__paint2_linear_348_155)"
+            fill="url(#o1y8e__36yyy__paint2_linear_348_155)"
             d="M16.8 13.81h12.05c.35 0 .64-.29.64-.64V7.42A16.02 16.02 0 0 0 16.16 0v13.17c0 .35.29.64.64.64"
             opacity={0.2}
           />
@@ -68,12 +68,12 @@ const IconArplFull = (props: SVGProps<SVGSVGElement>) => (
             opacity={0.2}
           />
           <path
-            fill="url(#17zza__93bxy__paint3_linear_348_155)"
+            fill="url(#o1y8e__36yyy__paint3_linear_348_155)"
             d="M12.96 10.4c.35 0 .64.29.64.64v8.59c0 .35-.29.64-.64.64H8.21c-.35 0-.64-.29-.64-.64v-8.59c0-.35.29-.64.64-.64z"
             opacity={0.1}
           />
           <path
-            fill="url(#17zza__93bxy__paint4_linear_348_155)"
+            fill="url(#o1y8e__36yyy__paint4_linear_348_155)"
             d="M3.04 12.96c0-.35.29-.64.64-.64h7.79c.35 0 .64.29.64.64v8.16c0 .35-.29.64-.64.64H3.68c-.35 0-.64-.29-.64-.64z"
             opacity={0.1}
           />
@@ -148,20 +148,20 @@ const IconArplFull = (props: SVGProps<SVGSVGElement>) => (
             opacity={0.1}
           />
           <path
-            fill="url(#17zza__93bxy__paint5_linear_348_155)"
+            fill="url(#o1y8e__36yyy__paint5_linear_348_155)"
             d="M9.49 23.68V8.8c0-.35-.29-.64-.64-.64H2.06A15.9 15.9 0 0 0 0 16c0 3.05.87 5.9 2.35 8.32h6.5c.35 0 .64-.29.64-.64"
             opacity={0.2}
           />
           <path
-            fill="url(#17zza__93bxy__paint6_radial_348_155)"
+            fill="url(#o1y8e__36yyy__paint6_radial_348_155)"
             d="M26.69 26.02c-5.88 5.88-15.32 5.99-21.05.26S.03 11.11 5.91 5.24c5.88-5.88 15.46-6.41 21.19-.68s5.46 15.59-.41 21.47"
           />
           <path
-            fill="url(#17zza__93bxy__paint7_radial_348_155)"
+            fill="url(#o1y8e__36yyy__paint7_radial_348_155)"
             d="M5.34 5.9C11.22.01 20.67-.11 26.4 5.62s5.6 15.18-.28 21.07-15.48 6.43-21.21.7C-.82 21.65-.55 11.78 5.34 5.9"
           />
           <path
-            fill="url(#17zza__93bxy__paint8_linear_348_155)"
+            fill="url(#o1y8e__36yyy__paint8_linear_348_155)"
             d="m16.84 20.26.4-2.09c.61-.42 1.22-.93 1.82-1.53 2.55-2.55 3.02-7.12 3.02-7.12s-4.58.47-7.12 3.02c-.6.6-1.12 1.22-1.54 1.83l-2.09.39-1.75 1.75 2.55.69c-.09.51-.07.96.07 1.33l-.8.8.87.87.81-.81c.37.14.82.16 1.33.07l.69 2.55 1.75-1.75zm-.64-4.86a1.31 1.31 0 0 1 0-1.85 1.31 1.31 0 0 1 1.85 0c.51.51.51 1.34 0 1.85s-1.34.51-1.85 0"
           />
           <path
@@ -175,7 +175,7 @@ const IconArplFull = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
           <linearGradient
-            id="17zza__93bxy__paint2_linear_348_155"
+            id="o1y8e__36yyy__paint2_linear_348_155"
             x1={22.83}
             x2={22.83}
             y1={13.81}
@@ -186,7 +186,7 @@ const IconArplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#CC4521" />
           </linearGradient>
           <linearGradient
-            id="17zza__93bxy__paint3_linear_348_155"
+            id="o1y8e__36yyy__paint3_linear_348_155"
             x1={10.59}
             x2={10.59}
             y1={10.4}
@@ -197,7 +197,7 @@ const IconArplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#CC4521" stopOpacity={0} />
           </linearGradient>
           <linearGradient
-            id="17zza__93bxy__paint4_linear_348_155"
+            id="o1y8e__36yyy__paint4_linear_348_155"
             x1={3.04}
             x2={11.42}
             y1={17.04}
@@ -208,7 +208,7 @@ const IconArplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#CC4521" stopOpacity={0} />
           </linearGradient>
           <linearGradient
-            id="17zza__93bxy__paint5_linear_348_155"
+            id="o1y8e__36yyy__paint5_linear_348_155"
             x1={4.75}
             x2={4.75}
             y1={24.32}
@@ -219,7 +219,7 @@ const IconArplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#F9E099" />
           </linearGradient>
           <linearGradient
-            id="17zza__93bxy__paint8_linear_348_155"
+            id="o1y8e__36yyy__paint8_linear_348_155"
             x1={30.83}
             x2={15.27}
             y1={36.42}
@@ -234,7 +234,7 @@ const IconArplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#FF571C" />
           </linearGradient>
           <radialGradient
-            id="17zza__93bxy__paint0_radial_348_155"
+            id="o1y8e__36yyy__paint0_radial_348_155"
             cx={0}
             cy={0}
             r={1}
@@ -245,7 +245,7 @@ const IconArplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#DB6443" />
           </radialGradient>
           <radialGradient
-            id="17zza__93bxy__paint1_radial_348_155"
+            id="o1y8e__36yyy__paint1_radial_348_155"
             cx={0}
             cy={0}
             r={1}
@@ -256,7 +256,7 @@ const IconArplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#DB6443" />
           </radialGradient>
           <radialGradient
-            id="17zza__93bxy__paint6_radial_348_155"
+            id="o1y8e__36yyy__paint6_radial_348_155"
             cx={0}
             cy={0}
             r={1}
@@ -277,7 +277,7 @@ const IconArplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#FF822F" />
           </radialGradient>
           <radialGradient
-            id="17zza__93bxy__paint7_radial_348_155"
+            id="o1y8e__36yyy__paint7_radial_348_155"
             cx={0}
             cy={0}
             r={1}
@@ -295,7 +295,7 @@ const IconArplFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={0.98} stopColor="#ED3C00" stopOpacity={0.36} />
             <stop offset={1} stopColor="#E85000" stopOpacity={0.8} />
           </radialGradient>
-          <clipPath id="17zza__93bxy__clip0_348_155">
+          <clipPath id="o1y8e__36yyy__clip0_348_155">
             <path fill="#fff" d="M0 0h32.02v32H0z" />
           </clipPath>
         </defs>
@@ -303,7 +303,7 @@ const IconArplFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="17zza__paint0_linear_40_91"
+        id="o1y8e__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -313,7 +313,7 @@ const IconArplFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="17zza__circleClip">
+      <clipPath id="o1y8e__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>
