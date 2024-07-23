@@ -13,17 +13,17 @@ const IconAlusdFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#n7brtk__paint0_linear_40_91)"
+      stroke="url(#fvb0ki__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#n7brtk__circleClip)">
+    <g clipPath="url(#fvb0ki__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#n7brtk__e730o__clip0_297_185)">
+        <g clipPath="url(#fvb0ki__vzndw__clip0_297_185)">
           <path
             fill="#705ED6"
             d="M31.368 20.52a15.98 15.98 0 0 1-12.517 11.294v-4.56a7.5 7.5 0 0 0 3.962-3.487c.57-1.082.87-2.295.86-3.528 0-4.029-2.911-5.642-5.633-6.844l-1.38-.612c-1.481-.661-2.602-1.252-2.602-2.265 0-1.393 1.22-2.144 2.361-2.144 1.221 0 1.912.45 2.642 1.723l.57.982 3.652-2.345-.48-.881a7.12 7.12 0 0 0-3.952-3.408V.276c.35.06.7.14 1.06.23.03 0 .07.02.11.02s.08.02.12.03h.03c.1.021.19.051.29.081C28.948 3.112 33.83 12.012 31.359 20.51z"
@@ -38,7 +38,7 @@ const IconAlusdFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="n7brtk__e730o__clip0_297_185">
+          <clipPath id="fvb0ki__vzndw__clip0_297_185">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -46,7 +46,7 @@ const IconAlusdFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="n7brtk__paint0_linear_40_91"
+        id="fvb0ki__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -56,7 +56,7 @@ const IconAlusdFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="n7brtk__circleClip">
+      <clipPath id="fvb0ki__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

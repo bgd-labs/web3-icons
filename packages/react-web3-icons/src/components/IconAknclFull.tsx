@@ -13,10 +13,10 @@ const IconAknclFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#v7mp__paint0_linear_40_91)"
+      stroke="url(#edbi2__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#v7mp__circleClip)">
+    <g clipPath="url(#edbi2__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -39,7 +39,7 @@ const IconAknclFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="v7mp__paint0_linear_40_91"
+        id="edbi2__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -49,7 +49,7 @@ const IconAknclFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="v7mp__circleClip">
+      <clipPath id="edbi2__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

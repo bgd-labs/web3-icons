@@ -9,7 +9,7 @@ const IconGnosissdaiFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#8w8q__clip0_294_295)">
+    <g clipPath="url(#dekgz__clip0_294_295)">
       <path
         fill="#33453D"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -20,7 +20,7 @@ const IconGnosissdaiFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="8w8q__clip0_294_295">
+      <clipPath id="dekgz__clip0_294_295">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

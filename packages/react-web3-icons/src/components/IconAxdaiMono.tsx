@@ -10,7 +10,7 @@ const IconAxdaiMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#6vsfi__circleClip)">
+    <g clipPath="url(#e77tx__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -24,7 +24,7 @@ const IconAxdaiMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="6vsfi__circleClip">
+      <clipPath id="e77tx__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

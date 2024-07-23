@@ -9,9 +9,9 @@ const IconEuraFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#pwdnr__clip0_297_5)">
+    <g clipPath="url(#6g9mo__clip0_297_5)">
       <path
-        fill="url(#pwdnr__paint0_linear_297_5)"
+        fill="url(#6g9mo__paint0_linear_297_5)"
         d="M16 32c8.836 0 16-7.163 16-16S24.836 0 16 0 0 7.164 0 16s7.164 16 16 16"
       />
       <path
@@ -25,7 +25,7 @@ const IconEuraFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="pwdnr__paint0_linear_297_5"
+        id="6g9mo__paint0_linear_297_5"
         x1={16}
         x2={16}
         y1={0}
@@ -35,7 +35,7 @@ const IconEuraFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#99B998" />
         <stop offset={1} stopColor="#FDCEAA" />
       </linearGradient>
-      <clipPath id="pwdnr__clip0_297_5">
+      <clipPath id="6g9mo__clip0_297_5">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

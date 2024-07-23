@@ -9,17 +9,17 @@ const IconBitskiwalletFull = (props: SVGProps<SVGSVGElement>) => (
     height="100%"
     {...props}
   >
-    <g clipPath="url(#3qyvw__a)">
+    <g clipPath="url(#om58m__a)">
       <path fill="#FF245A" d="M256 0H0v256h256z" />
-      <g filter="url(#3qyvw__b)">
+      <g filter="url(#om58m__b)">
         <path
-          stroke="url(#3qyvw__c)"
+          stroke="url(#om58m__c)"
           strokeWidth={25}
           d="M243.5 12.5h-231v231h231z"
         />
       </g>
       <mask
-        id="3qyvw__d"
+        id="om58m__d"
         width={150}
         height={157}
         x={53}
@@ -36,13 +36,13 @@ const IconBitskiwalletFull = (props: SVGProps<SVGSVGElement>) => (
           clipRule="evenodd"
         />
       </mask>
-      <g filter="url(#3qyvw__e)" mask="url(#3qyvw__d)">
+      <g filter="url(#om58m__e)" mask="url(#om58m__d)">
         <path
-          fill="url(#3qyvw__f)"
+          fill="url(#om58m__f)"
           d="M174.791 51.36H81.156c-15.464 0-28 12.535-28 28v101.754c0 15.464 12.536 28 28 28h93.635c15.464 0 28-12.536 28-28V79.359c0-15.464-12.536-28-28-28Z"
         />
         <path
-          fill="url(#3qyvw__g)"
+          fill="url(#om58m__g)"
           fillOpacity={0.12}
           d="M174.791 51.36H81.156c-15.464 0-28 12.535-28 28v101.754c0 15.464 12.536 28 28 28h93.635c15.464 0 28-12.536 28-28V79.359c0-15.464-12.536-28-28-28Z"
         />
@@ -58,7 +58,7 @@ const IconBitskiwalletFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="3qyvw__c"
+        id="om58m__c"
         x1={128}
         x2={128}
         y1={0}
@@ -69,7 +69,7 @@ const IconBitskiwalletFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.633} stopColor="#E00037" />
       </linearGradient>
       <linearGradient
-        id="3qyvw__f"
+        id="om58m__f"
         x1={127.974}
         x2={127.974}
         y1={51.359}
@@ -82,7 +82,7 @@ const IconBitskiwalletFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#E6E6E6" />
       </linearGradient>
       <filter
-        id="3qyvw__b"
+        id="om58m__b"
         width={456}
         height={456}
         x={-100}
@@ -98,7 +98,7 @@ const IconBitskiwalletFull = (props: SVGProps<SVGSVGElement>) => (
         />
       </filter>
       <filter
-        id="3qyvw__e"
+        id="om58m__e"
         width={269.635}
         height={277.756}
         x={-6.844}
@@ -123,7 +123,7 @@ const IconBitskiwalletFull = (props: SVGProps<SVGSVGElement>) => (
         />
       </filter>
       <radialGradient
-        id="3qyvw__g"
+        id="om58m__g"
         cx={0}
         cy={0}
         r={1}
@@ -133,7 +133,7 @@ const IconBitskiwalletFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.479} stopColor="#fff" />
         <stop offset={1} />
       </radialGradient>
-      <clipPath id="3qyvw__a">
+      <clipPath id="om58m__a">
         <rect width={256} height={256} fill="#fff" rx={32} />
       </clipPath>
     </defs>

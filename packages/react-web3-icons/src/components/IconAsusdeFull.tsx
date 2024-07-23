@@ -13,10 +13,10 @@ const IconAsusdeFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#hec8q__paint0_linear_40_91)"
+      stroke="url(#yz6myf__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#hec8q__circleClip)">
+    <g clipPath="url(#yz6myf__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -39,7 +39,7 @@ const IconAsusdeFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="hec8q__paint0_linear_40_91"
+        id="yz6myf__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -49,7 +49,7 @@ const IconAsusdeFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="hec8q__circleClip">
+      <clipPath id="yz6myf__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

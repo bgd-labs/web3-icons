@@ -9,7 +9,7 @@ const IconRenFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#pbhmn__clip0_298_750)">
+    <g clipPath="url(#1k7hg__clip0_298_750)">
       <path
         fill="#183055"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -20,7 +20,7 @@ const IconRenFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="pbhmn__clip0_298_750">
+      <clipPath id="1k7hg__clip0_298_750">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

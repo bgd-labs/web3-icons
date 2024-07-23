@@ -9,7 +9,7 @@ const IconZrxFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#jo0hx__clip0_298_476)">
+    <g clipPath="url(#k4u3y__clip0_298_476)">
       <path
         fill="#2F2C2C"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -22,7 +22,7 @@ const IconZrxFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="jo0hx__clip0_298_476">
+      <clipPath id="k4u3y__clip0_298_476">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

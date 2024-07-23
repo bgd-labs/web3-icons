@@ -13,19 +13,19 @@ const IconAsnxFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#y8gltj__paint0_linear_40_91)"
+      stroke="url(#j6e6g__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#y8gltj__circleClip)">
+    <g clipPath="url(#j6e6g__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#y8gltj__psxa6__clip0_298_407)">
+        <g clipPath="url(#j6e6g__wjc2hg__clip0_298_407)">
           <path
-            fill="url(#y8gltj__psxa6__paint0_linear_298_407)"
+            fill="url(#j6e6g__wjc2hg__paint0_linear_298_407)"
             d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
           />
           <path
@@ -35,7 +35,7 @@ const IconAsnxFull = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
           <linearGradient
-            id="y8gltj__psxa6__paint0_linear_298_407"
+            id="j6e6g__wjc2hg__paint0_linear_298_407"
             x1={15.83}
             x2={15.83}
             y1={0.67}
@@ -45,7 +45,7 @@ const IconAsnxFull = (props: SVGProps<SVGSVGElement>) => (
             <stop stopColor="#08021E" />
             <stop offset={1} stopColor="#150755" />
           </linearGradient>
-          <clipPath id="y8gltj__psxa6__clip0_298_407">
+          <clipPath id="j6e6g__wjc2hg__clip0_298_407">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -53,7 +53,7 @@ const IconAsnxFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="y8gltj__paint0_linear_40_91"
+        id="j6e6g__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -63,7 +63,7 @@ const IconAsnxFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="y8gltj__circleClip">
+      <clipPath id="j6e6g__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

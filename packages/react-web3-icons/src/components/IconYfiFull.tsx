@@ -9,9 +9,9 @@ const IconYfiFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#j9523__clip0_298_773)">
+    <g clipPath="url(#xdo6t__clip0_298_773)">
       <path
-        fill="url(#j9523__paint0_linear_298_773)"
+        fill="url(#xdo6t__paint0_linear_298_773)"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
       />
       <path
@@ -25,7 +25,7 @@ const IconYfiFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="j9523__paint0_linear_298_773"
+        id="xdo6t__paint0_linear_298_773"
         x1={31.87}
         x2={1.15}
         y1={16.45}
@@ -35,7 +35,7 @@ const IconYfiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#285DAF" />
         <stop offset={1} stopColor="#3375F2" />
       </linearGradient>
-      <clipPath id="j9523__clip0_298_773">
+      <clipPath id="xdo6t__clip0_298_773">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

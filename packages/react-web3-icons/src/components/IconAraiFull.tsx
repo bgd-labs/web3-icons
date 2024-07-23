@@ -13,19 +13,19 @@ const IconAraiFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#l4s79__paint0_linear_40_91)"
+      stroke="url(#1p2t5__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#l4s79__circleClip)">
+    <g clipPath="url(#1p2t5__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#l4s79__rxlw8i__clip0_298_431)">
+        <g clipPath="url(#1p2t5__qjbkz__clip0_298_431)">
           <path
-            fill="url(#l4s79__rxlw8i__paint0_linear_298_431)"
+            fill="url(#1p2t5__qjbkz__paint0_linear_298_431)"
             d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
           />
           <path
@@ -71,7 +71,7 @@ const IconAraiFull = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
           <linearGradient
-            id="l4s79__rxlw8i__paint0_linear_298_431"
+            id="1p2t5__qjbkz__paint0_linear_298_431"
             x1={4.69}
             x2={27.32}
             y1={4.69}
@@ -81,7 +81,7 @@ const IconAraiFull = (props: SVGProps<SVGSVGElement>) => (
             <stop stopColor="#2A3035" />
             <stop offset={1} stopColor="#539283" />
           </linearGradient>
-          <clipPath id="l4s79__rxlw8i__clip0_298_431">
+          <clipPath id="1p2t5__qjbkz__clip0_298_431">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -89,7 +89,7 @@ const IconAraiFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="l4s79__paint0_linear_40_91"
+        id="1p2t5__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -99,7 +99,7 @@ const IconAraiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="l4s79__circleClip">
+      <clipPath id="1p2t5__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

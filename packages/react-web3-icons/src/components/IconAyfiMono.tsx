@@ -10,7 +10,7 @@ const IconAyfiMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#6grv6__circleClip)">
+    <g clipPath="url(#yg2bp__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -24,7 +24,7 @@ const IconAyfiMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="6grv6__circleClip">
+      <clipPath id="yg2bp__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

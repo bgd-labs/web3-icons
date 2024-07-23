@@ -13,17 +13,17 @@ const IconAmaticxFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#v6obs__paint0_linear_40_91)"
+      stroke="url(#uvzvm__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#v6obs__circleClip)">
+    <g clipPath="url(#uvzvm__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#v6obs__818b2__clip0_298_297)">
+        <g clipPath="url(#uvzvm__1uip9k__clip0_298_297)">
           <path
             fill="#000"
             d="M16 0c8.84 0 16 7.16 16 16s-7.16 16-16 16S0 24.84 0 16 7.16 0 16 0"
@@ -40,7 +40,7 @@ const IconAmaticxFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="v6obs__818b2__clip0_298_297">
+          <clipPath id="uvzvm__1uip9k__clip0_298_297">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -48,7 +48,7 @@ const IconAmaticxFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="v6obs__paint0_linear_40_91"
+        id="uvzvm__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -58,7 +58,7 @@ const IconAmaticxFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="v6obs__circleClip">
+      <clipPath id="uvzvm__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

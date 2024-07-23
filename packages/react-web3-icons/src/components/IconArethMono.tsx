@@ -10,7 +10,7 @@ const IconArethMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#reoti__circleClip)">
+    <g clipPath="url(#7fy25__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -24,7 +24,7 @@ const IconArethMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="reoti__circleClip">
+      <clipPath id="7fy25__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

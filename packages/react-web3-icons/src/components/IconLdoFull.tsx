@@ -9,7 +9,7 @@ const IconLdoFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#xeput__clip0_297_35)">
+    <g clipPath="url(#mlmm7__clip0_297_35)">
       <path
         fill="#F69988"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -26,7 +26,7 @@ const IconLdoFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="xeput__clip0_297_35">
+      <clipPath id="mlmm7__clip0_297_35">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

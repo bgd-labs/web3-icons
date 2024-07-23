@@ -9,7 +9,7 @@ const IconBnbsmartchainFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#lmnv6i__clip0_292_152)">
+    <g clipPath="url(#675d6__clip0_292_152)">
       <path
         fill="#F0B90B"
         fillRule="evenodd"
@@ -31,7 +31,7 @@ const IconBnbsmartchainFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="lmnv6i__clip0_292_152">
+      <clipPath id="675d6__clip0_292_152">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

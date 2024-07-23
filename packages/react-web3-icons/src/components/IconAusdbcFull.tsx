@@ -13,17 +13,17 @@ const IconAusdbcFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#jcx8m__paint0_linear_40_91)"
+      stroke="url(#yg1ap__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#jcx8m__circleClip)">
+    <g clipPath="url(#yg1ap__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#jcx8m__iofpej__clip0_298_901)">
+        <g clipPath="url(#yg1ap__f7yje__clip0_298_901)">
           <path
             fill="#2151F4"
             d="M16 0c8.84 0 16 7.16 16 16s-7.16 16-16 16S0 24.84 0 16C0 7.17 7.17 0 16 0"
@@ -36,7 +36,7 @@ const IconAusdbcFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="jcx8m__iofpej__clip0_298_901">
+          <clipPath id="yg1ap__f7yje__clip0_298_901">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -44,7 +44,7 @@ const IconAusdbcFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="jcx8m__paint0_linear_40_91"
+        id="yg1ap__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -54,7 +54,7 @@ const IconAusdbcFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="jcx8m__circleClip">
+      <clipPath id="yg1ap__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

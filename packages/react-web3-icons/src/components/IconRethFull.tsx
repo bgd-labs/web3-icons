@@ -10,15 +10,15 @@ const IconRethFull = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="url(#5m1b6j__paint0_radial_348_108)"
+      fill="url(#v0opb__paint0_radial_348_108)"
       d="M16 32.43c8.84 0 16-7.16 16-16s-7.16-16-16-16-16 7.16-16 16 7.16 16 16 16"
     />
     <path
-      fill="url(#5m1b6j__paint1_radial_348_108)"
+      fill="url(#v0opb__paint1_radial_348_108)"
       d="M16 32.43c8.84 0 16-7.16 16-16s-7.16-16-16-16-16 7.16-16 16 7.16 16 16 16"
     />
     <path
-      fill="url(#5m1b6j__paint2_linear_348_108)"
+      fill="url(#v0opb__paint2_linear_348_108)"
       d="M16.8 14.24h12.05c.35 0 .64-.29.64-.64V7.85C26.68 3.44 21.77.49 16.16.43V13.6c0 .35.29.64.64.64"
       opacity={0.2}
     />
@@ -53,12 +53,12 @@ const IconRethFull = (props: SVGProps<SVGSVGElement>) => (
       opacity={0.2}
     />
     <path
-      fill="url(#5m1b6j__paint3_linear_348_108)"
+      fill="url(#v0opb__paint3_linear_348_108)"
       d="M12.96 10.83c.35 0 .64.29.64.64v8.59c0 .35-.29.64-.64.64H8.21c-.35 0-.64-.29-.64-.64v-8.59c0-.35.29-.64.64-.64z"
       opacity={0.1}
     />
     <path
-      fill="url(#5m1b6j__paint4_linear_348_108)"
+      fill="url(#v0opb__paint4_linear_348_108)"
       d="M3.04 13.39c0-.35.29-.64.64-.64h7.79c.35 0 .64.29.64.64v8.16c0 .35-.29.64-.64.64H3.68c-.35 0-.64-.29-.64-.64z"
       opacity={0.1}
     />
@@ -133,7 +133,7 @@ const IconRethFull = (props: SVGProps<SVGSVGElement>) => (
       opacity={0.1}
     />
     <path
-      fill="url(#5m1b6j__paint5_linear_348_108)"
+      fill="url(#v0opb__paint5_linear_348_108)"
       d="M9.49 24.11V9.23c0-.35-.29-.64-.64-.64H2.06A15.86 15.86 0 0 0 0 16.43c0 3.05.87 5.89 2.35 8.32h6.5c.35 0 .64-.29.64-.64"
       opacity={0.2}
     />
@@ -141,7 +141,7 @@ const IconRethFull = (props: SVGProps<SVGSVGElement>) => (
     <path fill="#fff" d="m15.98 26.01-6.09-8.57 6.09 3.6 6.09-3.6z" />
     <defs>
       <linearGradient
-        id="5m1b6j__paint2_linear_348_108"
+        id="v0opb__paint2_linear_348_108"
         x1={22.83}
         x2={22.83}
         y1={14.24}
@@ -152,7 +152,7 @@ const IconRethFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#CC4521" />
       </linearGradient>
       <linearGradient
-        id="5m1b6j__paint3_linear_348_108"
+        id="v0opb__paint3_linear_348_108"
         x1={10.59}
         x2={10.59}
         y1={10.82}
@@ -163,7 +163,7 @@ const IconRethFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#CC4521" stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id="5m1b6j__paint4_linear_348_108"
+        id="v0opb__paint4_linear_348_108"
         x1={3.04}
         x2={11.42}
         y1={17.46}
@@ -174,7 +174,7 @@ const IconRethFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#CC4521" stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id="5m1b6j__paint5_linear_348_108"
+        id="v0opb__paint5_linear_348_108"
         x1={4.75}
         x2={4.75}
         y1={24.75}
@@ -185,7 +185,7 @@ const IconRethFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#F9E099" />
       </linearGradient>
       <radialGradient
-        id="5m1b6j__paint0_radial_348_108"
+        id="v0opb__paint0_radial_348_108"
         cx={0}
         cy={0}
         r={1}
@@ -196,7 +196,7 @@ const IconRethFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#DB6443" />
       </radialGradient>
       <radialGradient
-        id="5m1b6j__paint1_radial_348_108"
+        id="v0opb__paint1_radial_348_108"
         cx={0}
         cy={0}
         r={1}

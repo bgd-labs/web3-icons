@@ -9,9 +9,9 @@ const IconRainbowwalletMono = (props: SVGProps<SVGSVGElement>) => (
     height="100%"
     {...props}
   >
-    <g clipPath="url(#z8stn__a)">
+    <g clipPath="url(#ym8mv__a)">
       <mask
-        id="z8stn__b"
+        id="ym8mv__b"
         width={120}
         height={120}
         x={0}
@@ -23,37 +23,37 @@ const IconRainbowwalletMono = (props: SVGProps<SVGSVGElement>) => (
       >
         <circle cx={60} cy={60} r={60} fill="currentColor" />
       </mask>
-      <g mask="url(#z8stn__b)">
-        <path fill="url(#z8stn__c)" d="M0 0h120v120H0z" />
+      <g mask="url(#ym8mv__b)">
+        <path fill="url(#ym8mv__c)" d="M0 0h120v120H0z" />
       </g>
       <path
-        fill="url(#z8stn__d)"
+        fill="url(#ym8mv__d)"
         d="M26.667 41.667h5c25.773 0 46.666 20.893 46.666 46.666v5h10a5 5 0 0 0 5-5c0-34.057-27.609-61.666-61.666-61.666a5 5 0 0 0-5 5z"
       />
-      <path fill="url(#z8stn__e)" d="M80 88.333h13.333a5 5 0 0 1-5 5H80z" />
+      <path fill="url(#ym8mv__e)" d="M80 88.333h13.333a5 5 0 0 1-5 5H80z" />
       <path
-        fill="url(#z8stn__f)"
+        fill="url(#ym8mv__f)"
         d="M31.667 26.667V40h-5v-8.333a5 5 0 0 1 5-5"
       />
       <path
-        fill="url(#z8stn__g)"
+        fill="url(#ym8mv__g)"
         d="M26.667 40h5C58.36 40 80 61.64 80 88.333v5H65v-5C65 69.923 50.076 55 31.667 55h-5z"
       />
-      <path fill="url(#z8stn__h)" d="M66.667 88.333H80v5H66.667z" />
-      <path fill="url(#z8stn__i)" d="M26.667 53.333V40h5v13.333z" />
+      <path fill="url(#ym8mv__h)" d="M66.667 88.333H80v5H66.667z" />
+      <path fill="url(#ym8mv__i)" d="M26.667 53.333V40h5v13.333z" />
       <path
-        fill="url(#z8stn__j)"
+        fill="url(#ym8mv__j)"
         d="M26.667 61.667a5 5 0 0 0 5 5c11.966 0 21.666 9.7 21.666 21.666a5 5 0 0 0 5 5h8.334v-5c0-19.33-15.67-35-35-35h-5z"
       />
       <path
-        fill="url(#z8stn__k)"
+        fill="url(#ym8mv__k)"
         d="M53.333 88.333h13.334v5h-8.334a5 5 0 0 1-5-5"
       />
-      <path fill="url(#z8stn__l)" d="M31.667 66.667a5 5 0 0 1-5-5v-8.334h5z" />
+      <path fill="url(#ym8mv__l)" d="M31.667 66.667a5 5 0 0 1-5-5v-8.334h5z" />
     </g>
     <defs>
       <radialGradient
-        id="z8stn__d"
+        id="ym8mv__d"
         cx={0}
         cy={0}
         r={1}
@@ -64,7 +64,7 @@ const IconRainbowwalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </radialGradient>
       <radialGradient
-        id="z8stn__g"
+        id="ym8mv__g"
         cx={0}
         cy={0}
         r={1}
@@ -75,7 +75,7 @@ const IconRainbowwalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </radialGradient>
       <radialGradient
-        id="z8stn__j"
+        id="ym8mv__j"
         cx={0}
         cy={0}
         r={1}
@@ -86,7 +86,7 @@ const IconRainbowwalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </radialGradient>
       <radialGradient
-        id="z8stn__k"
+        id="ym8mv__k"
         cx={0}
         cy={0}
         r={1}
@@ -97,7 +97,7 @@ const IconRainbowwalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </radialGradient>
       <radialGradient
-        id="z8stn__l"
+        id="ym8mv__l"
         cx={0}
         cy={0}
         r={1}
@@ -108,7 +108,7 @@ const IconRainbowwalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </radialGradient>
       <linearGradient
-        id="z8stn__c"
+        id="ym8mv__c"
         x1={60}
         x2={60}
         y1={0}
@@ -119,7 +119,7 @@ const IconRainbowwalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </linearGradient>
       <linearGradient
-        id="z8stn__e"
+        id="ym8mv__e"
         x1={79.167}
         x2={93.333}
         y1={90.833}
@@ -130,7 +130,7 @@ const IconRainbowwalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </linearGradient>
       <linearGradient
-        id="z8stn__f"
+        id="ym8mv__f"
         x1={29.167}
         x2={29.167}
         y1={26.667}
@@ -141,7 +141,7 @@ const IconRainbowwalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </linearGradient>
       <linearGradient
-        id="z8stn__h"
+        id="ym8mv__h"
         x1={66.667}
         x2={80}
         y1={90.833}
@@ -152,7 +152,7 @@ const IconRainbowwalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </linearGradient>
       <linearGradient
-        id="z8stn__i"
+        id="ym8mv__i"
         x1={29.167}
         x2={29.167}
         y1={53.333}
@@ -162,7 +162,7 @@ const IconRainbowwalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="currentColor" />
         <stop offset={1} stopColor="currentColor" />
       </linearGradient>
-      <clipPath id="z8stn__a">
+      <clipPath id="ym8mv__a">
         <path fill="#fff" d="M0 0h120v120H0z" />
       </clipPath>
     </defs>
