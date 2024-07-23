@@ -1,5 +1,5 @@
 {
   "type": ["wallet"],
-  "name": "SafePal Wallet",
+  "walletName": "SafePal Wallet",
   "identityFlag": "isSafePal"
 }

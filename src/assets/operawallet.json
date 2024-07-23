@@ -1,5 +1,5 @@
 {
   "type": ["wallet"],
-  "name": "Opera Wallet",
+  "walletName": "Opera Wallet",
   "identityFlag": "isOpera"
 }

@@ -1,5 +1,5 @@
 {
   "type": ["wallet"],
-  "name": "imToken Wallet",
+  "walletName": "imToken Wallet",
   "identityFlag": "isImToken"
 }

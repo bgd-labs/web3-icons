@@ -19,8 +19,8 @@ interface QueueItem {
 
 const queue: QueueItem[] = [];
 for (const wallet of wallets) {
-  const { identityFlag, icons } = wallet;
-  const name = wallet?.name ? wallet.name : "Unknown";
+  const { identityFlag, icons, walletName } = wallet;
+  const name = walletName ? walletName : "Unknown";
   queue.push({ name, filePath: icons.mono, identityFlag, type: "mono" });
   queue.push({ name, filePath: icons.full, identityFlag, type: "full" });
 }
@@ -66,8 +66,8 @@ Promise.all(
   > = {};
   wallets.forEach(
     (item) =>
-      (walletsData[item.name.replace(/\s/g, "").toLowerCase()] = {
-        name: item?.name ? item.name : "Unknown",
+      (walletsData[item.walletName.replace(/\s/g, "").toLowerCase()] = {
+        name: item?.walletName ? item.walletName : "Unknown",
         identityFlag: item.identityFlag,
       }),
   );

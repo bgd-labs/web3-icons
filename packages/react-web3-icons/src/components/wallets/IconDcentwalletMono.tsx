@@ -9,10 +9,10 @@ const IconDcentwalletMono = (props: SVGProps<SVGSVGElement>) => (
     height="100%"
     {...props}
   >
-    <style>{".0pwidj__dcent-st0,.0pwidj__dcent-st2{fill:currentColor}"}</style>
+    <style>{".xqc5p__dcent-st0,.xqc5p__dcent-st2{fill:currentColor}"}</style>
     <path
       d="m32.04 13.43 5.3-3.06V3.06L32.04 0z"
-      className="0pwidj__dcent-st0"
+      className="xqc5p__dcent-st0"
     />
     <path
       fill="currentColor"
@@ -20,15 +20,15 @@ const IconDcentwalletMono = (props: SVGProps<SVGSVGElement>) => (
     />
     <path
       d="M48.86 46.69 31.14 56.93 13.52 46.75.99 53.99l29.25 16.89a1.81 1.81 0 0 0 1.8 0l29.34-16.94c.01 0 .01-.01.02-.01z"
-      className="0pwidj__dcent-st2"
+      className="xqc5p__dcent-st2"
     />
     <path
       d="m61.38 16.94-11.63-6.71v7.3l-12.5 7.22 12.5 7.21v13.16l12.53 7.23V18.5a1.84 1.84 0 0 0-.9-1.56"
-      className="0pwidj__dcent-st0"
+      className="xqc5p__dcent-st0"
     />
     <path
       d="m24.93 31.85.01 14.33 12.16-7.02V24.83z"
-      className="0pwidj__dcent-st2"
+      className="xqc5p__dcent-st2"
     />
   </svg>
 );

@@ -9,9 +9,9 @@ const IconEnsFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#8kesz__clip0_294_308)">
+    <g clipPath="url(#naqrx__clip0_294_308)">
       <path
-        fill="url(#8kesz__paint0_linear_294_308)"
+        fill="url(#naqrx__paint0_linear_294_308)"
         d="M16 0c8.84 0 16 7.16 16 16s-7.16 16-16 16S0 24.84 0 16 7.16 0 16 0"
       />
       <path
@@ -21,7 +21,7 @@ const IconEnsFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="8kesz__paint0_linear_294_308"
+        id="naqrx__paint0_linear_294_308"
         x1={25.787}
         x2={-5.306}
         y1={33.249}
@@ -32,7 +32,7 @@ const IconEnsFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.38} stopColor="#7298F8" />
         <stop offset={1} stopColor="#A099FF" />
       </linearGradient>
-      <clipPath id="8kesz__clip0_294_308">
+      <clipPath id="naqrx__clip0_294_308">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

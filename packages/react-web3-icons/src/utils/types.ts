@@ -49,7 +49,7 @@ export type ChainType = {
 };
 
 export type WalletType = {
-  name: string;
+  walletName: string;
   identityFlag?: string;
   variant?: IconVariant;
 };

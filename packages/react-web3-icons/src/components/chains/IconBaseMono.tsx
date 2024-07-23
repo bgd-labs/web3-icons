@@ -9,7 +9,7 @@ const IconBaseMono = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#hkxcf__clip0_423_62)">
+    <g clipPath="url(#oqddi__clip0_423_62)">
       <path
         fill="currentColor"
         fillRule="evenodd"
@@ -18,7 +18,7 @@ const IconBaseMono = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="hkxcf__clip0_423_62">
+      <clipPath id="oqddi__clip0_423_62">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

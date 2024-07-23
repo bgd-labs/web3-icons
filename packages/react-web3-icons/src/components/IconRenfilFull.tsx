@@ -9,7 +9,7 @@ const IconRenfilFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#bkznl__clip0_298_417)">
+    <g clipPath="url(#0lapk__clip0_298_417)">
       <path
         fill="#B4BCC5"
         fillRule="evenodd"
@@ -28,7 +28,7 @@ const IconRenfilFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="bkznl__clip0_298_417">
+      <clipPath id="0lapk__clip0_298_417">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

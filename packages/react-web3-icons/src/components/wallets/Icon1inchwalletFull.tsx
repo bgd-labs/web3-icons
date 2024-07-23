@@ -9,7 +9,7 @@ const Icon1inchwalletFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#5nmtkl__clip0_292_10)">
+    <g clipPath="url(#oc95x__clip0_292_10)">
       <path
         fill="#fff"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -48,7 +48,7 @@ const Icon1inchwalletFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="5nmtkl__clip0_292_10">
+      <clipPath id="oc95x__clip0_292_10">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

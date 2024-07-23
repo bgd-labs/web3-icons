@@ -1,5 +1,5 @@
 {
   "type": ["wallet"],
-  "name": "HyperPay Wallet",
+  "walletName": "HyperPay Wallet",
   "identityFlag": "isHyperPay"
 }

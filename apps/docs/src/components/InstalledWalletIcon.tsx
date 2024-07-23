@@ -17,7 +17,7 @@ const InstalledBrowserWalletWallet = () => {
       <Web3Icon
         iconInfo={{
           type: Web3IconType.wallet,
-          info: { name: walletName, variant: IconVariant.Full },
+          info: { walletName, variant: IconVariant.Full },
         }}
       />
     </div>

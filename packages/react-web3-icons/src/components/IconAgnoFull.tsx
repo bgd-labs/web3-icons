@@ -13,17 +13,17 @@ const IconAgnoFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#f0ugw__paint0_linear_40_91)"
+      stroke="url(#txezri__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#f0ugw__circleClip)">
+    <g clipPath="url(#txezri__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#f0ugw__a2juo__clip0_294_317)">
+        <g clipPath="url(#txezri__2xrk8__clip0_294_317)">
           <path
             fill="#fff"
             d="M15.99 30.87c8.146 0 14.75-6.604 14.75-14.75S24.136 1.37 15.99 1.37 1.24 7.974 1.24 16.12s6.604 14.75 14.75 14.75"
@@ -36,7 +36,7 @@ const IconAgnoFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="f0ugw__a2juo__clip0_294_317">
+          <clipPath id="txezri__2xrk8__clip0_294_317">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -44,7 +44,7 @@ const IconAgnoFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="f0ugw__paint0_linear_40_91"
+        id="txezri__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -54,7 +54,7 @@ const IconAgnoFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="f0ugw__circleClip">
+      <clipPath id="txezri__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

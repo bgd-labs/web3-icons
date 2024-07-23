@@ -1,9 +1,11 @@
 [
   {
     "type": [
-      "asset"
+      "asset",
+      "wallet"
     ],
     "name": "One inch Network",
+    "walletName": "1inch Wallet",
     "symbol": "1inch",
     "symbolAliases": [
       "1INCH"
@@ -12,6 +14,7 @@
       "aToken",
       "stataToken"
     ],
+    "identityFlag": "isOneInchIOSWallet",
     "icons": {
       "mono": "icons/mono/1inch.svg",
       "full": "icons/full/1inch.svg",
@@ -23,17 +26,6 @@
         "mono": "icons/mono/stata1inch.svg",
         "full": "icons/full/stata1inch.svg"
       }
-    }
-  },
-  {
-    "type": [
-      "wallet"
-    ],
-    "name": "1inch Wallet",
-    "identityFlag": "isOneInchIOSWallet",
-    "icons": {
-      "mono": "icons/mono/1inchwallet.svg",
-      "full": "icons/full/1inchwallet.svg"
     }
   },
   {
@@ -67,7 +59,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Alpha Wallet",
+    "walletName": "Alpha Wallet",
     "identityFlag": "isAlphaWallet",
     "icons": {
       "mono": "icons/mono/alphawallet.svg",
@@ -132,7 +124,7 @@
     "type": [
       "wallet"
     ],
-    "name": "AToken Wallet",
+    "walletName": "AToken Wallet",
     "identityFlag": "isAToken",
     "icons": {
       "mono": "icons/mono/atokenwallet.svg",
@@ -234,18 +226,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Binance Smart Wallet",
-    "identityFlag": "bbcSignTx",
-    "icons": {
-      "mono": "icons/mono/binancesmartwallet.svg",
-      "full": "icons/full/binancesmartwallet.svg"
-    }
-  },
-  {
-    "type": [
-      "wallet"
-    ],
-    "name": "BitKeep Wallet",
+    "walletName": "BitKeep Wallet",
     "identityFlag": "isBitKeep",
     "icons": {
       "mono": "icons/mono/bitkeepwallet.svg",
@@ -256,7 +237,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Bitpie Wallet",
+    "walletName": "Bitpie Wallet",
     "identityFlag": "isBitpie",
     "icons": {
       "mono": "icons/mono/bitpiewallet.svg",
@@ -267,7 +248,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Bitski Wallet",
+    "walletName": "Bitski Wallet",
     "identityFlag": "isBitski",
     "icons": {
       "mono": "icons/mono/bitskiwallet.svg",
@@ -278,7 +259,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Block Wallet",
+    "walletName": "Block Wallet",
     "identityFlag": "isBlockWallet",
     "icons": {
       "mono": "icons/mono/blockwallet.svg",
@@ -288,11 +269,13 @@
   {
     "type": [
       "asset",
-      "chain"
+      "chain",
+      "wallet"
     ],
     "chainName": "BNB Smart Chain",
     "chainId": 56,
     "name": "Wrapped BNB",
+    "walletName": "Binance Smart Wallet",
     "symbol": "wbnb",
     "symbolAliases": [
       "WBNB"
@@ -301,6 +284,7 @@
       "aToken",
       "stataToken"
     ],
+    "identityFlag": "bbcSignTx",
     "icons": {
       "mono": "icons/mono/wbnb.svg",
       "full": "icons/full/wbnb.svg",
@@ -370,7 +354,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Brave Wallet",
+    "walletName": "Brave Wallet",
     "identityFlag": "isBraveWallet",
     "icons": {
       "mono": "icons/mono/bravewallet.svg",
@@ -381,7 +365,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Browser wallet",
+    "walletName": "Browser wallet",
     "identityFlag": "",
     "icons": {
       "mono": "icons/mono/browserwallet.svg",
@@ -497,7 +481,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Coinbase Wallet",
+    "walletName": "Coinbase Wallet",
     "identityFlag": "isToshi",
     "icons": {
       "mono": "icons/mono/coinbasewallet.svg",
@@ -508,7 +492,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Core Wallet",
+    "walletName": "Core Wallet",
     "identityFlag": "isAvalanche",
     "icons": {
       "mono": "icons/mono/corewallet.svg",
@@ -625,7 +609,7 @@
     "type": [
       "wallet"
     ],
-    "name": "DCENT Wallet",
+    "walletName": "DCENT Wallet",
     "identityFlag": "isDcentWallet",
     "icons": {
       "mono": "icons/mono/dcentwallet.svg",
@@ -636,7 +620,7 @@
     "type": [
       "wallet"
     ],
-    "name": "DeFi Wallet",
+    "walletName": "DeFi Wallet",
     "identityFlag": "isDeficonnectProvider",
     "icons": {
       "mono": "icons/mono/defiwallet.svg",
@@ -699,7 +683,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Enkrypt Wallet",
+    "walletName": "Enkrypt Wallet",
     "identityFlag": "isEnkrypt",
     "icons": {
       "mono": "icons/mono/enkryptwallet.svg",
@@ -877,7 +861,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Exodus Wallet",
+    "walletName": "Exodus Wallet",
     "identityFlag": "isExodus",
     "icons": {
       "mono": "icons/mono/exoduswallet.svg",
@@ -940,7 +924,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Frame Wallet",
+    "walletName": "Frame Wallet",
     "identityFlag": "isFrame",
     "icons": {
       "mono": "icons/mono/framewallet.svg",
@@ -977,7 +961,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Frontier Wallet",
+    "walletName": "Frontier Wallet",
     "identityFlag": "isFrontier",
     "icons": {
       "mono": "icons/mono/frontierwallet.svg",
@@ -1043,7 +1027,7 @@
     "type": [
       "wallet"
     ],
-    "name": "GameStop Wallet",
+    "walletName": "GameStop Wallet",
     "identityFlag": "isGamestop",
     "icons": {
       "mono": "icons/mono/gamestopwallet.svg",
@@ -1232,7 +1216,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Huobi Wallet",
+    "walletName": "Huobi Wallet",
     "identityFlag": "isHbWallet",
     "icons": {
       "mono": "icons/mono/huobiwallet.svg",
@@ -1243,7 +1227,7 @@
     "type": [
       "wallet"
     ],
-    "name": "HyperPay Wallet",
+    "walletName": "HyperPay Wallet",
     "identityFlag": "isHyperPay",
     "icons": {
       "mono": "icons/mono/hyperpaywallet.svg",
@@ -1254,7 +1238,7 @@
     "type": [
       "wallet"
     ],
-    "name": "imToken Wallet",
+    "walletName": "imToken Wallet",
     "identityFlag": "isImToken",
     "icons": {
       "mono": "icons/mono/imtokenwallet.svg",
@@ -1420,7 +1404,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Liquality Wallet",
+    "walletName": "Liquality Wallet",
     "identityFlag": "isLiquality",
     "icons": {
       "mono": "icons/mono/liqualitywallet.svg",
@@ -1510,7 +1494,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Math Wallet",
+    "walletName": "Math Wallet",
     "identityFlag": "isMathWallet",
     "icons": {
       "mono": "icons/mono/mathwallet.svg",
@@ -1575,7 +1559,7 @@
     "type": [
       "wallet"
     ],
-    "name": "MetaMask",
+    "walletName": "MetaMask",
     "identityFlag": "isMetaMask",
     "icons": {
       "mono": "icons/mono/metamask.svg",
@@ -1641,7 +1625,7 @@
     "type": [
       "wallet"
     ],
-    "name": "MyKey Wallet",
+    "walletName": "MyKey Wallet",
     "identityFlag": "isMYKEY",
     "icons": {
       "mono": "icons/mono/mykeywallet.svg",
@@ -1652,7 +1636,7 @@
     "type": [
       "wallet"
     ],
-    "name": "OKX Wallet",
+    "walletName": "OKX Wallet",
     "identityFlag": "isOkxWallet",
     "icons": {
       "mono": "icons/mono/okxwallet.svg",
@@ -1718,7 +1702,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Opera Wallet",
+    "walletName": "Opera Wallet",
     "identityFlag": "isOpera",
     "icons": {
       "mono": "icons/mono/operawallet.svg",
@@ -1755,7 +1739,7 @@
     "type": [
       "wallet"
     ],
-    "name": "OwnBit Wallet",
+    "walletName": "OwnBit Wallet",
     "identityFlag": "isOwnbit",
     "icons": {
       "mono": "icons/mono/ownbitwallet.svg",
@@ -1766,7 +1750,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Phantom Wallet",
+    "walletName": "Phantom Wallet",
     "identityFlag": "isPhantom",
     "icons": {
       "mono": "icons/mono/phantomwallet.svg",
@@ -1814,7 +1798,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Rabby Wallet",
+    "walletName": "Rabby Wallet",
     "identityFlag": "isRabby",
     "icons": {
       "mono": "icons/mono/rabbywallet.svg",
@@ -1851,7 +1835,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Rainbow Wallet",
+    "walletName": "Rainbow Wallet",
     "identityFlag": "isRainbow",
     "icons": {
       "mono": "icons/mono/rainbowwallet.svg",
@@ -1992,7 +1976,7 @@
     "type": [
       "wallet"
     ],
-    "name": "SafePal Wallet",
+    "walletName": "SafePal Wallet",
     "identityFlag": "isSafePal",
     "icons": {
       "mono": "icons/mono/safepalwallet.svg",
@@ -2092,7 +2076,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Sequence Wallet",
+    "walletName": "Sequence Wallet",
     "identityFlag": "isSequence",
     "icons": {
       "mono": "icons/mono/sequencewallet.svg",
@@ -2181,7 +2165,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Status Wallet",
+    "walletName": "Status Wallet",
     "identityFlag": "isStatus",
     "icons": {
       "mono": "icons/mono/statuswallet.svg",
@@ -2452,7 +2436,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Tally Ho Wallet",
+    "walletName": "Tally Ho Wallet",
     "identityFlag": "isTally",
     "icons": {
       "mono": "icons/mono/tallyhowallet.svg",
@@ -2463,7 +2447,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Tokenary Wallet",
+    "walletName": "Tokenary Wallet",
     "identityFlag": "isTokenary",
     "icons": {
       "mono": "icons/mono/tokenarywallet.svg",
@@ -2474,7 +2458,7 @@
     "type": [
       "wallet"
     ],
-    "name": "TokenPocket Wallet",
+    "walletName": "TokenPocket Wallet",
     "identityFlag": "isTokenPocket",
     "icons": {
       "mono": "icons/mono/tokenpocketwallet.svg",
@@ -2511,7 +2495,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Trust Wallet",
+    "walletName": "Trust Wallet",
     "identityFlag": "isTrust",
     "icons": {
       "mono": "icons/mono/trustwallet.svg",
@@ -2748,7 +2732,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Wallet IO",
+    "walletName": "Wallet IO",
     "identityFlag": "isWalletIO",
     "icons": {
       "mono": "icons/mono/walletio.svg",
@@ -3047,7 +3031,7 @@
     "type": [
       "wallet"
     ],
-    "name": "XDEFI Wallet",
+    "walletName": "XDEFI Wallet",
     "identityFlag": "isXDEFI",
     "icons": {
       "mono": "icons/mono/xdefiwallet.svg",
@@ -3110,7 +3094,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Zeal Wallet",
+    "walletName": "Zeal Wallet",
     "identityFlag": "isZeal",
     "icons": {
       "mono": "icons/mono/zealwallet.svg",
@@ -3121,7 +3105,7 @@
     "type": [
       "wallet"
     ],
-    "name": "Zerion Wallet",
+    "walletName": "Zerion Wallet",
     "identityFlag": "isZerion",
     "icons": {
       "mono": "icons/mono/zerionwallet.svg",

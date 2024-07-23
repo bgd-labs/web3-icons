@@ -26,6 +26,7 @@ const IconMetaSchema = z.object({
   chainName: z.string().or(z.undefined()),
   chainId: z.number().or(z.undefined()),
   name: z.string().or(z.undefined()),
+  walletName: z.string().or(z.undefined()),
   symbol: z.string().or(z.undefined()),
   symbolAliases: z.array(z.string()).or(z.undefined()),
   variations: z.array(z.string()).or(z.undefined()),
@@ -64,9 +65,11 @@ for (const icon of iconsArray) {
 
   const name = meta?.chainName
     ? meta.chainName
-    : meta?.name
-      ? meta.name
-      : "Unknown";
+    : meta.walletName
+      ? meta.walletName
+      : meta.name
+        ? meta.name
+        : "Unknown";
 
   const iconInfo = {
     ...meta,

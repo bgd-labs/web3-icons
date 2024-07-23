@@ -13,17 +13,17 @@ const IconAbusdFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#jcdr3i__paint0_linear_40_91)"
+      stroke="url(#kqm61i__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#jcdr3i__circleClip)">
+    <g clipPath="url(#kqm61i__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#jcdr3i__zgm0y__clip0_292_114)">
+        <g clipPath="url(#kqm61i__go7oz__clip0_292_114)">
           <path
             fill="#fff"
             d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -34,7 +34,7 @@ const IconAbusdFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="jcdr3i__zgm0y__clip0_292_114">
+          <clipPath id="kqm61i__go7oz__clip0_292_114">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -42,7 +42,7 @@ const IconAbusdFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="jcdr3i__paint0_linear_40_91"
+        id="kqm61i__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -52,7 +52,7 @@ const IconAbusdFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="jcdr3i__circleClip">
+      <clipPath id="kqm61i__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

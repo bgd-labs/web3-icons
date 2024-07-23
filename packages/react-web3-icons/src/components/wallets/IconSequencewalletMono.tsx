@@ -9,55 +9,55 @@ const IconSequencewalletMono = (props: SVGProps<SVGSVGElement>) => (
     height="100%"
     {...props}
   >
-    <g clipPath="url(#11gcd__a)">
+    <g clipPath="url(#sfafn__a)">
       <path
         fill="#111"
         d="M0 5.208V19.3c0 2.876 2.325 5.208 5.194 5.208h20.163c2.868 0 5.194-2.332 5.194-5.208V5.208C30.55 2.332 28.224 0 25.357 0H5.194C2.325 0 0 2.332 0 5.208"
       />
       <path
-        fill="url(#11gcd__b)"
+        fill="url(#sfafn__b)"
         d="M0 5.208V19.3c0 2.876 2.325 5.208 5.194 5.208h20.163c2.868 0 5.194-2.332 5.194-5.208V5.208C30.55 2.332 28.224 0 25.357 0H5.194C2.325 0 0 2.332 0 5.208"
       />
       <path
-        fill="url(#11gcd__c)"
+        fill="url(#sfafn__c)"
         d="M7.638 6.127A1.53 1.53 0 0 0 6.11 4.595a1.53 1.53 0 0 0-1.527 1.532A1.53 1.53 0 0 0 6.11 7.659a1.53 1.53 0 0 0 1.528-1.532"
       />
       <path
-        fill="url(#11gcd__d)"
+        fill="url(#sfafn__d)"
         d="M7.638 6.127A1.53 1.53 0 0 0 6.11 4.595a1.53 1.53 0 0 0-1.527 1.532A1.53 1.53 0 0 0 6.11 7.659a1.53 1.53 0 0 0 1.528-1.532"
       />
       <path
-        fill="url(#11gcd__e)"
+        fill="url(#sfafn__e)"
         d="M7.638 6.127A1.53 1.53 0 0 0 6.11 4.595a1.53 1.53 0 0 0-1.527 1.532A1.53 1.53 0 0 0 6.11 7.659a1.53 1.53 0 0 0 1.528-1.532"
       />
       <path
-        fill="url(#11gcd__f)"
+        fill="url(#sfafn__f)"
         d="M7.638 18.371a1.53 1.53 0 0 0-1.528-1.532 1.53 1.53 0 0 0-1.527 1.532 1.53 1.53 0 0 0 1.527 1.532 1.53 1.53 0 0 0 1.528-1.532"
       />
       <path
-        fill="url(#11gcd__g)"
+        fill="url(#sfafn__g)"
         d="M25.968 12.254a1.53 1.53 0 0 0-1.528-1.532 1.53 1.53 0 0 0-1.527 1.532 1.53 1.53 0 0 0 1.527 1.532 1.53 1.53 0 0 0 1.528-1.532"
       />
       <path
-        fill="url(#11gcd__h)"
+        fill="url(#sfafn__h)"
         d="M25.968 12.254a1.53 1.53 0 0 0-1.528-1.532 1.53 1.53 0 0 0-1.527 1.532 1.53 1.53 0 0 0 1.527 1.532 1.53 1.53 0 0 0 1.528-1.532"
       />
       <path
-        fill="url(#11gcd__i)"
+        fill="url(#sfafn__i)"
         d="M24.44 4.595H12.22a1.53 1.53 0 0 0-1.527 1.532 1.53 1.53 0 0 0 1.527 1.532h12.22a1.53 1.53 0 0 0 1.528-1.532 1.53 1.53 0 0 0-1.528-1.532"
       />
       <path
-        fill="url(#11gcd__j)"
+        fill="url(#sfafn__j)"
         d="M24.44 16.84H12.22a1.53 1.53 0 0 0-1.527 1.531 1.53 1.53 0 0 0 1.527 1.532h12.22a1.53 1.53 0 0 0 1.528-1.532 1.53 1.53 0 0 0-1.528-1.532Z"
       />
       <path
-        fill="url(#11gcd__k)"
+        fill="url(#sfafn__k)"
         d="M18.33 10.722H6.11a1.53 1.53 0 0 0-1.527 1.532 1.53 1.53 0 0 0 1.527 1.532h12.22a1.53 1.53 0 0 0 1.528-1.532 1.53 1.53 0 0 0-1.528-1.532"
       />
     </g>
     <defs>
       <linearGradient
-        id="11gcd__b"
+        id="sfafn__b"
         x1={15.275}
         x2={15.275}
         y1={0}
@@ -68,7 +68,7 @@ const IconSequencewalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </linearGradient>
       <linearGradient
-        id="11gcd__c"
+        id="sfafn__c"
         x1={5.053}
         x2={7.136}
         y1={7.638}
@@ -79,7 +79,7 @@ const IconSequencewalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </linearGradient>
       <linearGradient
-        id="11gcd__d"
+        id="sfafn__d"
         x1={4.851}
         x2={7.417}
         y1={7.66}
@@ -90,7 +90,7 @@ const IconSequencewalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </linearGradient>
       <linearGradient
-        id="11gcd__e"
+        id="sfafn__e"
         x1={4.851}
         x2={7.417}
         y1={7.66}
@@ -101,7 +101,7 @@ const IconSequencewalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </linearGradient>
       <linearGradient
-        id="11gcd__f"
+        id="sfafn__f"
         x1={5.015}
         x2={7.059}
         y1={19.403}
@@ -112,7 +112,7 @@ const IconSequencewalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </linearGradient>
       <linearGradient
-        id="11gcd__g"
+        id="sfafn__g"
         x1={23.53}
         x2={25.42}
         y1={13.269}
@@ -123,7 +123,7 @@ const IconSequencewalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </linearGradient>
       <linearGradient
-        id="11gcd__h"
+        id="sfafn__h"
         x1={23.158}
         x2={25.811}
         y1={13.764}
@@ -134,7 +134,7 @@ const IconSequencewalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </linearGradient>
       <linearGradient
-        id="11gcd__i"
+        id="sfafn__i"
         x1={11.919}
         x2={24.494}
         y1={7.638}
@@ -145,7 +145,7 @@ const IconSequencewalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </linearGradient>
       <linearGradient
-        id="11gcd__j"
+        id="sfafn__j"
         x1={12.035}
         x2={24.109}
         y1={19.904}
@@ -156,7 +156,7 @@ const IconSequencewalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </linearGradient>
       <linearGradient
-        id="11gcd__k"
+        id="sfafn__k"
         x1={6.635}
         x2={18.168}
         y1={13.809}
@@ -166,7 +166,7 @@ const IconSequencewalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="currentColor" />
         <stop offset={1} stopColor="currentColor" />
       </linearGradient>
-      <clipPath id="11gcd__a">
+      <clipPath id="sfafn__a">
         <path fill="#fff" d="M0 0h30.55v24.508H0z" />
       </clipPath>
     </defs>

@@ -21,7 +21,10 @@ export const WalletIconCard = ({
   const [variant, setVariant] = useState(IconVariant.Full);
   const Icon = () => (
     <Web3Icon
-      iconInfo={{ type: Web3IconType.wallet, info: { name, variant } }}
+      iconInfo={{
+        type: Web3IconType.wallet,
+        info: { walletName: name, variant },
+      }}
     />
   );
 

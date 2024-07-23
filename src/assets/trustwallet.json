@@ -1,5 +1,5 @@
 {
   "type": ["wallet"],
-  "name": "Trust Wallet",
+  "walletName": "Trust Wallet",
   "identityFlag": "isTrust"
 }

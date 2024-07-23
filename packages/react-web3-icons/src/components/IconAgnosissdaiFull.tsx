@@ -13,17 +13,17 @@ const IconAgnosissdaiFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#db1w6__paint0_linear_40_91)"
+      stroke="url(#i6wdc__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#db1w6__circleClip)">
+    <g clipPath="url(#i6wdc__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#db1w6__ai4ei__clip0_294_295)">
+        <g clipPath="url(#i6wdc__8w8q__clip0_294_295)">
           <path
             fill="#33453D"
             d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -34,7 +34,7 @@ const IconAgnosissdaiFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="db1w6__ai4ei__clip0_294_295">
+          <clipPath id="i6wdc__8w8q__clip0_294_295">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -42,7 +42,7 @@ const IconAgnosissdaiFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="db1w6__paint0_linear_40_91"
+        id="i6wdc__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -52,7 +52,7 @@ const IconAgnosissdaiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="db1w6__circleClip">
+      <clipPath id="i6wdc__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

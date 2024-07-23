@@ -13,10 +13,10 @@ const IconAwavaxFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#vswfr__paint0_linear_40_91)"
+      stroke="url(#48mqj__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#vswfr__circleClip)">
+    <g clipPath="url(#48mqj__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -41,7 +41,7 @@ const IconAwavaxFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="vswfr__paint0_linear_40_91"
+        id="48mqj__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -51,7 +51,7 @@ const IconAwavaxFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="vswfr__circleClip">
+      <clipPath id="48mqj__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

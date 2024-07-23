@@ -13,17 +13,17 @@ const IconAavaxFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#hzjk9__paint0_linear_40_91)"
+      stroke="url(#q2etk__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#hzjk9__circleClip)">
+    <g clipPath="url(#q2etk__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#hzjk9__zecft__clip0_292_172)">
+        <g clipPath="url(#q2etk__5ouji__clip0_292_172)">
           <path
             fill="#E84142"
             fillRule="evenodd"
@@ -36,7 +36,7 @@ const IconAavaxFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="hzjk9__zecft__clip0_292_172">
+          <clipPath id="q2etk__5ouji__clip0_292_172">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -44,7 +44,7 @@ const IconAavaxFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="hzjk9__paint0_linear_40_91"
+        id="q2etk__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -54,7 +54,7 @@ const IconAavaxFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="hzjk9__circleClip">
+      <clipPath id="q2etk__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

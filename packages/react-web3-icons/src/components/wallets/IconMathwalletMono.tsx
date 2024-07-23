@@ -10,7 +10,7 @@ const IconMathwalletMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <mask
-      id="2hm1x__a"
+      id="o7de6__a"
       width={130}
       height={130}
       x={0}
@@ -25,10 +25,10 @@ const IconMathwalletMono = (props: SVGProps<SVGSVGElement>) => (
         d="M0 50.771c0-17.959 0-26.938 3.55-33.773A31.53 31.53 0 0 1 16.998 3.55C23.833 0 32.812 0 50.771 0H79.23c17.959 0 26.938 0 33.773 3.55a31.54 31.54 0 0 1 13.448 13.448C130 23.833 130 32.812 130 50.771V79.23c0 17.959 0 26.938-3.55 33.773a31.54 31.54 0 0 1-13.448 13.448C106.167 130 97.188 130 79.229 130H50.77c-17.959 0-26.938 0-33.773-3.55A31.54 31.54 0 0 1 3.55 113.002C0 106.167 0 97.188 0 79.229z"
       />
     </mask>
-    <g mask="url(#2hm1x__a)">
+    <g mask="url(#o7de6__a)">
       <path fill="currentColor" d="M0 0h130v130H0z" />
       <mask
-        id="2hm1x__b"
+        id="o7de6__b"
         width={130}
         height={130}
         x={0}
@@ -40,9 +40,9 @@ const IconMathwalletMono = (props: SVGProps<SVGSVGElement>) => (
       >
         <path fill="currentColor" d="M0 0h130v130H0z" />
       </mask>
-      <g mask="url(#2hm1x__b)">
-        <g filter="url(#2hm1x__c)">
-          <path fill="url(#2hm1x__d)" d="M0 0h130v130H0z" />
+      <g mask="url(#o7de6__b)">
+        <g filter="url(#o7de6__c)">
+          <path fill="url(#o7de6__d)" d="M0 0h130v130H0z" />
         </g>
         <path
           fill="#fff"
@@ -59,7 +59,7 @@ const IconMathwalletMono = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <radialGradient
-        id="2hm1x__d"
+        id="o7de6__d"
         cx={0}
         cy={0}
         r={1}
@@ -70,7 +70,7 @@ const IconMathwalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </radialGradient>
       <filter
-        id="2hm1x__c"
+        id="o7de6__c"
         width={130}
         height={134.891}
         x={0}

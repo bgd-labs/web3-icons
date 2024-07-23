@@ -21,6 +21,7 @@ export type IconMetaData = {
   variations?: string[];
   // for wallet
   identityFlag?: string; // window.ethereum[identityFlag]
+  walletName?: string;
 };
 
 export type IconStyle = {
@@ -50,6 +51,7 @@ export type IconInfo = {
   chainId?: number;
   // for wallet
   identityFlag?: string;
+  walletName?: string;
 };
 
 export type ChainType = {

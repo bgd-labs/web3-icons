@@ -9,7 +9,7 @@ const IconMaticxFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#gwwd5__clip0_298_297)">
+    <g clipPath="url(#818b2__clip0_298_297)">
       <path
         fill="#000"
         d="M16 0c8.84 0 16 7.16 16 16s-7.16 16-16 16S0 24.84 0 16 7.16 0 16 0"
@@ -26,7 +26,7 @@ const IconMaticxFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="gwwd5__clip0_298_297">
+      <clipPath id="818b2__clip0_298_297">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

@@ -6,7 +6,7 @@ const IconTrustwalletFull = (props: SVGProps<SVGSVGElement>) => (
     width="100%"
     height="100%"
     fill="none"
-    className="tfat3__mt-4 tfat3__h-auto tfat3__w-[180px]"
+    className="i5um1__mt-4 i5um1__h-auto i5um1__w-[180px]"
     viewBox="0 0 39 43"
     {...props}
   >
@@ -15,12 +15,12 @@ const IconTrustwalletFull = (props: SVGProps<SVGSVGElement>) => (
       d="M.71 6.673 19.433.606v42C6.059 37.006.71 26.273.71 20.207z"
     />
     <path
-      fill="url(#tfat3__paint0_linear_524_7586892384)"
+      fill="url(#i5um1__paint0_linear_524_7586892384)"
       d="M38.154 6.673 19.433.606v42c13.372-5.6 18.72-16.333 18.72-22.399z"
     />
     <defs>
       <linearGradient
-        id="tfat3__paint0_linear_524_7586892384"
+        id="i5um1__paint0_linear_524_7586892384"
         x1={33.181}
         x2={19.115}
         y1={-2.335}

@@ -13,17 +13,17 @@ const IconAsethFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#2jg6hl__paint0_linear_40_91)"
+      stroke="url(#79tyk__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#2jg6hl__circleClip)">
+    <g clipPath="url(#79tyk__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#2jg6hl__u015z__clip0_298_517)">
+        <g clipPath="url(#79tyk__zyltm__clip0_298_517)">
           <path
             fill="#1D1A2F"
             d="M16.09 32.1c8.837 0 16-7.163 16-16s-7.164-16-16-16-16 7.164-16 16 7.163 16 16 16"
@@ -52,7 +52,7 @@ const IconAsethFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="2jg6hl__u015z__clip0_298_517">
+          <clipPath id="79tyk__zyltm__clip0_298_517">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -60,7 +60,7 @@ const IconAsethFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="2jg6hl__paint0_linear_40_91"
+        id="79tyk__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -70,7 +70,7 @@ const IconAsethFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="2jg6hl__circleClip">
+      <clipPath id="79tyk__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

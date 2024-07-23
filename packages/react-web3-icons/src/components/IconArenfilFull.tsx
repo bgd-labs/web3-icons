@@ -13,17 +13,17 @@ const IconArenfilFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#464k4__paint0_linear_40_91)"
+      stroke="url(#u2rh3__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#464k4__circleClip)">
+    <g clipPath="url(#u2rh3__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#464k4__bkznl__clip0_298_417)">
+        <g clipPath="url(#u2rh3__0lapk__clip0_298_417)">
           <path
             fill="#B4BCC5"
             fillRule="evenodd"
@@ -42,7 +42,7 @@ const IconArenfilFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="464k4__bkznl__clip0_298_417">
+          <clipPath id="u2rh3__0lapk__clip0_298_417">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -50,7 +50,7 @@ const IconArenfilFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="464k4__paint0_linear_40_91"
+        id="u2rh3__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -60,7 +60,7 @@ const IconArenfilFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="464k4__circleClip">
+      <clipPath id="u2rh3__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

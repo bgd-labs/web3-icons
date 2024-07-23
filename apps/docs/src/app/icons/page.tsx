@@ -5,6 +5,7 @@ import React, { useMemo } from "react";
 import { AssetIconCard } from "@/components/AssetIconCard";
 import { Branding } from "@/components/Branding";
 import { ChainIconCard } from "@/components/ChainIconCard";
+import InstalledWalletIcon from "@/components/InstalledWalletIcon";
 import { Search } from "@/components/Search";
 import { WalletIconCard } from "@/components/WalletIconCard";
 
@@ -135,7 +136,7 @@ async function IconsPage({
               return (
                 <WalletIconCard
                   icons={asset.icons}
-                  name={asset?.name ?? "Unknown"}
+                  name={asset?.walletName ?? "Unknown"}
                 />
               );
             }

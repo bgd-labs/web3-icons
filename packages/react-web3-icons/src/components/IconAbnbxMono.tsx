@@ -10,7 +10,7 @@ const IconAbnbxMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#iyd2m__circleClip)">
+    <g clipPath="url(#i6mpc__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -24,7 +24,7 @@ const IconAbnbxMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="iyd2m__circleClip">
+      <clipPath id="i6mpc__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

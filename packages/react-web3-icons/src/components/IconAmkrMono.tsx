@@ -10,14 +10,14 @@ const IconAmkrMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#1lc37__circleClip)">
+    <g clipPath="url(#ft99sl__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#1lc37__57d8n__clip0_298_617)">
+        <g clipPath="url(#ft99sl__55sd4g__clip0_298_617)">
           <path
             fill="currentColor"
             fillRule="evenodd"
@@ -26,14 +26,14 @@ const IconAmkrMono = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="1lc37__57d8n__clip0_298_617">
+          <clipPath id="ft99sl__55sd4g__clip0_298_617">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
       </g>
     </g>
     <defs>
-      <clipPath id="1lc37__circleClip">
+      <clipPath id="ft99sl__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

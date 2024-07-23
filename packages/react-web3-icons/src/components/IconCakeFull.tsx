@@ -9,9 +9,9 @@ const IconCakeFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#on5u2h__clip0_98_2762)">
+    <g clipPath="url(#uh6la__clip0_98_2762)">
       <path
-        fill="url(#on5u2h__paint0_linear_98_2762)"
+        fill="url(#uh6la__paint0_linear_98_2762)"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
       />
       <path
@@ -35,7 +35,7 @@ const IconCakeFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="on5u2h__paint0_linear_98_2762"
+        id="uh6la__paint0_linear_98_2762"
         x1={16}
         x2={16}
         y1={0}
@@ -45,7 +45,7 @@ const IconCakeFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#53DEE9" />
         <stop offset={1} stopColor="#1FC7D4" />
       </linearGradient>
-      <clipPath id="on5u2h__clip0_98_2762">
+      <clipPath id="uh6la__clip0_98_2762">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

@@ -13,23 +13,23 @@ const IconAcvxFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#55xoyi__paint0_linear_40_91)"
+      stroke="url(#ta9q__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#55xoyi__circleClip)">
+    <g clipPath="url(#ta9q__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#55xoyi__dh97o__clip0_294_266)">
+        <g clipPath="url(#ta9q__wnlkk__clip0_294_266)">
           <path
             fill="#fff"
             d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
           />
           <path
-            fill="url(#55xoyi__dh97o__paint0_linear_294_266)"
+            fill="url(#ta9q__wnlkk__paint0_linear_294_266)"
             d="M25.19 13.5v-5h-2.5V6h-5V3.5h-5V6h-5v2.5h-2.5v15h2.5V26h5v2.5h5V26h5v-2.5h2.5v-5h-5V21h-2.5v2.5h-5V21h-2.5V11h2.5V8.5h5V11h2.5v2.5z"
           />
           <path
@@ -52,7 +52,7 @@ const IconAcvxFull = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
           <linearGradient
-            id="55xoyi__dh97o__paint0_linear_294_266"
+            id="ta9q__wnlkk__paint0_linear_294_266"
             x1={24.031}
             x2={10.449}
             y1={6.358}
@@ -64,7 +64,7 @@ const IconAcvxFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={0.7} stopColor="#FCA75B" />
             <stop offset={1} stopColor="#FF5A5A" />
           </linearGradient>
-          <clipPath id="55xoyi__dh97o__clip0_294_266">
+          <clipPath id="ta9q__wnlkk__clip0_294_266">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -72,7 +72,7 @@ const IconAcvxFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="55xoyi__paint0_linear_40_91"
+        id="ta9q__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -82,7 +82,7 @@ const IconAcvxFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="55xoyi__circleClip">
+      <clipPath id="ta9q__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

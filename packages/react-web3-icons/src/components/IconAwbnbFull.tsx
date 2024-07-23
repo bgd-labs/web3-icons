@@ -13,17 +13,17 @@ const IconAwbnbFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#hjpych__paint0_linear_40_91)"
+      stroke="url(#fkmtk__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#hjpych__circleClip)">
+    <g clipPath="url(#fkmtk__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#hjpych__a71zf__clip0_292_152)">
+        <g clipPath="url(#fkmtk__lmnv6i__clip0_292_152)">
           <path
             fill="#F0B90B"
             fillRule="evenodd"
@@ -45,7 +45,7 @@ const IconAwbnbFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="hjpych__a71zf__clip0_292_152">
+          <clipPath id="fkmtk__lmnv6i__clip0_292_152">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -53,7 +53,7 @@ const IconAwbnbFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="hjpych__paint0_linear_40_91"
+        id="fkmtk__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -63,7 +63,7 @@ const IconAwbnbFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="hjpych__circleClip">
+      <clipPath id="fkmtk__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>
