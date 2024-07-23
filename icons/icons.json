@@ -2447,17 +2447,6 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Tokenary Wallet",
-    "identityFlag": "isTokenary",
-    "icons": {
-      "mono": "icons/mono/tokenarywallet.svg",
-      "full": "icons/full/tokenarywallet.svg"
-    }
-  },
-  {
-    "type": [
-      "wallet"
-    ],
     "walletName": "TokenPocket Wallet",
     "identityFlag": "isTokenPocket",
     "icons": {

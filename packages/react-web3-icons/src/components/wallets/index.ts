@@ -70,8 +70,6 @@ export { default as IconStatuswalletMono } from "./IconStatuswalletMono";
 export { default as IconStatuswalletFull } from "./IconStatuswalletFull";
 export { default as IconTallyhowalletMono } from "./IconTallyhowalletMono";
 export { default as IconTallyhowalletFull } from "./IconTallyhowalletFull";
-export { default as IconTokenarywalletMono } from "./IconTokenarywalletMono";
-export { default as IconTokenarywalletFull } from "./IconTokenarywalletFull";
 export { default as IconTokenpocketwalletMono } from "./IconTokenpocketwalletMono";
 export { default as IconTokenpocketwalletFull } from "./IconTokenpocketwalletFull";
 export { default as IconTrustwalletMono } from "./IconTrustwalletMono";
