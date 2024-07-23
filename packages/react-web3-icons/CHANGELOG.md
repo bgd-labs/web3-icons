@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.1](https://github.com/bgd-labs/icons/compare/react-web3-icons@v1.2.0...react-web3-icons@v1.2.1) (2024-07-23)
+
+
+### Bug Fixes
+
+* icons ids ([ac7b9c5](https://github.com/bgd-labs/icons/commit/ac7b9c57594a5eec3f22337de99f9abdb2f3e102))
+* icons ids ([76ffd24](https://github.com/bgd-labs/icons/commit/76ffd245b987a27f23478aca0fb7a53af3a89fb7))
+* remove unreal wallet icon ([a4450a8](https://github.com/bgd-labs/icons/commit/a4450a8de7656dc7808252146ef753fc52896796))
+
 ## [1.2.0](https://github.com/bgd-labs/icons/compare/react-web3-icons-v1.1.0...react-web3-icons@v1.2.0) (2024-07-23)
 
 
