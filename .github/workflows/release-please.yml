@@ -26,8 +26,5 @@ jobs:
 
   release-node:
     uses: bgd-labs/icons/.github/workflows/release-node.yml@main
-    if: ${{ needs.release-please.outputs.releaseCreated }}
-    needs:
-      - release-please
     secrets:
       NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
