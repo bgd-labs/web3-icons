@@ -1,0 +1,5 @@
+{
+  "type": ["wallet"],
+  "walletName": "Phantom Wallet",
+  "identityFlag": "isPhantom"
+}

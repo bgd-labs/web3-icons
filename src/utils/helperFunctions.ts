@@ -16,7 +16,7 @@ export const readJsonFile = (filePath: string, schema: any) => {
   return parsedData.data;
 };
 
-export const processIconFile = (filePath: string) => {
+export const processIconFile = (filePath: string, name: string) => {
   let svgContent = fs.readFileSync(filePath, { encoding: "utf8" });
 
   return {
@@ -35,6 +35,12 @@ export const processIconFile = (filePath: string) => {
                 cleanupIds: false,
                 collapseGroups: false,
               },
+            },
+          },
+          {
+            name: "prefixIds",
+            params: {
+              prefix: name,
             },
           },
         ],

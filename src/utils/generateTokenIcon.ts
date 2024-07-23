@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { optimize } from "svgo";
 
 const templatesDir = path.join(process.cwd(), "src/assets/templates");
 const unknownIcon = fs.readFileSync(
@@ -10,11 +11,13 @@ const unknownIcon = fs.readFileSync(
 /**
  * Generate original icon with template
  * @param icon
+ * @param iconName
  * @param type
  * @param dirName
  */
 export const generateTokenIcon = (
   icon: string,
+  iconName: string,
   type: string,
   dirName: string,
 ) => {
@@ -28,7 +31,28 @@ export const generateTokenIcon = (
     const svgContents = svgContentsMatch ? svgContentsMatch[1] : "";
     const preparedIcon = `<g style="transform: scale(0.8125); transform-origin: 50% 50%;">${svgContents}</g>`;
 
-    return template.replace("<template />", preparedIcon);
+    const finalSvg = template.replace("<template />", preparedIcon);
+
+    return optimize(finalSvg, {
+      plugins: [
+        {
+          name: "preset-default",
+          params: {
+            overrides: {
+              removeViewBox: false,
+              cleanupIds: false,
+              collapseGroups: false,
+            },
+          },
+        },
+        {
+          name: "prefixIds",
+          params: {
+            prefix: iconName,
+          },
+        },
+      ],
+    }).data;
   }
 
   if (type === "full") {
@@ -41,7 +65,28 @@ export const generateTokenIcon = (
     const svgContents = svgContentsMatch ? svgContentsMatch[1] : "";
     const preparedIcon = `<g style="transform: scale(0.8125); transform-origin: 50% 50%;">${svgContents}</g>`;
 
-    return template.replace("<template />", preparedIcon);
+    const finalSvg = template.replace("<template />", preparedIcon);
+
+    return optimize(finalSvg, {
+      plugins: [
+        {
+          name: "preset-default",
+          params: {
+            overrides: {
+              removeViewBox: false,
+              cleanupIds: false,
+              collapseGroups: false,
+            },
+          },
+        },
+        {
+          name: "prefixIds",
+          params: {
+            prefix: iconName,
+          },
+        },
+      ],
+    }).data;
   }
 
   return unknownIcon;

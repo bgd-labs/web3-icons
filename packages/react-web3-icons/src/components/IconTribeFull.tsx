@@ -9,7 +9,7 @@ const IconTribeFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#clip0_298_930)">
+    <g clipPath="url(#tribe__clip0_298_930)">
       <path
         fill="#428AC9"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -20,7 +20,7 @@ const IconTribeFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="clip0_298_930">
+      <clipPath id="tribe__clip0_298_930">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

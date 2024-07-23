@@ -3,7 +3,6 @@ import "@/styles/globals.css";
 import { Inter, Space_Grotesk } from "next/font/google";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
-
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans",

@@ -76,5 +76,5 @@ Promise.all(
     `${REACT_UTILS_PATH}/chainsNames.ts`,
     `export const chainsNames: Record<number, string> = ${JSON.stringify(chainsNames)};`,
   );
-  console.log("✅ All Assets name generated");
+  console.log("✅ All chains names are generated");
 });

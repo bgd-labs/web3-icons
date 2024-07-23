@@ -9,9 +9,9 @@ const IconDaiFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#clip0_294_3770)">
+    <g clipPath="url(#daistablecoin__clip0_294_3770)">
       <path
-        fill="url(#paint0_linear_294_3770)"
+        fill="url(#daistablecoin__paint0_linear_294_3770)"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
       />
       <path
@@ -21,7 +21,7 @@ const IconDaiFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="paint0_linear_294_3770"
+        id="daistablecoin__paint0_linear_294_3770"
         x1={16.174}
         x2={16.174}
         y1={36.505}
@@ -31,7 +31,7 @@ const IconDaiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#F9A606" />
         <stop offset={1} stopColor="#FBCC5F" />
       </linearGradient>
-      <clipPath id="clip0_294_3770">
+      <clipPath id="daistablecoin__clip0_294_3770">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

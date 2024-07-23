@@ -9,7 +9,7 @@ const IconKncFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#clip0_294_256)">
+    <g clipPath="url(#kybernetworkcrystalv2__clip0_294_256)">
       <path
         fill="#31CB9E"
         d="M16 32c8.83 0 16-7.17 16-16S24.83 0 16 0 0 7.17 0 16s7.17 16 16 16"
@@ -20,7 +20,7 @@ const IconKncFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="clip0_294_256">
+      <clipPath id="kybernetworkcrystalv2__clip0_294_256">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

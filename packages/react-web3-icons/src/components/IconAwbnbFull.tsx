@@ -2,28 +2,28 @@ import * as React from "react";
 import type { SVGProps } from "react";
 const IconAwbnbFull = (props: SVGProps<SVGSVGElement>) => (
   <svg
+    xmlns="http://www.w3.org/2000/svg"
     width="100%"
     height="100%"
-    viewBox="0 0 32 32"
     fill="none"
-    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 32"
     {...props}
   >
     <circle
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#paint0_linear_40_91)"
+      stroke="url(#bnbsmartchain__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#circleClip)">
+    <g clipPath="url(#bnbsmartchain__circleClip)">
       <g
         style={{
-          transform: "scale(0.8125)",
+          transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#clip0_292_152)">
+        <g clipPath="url(#bnbsmartchain__clip0_292_152)">
           <path
             fill="#F0B90B"
             fillRule="evenodd"
@@ -32,11 +32,11 @@ const IconAwbnbFull = (props: SVGProps<SVGSVGElement>) => (
           />
           <path
             fill="#fff"
-            d="m8.79 16 .02 4.23 3.59 2.12v2.47l-5.7-3.34v-6.72zM8.79 11.77v2.46L6.7 13v-2.47l2.09-1.24 2.11 1.24zM13.9 10.53 16 9.29l2.1 1.24-2.1 1.24z"
+            d="m8.79 16 .02 4.23 3.59 2.12v2.47l-5.7-3.34v-6.72zm0-4.23v2.46L6.7 13v-2.47l2.09-1.24 2.11 1.24zm5.11-1.24L16 9.29l2.1 1.24-2.1 1.24z"
           />
           <path
             fill="#fff"
-            d="M10.31 19.35v-2.47l2.09 1.24v2.46zM13.9 23.23l2.1 1.24 2.1-1.24v2.47L16 26.94l-2.1-1.24zM21.1 10.53l2.1-1.24 2.1 1.24V13l-2.1 1.23v-2.46zM23.2 20.23l.01-4.23 2.09-1.24v6.72l-5.7 3.34v-2.48z"
+            d="M10.31 19.35v-2.47l2.09 1.24v2.46zm3.59 3.88 2.1 1.24 2.1-1.24v2.47L16 26.94l-2.1-1.24zm7.2-12.7 2.1-1.24 2.1 1.24V13l-2.1 1.23v-2.46zm2.1 9.7.01-4.23 2.09-1.24v6.72l-5.7 3.34v-2.48z"
           />
           <path fill="#fff" d="m21.69 19.35-2.09 1.23v-2.47l2.09-1.24z" />
           <path
@@ -45,27 +45,27 @@ const IconAwbnbFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="clip0_292_152">
+          <clipPath id="bnbsmartchain__clip0_292_152">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
       </g>
     </g>
     <defs>
-      <clipPath id="circleClip">
-        <circle cx={16} cy={16} r={13} />
-      </clipPath>
       <linearGradient
-        id="paint0_linear_40_91"
+        id="bnbsmartchain__paint0_linear_40_91"
         x1={26.976}
+        x2={6.592}
         y1={4.32}
-        x2={6.59198}
         y2={28.352}
         gradientUnits="userSpaceOnUse"
       >
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
+      <clipPath id="bnbsmartchain__circleClip">
+        <circle cx={16} cy={16} r={13} />
+      </clipPath>
     </defs>
   </svg>
 );

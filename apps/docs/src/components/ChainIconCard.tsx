@@ -1,32 +1,39 @@
 "use client";
 
-import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
+import {
+  IconInfoIcons,
+  IconVariant,
+  Web3IconType,
+} from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 
 import { IconCard } from "@/components/IconCard";
-import { ChainIcon } from "@/components/Web3Icons/ChainIcon";
+import { Web3Icon } from "@/components/Web3Icon";
 import { githubIconsPath } from "@/utils/constants";
 
 export const ChainIconCard = ({
   name,
   chainId,
-  iconPath,
+  icons,
 }: {
   name: string;
   chainId: number;
-  iconPath: string;
+  icons: IconInfoIcons;
 }) => {
-  const [activeType, setActiveType] = useState(IconVariant.Full);
-  const Icon = () => <ChainIcon chainId={chainId} variant={activeType} />;
-
+  const [variant, setVariant] = useState(IconVariant.Full);
+  const Icon = () => (
+    <Web3Icon
+      iconInfo={{ type: Web3IconType.chain, info: { chainId, variant } }}
+    />
+  );
   return (
     <IconCard
-      svgPath={`${githubIconsPath}${iconPath}`}
+      svgPath={`${githubIconsPath}${icons[variant]}`}
       name={name}
       subName={chainId.toString()}
-      fileName={`${githubIconsPath}${iconPath}`}
-      setActiveType={setActiveType}
-      activeType={activeType}
+      fileName={name}
+      setActiveType={setVariant}
+      activeType={variant}
     >
       <Icon />
     </IconCard>

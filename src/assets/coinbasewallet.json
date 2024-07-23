@@ -1,0 +1,5 @@
+{
+  "type": ["wallet"],
+  "walletName": "Coinbase Wallet",
+  "identityFlag": "isToshi"
+}

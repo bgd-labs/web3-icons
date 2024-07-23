@@ -1,0 +1,5 @@
+{
+  "type": ["wallet"],
+  "walletName": "MetaMask",
+  "identityFlag": "isMetaMask"
+}

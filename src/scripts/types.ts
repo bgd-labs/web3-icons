@@ -6,16 +6,22 @@ export interface WriteQueueItem {
 export enum IconType {
   asset = "asset",
   chain = "chain",
+  wallet = "wallet",
 }
 
 export type IconMetaData = {
   type: IconType[];
+  name?: string;
+  // for chain
   chainName?: string;
   chainId?: number;
+  // for asset
   symbol?: string;
-  name?: string;
   symbolAliases?: string[];
   variations?: string[];
+  // for wallet
+  identityFlag?: string; // window.ethereum[identityFlag]
+  walletName?: string;
 };
 
 export type IconStyle = {
@@ -33,17 +39,27 @@ export type IconInfoIcons = IconStyle & {
 };
 
 export type IconInfo = {
+  type: IconType[];
+  // for asset
   icons: IconInfoIcons;
   symbol?: string;
   name?: string;
   symbolAliases?: string[];
   variations?: string[];
-  type: IconType[];
+  // for chain
   chainName?: string;
   chainId?: number;
+  // for wallet
+  identityFlag?: string;
+  walletName?: string;
 };
 
 export type ChainType = {
   name: string;
   chainId: number;
+};
+
+export type WalletType = {
+  name: string;
+  identityFlag?: string;
 };

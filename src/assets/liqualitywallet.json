@@ -1,0 +1,5 @@
+{
+  "type": ["wallet"],
+  "walletName": "Liquality Wallet",
+  "identityFlag": "isLiquality"
+}

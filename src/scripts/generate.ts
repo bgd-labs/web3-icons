@@ -26,9 +26,11 @@ const IconMetaSchema = z.object({
   chainName: z.string().or(z.undefined()),
   chainId: z.number().or(z.undefined()),
   name: z.string().or(z.undefined()),
+  walletName: z.string().or(z.undefined()),
   symbol: z.string().or(z.undefined()),
   symbolAliases: z.array(z.string()).or(z.undefined()),
   variations: z.array(z.string()).or(z.undefined()),
+  identityFlag: z.string().or(z.undefined()),
 });
 
 const files = fs
@@ -63,9 +65,12 @@ for (const icon of iconsArray) {
 
   const name = meta?.chainName
     ? meta.chainName
-    : meta?.name
-      ? meta.name
-      : "Unknown";
+    : meta.walletName
+      ? meta.walletName
+      : meta.name
+        ? meta.name
+        : "Unknown";
+  const lowercasedName = name.replace(/\s/g, "").toLowerCase();
 
   const iconInfo = {
     ...meta,
@@ -78,20 +83,29 @@ for (const icon of iconsArray) {
     continue;
   }
   const writeQueue: WriteQueueItem[] = [];
-  const monoContent = processIconFile(path.join(ICONS_FOLDER, mono))
+  const monoContent = processIconFile(
+    path.join(ICONS_FOLDER, mono),
+    lowercasedName,
+  )
     .replaceColorWithCurrent()
     .optimizeSVGContent()
     .getSVGContent();
 
-  const fullContent = processIconFile(path.join(ICONS_FOLDER, full))
+  const fullContent = processIconFile(
+    path.join(ICONS_FOLDER, full),
+    lowercasedName,
+  )
     .optimizeSVGContent()
     .getSVGContent();
 
-  if (meta.type.includes(IconType.chain)) {
+  if (
+    meta.type.includes(IconType.wallet) ||
+    meta.type.includes(IconType.chain)
+  ) {
     const monoFilePath = path.join(
       OUTPUT_FOLDER,
       "mono",
-      `${name.replace(/\s/g, "").toLowerCase()}.svg`,
+      `${lowercasedName}.svg`,
     );
     iconInfo.icons.mono = monoFilePath;
     writeQueue.push({
@@ -102,7 +116,7 @@ for (const icon of iconsArray) {
     const fullFilePath = path.join(
       OUTPUT_FOLDER,
       "full",
-      `${name.replace(/\s/g, "").toLowerCase()}.svg`,
+      `${lowercasedName}.svg`,
     );
     iconInfo.icons.full = fullFilePath;
     writeQueue.push({
@@ -135,8 +149,18 @@ for (const icon of iconsArray) {
     });
 
     if (variations.includes("aToken")) {
-      const aTokenMono = generateTokenIcon(monoContent, "mono", "aToken");
-      const aTokenFull = generateTokenIcon(fullContent, "full", "aToken");
+      const aTokenMono = generateTokenIcon(
+        monoContent,
+        lowercasedName,
+        "mono",
+        "aToken",
+      );
+      const aTokenFull = generateTokenIcon(
+        fullContent,
+        lowercasedName,
+        "full",
+        "aToken",
+      );
 
       const aTokenMonoFilePath = path.join(
         OUTPUT_FOLDER,
@@ -168,11 +192,13 @@ for (const icon of iconsArray) {
     if (variations.includes("stataToken")) {
       const stataTokenMono = generateTokenIcon(
         monoContent,
+        lowercasedName,
         "mono",
         "stataToken",
       );
       const stataTokenFull = generateTokenIcon(
         fullContent,
+        lowercasedName,
         "full",
         "stataToken",
       );
@@ -214,7 +240,7 @@ for (const icon of iconsArray) {
     fs.writeFileSync(item.filePath, item.content);
   });
   iconsInfoFile.push(iconInfo);
-  console.log(`✅ Icon ${name} (${meta.symbol}) processed.`);
+  console.log(`✅ Icon ${name.replace(/\s/g, "").toLowerCase()} processed.`);
 }
 
 const iconsJsonPath = path.join(OUTPUT_FOLDER, "icons.json");

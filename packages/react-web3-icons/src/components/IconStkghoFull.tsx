@@ -9,7 +9,7 @@ const IconStkghoFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#clip0_292_25)">
+    <g clipPath="url(#aavestkgho__clip0_292_25)">
       <path
         fill="#201F2D"
         d="M16 0c8.84 0 16 7.16 16 16s-7.16 16-16 16S0 24.84 0 16 7.16 0 16 0"
@@ -26,7 +26,7 @@ const IconStkghoFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="clip0_292_25">
+      <clipPath id="aavestkgho__clip0_292_25">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

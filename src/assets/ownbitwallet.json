@@ -1,0 +1,5 @@
+{
+  "type": ["wallet"],
+  "walletName": "OwnBit Wallet",
+  "identityFlag": "isOwnbit"
+}
