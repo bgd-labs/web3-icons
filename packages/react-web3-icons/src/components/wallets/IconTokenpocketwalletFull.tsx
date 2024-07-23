@@ -10,7 +10,7 @@ const IconTokenpocketwalletFull = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path fill="#2980FE" d="M1041.52 0H-27v1024h1068.52z" />
-    <g clipPath="url(#x039ag__a)">
+    <g clipPath="url(#tokenpocketwallet__a)">
       <path
         fill="#29AEFF"
         d="M406.796 438.643h.131c-.131-.786-.131-1.703-.131-2.489z"
@@ -20,7 +20,7 @@ const IconTokenpocketwalletFull = (props: SVGProps<SVGSVGElement>) => (
         d="M667.602 463.533H523.249v260.543c0 12.313 9.955 22.269 22.268 22.269h99.816c12.314 0 22.269-9.956 22.269-22.269zM453.563 277H190.269C177.955 277 168 286.955 168 299.269v90.384c0 12.314 9.955 22.269 22.269 22.269h84.752v312.809c0 12.314 9.955 22.269 22.268 22.269h94.839c12.313 0 22.268-9.955 22.268-22.269V411.922h38.774c37.202 0 67.461-30.259 67.461-67.461.393-37.202-29.866-67.461-67.068-67.461"
       />
       <path
-        fill="url(#x039ag__b)"
+        fill="url(#tokenpocketwallet__b)"
         d="M667.735 463.533V645.35c4.978 1.179 10.086 2.096 15.326 2.882 7.336 1.048 14.933 1.703 22.531 1.834h1.31V505.45c-21.876-1.441-39.167-19.649-39.167-41.917"
       />
       <path
@@ -34,7 +34,7 @@ const IconTokenpocketwalletFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="x039ag__b"
+        id="tokenpocketwallet__b"
         x1={709.844}
         x2={667.753}
         y1={556.827}
@@ -45,7 +45,7 @@ const IconTokenpocketwalletFull = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.967} stopColor="#fff" stopOpacity={0.323} />
         <stop offset={1} stopColor="#fff" stopOpacity={0.3} />
       </linearGradient>
-      <clipPath id="x039ag__a">
+      <clipPath id="tokenpocketwallet__a">
         <path fill="#fff" d="M168 277h728.448v470H168z" />
       </clipPath>
     </defs>

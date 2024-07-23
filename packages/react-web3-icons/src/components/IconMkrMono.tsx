@@ -9,7 +9,7 @@ const IconMkrMono = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#y6xvm__clip0_298_617)">
+    <g clipPath="url(#maker__clip0_298_617)">
       <path
         fill="currentColor"
         fillRule="evenodd"
@@ -18,7 +18,7 @@ const IconMkrMono = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="y6xvm__clip0_298_617">
+      <clipPath id="maker__clip0_298_617">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

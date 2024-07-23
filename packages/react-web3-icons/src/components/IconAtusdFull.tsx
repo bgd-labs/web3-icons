@@ -13,17 +13,17 @@ const IconAtusdFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#j27pvl__paint0_linear_40_91)"
+      stroke="url(#trueusd__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#j27pvl__circleClip)">
+    <g clipPath="url(#trueusd__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#j27pvl__6m7li__clip0_297_141)">
+        <g clipPath="url(#trueusd__clip0_297_141)">
           <path
             fill="#0C2764"
             d="M16 32C7.2 32 0 24.8 0 16S7.2 0 16 0s16 7.2 16 16-7.2 16-16 16"
@@ -42,7 +42,7 @@ const IconAtusdFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="j27pvl__6m7li__clip0_297_141">
+          <clipPath id="trueusd__clip0_297_141">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -50,7 +50,7 @@ const IconAtusdFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="j27pvl__paint0_linear_40_91"
+        id="trueusd__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -60,7 +60,7 @@ const IconAtusdFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="j27pvl__circleClip">
+      <clipPath id="trueusd__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

@@ -10,12 +10,12 @@ const IconStatarethFull = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="url(#aubw3g__paint0_linear_42_5)"
+      fill="url(#rocketpooleth__paint0_linear_42_5)"
       fillRule="evenodd"
       d="m31.951 17.257-1.994-.155a14 14 0 0 0 0-2.204l1.994-.155a16 16 0 0 1 0 2.514m-.39-4.994-1.945.466q-.26-1.08-.677-2.087l1.847-.767q.478 1.154.775 2.388M29.644 7.64 27.94 8.686a14 14 0 0 0-1.293-1.778l1.52-1.3a16 16 0 0 1 1.477 2.031m-3.253-3.806-1.3 1.52a14 14 0 0 0-1.777-1.293l1.047-1.704q1.076.661 2.03 1.477m-4.266-2.619-.767 1.848a14 14 0 0 0-2.087-.678l.466-1.945c.822.196 1.62.457 2.388.775M17.257.05l-.155 1.994a14 14 0 0 0-2.204 0L14.743.049a16 16 0 0 1 2.514 0m-4.994.39.466 1.945q-1.08.26-2.087.678l-.767-1.848A16 16 0 0 1 12.263.44M7.64 2.356 8.686 4.06a14 14 0 0 0-1.778 1.293l-1.3-1.52A16 16 0 0 1 7.64 2.356M3.833 5.609l1.52 1.3A14 14 0 0 0 4.06 8.685L2.356 7.639q.661-1.076 1.477-2.03M1.214 9.875l1.848.767a14 14 0 0 0-.678 2.087l-1.945-.466c.196-.822.457-1.62.775-2.388M.05 14.743a16 16 0 0 0 0 2.514l1.994-.155a14 14 0 0 1 0-2.204zm.39 4.994 1.945-.466q.26 1.08.678 2.087l-1.848.767a16 16 0 0 1-.775-2.388m1.917 4.624 1.704-1.047q.579.941 1.293 1.778l-1.52 1.3a16 16 0 0 1-1.477-2.031m3.253 3.806 1.3-1.52q.835.714 1.777 1.293l-1.047 1.704a16 16 0 0 1-2.03-1.477m4.266 2.619.767-1.848q1.007.42 2.087.678l-.466 1.945a16 16 0 0 1-2.388-.775m4.868 1.165.155-1.994a14 14 0 0 0 2.204 0l.155 1.994a16 16 0 0 1-2.514 0m4.994-.39-.466-1.945q1.08-.26 2.087-.677l.767 1.847a16 16 0 0 1-2.388.775m4.624-1.917-1.047-1.704q.941-.579 1.778-1.293l1.3 1.52a16 16 0 0 1-2.031 1.477m3.806-3.253-1.52-1.3a14 14 0 0 0 1.293-1.777l1.704 1.047q-.661 1.076-1.477 2.03m2.619-4.266-1.848-.767q.42-1.007.678-2.087l1.945.466a16 16 0 0 1-.775 2.388"
       clipRule="evenodd"
     />
-    <g clipPath="url(#aubw3g__circleClip)">
+    <g clipPath="url(#rocketpooleth__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -23,15 +23,15 @@ const IconStatarethFull = (props: SVGProps<SVGSVGElement>) => (
         }}
       >
         <path
-          fill="url(#aubw3g__v0opb__paint0_radial_348_108)"
+          fill="url(#rocketpooleth__paint0_radial_348_108)"
           d="M16 32.43c8.84 0 16-7.16 16-16s-7.16-16-16-16-16 7.16-16 16 7.16 16 16 16"
         />
         <path
-          fill="url(#aubw3g__v0opb__paint1_radial_348_108)"
+          fill="url(#rocketpooleth__paint1_radial_348_108)"
           d="M16 32.43c8.84 0 16-7.16 16-16s-7.16-16-16-16-16 7.16-16 16 7.16 16 16 16"
         />
         <path
-          fill="url(#aubw3g__v0opb__paint2_linear_348_108)"
+          fill="url(#rocketpooleth__paint2_linear_348_108)"
           d="M16.8 14.24h12.05c.35 0 .64-.29.64-.64V7.85C26.68 3.44 21.77.49 16.16.43V13.6c0 .35.29.64.64.64"
           opacity={0.2}
         />
@@ -66,12 +66,12 @@ const IconStatarethFull = (props: SVGProps<SVGSVGElement>) => (
           opacity={0.2}
         />
         <path
-          fill="url(#aubw3g__v0opb__paint3_linear_348_108)"
+          fill="url(#rocketpooleth__paint3_linear_348_108)"
           d="M12.96 10.83c.35 0 .64.29.64.64v8.59c0 .35-.29.64-.64.64H8.21c-.35 0-.64-.29-.64-.64v-8.59c0-.35.29-.64.64-.64z"
           opacity={0.1}
         />
         <path
-          fill="url(#aubw3g__v0opb__paint4_linear_348_108)"
+          fill="url(#rocketpooleth__paint4_linear_348_108)"
           d="M3.04 13.39c0-.35.29-.64.64-.64h7.79c.35 0 .64.29.64.64v8.16c0 .35-.29.64-.64.64H3.68c-.35 0-.64-.29-.64-.64z"
           opacity={0.1}
         />
@@ -146,7 +146,7 @@ const IconStatarethFull = (props: SVGProps<SVGSVGElement>) => (
           opacity={0.1}
         />
         <path
-          fill="url(#aubw3g__v0opb__paint5_linear_348_108)"
+          fill="url(#rocketpooleth__paint5_linear_348_108)"
           d="M9.49 24.11V9.23c0-.35-.29-.64-.64-.64H2.06A15.86 15.86 0 0 0 0 16.43c0 3.05.87 5.89 2.35 8.32h6.5c.35 0 .64-.29.64-.64"
           opacity={0.2}
         />
@@ -154,7 +154,7 @@ const IconStatarethFull = (props: SVGProps<SVGSVGElement>) => (
         <path fill="#fff" d="m15.98 26.01-6.09-8.57 6.09 3.6 6.09-3.6z" />
         <defs>
           <linearGradient
-            id="aubw3g__v0opb__paint2_linear_348_108"
+            id="rocketpooleth__paint2_linear_348_108"
             x1={22.83}
             x2={22.83}
             y1={14.24}
@@ -165,7 +165,7 @@ const IconStatarethFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#CC4521" />
           </linearGradient>
           <linearGradient
-            id="aubw3g__v0opb__paint3_linear_348_108"
+            id="rocketpooleth__paint3_linear_348_108"
             x1={10.59}
             x2={10.59}
             y1={10.82}
@@ -176,7 +176,7 @@ const IconStatarethFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#CC4521" stopOpacity={0} />
           </linearGradient>
           <linearGradient
-            id="aubw3g__v0opb__paint4_linear_348_108"
+            id="rocketpooleth__paint4_linear_348_108"
             x1={3.04}
             x2={11.42}
             y1={17.46}
@@ -187,7 +187,7 @@ const IconStatarethFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#CC4521" stopOpacity={0} />
           </linearGradient>
           <linearGradient
-            id="aubw3g__v0opb__paint5_linear_348_108"
+            id="rocketpooleth__paint5_linear_348_108"
             x1={4.75}
             x2={4.75}
             y1={24.75}
@@ -198,7 +198,7 @@ const IconStatarethFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#F9E099" />
           </linearGradient>
           <radialGradient
-            id="aubw3g__v0opb__paint0_radial_348_108"
+            id="rocketpooleth__paint0_radial_348_108"
             cx={0}
             cy={0}
             r={1}
@@ -209,7 +209,7 @@ const IconStatarethFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#DB6443" />
           </radialGradient>
           <radialGradient
-            id="aubw3g__v0opb__paint1_radial_348_108"
+            id="rocketpooleth__paint1_radial_348_108"
             cx={0}
             cy={0}
             r={1}
@@ -224,7 +224,7 @@ const IconStatarethFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="aubw3g__paint0_linear_42_5"
+        id="rocketpooleth__paint0_linear_42_5"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -234,7 +234,7 @@ const IconStatarethFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="aubw3g__circleClip">
+      <clipPath id="rocketpooleth__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

@@ -13,17 +13,17 @@ const IconAarbFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#s531k__paint0_linear_40_91)"
+      stroke="url(#arbitrum__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#s531k__circleClip)">
+    <g clipPath="url(#arbitrum__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#s531k__e1309__clip0_292_45)">
+        <g clipPath="url(#arbitrum__clip0_292_45)">
           <path
             fill="#213147"
             d="M16 32c8.84 0 16-7.16 16-16S24.83 0 16 0 0 7.16 0 16s7.16 16 16 16"
@@ -42,7 +42,7 @@ const IconAarbFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="s531k__e1309__clip0_292_45">
+          <clipPath id="arbitrum__clip0_292_45">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -50,7 +50,7 @@ const IconAarbFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="s531k__paint0_linear_40_91"
+        id="arbitrum__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -60,7 +60,7 @@ const IconAarbFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="s531k__circleClip">
+      <clipPath id="arbitrum__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

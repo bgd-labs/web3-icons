@@ -10,7 +10,7 @@ const IconAethxMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#gu6ecf__circleClip)">
+    <g clipPath="url(#staderethx__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -24,7 +24,7 @@ const IconAethxMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="gu6ecf__circleClip">
+      <clipPath id="staderethx__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

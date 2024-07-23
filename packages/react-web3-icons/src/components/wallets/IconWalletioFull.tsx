@@ -9,13 +9,13 @@ const IconWalletioFull = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <linearGradient id="pjiw1__a" x1="0%" x2="100%" y1="100%" y2="0%">
+      <linearGradient id="walletio__a" x1="0%" x2="100%" y1="100%" y2="0%">
         <stop offset="0%" stopColor="#1550FF" />
         <stop offset="100%" stopColor="#0D8DFF" />
       </linearGradient>
     </defs>
     <g fill="none" fillRule="evenodd">
-      <rect width={1024} height={1024} fill="url(#pjiw1__a)" rx={192} />
+      <rect width={1024} height={1024} fill="url(#walletio__a)" rx={192} />
       <g fill="#FFF" fillRule="nonzero">
         <path d="m873.739 511.885-78.081 82.858c-10.617 11.266-28.357 11.793-39.623 1.176a28 28 0 0 1-3.25-3.648l-81.649-109.54c-8.13-10.906-7.255-26.075 2.074-35.975l78.081-82.857c10.617-11.267 28.357-11.793 39.624-1.176a28 28 0 0 1 3.25 3.648l81.648 109.54c8.13 10.906 7.255 26.075-2.074 35.974" />
         <path

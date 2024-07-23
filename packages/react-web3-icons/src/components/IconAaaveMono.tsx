@@ -10,7 +10,7 @@ const IconAaaveMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#5v71e__circleClip)">
+    <g clipPath="url(#aavetoken__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -24,7 +24,7 @@ const IconAaaveMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="5v71e__circleClip">
+      <clipPath id="aavetoken__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

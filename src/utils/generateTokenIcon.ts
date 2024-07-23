@@ -11,11 +11,13 @@ const unknownIcon = fs.readFileSync(
 /**
  * Generate original icon with template
  * @param icon
+ * @param iconName
  * @param type
  * @param dirName
  */
 export const generateTokenIcon = (
   icon: string,
+  iconName: string,
   type: string,
   dirName: string,
 ) => {
@@ -46,7 +48,7 @@ export const generateTokenIcon = (
         {
           name: "prefixIds",
           params: {
-            prefix: (Math.random() + 1).toString(36).substring(7),
+            prefix: iconName,
           },
         },
       ],
@@ -80,7 +82,7 @@ export const generateTokenIcon = (
         {
           name: "prefixIds",
           params: {
-            prefix: (Math.random() + 1).toString(36).substring(7),
+            prefix: iconName,
           },
         },
       ],

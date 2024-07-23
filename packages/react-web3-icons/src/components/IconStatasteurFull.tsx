@@ -10,12 +10,12 @@ const IconStatasteurFull = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="url(#4za9u__paint0_linear_42_5)"
+      fill="url(#anglestakedeura__paint0_linear_42_5)"
       fillRule="evenodd"
       d="m31.951 17.257-1.994-.155a14 14 0 0 0 0-2.204l1.994-.155a16 16 0 0 1 0 2.514m-.39-4.994-1.945.466q-.26-1.08-.677-2.087l1.847-.767q.478 1.154.775 2.388M29.644 7.64 27.94 8.686a14 14 0 0 0-1.293-1.778l1.52-1.3a16 16 0 0 1 1.477 2.031m-3.253-3.806-1.3 1.52a14 14 0 0 0-1.777-1.293l1.047-1.704q1.076.661 2.03 1.477m-4.266-2.619-.767 1.848a14 14 0 0 0-2.087-.678l.466-1.945c.822.196 1.62.457 2.388.775M17.257.05l-.155 1.994a14 14 0 0 0-2.204 0L14.743.049a16 16 0 0 1 2.514 0m-4.994.39.466 1.945q-1.08.26-2.087.678l-.767-1.848A16 16 0 0 1 12.263.44M7.64 2.356 8.686 4.06a14 14 0 0 0-1.778 1.293l-1.3-1.52A16 16 0 0 1 7.64 2.356M3.833 5.609l1.52 1.3A14 14 0 0 0 4.06 8.685L2.356 7.639q.661-1.076 1.477-2.03M1.214 9.875l1.848.767a14 14 0 0 0-.678 2.087l-1.945-.466c.196-.822.457-1.62.775-2.388M.05 14.743a16 16 0 0 0 0 2.514l1.994-.155a14 14 0 0 1 0-2.204zm.39 4.994 1.945-.466q.26 1.08.678 2.087l-1.848.767a16 16 0 0 1-.775-2.388m1.917 4.624 1.704-1.047q.579.941 1.293 1.778l-1.52 1.3a16 16 0 0 1-1.477-2.031m3.253 3.806 1.3-1.52q.835.714 1.777 1.293l-1.047 1.704a16 16 0 0 1-2.03-1.477m4.266 2.619.767-1.848q1.007.42 2.087.678l-.466 1.945a16 16 0 0 1-2.388-.775m4.868 1.165.155-1.994a14 14 0 0 0 2.204 0l.155 1.994a16 16 0 0 1-2.514 0m4.994-.39-.466-1.945q1.08-.26 2.087-.677l.767 1.847a16 16 0 0 1-2.388.775m4.624-1.917-1.047-1.704q.941-.579 1.778-1.293l1.3 1.52a16 16 0 0 1-2.031 1.477m3.806-3.253-1.52-1.3a14 14 0 0 0 1.293-1.777l1.704 1.047q-.661 1.076-1.477 2.03m2.619-4.266-1.848-.767q.42-1.007.678-2.087l1.945.466a16 16 0 0 1-.775 2.388"
       clipRule="evenodd"
     />
-    <g clipPath="url(#4za9u__circleClip)">
+    <g clipPath="url(#anglestakedeura__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -23,11 +23,11 @@ const IconStatasteurFull = (props: SVGProps<SVGSVGElement>) => (
         }}
       >
         <path
-          fill="url(#4za9u__tfo4l__paint0_linear_165_88)"
+          fill="url(#anglestakedeura__paint0_linear_165_88)"
           d="M31.96 16.09c0 8.82-7.15 15.98-15.98 15.98S0 24.92 0 16.09 7.16.11 15.98.11s15.98 7.15 15.98 15.98"
         />
         <path
-          fill="url(#4za9u__tfo4l__paint1_linear_165_88)"
+          fill="url(#anglestakedeura__paint1_linear_165_88)"
           d="M15.99 32.04C7.18 32.04.03 24.91.03 16.12c0 0 7.14-3.28 15.96-3.28s15.96 3.28 15.96 3.28c0 8.79-7.14 15.92-15.96 15.92"
         />
         <path
@@ -45,12 +45,12 @@ const IconStatasteurFull = (props: SVGProps<SVGSVGElement>) => (
           clipRule="evenodd"
         />
         <path
-          fill="url(#4za9u__tfo4l__paint2_linear_165_88)"
+          fill="url(#anglestakedeura__paint2_linear_165_88)"
           d="M20.48 3.76c.02-.13.2-.13.22 0l.13 1.07c.17 1.38 1.28 2.47 2.68 2.63l1.09.13c.13.02.13.2 0 .22l-1.09.13c-1.41.16-2.52 1.25-2.68 2.63l-.13 1.07a.11.11 0 0 1-.22 0l-.13-1.07c-.17-1.38-1.28-2.47-2.68-2.63l-1.09-.13a.11.11 0 0 1 0-.22l1.09-.13c1.41-.16 2.52-1.25 2.68-2.63z"
         />
         <defs>
           <linearGradient
-            id="4za9u__tfo4l__paint0_linear_165_88"
+            id="anglestakedeura__paint0_linear_165_88"
             x1={2.85}
             x2={29.89}
             y1={14.14}
@@ -61,7 +61,7 @@ const IconStatasteurFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#6B90F6" />
           </linearGradient>
           <linearGradient
-            id="4za9u__tfo4l__paint1_linear_165_88"
+            id="anglestakedeura__paint1_linear_165_88"
             x1={12.94}
             x2={20.92}
             y1={12.42}
@@ -72,7 +72,7 @@ const IconStatasteurFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#7F9EF4" />
           </linearGradient>
           <linearGradient
-            id="4za9u__tfo4l__paint2_linear_165_88"
+            id="anglestakedeura__paint2_linear_165_88"
             x1={19.91}
             x2={23.12}
             y1={8.3}
@@ -87,7 +87,7 @@ const IconStatasteurFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="4za9u__paint0_linear_42_5"
+        id="anglestakedeura__paint0_linear_42_5"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -97,7 +97,7 @@ const IconStatasteurFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="4za9u__circleClip">
+      <clipPath id="anglestakedeura__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

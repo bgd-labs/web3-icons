@@ -13,17 +13,17 @@ const IconAsavaxFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#3aokkf__paint0_linear_40_91)"
+      stroke="url(#benqistakedavalanche__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#3aokkf__circleClip)">
+    <g clipPath="url(#benqistakedavalanche__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#3aokkf__21jroh__clip0_297_98)">
+        <g clipPath="url(#benqistakedavalanche__clip0_297_98)">
           <path
             fill="#50AFE7"
             d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -34,7 +34,7 @@ const IconAsavaxFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="3aokkf__21jroh__clip0_297_98">
+          <clipPath id="benqistakedavalanche__clip0_297_98">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -42,7 +42,7 @@ const IconAsavaxFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="3aokkf__paint0_linear_40_91"
+        id="benqistakedavalanche__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -52,7 +52,7 @@ const IconAsavaxFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="3aokkf__circleClip">
+      <clipPath id="benqistakedavalanche__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

@@ -13,17 +13,17 @@ const IconAxsushiFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#ynzbj__paint0_linear_40_91)"
+      stroke="url(#sushibar__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#ynzbj__circleClip)">
+    <g clipPath="url(#sushibar__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#ynzbj__h44gk__clip0_298_486)">
+        <g clipPath="url(#sushibar__clip0_298_486)">
           <path
             fill="#fff"
             d="M16 32c8.84 0 16-7.16 16-16S24.84 0 16 0 0 7.16 0 16s7.16 16 16 16"
@@ -48,7 +48,7 @@ const IconAxsushiFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="ynzbj__h44gk__clip0_298_486">
+          <clipPath id="sushibar__clip0_298_486">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -56,7 +56,7 @@ const IconAxsushiFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="ynzbj__paint0_linear_40_91"
+        id="sushibar__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -66,7 +66,7 @@ const IconAxsushiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="ynzbj__circleClip">
+      <clipPath id="sushibar__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

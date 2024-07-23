@@ -10,14 +10,14 @@ const IconAenjMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#q26jz__circleClip)">
+    <g clipPath="url(#enjincoin__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#q26jz__ae2etg__clip0_294_3412)">
+        <g clipPath="url(#enjincoin__clip0_294_3412)">
           <path
             fill="currentColor"
             fillRule="evenodd"
@@ -26,14 +26,14 @@ const IconAenjMono = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="q26jz__ae2etg__clip0_294_3412">
+          <clipPath id="enjincoin__clip0_294_3412">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
       </g>
     </g>
     <defs>
-      <clipPath id="q26jz__circleClip">
+      <clipPath id="enjincoin__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

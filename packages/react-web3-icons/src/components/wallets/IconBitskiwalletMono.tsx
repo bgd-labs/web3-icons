@@ -9,17 +9,17 @@ const IconBitskiwalletMono = (props: SVGProps<SVGSVGElement>) => (
     height="100%"
     {...props}
   >
-    <g clipPath="url(#evzv4__a)">
+    <g clipPath="url(#bitskiwallet__a)">
       <path fill="currentColor" d="M256 0H0v256h256z" />
-      <g filter="url(#evzv4__b)">
+      <g filter="url(#bitskiwallet__b)">
         <path
-          stroke="url(#evzv4__c)"
+          stroke="url(#bitskiwallet__c)"
           strokeWidth={25}
           d="M243.5 12.5h-231v231h231z"
         />
       </g>
       <mask
-        id="evzv4__d"
+        id="bitskiwallet__d"
         width={150}
         height={157}
         x={53}
@@ -36,13 +36,13 @@ const IconBitskiwalletMono = (props: SVGProps<SVGSVGElement>) => (
           clipRule="evenodd"
         />
       </mask>
-      <g filter="url(#evzv4__e)" mask="url(#evzv4__d)">
+      <g filter="url(#bitskiwallet__e)" mask="url(#bitskiwallet__d)">
         <path
-          fill="url(#evzv4__f)"
+          fill="url(#bitskiwallet__f)"
           d="M174.791 51.36H81.156c-15.464 0-28 12.535-28 28v101.754c0 15.464 12.536 28 28 28h93.635c15.464 0 28-12.536 28-28V79.359c0-15.464-12.536-28-28-28Z"
         />
         <path
-          fill="url(#evzv4__g)"
+          fill="url(#bitskiwallet__g)"
           fillOpacity={0.12}
           d="M174.791 51.36H81.156c-15.464 0-28 12.535-28 28v101.754c0 15.464 12.536 28 28 28h93.635c15.464 0 28-12.536 28-28V79.359c0-15.464-12.536-28-28-28Z"
         />
@@ -58,7 +58,7 @@ const IconBitskiwalletMono = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="evzv4__c"
+        id="bitskiwallet__c"
         x1={128}
         x2={128}
         y1={0}
@@ -69,7 +69,7 @@ const IconBitskiwalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.633} stopColor="currentColor" />
       </linearGradient>
       <linearGradient
-        id="evzv4__f"
+        id="bitskiwallet__f"
         x1={127.974}
         x2={127.974}
         y1={51.359}
@@ -82,7 +82,7 @@ const IconBitskiwalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="currentColor" />
       </linearGradient>
       <filter
-        id="evzv4__b"
+        id="bitskiwallet__b"
         width={456}
         height={456}
         x={-100}
@@ -98,7 +98,7 @@ const IconBitskiwalletMono = (props: SVGProps<SVGSVGElement>) => (
         />
       </filter>
       <filter
-        id="evzv4__e"
+        id="bitskiwallet__e"
         width={269.635}
         height={277.756}
         x={-6.844}
@@ -123,7 +123,7 @@ const IconBitskiwalletMono = (props: SVGProps<SVGSVGElement>) => (
         />
       </filter>
       <radialGradient
-        id="evzv4__g"
+        id="bitskiwallet__g"
         cx={0}
         cy={0}
         r={1}
@@ -133,7 +133,7 @@ const IconBitskiwalletMono = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.479} stopColor="#fff" />
         <stop offset={1} />
       </radialGradient>
-      <clipPath id="evzv4__a">
+      <clipPath id="bitskiwallet__a">
         <rect width={256} height={256} fill="#fff" rx={32} />
       </clipPath>
     </defs>

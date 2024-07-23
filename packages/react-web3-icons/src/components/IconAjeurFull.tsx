@@ -13,17 +13,17 @@ const IconAjeurFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#k91qy__paint0_linear_40_91)"
+      stroke="url(#jarvissyntheticeuro__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#k91qy__circleClip)">
+    <g clipPath="url(#jarvissyntheticeuro__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#k91qy__gjqez__clip0_294_241)">
+        <g clipPath="url(#jarvissyntheticeuro__clip0_294_241)">
           <path
             fill="#FC0"
             d="M16.004 32.002C24.842 32.002 32 24.844 32 16.006S24.842.01 16.004.01.008 7.168.008 16.006s7.158 15.996 15.996 15.996"
@@ -42,7 +42,7 @@ const IconAjeurFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="k91qy__gjqez__clip0_294_241">
+          <clipPath id="jarvissyntheticeuro__clip0_294_241">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -50,7 +50,7 @@ const IconAjeurFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="k91qy__paint0_linear_40_91"
+        id="jarvissyntheticeuro__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -60,7 +60,7 @@ const IconAjeurFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="k91qy__circleClip">
+      <clipPath id="jarvissyntheticeuro__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

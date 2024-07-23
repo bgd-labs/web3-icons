@@ -13,17 +13,17 @@ const IconAghstFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#p6npc__paint0_linear_40_91)"
+      stroke="url(#aavegotchighst__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#p6npc__circleClip)">
+    <g clipPath="url(#aavegotchighst__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#p6npc__86wxk__clip0_294_3376)">
+        <g clipPath="url(#aavegotchighst__clip0_294_3376)">
           <path
             fill="#FA34F3"
             d="M30.359 9.848V6.565h-1.642V4.924h-1.64V3.283h-1.642V1.64h-3.283V0H9.848v1.641H6.565v1.642H4.924v1.64H3.283v1.642H1.64v3.283H0v2.89h32v-2.89z"
@@ -47,7 +47,7 @@ const IconAghstFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="p6npc__86wxk__clip0_294_3376">
+          <clipPath id="aavegotchighst__clip0_294_3376">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -55,7 +55,7 @@ const IconAghstFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="p6npc__paint0_linear_40_91"
+        id="aavegotchighst__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -65,7 +65,7 @@ const IconAghstFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="p6npc__circleClip">
+      <clipPath id="aavegotchighst__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

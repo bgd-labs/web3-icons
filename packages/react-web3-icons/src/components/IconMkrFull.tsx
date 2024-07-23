@@ -9,7 +9,7 @@ const IconMkrFull = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 32 32"
     {...props}
   >
-    <g clipPath="url(#orwxi__clip0_298_619)">
+    <g clipPath="url(#maker__clip0_298_619)">
       <path
         fill="#58B89C"
         d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"
@@ -20,7 +20,7 @@ const IconMkrFull = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="orwxi__clip0_298_619">
+      <clipPath id="maker__clip0_298_619">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

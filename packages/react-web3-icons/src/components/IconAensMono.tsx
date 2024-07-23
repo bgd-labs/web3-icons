@@ -10,7 +10,7 @@ const IconAensMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#2bufa__circleClip)">
+    <g clipPath="url(#ethereumnameservice__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -24,7 +24,7 @@ const IconAensMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="2bufa__circleClip">
+      <clipPath id="ethereumnameservice__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

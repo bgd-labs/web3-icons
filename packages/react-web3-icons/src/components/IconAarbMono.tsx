@@ -10,7 +10,7 @@ const IconAarbMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#2moki__circleClip)">
+    <g clipPath="url(#arbitrum__circleClip)">
       <g
         fill="currentColor"
         style={{
@@ -23,7 +23,7 @@ const IconAarbMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="2moki__circleClip">
+      <clipPath id="arbitrum__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

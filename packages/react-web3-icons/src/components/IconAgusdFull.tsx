@@ -13,17 +13,17 @@ const IconAgusdFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#7am9k__paint0_linear_40_91)"
+      stroke="url(#geminidollar__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#7am9k__circleClip)">
+    <g clipPath="url(#geminidollar__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#7am9k__h9g2xl__clip0_294_3797)">
+        <g clipPath="url(#geminidollar__clip0_294_3797)">
           <path
             fill="#fff"
             d="M16 32c8.836 0 16-7.164 16-16S24.836 0 16 0 0 7.164 0 16s7.164 16 16 16"
@@ -38,7 +38,7 @@ const IconAgusdFull = (props: SVGProps<SVGSVGElement>) => (
           />
         </g>
         <defs>
-          <clipPath id="7am9k__h9g2xl__clip0_294_3797">
+          <clipPath id="geminidollar__clip0_294_3797">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -46,7 +46,7 @@ const IconAgusdFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="7am9k__paint0_linear_40_91"
+        id="geminidollar__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -56,7 +56,7 @@ const IconAgusdFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="7am9k__circleClip">
+      <clipPath id="geminidollar__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

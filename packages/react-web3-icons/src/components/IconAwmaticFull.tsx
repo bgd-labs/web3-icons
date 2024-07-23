@@ -13,29 +13,29 @@ const IconAwmaticFull = (props: SVGProps<SVGSVGElement>) => (
       cx={16}
       cy={16}
       r={15}
-      stroke="url(#iuunk__paint0_linear_40_91)"
+      stroke="url(#wrappedmatic__paint0_linear_40_91)"
       strokeWidth={2}
     />
-    <g clipPath="url(#iuunk__circleClip)">
+    <g clipPath="url(#wrappedmatic__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#iuunk__wfzj7__clip0_297_199)">
+        <g clipPath="url(#wrappedmatic__clip0_297_199)">
           <path
             fill="#fff"
             d="M16 32c8.84 0 16-7.16 16-16S24.84 0 16 0 0 7.16 0 16s7.16 16 16 16"
           />
           <path
-            fill="url(#iuunk__wfzj7__paint0_linear_297_199)"
+            fill="url(#wrappedmatic__paint0_linear_297_199)"
             d="m21.44 20.06 5.32-3.07c.28-.16.46-.46.46-.79v-6.14c0-.32-.17-.63-.46-.79L21.44 6.2a.92.92 0 0 0-.91 0l-5.32 3.07c-.28.16-.46.46-.46.79v10.97l-3.73 2.15-3.73-2.15v-4.3l3.73-2.15L13.48 16v-2.89l-2-1.16a.92.92 0 0 0-.91 0l-5.32 3.07c-.28.16-.46.46-.46.79v6.14c0 .32.17.63.46.79l5.32 3.07c.28.16.63.16.91 0l5.32-3.07c.28-.16.46-.46.46-.79V10.98l.07-.04 3.66-2.11 3.73 2.15v4.3l-3.73 2.15-2.46-1.42v2.89l2 1.15c.28.16.63.16.91 0z"
           />
         </g>
         <defs>
           <linearGradient
-            id="iuunk__wfzj7__paint0_linear_297_199"
+            id="wrappedmatic__paint0_linear_297_199"
             x1={6.7}
             x2={25.96}
             y1={22.78}
@@ -46,7 +46,7 @@ const IconAwmaticFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={0.88} stopColor="#773FD6" />
             <stop offset={1} stopColor="#7342DB" />
           </linearGradient>
-          <clipPath id="iuunk__wfzj7__clip0_297_199">
+          <clipPath id="wrappedmatic__clip0_297_199">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -54,7 +54,7 @@ const IconAwmaticFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="iuunk__paint0_linear_40_91"
+        id="wrappedmatic__paint0_linear_40_91"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -64,7 +64,7 @@ const IconAwmaticFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="iuunk__circleClip">
+      <clipPath id="wrappedmatic__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

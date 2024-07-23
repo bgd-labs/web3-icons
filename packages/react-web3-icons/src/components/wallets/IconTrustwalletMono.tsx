@@ -6,7 +6,7 @@ const IconTrustwalletMono = (props: SVGProps<SVGSVGElement>) => (
     width="100%"
     height="100%"
     fill="none"
-    className="827id__mt-4 827id__h-auto 827id__w-[180px]"
+    className="trustwallet__mt-4 trustwallet__h-auto trustwallet__w-[180px]"
     viewBox="0 0 39 43"
     {...props}
   >
@@ -15,12 +15,12 @@ const IconTrustwalletMono = (props: SVGProps<SVGSVGElement>) => (
       d="M.71 6.673 19.433.606v42C6.059 37.006.71 26.273.71 20.207z"
     />
     <path
-      fill="url(#827id__paint0_linear_524_7586892384)"
+      fill="url(#trustwallet__paint0_linear_524_7586892384)"
       d="M38.154 6.673 19.433.606v42c13.372-5.6 18.72-16.333 18.72-22.399z"
     />
     <defs>
       <linearGradient
-        id="827id__paint0_linear_524_7586892384"
+        id="trustwallet__paint0_linear_524_7586892384"
         x1={33.181}
         x2={19.115}
         y1={-2.335}

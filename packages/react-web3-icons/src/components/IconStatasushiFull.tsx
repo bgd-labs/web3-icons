@@ -10,19 +10,19 @@ const IconStatasushiFull = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="url(#cipluh__paint0_linear_42_5)"
+      fill="url(#sushitoken__paint0_linear_42_5)"
       fillRule="evenodd"
       d="m31.951 17.257-1.994-.155a14 14 0 0 0 0-2.204l1.994-.155a16 16 0 0 1 0 2.514m-.39-4.994-1.945.466q-.26-1.08-.677-2.087l1.847-.767q.478 1.154.775 2.388M29.644 7.64 27.94 8.686a14 14 0 0 0-1.293-1.778l1.52-1.3a16 16 0 0 1 1.477 2.031m-3.253-3.806-1.3 1.52a14 14 0 0 0-1.777-1.293l1.047-1.704q1.076.661 2.03 1.477m-4.266-2.619-.767 1.848a14 14 0 0 0-2.087-.678l.466-1.945c.822.196 1.62.457 2.388.775M17.257.05l-.155 1.994a14 14 0 0 0-2.204 0L14.743.049a16 16 0 0 1 2.514 0m-4.994.39.466 1.945q-1.08.26-2.087.678l-.767-1.848A16 16 0 0 1 12.263.44M7.64 2.356 8.686 4.06a14 14 0 0 0-1.778 1.293l-1.3-1.52A16 16 0 0 1 7.64 2.356M3.833 5.609l1.52 1.3A14 14 0 0 0 4.06 8.685L2.356 7.639q.661-1.076 1.477-2.03M1.214 9.875l1.848.767a14 14 0 0 0-.678 2.087l-1.945-.466c.196-.822.457-1.62.775-2.388M.05 14.743a16 16 0 0 0 0 2.514l1.994-.155a14 14 0 0 1 0-2.204zm.39 4.994 1.945-.466q.26 1.08.678 2.087l-1.848.767a16 16 0 0 1-.775-2.388m1.917 4.624 1.704-1.047q.579.941 1.293 1.778l-1.52 1.3a16 16 0 0 1-1.477-2.031m3.253 3.806 1.3-1.52q.835.714 1.777 1.293l-1.047 1.704a16 16 0 0 1-2.03-1.477m4.266 2.619.767-1.848q1.007.42 2.087.678l-.466 1.945a16 16 0 0 1-2.388-.775m4.868 1.165.155-1.994a14 14 0 0 0 2.204 0l.155 1.994a16 16 0 0 1-2.514 0m4.994-.39-.466-1.945q1.08-.26 2.087-.677l.767 1.847a16 16 0 0 1-2.388.775m4.624-1.917-1.047-1.704q.941-.579 1.778-1.293l1.3 1.52a16 16 0 0 1-2.031 1.477m3.806-3.253-1.52-1.3a14 14 0 0 0 1.293-1.777l1.704 1.047q-.661 1.076-1.477 2.03m2.619-4.266-1.848-.767q.42-1.007.678-2.087l1.945.466a16 16 0 0 1-.775 2.388"
       clipRule="evenodd"
     />
-    <g clipPath="url(#cipluh__circleClip)">
+    <g clipPath="url(#sushitoken__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
           transformOrigin: "50% 50%",
         }}
       >
-        <g clipPath="url(#cipluh__x8abti__clip0_298_602)">
+        <g clipPath="url(#sushitoken__clip0_298_602)">
           <path
             fill="#fff"
             d="M16 32c8.84 0 16-7.16 16-16S24.84 0 16 0 0 7.16 0 16s7.16 16 16 16"
@@ -46,11 +46,11 @@ const IconStatasushiFull = (props: SVGProps<SVGSVGElement>) => (
             clipRule="evenodd"
           />
           <path
-            fill="url(#cipluh__x8abti__paint0_linear_298_602)"
+            fill="url(#sushitoken__paint0_linear_298_602)"
             d="M27.16 15.93c-.06-.18-.13-.35-.2-.52-.89-2.06-2.98-4.5-5.84-6.55-2.86-2.04-5.84-3.24-8.08-3.43-1.63-.13-2.89.27-3.54 1.18l-4.48 6.25c-.65.91-.63 2.23.02 3.73.59 1.36 1.71 2.89 3.22 4.36.13-.01.27-.03.4-.06.81-.18 1.58-.89 2.35-1.61.99-.92 1.98-1.83 3.02-1.58.73.16 1.31.94 1.91 1.73.25.34.51.68.78.97.87 1 1.82 1.44 2.79 1.24 1.1-.22 1.94-1.19 2.73-2.28-1.92-.44-4.21-1.5-6.42-3.09-2.72-1.95-4.73-4.26-5.59-6.24-.51-1.17-.62-2.2-.13-2.93l.02-.04c.52-.73 1.55-.97 2.85-.86 2.14.17 4.97 1.33 7.69 3.29 2.73 1.95 4.74 4.26 5.6 6.22h.13c.31.03.56.11.77.22"
           />
           <path
-            fill="url(#cipluh__x8abti__paint1_linear_298_602)"
+            fill="url(#sushitoken__paint1_linear_298_602)"
             d="M22.19 14.37c-.42-.99-1.43-2.15-2.8-3.12-1.36-.98-2.78-1.55-3.84-1.65-.61-.04-1.1.05-1.33.39-.24.34-.17.82.07 1.38.42.99 1.43 2.14 2.8 3.11 1.37.98 2.78 1.56 3.85 1.65.6.05 1.08-.04 1.32-.38.25-.34.18-.82-.07-1.38"
           />
           <path
@@ -62,7 +62,7 @@ const IconStatasushiFull = (props: SVGProps<SVGSVGElement>) => (
         </g>
         <defs>
           <linearGradient
-            id="cipluh__x8abti__paint0_linear_298_602"
+            id="sushitoken__paint0_linear_298_602"
             x1={13.155}
             x2={21.145}
             y1={-0.189}
@@ -74,7 +74,7 @@ const IconStatasushiFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={1} stopColor="#E65F9D" />
           </linearGradient>
           <linearGradient
-            id="cipluh__x8abti__paint1_linear_298_602"
+            id="sushitoken__paint1_linear_298_602"
             x1={9.774}
             x2={28.189}
             y1={-23.597}
@@ -85,7 +85,7 @@ const IconStatasushiFull = (props: SVGProps<SVGSVGElement>) => (
             <stop offset={0.52} stopColor="#B56FAE" />
             <stop offset={1} stopColor="#E65F9D" />
           </linearGradient>
-          <clipPath id="cipluh__x8abti__clip0_298_602">
+          <clipPath id="sushitoken__clip0_298_602">
             <path fill="#fff" d="M0 0h32v32H0z" />
           </clipPath>
         </defs>
@@ -93,7 +93,7 @@ const IconStatasushiFull = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="cipluh__paint0_linear_42_5"
+        id="sushitoken__paint0_linear_42_5"
         x1={26.976}
         x2={6.592}
         y1={4.32}
@@ -103,7 +103,7 @@ const IconStatasushiFull = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#B6509E" />
         <stop offset={1} stopColor="#2EBAC6" />
       </linearGradient>
-      <clipPath id="cipluh__circleClip">
+      <clipPath id="sushitoken__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>

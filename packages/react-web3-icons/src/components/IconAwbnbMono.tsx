@@ -10,7 +10,7 @@ const IconAwbnbMono = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle cx={16} cy={16} r={15} stroke="currentColor" strokeWidth={2} />
-    <g clipPath="url(#of7kh__circleClip)">
+    <g clipPath="url(#bnbsmartchain__circleClip)">
       <g
         style={{
           transform: "scale(.8125)",
@@ -26,7 +26,7 @@ const IconAwbnbMono = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="of7kh__circleClip">
+      <clipPath id="bnbsmartchain__circleClip">
         <circle cx={16} cy={16} r={13} />
       </clipPath>
     </defs>
