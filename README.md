@@ -1,5 +1,5 @@
 # Web3 icons library
-Svg set of web3 icons and utils for easy generation and use.
+Svg set of web3 icons and utils for easy generation optimized svgs and use.
 
 ### Installation
 Package with some of web3 assets, chains and web3 wallets icons for easy use in the React.js ecosystem. Described in more detail [here](./packages/react-web3-icons/README.md).
