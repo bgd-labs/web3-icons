@@ -70,7 +70,13 @@ for (const icon of iconsArray) {
       : meta.name
         ? meta.name
         : "Unknown";
-  const lowercasedName = name.replace(/\s/g, "").toLowerCase();
+  const lowercasedName = name
+    .split("(")
+    .join("")
+    .split(")")
+    .join("")
+    .replace(/\s/g, "")
+    .toLowerCase();
 
   const iconInfo = {
     ...meta,
