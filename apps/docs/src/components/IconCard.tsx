@@ -12,6 +12,7 @@ export const IconCard = ({
   children,
   name,
   subName,
+  subComponent,
   svgPath,
   fileName,
   setActiveType,
@@ -19,7 +20,8 @@ export const IconCard = ({
 }: {
   children: ReactNode;
   name: string;
-  subName: string;
+  subName?: string;
+  subComponent?: ReactNode;
   svgPath: string;
   fileName: string;
   setActiveType: (type: IconVariant) => void;
@@ -38,9 +40,12 @@ export const IconCard = ({
       <div className="relative flex min-h-[285px] w-[200px] flex-col justify-center overflow-hidden rounded-lg pb-4">
         <div className="relative flex-1 p-2">
           <div className="text-sm font-semibold text-gray-800">{name}</div>
-          <div className="font-mono text-xs uppercase text-gray-400">
-            {subName}
-          </div>
+          {subName && (
+            <div className="font-mono text-xs uppercase text-gray-400">
+              {subName}
+            </div>
+          )}
+          {subComponent && subComponent}
         </div>
 
         <div

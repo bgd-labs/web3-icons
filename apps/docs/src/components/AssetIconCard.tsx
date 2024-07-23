@@ -54,8 +54,14 @@ export const AssetIconCard = ({
     <IconCard
       svgPath={`${githubIconsPath}${iconPath}`}
       name={`${name}${chainName ? `(${chainName})` : ""}`}
-      subName={`${assetTag ? assetTag : ""}${symbol}${chainId ? `(${chainId})` : ""}`}
-      fileName={`${assetTag ? assetTag : ""}${symbol}${variant === IconVariant.Full ? "" : variant}`}
+      subComponent={
+        <div className="font-mono text-xs text-gray-400">
+          <span className="lowercase">{assetTag ? assetTag : ""}</span>
+          <span className="uppercase">{symbol}</span>
+          <span>{chainId && !assetTag ? `(${chainId})` : ""}</span>
+        </div>
+      }
+      fileName={`${(assetTag ? assetTag : "").toLowerCase()}${symbol.toUpperCase()}${variant === IconVariant.Full ? "" : variant}`}
       setActiveType={setVariant}
       activeType={variant}
     >
