@@ -5,7 +5,6 @@ import React, { useMemo } from "react";
 import { AssetIconCard } from "@/components/AssetIconCard";
 import { Branding } from "@/components/Branding";
 import { ChainIconCard } from "@/components/ChainIconCard";
-import InstalledWalletIcon from "@/components/InstalledWalletIcon";
 import { Search } from "@/components/Search";
 import { WalletIconCard } from "@/components/WalletIconCard";
 
@@ -24,7 +23,7 @@ async function IconsPage({
   const filteredIcons = useMemo(
     () =>
       new Fuse(icons as IconInfo[], {
-        keys: ["chainId", "symbol", "identityFlag"],
+        keys: ["chainId", "symbol", "identityFlag", "walletName"],
         threshold: 0.3,
         distance: 1000,
       })

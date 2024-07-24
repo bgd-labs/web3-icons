@@ -1238,6 +1238,17 @@
     "type": [
       "wallet"
     ],
+    "walletName": "Impersonated Wallet",
+    "identityFlag": "",
+    "icons": {
+      "mono": "icons/mono/impersonatedwallet.svg",
+      "full": "icons/full/impersonatedwallet.svg"
+    }
+  },
+  {
+    "type": [
+      "wallet"
+    ],
     "walletName": "imToken Wallet",
     "identityFlag": "isImToken",
     "icons": {
@@ -1985,6 +1996,17 @@
   },
   {
     "type": [
+      "wallet"
+    ],
+    "walletName": "Safe Wallet",
+    "identityFlag": "",
+    "icons": {
+      "mono": "icons/mono/safewallet.svg",
+      "full": "icons/full/safewallet.svg"
+    }
+  },
+  {
+    "type": [
       "asset"
     ],
     "name": "Benqi Staked Avalanche",
@@ -2715,6 +2737,17 @@
         "mono": "icons/mono/stataust.svg",
         "full": "icons/full/stataust.svg"
       }
+    }
+  },
+  {
+    "type": [
+      "wallet"
+    ],
+    "walletName": "WalletConnect",
+    "identityFlag": "",
+    "icons": {
+      "mono": "icons/mono/walletconnect.svg",
+      "full": "icons/full/walletconnect.svg"
     }
   },
   {
