@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/bgd-labs/icons/compare/react-web3-icons@v1.2.1...react-web3-icons@v1.3.0) (2024-07-24)
+
+
+### Features
+
+* added new wallets icons ([9dd702a](https://github.com/bgd-labs/icons/commit/9dd702ab762261c35721843fc5c1ca5345148b4f))
+
 ## [1.2.1](https://github.com/bgd-labs/icons/compare/react-web3-icons@v1.2.0...react-web3-icons@v1.2.1) (2024-07-23)
 
 
