@@ -16,7 +16,7 @@ export const getWeb3WalletName = () => {
       if (userBrowserWallets.length > 1 || userBrowserWallets.length === 0) {
         return defaultBrowserWalletName;
       } else {
-        return userBrowserWallets[0].name;
+        return userBrowserWallets[0]?.name ?? defaultBrowserWalletName;
       }
     } else {
       return defaultBrowserWalletName;

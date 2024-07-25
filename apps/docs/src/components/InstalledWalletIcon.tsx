@@ -1,25 +1,16 @@
 "use client";
 
-import {
-  getWeb3WalletName,
-  IconVariant,
-  Web3IconType,
-} from "@bgd-labs/react-web3-icons/dist/utils";
+import { getWeb3WalletName } from "@bgd-labs/react-web3-icons/dist/utils";
 import dynamic from "next/dynamic";
 
-import { Web3Icon } from "@/components/Web3Icon";
+import { WalletIcon } from "@/components/Web3Icons/WalletIcon";
 
 const InstalledBrowserWalletWallet = () => {
   const walletName = getWeb3WalletName();
   return (
     <div>
       {walletName}
-      <Web3Icon
-        iconInfo={{
-          type: Web3IconType.wallet,
-          info: { walletName, variant: IconVariant.Full },
-        }}
-      />
+      <WalletIcon walletName={walletName} />
     </div>
   );
 };

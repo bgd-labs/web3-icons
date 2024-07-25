@@ -43,6 +43,7 @@ export const processIconFile = (filePath: string, name: string) => {
               prefix: name,
             },
           },
+          "removeDimensions",
         ],
       });
       svgContent = optimizationResult.data;

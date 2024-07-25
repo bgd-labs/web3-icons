@@ -3,12 +3,11 @@
 import {
   IconInfoIcons,
   IconVariant,
-  Web3IconType,
 } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 
 import { IconCard } from "@/components/IconCard";
-import { Web3Icon } from "@/components/Web3Icon";
+import { WalletIcon } from "@/components/Web3Icons/WalletIcon";
 import { githubIconsPath } from "@/utils/constants";
 
 export const WalletIconCard = ({
@@ -19,15 +18,6 @@ export const WalletIconCard = ({
   icons: IconInfoIcons;
 }) => {
   const [variant, setVariant] = useState(IconVariant.Full);
-  const Icon = () => (
-    <Web3Icon
-      iconInfo={{
-        type: Web3IconType.wallet,
-        info: { walletName: name, variant },
-      }}
-    />
-  );
-
   return (
     <IconCard
       svgPath={`${githubIconsPath}${icons[variant]}`}
@@ -37,7 +27,7 @@ export const WalletIconCard = ({
       setActiveType={setVariant}
       activeType={variant}
     >
-      <Icon />
+      <WalletIcon walletName={name} mono={variant === IconVariant.Mono} />
     </IconCard>
   );
 };

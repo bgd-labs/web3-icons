@@ -6,9 +6,8 @@ export default defineConfig([
     entry: [
       "./src/index.ts",
       "./src/utils/index.ts",
-      "./src/components/index.ts",
-      "./src/components/chains/index.ts",
-      "./src/components/wallets/index.ts",
+      "./src/icons/full/index.ts",
+      "./src/icons/mono/index.ts",
     ],
     treeshake: true,
     sourcemap: true,
