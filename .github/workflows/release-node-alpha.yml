@@ -29,10 +29,6 @@ jobs:
       - name: install standard
         run: npm i -g standard-version
 
-      - name: release
-        run: |
-          standard-version --prerelease ${{ github.sha }} --skip.changelog --skip.commit --skip.tag
-
       - name: Publish
         run: pnpm --filter react-web3-icons ci:publish:beta
         env:
