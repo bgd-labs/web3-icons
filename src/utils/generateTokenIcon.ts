@@ -51,7 +51,6 @@ export const generateTokenIcon = (
             prefix: iconName,
           },
         },
-        "removeDimensions",
       ],
     }).data;
   }
@@ -86,7 +85,6 @@ export const generateTokenIcon = (
             prefix: iconName,
           },
         },
-        "removeDimensions",
       ],
     }).data;
   }

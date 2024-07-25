@@ -5,6 +5,20 @@ const svgToTsConfig = {
   "typeName": "Web3IconType",
   "compileSources": false,
   "modelFileName": "web3-icons",
-  "prefix": "icon"
+  "prefix": "icon",
+  "svgoConfig": {
+    plugins: [
+      {
+        name: "preset-default",
+        params: {
+          overrides: {
+            removeViewBox: false,
+            cleanupIds: false,
+            collapseGroups: false,
+          },
+        },
+      }
+    ],
+  },
 };
 module.exports = svgToTsConfig;
