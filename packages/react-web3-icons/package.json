@@ -29,7 +29,8 @@
   "scripts": {
     "start": "tsup src/index.ts --watch",
     "build": "tsup",
-    "ci:publish": "npm run build && npm publish --access=public"
+    "ci:publish": "npm run build && npm publish --access=public",
+    "ci:publish:beta": "npm run build && npm publish --tag beta --access=public"
   },
   "files": [
     "dist"
