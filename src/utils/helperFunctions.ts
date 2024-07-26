@@ -1,6 +1,10 @@
 import fs from "fs";
 import { optimize } from "svgo";
 
+import { IconInfo, IconType } from "../scripts/types.ts";
+
+const REACT_ICONS_PACKS_PATH = "packages/react-web3-icons/src/iconsPacks";
+
 // ----------------------------------------
 // Helper functions
 // ----------------------------------------
@@ -71,5 +75,39 @@ export const processIconFile = (filePath: string, name: string) => {
       return svgContent;
     },
   };
+};
+
+export const generateIconsPack = (type: IconType, data: IconInfo[]) => {
+  const iconsPack: Record<string, string> = {};
+
+  data.forEach((item) => {
+    const name =
+      type === IconType.chain && item?.chainName
+        ? item.chainName
+        : type === IconType.wallet && item.walletName
+          ? item.walletName
+          : item.name
+            ? item.name
+            : "Unknown";
+
+    const lowercasedName = name.replace(/\s/g, "").toLowerCase();
+
+    iconsPack[lowercasedName] = fs.readFileSync(item.icons.full).toString();
+    iconsPack[`${lowercasedName}_mono`] = fs
+      .readFileSync(item.icons.mono)
+      .toString();
+  });
+
+  const packName =
+    type === IconType.chain
+      ? "chainsIconsPack"
+      : type === IconType.wallet
+        ? "walletsIconsPack"
+        : "assetsIconsPack";
+
+  fs.writeFileSync(
+    `${REACT_ICONS_PACKS_PATH}/${packName}.ts`,
+    `export const ${packName}: Record<string, string> = ${JSON.stringify(iconsPack)};`,
+  );
 };
 // ----------------------------------------

@@ -4,6 +4,7 @@ import { z } from "zod";
 
 import { generateTokenIcon } from "../utils/generateTokenIcon.ts";
 import {
+  generateIconsPack,
   getPrefix,
   processIconFile,
   readJsonFile,
@@ -72,6 +73,7 @@ for (const icon of iconsArray) {
       : meta.name
         ? meta.name
         : "Unknown";
+
   const lowercasedName = name
     .split("(")
     .join("")
@@ -266,6 +268,7 @@ fs.writeFileSync(
   `${REACT_UTILS_PATH}/assetsNames.ts`,
   `export const assetsNames: Record<string, string> = ${JSON.stringify(assetsNames)};`,
 );
+generateIconsPack(IconType.asset, assets);
 console.log("✅ All Assets names are generated");
 
 const chains = iconsInfoFile.filter((icon) =>
@@ -284,6 +287,7 @@ fs.writeFileSync(
   `${REACT_UTILS_PATH}/chainsNames.ts`,
   `export const chainsNames: Record<number, string> = ${JSON.stringify(chainsNames)};`,
 );
+generateIconsPack(IconType.chain, chains);
 console.log("✅ All Chains names are generated");
 
 const wallets = iconsInfoFile.filter((icon) =>
@@ -304,4 +308,5 @@ fs.writeFileSync(
   `${REACT_UTILS_PATH}/walletsNames.ts`,
   `export const wallets: Record<string, { name: string; identityFlag: string }> = ${JSON.stringify(walletsData)};`,
 );
+generateIconsPack(IconType.wallet, wallets);
 console.log("✅ All Wallets data generated");

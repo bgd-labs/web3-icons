@@ -1,6 +1,6 @@
 "use client";
 
-import { ChainIcon as CI } from "@bgd-labs/react-web3-icons";
+import { StaticChainIcon as CI } from "@bgd-labs/react-web3-icons";
 import { ExternalComponentBaseProps } from "@bgd-labs/react-web3-icons/dist/utils";
 
 import { cn } from "@/utils/cn";
