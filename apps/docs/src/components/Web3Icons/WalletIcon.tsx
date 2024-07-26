@@ -1,3 +1,5 @@
+"use client";
+
 import { WalletIcon as WI } from "@bgd-labs/react-web3-icons";
 import { ExternalComponentBaseProps } from "@bgd-labs/react-web3-icons/dist/utils/index";
 
@@ -17,8 +19,6 @@ export const WalletIcon = ({
   return (
     <WI
       walletName={walletName}
-      width={70}
-      height={70}
       className={cn("size-[70px]", className)}
       loader={
         <div

@@ -45,7 +45,9 @@
   },
   "devDependencies": {
     "@types/loadable__component": "5.13.9",
+    "@types/lodash.camelcase": "^4.3.9",
     "@types/react": "^18.3.3",
+    "lodash.camelcase": "^4.3.0",
     "tsup": "^8.1.0"
   },
   "dependencies": {

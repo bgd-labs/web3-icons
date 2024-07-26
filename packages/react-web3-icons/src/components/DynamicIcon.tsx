@@ -1,6 +1,7 @@
 "use client";
 
 import loadable from "@loadable/component";
+import camelCase from "lodash.camelcase";
 import React from "react";
 import SVG from "react-inlinesvg";
 
@@ -27,9 +28,10 @@ export const DynamicIcon = ({
         return await (
           mono ? import("../icons/mono/index") : import("../icons/full/index")
         ).then(async (icon) => {
-          // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-          // @ts-expect-error
-          const iconData = icon[`icon${capitalize(iconKey)}`];
+          const iconData =
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            // @ts-expect-error
+            icon[`icon${capitalize(camelCase(iconKey.toLowerCase()))}`];
           if (!iconData && githubSrc) {
             if (!isError) {
               return {

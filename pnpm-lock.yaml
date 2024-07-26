@@ -134,9 +134,15 @@ importers:
       '@types/loadable__component':
         specifier: 5.13.9
         version: 5.13.9
+      '@types/lodash.camelcase':
+        specifier: ^4.3.9
+        version: 4.3.9
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
+      lodash.camelcase:
+        specifier: ^4.3.0
+        version: 4.3.0
       tsup:
         specifier: ^8.1.0
         version: 8.1.0(typescript@5.5.3)
@@ -752,6 +758,16 @@ packages:
     resolution: {integrity: sha512-QWOtIkwZqHNdQj3nixQ8oyihQiTMKZLk/DNuvNxMSbTfxf47w+kqcbnxlUeBgAxdOtW0Dh48dTAIp83iJKtnrQ==}
     dependencies:
       '@types/react': 18.3.3
+    dev: true
+
+  /@types/lodash.camelcase@4.3.9:
+    resolution: {integrity: sha512-ys9/hGBfsKxzmFI8hckII40V0ASQ83UM2pxfQRghHAwekhH4/jWtjz/3/9YDy7ZpUd/H0k2STSqmPR28dnj7Zg==}
+    dependencies:
+      '@types/lodash': 4.17.7
+    dev: true
+
+  /@types/lodash@4.17.7:
+    resolution: {integrity: sha512-8wTvZawATi/lsmNu10/j2hk1KEP0IvjubqPE3cu1Xz7xfXXt5oCq3SNUz4fMIP4XGF9Ky+Ue2tBA3hcS7LSBlA==}
     dev: true
 
   /@types/node@20.14.10:

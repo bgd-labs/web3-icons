@@ -1,5 +1,4 @@
 import { githubIconsPath } from "../constants";
-import { capitalize } from "./capitalize";
 import { IconVariant, WalletType } from "./types";
 import { wallets } from "./walletsNames";
 export const getWalletName = ({
@@ -16,6 +15,6 @@ export const getWalletIconNameAndPath = ({
   const name = getWalletName({ walletName });
   return {
     iconPathToRepo: `${githubIconsPath}/icons/${mono ? IconVariant.Mono : IconVariant.Full}/${name.replace(/\s/g, "").toLowerCase()}.svg`,
-    iconKey: `${capitalize(name.replace(/\s/g, "").toLowerCase())}`,
+    iconKey: name.replace(/\s/g, "").toLowerCase(),
   };
 };

@@ -1,3 +1,5 @@
+"use client";
+
 import { ChainIcon as CI } from "@bgd-labs/react-web3-icons";
 import { ExternalComponentBaseProps } from "@bgd-labs/react-web3-icons/dist/utils";
 
@@ -13,8 +15,6 @@ export const ChainIcon = ({ chainId, className, ...props }: ChainIconProps) => {
   return (
     <CI
       chainId={chainId}
-      width={70}
-      height={70}
       className={cn("size-[70px]", className)}
       loader={
         <div

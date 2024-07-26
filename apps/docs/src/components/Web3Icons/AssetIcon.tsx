@@ -1,3 +1,5 @@
+"use client";
+
 import { AssetIcon as AI } from "@bgd-labs/react-web3-icons";
 import {
   AssetIconProps,
@@ -17,8 +19,6 @@ export const AssetIcon = ({
   return (
     <AI
       symbol={symbol}
-      width={70}
-      height={70}
       className={cn("size-[70px]", className)}
       loader={
         <div
