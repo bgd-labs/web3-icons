@@ -1,10 +1,11 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import SVG from "react-inlinesvg";
 
 import { iconUnknown, Web3IconType } from "../icons/full";
 import { IconComponentBaseProps } from "../utils";
+import { generateUniqueHash } from "../utils/generateUniqueHash";
 
 /**
  * Wrapper for get icons directly from pack
@@ -21,17 +22,28 @@ export const StaticIcon = ({
   iconsPack: Record<string, string>;
   githubSrc?: string;
 } & IconComponentBaseProps) => {
+  const iconFormattedKey = iconKey.toLowerCase();
+
   const [isLocalError, setIsLocalError] = React.useState(false);
   const [isGithubError, setIsGithubError] = React.useState(false);
+  const [svgCode, setSvgCode] = React.useState<string | undefined>(
+    mono ? iconsPack[`${iconFormattedKey}_mono`] : iconsPack[iconFormattedKey],
+  );
 
-  const iconFormattedKey = iconKey.toLowerCase();
+  useEffect(() => {
+    setSvgCode(
+      mono
+        ? iconsPack[`${iconFormattedKey}_mono`]
+        : iconsPack[iconFormattedKey],
+    );
+  }, [mono, iconKey]);
 
   if (isLocalError && isGithubError) {
     return (
       <SVG
         {...props}
         src={iconUnknown.data}
-        uniqueHash={(Math.random() + 1).toString(36).substring(7)}
+        uniqueHash={generateUniqueHash()}
         uniquifyIDs
         loader={loader}
       />
@@ -43,7 +55,7 @@ export const StaticIcon = ({
       <SVG
         {...props}
         src={githubSrc}
-        uniqueHash={(Math.random() + 1).toString(36).substring(7)}
+        uniqueHash={generateUniqueHash()}
         uniquifyIDs
         onError={() => setIsGithubError(true)}
         loader={loader}
@@ -54,12 +66,8 @@ export const StaticIcon = ({
   return (
     <SVG
       {...props}
-      src={`data:image/svg+xml;base64,${btoa(
-        mono
-          ? iconsPack[`${iconFormattedKey}_mono`]
-          : iconsPack[iconFormattedKey],
-      )}`}
-      uniqueHash={(Math.random() + 1).toString(36).substring(7)}
+      src={svgCode ? `data:image/svg+xml;base64,${btoa(svgCode)}` : ""}
+      uniqueHash={generateUniqueHash()}
       onError={() => setIsLocalError(true)}
       uniquifyIDs
       loader={loader}

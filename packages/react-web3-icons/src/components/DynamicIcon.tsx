@@ -7,6 +7,7 @@ import SVG from "react-inlinesvg";
 
 import { Web3IconType } from "../icons/full";
 import { capitalize, IconComponentBaseProps } from "../utils";
+import { generateUniqueHash } from "../utils/generateUniqueHash";
 
 /**
  * Wrapper for get icons dynamically
@@ -22,6 +23,7 @@ export const DynamicIcon = ({
   githubSrc?: string;
 } & IconComponentBaseProps) => {
   const [isError, setIsError] = React.useState(false);
+
   const Icon = loadable(
     async () => {
       try {
@@ -32,6 +34,7 @@ export const DynamicIcon = ({
             // eslint-disable-next-line @typescript-eslint/ban-ts-comment
             // @ts-expect-error
             icon[`icon${capitalize(camelCase(iconKey.toLowerCase()))}`];
+
           if (!iconData && githubSrc) {
             if (!isError) {
               return {
@@ -39,7 +42,7 @@ export const DynamicIcon = ({
                   <SVG
                     {...props}
                     src={githubSrc}
-                    uniqueHash={(Math.random() + 1).toString(36).substring(7)}
+                    uniqueHash={generateUniqueHash()}
                     uniquifyIDs
                     onError={() => setIsError(true)}
                     loader={loader}
@@ -55,7 +58,7 @@ export const DynamicIcon = ({
                   <SVG
                     {...props}
                     src={svgCode.iconUnknown.data}
-                    uniqueHash={(Math.random() + 1).toString(36).substring(7)}
+                    uniqueHash={generateUniqueHash()}
                     uniquifyIDs
                     loader={loader}
                   />
@@ -68,7 +71,7 @@ export const DynamicIcon = ({
                 <SVG
                   {...props}
                   src={iconData.data}
-                  uniqueHash={(Math.random() + 1).toString(36).substring(7)}
+                  uniqueHash={generateUniqueHash()}
                   uniquifyIDs
                   loader={loader}
                 />
@@ -83,7 +86,7 @@ export const DynamicIcon = ({
             <SVG
               {...props}
               src={svgCode.iconUnknown.data}
-              uniqueHash={(Math.random() + 1).toString(36).substring(7)}
+              uniqueHash={generateUniqueHash()}
               uniquifyIDs
               loader={loader}
             />
@@ -96,5 +99,6 @@ export const DynamicIcon = ({
       ssr: true,
     },
   );
+
   return <Icon />;
 };
