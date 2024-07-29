@@ -479,6 +479,17 @@
   },
   {
     "type": [
+      "chain"
+    ],
+    "chainName": "Celo",
+    "chainId": 42220,
+    "icons": {
+      "mono": "icons/mono/celo.svg",
+      "full": "icons/full/celo.svg"
+    }
+  },
+  {
+    "type": [
       "wallet"
     ],
     "walletName": "Coinbase Wallet",
@@ -3132,6 +3143,17 @@
     "icons": {
       "mono": "icons/mono/zerionwallet.svg",
       "full": "icons/full/zerionwallet.svg"
+    }
+  },
+  {
+    "type": [
+      "chain"
+    ],
+    "chainName": "zkSync Era",
+    "chainId": 324,
+    "icons": {
+      "mono": "icons/mono/zksyncera.svg",
+      "full": "icons/full/zksyncera.svg"
     }
   },
   {

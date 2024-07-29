@@ -42,6 +42,26 @@ export const svgoOptimizeWithPlugins = (
           prefix: prefixName,
         },
       },
+      "removeDimensions",
+      {
+        name: "addAttributesToSVGElement",
+        params: {
+          attributes: [
+            {
+              width: "32",
+            },
+            {
+              height: "32",
+            },
+          ],
+        },
+      },
+      {
+        name: "sortAttrs",
+        params: {
+          xmlnsOrder: "alphabetical",
+        },
+      },
     ],
   });
 

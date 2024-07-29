@@ -126,6 +126,7 @@ export type Web3IconType =
   | 'busd'
   | 'cake'
   | 'cbeth'
+  | 'celo'
   | 'coinbasewallet'
   | 'corewallet'
   | 'crv'
@@ -354,6 +355,7 @@ export type Web3IconType =
   | 'yfi'
   | 'zealwallet'
   | 'zerionwallet'
+  | 'zksyncera'
   | 'zrx';
 export interface IWeb3Icon {
   name: Web3IconType;
