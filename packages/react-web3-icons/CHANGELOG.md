@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/bgd-labs/icons/compare/react-web3-icons@v1.4.0...react-web3-icons@v1.4.1) (2024-07-30)
+
+
+### Bug Fixes
+
+* setting of the SVG code in the components ([#23](https://github.com/bgd-labs/icons/issues/23)) ([0987998](https://github.com/bgd-labs/icons/commit/0987998377c0a0ca3603cfa87d292257653265be))
+
 ## [1.4.0](https://github.com/bgd-labs/icons/compare/react-web3-icons@v1.3.0...react-web3-icons@v1.4.0) (2024-07-30)
 
 
