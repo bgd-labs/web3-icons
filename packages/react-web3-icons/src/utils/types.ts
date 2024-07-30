@@ -1,5 +1,4 @@
 import React, { ComponentProps } from "react";
-import { Props } from "react-inlinesvg";
 
 import { IconMetaData } from "../../../../src/scripts/types";
 
@@ -47,7 +46,7 @@ export type WalletType = {
 export type IconComponentBaseProps = {
   mono?: boolean;
   loader?: React.JSX.Element;
-} & Omit<Props, "src">;
+} & ComponentProps<"svg">;
 
 export type ExternalComponentBaseProps = {
   mono?: boolean;

@@ -1,11 +1,12 @@
 "use client";
 
 import React, { useEffect } from "react";
-import SVG from "react-inlinesvg";
+import InlineSVG from "react-inlinesvg";
 
 import { iconUnknown, Web3IconType } from "../icons/full";
 import { IconComponentBaseProps } from "../utils";
 import { generateUniqueHash } from "../utils/generateUniqueHash";
+import { SVG } from "./SVG";
 
 /**
  * Wrapper for get icons directly from pack
@@ -24,7 +25,6 @@ export const StaticIcon = ({
 } & IconComponentBaseProps) => {
   const iconFormattedKey = iconKey.toLowerCase();
 
-  const [isLocalError, setIsLocalError] = React.useState(false);
   const [isGithubError, setIsGithubError] = React.useState(false);
   const [svgCode, setSvgCode] = React.useState<string | undefined>(
     mono ? iconsPack[`${iconFormattedKey}_mono`] : iconsPack[iconFormattedKey],
@@ -38,21 +38,15 @@ export const StaticIcon = ({
     );
   }, [mono, iconKey]);
 
-  if (isLocalError && isGithubError) {
-    return (
-      <SVG
-        {...props}
-        src={iconUnknown.data}
-        uniqueHash={generateUniqueHash()}
-        uniquifyIDs
-        loader={loader}
-      />
-    );
+  if (!svgCode && (isGithubError || !githubSrc)) {
+    return <SVG svgCode={iconUnknown.data} {...props} />;
   }
 
-  if (!isGithubError && githubSrc && isLocalError) {
+  if (!isGithubError && githubSrc && !svgCode) {
     return (
-      <SVG
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-expect-error
+      <InlineSVG
         {...props}
         src={githubSrc}
         uniqueHash={generateUniqueHash()}
@@ -63,14 +57,5 @@ export const StaticIcon = ({
     );
   }
 
-  return (
-    <SVG
-      {...props}
-      src={svgCode ? `data:image/svg+xml;base64,${btoa(svgCode)}` : ""}
-      uniqueHash={generateUniqueHash()}
-      onError={() => setIsLocalError(true)}
-      uniquifyIDs
-      loader={loader}
-    />
-  );
+  return <SVG svgCode={svgCode} {...props} />;
 };

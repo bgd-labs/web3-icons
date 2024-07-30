@@ -3,11 +3,12 @@
 import loadable from "@loadable/component";
 import camelCase from "lodash.camelcase";
 import React from "react";
-import SVG from "react-inlinesvg";
+import InlineSVG from "react-inlinesvg";
 
 import { Web3IconType } from "../icons/full";
 import { capitalize, IconComponentBaseProps } from "../utils";
 import { generateUniqueHash } from "../utils/generateUniqueHash";
+import { SVG } from "./SVG";
 
 /**
  * Wrapper for get icons dynamically
@@ -39,7 +40,9 @@ export const DynamicIcon = ({
             if (!isError) {
               return {
                 default: () => (
-                  <SVG
+                  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                  // @ts-expect-error
+                  <InlineSVG
                     {...props}
                     src={githubSrc}
                     uniqueHash={generateUniqueHash()}
@@ -55,42 +58,20 @@ export const DynamicIcon = ({
               );
               return {
                 default: () => (
-                  <SVG
-                    {...props}
-                    src={svgCode.iconUnknown.data}
-                    uniqueHash={generateUniqueHash()}
-                    uniquifyIDs
-                    loader={loader}
-                  />
+                  <SVG svgCode={svgCode.iconUnknown.data} {...props} />
                 ),
               };
             }
           } else {
             return {
-              default: () => (
-                <SVG
-                  {...props}
-                  src={iconData.data}
-                  uniqueHash={generateUniqueHash()}
-                  uniquifyIDs
-                  loader={loader}
-                />
-              ),
+              default: () => <SVG svgCode={iconData.data} {...props} />,
             };
           }
         });
       } catch (e) {
         const svgCode = await import("../icons/full/build/icon-unknown.icon");
         return {
-          default: () => (
-            <SVG
-              {...props}
-              src={svgCode.iconUnknown.data}
-              uniqueHash={generateUniqueHash()}
-              uniquifyIDs
-              loader={loader}
-            />
-          ),
+          default: () => <SVG svgCode={svgCode.iconUnknown.data} {...props} />,
         };
       }
     },
