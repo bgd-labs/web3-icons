@@ -3,11 +3,12 @@
 import loadable from "@loadable/component";
 import camelCase from "lodash.camelcase";
 import React from "react";
-import SVG from "react-inlinesvg";
+import InlineSVG from "react-inlinesvg";
 
 import { Web3IconType } from "../icons/full";
 import { capitalize, IconComponentBaseProps } from "../utils";
 import { generateUniqueHash } from "../utils/generateUniqueHash";
+import { SVG } from "./SVG";
 
 /**
  * Wrapper for get icons dynamically
@@ -35,62 +36,32 @@ export const DynamicIcon = ({
             // @ts-expect-error
             icon[`icon${capitalize(camelCase(iconKey.toLowerCase()))}`];
 
-          if (!iconData && githubSrc) {
-            if (!isError) {
-              return {
-                default: () => (
-                  <SVG
-                    {...props}
-                    src={githubSrc}
-                    uniqueHash={generateUniqueHash()}
-                    uniquifyIDs
-                    onError={() => setIsError(true)}
-                    loader={loader}
-                  />
-                ),
-              };
-            } else {
-              const svgCode = await import(
-                "../icons/full/build/icon-unknown.icon"
-              );
-              return {
-                default: () => (
-                  <SVG
-                    {...props}
-                    src={svgCode.iconUnknown.data}
-                    uniqueHash={generateUniqueHash()}
-                    uniquifyIDs
-                    loader={loader}
-                  />
-                ),
-              };
-            }
-          } else {
+          if (!iconData && githubSrc && !isError) {
             return {
               default: () => (
-                <SVG
+                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                // @ts-expect-error
+                <InlineSVG
                   {...props}
-                  src={iconData.data}
+                  src={githubSrc}
                   uniqueHash={generateUniqueHash()}
                   uniquifyIDs
+                  onError={() => setIsError(true)}
                   loader={loader}
                 />
               ),
             };
           }
+
+          return {
+            default: () => (
+              <SVG svgCode={iconData?.data} loader={loader} {...props} />
+            ),
+          };
         });
       } catch (e) {
-        const svgCode = await import("../icons/full/build/icon-unknown.icon");
         return {
-          default: () => (
-            <SVG
-              {...props}
-              src={svgCode.iconUnknown.data}
-              uniqueHash={generateUniqueHash()}
-              uniquifyIDs
-              loader={loader}
-            />
-          ),
+          default: () => <SVG svgCode={undefined} loader={loader} {...props} />,
         };
       }
     },

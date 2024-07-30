@@ -5,4 +5,5 @@ export * from "./StaticAssetIcon";
 export * from "./StaticChainIcon";
 export * from "./StaticIcon";
 export * from "./StaticWalletIcon";
+export * from "./SVG";
 export * from "./WalletIcon";
