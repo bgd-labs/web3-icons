@@ -10,15 +10,12 @@ export const SVG = ({
   ...props
 }: {
   svgCode: string | undefined;
-} & ComponentProps<"svg">) => {
+} & ComponentProps<"img">) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props}>
-      <image
-        className={props.className}
-        width={props.width}
-        height={props.height}
-        href={svgCode ? `data:image/svg+xml;base64,${btoa(svgCode)}` : ""}
-      />
-    </svg>
+    <img
+      src={svgCode ? `data:image/svg+xml;base64,${btoa(svgCode)}` : ""}
+      alt={props.alt}
+      {...props}
+    />
   );
 };

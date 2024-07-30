@@ -46,7 +46,7 @@ export type WalletType = {
 export type IconComponentBaseProps = {
   mono?: boolean;
   loader?: React.JSX.Element;
-} & ComponentProps<"svg">;
+} & ComponentProps<"img">;
 
 export type ExternalComponentBaseProps = {
   mono?: boolean;
