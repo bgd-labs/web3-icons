@@ -36,42 +36,32 @@ export const DynamicIcon = ({
             // @ts-expect-error
             icon[`icon${capitalize(camelCase(iconKey.toLowerCase()))}`];
 
-          if (!iconData && githubSrc) {
-            if (!isError) {
-              return {
-                default: () => (
-                  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-                  // @ts-expect-error
-                  <InlineSVG
-                    {...props}
-                    src={githubSrc}
-                    uniqueHash={generateUniqueHash()}
-                    uniquifyIDs
-                    onError={() => setIsError(true)}
-                    loader={loader}
-                  />
-                ),
-              };
-            } else {
-              const svgCode = await import(
-                "../icons/full/build/icon-unknown.icon"
-              );
-              return {
-                default: () => (
-                  <SVG svgCode={svgCode.iconUnknown.data} {...props} />
-                ),
-              };
-            }
-          } else {
+          if (!iconData && githubSrc && !isError) {
             return {
-              default: () => <SVG svgCode={iconData.data} {...props} />,
+              default: () => (
+                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                // @ts-expect-error
+                <InlineSVG
+                  {...props}
+                  src={githubSrc}
+                  uniqueHash={generateUniqueHash()}
+                  uniquifyIDs
+                  onError={() => setIsError(true)}
+                  loader={loader}
+                />
+              ),
             };
           }
+
+          return {
+            default: () => (
+              <SVG svgCode={iconData?.data} loader={loader} {...props} />
+            ),
+          };
         });
       } catch (e) {
-        const svgCode = await import("../icons/full/build/icon-unknown.icon");
         return {
-          default: () => <SVG svgCode={svgCode.iconUnknown.data} {...props} />,
+          default: () => <SVG svgCode={undefined} loader={loader} {...props} />,
         };
       }
     },

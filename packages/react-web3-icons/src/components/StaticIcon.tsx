@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import InlineSVG from "react-inlinesvg";
 
-import { iconUnknown, Web3IconType } from "../icons/full";
+import { Web3IconType } from "../icons/full";
 import { IconComponentBaseProps } from "../utils";
 import { generateUniqueHash } from "../utils/generateUniqueHash";
 import { SVG } from "./SVG";
@@ -38,10 +38,6 @@ export const StaticIcon = ({
     );
   }, [mono, iconKey]);
 
-  if (!svgCode && (isGithubError || !githubSrc)) {
-    return <SVG svgCode={iconUnknown.data} {...props} />;
-  }
-
   if (!isGithubError && githubSrc && !svgCode) {
     return (
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -57,5 +53,5 @@ export const StaticIcon = ({
     );
   }
 
-  return <SVG svgCode={svgCode} {...props} />;
+  return <SVG svgCode={svgCode} loader={loader} {...props} />;
 };
