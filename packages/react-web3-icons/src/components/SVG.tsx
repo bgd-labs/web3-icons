@@ -13,9 +13,9 @@ export const SVG = ({
 } & ComponentProps<"img">) => {
   return (
     <img
+      {...props}
       src={svgCode ? `data:image/svg+xml;base64,${btoa(svgCode)}` : ""}
       alt={props.alt}
-      {...props}
     />
   );
 };
