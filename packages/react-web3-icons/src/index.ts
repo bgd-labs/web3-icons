@@ -1,1 +1,1 @@
-export * from "./Web3DynamicIcon";
+export * from "./components/index";

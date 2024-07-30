@@ -27,15 +27,7 @@
   },
   "homepage": "https://github.com/bgd-labs/icons/blob/main/README.md",
   "scripts": {
-    "generate": "tsx src/scripts/generate.ts && tsx src/scripts/generateReact.ts && tsx src/scripts/generateChainsReact.ts && tsx src/scripts/generateWalletsReact.ts"
-  },
-  "dependencies": {
-    "@svgr/core": "^8.1.0",
-    "@svgr/plugin-jsx": "^8.1.0",
-    "@svgr/plugin-prettier": "^8.1.0",
-    "svgo": "^3.3.2",
-    "tsx": "^4.16.2",
-    "zod": "^3.23.8"
+    "generate": "tsx src/scripts/generate.ts && svg-to-ts-files --config ./src/utils/genereteMonoTokensConfig.js && svg-to-ts-files --config ./src/utils/genereteFullTokensConfig.js"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
@@ -48,8 +40,12 @@
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "globals": "^15.8.0",
     "prettier": "^3.3.2",
+    "svg-to-ts": "^12.0.0",
+    "svgo": "^3.3.2",
+    "tsx": "^4.16.2",
     "typescript": "^5.5.3",
-    "typescript-eslint": "^7.16.0"
+    "typescript-eslint": "^7.16.0",
+    "zod": "^3.23.8"
   },
   "packageManager": "pnpm@8.15.5+sha1.a58c038faac410c947dbdb93eb30994037d0fce2"
 }

@@ -4,6 +4,7 @@ import { z } from "zod";
 
 import { generateTokenIcon } from "../utils/generateTokenIcon.ts";
 import {
+  generateIconsPack,
   getPrefix,
   processIconFile,
   readJsonFile,
@@ -13,6 +14,7 @@ import {
   IconInfoIcons,
   IconType,
   IconWithMetaType,
+  WalletType,
   WriteQueueItem,
 } from "./types.ts";
 
@@ -20,6 +22,7 @@ const ICONS_FOLDER = "src/assets";
 const OUTPUT_FOLDER = "icons";
 const MONO_SUFFIX = "_mono";
 const FULL_SUFFIX = "_full";
+const REACT_UTILS_PATH = "packages/react-web3-icons/src/utils";
 
 const IconMetaSchema = z.object({
   type: z.array(z.string()),
@@ -70,6 +73,7 @@ for (const icon of iconsArray) {
       : meta.name
         ? meta.name
         : "Unknown";
+
   const lowercasedName = name
     .split("(")
     .join("")
@@ -253,3 +257,56 @@ const iconsJsonPath = path.join(OUTPUT_FOLDER, "icons.json");
 const iconsJsonContent = JSON.stringify(iconsInfoFile, null, 2);
 fs.writeFileSync(iconsJsonPath, iconsJsonContent);
 console.log(`📋 Icons metadata file generated at ${iconsJsonPath}.`);
+
+// package utils generation
+const assets = iconsInfoFile.filter((icon) =>
+  icon.type.includes(IconType.asset),
+);
+const assetsNames: Record<string, string> = {};
+assets.forEach((item) => (assetsNames[item.symbol] = item.name));
+fs.writeFileSync(
+  `${REACT_UTILS_PATH}/assetsNames.ts`,
+  `export const assetsNames: Record<string, string> = ${JSON.stringify(assetsNames)};`,
+);
+generateIconsPack(IconType.asset, assets);
+console.log("✅ All Assets names are generated");
+
+const chains = iconsInfoFile.filter((icon) =>
+  icon.type.includes(IconType.chain),
+);
+const chainsNames: Record<string, string> = {};
+chains.forEach(
+  (item) =>
+    (chainsNames[item.chainId] = item?.chainName
+      ? item.chainName
+      : item?.name
+        ? item.name
+        : "Unknown"),
+);
+fs.writeFileSync(
+  `${REACT_UTILS_PATH}/chainsNames.ts`,
+  `export const chainsNames: Record<number, string> = ${JSON.stringify(chainsNames)};`,
+);
+generateIconsPack(IconType.chain, chains);
+console.log("✅ All Chains names are generated");
+
+const wallets = iconsInfoFile.filter((icon) =>
+  icon.type.includes(IconType.wallet),
+);
+const walletsData: Record<
+  string,
+  Pick<WalletType, "name" | "identityFlag">
+> = {};
+wallets.forEach(
+  (item) =>
+    (walletsData[item.walletName.replace(/\s/g, "").toLowerCase()] = {
+      name: item?.walletName ? item.walletName : "Unknown",
+      identityFlag: item.identityFlag,
+    }),
+);
+fs.writeFileSync(
+  `${REACT_UTILS_PATH}/walletsNames.ts`,
+  `export const wallets: Record<string, { name: string; identityFlag: string }> = ${JSON.stringify(walletsData)};`,
+);
+generateIconsPack(IconType.wallet, wallets);
+console.log("✅ All Wallets data generated");

@@ -1,5 +1,4 @@
 import { githubIconsPath } from "../constants";
-import { capitalize } from "./capitalize";
 import { IconVariant, WalletType } from "./types";
 import { wallets } from "./walletsNames";
 export const getWalletName = ({
@@ -11,11 +10,11 @@ export const getWalletName = ({
 };
 export const getWalletIconNameAndPath = ({
   walletName,
-  variant,
-}: Pick<WalletType, "walletName" | "variant">) => {
+  mono,
+}: Pick<WalletType, "walletName"> & { mono?: boolean }) => {
   const name = getWalletName({ walletName });
   return {
-    iconPathToRepo: `${githubIconsPath}/icons/${variant}/${name.replace(/\s/g, "").toLowerCase()}.svg`,
-    iconName: `${capitalize(name.replace(/\s/g, "").toLowerCase())}${capitalize(variant ?? IconVariant.Full)}`,
+    iconPathToRepo: `${githubIconsPath}/icons/${mono ? IconVariant.Mono : IconVariant.Full}/${name.replace(/\s/g, "").toLowerCase()}.svg`,
+    iconKey: name.replace(/\s/g, "").toLowerCase(),
   };
 };

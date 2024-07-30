@@ -7,3 +7,4 @@ export * from "./getChainInfo";
 export * from "./getWalletInfo";
 export * from "./getWeb3WalletName";
 export * from "./types";
+export * from "./walletsNames";

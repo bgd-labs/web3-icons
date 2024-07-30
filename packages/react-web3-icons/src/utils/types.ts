@@ -1,15 +1,7 @@
+import React, { ComponentProps } from "react";
+import { Props } from "react-inlinesvg";
+
 import { IconMetaData } from "../../../../src/scripts/types";
-
-export enum Web3IconType {
-  wallet = "wallet",
-  chain = "chain",
-  asset = "asset",
-}
-
-export type IconInfo<T> = {
-  type: Web3IconType;
-  info: T;
-};
 
 export type IconStyle = {
   mono: string;
@@ -26,8 +18,8 @@ export type IconInfoIcons = IconStyle & {
 };
 
 export enum AssetTag {
-  AToken = "A",
-  StataToken = "Stata",
+  AToken = "a",
+  StataToken = "stata",
 }
 
 export enum IconVariant {
@@ -37,24 +29,27 @@ export enum IconVariant {
 
 export interface AssetIconProps {
   symbol: string;
-  variant?: IconVariant;
-  tokenTag?: AssetTag;
+  mono?: boolean;
+  assetTag?: AssetTag;
   formatSymbol?: (symbol: string) => string;
 }
 
 export type ChainType = {
-  name: string;
+  name?: string;
   chainId: number;
-  variant?: IconVariant;
 };
 
 export type WalletType = {
   walletName: string;
   identityFlag?: string;
-  variant?: IconVariant;
 };
 
-export type ComponentsFallback = {
-  path: () => Promise<any>;
-  name: string;
+export type IconComponentBaseProps = {
+  mono?: boolean;
+  loader?: React.JSX.Element;
+} & Omit<Props, "src">;
+
+export type ExternalComponentBaseProps = {
+  mono?: boolean;
+  className?: ComponentProps<"div">["className"];
 };

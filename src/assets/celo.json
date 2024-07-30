@@ -1,0 +1,5 @@
+{
+  "type": ["chain"],
+  "chainName": "Celo",
+  "chainId": 42220
+}

@@ -1,5 +1,4 @@
 import { githubIconsPath } from "../constants";
-import { capitalize } from "./capitalize";
 import { chainsNames } from "./chainsNames";
 import { ChainType, IconVariant } from "./types";
 export const getChainName = ({ chainId }: Pick<ChainType, "chainId">) => {
@@ -7,11 +6,11 @@ export const getChainName = ({ chainId }: Pick<ChainType, "chainId">) => {
 };
 export const getChainIconNameAndPath = ({
   chainId,
-  variant,
-}: Pick<ChainType, "chainId"> & { variant?: IconVariant }) => {
+  mono,
+}: Pick<ChainType, "chainId"> & { mono?: boolean }) => {
   const chainName = getChainName({ chainId });
   return {
-    iconPathToRepo: `${githubIconsPath}/icons/${variant}/${chainName.replace(/\s/g, "").toLowerCase()}.svg`,
-    iconName: `${capitalize(chainName.replace(/\s/g, "").toLowerCase())}${capitalize(variant ?? IconVariant.Full)}`,
+    iconPathToRepo: `${githubIconsPath}/icons/${mono ? IconVariant.Mono : IconVariant.Full}/${chainName.replace(/\s/g, "").toLowerCase()}.svg`,
+    iconKey: chainName.replace(/\s/g, "").toLowerCase(),
   };
 };
