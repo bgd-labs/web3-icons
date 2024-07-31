@@ -52,5 +52,5 @@ jobs:
           json_array=($(jq -r '.[]' ".github/outputs/all_changed_files.json"))
           for i in "${json_array[@]}"
           do
-            yarn ci:upload $i
+            pnpm ci:upload $i
           done
