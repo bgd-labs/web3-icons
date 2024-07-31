@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.3](https://github.com/bgd-labs/icons/compare/react-web3-icons@v1.4.2...react-web3-icons@v1.4.3) (2024-07-31)
+
+
+### Bug Fixes
+
+* deploy to ipfs ([18434f0](https://github.com/bgd-labs/icons/commit/18434f0b99ebcef7d9068b3305f1f96b8d2eab67))
+* deploy to ipfs ([2a5d33b](https://github.com/bgd-labs/icons/commit/2a5d33be5b5cd26f1c6665a3c8397340abba1ec6))
+* formatting ([29e1778](https://github.com/bgd-labs/icons/commit/29e177836a26393fef0ca2f49b57a2600d249d02))
+
 ## [1.4.2](https://github.com/bgd-labs/icons/compare/react-web3-icons@v1.4.1...react-web3-icons@v1.4.2) (2024-07-31)
 
 
