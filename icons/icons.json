@@ -122,6 +122,28 @@
   },
   {
     "type": [
+      "chain"
+    ],
+    "chainName": "Arbitrum Goerli",
+    "chainId": 421613,
+    "icons": {
+      "mono": "icons/mono/arbitrumgoerli.svg",
+      "full": "icons/full/arbitrumgoerli.svg"
+    }
+  },
+  {
+    "type": [
+      "chain"
+    ],
+    "chainName": "Arbitrum Sepolia",
+    "chainId": 421614,
+    "icons": {
+      "mono": "icons/mono/arbitrumsepolia.svg",
+      "full": "icons/full/arbitrumsepolia.svg"
+    }
+  },
+  {
+    "type": [
       "wallet"
     ],
     "walletName": "AToken Wallet",
@@ -129,6 +151,17 @@
     "icons": {
       "mono": "icons/mono/atokenwallet.svg",
       "full": "icons/full/atokenwallet.svg"
+    }
+  },
+  {
+    "type": [
+      "chain"
+    ],
+    "chainName": "Avalanche Testnet",
+    "chainId": 43113,
+    "icons": {
+      "mono": "icons/mono/avalanchetestnet.svg",
+      "full": "icons/full/avalanchetestnet.svg"
     }
   },
   {
@@ -877,6 +910,17 @@
     "icons": {
       "mono": "icons/mono/exoduswallet.svg",
       "full": "icons/full/exoduswallet.svg"
+    }
+  },
+  {
+    "type": [
+      "chain"
+    ],
+    "chainName": "Fantom Testnet",
+    "chainId": 4002,
+    "icons": {
+      "mono": "icons/mono/fantomtestnet.svg",
+      "full": "icons/full/fantomtestnet.svg"
     }
   },
   {
@@ -1645,6 +1689,17 @@
   },
   {
     "type": [
+      "chain"
+    ],
+    "chainName": "Mumbai",
+    "chainId": 80001,
+    "icons": {
+      "mono": "icons/mono/mumbai.svg",
+      "full": "icons/full/mumbai.svg"
+    }
+  },
+  {
+    "type": [
       "wallet"
     ],
     "walletName": "MyKey Wallet",
@@ -1729,6 +1784,17 @@
     "icons": {
       "mono": "icons/mono/operawallet.svg",
       "full": "icons/full/operawallet.svg"
+    }
+  },
+  {
+    "type": [
+      "chain"
+    ],
+    "chainName": "Optimism Testnet",
+    "chainId": 420,
+    "icons": {
+      "mono": "icons/mono/optimismtestnet.svg",
+      "full": "icons/full/optimismtestnet.svg"
     }
   },
   {
@@ -2055,6 +2121,17 @@
   },
   {
     "type": [
+      "chain"
+    ],
+    "chainName": "Scroll Testnet",
+    "chainId": 534351,
+    "icons": {
+      "mono": "icons/mono/scrolltestnet.svg",
+      "full": "icons/full/scrolltestnet.svg"
+    }
+  },
+  {
+    "type": [
       "asset"
     ],
     "name": "Stader",
@@ -2103,6 +2180,17 @@
         "mono": "icons/mono/statasdai.svg",
         "full": "icons/full/statasdai.svg"
       }
+    }
+  },
+  {
+    "type": [
+      "chain"
+    ],
+    "chainName": "Sepolia",
+    "chainId": 11155111,
+    "icons": {
+      "mono": "icons/mono/sepolia.svg",
+      "full": "icons/full/sepolia.svg"
     }
   },
   {
