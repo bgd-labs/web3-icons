@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/bgd-labs/icons/compare/react-web3-icons@v1.4.1...react-web3-icons@v1.4.2) (2024-07-31)
+
+
+### Bug Fixes
+
+* added testnet chains icons ([e2023a9](https://github.com/bgd-labs/icons/commit/e2023a971c0204cbde2918e07115cd9a8ff14941))
+
 ## [1.4.1](https://github.com/bgd-labs/icons/compare/react-web3-icons@v1.4.0...react-web3-icons@v1.4.1) (2024-07-30)
 
 
