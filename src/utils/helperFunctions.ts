@@ -59,7 +59,7 @@ export const svgoOptimizeWithPlugins = (
       {
         name: "sortAttrs",
         params: {
-          xmlnsOrder: "alphabetical",
+          xmlnsOrder: "front",
         },
       },
     ],
