@@ -8,6 +8,14 @@ const SYMBOLS_MAP: Record<string, string> = {
   "BTC.b": "BTC",
   fUSDT: "USDT",
   "G-UNI": "GUNI",
+  "UNI-V2": "UNI",
+  // harmony
+  "1DAI": "DAI",
+  "1USDC": "USDC",
+  "1USDT": "USDT",
+  "1AAVE": "AAVE",
+  "1ETH": "ETH",
+  "1WBTC": "WBTC",
   // old aave amm market symbols
   BPTBALWETH: "BPT_BAL_WETH",
   BPTWBTCWETH: "BPT_WBTC_WETH",
