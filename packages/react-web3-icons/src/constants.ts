@@ -1,2 +1,2 @@
 export const githubIconsPath =
-  "https://raw.githubusercontent.com/bgd-labs/icons/main/";
+  "https://raw.githubusercontent.com/bgd-labs/web3-icons/main";

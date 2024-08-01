@@ -1,11 +1,11 @@
 "use client";
 
+import { githubIconsPath } from "@bgd-labs/react-web3-icons/dist/constants";
 import { AssetTag, IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 
 import { IconCard } from "@/components/IconCard";
 import { AssetIcon } from "@/components/Web3Icons/AssetIcon";
-import { githubIconsPath } from "@/utils/constants";
 
 import { IconInfoIcons } from "../../../../src/scripts/types";
 
@@ -39,7 +39,7 @@ export const AssetIconCard = ({
 
   return (
     <IconCard
-      svgPath={`${githubIconsPath}${iconPath}`}
+      svgPath={`${githubIconsPath}/${iconPath}`}
       name={`${name}${chainName ? `(${chainName})` : ""}`}
       subComponent={
         <div className="font-mono text-xs text-gray-400">

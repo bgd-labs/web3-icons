@@ -6,6 +6,7 @@ export default defineConfig([
     entry: [
       "./src/index.ts",
       "./src/utils/index.ts",
+      "./src/constants.ts",
       "./src/icons/full/index.ts",
       "./src/icons/mono/index.ts",
       "./src/iconsPacks/assetsIconsPack.ts",

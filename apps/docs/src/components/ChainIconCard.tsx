@@ -1,5 +1,6 @@
 "use client";
 
+import { githubIconsPath } from "@bgd-labs/react-web3-icons/dist/constants";
 import {
   IconInfoIcons,
   IconVariant,
@@ -8,7 +9,6 @@ import { useState } from "react";
 
 import { IconCard } from "@/components/IconCard";
 import { ChainIcon } from "@/components/Web3Icons/ChainIcon";
-import { githubIconsPath } from "@/utils/constants";
 
 export const ChainIconCard = ({
   name,
@@ -22,7 +22,7 @@ export const ChainIconCard = ({
   const [variant, setVariant] = useState(IconVariant.Full);
   return (
     <IconCard
-      svgPath={`${githubIconsPath}${icons[variant]}`}
+      svgPath={`${githubIconsPath}/${icons[variant]}`}
       name={name}
       subName={chainId.toString()}
       fileName={name}
