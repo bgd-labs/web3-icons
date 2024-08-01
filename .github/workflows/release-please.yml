@@ -25,6 +25,6 @@ jobs:
           tag-separator: '@'
 
   release-node:
-    uses: bgd-labs/icons/.github/workflows/release-node.yml@main
+    uses: bgd-labs/web3-icons/.github/workflows/release-node.yml@main
     secrets:
       NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
