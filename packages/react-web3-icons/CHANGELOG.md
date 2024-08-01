@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.4](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.4.3...react-web3-icons@v1.4.4) (2024-08-01)
+
+
+### Bug Fixes
+
+* constants ([26ec4d1](https://github.com/bgd-labs/web3-icons/commit/26ec4d1214b0fb0c31bb4d65547764a4d8c7a485))
+
 ## [1.4.3](https://github.com/bgd-labs/icons/compare/react-web3-icons@v1.4.2...react-web3-icons@v1.4.3) (2024-07-31)
 
 
