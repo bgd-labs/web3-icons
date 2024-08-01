@@ -27,11 +27,9 @@
   },
   "homepage": "https://github.com/bgd-labs/icons/blob/main/README.md",
   "scripts": {
-    "generate": "tsx src/scripts/generate.ts && svg-to-ts-files --config ./src/utils/genereteMonoTokensConfig.js && svg-to-ts-files --config ./src/utils/genereteFullTokensConfig.js",
-    "ci:upload": "tsx src/scripts/uploadToIpfs.ts"
+    "generate": "tsx src/scripts/generate.ts && svg-to-ts-files --config ./src/utils/genereteMonoTokensConfig.js && svg-to-ts-files --config ./src/utils/genereteFullTokensConfig.js"
   },
   "devDependencies": {
-    "@bgd-labs/js-utils": "1.3.1-f95274c470a773ac8d045db51b6af0769e743f0a.0",
     "@types/node": "^20.14.10",
     "eslint": "^9.6.0",
     "eslint-config-prettier": "^9.1.0",
