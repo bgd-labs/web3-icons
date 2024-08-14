@@ -4,5 +4,5 @@ export const iconZealwallet: {
   data: string;
 } = {
   name: 'zealwallet',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><rect width="32" height="32" fill="#0FF" rx="10.333"/><path fill="#0B1821" d="M7.44 24.56h17.12v-7.704H10.864A3.424 3.424 0 0 0 7.44 20.28zM24.56 7.44H7.44v7.704h13.696a3.424 3.424 0 0 0 3.424-3.424z"/></svg>`,
+  data: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><path fill="#75FAFC" d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16"/><path fill="#0E1820" d="M7.37 24.56h17.12v-7.7h-13.7c-1.89 0-3.42 1.53-3.42 3.42zM24.49 7.44H7.37v7.7h13.7c1.89 0 3.42-1.53 3.42-3.42z"/></svg>`,
 };

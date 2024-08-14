@@ -4,5 +4,5 @@ export const iconCoinbasewallet: {
   data: string;
 } = {
   name: 'coinbasewallet',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="32" height="32" baseProfile="tiny" overflow="visible" version="1.2" viewBox="0 0 1024 1024"><path fill="currentColor" d="M512 0c282.8 0 512 229.2 512 512s-229.2 512-512 512S0 794.8 0 512 229.2 0 512 0"/><path fill="#FFF" d="M512.1 692c-99.4 0-180-80.5-180-180s80.6-180 180-180c89.1 0 163.1 65 177.3 150h181.3c-15.3-184.8-170-330-358.7-330-198.8 0-360 161.2-360 360s161.2 360 360 360c188.7 0 343.4-145.2 358.7-330H689.3c-14.3 85-88.1 150-177.2 150"/></svg>`,
+  data: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M16 0C7.16 0 0 7.16 0 16s7.16 16 16 16 16-7.16 16-16S24.84 0 16 0m.01 21.63c2.78 0 5.09-2.03 5.54-4.69h5.67c-.48 5.78-5.31 10.31-11.21 10.31C9.8 27.25 4.76 22.21 4.76 16S9.8 4.75 16.01 4.75s10.73 4.54 11.21 10.31h-5.67a5.619 5.619 0 0 0-11.16.93c0 3.1 2.52 5.62 5.62 5.62z"/></svg>`,
 };

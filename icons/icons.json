@@ -2479,6 +2479,32 @@
     "type": [
       "asset"
     ],
+    "name": "Angle Staked USD",
+    "symbol": "stusd",
+    "symbolAliases": [
+      "stUSD"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/stusd.svg",
+      "full": "icons/full/stusd.svg",
+      "aToken": {
+        "mono": "icons/mono/astusd.svg",
+        "full": "icons/full/astusd.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statastusd.svg",
+        "full": "icons/full/statastusd.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "name": "Synth sUSD",
     "symbol": "susd",
     "symbolAliases": [
