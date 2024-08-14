@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.5](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.4.4...react-web3-icons@v1.4.5) (2024-08-14)
+
+
+### Bug Fixes
+
+* update wallets icons ([8826e6f](https://github.com/bgd-labs/web3-icons/commit/8826e6f857a0a4146ce23d1e0fb5c09a4224dabe))
+
 ## [1.4.4](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.4.3...react-web3-icons@v1.4.4) (2024-08-01)
 
 
