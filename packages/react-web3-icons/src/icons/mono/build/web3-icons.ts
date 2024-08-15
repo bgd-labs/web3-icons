@@ -113,6 +113,7 @@ export type Web3IconType =
   | 'axdai'
   | 'axsushi'
   | 'ayfi'
+  | 'azk'
   | 'azrx'
   | 'bal'
   | 'base'
@@ -321,6 +322,7 @@ export type Web3IconType =
   | 'stataxdai'
   | 'stataxsushi'
   | 'statayfi'
+  | 'statazk'
   | 'statazrx'
   | 'statuswallet'
   | 'steth'
@@ -366,6 +368,7 @@ export type Web3IconType =
   | 'yfi'
   | 'zealwallet'
   | 'zerionwallet'
+  | 'zk'
   | 'zksyncera'
   | 'zrx';
 export interface IWeb3Icon {

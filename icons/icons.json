@@ -3261,6 +3261,32 @@
   },
   {
     "type": [
+      "asset"
+    ],
+    "name": "ZKsync",
+    "symbol": "zk",
+    "symbolAliases": [
+      "ZK"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/zk.svg",
+      "full": "icons/full/zk.svg",
+      "aToken": {
+        "mono": "icons/mono/azk.svg",
+        "full": "icons/full/azk.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statazk.svg",
+        "full": "icons/full/statazk.svg"
+      }
+    }
+  },
+  {
+    "type": [
       "chain"
     ],
     "chainName": "zkSync Era",

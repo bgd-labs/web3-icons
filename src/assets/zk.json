@@ -1,0 +1,12 @@
+{
+  "type": ["asset"],
+  "name": "ZKsync",
+  "symbol": "zk",
+  "symbolAliases": [
+    "ZK"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
