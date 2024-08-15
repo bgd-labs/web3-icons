@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.6](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.4.5...react-web3-icons@v1.4.6) (2024-08-15)
+
+
+### Bug Fixes
+
+* update wallet icons and added `zk` asset icon ([8f30ab0](https://github.com/bgd-labs/web3-icons/commit/8f30ab0d145d26fc197efb992bd9aef9bd183a44))
+
 ## [1.4.5](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.4.4...react-web3-icons@v1.4.5) (2024-08-14)
 
 
