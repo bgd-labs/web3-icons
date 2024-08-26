@@ -6,7 +6,7 @@ import InlineSVG from "react-inlinesvg";
 import { Web3IconType } from "../icons/full";
 import { IconComponentBaseProps } from "../utils";
 import { generateUniqueHash } from "../utils/generateUniqueHash";
-import { SVG } from "./SVG";
+import { formatMonoSvgCode, SVG } from "./SVG";
 
 /**
  * Wrapper for get icons directly from pack
@@ -53,5 +53,11 @@ export const StaticIcon = ({
     );
   }
 
-  return <SVG svgCode={svgCode} loader={loader} {...props} />;
+  return (
+    <SVG
+      svgCode={formatMonoSvgCode({ mono, svgCode, ...props })}
+      loader={loader}
+      {...props}
+    />
+  );
 };

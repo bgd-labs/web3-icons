@@ -1,6 +1,7 @@
 {
   "include": ["./src"],
   "compilerOptions": {
+    "target": "es2021",
     "esModuleInterop": true,
     "jsx": "react",
     "module": "CommonJS",

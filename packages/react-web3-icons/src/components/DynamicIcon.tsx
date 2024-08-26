@@ -8,7 +8,7 @@ import InlineSVG from "react-inlinesvg";
 import { Web3IconType } from "../icons/full";
 import { capitalize, IconComponentBaseProps } from "../utils";
 import { generateUniqueHash } from "../utils/generateUniqueHash";
-import { SVG } from "./SVG";
+import { formatMonoSvgCode, SVG } from "./SVG";
 
 /**
  * Wrapper for get icons dynamically
@@ -55,7 +55,15 @@ export const DynamicIcon = ({
 
           return {
             default: () => (
-              <SVG svgCode={iconData?.data} loader={loader} {...props} />
+              <SVG
+                svgCode={formatMonoSvgCode({
+                  mono,
+                  svgCode: iconData?.data,
+                  ...props,
+                })}
+                loader={loader}
+                {...props}
+              />
             ),
           };
         });
