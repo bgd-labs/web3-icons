@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.7](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.4.6...react-web3-icons@v1.4.7) (2024-08-27)
+
+
+### Bug Fixes
+
+* added the ability to set the color of mono icons ([#33](https://github.com/bgd-labs/web3-icons/issues/33)) ([369bef3](https://github.com/bgd-labs/web3-icons/commit/369bef3293c4567767bb0568b824e3c423d28e16))
+
 ## [1.4.6](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.4.5...react-web3-icons@v1.4.6) (2024-08-15)
 
 
