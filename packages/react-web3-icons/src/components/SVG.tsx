@@ -3,6 +3,20 @@
 import loadable from "@loadable/component";
 import React, { ComponentProps } from "react";
 
+type Props = {
+  svgCode: string | undefined;
+} & ComponentProps<"img">;
+
+export const formatMonoSvgCode = ({
+  svgCode,
+  mono,
+  ...props
+}: { mono?: boolean } & Props) => {
+  return mono && props.color && svgCode
+    ? svgCode.replaceAll("currentColor", props.color)
+    : svgCode;
+};
+
 const Image = ({
   svgCode,
   ...props
@@ -26,10 +40,7 @@ export const SVG = ({
   svgCode,
   loader,
   ...props
-}: {
-  svgCode: string | undefined;
-  loader?: React.JSX.Element;
-} & ComponentProps<"img">) => {
+}: { loader?: React.JSX.Element } & Props) => {
   if (!svgCode) {
     const Icon = loadable(
       async () => {
