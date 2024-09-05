@@ -1,7 +1,15 @@
 import { githubIconsPath } from "../constants";
+import { assetsAliases } from "./assetsAliases";
 import { assetsNames } from "./assetsNames";
 import { formatSymbolForIcon } from "./formatSymbolForIcon";
 import { AssetIconProps, IconVariant } from "./types";
+export const getHumanReadableAssetSymbol = (symbol: string) => {
+  const assetInfo = assetsAliases[symbol.toLowerCase()];
+  if (assetInfo) {
+    return `${assetInfo.tokenTag}${assetInfo.iconSymbol}`;
+  }
+  return symbol;
+};
 export const getAssetName = ({
   symbol,
   formatSymbol,
