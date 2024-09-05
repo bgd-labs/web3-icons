@@ -3,7 +3,13 @@
   "name": "Gho Token",
   "symbol": "gho",
   "symbolAliases": [
-    "GHO"
+    "aEthGHO",
+    "variableDebtEthGHO",
+    "GHO",
+    "stataEthGHO",
+    "aArbGHO",
+    "variableDebtArbGHO",
+    "stataArbGHO"
   ],
   "variations": [
     "aToken",

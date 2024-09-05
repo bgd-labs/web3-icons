@@ -3,7 +3,10 @@
   "name": "Ethena Staked USDe",
   "symbol": "susde",
   "symbolAliases": [
-    "sUSDe"
+    "aEthsUSDe",
+    "variableDebtEthsUSDe",
+    "sUSDe",
+    "stataEthsUSDe"
   ],
   "variations": [
     "aToken",

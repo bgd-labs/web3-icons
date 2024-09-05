@@ -3,7 +3,13 @@
   "name": "Savings Dai",
   "symbol": "sdai",
   "symbolAliases": [
-    "sDAI"
+    "sDAI",
+    "aEthsDAI",
+    "variableDebtEthsDAI",
+    "stataEthsDAI",
+    "aGnosDAI",
+    "variableDebtGnosDAI",
+    "stataGnosDAI"
   ],
   "variations": [
     "aToken",

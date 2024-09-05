@@ -3,7 +3,10 @@
   "name": "PayPal USD",
   "symbol": "pyusd",
   "symbolAliases": [
-    "PYUSD"
+    "aEthPYUSD",
+    "variableDebtEthPYUSD",
+    "PYUSD",
+    "stataEthPYUSD"
   ],
   "variations": [
     "aToken",

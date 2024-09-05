@@ -3,8 +3,14 @@
   "name": "Wrapped ETH",
   "symbol": "weth",
   "symbolAliases": [
+    "WETH.e",
+    "stataAvaWETH",
     "WETH",
-    "WETH.e"
+    "aScrWETH",
+    "variableDebtScrWETH",
+    "stataScrWETH",
+    "aEthLidoWETH",
+    "variableDebtEthLidoWETH"
   ],
   "variations": [
     "aToken",

@@ -2,7 +2,7 @@
   "type": ["asset"],
   "name": "Aave [OLD]",
   "symbol": "lend",
-  "symbolAliases": [],
+  "symbolAliases": ["LEND"],
   "variations": [
     "aToken",
     "stataToken"

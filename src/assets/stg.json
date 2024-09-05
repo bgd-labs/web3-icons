@@ -3,6 +3,8 @@
   "name": "StargateToken",
   "symbol": "stg",
   "symbolAliases": [
+    "aEthSTG",
+    "variableDebtEthSTG",
     "STG"
   ],
   "variations": [

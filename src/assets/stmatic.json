@@ -3,7 +3,10 @@
   "name": "Staked MATIC (PoS)",
   "symbol": "stmatic",
   "symbolAliases": [
-    "stMATIC"
+    "aPolSTMATIC",
+    "variableDebtPolSTMATIC",
+    "stMATIC",
+    "stataPolSTMATIC"
   ],
   "variations": [
     "aToken",

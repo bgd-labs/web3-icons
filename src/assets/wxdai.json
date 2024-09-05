@@ -3,7 +3,10 @@
   "name": "Wrapped XDAI",
   "symbol": "wxdai",
   "symbolAliases": [
-    "WXDAI"
+    "aGnoWXDAI",
+    "variableDebtGnoWXDAI",
+    "WXDAI",
+    "stataGnoWXDAI"
   ],
   "variations": [
     "aToken",

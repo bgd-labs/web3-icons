@@ -3,7 +3,10 @@
   "name": "Lido DAO Token",
   "symbol": "ldo",
   "symbolAliases": [
-    "LDO"
+    "LDO",
+    "aEthLDO",
+    "variableDebtEthLDO",
+    "stataEthLDO"
   ],
   "variations": [
     "aToken",

@@ -3,6 +3,9 @@
   "name": "PancakeSwap Token",
   "symbol": "cake",
   "symbolAliases": [
+    "stataBnbCAKE",
+    "aBnbCAKE",
+    "variableDebtBnbCAKE",
     "Cake"
   ],
   "variations": [

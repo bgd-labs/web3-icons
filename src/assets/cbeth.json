@@ -3,7 +3,13 @@
   "name": "Coinbase Wrapped Staked ETH",
   "symbol": "cbeth",
   "symbolAliases": [
-    "cbETH"
+    "aEthcbETH",
+    "variableDebtEthcbETH",
+    "cbETH",
+    "stataEthcbETH",
+    "aBascbETH",
+    "variableDebtBascbETH",
+    "stataBascbETH"
   ],
   "variations": [
     "aToken",

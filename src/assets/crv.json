@@ -3,7 +3,13 @@
   "name": "Curve DAO Token",
   "symbol": "crv",
   "symbolAliases": [
-    "CRV"
+    "aEthCRV",
+    "variableDebtEthCRV",
+    "CRV",
+    "stataEthCRV",
+    "stataPolCRV",
+    "aPolCRV",
+    "variableDebtPolCRV"
   ],
   "variations": [
     "aToken",

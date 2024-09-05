@@ -3,7 +3,10 @@
   "name": "First Digital USD",
   "symbol": "fdusd",
   "symbolAliases": [
-    "FDUSD"
+    "FDUSD",
+    "stataBnbFDUSD",
+    "aBnbFDUSD",
+    "variableDebtBnbFDUSD"
   ],
   "variations": [
     "aToken",

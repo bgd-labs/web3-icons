@@ -4,6 +4,7 @@
   "symbol": "btc",
   "symbolAliases": [
     "BTCB",
+    "BTC",
     "BTC.b"
   ],
   "variations": [

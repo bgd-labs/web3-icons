@@ -3,7 +3,9 @@
   "name": "Kyber Network Crystal v2",
   "symbol": "knc",
   "symbolAliases": [
-    "KNC"
+    "KNC",
+    "aEthKNC",
+    "variableDebtEthKNC"
   ],
   "variations": [
     "aToken",

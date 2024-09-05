@@ -3,7 +3,10 @@
   "name": "Rocket Pool Protocol",
   "symbol": "rpl",
   "symbolAliases": [
-    "RPL"
+    "aEthRPL",
+    "variableDebtEthRPL",
+    "RPL",
+    "stataEthRPL"
   ],
   "variations": [
     "aToken",

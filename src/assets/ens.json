@@ -3,7 +3,10 @@
   "name": "Ethereum Name Service",
   "symbol": "ens",
   "symbolAliases": [
-    "ENS"
+    "ENS",
+    "aEthENS",
+    "variableDebtEthENS",
+    "stataEthENS"
   ],
   "variations": [
     "aToken",

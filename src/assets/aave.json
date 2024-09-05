@@ -4,7 +4,8 @@
   "symbol": "aave",
   "symbolAliases": [
     "AAVE",
-    "AAVE.e"
+    "AAVE.e",
+    "stataAvaAAVE"
   ],
   "variations": [
     "aToken",

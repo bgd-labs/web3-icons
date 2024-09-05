@@ -3,7 +3,10 @@
   "name": "Ethena USDe",
   "symbol": "usde",
   "symbolAliases": [
-    "USDe"
+    "aEthUSDe",
+    "variableDebtEthUSDe",
+    "USDe",
+    "stataEthUSDe"
   ],
   "variations": [
     "aToken",

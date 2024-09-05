@@ -3,7 +3,10 @@
   "name": "Jarvis Synthetic Euro",
   "symbol": "jeur",
   "symbolAliases": [
-    "jEUR"
+    "aPolJEUR",
+    "variableDebtPolJEUR",
+    "jEUR",
+    "stataPolJEUR"
   ],
   "variations": [
     "aToken",

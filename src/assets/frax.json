@@ -3,7 +3,16 @@
   "name": "Frax",
   "symbol": "frax",
   "symbolAliases": [
-    "FRAX"
+    "FRAX",
+    "aEthFRAX",
+    "variableDebtEthFRAX",
+    "stataEthFRAX",
+    "aArbFRAX",
+    "variableDebtArbFRAX",
+    "stataArbFRAX",
+    "aAvaFRAX",
+    "variableDebtAvaFRAX",
+    "stataAvaFRAX"
   ],
   "variations": [
     "aToken",

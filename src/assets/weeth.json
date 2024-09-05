@@ -3,7 +3,16 @@
   "name": "Wrapped eETH",
   "symbol": "weeth",
   "symbolAliases": [
-    "weETH"
+    "aEthweETH",
+    "variableDebtEthweETH",
+    "weETH",
+    "aBasweETH",
+    "variableDebtBasweETH",
+    "stataBasweETH",
+    "aArbweETH",
+    "variableDebtArbweETH",
+    "variableDebtScrweETH",
+    "aScrweETH"
   ],
   "variations": [
     "aToken",

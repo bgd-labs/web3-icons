@@ -8,7 +8,10 @@
     "walletName": "1inch Wallet",
     "symbol": "1inch",
     "symbolAliases": [
-      "1INCH"
+      "1INCH",
+      "aEth1INCH",
+      "variableDebtEth1INCH",
+      "stataEth1INCH"
     ],
     "variations": [
       "aToken",
@@ -36,7 +39,8 @@
     "symbol": "aave",
     "symbolAliases": [
       "AAVE",
-      "AAVE.e"
+      "AAVE.e",
+      "stataAvaAAVE"
     ],
     "variations": [
       "aToken",
@@ -101,7 +105,10 @@
     "name": "Arbitrum",
     "symbol": "arb",
     "symbolAliases": [
-      "ARB"
+      "aArbARB",
+      "variableDebtArbARB",
+      "ARB",
+      "stataArbARB"
     ],
     "variations": [
       "aToken",
@@ -199,7 +206,12 @@
     "name": "Balancer",
     "symbol": "bal",
     "symbolAliases": [
-      "BAL"
+      "aEthBAL",
+      "variableDebtEthBAL",
+      "BAL",
+      "aPolBAL",
+      "variableDebtPolBAL",
+      "stataPolBAL"
     ],
     "variations": [
       "aToken",
@@ -311,7 +323,10 @@
     "walletName": "Binance Smart Wallet",
     "symbol": "wbnb",
     "symbolAliases": [
-      "WBNB"
+      "aBnbWBNB",
+      "variableDebtBnbWBNB",
+      "WBNB",
+      "stataBnbWBNB"
     ],
     "variations": [
       "aToken",
@@ -413,6 +428,7 @@
     "symbol": "btc",
     "symbolAliases": [
       "BTCB",
+      "BTC",
       "BTC.b"
     ],
     "variations": [
@@ -465,6 +481,9 @@
     "name": "PancakeSwap Token",
     "symbol": "cake",
     "symbolAliases": [
+      "stataBnbCAKE",
+      "aBnbCAKE",
+      "variableDebtBnbCAKE",
       "Cake"
     ],
     "variations": [
@@ -491,7 +510,13 @@
     "name": "Coinbase Wrapped Staked ETH",
     "symbol": "cbeth",
     "symbolAliases": [
-      "cbETH"
+      "aEthcbETH",
+      "variableDebtEthcbETH",
+      "cbETH",
+      "stataEthcbETH",
+      "aBascbETH",
+      "variableDebtBascbETH",
+      "stataBascbETH"
     ],
     "variations": [
       "aToken",
@@ -550,7 +575,13 @@
     "name": "Curve DAO Token",
     "symbol": "crv",
     "symbolAliases": [
-      "CRV"
+      "aEthCRV",
+      "variableDebtEthCRV",
+      "CRV",
+      "stataEthCRV",
+      "stataPolCRV",
+      "aPolCRV",
+      "variableDebtPolCRV"
     ],
     "variations": [
       "aToken",
@@ -576,7 +607,10 @@
     "name": "Curve.Fi USD Stablecoin",
     "symbol": "crvusd",
     "symbolAliases": [
-      "crvUSD"
+      "aEthcrvUSD",
+      "variableDebtEthcrvUSD",
+      "crvUSD",
+      "stataEthcrvUSD"
     ],
     "variations": [
       "aToken",
@@ -630,7 +664,11 @@
     "symbolAliases": [
       "DAI",
       "m.DAI",
-      "DAI.e"
+      "DAI.e",
+      "stataAvaDAI",
+      "aMetmDAI",
+      "variableDebtMetmDAI",
+      "stataMetmDAI"
     ],
     "variations": [
       "aToken",
@@ -678,6 +716,9 @@
     "name": "DefiPulse Index",
     "symbol": "dpi",
     "symbolAliases": [
+      "stataPolDPI",
+      "aPolDPI",
+      "variableDebtPolDPI",
       "DPI"
     ],
     "variations": [
@@ -741,7 +782,10 @@
     "name": "Ethereum Name Service",
     "symbol": "ens",
     "symbolAliases": [
-      "ENS"
+      "ENS",
+      "aEthENS",
+      "variableDebtEthENS",
+      "stataEthENS"
     ],
     "variations": [
       "aToken",
@@ -767,7 +811,10 @@
     "name": "Ethereum",
     "symbol": "eth",
     "symbolAliases": [
-      "ETH"
+      "aBnbETH",
+      "variableDebtBnbETH",
+      "ETH",
+      "stataBnbETH"
     ],
     "variations": [
       "aToken",
@@ -804,7 +851,10 @@
     "name": "Stader ETHx",
     "symbol": "ethx",
     "symbolAliases": [
-      "ETHx"
+      "aEthETHx",
+      "variableDebtEthETHx",
+      "ETHx",
+      "stataEthETHx"
     ],
     "variations": [
       "aToken",
@@ -830,7 +880,10 @@
     "name": "EURA (agEUR)",
     "symbol": "eura",
     "symbolAliases": [
-      "EURA"
+      "EURA",
+      "aPolAGEUR",
+      "variableDebtPolAGEUR",
+      "stataPolAGEUR"
     ],
     "variations": [
       "aToken",
@@ -856,7 +909,10 @@
     "name": "Monerium EUR emoney",
     "symbol": "eure",
     "symbolAliases": [
-      "EURe"
+      "aGnoEURe",
+      "variableDebtGnoEURe",
+      "EURe",
+      "stataGnoEURe"
     ],
     "variations": [
       "aToken",
@@ -882,7 +938,13 @@
     "name": "STASIS EURS Token",
     "symbol": "eurs",
     "symbolAliases": [
-      "EURS"
+      "aPolEURS",
+      "variableDebtPolEURS",
+      "EURS",
+      "stataPolEURS",
+      "aArbEURS",
+      "variableDebtArbEURS",
+      "stataArbEURS"
     ],
     "variations": [
       "aToken",
@@ -930,7 +992,10 @@
     "name": "First Digital USD",
     "symbol": "fdusd",
     "symbolAliases": [
-      "FDUSD"
+      "FDUSD",
+      "stataBnbFDUSD",
+      "aBnbFDUSD",
+      "variableDebtBnbFDUSD"
     ],
     "variations": [
       "aToken",
@@ -993,7 +1058,16 @@
     "name": "Frax",
     "symbol": "frax",
     "symbolAliases": [
-      "FRAX"
+      "FRAX",
+      "aEthFRAX",
+      "variableDebtEthFRAX",
+      "stataEthFRAX",
+      "aArbFRAX",
+      "variableDebtArbFRAX",
+      "stataArbFRAX",
+      "aAvaFRAX",
+      "variableDebtAvaFRAX",
+      "stataAvaFRAX"
     ],
     "variations": [
       "aToken",
@@ -1059,6 +1133,8 @@
     "name": "Frax Share",
     "symbol": "fxs",
     "symbolAliases": [
+      "aEthFXS",
+      "variableDebtEthFXS",
       "FXS"
     ],
     "variations": [
@@ -1096,7 +1172,13 @@
     "name": "Gho Token",
     "symbol": "gho",
     "symbolAliases": [
-      "GHO"
+      "aEthGHO",
+      "variableDebtEthGHO",
+      "GHO",
+      "stataEthGHO",
+      "aArbGHO",
+      "variableDebtArbGHO",
+      "stataArbGHO"
     ],
     "variations": [
       "aToken",
@@ -1122,7 +1204,10 @@
     "name": "Aavegotchi GHST",
     "symbol": "ghst",
     "symbolAliases": [
-      "GHST"
+      "aPolGHST",
+      "variableDebtPolGHST",
+      "GHST",
+      "stataPolGHST"
     ],
     "variations": [
       "aToken",
@@ -1148,6 +1233,9 @@
     "name": "Gnosis Token on xDai",
     "symbol": "gno",
     "symbolAliases": [
+      "aGnoGNO",
+      "variableDebtGnoGNO",
+      "stataGnoGNO",
       "GNO"
     ],
     "variations": [
@@ -1318,7 +1406,10 @@
     "name": "Jarvis Synthetic Euro",
     "symbol": "jeur",
     "symbolAliases": [
-      "jEUR"
+      "aPolJEUR",
+      "variableDebtPolJEUR",
+      "jEUR",
+      "stataPolJEUR"
     ],
     "variations": [
       "aToken",
@@ -1344,7 +1435,9 @@
     "name": "Kyber Network Crystal v2",
     "symbol": "knc",
     "symbolAliases": [
-      "KNC"
+      "KNC",
+      "aEthKNC",
+      "variableDebtEthKNC"
     ],
     "variations": [
       "aToken",
@@ -1370,7 +1463,7 @@
     "name": "Kyber Legacy",
     "symbol": "kncl",
     "symbolAliases": [
-      "KNC"
+      "KNCL"
     ],
     "variations": [
       "aToken",
@@ -1396,7 +1489,10 @@
     "name": "Lido DAO Token",
     "symbol": "ldo",
     "symbolAliases": [
-      "LDO"
+      "LDO",
+      "aEthLDO",
+      "variableDebtEthLDO",
+      "stataEthLDO"
     ],
     "variations": [
       "aToken",
@@ -1421,7 +1517,9 @@
     ],
     "name": "Aave [OLD]",
     "symbol": "lend",
-    "symbolAliases": [],
+    "symbolAliases": [
+      "LEND"
+    ],
     "variations": [
       "aToken",
       "stataToken"
@@ -1447,7 +1545,8 @@
     "symbol": "link",
     "symbolAliases": [
       "LINK",
-      "LINK.e"
+      "LINK.e",
+      "stataAvaLINK"
     ],
     "variations": [
       "aToken",
@@ -1484,7 +1583,17 @@
     "name": "LUSD Stablecoin",
     "symbol": "lusd",
     "symbolAliases": [
-      "LUSD"
+      "LUSD",
+      "aEthLUSD",
+      "variableDebtEthLUSD",
+      "LUSD",
+      "stataEthLUSD",
+      "aOptLUSD",
+      "variableDebtOptLUSD",
+      "stataOptLUSD",
+      "variableDebtArbLUSD",
+      "stataArbLUSD",
+      "aArbLUSD"
     ],
     "variations": [
       "aToken",
@@ -1510,8 +1619,19 @@
     "name": "MAI (mimatic)",
     "symbol": "mai",
     "symbolAliases": [
+      "aPolMIMATIC",
+      "variableDebtPolMIMATIC",
+      "miMATIC",
+      "aArbMAI",
+      "variableDebtArbMAI",
       "MAI",
-      "miMATIC"
+      "stataArbMAI",
+      "aAvaMAI",
+      "variableDebtAvaMAI",
+      "stataAvaMAI",
+      "aPolMIMATIC",
+      "variableDebtPolMIMATIC",
+      "stataPolMIMATIC"
     ],
     "variations": [
       "aToken",
@@ -1602,7 +1722,10 @@
     "name": "Liquid Staking Matic",
     "symbol": "maticx",
     "symbolAliases": [
-      "MaticX"
+      "aPolMATICX",
+      "variableDebtPolMATICX",
+      "MaticX",
+      "stataPolMATICX"
     ],
     "variations": [
       "aToken",
@@ -1642,7 +1765,10 @@
     "name": "Metis Token",
     "symbol": "metis",
     "symbolAliases": [
-      "Metis"
+      "Metis",
+      "aMetMETIS",
+      "variableDebtMetMETIS",
+      "stataMetMETIS"
     ],
     "variations": [
       "aToken",
@@ -1668,6 +1794,8 @@
     "name": "Maker",
     "symbol": "mkr",
     "symbolAliases": [
+      "aEthMKR",
+      "variableDebtEthMKR",
       "MKR"
     ],
     "variations": [
@@ -1756,7 +1884,10 @@
     "name": "Optimism",
     "symbol": "op",
     "symbolAliases": [
-      "OP"
+      "aOptOP",
+      "variableDebtOptOP",
+      "OP",
+      "stataOptOP"
     ],
     "variations": [
       "aToken",
@@ -1804,7 +1935,10 @@
     "name": "Staked ETH",
     "symbol": "oseth",
     "symbolAliases": [
-      "osETH"
+      "aEthosETH",
+      "variableDebtEthosETH",
+      "osETH",
+      "stataEthosETH"
     ],
     "variations": [
       "aToken",
@@ -1863,7 +1997,10 @@
     "name": "PayPal USD",
     "symbol": "pyusd",
     "symbolAliases": [
-      "PYUSD"
+      "aEthPYUSD",
+      "variableDebtEthPYUSD",
+      "PYUSD",
+      "stataEthPYUSD"
     ],
     "variations": [
       "aToken",
@@ -2015,7 +2152,16 @@
     "name": "Rocket Pool ETH",
     "symbol": "reth",
     "symbolAliases": [
-      "rETH"
+      "aEthrETH",
+      "variableDebtEthrETH",
+      "rETH",
+      "stataEthrETH",
+      "aOptrETH",
+      "variableDebtOptrETH",
+      "stataOptrETH",
+      "aArbrETH",
+      "variableDebtArbrETH",
+      "stataArbrETH"
     ],
     "variations": [
       "aToken",
@@ -2041,7 +2187,10 @@
     "name": "Rocket Pool Protocol",
     "symbol": "rpl",
     "symbolAliases": [
-      "RPL"
+      "aEthRPL",
+      "variableDebtEthRPL",
+      "RPL",
+      "stataEthRPL"
     ],
     "variations": [
       "aToken",
@@ -2089,7 +2238,10 @@
     "name": "Benqi Staked Avalanche",
     "symbol": "savax",
     "symbolAliases": [
-      "sAVAX"
+      "sAVAX",
+      "aAvaSAVAX",
+      "stataAvaSAVAX",
+      "variableDebtAvaSAVAX"
     ],
     "variations": [
       "aToken",
@@ -2163,7 +2315,13 @@
     "name": "Savings Dai",
     "symbol": "sdai",
     "symbolAliases": [
-      "sDAI"
+      "sDAI",
+      "aEthsDAI",
+      "variableDebtEthsDAI",
+      "stataEthsDAI",
+      "aGnosDAI",
+      "variableDebtGnosDAI",
+      "stataGnosDAI"
     ],
     "variations": [
       "aToken",
@@ -2263,6 +2421,9 @@
     "name": "Synthetix Network Token",
     "symbol": "snx",
     "symbolAliases": [
+      "variableDebtEthSNX",
+      "stataEthSNX",
+      "aEthSNX",
       "SNX"
     ],
     "variations": [
@@ -2352,6 +2513,8 @@
     "name": "StargateToken",
     "symbol": "stg",
     "symbolAliases": [
+      "aEthSTG",
+      "variableDebtEthSTG",
       "STG"
     ],
     "variations": [
@@ -2456,7 +2619,10 @@
     "name": "Staked MATIC (PoS)",
     "symbol": "stmatic",
     "symbolAliases": [
-      "stMATIC"
+      "aPolSTMATIC",
+      "variableDebtPolSTMATIC",
+      "stMATIC",
+      "stataPolSTMATIC"
     ],
     "variations": [
       "aToken",
@@ -2508,7 +2674,10 @@
     "name": "Synth sUSD",
     "symbol": "susd",
     "symbolAliases": [
-      "sUSD"
+      "sUSD",
+      "stataOptSUSD",
+      "aOptSUSD",
+      "variableDebtOptSUSD"
     ],
     "variations": [
       "aToken",
@@ -2534,7 +2703,10 @@
     "name": "Ethena Staked USDe",
     "symbol": "susde",
     "symbolAliases": [
-      "sUSDe"
+      "aEthsUSDe",
+      "variableDebtEthsUSDe",
+      "sUSDe",
+      "stataEthsUSDe"
     ],
     "variations": [
       "aToken",
@@ -2560,7 +2732,10 @@
     "name": "SushiToken",
     "symbol": "sushi",
     "symbolAliases": [
-      "SUSHI"
+      "aPolSUSHI",
+      "variableDebtPolSUSHI",
+      "SUSHI",
+      "stataPolSUSHI"
     ],
     "variations": [
       "aToken",
@@ -2671,7 +2846,10 @@
     "name": "Uniswap",
     "symbol": "uni",
     "symbolAliases": [
-      "UNI"
+      "UNI",
+      "aEthUNI",
+      "variableDebtEthUNI",
+      "stataEthUNI"
     ],
     "variations": [
       "aToken",
@@ -2710,7 +2888,10 @@
     "name": "USD Base Coin",
     "symbol": "usdbc",
     "symbolAliases": [
-      "USDbC"
+      "aBasUSDbC",
+      "variableDebtBasUSDbC",
+      "USDbC",
+      "stataBasUSDbC"
     ],
     "variations": [
       "aToken",
@@ -2736,9 +2917,35 @@
     "name": "USD Coin",
     "symbol": "usdc",
     "symbolAliases": [
-      "USDC",
+      "USDC.e",
       "m.USDC",
-      "USDC.e"
+      "aBasUSDC",
+      "variableDebtBasUSDC",
+      "USDC",
+      "stataBasUSDC",
+      "stataArbUSDC",
+      "variableDebtArbUSDC",
+      "aArbUSDC",
+      "aAvaUSDC",
+      "variableDebtAvaUSDC",
+      "stataAvaUSDC",
+      "variableDebtScrUSDC",
+      "stataScrUSDC",
+      "aScrUSDC",
+      "aMetmUSDC",
+      "variableDebtMetmUSDC",
+      "stataMetmUSDC",
+      "aGnoUSDCe",
+      "variableDebtGnoUSDCe",
+      "aOptUSDCn",
+      "variableDebtOptUSDCn",
+      "stataOptUSDCn",
+      "aPolUSDCn",
+      "variableDebtPolUSDCn",
+      "stataPolUSDCn",
+      "aArbUSDCn",
+      "variableDebtArbUSDCn",
+      "stataArbUSDCn"
     ],
     "variations": [
       "aToken",
@@ -2764,7 +2971,10 @@
     "name": "Ethena USDe",
     "symbol": "usde",
     "symbolAliases": [
-      "USDe"
+      "aEthUSDe",
+      "variableDebtEthUSDe",
+      "USDe",
+      "stataEthUSDe"
     ],
     "variations": [
       "aToken",
@@ -2813,13 +3023,22 @@
     "type": [
       "asset"
     ],
-    "name": "Tether",
+    "name": "Tether USDT",
     "symbol": "usdt",
     "symbolAliases": [
-      "USDT",
+      "USDT.e",
       "m.USDT",
+      "stataArbUSDT",
+      "USDT",
+      "variableDebtArbUSDT",
+      "aArbUSDT",
+      "aAvaUSDT",
+      "variableDebtAvaUSDT",
       "USDt",
-      "USDT.e"
+      "stataAvaUSDT",
+      "aMetmUSDT",
+      "variableDebtMetmUSDT",
+      "stataMetmUSDT"
     ],
     "variations": [
       "aToken",
@@ -2893,7 +3112,10 @@
     "name": "Wrapped Avalanche",
     "symbol": "wavax",
     "symbolAliases": [
-      "WAVAX"
+      "aAvaWAVAX",
+      "variableDebtAvaWAVAX",
+      "WAVAX",
+      "stataAvaWAVAX"
     ],
     "variations": [
       "aToken",
@@ -2946,7 +3168,8 @@
     "symbol": "wbtc",
     "symbolAliases": [
       "WBTC",
-      "WBTC.e"
+      "WBTC.e",
+      "stataAvaWBTC"
     ],
     "variations": [
       "aToken",
@@ -2972,7 +3195,16 @@
     "name": "Wrapped eETH",
     "symbol": "weeth",
     "symbolAliases": [
-      "weETH"
+      "aEthweETH",
+      "variableDebtEthweETH",
+      "weETH",
+      "aBasweETH",
+      "variableDebtBasweETH",
+      "stataBasweETH",
+      "aArbweETH",
+      "variableDebtArbweETH",
+      "variableDebtScrweETH",
+      "aScrweETH"
     ],
     "variations": [
       "aToken",
@@ -2998,8 +3230,14 @@
     "name": "Wrapped ETH",
     "symbol": "weth",
     "symbolAliases": [
+      "WETH.e",
+      "stataAvaWETH",
       "WETH",
-      "WETH.e"
+      "aScrWETH",
+      "variableDebtScrWETH",
+      "stataScrWETH",
+      "aEthLidoWETH",
+      "variableDebtEthLidoWETH"
     ],
     "variations": [
       "aToken",
@@ -3051,7 +3289,10 @@
     "name": "Wrapped Matic",
     "symbol": "wmatic",
     "symbolAliases": [
-      "WMATIC"
+      "WMATIC",
+      "aPolWMATIC",
+      "variableDebtPolWMATIC",
+      "stataPolWMATIC"
     ],
     "variations": [
       "aToken",
@@ -3103,7 +3344,30 @@
     "name": "Wrapped liquid staked Ether 2.0",
     "symbol": "wsteth",
     "symbolAliases": [
-      "wstETH"
+      "variableDebtEthwstETH",
+      "aEthwstETH",
+      "wstETH",
+      "stataEthwstETH",
+      "aOptwstETH",
+      "variableDebtOptwstETH",
+      "stataOptwstETH",
+      "aGnowstETH",
+      "variableDebtGnowstETH",
+      "stataGnowstETH",
+      "aPolwstETH",
+      "variableDebtPolwstETH",
+      "stataPolwstETH",
+      "aBaswstETH",
+      "variableDebtBaswstETH",
+      "stataBaswstETH",
+      "aArbwstETH",
+      "variableDebtArbwstETH",
+      "stataArbwstETH",
+      "aScrwstETH",
+      "variableDebtScrwstETH",
+      "stataScrwstETH",
+      "aEthLidowstETH",
+      "variableDebtEthLidowstETH"
     ],
     "variations": [
       "aToken",
@@ -3129,7 +3393,10 @@
     "name": "Wrapped XDAI",
     "symbol": "wxdai",
     "symbolAliases": [
-      "WXDAI"
+      "aGnoWXDAI",
+      "variableDebtGnoWXDAI",
+      "WXDAI",
+      "stataGnoWXDAI"
     ],
     "variations": [
       "aToken",

@@ -3,10 +3,34 @@
   "name": "Wrapped liquid staked Ether 2.0",
   "symbol": "wsteth",
   "symbolAliases": [
-    "wstETH"
+    "variableDebtEthwstETH",
+    "aEthwstETH",
+    "wstETH",
+    "stataEthwstETH",
+    "aOptwstETH",
+    "variableDebtOptwstETH",
+    "stataOptwstETH",
+    "aGnowstETH",
+    "variableDebtGnowstETH",
+    "stataGnowstETH",
+    "aPolwstETH",
+    "variableDebtPolwstETH",
+    "stataPolwstETH",
+    "aBaswstETH",
+    "variableDebtBaswstETH",
+    "stataBaswstETH",
+    "aArbwstETH",
+    "variableDebtArbwstETH",
+    "stataArbwstETH",
+    "aScrwstETH",
+    "variableDebtScrwstETH",
+    "stataScrwstETH",
+    "aEthLidowstETH",
+    "variableDebtEthLidowstETH"
   ],
   "variations": [
     "aToken",
     "stataToken"
   ]
 }
+

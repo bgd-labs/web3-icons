@@ -3,7 +3,13 @@
   "name": "STASIS EURS Token",
   "symbol": "eurs",
   "symbolAliases": [
-    "EURS"
+    "aPolEURS",
+    "variableDebtPolEURS",
+    "EURS",
+    "stataPolEURS",
+    "aArbEURS",
+    "variableDebtArbEURS",
+    "stataArbEURS"
   ],
   "variations": [
     "aToken",

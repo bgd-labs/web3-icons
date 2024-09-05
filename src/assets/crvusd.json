@@ -3,7 +3,10 @@
   "name": "Curve.Fi USD Stablecoin",
   "symbol": "crvusd",
   "symbolAliases": [
-    "crvUSD"
+    "aEthcrvUSD",
+    "variableDebtEthcrvUSD",
+    "crvUSD",
+    "stataEthcrvUSD"
   ],
   "variations": [
     "aToken",

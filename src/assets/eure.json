@@ -3,7 +3,10 @@
   "name": "Monerium EUR emoney",
   "symbol": "eure",
   "symbolAliases": [
-    "EURe"
+    "aGnoEURe",
+    "variableDebtGnoEURe",
+    "EURe",
+    "stataGnoEURe"
   ],
   "variations": [
     "aToken",

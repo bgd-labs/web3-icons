@@ -3,7 +3,10 @@
   "name": "Liquid Staking Matic",
   "symbol": "maticx",
   "symbolAliases": [
-    "MaticX"
+    "aPolMATICX",
+    "variableDebtPolMATICX",
+    "MaticX",
+    "stataPolMATICX"
   ],
   "variations": [
     "aToken",

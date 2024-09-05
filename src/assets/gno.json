@@ -3,6 +3,9 @@
   "name": "Gnosis Token on xDai",
   "symbol": "gno",
   "symbolAliases": [
+    "aGnoGNO",
+    "variableDebtGnoGNO",
+    "stataGnoGNO",
     "GNO"
   ],
   "variations": [
