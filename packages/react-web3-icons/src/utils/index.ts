@@ -1,3 +1,4 @@
+export * from "./assetsAliases";
 export * from "./assetsNames";
 export * from "./capitalize";
 export * from "./chainsNames";

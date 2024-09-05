@@ -9,7 +9,12 @@ export const getAssetName = ({
   const formattedSymbol = formatSymbol
     ? formatSymbol(symbol)
     : formatSymbolForIcon({ symbol });
-  return assetsNames[formattedSymbol] ?? "Unknown";
+
+  if (typeof formattedSymbol !== "string") {
+    return assetsNames[formattedSymbol.iconSymbol] ?? "Unknown";
+  } else {
+    return assetsNames[formattedSymbol] ?? "Unknown";
+  }
 };
 export const getAssetIconNameAndPath = ({
   formatSymbol,
@@ -20,8 +25,18 @@ export const getAssetIconNameAndPath = ({
   const formattedSymbol = formatSymbol
     ? formatSymbol(symbol)
     : formatSymbolForIcon({ symbol });
-  return {
-    iconPathToRepo: `${githubIconsPath}/icons/${mono ? IconVariant.Mono : IconVariant.Full}/${assetTag ? assetTag.toLowerCase() : ""}${formattedSymbol}.svg`,
-    iconKey: `${assetTag ? assetTag : ""}${formattedSymbol}`,
-  };
+
+  if (typeof formattedSymbol !== "string") {
+    const symbol = formattedSymbol.iconSymbol;
+    const tag = assetTag ? assetTag : formattedSymbol.tokenTag;
+    return {
+      iconPathToRepo: `${githubIconsPath}/icons/${mono ? IconVariant.Mono : IconVariant.Full}/${tag.toLowerCase()}${symbol}.svg`,
+      iconKey: `${tag}${symbol}`,
+    };
+  } else {
+    return {
+      iconPathToRepo: `${githubIconsPath}/icons/${mono ? IconVariant.Mono : IconVariant.Full}/${assetTag ? assetTag.toLowerCase() : ""}${formattedSymbol}.svg`,
+      iconKey: `${assetTag ? assetTag : ""}${formattedSymbol}`,
+    };
+  }
 };
