@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.8](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.4.7...react-web3-icons@v1.4.8) (2024-09-23)
+
+
+### Bug Fixes
+
+* added new assets icons (cbbtc & tbtc) ([3ee5e89](https://github.com/bgd-labs/web3-icons/commit/3ee5e89547c258c72015845a4f283909eca080a3))
+* update symbol aliases logic ([#35](https://github.com/bgd-labs/web3-icons/issues/35)) ([3aeb8d2](https://github.com/bgd-labs/web3-icons/commit/3aeb8d2fdd77db79132f81ffa7ac765ed0fa1ad9))
+
 ## [1.4.7](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.4.6...react-web3-icons@v1.4.7) (2024-08-27)
 
 
