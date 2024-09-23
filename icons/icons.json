@@ -507,6 +507,39 @@
     "type": [
       "asset"
     ],
+    "name": "CBBTC",
+    "symbol": "cbbtc",
+    "symbolAliases": [
+      "cbBTC",
+      "CBBTC",
+      "aBascbBTC",
+      "variableDebtBascbBTC",
+      "stableDebtBascbBTC",
+      "aEthcbBTC",
+      "variableDebtEthcbBTC",
+      "stableDebtEthcbBTC"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/cbbtc.svg",
+      "full": "icons/full/cbbtc.svg",
+      "aToken": {
+        "mono": "icons/mono/acbbtc.svg",
+        "full": "icons/full/acbbtc.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statacbbtc.svg",
+        "full": "icons/full/statacbbtc.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "name": "Coinbase Wrapped Staked ETH",
     "symbol": "cbeth",
     "symbolAliases": [
@@ -2763,6 +2796,36 @@
     "icons": {
       "mono": "icons/mono/tallyhowallet.svg",
       "full": "icons/full/tallyhowallet.svg"
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
+    "name": "TBTC",
+    "symbol": "tbtc",
+    "symbolAliases": [
+      "tBTC",
+      "TBTC",
+      "aEthtBTC",
+      "variableDebtEthtBTC",
+      "stableDebtEthtBTC"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/tbtc.svg",
+      "full": "icons/full/tbtc.svg",
+      "aToken": {
+        "mono": "icons/mono/atbtc.svg",
+        "full": "icons/full/atbtc.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statatbtc.svg",
+        "full": "icons/full/statatbtc.svg"
+      }
     }
   },
   {

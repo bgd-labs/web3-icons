@@ -1,0 +1,19 @@
+{
+  "type": ["asset"],
+  "name": "CBBTC",
+  "symbol": "cbbtc",
+  "symbolAliases": [
+    "cbBTC",
+    "CBBTC",
+    "aBascbBTC",
+    "variableDebtBascbBTC",
+    "stableDebtBascbBTC",
+    "aEthcbBTC",
+    "variableDebtEthcbBTC",
+    "stableDebtEthcbBTC"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
