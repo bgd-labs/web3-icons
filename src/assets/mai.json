@@ -3,8 +3,19 @@
   "name": "MAI (mimatic)",
   "symbol": "mai",
   "symbolAliases": [
+    "aPolMIMATIC",
+    "variableDebtPolMIMATIC",
+    "miMATIC",
+    "aArbMAI",
+    "variableDebtArbMAI",
     "MAI",
-    "miMATIC"
+    "stataArbMAI",
+    "aAvaMAI",
+    "variableDebtAvaMAI",
+    "stataAvaMAI",
+    "aPolMIMATIC",
+    "variableDebtPolMIMATIC",
+    "stataPolMIMATIC"
   ],
   "variations": [
     "aToken",

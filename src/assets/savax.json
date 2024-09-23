@@ -3,7 +3,10 @@
   "name": "Benqi Staked Avalanche",
   "symbol": "savax",
   "symbolAliases": [
-    "sAVAX"
+    "sAVAX",
+    "aAvaSAVAX",
+    "stataAvaSAVAX",
+    "variableDebtAvaSAVAX"
   ],
   "variations": [
     "aToken",

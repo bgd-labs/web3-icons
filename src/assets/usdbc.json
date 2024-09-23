@@ -3,7 +3,10 @@
   "name": "USD Base Coin",
   "symbol": "usdbc",
   "symbolAliases": [
-    "USDbC"
+    "aBasUSDbC",
+    "variableDebtBasUSDbC",
+    "USDbC",
+    "stataBasUSDbC"
   ],
   "variations": [
     "aToken",

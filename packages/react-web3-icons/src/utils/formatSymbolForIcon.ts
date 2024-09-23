@@ -1,3 +1,5 @@
+import { assetsAliases } from "./assetsAliases";
+
 /**
  * Maps onchain symbols to different symbols.
  * This is useful when you want to explode symbols via _ to render multiple symbols or when the symbol has a bridge prefix or suffix.
@@ -61,6 +63,8 @@ export function formatSymbolForIcon({
   marketPrefix?: string;
   symbolsMap?: Record<string, string>;
 }) {
+  if (assetsAliases[symbol.toLowerCase()])
+    return assetsAliases[symbol.toLowerCase()];
   if (/\.e/.test(symbol)) return symbol.replace(".e", "").toLowerCase();
   if (/m\./.test(symbol)) return symbol.replace("m.", "").toLowerCase();
   if (marketPrefix)

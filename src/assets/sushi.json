@@ -3,7 +3,10 @@
   "name": "SushiToken",
   "symbol": "sushi",
   "symbolAliases": [
-    "SUSHI"
+    "aPolSUSHI",
+    "variableDebtPolSUSHI",
+    "SUSHI",
+    "stataPolSUSHI"
   ],
   "variations": [
     "aToken",

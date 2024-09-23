@@ -5,7 +5,11 @@
   "symbolAliases": [
     "DAI",
     "m.DAI",
-    "DAI.e"
+    "DAI.e",
+    "stataAvaDAI",
+    "aMetmDAI",
+    "variableDebtMetmDAI",
+    "stataMetmDAI"
   ],
   "variations": [
     "aToken",

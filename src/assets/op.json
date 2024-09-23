@@ -5,7 +5,10 @@
   "name": "Optimism",
   "symbol": "op",
   "symbolAliases": [
-    "OP"
+    "aOptOP",
+    "variableDebtOptOP",
+    "OP",
+    "stataOptOP"
   ],
   "variations": [
     "aToken",

@@ -3,7 +3,16 @@
   "name": "Rocket Pool ETH",
   "symbol": "reth",
   "symbolAliases": [
-    "rETH"
+    "aEthrETH",
+    "variableDebtEthrETH",
+    "rETH",
+    "stataEthrETH",
+    "aOptrETH",
+    "variableDebtOptrETH",
+    "stataOptrETH",
+    "aArbrETH",
+    "variableDebtArbrETH",
+    "stataArbrETH"
   ],
   "variations": [
     "aToken",

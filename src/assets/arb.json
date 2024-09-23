@@ -4,7 +4,10 @@
   "name": "Arbitrum",
   "symbol": "arb",
   "symbolAliases": [
-    "ARB"
+    "aArbARB",
+    "variableDebtArbARB",
+    "ARB",
+    "stataArbARB"
   ],
   "variations": [
     "aToken",

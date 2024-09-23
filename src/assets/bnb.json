@@ -7,7 +7,10 @@
   "identityFlag": "bbcSignTx",
   "symbol": "wbnb",
   "symbolAliases": [
-    "WBNB"
+    "aBnbWBNB",
+    "variableDebtBnbWBNB",
+    "WBNB",
+    "stataBnbWBNB"
   ],
   "variations": [
     "aToken",

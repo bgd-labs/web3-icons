@@ -4,7 +4,8 @@
   "symbol": "wbtc",
   "symbolAliases": [
     "WBTC",
-    "WBTC.e"
+    "WBTC.e",
+    "stataAvaWBTC"
   ],
   "variations": [
     "aToken",

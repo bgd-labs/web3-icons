@@ -3,7 +3,10 @@
   "name": "Wrapped Avalanche",
   "symbol": "wavax",
   "symbolAliases": [
-    "WAVAX"
+    "aAvaWAVAX",
+    "variableDebtAvaWAVAX",
+    "WAVAX",
+    "stataAvaWAVAX"
   ],
   "variations": [
     "aToken",

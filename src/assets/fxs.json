@@ -3,6 +3,8 @@
   "name": "Frax Share",
   "symbol": "fxs",
   "symbolAliases": [
+    "aEthFXS",
+    "variableDebtEthFXS",
     "FXS"
   ],
   "variations": [

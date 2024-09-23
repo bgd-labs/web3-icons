@@ -5,7 +5,10 @@
   "name": "Metis Token",
   "symbol": "metis",
   "symbolAliases": [
-    "Metis"
+    "Metis",
+    "aMetMETIS",
+    "variableDebtMetMETIS",
+    "stataMetMETIS"
   ],
   "variations": [
     "aToken",

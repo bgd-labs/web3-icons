@@ -3,7 +3,10 @@
   "name": "Wrapped Matic",
   "symbol": "wmatic",
   "symbolAliases": [
-    "WMATIC"
+    "WMATIC",
+    "aPolWMATIC",
+    "variableDebtPolWMATIC",
+    "stataPolWMATIC"
   ],
   "variations": [
     "aToken",

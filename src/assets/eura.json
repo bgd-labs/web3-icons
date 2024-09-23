@@ -3,7 +3,10 @@
   "name": "EURA (agEUR)",
   "symbol": "eura",
   "symbolAliases": [
-    "EURA"
+    "EURA",
+    "aPolAGEUR",
+    "variableDebtPolAGEUR",
+    "stataPolAGEUR"
   ],
   "variations": [
     "aToken",

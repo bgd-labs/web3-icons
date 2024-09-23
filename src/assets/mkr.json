@@ -3,6 +3,8 @@
   "name": "Maker",
   "symbol": "mkr",
   "symbolAliases": [
+    "aEthMKR",
+    "variableDebtEthMKR",
     "MKR"
   ],
   "variations": [

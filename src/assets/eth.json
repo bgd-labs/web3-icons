@@ -3,7 +3,10 @@
   "name": "Ethereum",
   "symbol": "eth",
   "symbolAliases": [
-    "ETH"
+    "aBnbETH",
+    "variableDebtBnbETH",
+    "ETH",
+    "stataBnbETH"
   ],
   "variations": [
     "aToken",

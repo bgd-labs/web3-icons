@@ -3,7 +3,10 @@
   "name": "Uniswap",
   "symbol": "uni",
   "symbolAliases": [
-    "UNI"
+    "UNI",
+    "aEthUNI",
+    "variableDebtEthUNI",
+    "stataEthUNI"
   ],
   "variations": [
     "aToken",

@@ -268,8 +268,40 @@ fs.writeFileSync(
   `${REACT_UTILS_PATH}/assetsNames.ts`,
   `export const assetsNames: Record<string, string> = ${JSON.stringify(assetsNames)};`,
 );
+console.log("✅ Assets names are generated");
+const assetsAliases: Record<
+  string,
+  { iconSymbol: string; symbol: string; tokenTag: string }
+> = {};
+assets.forEach((item) => {
+  item.symbolAliases.forEach((symbol) => {
+    const symbolArray = symbol.split(/(?<![A-Z])(?=[A-Z])/);
+    let tokenTag = "";
+    if (symbolArray && symbolArray.length) {
+      const firstItem = symbolArray[0];
+
+      if (firstItem === "a") {
+        tokenTag = "a";
+      } else if (firstItem === "stata") {
+        tokenTag = "stata";
+      } else if (firstItem === "variable") {
+        tokenTag = "v";
+      }
+    }
+
+    assetsAliases[symbol.toLowerCase()] = {
+      iconSymbol: item.symbol,
+      symbol: `${tokenTag}${item.symbol.toUpperCase()}`,
+      tokenTag,
+    };
+  });
+});
+fs.writeFileSync(
+  `${REACT_UTILS_PATH}/assetsAliases.ts`,
+  `export const assetsAliases: Record<string, { iconSymbol: string; symbol: string; tokenTag: string }> = ${JSON.stringify(assetsAliases)};`,
+);
 generateIconsPack(IconType.asset, assets);
-console.log("✅ All Assets names are generated");
+console.log("✅ Assets aliases are generated");
 
 const chains = iconsInfoFile.filter((icon) =>
   icon.type.includes(IconType.chain),
@@ -288,7 +320,7 @@ fs.writeFileSync(
   `export const chainsNames: Record<number, string> = ${JSON.stringify(chainsNames)};`,
 );
 generateIconsPack(IconType.chain, chains);
-console.log("✅ All Chains names are generated");
+console.log("✅ Chains names are generated");
 
 const wallets = iconsInfoFile.filter((icon) =>
   icon.type.includes(IconType.wallet),
@@ -309,4 +341,4 @@ fs.writeFileSync(
   `export const wallets: Record<string, { name: string; identityFlag: string }> = ${JSON.stringify(walletsData)};`,
 );
 generateIconsPack(IconType.wallet, wallets);
-console.log("✅ All Wallets data generated");
+console.log("✅ Wallets data generated");

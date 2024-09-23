@@ -3,6 +3,9 @@
   "name": "Synthetix Network Token",
   "symbol": "snx",
   "symbolAliases": [
+    "variableDebtEthSNX",
+    "stataEthSNX",
+    "aEthSNX",
     "SNX"
   ],
   "variations": [

@@ -3,7 +3,10 @@
   "name": "Stader ETHx",
   "symbol": "ethx",
   "symbolAliases": [
-    "ETHx"
+    "aEthETHx",
+    "variableDebtEthETHx",
+    "ETHx",
+    "stataEthETHx"
   ],
   "variations": [
     "aToken",

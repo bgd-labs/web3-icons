@@ -5,7 +5,10 @@
   "identityFlag": "isOneInchIOSWallet",
   "symbol": "1inch",
   "symbolAliases": [
-    "1INCH"
+    "1INCH",
+    "aEth1INCH",
+    "variableDebtEth1INCH",
+    "stataEth1INCH"
   ],
   "variations": [
     "aToken",

@@ -1,12 +1,21 @@
 {
   "type": ["asset"],
-  "name": "Tether",
+  "name": "Tether USDT",
   "symbol": "usdt",
   "symbolAliases": [
-    "USDT",
+    "USDT.e",
     "m.USDT",
+    "stataArbUSDT",
+    "USDT",
+    "variableDebtArbUSDT",
+    "aArbUSDT",
+    "aAvaUSDT",
+    "variableDebtAvaUSDT",
     "USDt",
-    "USDT.e"
+    "stataAvaUSDT",
+    "aMetmUSDT",
+    "variableDebtMetmUSDT",
+    "stataMetmUSDT"
   ],
   "variations": [
     "aToken",

@@ -3,7 +3,12 @@
   "name": "Balancer",
   "symbol": "bal",
   "symbolAliases": [
-    "BAL"
+    "aEthBAL",
+    "variableDebtEthBAL",
+    "BAL",
+    "aPolBAL",
+    "variableDebtPolBAL",
+    "stataPolBAL"
   ],
   "variations": [
     "aToken",

@@ -3,7 +3,10 @@
   "name": "Synth sUSD",
   "symbol": "susd",
   "symbolAliases": [
-    "sUSD"
+    "sUSD",
+    "stataOptSUSD",
+    "aOptSUSD",
+    "variableDebtOptSUSD"
   ],
   "variations": [
     "aToken",

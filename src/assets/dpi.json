@@ -3,6 +3,9 @@
   "name": "DefiPulse Index",
   "symbol": "dpi",
   "symbolAliases": [
+    "stataPolDPI",
+    "aPolDPI",
+    "variableDebtPolDPI",
     "DPI"
   ],
   "variations": [

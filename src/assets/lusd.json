@@ -3,7 +3,17 @@
   "name": "LUSD Stablecoin",
   "symbol": "lusd",
   "symbolAliases": [
-    "LUSD"
+    "LUSD",
+    "aEthLUSD",
+    "variableDebtEthLUSD",
+    "LUSD",
+    "stataEthLUSD",
+    "aOptLUSD",
+    "variableDebtOptLUSD",
+    "stataOptLUSD",
+    "variableDebtArbLUSD",
+    "stataArbLUSD",
+    "aArbLUSD"
   ],
   "variations": [
     "aToken",
