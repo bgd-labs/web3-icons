@@ -34,6 +34,8 @@ const IconMetaSchema = z.object({
   symbolAliases: z.array(z.string()).or(z.undefined()),
   variations: z.array(z.string()).or(z.undefined()),
   identityFlag: z.string().or(z.undefined()),
+  brandName: z.string().or(z.undefined()),
+  addressAliases: z.array(z.string()).or(z.undefined()),
 });
 
 const files = fs
@@ -66,13 +68,16 @@ for (const icon of iconsArray) {
   const { meta, mono, full } = icon;
   const { variations } = meta;
 
-  const name = meta?.chainName
-    ? meta.chainName
-    : meta.walletName
-      ? meta.walletName
-      : meta.name
-        ? meta.name
-        : "Unknown";
+  let name = "Unknown";
+  if (meta.brandName) {
+    name = meta.brandName;
+  } else if (meta.chainName) {
+    name = meta.chainName;
+  } else if (meta.walletName) {
+    name = meta.walletName;
+  } else {
+    name = meta.name ?? "Unknown";
+  }
 
   const lowercasedName = name
     .split("(")
@@ -110,7 +115,8 @@ for (const icon of iconsArray) {
 
   if (
     meta.type.includes(IconType.wallet) ||
-    meta.type.includes(IconType.chain)
+    meta.type.includes(IconType.chain) ||
+    meta.type.includes(IconType.brand)
   ) {
     const monoFilePath = path.join(
       OUTPUT_FOLDER,
@@ -279,16 +285,14 @@ assets.forEach((item) => {
     let tokenTag = "";
     if (symbolArray && symbolArray.length) {
       const firstItem = symbolArray[0];
-
-      if (firstItem === "a") {
+      if (firstItem.toLowerCase() === "a") {
         tokenTag = "a";
-      } else if (firstItem === "stata") {
+      } else if (firstItem.toLowerCase() === "stata") {
         tokenTag = "stata";
-      } else if (firstItem === "variable") {
+      } else if (firstItem.toLowerCase() === "variable") {
         tokenTag = "v";
       }
     }
-
     assetsAliases[symbol.toLowerCase()] = {
       iconSymbol: item.symbol,
       symbol: `${tokenTag}${item.symbol.toUpperCase()}`,
@@ -342,3 +346,20 @@ fs.writeFileSync(
 );
 generateIconsPack(IconType.wallet, wallets);
 console.log("✅ Wallets data generated");
+
+const brands = iconsInfoFile.filter((icon) =>
+  icon.type.includes(IconType.brand),
+);
+const brandsData: Record<string, string> = {};
+brands.forEach((item) => {
+  item.addressAliases.forEach(
+    (address) =>
+      (brandsData[address] = item?.brandName ? item.brandName : "Unknown"),
+  );
+});
+fs.writeFileSync(
+  `${REACT_UTILS_PATH}/brandsNames.ts`,
+  `export const brands: Record<string, string> = ${JSON.stringify(brandsData)};`,
+);
+generateIconsPack(IconType.brand, brands);
+console.log("✅ Brands data generated");

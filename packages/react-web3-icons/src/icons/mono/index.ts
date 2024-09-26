@@ -185,6 +185,7 @@ export * from './build/icon-knc.icon';
 export * from './build/icon-kncl.icon';
 export * from './build/icon-ldo.icon';
 export * from './build/icon-lend.icon';
+export * from './build/icon-lido.icon';
 export * from './build/icon-link.icon';
 export * from './build/icon-liqualitywallet.icon';
 export * from './build/icon-lusd.icon';

@@ -7,6 +7,7 @@ export enum IconType {
   asset = "asset",
   chain = "chain",
   wallet = "wallet",
+  brand = "brand",
 }
 
 export type IconMetaData = {
@@ -22,6 +23,9 @@ export type IconMetaData = {
   // for wallet
   identityFlag?: string; // window.ethereum[identityFlag]
   walletName?: string;
+  // for brand
+  brandName?: string;
+  addressAliases?: string[];
 };
 
 export type IconStyle = {
@@ -38,20 +42,8 @@ export type IconInfoIcons = IconStyle & {
   stataToken?: IconStyle;
 };
 
-export type IconInfo = {
-  type: IconType[];
-  // for asset
+export type IconInfo = IconMetaData & {
   icons: IconInfoIcons;
-  symbol?: string;
-  name?: string;
-  symbolAliases?: string[];
-  variations?: string[];
-  // for chain
-  chainName?: string;
-  chainId?: number;
-  // for wallet
-  identityFlag?: string;
-  walletName?: string;
 };
 
 export type ChainType = {

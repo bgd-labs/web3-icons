@@ -3,6 +3,7 @@ import Fuse from "fuse.js";
 import React, { useMemo } from "react";
 
 import { AssetIconCard } from "@/components/AssetIconCard";
+import { BrandIconCard } from "@/components/BrandIconCard";
 import { Branding } from "@/components/Branding";
 import { ChainIconCard } from "@/components/ChainIconCard";
 import { Search } from "@/components/Search";
@@ -23,7 +24,7 @@ async function IconsPage({
   const filteredIcons = useMemo(
     () =>
       new Fuse(icons as IconInfo[], {
-        keys: ["chainId", "symbol", "identityFlag", "walletName"],
+        keys: ["chainId", "symbol", "identityFlag", "walletName", "brandName"],
         threshold: 0.3,
         distance: 1000,
       })
@@ -136,6 +137,13 @@ async function IconsPage({
                 <WalletIconCard
                   icons={asset.icons}
                   name={asset?.walletName ?? "Unknown"}
+                />
+              );
+            } else if (asset.type.includes(IconType.brand)) {
+              return (
+                <BrandIconCard
+                  icons={asset.icons}
+                  name={asset?.brandName ?? "Unknown"}
                 />
               );
             }

@@ -54,6 +54,18 @@ Package with some of web3 assets, chains and web3 wallets icons for easy use in 
   "identityFlag": "isMetaMask"
 }
 ```
+### Adding new brand icon
+1. Add new `svg` icon files to `src/assets` folder
+2. Naming convention is `[brandName.toLowerCase()].svg`
+3. Prepare a metadata file in `src/assets` folder with the same name as the icon file, but with `.json` extension:
+
+```json
+{
+  "type": ["brand"],
+  "brandName": "Lido",
+  "addressAliases": ["0x4e033931ad43597d96D6bcc25c280717730B58B1"]
+}
+```
 ### Adding new combine asset and chain icon
 1. Add new `svg` icon files to `src/assets` folder
 2. Naming convention is `[symbol]_mono.svg` and `[symbol]_full.svg`

@@ -181,6 +181,7 @@ export type Web3IconType =
   | 'kncl'
   | 'ldo'
   | 'lend'
+  | 'lido'
   | 'link'
   | 'liqualitywallet'
   | 'lusd'

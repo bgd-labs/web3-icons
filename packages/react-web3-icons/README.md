@@ -66,22 +66,37 @@ export const ExampleUsage = () => {
   );
 };
 ```
-### 4) The above examples use dynamic loading of icons, but you can also use icons with static loading. This option is not recommended for the `AssetIcon`.
+### 4) You can use `BrandIcon` component.
+#### BrandIcon type parameters
+| Parameter       | Type                                | Description |
+|:----------------|:------------------------------------| :------ |
+| `addressOrName` | `string`                            | Address of the pool or name of the brand for example "Lido".
+| `mono`          | `boolean`                        | If true then the icon is displayed in black and white.
+```tsx
+import { BrandIcon } from "@bgd-labs/react-web3-icons";
+export const ExampleUsage = () => {
+  return (
+    <BrandIcon addressOrName="Lido" mono />
+  );
+};
+```
+### 5) The above examples use dynamic loading of icons, but you can also use icons with static loading. This option is not recommended for the `AssetIcon`.
 #### Examples
 ```tsx
 import { AssetTag } from "@bgd-labs/react-web3-icons/dist/utils";
-import { StaticAssetIcon, StaticChainIcon, StaticWalletIcon } from "@bgd-labs/react-web3-icons";
+import { StaticAssetIcon, StaticChainIcon, StaticWalletIcon, StaticBrandIcon } from "@bgd-labs/react-web3-icons";
 export const ExampleUsage = () => {
   return (
     <div>
       <StaticAssetIcon symbol="AAVE" assetTag={AssetTag.AToken} mono />
       <StaticChainIcon chainId="1" mono />
       <StaticWalletIcon walletName="MetaMask" mono />
+      <StaticBrandIcon addressOrName="0x4e033931ad43597d96D6bcc25c280717730B58B1" mono />
     </div>
   );
 };
 ```
-### 5) You can get chain or asset name without rpc call. Also you can check installed browser wallet name, and get icon for this wallet.
+### 6) You can get chain or asset name without rpc call. Also you can check installed browser wallet name, and get icon for this wallet.
 #### Get asset name
 | Parameter  | Type                             | Description |
 |:-----------|:---------------------------------| :------ |

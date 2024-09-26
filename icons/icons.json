@@ -1572,6 +1572,19 @@
   },
   {
     "type": [
+      "brand"
+    ],
+    "brandName": "Lido",
+    "addressAliases": [
+      "0x4e033931ad43597d96D6bcc25c280717730B58B1"
+    ],
+    "icons": {
+      "mono": "icons/mono/lido.svg",
+      "full": "icons/full/lido.svg"
+    }
+  },
+  {
+    "type": [
       "asset"
     ],
     "name": "ChainLink",
