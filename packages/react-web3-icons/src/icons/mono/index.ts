@@ -153,6 +153,7 @@ export * from './build/icon-enkryptwallet.icon';
 export * from './build/icon-ens.icon';
 export * from './build/icon-eth.icon';
 export * from './build/icon-ethereum.icon';
+export * from './build/icon-etherfi.icon';
 export * from './build/icon-ethx.icon';
 export * from './build/icon-eura.icon';
 export * from './build/icon-eure.icon';

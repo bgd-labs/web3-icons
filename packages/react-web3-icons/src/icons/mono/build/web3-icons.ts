@@ -149,6 +149,7 @@ export type Web3IconType =
   | 'ens'
   | 'eth'
   | 'ethereum'
+  | 'etherfi'
   | 'ethx'
   | 'eura'
   | 'eure'

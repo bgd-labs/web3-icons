@@ -879,6 +879,19 @@
   },
   {
     "type": [
+      "brand"
+    ],
+    "brandName": "EtherFi",
+    "addressAliases": [
+      "0x0AA97c284e98396202b6A04024F5E2c65026F3c0"
+    ],
+    "icons": {
+      "mono": "icons/mono/etherfi.svg",
+      "full": "icons/full/etherfi.svg"
+    }
+  },
+  {
+    "type": [
       "asset"
     ],
     "name": "Stader ETHx",
@@ -1517,7 +1530,8 @@
   },
   {
     "type": [
-      "asset"
+      "asset",
+      "brand"
     ],
     "name": "Lido DAO Token",
     "symbol": "ldo",
@@ -1530,6 +1544,10 @@
     "variations": [
       "aToken",
       "stataToken"
+    ],
+    "brandName": "Lido",
+    "addressAliases": [
+      "0x4e033931ad43597d96D6bcc25c280717730B58B1"
     ],
     "icons": {
       "mono": "icons/mono/ldo.svg",
@@ -1568,19 +1586,6 @@
         "mono": "icons/mono/statalend.svg",
         "full": "icons/full/statalend.svg"
       }
-    }
-  },
-  {
-    "type": [
-      "brand"
-    ],
-    "brandName": "Lido",
-    "addressAliases": [
-      "0x4e033931ad43597d96D6bcc25c280717730B58B1"
-    ],
-    "icons": {
-      "mono": "icons/mono/lido.svg",
-      "full": "icons/full/lido.svg"
     }
   },
   {

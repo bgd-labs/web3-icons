@@ -1,6 +1,5 @@
 "use client";
 
-import { BrandIcon } from "@bgd-labs/react-web3-icons";
 import { githubIconsPath } from "@bgd-labs/react-web3-icons/dist/constants";
 import {
   IconInfoIcons,
@@ -9,6 +8,7 @@ import {
 import { useState } from "react";
 
 import { IconCard } from "@/components/IconCard";
+import { BrandIcon } from "@/components/Web3Icons/BrandIcon";
 
 export const BrandIconCard = ({
   name,
