@@ -3109,6 +3109,38 @@
     "type": [
       "asset"
     ],
+    "name": "USDS Stablecoin",
+    "symbol": "usds",
+    "symbolAliases": [
+      "USDS",
+      "aEthUSDS",
+      "variableDebtEthUSDS",
+      "stataDebtEthUSDS",
+      "aEthLidoUSDS",
+      "variableDebtEthLidoUSDS",
+      "stataDebtEthLidoUSDS"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/usds.svg",
+      "full": "icons/full/usds.svg",
+      "aToken": {
+        "mono": "icons/mono/ausds.svg",
+        "full": "icons/full/ausds.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statausds.svg",
+        "full": "icons/full/statausds.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "name": "Tether USDT",
     "symbol": "usdt",
     "symbolAliases": [
