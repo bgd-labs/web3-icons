@@ -336,6 +336,7 @@ export type Web3IconType =
   | 'steur'
   | 'stg'
   | 'stkaave'
+  | 'stkarb'
   | 'stkbptv_2'
   | 'stkgho'
   | 'stmatic'

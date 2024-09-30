@@ -340,6 +340,7 @@ export * from './build/icon-steth.icon';
 export * from './build/icon-steur.icon';
 export * from './build/icon-stg.icon';
 export * from './build/icon-stkaave.icon';
+export * from './build/icon-stkarb.icon';
 export * from './build/icon-stkbptv2.icon';
 export * from './build/icon-stkgho.icon';
 export * from './build/icon-stmatic.icon';

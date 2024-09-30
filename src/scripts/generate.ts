@@ -10,6 +10,7 @@ import {
   readJsonFile,
 } from "../utils/helperFunctions.ts";
 import {
+  IconFormat,
   IconInfo,
   IconInfoIcons,
   IconType,
@@ -113,137 +114,81 @@ for (const icon of iconsArray) {
     .optimizeSVGContent()
     .getSVGContent();
 
+  const generateIconsContents = (fileName: string, iconFormat?: IconFormat) => {
+    if (iconFormat) {
+      const tokenMono = generateTokenIcon(
+        monoContent,
+        fileName,
+        "mono",
+        iconFormat,
+      );
+      const tokenFull = generateTokenIcon(
+        fullContent,
+        fileName,
+        "full",
+        iconFormat,
+      );
+      const monoFilePath = path.join(OUTPUT_FOLDER, "mono", `${fileName}.svg`);
+      const fullFilePath = path.join(OUTPUT_FOLDER, "full", `${fileName}.svg`);
+      iconInfo.icons[iconFormat] = {
+        ...iconInfo.icons[iconFormat],
+        mono: monoFilePath,
+        full: fullFilePath,
+      };
+      writeQueue.push(
+        {
+          filePath: monoFilePath,
+          content: tokenMono,
+        },
+        {
+          filePath: fullFilePath,
+          content: tokenFull,
+        },
+      );
+    } else {
+      const monoFilePath = path.join(OUTPUT_FOLDER, "mono", `${fileName}.svg`);
+      const fullFilePath = path.join(OUTPUT_FOLDER, "full", `${fileName}.svg`);
+      iconInfo.icons = {
+        ...iconInfo.icons,
+        mono: monoFilePath,
+        full: fullFilePath,
+      };
+      writeQueue.push(
+        {
+          filePath: monoFilePath,
+          content: monoContent,
+        },
+        {
+          filePath: fullFilePath,
+          content: fullContent,
+        },
+      );
+    }
+  };
+
   if (
     meta.type.includes(IconType.wallet) ||
     meta.type.includes(IconType.chain) ||
     meta.type.includes(IconType.brand)
   ) {
-    const monoFilePath = path.join(
-      OUTPUT_FOLDER,
-      "mono",
-      `${lowercasedName}.svg`,
-    );
-    iconInfo.icons.mono = monoFilePath;
-    writeQueue.push({
-      filePath: monoFilePath,
-      content: monoContent,
-    });
-
-    const fullFilePath = path.join(
-      OUTPUT_FOLDER,
-      "full",
-      `${lowercasedName}.svg`,
-    );
-    iconInfo.icons.full = fullFilePath;
-    writeQueue.push({
-      filePath: fullFilePath,
-      content: fullContent,
-    });
+    generateIconsContents(lowercasedName);
   }
 
   if (meta.type.includes(IconType.asset)) {
-    const monoFilePath = path.join(
-      OUTPUT_FOLDER,
-      "mono",
-      `${meta.symbol.toLowerCase()}.svg`,
-    );
-    iconInfo.icons.mono = monoFilePath;
-    writeQueue.push({
-      filePath: monoFilePath,
-      content: monoContent,
-    });
-
-    const fullFilePath = path.join(
-      OUTPUT_FOLDER,
-      "full",
-      `${meta.symbol.toLowerCase()}.svg`,
-    );
-    iconInfo.icons.full = fullFilePath;
-    writeQueue.push({
-      filePath: fullFilePath,
-      content: fullContent,
-    });
-
-    if (variations.includes("aToken")) {
-      const aTokenMono = generateTokenIcon(
-        monoContent,
-        `a${meta.symbol.toLowerCase()}`,
-        "mono",
-        "aToken",
-      );
-      const aTokenFull = generateTokenIcon(
-        fullContent,
-        `a${meta.symbol.toLowerCase()}`,
-        "full",
-        "aToken",
-      );
-
-      const aTokenMonoFilePath = path.join(
-        OUTPUT_FOLDER,
-        "mono",
-        `a${meta.symbol.toLowerCase()}.svg`,
-      );
-      const aTokenFullFilePath = path.join(
-        OUTPUT_FOLDER,
-        "full",
-        `a${meta.symbol.toLowerCase()}.svg`,
-      );
-      iconInfo.icons.aToken = {
-        mono: aTokenMonoFilePath,
-        full: aTokenFullFilePath,
-      };
-
-      writeQueue.push(
-        {
-          filePath: aTokenMonoFilePath,
-          content: aTokenMono,
-        },
-        {
-          filePath: aTokenFullFilePath,
-          content: aTokenFull,
-        },
+    generateIconsContents(meta.symbol.toLowerCase());
+    if (variations.includes(IconFormat.aToken)) {
+      generateIconsContents(`a${meta.symbol.toLowerCase()}`, IconFormat.aToken);
+    }
+    if (variations.includes(IconFormat.stataToken)) {
+      generateIconsContents(
+        `stata${meta.symbol.toLowerCase()}`,
+        IconFormat.stataToken,
       );
     }
-
-    if (variations.includes("stataToken")) {
-      const stataTokenMono = generateTokenIcon(
-        monoContent,
-        `stata${meta.symbol.toLowerCase()}`,
-        "mono",
-        "stataToken",
-      );
-      const stataTokenFull = generateTokenIcon(
-        fullContent,
-        `stata${meta.symbol.toLowerCase()}`,
-        "full",
-        "stataToken",
-      );
-
-      const stataTokenMonoFilePath = path.join(
-        OUTPUT_FOLDER,
-        "mono",
-        `stata${meta.symbol.toLowerCase()}.svg`,
-      );
-      const stataTokenFullFilePath = path.join(
-        OUTPUT_FOLDER,
-        "full",
-        `stata${meta.symbol.toLowerCase()}.svg`,
-      );
-
-      iconInfo.icons.stataToken = {
-        mono: stataTokenMonoFilePath,
-        full: stataTokenFullFilePath,
-      };
-
-      writeQueue.push(
-        {
-          filePath: stataTokenMonoFilePath,
-          content: stataTokenMono,
-        },
-        {
-          filePath: stataTokenFullFilePath,
-          content: stataTokenFull,
-        },
+    if (variations.includes(IconFormat.stkToken)) {
+      generateIconsContents(
+        `stk${meta.symbol.toLowerCase()}`,
+        IconFormat.stkToken,
       );
     }
   }
@@ -285,12 +230,19 @@ assets.forEach((item) => {
     let tokenTag = "";
     if (symbolArray && symbolArray.length) {
       const firstItem = symbolArray[0];
-      if (firstItem.toLowerCase() === "a") {
-        tokenTag = "a";
-      } else if (firstItem.toLowerCase() === "stata") {
-        tokenTag = "stata";
-      } else if (firstItem.toLowerCase() === "variable") {
-        tokenTag = "v";
+      switch (firstItem.toLowerCase()) {
+        case "a":
+          tokenTag = "a";
+          break;
+        case "stata":
+          tokenTag = "stata";
+          break;
+        case "variable":
+          tokenTag = "v";
+          break;
+        case "stk":
+          tokenTag = "stk";
+          break;
       }
     }
     assetsAliases[symbol.toLowerCase()] = {

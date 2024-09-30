@@ -19,6 +19,7 @@ export type IconInfoIcons = IconStyle & {
 export enum AssetTag {
   AToken = "a",
   StataToken = "stata",
+  STKToken = "stk",
 }
 
 export enum IconVariant {

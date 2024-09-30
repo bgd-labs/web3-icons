@@ -112,7 +112,8 @@
     ],
     "variations": [
       "aToken",
-      "stataToken"
+      "stataToken",
+      "stkToken"
     ],
     "icons": {
       "mono": "icons/mono/arb.svg",
@@ -124,6 +125,10 @@
       "stataToken": {
         "mono": "icons/mono/stataarb.svg",
         "full": "icons/full/stataarb.svg"
+      },
+      "stkToken": {
+        "mono": "icons/mono/stkarb.svg",
+        "full": "icons/full/stkarb.svg"
       }
     }
   },

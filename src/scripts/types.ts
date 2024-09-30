@@ -37,9 +37,16 @@ export type IconWithMetaType = IconStyle & {
   meta: IconMetaData;
 };
 
+export enum IconFormat {
+  aToken = "aToken",
+  stataToken = "stataToken",
+  stkToken = "stkToken",
+}
+
 export type IconInfoIcons = IconStyle & {
-  aToken?: IconStyle;
-  stataToken?: IconStyle;
+  [IconFormat.aToken]?: IconStyle;
+  [IconFormat.stataToken]?: IconStyle;
+  [IconFormat.stkToken]?: IconStyle;
 };
 
 export type IconInfo = IconMetaData & {
