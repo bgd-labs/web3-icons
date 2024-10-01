@@ -112,7 +112,8 @@
     ],
     "variations": [
       "aToken",
-      "stataToken"
+      "stataToken",
+      "stkToken"
     ],
     "icons": {
       "mono": "icons/mono/arb.svg",
@@ -124,6 +125,10 @@
       "stataToken": {
         "mono": "icons/mono/stataarb.svg",
         "full": "icons/full/stataarb.svg"
+      },
+      "stkToken": {
+        "mono": "icons/mono/stkarb.svg",
+        "full": "icons/full/stkarb.svg"
       }
     }
   },
@@ -879,6 +884,19 @@
   },
   {
     "type": [
+      "brand"
+    ],
+    "brandName": "EtherFi",
+    "addressAliases": [
+      "0x0AA97c284e98396202b6A04024F5E2c65026F3c0"
+    ],
+    "icons": {
+      "mono": "icons/mono/etherfi.svg",
+      "full": "icons/full/etherfi.svg"
+    }
+  },
+  {
+    "type": [
       "asset"
     ],
     "name": "Stader ETHx",
@@ -1517,7 +1535,8 @@
   },
   {
     "type": [
-      "asset"
+      "asset",
+      "brand"
     ],
     "name": "Lido DAO Token",
     "symbol": "ldo",
@@ -1530,6 +1549,10 @@
     "variations": [
       "aToken",
       "stataToken"
+    ],
+    "brandName": "Lido",
+    "addressAliases": [
+      "0x4e033931ad43597d96D6bcc25c280717730B58B1"
     ],
     "icons": {
       "mono": "icons/mono/ldo.svg",
@@ -2576,21 +2599,10 @@
     "symbolAliases": [
       "stkAAVE"
     ],
-    "variations": [
-      "aToken",
-      "stataToken"
-    ],
+    "variations": [],
     "icons": {
       "mono": "icons/mono/stkaave.svg",
-      "full": "icons/full/stkaave.svg",
-      "aToken": {
-        "mono": "icons/mono/astkaave.svg",
-        "full": "icons/full/astkaave.svg"
-      },
-      "stataToken": {
-        "mono": "icons/mono/statastkaave.svg",
-        "full": "icons/full/statastkaave.svg"
-      }
+      "full": "icons/full/stkaave.svg"
     }
   },
   {
@@ -2602,21 +2614,10 @@
     "symbolAliases": [
       "stkBPTV2"
     ],
-    "variations": [
-      "aToken",
-      "stataToken"
-    ],
+    "variations": [],
     "icons": {
       "mono": "icons/mono/stkbptv2.svg",
-      "full": "icons/full/stkbptv2.svg",
-      "aToken": {
-        "mono": "icons/mono/astkbptv2.svg",
-        "full": "icons/full/astkbptv2.svg"
-      },
-      "stataToken": {
-        "mono": "icons/mono/statastkbptv2.svg",
-        "full": "icons/full/statastkbptv2.svg"
-      }
+      "full": "icons/full/stkbptv2.svg"
     }
   },
   {
@@ -2628,21 +2629,10 @@
     "symbolAliases": [
       "stkGHO"
     ],
-    "variations": [
-      "aToken",
-      "stataToken"
-    ],
+    "variations": [],
     "icons": {
       "mono": "icons/mono/stkgho.svg",
-      "full": "icons/full/stkgho.svg",
-      "aToken": {
-        "mono": "icons/mono/astkgho.svg",
-        "full": "icons/full/astkgho.svg"
-      },
-      "stataToken": {
-        "mono": "icons/mono/statastkgho.svg",
-        "full": "icons/full/statastkgho.svg"
-      }
+      "full": "icons/full/stkgho.svg"
     }
   },
   {
@@ -3079,6 +3069,38 @@
       "stataToken": {
         "mono": "icons/mono/statausdp.svg",
         "full": "icons/full/statausdp.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
+    "name": "USDS Stablecoin",
+    "symbol": "usds",
+    "symbolAliases": [
+      "USDS",
+      "aEthUSDS",
+      "variableDebtEthUSDS",
+      "stataDebtEthUSDS",
+      "aEthLidoUSDS",
+      "variableDebtEthLidoUSDS",
+      "stataDebtEthLidoUSDS"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/usds.svg",
+      "full": "icons/full/usds.svg",
+      "aToken": {
+        "mono": "icons/mono/ausds.svg",
+        "full": "icons/full/ausds.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statausds.svg",
+        "full": "icons/full/statausds.svg"
       }
     }
   },

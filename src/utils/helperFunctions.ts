@@ -4,6 +4,7 @@ import { optimize } from "svgo";
 import { IconInfo, IconType } from "../scripts/types.ts";
 
 const REACT_ICONS_PACKS_PATH = "packages/react-web3-icons/src/iconsPacks";
+export const stakeAssetsSeparateIcons = ["stkAAVE", "stkBPTV2", "stkGHO"];
 
 // ----------------------------------------
 // Helper functions
@@ -101,14 +102,16 @@ export const generateIconsPack = (type: IconType, data: IconInfo[]) => {
   const iconsPack: Record<string, string> = {};
 
   data.forEach((item) => {
-    const name =
-      type === IconType.chain && item?.chainName
-        ? item.chainName
-        : type === IconType.wallet && item.walletName
-          ? item.walletName
-          : item.name
-            ? item.name
-            : "Unknown";
+    let name = "Unknown";
+    if (type === IconType.chain && item?.chainName) {
+      name = item.chainName;
+    } else if (type === IconType.wallet && item.walletName) {
+      name = item.walletName;
+    } else if (type === IconType.brand && item.brandName) {
+      name = item.brandName;
+    } else {
+      name = item.name;
+    }
 
     const lowercasedName = name.replace(/\s/g, "").toLowerCase();
 
@@ -118,12 +121,21 @@ export const generateIconsPack = (type: IconType, data: IconInfo[]) => {
       .toString();
   });
 
-  const packName =
-    type === IconType.chain
-      ? "chainsIconsPack"
-      : type === IconType.wallet
-        ? "walletsIconsPack"
-        : "assetsIconsPack";
+  let packName = "assetsIconsPack";
+  switch (type) {
+    case IconType.asset:
+      packName = "assetsIconsPack";
+      break;
+    case IconType.chain:
+      packName = "chainsIconsPack";
+      break;
+    case IconType.wallet:
+      packName = "walletsIconsPack";
+      break;
+    case IconType.brand:
+      packName = "brandsIconsPack";
+      break;
+  }
 
   fs.writeFileSync(
     `${REACT_ICONS_PACKS_PATH}/${packName}.ts`,

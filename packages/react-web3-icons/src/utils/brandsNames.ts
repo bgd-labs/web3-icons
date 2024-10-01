@@ -1,0 +1,1 @@
+export const brands: Record<string, string> = {"0x0AA97c284e98396202b6A04024F5E2c65026F3c0":"EtherFi","0x4e033931ad43597d96D6bcc25c280717730B58B1":"Lido"};

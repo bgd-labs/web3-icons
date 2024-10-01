@@ -3,13 +3,18 @@ import Fuse from "fuse.js";
 import React, { useMemo } from "react";
 
 import { AssetIconCard } from "@/components/AssetIconCard";
+import { BrandIconCard } from "@/components/BrandIconCard";
 import { Branding } from "@/components/Branding";
 import { ChainIconCard } from "@/components/ChainIconCard";
 import { Search } from "@/components/Search";
 import { WalletIconCard } from "@/components/WalletIconCard";
 
 import icons from "../../../../../icons/icons.json";
-import { IconInfo, IconType } from "../../../../../src/scripts/types";
+import {
+  IconFormat,
+  IconInfo,
+  IconType,
+} from "../../../../../src/scripts/types";
 
 async function IconsPage({
   searchParams,
@@ -23,7 +28,7 @@ async function IconsPage({
   const filteredIcons = useMemo(
     () =>
       new Fuse(icons as IconInfo[], {
-        keys: ["chainId", "symbol", "identityFlag", "walletName"],
+        keys: ["chainId", "symbol", "identityFlag", "walletName", "brandName"],
         threshold: 0.3,
         distance: 1000,
       })
@@ -42,86 +47,47 @@ async function IconsPage({
           .map((item) => {
             const asset = item;
             if (asset.type.includes(IconType.asset)) {
-              if (asset.icons.aToken && !asset.icons.stataToken) {
-                return (
-                  <React.Fragment key={asset?.symbol ?? asset?.chainId}>
-                    <AssetIconCard
-                      name={asset.name ?? ""}
-                      symbol={asset?.symbol ?? ""}
-                      chainId={asset.chainId}
-                      chainName={asset.chainName}
-                      icons={asset.icons}
-                    />
-                    <AssetIconCard
-                      name={asset.name ?? ""}
-                      symbol={asset?.symbol ?? ""}
-                      chainId={asset.chainId}
-                      chainName={asset.chainName}
-                      icons={asset.icons}
-                      assetTag={AssetTag.AToken}
-                    />
-                  </React.Fragment>
-                );
-              } else if (!asset.icons.aToken && asset.icons.stataToken) {
-                return (
-                  <React.Fragment key={asset?.symbol ?? asset?.chainId}>
-                    <AssetIconCard
-                      name={asset.name ?? ""}
-                      symbol={asset?.symbol ?? ""}
-                      chainId={asset.chainId}
-                      chainName={asset.chainName}
-                      icons={asset.icons}
-                    />
-                    <AssetIconCard
-                      name={asset.name ?? ""}
-                      symbol={asset?.symbol ?? ""}
-                      chainId={asset.chainId}
-                      chainName={asset.chainName}
-                      icons={asset.icons}
-                      assetTag={AssetTag.StataToken}
-                    />
-                  </React.Fragment>
-                );
-              } else if (asset.icons.aToken && asset.icons.stataToken) {
-                return (
-                  <React.Fragment key={asset?.symbol ?? asset?.chainId}>
-                    <AssetIconCard
-                      name={asset.name ?? ""}
-                      symbol={asset?.symbol ?? ""}
-                      chainId={asset.chainId}
-                      chainName={asset.chainName}
-                      icons={asset.icons}
-                    />
-                    <AssetIconCard
-                      name={asset.name ?? ""}
-                      symbol={asset?.symbol ?? ""}
-                      chainId={asset.chainId}
-                      chainName={asset.chainName}
-                      icons={asset.icons}
-                      assetTag={AssetTag.AToken}
-                    />
-                    <AssetIconCard
-                      name={asset.name ?? ""}
-                      symbol={asset?.symbol ?? ""}
-                      chainId={asset.chainId}
-                      chainName={asset.chainName}
-                      icons={asset.icons}
-                      assetTag={AssetTag.StataToken}
-                    />
-                  </React.Fragment>
-                );
-              } else {
-                return (
+              return (
+                <React.Fragment key={asset?.symbol ?? asset?.chainId}>
                   <AssetIconCard
-                    key={asset?.symbol ?? asset?.chainId}
                     name={asset.name ?? ""}
                     symbol={asset?.symbol ?? ""}
                     chainId={asset.chainId}
                     chainName={asset.chainName}
                     icons={asset.icons}
                   />
-                );
-              }
+                  {asset.icons[IconFormat.aToken] && (
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                      assetTag={AssetTag.AToken}
+                    />
+                  )}
+                  {asset.icons[IconFormat.stataToken] && (
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                      assetTag={AssetTag.StataToken}
+                    />
+                  )}
+                  {asset.icons[IconFormat.stkToken] && (
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                      assetTag={AssetTag.STKToken}
+                    />
+                  )}
+                </React.Fragment>
+              );
             } else if (asset.type.includes(IconType.chain)) {
               return (
                 <ChainIconCard
@@ -136,6 +102,13 @@ async function IconsPage({
                 <WalletIconCard
                   icons={asset.icons}
                   name={asset?.walletName ?? "Unknown"}
+                />
+              );
+            } else if (asset.type.includes(IconType.brand)) {
+              return (
+                <BrandIconCard
+                  icons={asset.icons}
+                  name={asset?.brandName ?? "Unknown"}
                 />
               );
             }

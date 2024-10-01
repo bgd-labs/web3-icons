@@ -1,0 +1,18 @@
+{
+  "type": ["asset"],
+  "name": "USDS Stablecoin",
+  "symbol": "usds",
+  "symbolAliases": [
+    "USDS",
+    "aEthUSDS",
+    "variableDebtEthUSDS",
+    "stataDebtEthUSDS",
+    "aEthLidoUSDS",
+    "variableDebtEthLidoUSDS",
+    "stataDebtEthLidoUSDS"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

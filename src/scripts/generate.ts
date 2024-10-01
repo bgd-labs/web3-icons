@@ -8,12 +8,15 @@ import {
   getPrefix,
   processIconFile,
   readJsonFile,
+  stakeAssetsSeparateIcons,
 } from "../utils/helperFunctions.ts";
 import {
+  IconFormat,
   IconInfo,
   IconInfoIcons,
   IconType,
   IconWithMetaType,
+  TokenTag,
   WalletType,
   WriteQueueItem,
 } from "./types.ts";
@@ -34,6 +37,8 @@ const IconMetaSchema = z.object({
   symbolAliases: z.array(z.string()).or(z.undefined()),
   variations: z.array(z.string()).or(z.undefined()),
   identityFlag: z.string().or(z.undefined()),
+  brandName: z.string().or(z.undefined()),
+  addressAliases: z.array(z.string()).or(z.undefined()),
 });
 
 const files = fs
@@ -66,13 +71,16 @@ for (const icon of iconsArray) {
   const { meta, mono, full } = icon;
   const { variations } = meta;
 
-  const name = meta?.chainName
-    ? meta.chainName
-    : meta.walletName
-      ? meta.walletName
-      : meta.name
-        ? meta.name
-        : "Unknown";
+  let name = "Unknown";
+  if (meta.brandName) {
+    name = meta.brandName;
+  } else if (meta.chainName) {
+    name = meta.chainName;
+  } else if (meta.walletName) {
+    name = meta.walletName;
+  } else {
+    name = meta.name ?? "Unknown";
+  }
 
   const lowercasedName = name
     .split("(")
@@ -108,136 +116,81 @@ for (const icon of iconsArray) {
     .optimizeSVGContent()
     .getSVGContent();
 
-  if (
-    meta.type.includes(IconType.wallet) ||
-    meta.type.includes(IconType.chain)
-  ) {
-    const monoFilePath = path.join(
-      OUTPUT_FOLDER,
-      "mono",
-      `${lowercasedName}.svg`,
-    );
-    iconInfo.icons.mono = monoFilePath;
-    writeQueue.push({
-      filePath: monoFilePath,
-      content: monoContent,
-    });
-
-    const fullFilePath = path.join(
-      OUTPUT_FOLDER,
-      "full",
-      `${lowercasedName}.svg`,
-    );
-    iconInfo.icons.full = fullFilePath;
-    writeQueue.push({
-      filePath: fullFilePath,
-      content: fullContent,
-    });
-  }
-
-  if (meta.type.includes(IconType.asset)) {
-    const monoFilePath = path.join(
-      OUTPUT_FOLDER,
-      "mono",
-      `${meta.symbol.toLowerCase()}.svg`,
-    );
-    iconInfo.icons.mono = monoFilePath;
-    writeQueue.push({
-      filePath: monoFilePath,
-      content: monoContent,
-    });
-
-    const fullFilePath = path.join(
-      OUTPUT_FOLDER,
-      "full",
-      `${meta.symbol.toLowerCase()}.svg`,
-    );
-    iconInfo.icons.full = fullFilePath;
-    writeQueue.push({
-      filePath: fullFilePath,
-      content: fullContent,
-    });
-
-    if (variations.includes("aToken")) {
-      const aTokenMono = generateTokenIcon(
+  const generateIconsContents = (fileName: string, iconFormat?: IconFormat) => {
+    if (iconFormat) {
+      const tokenMono = generateTokenIcon(
         monoContent,
-        `a${meta.symbol.toLowerCase()}`,
+        fileName,
         "mono",
-        "aToken",
+        iconFormat,
       );
-      const aTokenFull = generateTokenIcon(
+      const tokenFull = generateTokenIcon(
         fullContent,
-        `a${meta.symbol.toLowerCase()}`,
+        fileName,
         "full",
-        "aToken",
+        iconFormat,
       );
-
-      const aTokenMonoFilePath = path.join(
-        OUTPUT_FOLDER,
-        "mono",
-        `a${meta.symbol.toLowerCase()}.svg`,
-      );
-      const aTokenFullFilePath = path.join(
-        OUTPUT_FOLDER,
-        "full",
-        `a${meta.symbol.toLowerCase()}.svg`,
-      );
-      iconInfo.icons.aToken = {
-        mono: aTokenMonoFilePath,
-        full: aTokenFullFilePath,
+      const monoFilePath = path.join(OUTPUT_FOLDER, "mono", `${fileName}.svg`);
+      const fullFilePath = path.join(OUTPUT_FOLDER, "full", `${fileName}.svg`);
+      iconInfo.icons[iconFormat] = {
+        ...iconInfo.icons[iconFormat],
+        mono: monoFilePath,
+        full: fullFilePath,
       };
-
       writeQueue.push(
         {
-          filePath: aTokenMonoFilePath,
-          content: aTokenMono,
+          filePath: monoFilePath,
+          content: tokenMono,
         },
         {
-          filePath: aTokenFullFilePath,
-          content: aTokenFull,
+          filePath: fullFilePath,
+          content: tokenFull,
+        },
+      );
+    } else {
+      const monoFilePath = path.join(OUTPUT_FOLDER, "mono", `${fileName}.svg`);
+      const fullFilePath = path.join(OUTPUT_FOLDER, "full", `${fileName}.svg`);
+      iconInfo.icons = {
+        ...iconInfo.icons,
+        mono: monoFilePath,
+        full: fullFilePath,
+      };
+      writeQueue.push(
+        {
+          filePath: monoFilePath,
+          content: monoContent,
+        },
+        {
+          filePath: fullFilePath,
+          content: fullContent,
         },
       );
     }
+  };
 
-    if (variations.includes("stataToken")) {
-      const stataTokenMono = generateTokenIcon(
-        monoContent,
+  if (
+    meta.type.includes(IconType.wallet) ||
+    meta.type.includes(IconType.chain) ||
+    meta.type.includes(IconType.brand)
+  ) {
+    generateIconsContents(lowercasedName);
+  }
+
+  if (meta.type.includes(IconType.asset)) {
+    generateIconsContents(meta.symbol.toLowerCase());
+    if (variations.includes(IconFormat.aToken)) {
+      generateIconsContents(`a${meta.symbol.toLowerCase()}`, IconFormat.aToken);
+    }
+    if (variations.includes(IconFormat.stataToken)) {
+      generateIconsContents(
         `stata${meta.symbol.toLowerCase()}`,
-        "mono",
-        "stataToken",
+        IconFormat.stataToken,
       );
-      const stataTokenFull = generateTokenIcon(
-        fullContent,
-        `stata${meta.symbol.toLowerCase()}`,
-        "full",
-        "stataToken",
-      );
-
-      const stataTokenMonoFilePath = path.join(
-        OUTPUT_FOLDER,
-        "mono",
-        `stata${meta.symbol.toLowerCase()}.svg`,
-      );
-      const stataTokenFullFilePath = path.join(
-        OUTPUT_FOLDER,
-        "full",
-        `stata${meta.symbol.toLowerCase()}.svg`,
-      );
-
-      iconInfo.icons.stataToken = {
-        mono: stataTokenMonoFilePath,
-        full: stataTokenFullFilePath,
-      };
-
-      writeQueue.push(
-        {
-          filePath: stataTokenMonoFilePath,
-          content: stataTokenMono,
-        },
-        {
-          filePath: stataTokenFullFilePath,
-          content: stataTokenFull,
-        },
+    }
+    if (variations.includes(IconFormat.stkToken)) {
+      generateIconsContents(
+        `stk${meta.symbol.toLowerCase()}`,
+        IconFormat.stkToken,
       );
     }
   }
@@ -277,18 +230,27 @@ assets.forEach((item) => {
   item.symbolAliases.forEach((symbol) => {
     const symbolArray = symbol.split(/(?<![A-Z])(?=[A-Z])/);
     let tokenTag = "";
-    if (symbolArray && symbolArray.length) {
+    if (
+      symbolArray &&
+      symbolArray.length &&
+      !stakeAssetsSeparateIcons.includes(symbol)
+    ) {
       const firstItem = symbolArray[0];
-
-      if (firstItem === "a") {
-        tokenTag = "a";
-      } else if (firstItem === "stata") {
-        tokenTag = "stata";
-      } else if (firstItem === "variable") {
-        tokenTag = "v";
+      switch (firstItem.toLowerCase()) {
+        case TokenTag.aToken:
+          tokenTag = TokenTag.aToken;
+          break;
+        case TokenTag.stataToken:
+          tokenTag = TokenTag.stataToken;
+          break;
+        case "variable":
+          tokenTag = TokenTag.aToken;
+          break;
+        case TokenTag.stkToken:
+          tokenTag = TokenTag.stkToken;
+          break;
       }
     }
-
     assetsAliases[symbol.toLowerCase()] = {
       iconSymbol: item.symbol,
       symbol: `${tokenTag}${item.symbol.toUpperCase()}`,
@@ -342,3 +304,20 @@ fs.writeFileSync(
 );
 generateIconsPack(IconType.wallet, wallets);
 console.log("✅ Wallets data generated");
+
+const brands = iconsInfoFile.filter((icon) =>
+  icon.type.includes(IconType.brand),
+);
+const brandsData: Record<string, string> = {};
+brands.forEach((item) => {
+  item.addressAliases.forEach(
+    (address) =>
+      (brandsData[address] = item?.brandName ? item.brandName : "Unknown"),
+  );
+});
+fs.writeFileSync(
+  `${REACT_UTILS_PATH}/brandsNames.ts`,
+  `export const brands: Record<string, string> = ${JSON.stringify(brandsData)};`,
+);
+generateIconsPack(IconType.brand, brands);
+console.log("✅ Brands data generated");
