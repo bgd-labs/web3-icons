@@ -4,6 +4,7 @@ import { optimize } from "svgo";
 import { IconInfo, IconType } from "../scripts/types.ts";
 
 const REACT_ICONS_PACKS_PATH = "packages/react-web3-icons/src/iconsPacks";
+export const stakeAssetsSeparateIcons = ["stkAAVE", "stkBPTV2", "stkGHO"];
 
 // ----------------------------------------
 // Helper functions

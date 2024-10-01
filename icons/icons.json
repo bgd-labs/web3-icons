@@ -2599,21 +2599,10 @@
     "symbolAliases": [
       "stkAAVE"
     ],
-    "variations": [
-      "aToken",
-      "stataToken"
-    ],
+    "variations": [],
     "icons": {
       "mono": "icons/mono/stkaave.svg",
-      "full": "icons/full/stkaave.svg",
-      "aToken": {
-        "mono": "icons/mono/astkaave.svg",
-        "full": "icons/full/astkaave.svg"
-      },
-      "stataToken": {
-        "mono": "icons/mono/statastkaave.svg",
-        "full": "icons/full/statastkaave.svg"
-      }
+      "full": "icons/full/stkaave.svg"
     }
   },
   {
@@ -2625,21 +2614,10 @@
     "symbolAliases": [
       "stkBPTV2"
     ],
-    "variations": [
-      "aToken",
-      "stataToken"
-    ],
+    "variations": [],
     "icons": {
       "mono": "icons/mono/stkbptv2.svg",
-      "full": "icons/full/stkbptv2.svg",
-      "aToken": {
-        "mono": "icons/mono/astkbptv2.svg",
-        "full": "icons/full/astkbptv2.svg"
-      },
-      "stataToken": {
-        "mono": "icons/mono/statastkbptv2.svg",
-        "full": "icons/full/statastkbptv2.svg"
-      }
+      "full": "icons/full/stkbptv2.svg"
     }
   },
   {
@@ -2651,21 +2629,10 @@
     "symbolAliases": [
       "stkGHO"
     ],
-    "variations": [
-      "aToken",
-      "stataToken"
-    ],
+    "variations": [],
     "icons": {
       "mono": "icons/mono/stkgho.svg",
-      "full": "icons/full/stkgho.svg",
-      "aToken": {
-        "mono": "icons/mono/astkgho.svg",
-        "full": "icons/full/astkgho.svg"
-      },
-      "stataToken": {
-        "mono": "icons/mono/statastkgho.svg",
-        "full": "icons/full/statastkgho.svg"
-      }
+      "full": "icons/full/stkgho.svg"
     }
   },
   {

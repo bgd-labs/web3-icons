@@ -8,6 +8,7 @@ import {
   getPrefix,
   processIconFile,
   readJsonFile,
+  stakeAssetsSeparateIcons,
 } from "../utils/helperFunctions.ts";
 import {
   IconFormat,
@@ -15,6 +16,7 @@ import {
   IconInfoIcons,
   IconType,
   IconWithMetaType,
+  TokenTag,
   WalletType,
   WriteQueueItem,
 } from "./types.ts";
@@ -228,20 +230,24 @@ assets.forEach((item) => {
   item.symbolAliases.forEach((symbol) => {
     const symbolArray = symbol.split(/(?<![A-Z])(?=[A-Z])/);
     let tokenTag = "";
-    if (symbolArray && symbolArray.length) {
+    if (
+      symbolArray &&
+      symbolArray.length &&
+      !stakeAssetsSeparateIcons.includes(symbol)
+    ) {
       const firstItem = symbolArray[0];
       switch (firstItem.toLowerCase()) {
-        case "a":
-          tokenTag = "a";
+        case TokenTag.aToken:
+          tokenTag = TokenTag.aToken;
           break;
-        case "stata":
-          tokenTag = "stata";
+        case TokenTag.stataToken:
+          tokenTag = TokenTag.stataToken;
           break;
         case "variable":
-          tokenTag = "v";
+          tokenTag = TokenTag.aToken;
           break;
-        case "stk":
-          tokenTag = "stk";
+        case TokenTag.stkToken:
+          tokenTag = TokenTag.stkToken;
           break;
       }
     }

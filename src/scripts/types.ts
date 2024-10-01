@@ -43,6 +43,12 @@ export enum IconFormat {
   stkToken = "stkToken",
 }
 
+export enum TokenTag {
+  aToken = "a",
+  stataToken = "stata",
+  stkToken = "stk",
+}
+
 export type IconInfoIcons = IconStyle & {
   [IconFormat.aToken]?: IconStyle;
   [IconFormat.stataToken]?: IconStyle;
