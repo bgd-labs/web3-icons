@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.4.8...react-web3-icons@v1.5.0) (2024-10-01)
+
+
+### Features
+
+* brands icons and stk template ([#37](https://github.com/bgd-labs/web3-icons/issues/37)) ([f87e038](https://github.com/bgd-labs/web3-icons/commit/f87e038f3afbe8d46991848aa83ffa4930237e43))
+
 ## [1.4.8](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.4.7...react-web3-icons@v1.4.8) (2024-09-23)
 
 
