@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Aave Token",
   "symbol": "aave",
-  "symbolAliases": [
+  "name": "Aave Token",
+
+  "aliases": [
     "AAVE",
     "AAVE.e",
     "stataAvaAAVE"

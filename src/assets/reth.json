@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Rocket Pool ETH",
   "symbol": "reth",
-  "symbolAliases": [
+  "name": "Rocket Pool ETH",
+
+  "aliases": [
     "aEthrETH",
     "variableDebtEthrETH",
     "rETH",

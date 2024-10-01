@@ -1,12 +1,12 @@
 {
   "type": ["asset"],
-  "name": "Kyber Legacy",
   "symbol": "kncl",
-  "symbolAliases": [
+  "name": "Kyber Legacy",
+
+  "aliases": [
     "KNCL"
   ],
   "variations": [
-    "aToken",
-    "stataToken"
+    "aToken"
   ]
 }

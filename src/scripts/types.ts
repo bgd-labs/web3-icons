@@ -13,19 +13,18 @@ export enum IconType {
 export type IconMetaData = {
   type: IconType[];
   name?: string;
+  aliases?: string[];
   // for chain
   chainName?: string;
   chainId?: number;
   // for asset
   symbol?: string;
-  symbolAliases?: string[];
   variations?: string[];
   // for wallet
   identityFlag?: string; // window.ethereum[identityFlag]
   walletName?: string;
   // for brand
   brandName?: string;
-  addressAliases?: string[];
 };
 
 export type IconStyle = {

@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "ChainLink",
   "symbol": "link",
-  "symbolAliases": [
+  "name": "ChainLink",
+
+  "aliases": [
     "LINK",
     "LINK.e",
     "stataAvaLINK"

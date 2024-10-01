@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "USD Base Coin",
   "symbol": "usdbc",
-  "symbolAliases": [
+  "name": "USD Base Coin",
+
+  "aliases": [
     "aBasUSDbC",
     "variableDebtBasUSDbC",
     "USDbC",

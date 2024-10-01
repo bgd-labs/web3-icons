@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Wrapped Beacon ETH",
   "symbol": "wbeth",
-  "symbolAliases": ["WBETH"],
+  "name": "Wrapped Beacon ETH",
+
+  "aliases": ["WBETH"],
   "variations": [
     "aToken",
     "stataToken"

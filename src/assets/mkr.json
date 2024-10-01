@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Maker",
   "symbol": "mkr",
-  "symbolAliases": [
+  "name": "Maker",
+
+  "aliases": [
     "aEthMKR",
     "variableDebtEthMKR",
     "MKR"

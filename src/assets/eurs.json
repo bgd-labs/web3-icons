@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "STASIS EURS Token",
   "symbol": "eurs",
-  "symbolAliases": [
+  "name": "STASIS EURS Token",
+
+  "aliases": [
     "aPolEURS",
     "variableDebtPolEURS",
     "EURS",

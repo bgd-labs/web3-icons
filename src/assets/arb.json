@@ -1,9 +1,10 @@
 {
   "type": ["asset", "chain"],
+  "symbol": "arb",
   "chainId": 42161,
   "name": "Arbitrum",
-  "symbol": "arb",
-  "symbolAliases": [
+
+  "aliases": [
     "aArbARB",
     "variableDebtArbARB",
     "ARB",

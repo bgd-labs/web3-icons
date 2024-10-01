@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Enjin Coin",
   "symbol": "enj",
-  "symbolAliases": [
+  "name": "Enjin Coin",
+
+  "aliases": [
     "ENJ"
   ],
   "variations": [

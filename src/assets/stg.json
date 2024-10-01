@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "StargateToken",
   "symbol": "stg",
-  "symbolAliases": [
+  "name": "StargateToken",
+
+  "aliases": [
     "aEthSTG",
     "variableDebtEthSTG",
     "STG"

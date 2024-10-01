@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "ZKsync",
   "symbol": "zk",
-  "symbolAliases": [
+  "name": "ZKsync",
+
+  "aliases": [
     "ZK"
   ],
   "variations": [

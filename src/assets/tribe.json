@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Tribe",
   "symbol": "tribe",
-  "symbolAliases": ["TRIBE"],
+  "name": "Tribe",
+
+  "aliases": ["TRIBE"],
   "variations": [
     "aToken",
     "stataToken"

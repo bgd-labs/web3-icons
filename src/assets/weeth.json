@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Wrapped eETH",
   "symbol": "weeth",
-  "symbolAliases": [
+  "name": "Wrapped eETH",
+
+  "aliases": [
     "aEthweETH",
     "variableDebtEthweETH",
     "weETH",

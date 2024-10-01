@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Staked ETH",
   "symbol": "oseth",
-  "symbolAliases": [
+  "name": "Staked ETH",
+
+  "aliases": [
     "aEthosETH",
     "variableDebtEthosETH",
     "osETH",

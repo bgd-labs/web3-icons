@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Pax Dollar",
   "symbol": "usdp",
-  "symbolAliases": [
+  "name": "Pax Dollar",
+
+  "aliases": [
     "USDP"
   ],
   "variations": [

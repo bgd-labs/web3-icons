@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Aavegotchi GHST",
   "symbol": "ghst",
-  "symbolAliases": [
+  "name": "Aavegotchi GHST",
+
+  "aliases": [
     "aPolGHST",
     "variableDebtPolGHST",
     "GHST",

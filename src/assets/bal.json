@@ -1,12 +1,15 @@
 {
   "type": ["asset"],
-  "name": "Balancer",
   "symbol": "bal",
-  "symbolAliases": [
+  "name": "Balancer",
+
+  "aliases": [
     "aEthBAL",
+    "stataEthBAL",
     "variableDebtEthBAL",
     "BAL",
     "aPolBAL",
+    "stataPolBAL",
     "variableDebtPolBAL",
     "stataPolBAL"
   ],

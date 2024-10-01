@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Wrapped Matic",
   "symbol": "wmatic",
-  "symbolAliases": [
+  "name": "Wrapped Matic",
+
+  "aliases": [
     "WMATIC",
     "aPolWMATIC",
     "variableDebtPolWMATIC",

@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "PancakeSwap Token",
   "symbol": "cake",
-  "symbolAliases": [
+  "name": "PancakeSwap Token",
+
+  "aliases": [
     "stataBnbCAKE",
     "aBnbCAKE",
     "variableDebtBnbCAKE",

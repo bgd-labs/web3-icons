@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "LUSD Stablecoin",
   "symbol": "lusd",
-  "symbolAliases": [
+  "name": "LUSD Stablecoin",
+
+  "aliases": [
     "LUSD",
     "aEthLUSD",
     "variableDebtEthLUSD",

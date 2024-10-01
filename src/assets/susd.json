@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Synth sUSD",
   "symbol": "susd",
-  "symbolAliases": [
+  "name": "Synth sUSD",
+
+  "aliases": [
     "sUSD",
     "stataOptSUSD",
     "aOptSUSD",

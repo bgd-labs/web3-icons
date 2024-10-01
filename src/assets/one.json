@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Harmony",
   "symbol": "one",
-  "symbolAliases": ["ONE"],
+  "name": "Harmony",
+
+  "aliases": ["ONE"],
   "variations": [
     "aToken",
     "stataToken"

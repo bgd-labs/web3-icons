@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "TrueUSD",
   "symbol": "tusd",
-  "symbolAliases": [
+  "name": "TrueUSD",
+
+  "aliases": [
     "TUSD"
   ],
   "variations": [

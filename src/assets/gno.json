@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Gnosis Token on xDai",
   "symbol": "gno",
-  "symbolAliases": [
+  "name": "Gnosis Token on xDai",
+
+  "aliases": [
     "aGnoGNO",
     "variableDebtGnoGNO",
     "stataGnoGNO",

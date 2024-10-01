@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Rai Reflex Index",
   "symbol": "rai",
-  "symbolAliases": [
+  "name": "Rai Reflex Index",
+
+  "aliases": [
     "RAI"
   ],
   "variations": [

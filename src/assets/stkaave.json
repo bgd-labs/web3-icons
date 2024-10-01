@@ -1,7 +1,8 @@
 {
   "type": ["asset"],
-  "name": "Staked Aave",
   "symbol": "stkaave",
-  "symbolAliases": ["stkAAVE"],
+  "name": "Staked Aave",
+
+  "aliases": ["stkAAVE"],
   "variations": []
 }

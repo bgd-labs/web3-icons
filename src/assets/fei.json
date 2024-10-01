@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Fei USD",
   "symbol": "fei",
-  "symbolAliases": [
+  "name": "Fei USD",
+
+  "aliases": [
     "FEI"
   ],
   "variations": [

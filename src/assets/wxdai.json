@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Wrapped XDAI",
   "symbol": "wxdai",
-  "symbolAliases": [
+  "name": "Wrapped XDAI",
+
+  "aliases": [
     "aGnoWXDAI",
     "variableDebtGnoWXDAI",
     "WXDAI",

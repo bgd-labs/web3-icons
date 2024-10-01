@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Decentraland",
   "symbol": "mana",
-  "symbolAliases": [
+  "name": "Decentraland",
+
+  "aliases": [
     "MANA"
   ],
   "variations": [

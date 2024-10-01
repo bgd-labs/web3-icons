@@ -4,10 +4,11 @@
       "asset",
       "wallet"
     ],
+    "symbol": "1inch",
+    "identityFlag": "isOneInchIOSWallet",
     "name": "One inch Network",
     "walletName": "1inch Wallet",
-    "symbol": "1inch",
-    "symbolAliases": [
+    "aliases": [
       "1INCH",
       "aEth1INCH",
       "variableDebtEth1INCH",
@@ -17,7 +18,6 @@
       "aToken",
       "stataToken"
     ],
-    "identityFlag": "isOneInchIOSWallet",
     "icons": {
       "mono": "icons/mono/1inch.svg",
       "full": "icons/full/1inch.svg",
@@ -35,9 +35,9 @@
     "type": [
       "asset"
     ],
-    "name": "Aave Token",
     "symbol": "aave",
-    "symbolAliases": [
+    "name": "Aave Token",
+    "aliases": [
       "AAVE",
       "AAVE.e",
       "stataAvaAAVE"
@@ -63,8 +63,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Alpha Wallet",
     "identityFlag": "isAlphaWallet",
+    "walletName": "Alpha Wallet",
     "icons": {
       "mono": "icons/mono/alphawallet.svg",
       "full": "icons/full/alphawallet.svg"
@@ -74,9 +74,9 @@
     "type": [
       "asset"
     ],
-    "name": "Ampleforth",
     "symbol": "ampl",
-    "symbolAliases": [
+    "name": "Ampleforth",
+    "aliases": [
       "AMPL"
     ],
     "variations": [
@@ -101,10 +101,10 @@
       "asset",
       "chain"
     ],
+    "symbol": "arb",
     "chainId": 42161,
     "name": "Arbitrum",
-    "symbol": "arb",
-    "symbolAliases": [
+    "aliases": [
       "aArbARB",
       "variableDebtArbARB",
       "ARB",
@@ -136,8 +136,8 @@
     "type": [
       "chain"
     ],
-    "chainName": "Arbitrum Goerli",
     "chainId": 421613,
+    "chainName": "Arbitrum Goerli",
     "icons": {
       "mono": "icons/mono/arbitrumgoerli.svg",
       "full": "icons/full/arbitrumgoerli.svg"
@@ -147,8 +147,8 @@
     "type": [
       "chain"
     ],
-    "chainName": "Arbitrum Sepolia",
     "chainId": 421614,
+    "chainName": "Arbitrum Sepolia",
     "icons": {
       "mono": "icons/mono/arbitrumsepolia.svg",
       "full": "icons/full/arbitrumsepolia.svg"
@@ -158,8 +158,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "AToken Wallet",
     "identityFlag": "isAToken",
+    "walletName": "AToken Wallet",
     "icons": {
       "mono": "icons/mono/atokenwallet.svg",
       "full": "icons/full/atokenwallet.svg"
@@ -169,8 +169,8 @@
     "type": [
       "chain"
     ],
-    "chainName": "Avalanche Testnet",
     "chainId": 43113,
+    "chainName": "Avalanche Testnet",
     "icons": {
       "mono": "icons/mono/avalanchetestnet.svg",
       "full": "icons/full/avalanchetestnet.svg"
@@ -181,10 +181,10 @@
       "asset",
       "chain"
     ],
+    "symbol": "avax",
     "chainId": 43114,
     "name": "Avalanche",
-    "symbol": "avax",
-    "symbolAliases": [
+    "aliases": [
       "AVAX"
     ],
     "variations": [
@@ -208,13 +208,15 @@
     "type": [
       "asset"
     ],
-    "name": "Balancer",
     "symbol": "bal",
-    "symbolAliases": [
+    "name": "Balancer",
+    "aliases": [
       "aEthBAL",
+      "stataEthBAL",
       "variableDebtEthBAL",
       "BAL",
       "aPolBAL",
+      "stataPolBAL",
       "variableDebtPolBAL",
       "stataPolBAL"
     ],
@@ -239,8 +241,8 @@
     "type": [
       "chain"
     ],
-    "chainName": "Base",
     "chainId": 8453,
+    "chainName": "Base",
     "icons": {
       "mono": "icons/mono/base.svg",
       "full": "icons/full/base.svg"
@@ -250,14 +252,13 @@
     "type": [
       "asset"
     ],
-    "name": "Basic Attention Token",
     "symbol": "bat",
-    "symbolAliases": [
+    "name": "Basic Attention Token",
+    "aliases": [
       "BAT"
     ],
     "variations": [
-      "aToken",
-      "stataToken"
+      "aToken"
     ],
     "icons": {
       "mono": "icons/mono/bat.svg",
@@ -265,10 +266,6 @@
       "aToken": {
         "mono": "icons/mono/abat.svg",
         "full": "icons/full/abat.svg"
-      },
-      "stataToken": {
-        "mono": "icons/mono/statabat.svg",
-        "full": "icons/full/statabat.svg"
       }
     }
   },
@@ -276,8 +273,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "BitKeep Wallet",
     "identityFlag": "isBitKeep",
+    "walletName": "BitKeep Wallet",
     "icons": {
       "mono": "icons/mono/bitkeepwallet.svg",
       "full": "icons/full/bitkeepwallet.svg"
@@ -287,8 +284,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Bitpie Wallet",
     "identityFlag": "isBitpie",
+    "walletName": "Bitpie Wallet",
     "icons": {
       "mono": "icons/mono/bitpiewallet.svg",
       "full": "icons/full/bitpiewallet.svg"
@@ -298,8 +295,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Bitski Wallet",
     "identityFlag": "isBitski",
+    "walletName": "Bitski Wallet",
     "icons": {
       "mono": "icons/mono/bitskiwallet.svg",
       "full": "icons/full/bitskiwallet.svg"
@@ -309,8 +306,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Block Wallet",
     "identityFlag": "isBlockWallet",
+    "walletName": "Block Wallet",
     "icons": {
       "mono": "icons/mono/blockwallet.svg",
       "full": "icons/full/blockwallet.svg"
@@ -322,12 +319,13 @@
       "chain",
       "wallet"
     ],
-    "chainName": "BNB Smart Chain",
-    "chainId": 56,
-    "name": "Wrapped BNB",
-    "walletName": "Binance Smart Wallet",
     "symbol": "wbnb",
-    "symbolAliases": [
+    "chainId": 56,
+    "identityFlag": "bbcSignTx",
+    "name": "Wrapped BNB",
+    "chainName": "BNB Smart Chain",
+    "walletName": "Binance Smart Wallet",
+    "aliases": [
       "aBnbWBNB",
       "variableDebtBnbWBNB",
       "WBNB",
@@ -337,7 +335,6 @@
       "aToken",
       "stataToken"
     ],
-    "identityFlag": "bbcSignTx",
     "icons": {
       "mono": "icons/mono/wbnb.svg",
       "full": "icons/full/wbnb.svg",
@@ -355,14 +352,13 @@
     "type": [
       "asset"
     ],
-    "name": "Stader BNBx",
     "symbol": "bnbx",
-    "symbolAliases": [
+    "name": "Stader BNBx",
+    "aliases": [
       "BNBx"
     ],
     "variations": [
-      "aToken",
-      "stataToken"
+      "aToken"
     ],
     "icons": {
       "mono": "icons/mono/bnbx.svg",
@@ -370,10 +366,6 @@
       "aToken": {
         "mono": "icons/mono/abnbx.svg",
         "full": "icons/full/abnbx.svg"
-      },
-      "stataToken": {
-        "mono": "icons/mono/statabnbx.svg",
-        "full": "icons/full/statabnbx.svg"
       }
     }
   },
@@ -381,14 +373,13 @@
     "type": [
       "asset"
     ],
-    "name": "BlackPool",
     "symbol": "bpt",
-    "symbolAliases": [
+    "name": "BlackPool",
+    "aliases": [
       "BPT"
     ],
     "variations": [
-      "aToken",
-      "stataToken"
+      "aToken"
     ],
     "icons": {
       "mono": "icons/mono/bpt.svg",
@@ -396,10 +387,6 @@
       "aToken": {
         "mono": "icons/mono/abpt.svg",
         "full": "icons/full/abpt.svg"
-      },
-      "stataToken": {
-        "mono": "icons/mono/statabpt.svg",
-        "full": "icons/full/statabpt.svg"
       }
     }
   },
@@ -407,8 +394,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Brave Wallet",
     "identityFlag": "isBraveWallet",
+    "walletName": "Brave Wallet",
     "icons": {
       "mono": "icons/mono/bravewallet.svg",
       "full": "icons/full/bravewallet.svg"
@@ -418,8 +405,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Browser wallet",
     "identityFlag": "",
+    "walletName": "Browser wallet",
     "icons": {
       "mono": "icons/mono/browserwallet.svg",
       "full": "icons/full/browserwallet.svg"
@@ -429,9 +416,9 @@
     "type": [
       "asset"
     ],
-    "name": "Bitcoin",
     "symbol": "btc",
-    "symbolAliases": [
+    "name": "Bitcoin",
+    "aliases": [
       "BTCB",
       "BTC",
       "BTC.b"
@@ -457,9 +444,9 @@
     "type": [
       "asset"
     ],
-    "name": "BUSD",
     "symbol": "busd",
-    "symbolAliases": [
+    "name": "BUSD",
+    "aliases": [
       "BUSD"
     ],
     "variations": [
@@ -483,9 +470,9 @@
     "type": [
       "asset"
     ],
-    "name": "PancakeSwap Token",
     "symbol": "cake",
-    "symbolAliases": [
+    "name": "PancakeSwap Token",
+    "aliases": [
       "stataBnbCAKE",
       "aBnbCAKE",
       "variableDebtBnbCAKE",
@@ -512,15 +499,17 @@
     "type": [
       "asset"
     ],
-    "name": "CBBTC",
     "symbol": "cbbtc",
-    "symbolAliases": [
+    "name": "CBBTC",
+    "aliases": [
       "cbBTC",
       "CBBTC",
       "aBascbBTC",
+      "stataBascbBTC",
       "variableDebtBascbBTC",
       "stableDebtBascbBTC",
       "aEthcbBTC",
+      "stataEthcbBTC",
       "variableDebtEthcbBTC",
       "stableDebtEthcbBTC"
     ],
@@ -545,9 +534,9 @@
     "type": [
       "asset"
     ],
-    "name": "Coinbase Wrapped Staked ETH",
     "symbol": "cbeth",
-    "symbolAliases": [
+    "name": "Coinbase Wrapped Staked ETH",
+    "aliases": [
       "aEthcbETH",
       "variableDebtEthcbETH",
       "cbETH",
@@ -577,8 +566,8 @@
     "type": [
       "chain"
     ],
-    "chainName": "Celo",
     "chainId": 42220,
+    "chainName": "Celo",
     "icons": {
       "mono": "icons/mono/celo.svg",
       "full": "icons/full/celo.svg"
@@ -588,8 +577,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Coinbase Wallet",
     "identityFlag": "isToshi",
+    "walletName": "Coinbase Wallet",
     "icons": {
       "mono": "icons/mono/coinbasewallet.svg",
       "full": "icons/full/coinbasewallet.svg"
@@ -599,8 +588,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Core Wallet",
     "identityFlag": "isAvalanche",
+    "walletName": "Core Wallet",
     "icons": {
       "mono": "icons/mono/corewallet.svg",
       "full": "icons/full/corewallet.svg"
@@ -610,9 +599,9 @@
     "type": [
       "asset"
     ],
-    "name": "Curve DAO Token",
     "symbol": "crv",
-    "symbolAliases": [
+    "name": "Curve DAO Token",
+    "aliases": [
       "aEthCRV",
       "variableDebtEthCRV",
       "CRV",
@@ -642,9 +631,9 @@
     "type": [
       "asset"
     ],
-    "name": "Curve.Fi USD Stablecoin",
     "symbol": "crvusd",
-    "symbolAliases": [
+    "name": "Curve.Fi USD Stablecoin",
+    "aliases": [
       "aEthcrvUSD",
       "variableDebtEthcrvUSD",
       "crvUSD",
@@ -671,9 +660,9 @@
     "type": [
       "asset"
     ],
-    "name": "Convex Token",
     "symbol": "cvx",
-    "symbolAliases": [
+    "name": "Convex Token",
+    "aliases": [
       "CVX"
     ],
     "variations": [
@@ -697,9 +686,9 @@
     "type": [
       "asset"
     ],
-    "name": "Dai Stablecoin",
     "symbol": "dai",
-    "symbolAliases": [
+    "name": "Dai Stablecoin",
+    "aliases": [
       "DAI",
       "m.DAI",
       "DAI.e",
@@ -729,8 +718,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "DCENT Wallet",
     "identityFlag": "isDcentWallet",
+    "walletName": "DCENT Wallet",
     "icons": {
       "mono": "icons/mono/dcentwallet.svg",
       "full": "icons/full/dcentwallet.svg"
@@ -740,8 +729,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "DeFi Wallet",
     "identityFlag": "isDeficonnectProvider",
+    "walletName": "DeFi Wallet",
     "icons": {
       "mono": "icons/mono/defiwallet.svg",
       "full": "icons/full/defiwallet.svg"
@@ -751,9 +740,9 @@
     "type": [
       "asset"
     ],
-    "name": "DefiPulse Index",
     "symbol": "dpi",
-    "symbolAliases": [
+    "name": "DefiPulse Index",
+    "aliases": [
       "stataPolDPI",
       "aPolDPI",
       "variableDebtPolDPI",
@@ -780,9 +769,9 @@
     "type": [
       "asset"
     ],
-    "name": "Enjin Coin",
     "symbol": "enj",
-    "symbolAliases": [
+    "name": "Enjin Coin",
+    "aliases": [
       "ENJ"
     ],
     "variations": [
@@ -806,8 +795,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Enkrypt Wallet",
     "identityFlag": "isEnkrypt",
+    "walletName": "Enkrypt Wallet",
     "icons": {
       "mono": "icons/mono/enkryptwallet.svg",
       "full": "icons/full/enkryptwallet.svg"
@@ -817,9 +806,9 @@
     "type": [
       "asset"
     ],
-    "name": "Ethereum Name Service",
     "symbol": "ens",
-    "symbolAliases": [
+    "name": "Ethereum Name Service",
+    "aliases": [
       "ENS",
       "aEthENS",
       "variableDebtEthENS",
@@ -846,13 +835,19 @@
     "type": [
       "asset"
     ],
-    "name": "Ethereum",
     "symbol": "eth",
-    "symbolAliases": [
+    "name": "Ethereum",
+    "aliases": [
       "aBnbETH",
       "variableDebtBnbETH",
       "ETH",
-      "stataBnbETH"
+      "stataBnbETH",
+      "aEthETH",
+      "stataEthETH",
+      "variableDebtEthETH",
+      "aPolETH",
+      "stataPolETH",
+      "variableDebtPolETH"
     ],
     "variations": [
       "aToken",
@@ -875,8 +870,8 @@
     "type": [
       "chain"
     ],
-    "chainName": "Ethereum",
     "chainId": 1,
+    "chainName": "Ethereum",
     "icons": {
       "mono": "icons/mono/ethereum.svg",
       "full": "icons/full/ethereum.svg"
@@ -887,7 +882,7 @@
       "brand"
     ],
     "brandName": "EtherFi",
-    "addressAliases": [
+    "aliases": [
       "0x0AA97c284e98396202b6A04024F5E2c65026F3c0"
     ],
     "icons": {
@@ -899,9 +894,9 @@
     "type": [
       "asset"
     ],
-    "name": "Stader ETHx",
     "symbol": "ethx",
-    "symbolAliases": [
+    "name": "Stader ETHx",
+    "aliases": [
       "aEthETHx",
       "variableDebtEthETHx",
       "ETHx",
@@ -928,9 +923,9 @@
     "type": [
       "asset"
     ],
-    "name": "EURA (agEUR)",
     "symbol": "eura",
-    "symbolAliases": [
+    "name": "EURA (agEUR)",
+    "aliases": [
       "EURA",
       "aPolAGEUR",
       "variableDebtPolAGEUR",
@@ -957,9 +952,9 @@
     "type": [
       "asset"
     ],
-    "name": "Monerium EUR emoney",
     "symbol": "eure",
-    "symbolAliases": [
+    "name": "Monerium EUR emoney",
+    "aliases": [
       "aGnoEURe",
       "variableDebtGnoEURe",
       "EURe",
@@ -986,9 +981,9 @@
     "type": [
       "asset"
     ],
-    "name": "STASIS EURS Token",
     "symbol": "eurs",
-    "symbolAliases": [
+    "name": "STASIS EURS Token",
+    "aliases": [
       "aPolEURS",
       "variableDebtPolEURS",
       "EURS",
@@ -1018,8 +1013,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Exodus Wallet",
     "identityFlag": "isExodus",
+    "walletName": "Exodus Wallet",
     "icons": {
       "mono": "icons/mono/exoduswallet.svg",
       "full": "icons/full/exoduswallet.svg"
@@ -1029,8 +1024,8 @@
     "type": [
       "chain"
     ],
-    "chainName": "Fantom Testnet",
     "chainId": 4002,
+    "chainName": "Fantom Testnet",
     "icons": {
       "mono": "icons/mono/fantomtestnet.svg",
       "full": "icons/full/fantomtestnet.svg"
@@ -1040,9 +1035,9 @@
     "type": [
       "asset"
     ],
-    "name": "First Digital USD",
     "symbol": "fdusd",
-    "symbolAliases": [
+    "name": "First Digital USD",
+    "aliases": [
       "FDUSD",
       "stataBnbFDUSD",
       "aBnbFDUSD",
@@ -1069,9 +1064,9 @@
     "type": [
       "asset"
     ],
-    "name": "Fei USD",
     "symbol": "fei",
-    "symbolAliases": [
+    "name": "Fei USD",
+    "aliases": [
       "FEI"
     ],
     "variations": [
@@ -1095,8 +1090,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Frame Wallet",
     "identityFlag": "isFrame",
+    "walletName": "Frame Wallet",
     "icons": {
       "mono": "icons/mono/framewallet.svg",
       "full": "icons/full/framewallet.svg"
@@ -1106,9 +1101,9 @@
     "type": [
       "asset"
     ],
-    "name": "Frax",
     "symbol": "frax",
-    "symbolAliases": [
+    "name": "Frax",
+    "aliases": [
       "FRAX",
       "aEthFRAX",
       "variableDebtEthFRAX",
@@ -1141,8 +1136,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Frontier Wallet",
     "identityFlag": "isFrontier",
+    "walletName": "Frontier Wallet",
     "icons": {
       "mono": "icons/mono/frontierwallet.svg",
       "full": "icons/full/frontierwallet.svg"
@@ -1153,11 +1148,10 @@
       "asset",
       "chain"
     ],
-    "chainName": "Fantom",
+    "symbol": "ftm",
     "chainId": 250,
     "name": "Fantom",
-    "symbol": "ftm",
-    "symbolAliases": [
+    "aliases": [
       "FTM"
     ],
     "variations": [
@@ -1181,10 +1175,11 @@
     "type": [
       "asset"
     ],
-    "name": "Frax Share",
     "symbol": "fxs",
-    "symbolAliases": [
+    "name": "Frax Share",
+    "aliases": [
       "aEthFXS",
+      "stataEthFXS",
       "variableDebtEthFXS",
       "FXS"
     ],
@@ -1209,8 +1204,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "GameStop Wallet",
     "identityFlag": "isGamestop",
+    "walletName": "GameStop Wallet",
     "icons": {
       "mono": "icons/mono/gamestopwallet.svg",
       "full": "icons/full/gamestopwallet.svg"
@@ -1220,9 +1215,9 @@
     "type": [
       "asset"
     ],
-    "name": "Gho Token",
     "symbol": "gho",
-    "symbolAliases": [
+    "name": "Gho Token",
+    "aliases": [
       "aEthGHO",
       "variableDebtEthGHO",
       "GHO",
@@ -1252,9 +1247,9 @@
     "type": [
       "asset"
     ],
-    "name": "Aavegotchi GHST",
     "symbol": "ghst",
-    "symbolAliases": [
+    "name": "Aavegotchi GHST",
+    "aliases": [
       "aPolGHST",
       "variableDebtPolGHST",
       "GHST",
@@ -1281,9 +1276,9 @@
     "type": [
       "asset"
     ],
-    "name": "Gnosis Token on xDai",
     "symbol": "gno",
-    "symbolAliases": [
+    "name": "Gnosis Token on xDai",
+    "aliases": [
       "aGnoGNO",
       "variableDebtGnoGNO",
       "stataGnoGNO",
@@ -1321,9 +1316,9 @@
     "type": [
       "asset"
     ],
-    "name": "Savings xDAI",
     "symbol": "gnosissdai",
-    "symbolAliases": [
+    "name": "Savings xDAI",
+    "aliases": [
       "sDAI"
     ],
     "variations": [
@@ -1347,9 +1342,9 @@
     "type": [
       "asset"
     ],
-    "name": "Gelato Uniswap",
     "symbol": "guni",
-    "symbolAliases": [
+    "name": "Gelato Uniswap",
+    "aliases": [
       "G-UNI"
     ],
     "variations": [
@@ -1373,9 +1368,9 @@
     "type": [
       "asset"
     ],
-    "name": "Gemini Dollar",
     "symbol": "gusd",
-    "symbolAliases": [
+    "name": "Gemini Dollar",
+    "aliases": [
       "GUSD"
     ],
     "variations": [
@@ -1399,8 +1394,8 @@
     "type": [
       "chain"
     ],
-    "chainName": "Harmony One",
     "chainId": 1666600000,
+    "chainName": "Harmony One",
     "icons": {
       "mono": "icons/mono/harmonyone.svg",
       "full": "icons/full/harmonyone.svg"
@@ -1410,8 +1405,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Huobi Wallet",
     "identityFlag": "isHbWallet",
+    "walletName": "Huobi Wallet",
     "icons": {
       "mono": "icons/mono/huobiwallet.svg",
       "full": "icons/full/huobiwallet.svg"
@@ -1421,8 +1416,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "HyperPay Wallet",
     "identityFlag": "isHyperPay",
+    "walletName": "HyperPay Wallet",
     "icons": {
       "mono": "icons/mono/hyperpaywallet.svg",
       "full": "icons/full/hyperpaywallet.svg"
@@ -1432,8 +1427,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Impersonated Wallet",
     "identityFlag": "",
+    "walletName": "Impersonated Wallet",
     "icons": {
       "mono": "icons/mono/impersonatedwallet.svg",
       "full": "icons/full/impersonatedwallet.svg"
@@ -1443,8 +1438,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "imToken Wallet",
     "identityFlag": "isImToken",
+    "walletName": "imToken Wallet",
     "icons": {
       "mono": "icons/mono/imtokenwallet.svg",
       "full": "icons/full/imtokenwallet.svg"
@@ -1454,9 +1449,9 @@
     "type": [
       "asset"
     ],
-    "name": "Jarvis Synthetic Euro",
     "symbol": "jeur",
-    "symbolAliases": [
+    "name": "Jarvis Synthetic Euro",
+    "aliases": [
       "aPolJEUR",
       "variableDebtPolJEUR",
       "jEUR",
@@ -1483,9 +1478,9 @@
     "type": [
       "asset"
     ],
-    "name": "Kyber Network Crystal v2",
     "symbol": "knc",
-    "symbolAliases": [
+    "name": "Kyber Network Crystal v2",
+    "aliases": [
       "KNC",
       "aEthKNC",
       "variableDebtEthKNC"
@@ -1511,14 +1506,13 @@
     "type": [
       "asset"
     ],
-    "name": "Kyber Legacy",
     "symbol": "kncl",
-    "symbolAliases": [
+    "name": "Kyber Legacy",
+    "aliases": [
       "KNCL"
     ],
     "variations": [
-      "aToken",
-      "stataToken"
+      "aToken"
     ],
     "icons": {
       "mono": "icons/mono/kncl.svg",
@@ -1526,10 +1520,6 @@
       "aToken": {
         "mono": "icons/mono/akncl.svg",
         "full": "icons/full/akncl.svg"
-      },
-      "stataToken": {
-        "mono": "icons/mono/statakncl.svg",
-        "full": "icons/full/statakncl.svg"
       }
     }
   },
@@ -1538,21 +1528,19 @@
       "asset",
       "brand"
     ],
-    "name": "Lido DAO Token",
     "symbol": "ldo",
-    "symbolAliases": [
+    "name": "Lido DAO Token",
+    "brandName": "Lido",
+    "aliases": [
       "LDO",
       "aEthLDO",
       "variableDebtEthLDO",
-      "stataEthLDO"
+      "stataEthLDO",
+      "0x4e033931ad43597d96D6bcc25c280717730B58B1"
     ],
     "variations": [
       "aToken",
       "stataToken"
-    ],
-    "brandName": "Lido",
-    "addressAliases": [
-      "0x4e033931ad43597d96D6bcc25c280717730B58B1"
     ],
     "icons": {
       "mono": "icons/mono/ldo.svg",
@@ -1571,14 +1559,13 @@
     "type": [
       "asset"
     ],
-    "name": "Aave [OLD]",
     "symbol": "lend",
-    "symbolAliases": [
+    "name": "Aave [OLD]",
+    "aliases": [
       "LEND"
     ],
     "variations": [
-      "aToken",
-      "stataToken"
+      "aToken"
     ],
     "icons": {
       "mono": "icons/mono/lend.svg",
@@ -1586,10 +1573,6 @@
       "aToken": {
         "mono": "icons/mono/alend.svg",
         "full": "icons/full/alend.svg"
-      },
-      "stataToken": {
-        "mono": "icons/mono/statalend.svg",
-        "full": "icons/full/statalend.svg"
       }
     }
   },
@@ -1597,9 +1580,9 @@
     "type": [
       "asset"
     ],
-    "name": "ChainLink",
     "symbol": "link",
-    "symbolAliases": [
+    "name": "ChainLink",
+    "aliases": [
       "LINK",
       "LINK.e",
       "stataAvaLINK"
@@ -1625,8 +1608,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Liquality Wallet",
     "identityFlag": "isLiquality",
+    "walletName": "Liquality Wallet",
     "icons": {
       "mono": "icons/mono/liqualitywallet.svg",
       "full": "icons/full/liqualitywallet.svg"
@@ -1636,9 +1619,9 @@
     "type": [
       "asset"
     ],
-    "name": "LUSD Stablecoin",
     "symbol": "lusd",
-    "symbolAliases": [
+    "name": "LUSD Stablecoin",
+    "aliases": [
       "LUSD",
       "aEthLUSD",
       "variableDebtEthLUSD",
@@ -1672,9 +1655,9 @@
     "type": [
       "asset"
     ],
-    "name": "MAI (mimatic)",
     "symbol": "mai",
-    "symbolAliases": [
+    "name": "MAI (mimatic)",
+    "aliases": [
       "aPolMIMATIC",
       "variableDebtPolMIMATIC",
       "miMATIC",
@@ -1710,9 +1693,9 @@
     "type": [
       "asset"
     ],
-    "name": "Decentraland",
     "symbol": "mana",
-    "symbolAliases": [
+    "name": "Decentraland",
+    "aliases": [
       "MANA"
     ],
     "variations": [
@@ -1736,8 +1719,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Math Wallet",
     "identityFlag": "isMathWallet",
+    "walletName": "Math Wallet",
     "icons": {
       "mono": "icons/mono/mathwallet.svg",
       "full": "icons/full/mathwallet.svg"
@@ -1748,10 +1731,10 @@
       "asset",
       "chain"
     ],
+    "symbol": "matic",
     "chainId": 137,
     "name": "Polygon",
-    "symbol": "matic",
-    "symbolAliases": [
+    "aliases": [
       "MATIC"
     ],
     "variations": [
@@ -1775,9 +1758,9 @@
     "type": [
       "asset"
     ],
-    "name": "Liquid Staking Matic",
     "symbol": "maticx",
-    "symbolAliases": [
+    "name": "Liquid Staking Matic",
+    "aliases": [
       "aPolMATICX",
       "variableDebtPolMATICX",
       "MaticX",
@@ -1804,8 +1787,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "MetaMask",
     "identityFlag": "isMetaMask",
+    "walletName": "MetaMask",
     "icons": {
       "mono": "icons/mono/metamask.svg",
       "full": "icons/full/metamask.svg"
@@ -1816,11 +1799,11 @@
       "asset",
       "chain"
     ],
-    "chainName": "Metis",
+    "symbol": "metis",
     "chainId": 1088,
     "name": "Metis Token",
-    "symbol": "metis",
-    "symbolAliases": [
+    "chainName": "Metis",
+    "aliases": [
       "Metis",
       "aMetMETIS",
       "variableDebtMetMETIS",
@@ -1847,9 +1830,9 @@
     "type": [
       "asset"
     ],
-    "name": "Maker",
     "symbol": "mkr",
-    "symbolAliases": [
+    "name": "Maker",
+    "aliases": [
       "aEthMKR",
       "variableDebtEthMKR",
       "MKR"
@@ -1875,8 +1858,8 @@
     "type": [
       "chain"
     ],
-    "chainName": "Mumbai",
     "chainId": 80001,
+    "chainName": "Mumbai",
     "icons": {
       "mono": "icons/mono/mumbai.svg",
       "full": "icons/full/mumbai.svg"
@@ -1886,8 +1869,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "MyKey Wallet",
     "identityFlag": "isMYKEY",
+    "walletName": "MyKey Wallet",
     "icons": {
       "mono": "icons/mono/mykeywallet.svg",
       "full": "icons/full/mykeywallet.svg"
@@ -1897,8 +1880,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "OKX Wallet",
     "identityFlag": "isOkxWallet",
+    "walletName": "OKX Wallet",
     "icons": {
       "mono": "icons/mono/okxwallet.svg",
       "full": "icons/full/okxwallet.svg"
@@ -1908,9 +1891,9 @@
     "type": [
       "asset"
     ],
-    "name": "Harmony",
     "symbol": "one",
-    "symbolAliases": [
+    "name": "Harmony",
+    "aliases": [
       "ONE"
     ],
     "variations": [
@@ -1935,11 +1918,11 @@
       "asset",
       "chain"
     ],
-    "chainName": "OP Mainnet",
+    "symbol": "op",
     "chainId": 10,
     "name": "Optimism",
-    "symbol": "op",
-    "symbolAliases": [
+    "chainName": "OP Mainnet",
+    "aliases": [
       "aOptOP",
       "variableDebtOptOP",
       "OP",
@@ -1966,8 +1949,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Opera Wallet",
     "identityFlag": "isOpera",
+    "walletName": "Opera Wallet",
     "icons": {
       "mono": "icons/mono/operawallet.svg",
       "full": "icons/full/operawallet.svg"
@@ -1977,8 +1960,8 @@
     "type": [
       "chain"
     ],
-    "chainName": "Optimism Testnet",
     "chainId": 420,
+    "chainName": "Optimism Testnet",
     "icons": {
       "mono": "icons/mono/optimismtestnet.svg",
       "full": "icons/full/optimismtestnet.svg"
@@ -1988,9 +1971,9 @@
     "type": [
       "asset"
     ],
-    "name": "Staked ETH",
     "symbol": "oseth",
-    "symbolAliases": [
+    "name": "Staked ETH",
+    "aliases": [
       "aEthosETH",
       "variableDebtEthosETH",
       "osETH",
@@ -2017,8 +2000,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "OwnBit Wallet",
     "identityFlag": "isOwnbit",
+    "walletName": "OwnBit Wallet",
     "icons": {
       "mono": "icons/mono/ownbitwallet.svg",
       "full": "icons/full/ownbitwallet.svg"
@@ -2028,8 +2011,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Phantom Wallet",
     "identityFlag": "isPhantom",
+    "walletName": "Phantom Wallet",
     "icons": {
       "mono": "icons/mono/phantomwallet.svg",
       "full": "icons/full/phantomwallet.svg"
@@ -2039,8 +2022,8 @@
     "type": [
       "chain"
     ],
-    "chainName": "Polygon zkEVM",
     "chainId": 1101,
+    "chainName": "Polygon zkEVM",
     "icons": {
       "mono": "icons/mono/polygonzkevm.svg",
       "full": "icons/full/polygonzkevm.svg"
@@ -2050,9 +2033,9 @@
     "type": [
       "asset"
     ],
-    "name": "PayPal USD",
     "symbol": "pyusd",
-    "symbolAliases": [
+    "name": "PayPal USD",
+    "aliases": [
       "aEthPYUSD",
       "variableDebtEthPYUSD",
       "PYUSD",
@@ -2079,8 +2062,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Rabby Wallet",
     "identityFlag": "isRabby",
+    "walletName": "Rabby Wallet",
     "icons": {
       "mono": "icons/mono/rabbywallet.svg",
       "full": "icons/full/rabbywallet.svg"
@@ -2090,9 +2073,9 @@
     "type": [
       "asset"
     ],
-    "name": "Rai Reflex Index",
     "symbol": "rai",
-    "symbolAliases": [
+    "name": "Rai Reflex Index",
+    "aliases": [
       "RAI"
     ],
     "variations": [
@@ -2116,8 +2099,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Rainbow Wallet",
     "identityFlag": "isRainbow",
+    "walletName": "Rainbow Wallet",
     "icons": {
       "mono": "icons/mono/rainbowwallet.svg",
       "full": "icons/full/rainbowwallet.svg"
@@ -2127,9 +2110,9 @@
     "type": [
       "asset"
     ],
-    "name": "Republic Token",
     "symbol": "ren",
-    "symbolAliases": [
+    "name": "Republic Token",
+    "aliases": [
       "REN"
     ],
     "variations": [
@@ -2153,9 +2136,9 @@
     "type": [
       "asset"
     ],
-    "name": "renFIL",
     "symbol": "renfil",
-    "symbolAliases": [
+    "name": "renFIL",
+    "aliases": [
       "renFIL"
     ],
     "variations": [
@@ -2179,9 +2162,9 @@
     "type": [
       "asset"
     ],
-    "name": "Augur",
     "symbol": "rep",
-    "symbolAliases": [
+    "name": "Augur",
+    "aliases": [
       "REP"
     ],
     "variations": [
@@ -2205,9 +2188,9 @@
     "type": [
       "asset"
     ],
-    "name": "Rocket Pool ETH",
     "symbol": "reth",
-    "symbolAliases": [
+    "name": "Rocket Pool ETH",
+    "aliases": [
       "aEthrETH",
       "variableDebtEthrETH",
       "rETH",
@@ -2240,9 +2223,9 @@
     "type": [
       "asset"
     ],
-    "name": "Rocket Pool Protocol",
     "symbol": "rpl",
-    "symbolAliases": [
+    "name": "Rocket Pool Protocol",
+    "aliases": [
       "aEthRPL",
       "variableDebtEthRPL",
       "RPL",
@@ -2269,8 +2252,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "SafePal Wallet",
     "identityFlag": "isSafePal",
+    "walletName": "SafePal Wallet",
     "icons": {
       "mono": "icons/mono/safepalwallet.svg",
       "full": "icons/full/safepalwallet.svg"
@@ -2280,8 +2263,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Safe Wallet",
     "identityFlag": "",
+    "walletName": "Safe Wallet",
     "icons": {
       "mono": "icons/mono/safewallet.svg",
       "full": "icons/full/safewallet.svg"
@@ -2291,9 +2274,9 @@
     "type": [
       "asset"
     ],
-    "name": "Benqi Staked Avalanche",
     "symbol": "savax",
-    "symbolAliases": [
+    "name": "Benqi Staked Avalanche",
+    "aliases": [
       "sAVAX",
       "aAvaSAVAX",
       "stataAvaSAVAX",
@@ -2320,8 +2303,8 @@
     "type": [
       "chain"
     ],
-    "chainName": "Scroll",
     "chainId": 534352,
+    "chainName": "Scroll",
     "icons": {
       "mono": "icons/mono/scroll.svg",
       "full": "icons/full/scroll.svg"
@@ -2331,8 +2314,8 @@
     "type": [
       "chain"
     ],
-    "chainName": "Scroll Testnet",
     "chainId": 534351,
+    "chainName": "Scroll Testnet",
     "icons": {
       "mono": "icons/mono/scrolltestnet.svg",
       "full": "icons/full/scrolltestnet.svg"
@@ -2342,9 +2325,9 @@
     "type": [
       "asset"
     ],
-    "name": "Stader",
     "symbol": "sd",
-    "symbolAliases": [
+    "name": "Stader",
+    "aliases": [
       "SD"
     ],
     "variations": [
@@ -2368,9 +2351,9 @@
     "type": [
       "asset"
     ],
-    "name": "Savings Dai",
     "symbol": "sdai",
-    "symbolAliases": [
+    "name": "Savings Dai",
+    "aliases": [
       "sDAI",
       "aEthsDAI",
       "variableDebtEthsDAI",
@@ -2400,8 +2383,8 @@
     "type": [
       "chain"
     ],
-    "chainName": "Sepolia",
     "chainId": 11155111,
+    "chainName": "Sepolia",
     "icons": {
       "mono": "icons/mono/sepolia.svg",
       "full": "icons/full/sepolia.svg"
@@ -2411,8 +2394,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Sequence Wallet",
     "identityFlag": "isSequence",
+    "walletName": "Sequence Wallet",
     "icons": {
       "mono": "icons/mono/sequencewallet.svg",
       "full": "icons/full/sequencewallet.svg"
@@ -2422,9 +2405,9 @@
     "type": [
       "asset"
     ],
-    "name": "sETH",
     "symbol": "seth",
-    "symbolAliases": [
+    "name": "sETH",
+    "aliases": [
       "SETH"
     ],
     "variations": [
@@ -2448,9 +2431,9 @@
     "type": [
       "asset"
     ],
-    "name": "Frax Staked Ether",
     "symbol": "sfrxeth",
-    "symbolAliases": [
+    "name": "Frax Staked Ether",
+    "aliases": [
       "sfrxETH"
     ],
     "variations": [
@@ -2474,9 +2457,9 @@
     "type": [
       "asset"
     ],
-    "name": "Synthetix Network Token",
     "symbol": "snx",
-    "symbolAliases": [
+    "name": "Synthetix Network Token",
+    "aliases": [
       "variableDebtEthSNX",
       "stataEthSNX",
       "aEthSNX",
@@ -2503,8 +2486,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Status Wallet",
     "identityFlag": "isStatus",
+    "walletName": "Status Wallet",
     "icons": {
       "mono": "icons/mono/statuswallet.svg",
       "full": "icons/full/statuswallet.svg"
@@ -2514,9 +2497,9 @@
     "type": [
       "asset"
     ],
-    "name": "Lido Staked Ether",
     "symbol": "steth",
-    "symbolAliases": [
+    "name": "Lido Staked Ether",
+    "aliases": [
       "stETH"
     ],
     "variations": [
@@ -2540,9 +2523,9 @@
     "type": [
       "asset"
     ],
-    "name": "Angle Staked EURA",
     "symbol": "steur",
-    "symbolAliases": [
+    "name": "Angle Staked EURA",
+    "aliases": [
       "stEUR"
     ],
     "variations": [
@@ -2566,9 +2549,9 @@
     "type": [
       "asset"
     ],
-    "name": "StargateToken",
     "symbol": "stg",
-    "symbolAliases": [
+    "name": "StargateToken",
+    "aliases": [
       "aEthSTG",
       "variableDebtEthSTG",
       "STG"
@@ -2594,9 +2577,9 @@
     "type": [
       "asset"
     ],
-    "name": "Staked Aave",
     "symbol": "stkaave",
-    "symbolAliases": [
+    "name": "Staked Aave",
+    "aliases": [
       "stkAAVE"
     ],
     "variations": [],
@@ -2609,9 +2592,9 @@
     "type": [
       "asset"
     ],
-    "name": "stkbptv2",
     "symbol": "stkbptv2",
-    "symbolAliases": [
+    "name": "stkbptv2",
+    "aliases": [
       "stkBPTV2"
     ],
     "variations": [],
@@ -2624,9 +2607,9 @@
     "type": [
       "asset"
     ],
-    "name": "Aave stkGHO",
     "symbol": "stkgho",
-    "symbolAliases": [
+    "name": "Aave stkGHO",
+    "aliases": [
       "stkGHO"
     ],
     "variations": [],
@@ -2639,9 +2622,9 @@
     "type": [
       "asset"
     ],
-    "name": "Staked MATIC (PoS)",
     "symbol": "stmatic",
-    "symbolAliases": [
+    "name": "Staked MATIC (PoS)",
+    "aliases": [
       "aPolSTMATIC",
       "variableDebtPolSTMATIC",
       "stMATIC",
@@ -2668,9 +2651,9 @@
     "type": [
       "asset"
     ],
-    "name": "Angle Staked USD",
     "symbol": "stusd",
-    "symbolAliases": [
+    "name": "Angle Staked USD",
+    "aliases": [
       "stUSD"
     ],
     "variations": [
@@ -2694,9 +2677,9 @@
     "type": [
       "asset"
     ],
-    "name": "Synth sUSD",
     "symbol": "susd",
-    "symbolAliases": [
+    "name": "Synth sUSD",
+    "aliases": [
       "sUSD",
       "stataOptSUSD",
       "aOptSUSD",
@@ -2723,9 +2706,9 @@
     "type": [
       "asset"
     ],
-    "name": "Ethena Staked USDe",
     "symbol": "susde",
-    "symbolAliases": [
+    "name": "Ethena Staked USDe",
+    "aliases": [
       "aEthsUSDe",
       "variableDebtEthsUSDe",
       "sUSDe",
@@ -2752,9 +2735,9 @@
     "type": [
       "asset"
     ],
-    "name": "SushiToken",
     "symbol": "sushi",
-    "symbolAliases": [
+    "name": "SushiToken",
+    "aliases": [
       "aPolSUSHI",
       "variableDebtPolSUSHI",
       "SUSHI",
@@ -2781,8 +2764,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Tally Ho Wallet",
     "identityFlag": "isTally",
+    "walletName": "Tally Ho Wallet",
     "icons": {
       "mono": "icons/mono/tallyhowallet.svg",
       "full": "icons/full/tallyhowallet.svg"
@@ -2792,12 +2775,13 @@
     "type": [
       "asset"
     ],
-    "name": "TBTC",
     "symbol": "tbtc",
-    "symbolAliases": [
+    "name": "TBTC",
+    "aliases": [
       "tBTC",
       "TBTC",
       "aEthtBTC",
+      "stataEthtBTC",
       "variableDebtEthtBTC",
       "stableDebtEthtBTC"
     ],
@@ -2822,8 +2806,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "TokenPocket Wallet",
     "identityFlag": "isTokenPocket",
+    "walletName": "TokenPocket Wallet",
     "icons": {
       "mono": "icons/mono/tokenpocketwallet.svg",
       "full": "icons/full/tokenpocketwallet.svg"
@@ -2833,9 +2817,9 @@
     "type": [
       "asset"
     ],
-    "name": "Tribe",
     "symbol": "tribe",
-    "symbolAliases": [
+    "name": "Tribe",
+    "aliases": [
       "TRIBE"
     ],
     "variations": [
@@ -2859,8 +2843,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Trust Wallet",
     "identityFlag": "isTrust",
+    "walletName": "Trust Wallet",
     "icons": {
       "mono": "icons/mono/trustwallet.svg",
       "full": "icons/full/trustwallet.svg"
@@ -2870,9 +2854,9 @@
     "type": [
       "asset"
     ],
-    "name": "TrueUSD",
     "symbol": "tusd",
-    "symbolAliases": [
+    "name": "TrueUSD",
+    "aliases": [
       "TUSD"
     ],
     "variations": [
@@ -2896,9 +2880,9 @@
     "type": [
       "asset"
     ],
-    "name": "Uniswap",
     "symbol": "uni",
-    "symbolAliases": [
+    "name": "Uniswap",
+    "aliases": [
       "UNI",
       "aEthUNI",
       "variableDebtEthUNI",
@@ -2925,10 +2909,8 @@
     "type": [
       "asset"
     ],
-    "name": "Unknown",
     "symbol": "unknown",
-    "symbolAliases": [],
-    "variations": [],
+    "name": "Unknown",
     "icons": {
       "mono": "icons/mono/unknown.svg",
       "full": "icons/full/unknown.svg"
@@ -2938,9 +2920,9 @@
     "type": [
       "asset"
     ],
-    "name": "USD Base Coin",
     "symbol": "usdbc",
-    "symbolAliases": [
+    "name": "USD Base Coin",
+    "aliases": [
       "aBasUSDbC",
       "variableDebtBasUSDbC",
       "USDbC",
@@ -2967,9 +2949,9 @@
     "type": [
       "asset"
     ],
-    "name": "USD Coin",
     "symbol": "usdc",
-    "symbolAliases": [
+    "name": "USD Coin",
+    "aliases": [
       "USDC.e",
       "m.USDC",
       "aBasUSDC",
@@ -3021,9 +3003,9 @@
     "type": [
       "asset"
     ],
-    "name": "Ethena USDe",
     "symbol": "usde",
-    "symbolAliases": [
+    "name": "Ethena USDe",
+    "aliases": [
       "aEthUSDe",
       "variableDebtEthUSDe",
       "USDe",
@@ -3050,9 +3032,9 @@
     "type": [
       "asset"
     ],
-    "name": "Pax Dollar",
     "symbol": "usdp",
-    "symbolAliases": [
+    "name": "Pax Dollar",
+    "aliases": [
       "USDP"
     ],
     "variations": [
@@ -3076,9 +3058,9 @@
     "type": [
       "asset"
     ],
-    "name": "USDS Stablecoin",
     "symbol": "usds",
-    "symbolAliases": [
+    "name": "USDS Stablecoin",
+    "aliases": [
       "USDS",
       "aEthUSDS",
       "variableDebtEthUSDS",
@@ -3108,9 +3090,9 @@
     "type": [
       "asset"
     ],
-    "name": "Tether USDT",
     "symbol": "usdt",
-    "symbolAliases": [
+    "name": "Tether USDT",
+    "aliases": [
       "USDT.e",
       "m.USDT",
       "stataArbUSDT",
@@ -3146,9 +3128,9 @@
     "type": [
       "asset"
     ],
-    "name": "TerraUSD",
     "symbol": "ust",
-    "symbolAliases": [
+    "name": "TerraUSD",
+    "aliases": [
       "UST"
     ],
     "variations": [
@@ -3172,8 +3154,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "WalletConnect",
     "identityFlag": "",
+    "walletName": "WalletConnect",
     "icons": {
       "mono": "icons/mono/walletconnect.svg",
       "full": "icons/full/walletconnect.svg"
@@ -3183,8 +3165,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Wallet IO",
     "identityFlag": "isWalletIO",
+    "walletName": "Wallet IO",
     "icons": {
       "mono": "icons/mono/walletio.svg",
       "full": "icons/full/walletio.svg"
@@ -3194,9 +3176,9 @@
     "type": [
       "asset"
     ],
-    "name": "Wrapped Avalanche",
     "symbol": "wavax",
-    "symbolAliases": [
+    "name": "Wrapped Avalanche",
+    "aliases": [
       "aAvaWAVAX",
       "variableDebtAvaWAVAX",
       "WAVAX",
@@ -3223,9 +3205,9 @@
     "type": [
       "asset"
     ],
-    "name": "Wrapped Beacon ETH",
     "symbol": "wbeth",
-    "symbolAliases": [
+    "name": "Wrapped Beacon ETH",
+    "aliases": [
       "WBETH"
     ],
     "variations": [
@@ -3249,9 +3231,9 @@
     "type": [
       "asset"
     ],
-    "name": "Wrapped BTC",
     "symbol": "wbtc",
-    "symbolAliases": [
+    "name": "Wrapped BTC",
+    "aliases": [
       "WBTC",
       "WBTC.e",
       "stataAvaWBTC"
@@ -3277,9 +3259,9 @@
     "type": [
       "asset"
     ],
-    "name": "Wrapped eETH",
     "symbol": "weeth",
-    "symbolAliases": [
+    "name": "Wrapped eETH",
+    "aliases": [
       "aEthweETH",
       "variableDebtEthweETH",
       "weETH",
@@ -3312,9 +3294,9 @@
     "type": [
       "asset"
     ],
-    "name": "Wrapped ETH",
     "symbol": "weth",
-    "symbolAliases": [
+    "name": "Wrapped ETH",
+    "aliases": [
       "WETH.e",
       "stataAvaWETH",
       "WETH",
@@ -3345,9 +3327,9 @@
     "type": [
       "asset"
     ],
-    "name": "Wrapped Fantom",
     "symbol": "wftm",
-    "symbolAliases": [
+    "name": "Wrapped Fantom",
+    "aliases": [
       "WFTM"
     ],
     "variations": [
@@ -3371,9 +3353,9 @@
     "type": [
       "asset"
     ],
-    "name": "Wrapped Matic",
     "symbol": "wmatic",
-    "symbolAliases": [
+    "name": "Wrapped Matic",
+    "aliases": [
       "WMATIC",
       "aPolWMATIC",
       "variableDebtPolWMATIC",
@@ -3400,9 +3382,9 @@
     "type": [
       "asset"
     ],
-    "name": "Wrapped Harmony",
     "symbol": "wone",
-    "symbolAliases": [
+    "name": "Wrapped Harmony",
+    "aliases": [
       "WONE"
     ],
     "variations": [
@@ -3426,9 +3408,9 @@
     "type": [
       "asset"
     ],
-    "name": "Wrapped liquid staked Ether 2.0",
     "symbol": "wsteth",
-    "symbolAliases": [
+    "name": "Wrapped liquid staked Ether 2.0",
+    "aliases": [
       "variableDebtEthwstETH",
       "aEthwstETH",
       "wstETH",
@@ -3475,9 +3457,9 @@
     "type": [
       "asset"
     ],
-    "name": "Wrapped XDAI",
     "symbol": "wxdai",
-    "symbolAliases": [
+    "name": "Wrapped XDAI",
+    "aliases": [
       "aGnoWXDAI",
       "variableDebtGnoWXDAI",
       "WXDAI",
@@ -3504,9 +3486,9 @@
     "type": [
       "asset"
     ],
-    "name": "XDAI",
     "symbol": "xdai",
-    "symbolAliases": [
+    "name": "XDAI",
+    "aliases": [
       "XDAI"
     ],
     "variations": [
@@ -3530,8 +3512,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "XDEFI Wallet",
     "identityFlag": "isXDEFI",
+    "walletName": "XDEFI Wallet",
     "icons": {
       "mono": "icons/mono/xdefiwallet.svg",
       "full": "icons/full/xdefiwallet.svg"
@@ -3541,9 +3523,9 @@
     "type": [
       "asset"
     ],
-    "name": "SushiBar",
     "symbol": "xsushi",
-    "symbolAliases": [
+    "name": "SushiBar",
+    "aliases": [
       "xSUSHI"
     ],
     "variations": [
@@ -3567,9 +3549,9 @@
     "type": [
       "asset"
     ],
-    "name": "yearn.finance",
     "symbol": "yfi",
-    "symbolAliases": [
+    "name": "yearn.finance",
+    "aliases": [
       "YFI"
     ],
     "variations": [
@@ -3593,8 +3575,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Zeal Wallet",
     "identityFlag": "isZeal",
+    "walletName": "Zeal Wallet",
     "icons": {
       "mono": "icons/mono/zealwallet.svg",
       "full": "icons/full/zealwallet.svg"
@@ -3604,8 +3586,8 @@
     "type": [
       "wallet"
     ],
-    "walletName": "Zerion Wallet",
     "identityFlag": "isZerion",
+    "walletName": "Zerion Wallet",
     "icons": {
       "mono": "icons/mono/zerionwallet.svg",
       "full": "icons/full/zerionwallet.svg"
@@ -3615,9 +3597,9 @@
     "type": [
       "asset"
     ],
-    "name": "ZKsync",
     "symbol": "zk",
-    "symbolAliases": [
+    "name": "ZKsync",
+    "aliases": [
       "ZK"
     ],
     "variations": [
@@ -3641,8 +3623,8 @@
     "type": [
       "chain"
     ],
-    "chainName": "zkSync Era",
     "chainId": 324,
+    "chainName": "zkSync Era",
     "icons": {
       "mono": "icons/mono/zksyncera.svg",
       "full": "icons/full/zksyncera.svg"
@@ -3652,9 +3634,9 @@
     "type": [
       "asset"
     ],
-    "name": "0x Coin",
     "symbol": "zrx",
-    "symbolAliases": [
+    "name": "0x Coin",
+    "aliases": [
       "ZRX"
     ],
     "variations": [

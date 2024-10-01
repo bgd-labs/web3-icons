@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Wrapped BTC",
   "symbol": "wbtc",
-  "symbolAliases": [
+  "name": "Wrapped BTC",
+
+  "aliases": [
     "WBTC",
     "WBTC.e",
     "stataAvaWBTC"

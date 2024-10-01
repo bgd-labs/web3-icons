@@ -1,5 +1,5 @@
 {
   "type": ["brand"],
   "brandName": "EtherFi",
-  "addressAliases": ["0x0AA97c284e98396202b6A04024F5E2c65026F3c0"]
+  "aliases": ["0x0AA97c284e98396202b6A04024F5E2c65026F3c0"]
 }

@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Ampleforth",
   "symbol": "ampl",
-  "symbolAliases": [
+  "name": "Ampleforth",
+
+  "aliases": [
     "AMPL"
   ],
   "variations": [

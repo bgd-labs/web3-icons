@@ -1,10 +1,12 @@
 {
   "type": ["asset", "wallet"],
+  "symbol": "1inch",
+
   "name": "One inch Network",
   "walletName": "1inch Wallet",
   "identityFlag": "isOneInchIOSWallet",
-  "symbol": "1inch",
-  "symbolAliases": [
+
+  "aliases": [
     "1INCH",
     "aEth1INCH",
     "variableDebtEth1INCH",

@@ -21,6 +21,15 @@ import {
   WriteQueueItem,
 } from "./types.ts";
 
+const isAddress = (address: string): boolean => {
+  if (!/^(0x)?[0-9a-f]{40}$/i.test(address)) {
+    return false;
+  } else if (/^(0x|0X)?[0-9a-f]{40}$/.test(address.toLowerCase())) {
+    return true;
+  }
+  return false;
+};
+
 const ICONS_FOLDER = "src/assets";
 const OUTPUT_FOLDER = "icons";
 const MONO_SUFFIX = "_mono";
@@ -29,16 +38,17 @@ const REACT_UTILS_PATH = "packages/react-web3-icons/src/utils";
 
 const IconMetaSchema = z.object({
   type: z.array(z.string()),
-  chainName: z.string().or(z.undefined()),
-  chainId: z.number().or(z.undefined()),
-  name: z.string().or(z.undefined()),
-  walletName: z.string().or(z.undefined()),
   symbol: z.string().or(z.undefined()),
-  symbolAliases: z.array(z.string()).or(z.undefined()),
-  variations: z.array(z.string()).or(z.undefined()),
+  chainId: z.number().or(z.undefined()),
   identityFlag: z.string().or(z.undefined()),
+
+  name: z.string().or(z.undefined()),
+  chainName: z.string().or(z.undefined()),
+  walletName: z.string().or(z.undefined()),
   brandName: z.string().or(z.undefined()),
-  addressAliases: z.array(z.string()).or(z.undefined()),
+
+  aliases: z.array(z.string()).or(z.undefined()),
+  variations: z.array(z.string()).or(z.undefined()),
 });
 
 const files = fs
@@ -178,20 +188,25 @@ for (const icon of iconsArray) {
 
   if (meta.type.includes(IconType.asset)) {
     generateIconsContents(meta.symbol.toLowerCase());
-    if (variations.includes(IconFormat.aToken)) {
-      generateIconsContents(`a${meta.symbol.toLowerCase()}`, IconFormat.aToken);
-    }
-    if (variations.includes(IconFormat.stataToken)) {
-      generateIconsContents(
-        `stata${meta.symbol.toLowerCase()}`,
-        IconFormat.stataToken,
-      );
-    }
-    if (variations.includes(IconFormat.stkToken)) {
-      generateIconsContents(
-        `stk${meta.symbol.toLowerCase()}`,
-        IconFormat.stkToken,
-      );
+    if (variations) {
+      if (variations.includes(IconFormat.aToken)) {
+        generateIconsContents(
+          `a${meta.symbol.toLowerCase()}`,
+          IconFormat.aToken,
+        );
+      }
+      if (variations.includes(IconFormat.stataToken)) {
+        generateIconsContents(
+          `stata${meta.symbol.toLowerCase()}`,
+          IconFormat.stataToken,
+        );
+      }
+      if (variations.includes(IconFormat.stkToken)) {
+        generateIconsContents(
+          `stk${meta.symbol.toLowerCase()}`,
+          IconFormat.stkToken,
+        );
+      }
     }
   }
 
@@ -227,35 +242,37 @@ const assetsAliases: Record<
   { iconSymbol: string; symbol: string; tokenTag: string }
 > = {};
 assets.forEach((item) => {
-  item.symbolAliases.forEach((symbol) => {
-    const symbolArray = symbol.split(/(?<![A-Z])(?=[A-Z])/);
-    let tokenTag = "";
-    if (
-      symbolArray &&
-      symbolArray.length &&
-      !stakeAssetsSeparateIcons.includes(symbol)
-    ) {
-      const firstItem = symbolArray[0];
-      switch (firstItem.toLowerCase()) {
-        case TokenTag.aToken:
-          tokenTag = TokenTag.aToken;
-          break;
-        case TokenTag.stataToken:
-          tokenTag = TokenTag.stataToken;
-          break;
-        case "variable":
-          tokenTag = TokenTag.aToken;
-          break;
-        case TokenTag.stkToken:
-          tokenTag = TokenTag.stkToken;
-          break;
+  item.aliases?.forEach((symbol) => {
+    if (!isAddress(symbol)) {
+      const symbolArray = symbol.split(/(?<![A-Z])(?=[A-Z])/);
+      let tokenTag = "";
+      if (
+        symbolArray &&
+        symbolArray.length &&
+        !stakeAssetsSeparateIcons.includes(symbol)
+      ) {
+        const firstItem = symbolArray[0];
+        switch (firstItem.toLowerCase()) {
+          case TokenTag.aToken:
+            tokenTag = TokenTag.aToken;
+            break;
+          case TokenTag.stataToken:
+            tokenTag = TokenTag.stataToken;
+            break;
+          case "variable":
+            tokenTag = TokenTag.aToken;
+            break;
+          case TokenTag.stkToken:
+            tokenTag = TokenTag.stkToken;
+            break;
+        }
       }
+      assetsAliases[symbol.toLowerCase()] = {
+        iconSymbol: item.symbol,
+        symbol: `${tokenTag}${item.symbol.toUpperCase()}`,
+        tokenTag,
+      };
     }
-    assetsAliases[symbol.toLowerCase()] = {
-      iconSymbol: item.symbol,
-      symbol: `${tokenTag}${item.symbol.toUpperCase()}`,
-      tokenTag,
-    };
   });
 });
 fs.writeFileSync(
@@ -310,10 +327,11 @@ const brands = iconsInfoFile.filter((icon) =>
 );
 const brandsData: Record<string, string> = {};
 brands.forEach((item) => {
-  item.addressAliases.forEach(
-    (address) =>
-      (brandsData[address] = item?.brandName ? item.brandName : "Unknown"),
-  );
+  item.aliases?.forEach((address) => {
+    if (isAddress(address)) {
+      brandsData[address] = item?.brandName ? item.brandName : "Unknown";
+    }
+  });
 });
 fs.writeFileSync(
   `${REACT_UTILS_PATH}/brandsNames.ts`,

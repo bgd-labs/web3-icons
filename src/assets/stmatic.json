@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Staked MATIC (PoS)",
   "symbol": "stmatic",
-  "symbolAliases": [
+  "name": "Staked MATIC (PoS)",
+
+  "aliases": [
     "aPolSTMATIC",
     "variableDebtPolSTMATIC",
     "stMATIC",

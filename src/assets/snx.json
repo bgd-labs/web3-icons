@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Synthetix Network Token",
   "symbol": "snx",
-  "symbolAliases": [
+  "name": "Synthetix Network Token",
+
+  "aliases": [
     "variableDebtEthSNX",
     "stataEthSNX",
     "aEthSNX",

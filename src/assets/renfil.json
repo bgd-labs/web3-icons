@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "renFIL",
   "symbol": "renfil",
-  "symbolAliases": [
+  "name": "renFIL",
+
+  "aliases": [
     "renFIL"
   ],
   "variations": [

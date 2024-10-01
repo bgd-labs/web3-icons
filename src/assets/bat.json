@@ -1,12 +1,12 @@
 {
   "type": ["asset"],
-  "name": "Basic Attention Token",
   "symbol": "bat",
-  "symbolAliases": [
+  "name": "Basic Attention Token",
+
+  "aliases": [
     "BAT"
   ],
   "variations": [
-    "aToken",
-    "stataToken"
+    "aToken"
   ]
 }

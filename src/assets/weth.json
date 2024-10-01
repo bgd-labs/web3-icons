@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Wrapped ETH",
   "symbol": "weth",
-  "symbolAliases": [
+  "name": "Wrapped ETH",
+
+  "aliases": [
     "WETH.e",
     "stataAvaWETH",
     "WETH",

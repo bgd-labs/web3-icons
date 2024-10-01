@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Angle Staked USD",
   "symbol": "stusd",
-  "symbolAliases": [
+  "name": "Angle Staked USD",
+
+  "aliases": [
     "stUSD"
   ],
   "variations": [

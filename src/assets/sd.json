@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Stader",
   "symbol": "sd",
-  "symbolAliases": ["SD"],
+  "name": "Stader",
+
+  "aliases": ["SD"],
   "variations": [
     "aToken",
     "stataToken"

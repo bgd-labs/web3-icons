@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "DefiPulse Index",
   "symbol": "dpi",
-  "symbolAliases": [
+  "name": "DefiPulse Index",
+
+  "aliases": [
     "stataPolDPI",
     "aPolDPI",
     "variableDebtPolDPI",

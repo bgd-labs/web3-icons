@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Convex Token",
   "symbol": "cvx",
-  "symbolAliases": [
+  "name": "Convex Token",
+
+  "aliases": [
     "CVX"
   ],
   "variations": [

@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "SushiToken",
   "symbol": "sushi",
-  "symbolAliases": [
+  "name": "SushiToken",
+
+  "aliases": [
     "aPolSUSHI",
     "variableDebtPolSUSHI",
     "SUSHI",

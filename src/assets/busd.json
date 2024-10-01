@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "BUSD",
   "symbol": "busd",
-  "symbolAliases": [
+  "name": "BUSD",
+
+  "aliases": [
     "BUSD"
   ],
   "variations": [

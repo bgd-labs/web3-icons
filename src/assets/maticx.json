@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Liquid Staking Matic",
   "symbol": "maticx",
-  "symbolAliases": [
+  "name": "Liquid Staking Matic",
+
+  "aliases": [
     "aPolMATICX",
     "variableDebtPolMATICX",
     "MaticX",

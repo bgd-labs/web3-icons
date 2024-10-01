@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Augur",
   "symbol": "rep",
-  "symbolAliases": ["REP"],
+  "name": "Augur",
+
+  "aliases": ["REP"],
   "variations": [
     "aToken",
     "stataToken"

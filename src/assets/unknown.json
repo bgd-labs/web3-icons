@@ -1,7 +1,5 @@
 {
   "type": ["asset"],
   "name": "Unknown",
-  "symbol": "unknown",
-  "symbolAliases": [],
-  "variations": []
+  "symbol": "unknown"
 }

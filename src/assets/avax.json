@@ -1,9 +1,10 @@
 {
   "type": ["asset", "chain"],
+  "symbol": "avax",
   "chainId": 43114,
   "name": "Avalanche",
-  "symbol": "avax",
-  "symbolAliases": ["AVAX"],
+
+  "aliases": ["AVAX"],
   "variations": [
     "aToken",
     "stataToken"

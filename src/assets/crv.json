@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Curve DAO Token",
   "symbol": "crv",
-  "symbolAliases": [
+  "name": "Curve DAO Token",
+
+  "aliases": [
     "aEthCRV",
     "variableDebtEthCRV",
     "CRV",

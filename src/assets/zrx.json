@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "0x Coin",
   "symbol": "zrx",
-  "symbolAliases": [
+  "name": "0x Coin",
+
+  "aliases": [
     "ZRX"
   ],
   "variations": [

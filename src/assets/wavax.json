@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Wrapped Avalanche",
   "symbol": "wavax",
-  "symbolAliases": [
+  "name": "Wrapped Avalanche",
+
+  "aliases": [
     "aAvaWAVAX",
     "variableDebtAvaWAVAX",
     "WAVAX",

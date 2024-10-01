@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Jarvis Synthetic Euro",
   "symbol": "jeur",
-  "symbolAliases": [
+  "name": "Jarvis Synthetic Euro",
+
+  "aliases": [
     "aPolJEUR",
     "variableDebtPolJEUR",
     "jEUR",

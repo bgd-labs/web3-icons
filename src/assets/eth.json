@@ -1,12 +1,19 @@
 {
   "type": ["asset"],
-  "name": "Ethereum",
   "symbol": "eth",
-  "symbolAliases": [
+  "name": "Ethereum",
+
+  "aliases": [
     "aBnbETH",
     "variableDebtBnbETH",
     "ETH",
-    "stataBnbETH"
+    "stataBnbETH",
+    "aEthETH",
+    "stataEthETH",
+    "variableDebtEthETH",
+    "aPolETH",
+    "stataPolETH",
+    "variableDebtPolETH"
   ],
   "variations": [
     "aToken",

@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Savings xDAI",
   "symbol": "gnosissdai",
-  "symbolAliases": [
+  "name": "Savings xDAI",
+
+  "aliases": [
     "sDAI"
   ],
   "variations": [

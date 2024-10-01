@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "MAI (mimatic)",
   "symbol": "mai",
-  "symbolAliases": [
+  "name": "MAI (mimatic)",
+
+  "aliases": [
     "aPolMIMATIC",
     "variableDebtPolMIMATIC",
     "miMATIC",

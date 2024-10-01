@@ -2,9 +2,9 @@
   "type": ["asset"],
   "name": "BlackPool",
   "symbol": "bpt",
-  "symbolAliases": ["BPT"],
+
+  "aliases": ["BPT"],
   "variations": [
-    "aToken",
-    "stataToken"
+    "aToken"
   ]
 }

@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "sETH",
   "symbol": "seth",
-  "symbolAliases": ["SETH"],
+  "name": "sETH",
+
+  "aliases": ["SETH"],
   "variations": [
     "aToken",
     "stataToken"
