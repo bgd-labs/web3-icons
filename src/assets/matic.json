@@ -4,7 +4,7 @@
   "chainId": 137,
   "name": "Polygon",
 
-  "aliases": ["MATIC"],
+  "aliases": ["MATIC", "POL", "aPOL"],
   "variations": [
     "aToken",
     "stataToken"

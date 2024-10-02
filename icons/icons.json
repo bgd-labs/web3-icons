@@ -1735,7 +1735,9 @@
     "chainId": 137,
     "name": "Polygon",
     "aliases": [
-      "MATIC"
+      "MATIC",
+      "POL",
+      "aPOL"
     ],
     "variations": [
       "aToken",
@@ -3359,7 +3361,8 @@
       "WMATIC",
       "aPolWMATIC",
       "variableDebtPolWMATIC",
-      "stataPolWMATIC"
+      "stataPolWMATIC",
+      "WPOL"
     ],
     "variations": [
       "aToken",
