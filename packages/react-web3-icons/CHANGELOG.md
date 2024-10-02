@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.5.0...react-web3-icons@v1.5.1) (2024-10-02)
+
+
+### Bug Fixes
+
+* matic aliasses ([3b90812](https://github.com/bgd-labs/web3-icons/commit/3b908126fd6911e8ccaabc9b31110f0e2b67a7e0))
+
 ## [1.5.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.4.8...react-web3-icons@v1.5.0) (2024-10-01)
 
 
