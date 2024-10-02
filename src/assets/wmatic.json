@@ -6,7 +6,8 @@
     "WMATIC",
     "aPolWMATIC",
     "variableDebtPolWMATIC",
-    "stataPolWMATIC"
+    "stataPolWMATIC",
+    "WPOL"
   ],
   "variations": [
     "aToken",

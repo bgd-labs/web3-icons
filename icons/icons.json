@@ -1752,7 +1752,9 @@
     "name": "Polygon",
     "symbol": "matic",
     "symbolAliases": [
-      "MATIC"
+      "MATIC",
+      "POL",
+      "aPOL"
     ],
     "variations": [
       "aToken",
@@ -3377,7 +3379,8 @@
       "WMATIC",
       "aPolWMATIC",
       "variableDebtPolWMATIC",
-      "stataPolWMATIC"
+      "stataPolWMATIC",
+      "WPOL"
     ],
     "variations": [
       "aToken",

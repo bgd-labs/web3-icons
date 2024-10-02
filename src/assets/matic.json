@@ -3,7 +3,7 @@
   "chainId": 137,
   "name": "Polygon",
   "symbol": "matic",
-  "symbolAliases": ["MATIC"],
+  "symbolAliases": ["MATIC", "POL", "aPOL"],
   "variations": [
     "aToken",
     "stataToken"
