@@ -250,6 +250,17 @@
   },
   {
     "type": [
+      "chain"
+    ],
+    "chainId": 84532,
+    "chainName": "Base sepolia testnet",
+    "icons": {
+      "mono": "icons/mono/basesepoliatestnet.svg",
+      "full": "icons/full/basesepoliatestnet.svg"
+    }
+  },
+  {
+    "type": [
       "asset"
     ],
     "symbol": "bat",

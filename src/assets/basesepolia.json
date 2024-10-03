@@ -1,0 +1,5 @@
+{
+  "type": ["chain"],
+  "chainName": "Base sepolia testnet",
+  "chainId": 84532
+}

@@ -120,6 +120,7 @@ export type Web3IconType =
   | 'azrx'
   | 'bal'
   | 'base'
+  | 'basesepoliatestnet'
   | 'bat'
   | 'bitkeepwallet'
   | 'bitpiewallet'

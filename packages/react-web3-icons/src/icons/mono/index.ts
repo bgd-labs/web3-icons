@@ -124,6 +124,7 @@ export * from './build/icon-azk.icon';
 export * from './build/icon-azrx.icon';
 export * from './build/icon-bal.icon';
 export * from './build/icon-base.icon';
+export * from './build/icon-basesepoliatestnet.icon';
 export * from './build/icon-bat.icon';
 export * from './build/icon-bitkeepwallet.icon';
 export * from './build/icon-bitpiewallet.icon';
