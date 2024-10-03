@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.3](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.5.2...react-web3-icons@v1.5.3) (2024-10-03)
+
+
+### Bug Fixes
+
+* added base sepolia icon ([42a2b99](https://github.com/bgd-labs/web3-icons/commit/42a2b99dc51222ed18df0c20f1090a8406c1fd77))
+
 ## [1.5.2](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.5.1...react-web3-icons@v1.5.2) (2024-10-03)
 
 
