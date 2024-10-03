@@ -1,9 +1,11 @@
 {
   "type": ["asset"],
-  "name": "Frax Share",
   "symbol": "fxs",
-  "symbolAliases": [
+  "name": "Frax Share",
+
+  "aliases": [
     "aEthFXS",
+    "stataEthFXS",
     "variableDebtEthFXS",
     "FXS"
   ],

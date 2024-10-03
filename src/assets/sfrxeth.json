@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Frax Staked Ether",
   "symbol": "sfrxeth",
-  "symbolAliases": ["sfrxETH"],
+  "name": "Frax Staked Ether",
+
+  "aliases": ["sfrxETH"],
   "variations": [
     "aToken",
     "stataToken"

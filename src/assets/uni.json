@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Uniswap",
   "symbol": "uni",
-  "symbolAliases": [
+  "name": "Uniswap",
+
+  "aliases": [
     "UNI",
     "aEthUNI",
     "variableDebtEthUNI",

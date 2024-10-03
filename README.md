@@ -18,9 +18,10 @@ Package with some of web3 assets, chains and web3 wallets icons for easy use in 
 ```json
 {
   "type": ["asset"],
-  "name": "Aave Token",
   "symbol": "aave",
-  "symbolAliases": [
+  "name": "Aave Token",
+ 
+  "aliases": [
     "AAVE",
     "AAVE.e"
   ],
@@ -63,7 +64,7 @@ Package with some of web3 assets, chains and web3 wallets icons for easy use in 
 {
   "type": ["brand"],
   "brandName": "Lido",
-  "addressAliases": ["0x4e033931ad43597d96D6bcc25c280717730B58B1"]
+  "aliases": ["0x4e033931ad43597d96D6bcc25c280717730B58B1"]
 }
 ```
 ### Adding new combine asset and chain icon
@@ -73,10 +74,11 @@ Package with some of web3 assets, chains and web3 wallets icons for easy use in 
 ```json
 {
   "type": ["asset", "chain"],
+  "symbol": "arb",
   "chainId": 42161,
   "name": "Arbitrum",
-  "symbol": "arb",
-  "symbolAliases": [
+  
+  "aliases": [
     "ARB"
   ],
   "variations": [
@@ -92,11 +94,12 @@ Package with some of web3 assets, chains and web3 wallets icons for easy use in 
 ```json
 {
   "type": ["asset", "wallet"],
+  "symbol": "1inch",
+  "identityFlag": "isOneInchIOSWallet",
   "name": "One inch Network",
   "walletName": "1inch Wallet",
-  "identityFlag": "isOneInchIOSWallet",
-  "symbol": "1inch",
-  "symbolAliases": [
+  
+  "aliases": [
     "1INCH"
   ],
   "variations": [
@@ -112,13 +115,14 @@ Package with some of web3 assets, chains and web3 wallets icons for easy use in 
 ```json
 {
   "type": ["asset", "chain", "wallet"],
-  "chainName": "BNB Smart Chain",
-  "chainId": 56,
-  "name": "Wrapped BNB",
-  "walletName": "Binance Smart Wallet",
-  "identityFlag": "bbcSignTx",
   "symbol": "wbnb",
-  "symbolAliases": [
+  "chainId": 56,
+  "identityFlag": "bbcSignTx",
+  "name": "Wrapped BNB",
+  "chainName": "BNB Smart Chain",
+  "walletName": "Binance Smart Wallet",
+
+  "aliases": [
     "WBNB"
   ],
   "variations": [

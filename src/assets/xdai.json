@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "XDAI",
   "symbol": "xdai",
-  "symbolAliases": ["XDAI"],
+  "name": "XDAI",
+
+  "aliases": ["XDAI"],
   "variations": [
     "aToken",
     "stataToken"

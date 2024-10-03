@@ -1,9 +1,10 @@
 {
   "type": ["asset", "chain"],
+  "symbol": "matic",
   "chainId": 137,
   "name": "Polygon",
-  "symbol": "matic",
-  "symbolAliases": ["MATIC", "POL", "aPOL"],
+
+  "aliases": ["MATIC", "POL", "aPOL"],
   "variations": [
     "aToken",
     "stataToken"

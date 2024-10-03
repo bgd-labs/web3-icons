@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Wrapped Harmony",
   "symbol": "wone",
-  "symbolAliases": ["WONE"],
+  "name": "Wrapped Harmony",
+
+  "aliases": ["WONE"],
   "variations": [
     "aToken",
     "stataToken"

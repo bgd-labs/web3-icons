@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Curve.Fi USD Stablecoin",
   "symbol": "crvusd",
-  "symbolAliases": [
+  "name": "Curve.Fi USD Stablecoin",
+
+  "aliases": [
     "aEthcrvUSD",
     "variableDebtEthcrvUSD",
     "crvUSD",

@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "TerraUSD",
   "symbol": "ust",
-  "symbolAliases": [
+  "name": "TerraUSD",
+
+  "aliases": [
     "UST"
   ],
   "variations": [

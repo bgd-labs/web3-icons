@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Ethereum Name Service",
   "symbol": "ens",
-  "symbolAliases": [
+  "name": "Ethereum Name Service",
+
+  "aliases": [
     "ENS",
     "aEthENS",
     "variableDebtEthENS",

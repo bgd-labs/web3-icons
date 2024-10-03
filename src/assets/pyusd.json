@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "PayPal USD",
   "symbol": "pyusd",
-  "symbolAliases": [
+  "name": "PayPal USD",
+
+  "aliases": [
     "aEthPYUSD",
     "variableDebtEthPYUSD",
     "PYUSD",

@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "EURA (agEUR)",
   "symbol": "eura",
-  "symbolAliases": [
+  "name": "EURA (agEUR)",
+
+  "aliases": [
     "EURA",
     "aPolAGEUR",
     "variableDebtPolAGEUR",

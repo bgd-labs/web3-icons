@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "USDS Stablecoin",
   "symbol": "usds",
-  "symbolAliases": [
+  "name": "USDS Stablecoin",
+
+  "aliases": [
     "USDS",
     "aEthUSDS",
     "variableDebtEthUSDS",

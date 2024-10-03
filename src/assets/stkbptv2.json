@@ -1,7 +1,8 @@
 {
   "type": ["asset"],
-  "name": "stkbptv2",
   "symbol": "stkbptv2",
-  "symbolAliases": ["stkBPTV2"],
+  "name": "stkbptv2",
+
+  "aliases": ["stkBPTV2"],
   "variations": []
 }

@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "SushiBar",
   "symbol": "xsushi",
-  "symbolAliases": [
+  "name": "SushiBar",
+
+  "aliases": [
     "xSUSHI"
   ],
   "variations": [

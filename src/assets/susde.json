@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Ethena Staked USDe",
   "symbol": "susde",
-  "symbolAliases": [
+  "name": "Ethena Staked USDe",
+
+  "aliases": [
     "aEthsUSDe",
     "variableDebtEthsUSDe",
     "sUSDe",

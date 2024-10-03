@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Rocket Pool Protocol",
   "symbol": "rpl",
-  "symbolAliases": [
+  "name": "Rocket Pool Protocol",
+
+  "aliases": [
     "aEthRPL",
     "variableDebtEthRPL",
     "RPL",

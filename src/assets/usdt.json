@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Tether USDT",
   "symbol": "usdt",
-  "symbolAliases": [
+  "name": "Tether USDT",
+
+  "aliases": [
     "USDT.e",
     "m.USDT",
     "stataArbUSDT",

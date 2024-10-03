@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Dai Stablecoin",
   "symbol": "dai",
-  "symbolAliases": [
+  "name": "Dai Stablecoin",
+
+  "aliases": [
     "DAI",
     "m.DAI",
     "DAI.e",

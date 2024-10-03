@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "yearn.finance",
   "symbol": "yfi",
-  "symbolAliases": [
+  "name": "yearn.finance",
+
+  "aliases": [
     "YFI"
   ],
   "variations": [

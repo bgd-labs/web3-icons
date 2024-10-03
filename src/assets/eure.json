@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Monerium EUR emoney",
   "symbol": "eure",
-  "symbolAliases": [
+  "name": "Monerium EUR emoney",
+
+  "aliases": [
     "aGnoEURe",
     "variableDebtGnoEURe",
     "EURe",

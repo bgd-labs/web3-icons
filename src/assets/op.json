@@ -1,10 +1,11 @@
 {
   "type": ["asset", "chain"],
-  "chainName": "OP Mainnet",
+  "symbol": "op",
   "chainId": 10,
   "name": "Optimism",
-  "symbol": "op",
-  "symbolAliases": [
+  "chainName": "OP Mainnet",
+
+  "aliases": [
     "aOptOP",
     "variableDebtOptOP",
     "OP",

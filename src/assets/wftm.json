@@ -1,8 +1,8 @@
 {
   "type": ["asset"],
-  "name": "Wrapped Fantom",
   "symbol": "wftm",
-  "symbolAliases": ["WFTM"],
+  "name": "Wrapped Fantom",
+  "aliases": ["WFTM"],
   "variations": [
     "aToken",
     "stataToken"

@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "First Digital USD",
   "symbol": "fdusd",
-  "symbolAliases": [
+  "name": "First Digital USD",
+
+  "aliases": [
     "FDUSD",
     "stataBnbFDUSD",
     "aBnbFDUSD",

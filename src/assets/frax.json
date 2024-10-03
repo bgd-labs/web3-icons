@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Frax",
   "symbol": "frax",
-  "symbolAliases": [
+  "name": "Frax",
+
+  "aliases": [
     "FRAX",
     "aEthFRAX",
     "variableDebtEthFRAX",

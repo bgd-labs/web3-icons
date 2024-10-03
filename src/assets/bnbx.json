@@ -1,12 +1,12 @@
 {
   "type": ["asset"],
-  "name": "Stader BNBx",
   "symbol": "bnbx",
-  "symbolAliases": [
+  "name": "Stader BNBx",
+
+  "aliases": [
     "BNBx"
   ],
   "variations": [
-    "aToken",
-    "stataToken"
+    "aToken"
   ]
 }

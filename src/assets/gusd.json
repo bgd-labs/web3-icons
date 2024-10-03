@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Gemini Dollar",
   "symbol": "gusd",
-  "symbolAliases": [
+  "name": "Gemini Dollar",
+
+  "aliases": [
     "GUSD"
   ],
   "variations": [

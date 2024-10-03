@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Benqi Staked Avalanche",
   "symbol": "savax",
-  "symbolAliases": [
+  "name": "Benqi Staked Avalanche",
+
+  "aliases": [
     "sAVAX",
     "aAvaSAVAX",
     "stataAvaSAVAX",

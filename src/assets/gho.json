@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Gho Token",
   "symbol": "gho",
-  "symbolAliases": [
+  "name": "Gho Token",
+
+  "aliases": [
     "aEthGHO",
     "variableDebtEthGHO",
     "GHO",

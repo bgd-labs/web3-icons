@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Kyber Network Crystal v2",
   "symbol": "knc",
-  "symbolAliases": [
+  "name": "Kyber Network Crystal v2",
+
+  "aliases": [
     "KNC",
     "aEthKNC",
     "variableDebtEthKNC"

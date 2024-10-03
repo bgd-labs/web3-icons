@@ -1,10 +1,10 @@
 {
   "type": ["asset"],
-  "name": "Aave [OLD]",
   "symbol": "lend",
-  "symbolAliases": ["LEND"],
+  "name": "Aave [OLD]",
+
+  "aliases": ["LEND"],
   "variations": [
-    "aToken",
-    "stataToken"
+    "aToken"
   ]
 }

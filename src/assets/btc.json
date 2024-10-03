@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Bitcoin",
   "symbol": "btc",
-  "symbolAliases": [
+  "name": "Bitcoin",
+
+  "aliases": [
     "BTCB",
     "BTC",
     "BTC.b"

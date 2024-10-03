@@ -1,11 +1,13 @@
 {
   "type": ["asset"],
-  "name": "TBTC",
   "symbol": "tbtc",
-  "symbolAliases": [
+  "name": "TBTC",
+
+  "aliases": [
     "tBTC",
     "TBTC",
     "aEthtBTC",
+    "stataEthtBTC",
     "variableDebtEthtBTC",
     "stableDebtEthtBTC"
   ],

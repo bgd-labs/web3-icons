@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Stader ETHx",
   "symbol": "ethx",
-  "symbolAliases": [
+  "name": "Stader ETHx",
+
+  "aliases": [
     "aEthETHx",
     "variableDebtEthETHx",
     "ETHx",

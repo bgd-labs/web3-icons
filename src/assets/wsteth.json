@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Wrapped liquid staked Ether 2.0",
   "symbol": "wsteth",
-  "symbolAliases": [
+  "name": "Wrapped liquid staked Ether 2.0",
+
+  "aliases": [
     "variableDebtEthwstETH",
     "aEthwstETH",
     "wstETH",

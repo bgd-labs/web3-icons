@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Ethena USDe",
   "symbol": "usde",
-  "symbolAliases": [
+  "name": "Ethena USDe",
+
+  "aliases": [
     "aEthUSDe",
     "variableDebtEthUSDe",
     "USDe",

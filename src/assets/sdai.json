@@ -1,8 +1,9 @@
 {
   "type": ["asset"],
-  "name": "Savings Dai",
   "symbol": "sdai",
-  "symbolAliases": [
+  "name": "Savings Dai",
+
+  "aliases": [
     "sDAI",
     "aEthsDAI",
     "variableDebtEthsDAI",
