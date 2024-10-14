@@ -1,14 +1,14 @@
 "use client";
 
+import { StaticIcon } from "@bgd-labs/react-web3-icons";
 import { githubIconsPath } from "@bgd-labs/react-web3-icons/dist/constants";
-import {
-  IconInfoIcons,
-  IconVariant,
-} from "@bgd-labs/react-web3-icons/dist/utils";
+import { chainsIconsPack } from "@bgd-labs/react-web3-icons/dist/iconsPacks/chainsIconsPack";
+import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 
-import { IconCard } from "@/components/IconCard";
-import { ChainIcon } from "@/components/Web3Icons/ChainIcon";
+import { IconCard, IconLoader } from "@/components/IconCard";
+
+import { IconInfoIcons } from "../../../../src/scripts/types";
 
 export const ChainIconCard = ({
   name,
@@ -29,7 +29,14 @@ export const ChainIconCard = ({
       setActiveType={setVariant}
       activeType={variant}
     >
-      <ChainIcon chainId={chainId} mono={variant === IconVariant.Mono} />
+      <StaticIcon
+        className="size-[70px]"
+        iconType="chain"
+        iconKey={chainId}
+        mono={variant === IconVariant.Mono}
+        loader={<IconLoader />}
+        iconsPack={chainsIconsPack}
+      />
     </IconCard>
   );
 };

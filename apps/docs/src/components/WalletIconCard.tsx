@@ -1,14 +1,13 @@
 "use client";
 
+import { DynamicIcon } from "@bgd-labs/react-web3-icons";
 import { githubIconsPath } from "@bgd-labs/react-web3-icons/dist/constants";
-import {
-  IconInfoIcons,
-  IconVariant,
-} from "@bgd-labs/react-web3-icons/dist/utils";
+import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 
-import { IconCard } from "@/components/IconCard";
-import { WalletIcon } from "@/components/Web3Icons/WalletIcon";
+import { IconCard, IconLoader } from "@/components/IconCard";
+
+import { IconInfoIcons } from "../../../../src/scripts/types";
 
 export const WalletIconCard = ({
   name,
@@ -27,7 +26,13 @@ export const WalletIconCard = ({
       setActiveType={setVariant}
       activeType={variant}
     >
-      <WalletIcon walletName={name} mono={variant === IconVariant.Mono} />
+      <DynamicIcon
+        className="size-[70px]"
+        iconType="wallet"
+        iconKey={name}
+        mono={variant === IconVariant.Mono}
+        loader={<IconLoader />}
+      />
     </IconCard>
   );
 };

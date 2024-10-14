@@ -34,7 +34,7 @@ const ICONS_FOLDER = "src/assets";
 const OUTPUT_FOLDER = "icons";
 const MONO_SUFFIX = "_mono";
 const FULL_SUFFIX = "_full";
-const REACT_UTILS_PATH = "packages/react-web3-icons/src/utils";
+const REACT_UTILS_PATH = "packages/react-web3-icons/src/helpers";
 
 const IconMetaSchema = z.object({
   type: z.array(z.string()),

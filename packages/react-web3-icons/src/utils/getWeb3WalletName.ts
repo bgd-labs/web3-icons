@@ -1,4 +1,5 @@
-import { wallets } from "./walletsNames";
+import { wallets } from "../helpers";
+
 /**
  * Function for getting installed browser wallet name.
  */

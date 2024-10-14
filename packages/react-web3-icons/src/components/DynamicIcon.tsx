@@ -5,9 +5,12 @@ import camelCase from "lodash.camelcase";
 import React from "react";
 import InlineSVG from "react-inlinesvg";
 
-import { Web3IconType } from "../icons/full";
-import { capitalize, IconComponentBaseProps } from "../utils";
-import { generateUniqueHash } from "../utils/generateUniqueHash";
+import {
+  capitalize,
+  generateUniqueHash,
+  getIconData,
+  IconComponentBaseProps,
+} from "../utils";
 import { formatMonoSvgCode, SVG } from "./SVG";
 
 /**
@@ -15,14 +18,21 @@ import { formatMonoSvgCode, SVG } from "./SVG";
  */
 export const DynamicIcon = ({
   iconKey,
-  githubSrc,
+  iconType,
+  assetTag,
+  formatSymbol,
   mono,
   loader,
   ...props
-}: {
-  iconKey: Web3IconType | string;
-  githubSrc?: string;
-} & IconComponentBaseProps) => {
+}: IconComponentBaseProps) => {
+  const { iconKey: key, iconPathToRepo: githubSrc } = getIconData({
+    iconKey,
+    iconType,
+    assetTag,
+    formatSymbol,
+    mono,
+  });
+
   const [isError, setIsError] = React.useState(false);
 
   const Icon = loadable(
@@ -34,7 +44,7 @@ export const DynamicIcon = ({
           const iconData =
             // eslint-disable-next-line @typescript-eslint/ban-ts-comment
             // @ts-expect-error
-            icon[`icon${capitalize(camelCase(iconKey.toLowerCase()))}`];
+            icon[`icon${capitalize(camelCase(key.toLowerCase()))}`];
 
           if (!iconData && githubSrc && !isError) {
             return {

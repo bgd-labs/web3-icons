@@ -1,14 +1,14 @@
 "use client";
 
+import { StaticIcon } from "@bgd-labs/react-web3-icons";
 import { githubIconsPath } from "@bgd-labs/react-web3-icons/dist/constants";
-import {
-  IconInfoIcons,
-  IconVariant,
-} from "@bgd-labs/react-web3-icons/dist/utils";
+import { brandsIconsPack } from "@bgd-labs/react-web3-icons/dist/iconsPacks/brandsIconsPack";
+import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 
-import { IconCard } from "@/components/IconCard";
-import { BrandIcon } from "@/components/Web3Icons/BrandIcon";
+import { IconCard, IconLoader } from "@/components/IconCard";
+
+import { IconInfoIcons } from "../../../../src/scripts/types";
 
 export const BrandIconCard = ({
   name,
@@ -27,7 +27,14 @@ export const BrandIconCard = ({
       setActiveType={setVariant}
       activeType={variant}
     >
-      <BrandIcon addressOrName={name} mono={variant === IconVariant.Mono} />
+      <StaticIcon
+        className="size-[70px]"
+        iconType="brand"
+        iconKey={name}
+        mono={variant === IconVariant.Mono}
+        loader={<IconLoader />}
+        iconsPack={brandsIconsPack}
+      />
     </IconCard>
   );
 };

@@ -1,11 +1,11 @@
 "use client";
 
+import { DynamicIcon } from "@bgd-labs/react-web3-icons";
 import { githubIconsPath } from "@bgd-labs/react-web3-icons/dist/constants";
-import { AssetTag, IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
+import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 
-import { IconCard } from "@/components/IconCard";
-import { AssetIcon } from "@/components/Web3Icons/AssetIcon";
+import { IconCard, IconLoader } from "@/components/IconCard";
 
 import { IconInfoIcons } from "../../../../src/scripts/types";
 
@@ -22,18 +22,20 @@ export const AssetIconCard = ({
   icons: IconInfoIcons;
   chainId?: number;
   chainName?: string;
-  assetTag?: AssetTag;
+  assetTag?: "a" | "stata" | "stk";
 }) => {
   const [variant, setVariant] = useState(IconVariant.Full);
   const iconPath = assetTag
     ? // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
       icons[
-        assetTag === AssetTag.AToken
+        assetTag === "a"
           ? "aToken"
-          : assetTag === AssetTag.StataToken
+          : assetTag === "stata"
             ? "stataToken"
-            : "aToken"
+            : assetTag === "stk"
+              ? "stkToken"
+              : "aToken"
       ][variant]
     : icons[variant];
 
@@ -52,10 +54,13 @@ export const AssetIconCard = ({
       setActiveType={setVariant}
       activeType={variant}
     >
-      <AssetIcon
-        symbol={symbol}
+      <DynamicIcon
+        className="size-[70px]"
+        iconType="asset"
+        iconKey={symbol}
         assetTag={assetTag}
         mono={variant === IconVariant.Mono}
+        loader={<IconLoader />}
       />
     </IconCard>
   );

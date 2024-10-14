@@ -1,12 +1,25 @@
 "use client";
 
 import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
-import { ReactNode } from "react";
+import { ComponentProps, ReactNode } from "react";
 
 import { Box } from "@/components/Box";
 import { CopyToClipboard } from "@/components/CopyToClipboard";
 import { DownloadButton } from "@/components/DownloadButton";
 import { cn } from "@/utils/cn";
+
+export const IconLoader = ({
+  className,
+}: Pick<ComponentProps<"img">, "className">) => {
+  return (
+    <div
+      className={cn(
+        "size-[70px] animate-pulse rounded-full bg-brand-300",
+        className,
+      )}
+    />
+  );
+};
 
 export const IconCard = ({
   children,
