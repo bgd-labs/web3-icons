@@ -53,3 +53,31 @@ export const getIconData = ({
     iconPathToRepo: "",
   };
 };
+
+export const getIconsPack = ({
+  symbol,
+  chainId,
+  walletKey,
+  brandKey,
+}: Pick<
+  IconComponentBaseProps,
+  "symbol" | "chainId" | "walletKey" | "brandKey"
+>) => {
+  if (symbol) {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    return require("../iconsPacks/assetsIconsPack").assetsIconsPack;
+  }
+  if (chainId) {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    return require("../iconsPacks/chainsIconsPack").chainsIconsPack;
+  }
+  if (walletKey) {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    return require("../iconsPacks/walletsIconsPack").walletsIconsPack;
+  }
+  if (brandKey) {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    return require("../iconsPacks/brandsIconsPack").brandsIconsPack;
+  }
+  return {} as Record<string, string>;
+};

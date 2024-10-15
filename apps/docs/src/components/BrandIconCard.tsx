@@ -2,7 +2,6 @@
 
 import { StaticIcon } from "@bgd-labs/react-web3-icons";
 import { githubIconsPath } from "@bgd-labs/react-web3-icons/dist/constants";
-import { brandsIconsPack } from "@bgd-labs/react-web3-icons/dist/iconsPacks/brandsIconsPack";
 import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 
@@ -32,7 +31,6 @@ export const BrandIconCard = ({
         brandKey={name}
         mono={variant === IconVariant.Mono}
         loader={<IconLoader />}
-        iconsPack={brandsIconsPack}
       />
     </IconCard>
   );

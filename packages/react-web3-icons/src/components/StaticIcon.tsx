@@ -6,6 +6,7 @@ import InlineSVG from "react-inlinesvg";
 import {
   generateUniqueHash,
   getIconData,
+  getIconsPack,
   IconComponentBaseProps,
 } from "../utils";
 import { formatMonoSvgCode, SVG } from "./SVG";
@@ -20,11 +21,11 @@ export const StaticIcon = ({
   brandKey,
   assetTag,
   formatSymbol,
-  iconsPack,
   mono,
   loader,
   ...props
-}: IconComponentBaseProps & { iconsPack: Record<string, string> }) => {
+}: IconComponentBaseProps) => {
+  const iconsPack = getIconsPack({ symbol, chainId, walletKey, brandKey });
   const { iconKey: key, iconPathToRepo: githubSrc } = getIconData({
     symbol,
     chainId,

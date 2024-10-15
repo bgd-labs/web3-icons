@@ -40,17 +40,13 @@ export const ExampleUsage = () => {
 #### Examples
 ```tsx
 import { StaticIcon } from "@bgd-labs/react-web3-icons";
-import { assetsIconsPack } from "@bgd-labs/react-web3-icons/dist/iconsPacks/assetsIconsPack";
-import { chainsIconsPack } from "@bgd-labs/react-web3-icons/dist/iconsPacks/chainsIconsPack";
-import { walletsIconsPack } from "@bgd-labs/react-web3-icons/dist/iconsPacks/walletsIconsPack";
-import { brandsIconsPack } from "@bgd-labs/react-web3-icons/dist/iconsPacks/brandsIconsPack";
 export const ExampleUsage = () => {
   return (
     <div>
-      <StaticIcon symbol="AAVE" mono iconsPack={assetsIconsPack} />
-      <StaticIcon chainId={1} mono iconsPack={chainsIconsPack} />
-      <StaticIcon walletKey="MetaMask" mono iconsPack={walletsIconsPack} />
-      <StaticIcon brandKey="0x4e033931ad43597d96D6bcc25c280717730B58B1" mono iconsPack={brandsIconsPack} />
+      <StaticIcon symbol="AAVE" mono />
+      <StaticIcon chainId={1} mono />
+      <StaticIcon walletKey="MetaMask" mono />
+      <StaticIcon brandKey="0x4e033931ad43597d96D6bcc25c280717730B58B1" mono />
     </div>
   );
 };

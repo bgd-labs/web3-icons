@@ -2,7 +2,6 @@
 
 import { StaticIcon } from "@bgd-labs/react-web3-icons";
 import { githubIconsPath } from "@bgd-labs/react-web3-icons/dist/constants";
-import { chainsIconsPack } from "@bgd-labs/react-web3-icons/dist/iconsPacks/chainsIconsPack";
 import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 
@@ -34,7 +33,6 @@ export const ChainIconCard = ({
         chainId={chainId}
         mono={variant === IconVariant.Mono}
         loader={<IconLoader />}
-        iconsPack={chainsIconsPack}
       />
     </IconCard>
   );
