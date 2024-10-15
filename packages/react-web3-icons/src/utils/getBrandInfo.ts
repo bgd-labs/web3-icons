@@ -1,6 +1,6 @@
 import { githubIconsPath } from "../constants";
 import { brands } from "../helpers";
-import { IconComponentBaseProps, IconVariant } from "./types";
+import { IconComponentProps, IconVariant } from "./types";
 
 const isAddress = (address: string): boolean => {
   if (!/^(0x)?[0-9a-f]{40}$/i.test(address)) {
@@ -24,7 +24,7 @@ export const getBrandName = (key: string) => {
 export const getBrandIconNameAndPath = ({
   brandKey,
   mono,
-}: Pick<IconComponentBaseProps, "brandKey" | "mono">) => {
+}: Pick<IconComponentProps, "brandKey" | "mono">) => {
   const name = getBrandName(brandKey?.toString() ?? "");
   return {
     iconPathToRepo: `${githubIconsPath}/icons/${mono ? IconVariant.Mono : IconVariant.Full}/${name.replace(/\s/g, "").toLowerCase()}.svg`,

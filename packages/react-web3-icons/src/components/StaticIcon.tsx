@@ -4,9 +4,8 @@ import React, { useEffect } from "react";
 import InlineSVG from "react-inlinesvg";
 
 import {
+  BaseIconComponentProps,
   generateUniqueHash,
-  getIconData,
-  getIconsPack,
   IconComponentBaseProps,
 } from "../utils";
 import { formatMonoSvgCode, SVG } from "./SVG";
@@ -15,28 +14,17 @@ import { formatMonoSvgCode, SVG } from "./SVG";
  * Wrapper for get icons directly from pack
  */
 export const StaticIcon = ({
-  symbol,
-  chainId,
-  walletKey,
-  brandKey,
-  assetTag,
-  formatSymbol,
+  iconKey,
+  iconsPack,
+  githubSrc,
   mono,
   loader,
   ...props
-}: IconComponentBaseProps) => {
-  const iconsPack = getIconsPack({ symbol, chainId, walletKey, brandKey });
-  const { iconKey: key, iconPathToRepo: githubSrc } = getIconData({
-    symbol,
-    chainId,
-    walletKey,
-    brandKey,
-    assetTag,
-    formatSymbol,
-    mono,
-  });
-
-  const iconFormattedKey = key.toLowerCase();
+}: IconComponentBaseProps &
+  BaseIconComponentProps & {
+    iconsPack: Record<string, string>;
+  }) => {
+  const iconFormattedKey = iconKey.toLowerCase();
 
   const [isGithubError, setIsGithubError] = React.useState(false);
   const [svgCode, setSvgCode] = React.useState<string | undefined>(

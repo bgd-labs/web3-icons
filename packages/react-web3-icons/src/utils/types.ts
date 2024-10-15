@@ -5,7 +5,17 @@ export enum IconVariant {
   Mono = "mono",
 }
 
+export type BaseIconComponentProps = {
+  iconKey: string;
+  githubSrc: string;
+};
+
 export type IconComponentBaseProps = {
+  mono?: boolean;
+  loader?: React.JSX.Element;
+} & ComponentProps<"img">;
+
+export type IconComponentProps = {
   // for asset
   symbol?: string;
   assetTag?: "a" | "stata" | "stk";
@@ -16,7 +26,4 @@ export type IconComponentBaseProps = {
   walletKey?: string;
   // for brand
   brandKey?: string;
-  // for all
-  mono?: boolean;
-  loader?: React.JSX.Element;
-} & ComponentProps<"img">;
+} & IconComponentBaseProps;

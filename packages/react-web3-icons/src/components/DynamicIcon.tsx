@@ -6,9 +6,9 @@ import React from "react";
 import InlineSVG from "react-inlinesvg";
 
 import {
+  BaseIconComponentProps,
   capitalize,
   generateUniqueHash,
-  getIconData,
   IconComponentBaseProps,
 } from "../utils";
 import { formatMonoSvgCode, SVG } from "./SVG";
@@ -17,26 +17,12 @@ import { formatMonoSvgCode, SVG } from "./SVG";
  * Wrapper for get icons dynamically
  */
 export const DynamicIcon = ({
-  symbol,
-  chainId,
-  walletKey,
-  brandKey,
-  assetTag,
-  formatSymbol,
+  iconKey,
+  githubSrc,
   mono,
   loader,
   ...props
-}: IconComponentBaseProps) => {
-  const { iconKey: key, iconPathToRepo: githubSrc } = getIconData({
-    symbol,
-    chainId,
-    walletKey,
-    brandKey,
-    assetTag,
-    formatSymbol,
-    mono,
-  });
-
+}: IconComponentBaseProps & BaseIconComponentProps) => {
   const [isError, setIsError] = React.useState(false);
 
   const Icon = loadable(
@@ -48,7 +34,7 @@ export const DynamicIcon = ({
           const iconData =
             // eslint-disable-next-line @typescript-eslint/ban-ts-comment
             // @ts-expect-error
-            icon[`icon${capitalize(camelCase(key.toLowerCase()))}`];
+            icon[`icon${capitalize(camelCase(iconKey.toLowerCase()))}`];
 
           if (!iconData && githubSrc && !isError) {
             return {

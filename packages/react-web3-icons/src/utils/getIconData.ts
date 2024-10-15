@@ -2,7 +2,7 @@ import { getAssetIconNameAndPath } from "./getAssetInfo";
 import { getBrandIconNameAndPath } from "./getBrandInfo";
 import { getChainIconNameAndPath } from "./getChainInfo";
 import { getWalletIconNameAndPath } from "./getWalletInfo";
-import { IconComponentBaseProps } from "./types";
+import { IconComponentProps } from "./types";
 
 export const getIconData = ({
   symbol,
@@ -13,7 +13,7 @@ export const getIconData = ({
   formatSymbol,
   mono,
 }: Pick<
-  IconComponentBaseProps,
+  IconComponentProps,
   | "symbol"
   | "chainId"
   | "walletKey"
@@ -52,32 +52,4 @@ export const getIconData = ({
     iconKey: "",
     iconPathToRepo: "",
   };
-};
-
-export const getIconsPack = ({
-  symbol,
-  chainId,
-  walletKey,
-  brandKey,
-}: Pick<
-  IconComponentBaseProps,
-  "symbol" | "chainId" | "walletKey" | "brandKey"
->) => {
-  if (symbol) {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    return require("../iconsPacks/assetsIconsPack").assetsIconsPack;
-  }
-  if (chainId) {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    return require("../iconsPacks/chainsIconsPack").chainsIconsPack;
-  }
-  if (walletKey) {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    return require("../iconsPacks/walletsIconsPack").walletsIconsPack;
-  }
-  if (brandKey) {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    return require("../iconsPacks/brandsIconsPack").brandsIconsPack;
-  }
-  return {} as Record<string, string>;
 };

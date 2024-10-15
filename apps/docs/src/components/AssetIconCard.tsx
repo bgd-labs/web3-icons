@@ -1,6 +1,6 @@
 "use client";
 
-import { DynamicIcon } from "@bgd-labs/react-web3-icons";
+import { Web3Icon } from "@bgd-labs/react-web3-icons";
 import { githubIconsPath } from "@bgd-labs/react-web3-icons/dist/constants";
 import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
@@ -54,7 +54,7 @@ export const AssetIconCard = ({
       setActiveType={setVariant}
       activeType={variant}
     >
-      <DynamicIcon
+      <Web3Icon
         className="size-[70px]"
         symbol={symbol}
         assetTag={assetTag}

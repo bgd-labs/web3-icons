@@ -1,6 +1,6 @@
 "use client";
 
-import { DynamicIcon } from "@bgd-labs/react-web3-icons";
+import { Web3Icon } from "@bgd-labs/react-web3-icons";
 import { getWeb3WalletName } from "@bgd-labs/react-web3-icons/dist/utils";
 import dynamic from "next/dynamic";
 
@@ -11,7 +11,7 @@ const InstalledBrowserWalletWallet = () => {
   return (
     <div>
       {walletName}
-      <DynamicIcon
+      <Web3Icon
         className="size-[70px]"
         walletKey={walletName}
         loader={<IconLoader />}

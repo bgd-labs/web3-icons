@@ -1,7 +1,8 @@
 "use client";
 
-import { StaticIcon } from "@bgd-labs/react-web3-icons";
+import { Web3Icon } from "@bgd-labs/react-web3-icons";
 import { githubIconsPath } from "@bgd-labs/react-web3-icons/dist/constants";
+import { brandsIconsPack } from "@bgd-labs/react-web3-icons/dist/iconsPacks/brandsIconsPack";
 import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useState } from "react";
 
@@ -26,11 +27,12 @@ export const BrandIconCard = ({
       setActiveType={setVariant}
       activeType={variant}
     >
-      <StaticIcon
+      <Web3Icon
         className="size-[70px]"
         brandKey={name}
         mono={variant === IconVariant.Mono}
         loader={<IconLoader />}
+        iconsPack={brandsIconsPack}
       />
     </IconCard>
   );
