@@ -22,10 +22,10 @@ export const getBrandName = (key: string) => {
   }
 };
 export const getBrandIconNameAndPath = ({
-  iconKey,
+  brandKey,
   mono,
-}: Pick<IconComponentBaseProps, "iconKey" | "mono">) => {
-  const name = getBrandName(iconKey.toString());
+}: Pick<IconComponentBaseProps, "brandKey" | "mono">) => {
+  const name = getBrandName(brandKey?.toString() ?? "");
   return {
     iconPathToRepo: `${githubIconsPath}/icons/${mono ? IconVariant.Mono : IconVariant.Full}/${name.replace(/\s/g, "").toLowerCase()}.svg`,
     iconKey: name.toLowerCase(),

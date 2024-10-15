@@ -29,8 +29,7 @@ export const BrandIconCard = ({
     >
       <StaticIcon
         className="size-[70px]"
-        iconType="brand"
-        iconKey={name}
+        brandKey={name}
         mono={variant === IconVariant.Mono}
         loader={<IconLoader />}
         iconsPack={brandsIconsPack}

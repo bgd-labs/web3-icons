@@ -13,23 +13,25 @@ Package with some of web3 assets, chains and web3 wallets icons for easy use in 
 ### Usage
 ### 1) You can use `DynamicIcon` component.
 #### DynamicIcon type parameters
-| Parameter       | Type                                  | Description |
-|:----------------|:--------------------------------------| :------ |
-| `iconType`      | `"asset", "chain", "wallet", "brand"` | One type of the icon.
-| `iconKey`       | `string, number`                      | The `iconKey` parameter is not case sensitive. It's can be `assetSymbol`, `chainId` ,`walletName`, `brandName`, `poolAddress`.
-| `mono?`         | `boolean`                             | If true then the icon is displayed in black and white.
-| `assetTag?`     | `"a", "stata", "stk"`                 | Asset tag, can be `a`, a circle is added around the standard icon, and can be `stata`, a circle with cuts is added around the standard icon, and `stk` umbrella circle is added around the standart icon. (automatically determined when the asset symbol is passed from the contract)
-| `formatSymbol?` | `(symbol: string) => string`          | If you have a special condition for asset symbol formatting, you can replace the formatting function inside the component.
+| Parameter       | Type                         | Description |
+|:----------------|:-----------------------------| :------ |
+| `symbol?`       | `string`                     | The symbol parameter is not case sensitive, you can pass it as AAVE or aave or AaVe. The result will always be the AAVE asset token icon.
+| `chainId?`      | `number`                     | Id of the chain.
+| `walletKey?`    | `string`                     | Name of the wallet for example "Metamask".
+| `brandKey?`     | `string`                     | Address of the pool or name of the brand for example "Lido".
+| `mono?`         | `boolean`                    | If true then the icon is displayed in black and white.
+| `assetTag?`     | `"a", "stata", "stk"`        | Asset tag, can be `a`, a circle is added around the standard icon, and can be `stata`, a circle with cuts is added around the standard icon, and `stk` umbrella circle is added around the standart icon. (automatically determined when the asset symbol is passed from the contract)
+| `formatSymbol?` | `(symbol: string) => string` | If you have a special condition for asset symbol formatting, you can replace the formatting function inside the component.
 
 ```tsx
 import { DynamicIcon } from "@bgd-labs/react-web3-icons";
 export const ExampleUsage = () => {
   return (
     <div>
-      <DynamicIcon iconType="asset" iconKey="AAVE" />
-      <DynamicIcon iconType="chain" iconKey={1} />
-      <DynamicIcon iconType="wallet" iconKey="MetaMask" />
-      <DynamicIcon iconType="brand" iconKey="0x4e033931ad43597d96D6bcc25c280717730B58B1" />
+      <DynamicIcon symbol="AAVE" />
+      <DynamicIcon chainId={1} />
+      <DynamicIcon walletKey="MetaMask" />
+      <DynamicIcon brandKey="0x4e033931ad43597d96D6bcc25c280717730B58B1" />
     </div>
   );
 };
@@ -45,10 +47,10 @@ import { brandsIconsPack } from "@bgd-labs/react-web3-icons/dist/iconsPacks/bran
 export const ExampleUsage = () => {
   return (
     <div>
-      <StaticIcon iconType="asset" iconKey="AAVE" mono iconsPack={assetsIconsPack} />
-      <StaticIcon iconType="chain" iconKey={1} mono iconsPack={chainsIconsPack} />
-      <StaticIcon iconType="wallet" iconKey="MetaMask" mono iconsPack={walletsIconsPack} />
-      <StaticIcon iconType="brand" iconKey="0x4e033931ad43597d96D6bcc25c280717730B58B1" mono iconsPack={brandsIconsPack} />
+      <StaticIcon symbol="AAVE" mono iconsPack={assetsIconsPack} />
+      <StaticIcon chainId={1} mono iconsPack={chainsIconsPack} />
+      <StaticIcon walletKey="MetaMask" mono iconsPack={walletsIconsPack} />
+      <StaticIcon brandKey="0x4e033931ad43597d96D6bcc25c280717730B58B1" mono iconsPack={brandsIconsPack} />
     </div>
   );
 };
@@ -66,7 +68,7 @@ export const UsageExample = () => {
   return (
     <div>
       <span>{assetName}</span>
-      <DynamicIcon iconType="asset" iconKey="aave" />
+      <DynamicIcon symbol="aave" />
     </div>
   );
 };
@@ -82,7 +84,7 @@ export const UsageExample = () => {
   return (
     <div>
       <span>{chainName}</span>
-      <ChainIcon iconType="chain" iconKey={1} />
+      <DynamicIcon chainId={1} />
     </div>
   );
 };
@@ -97,7 +99,7 @@ const InstalledBrowserWalletWallet = () => {
   return (
     <div>
       {walletName}
-      <DynamicIcon iconType="wallet" iconKey={walletName} />
+      <DynamicIcon walletKey={walletName} />
     </div>
   );
 };

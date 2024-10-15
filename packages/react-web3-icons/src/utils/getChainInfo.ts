@@ -6,10 +6,10 @@ export const getChainName = (chainId: number) => {
   return chainsNames[chainId] ?? "Unknown";
 };
 export const getChainIconNameAndPath = ({
-  iconKey,
+  chainId,
   mono,
-}: Pick<IconComponentBaseProps, "iconKey" | "mono">) => {
-  const chainName = getChainName(+iconKey);
+}: Pick<IconComponentBaseProps, "chainId" | "mono">) => {
+  const chainName = getChainName(chainId ?? -1);
   return {
     iconPathToRepo: `${githubIconsPath}/icons/${mono ? IconVariant.Mono : IconVariant.Full}/${chainName.replace(/\s/g, "").toLowerCase()}.svg`,
     iconKey: chainName.replace(/\s/g, "").toLowerCase(),

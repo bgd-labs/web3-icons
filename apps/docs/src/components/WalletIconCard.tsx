@@ -28,8 +28,7 @@ export const WalletIconCard = ({
     >
       <DynamicIcon
         className="size-[70px]"
-        iconType="wallet"
-        iconKey={name}
+        walletKey={name}
         mono={variant === IconVariant.Mono}
         loader={<IconLoader />}
       />

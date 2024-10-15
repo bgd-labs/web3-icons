@@ -6,10 +6,10 @@ export const getWalletName = (iconKey: string) => {
   return wallets[iconKey.replace(/\s/g, "").toLowerCase()]?.name ?? "Unknown";
 };
 export const getWalletIconNameAndPath = ({
-  iconKey,
+  walletKey,
   mono,
-}: Pick<IconComponentBaseProps, "iconKey" | "mono">) => {
-  const name = getWalletName(iconKey.toString());
+}: Pick<IconComponentBaseProps, "walletKey" | "mono">) => {
+  const name = getWalletName(walletKey?.toString() ?? "");
   return {
     iconPathToRepo: `${githubIconsPath}/icons/${mono ? IconVariant.Mono : IconVariant.Full}/${name.replace(/\s/g, "").toLowerCase()}.svg`,
     iconKey: name.replace(/\s/g, "").toLowerCase(),

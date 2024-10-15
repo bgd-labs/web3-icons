@@ -56,8 +56,7 @@ export const AssetIconCard = ({
     >
       <DynamicIcon
         className="size-[70px]"
-        iconType="asset"
-        iconKey={symbol}
+        symbol={symbol}
         assetTag={assetTag}
         mono={variant === IconVariant.Mono}
         loader={<IconLoader />}

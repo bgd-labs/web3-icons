@@ -11,15 +11,15 @@ export const getHumanReadableAssetSymbol = (symbol: string) => {
   return symbol;
 };
 export const getAssetName = ({
-  iconKey,
+  symbol,
   formatSymbol,
 }: Pick<
   IconComponentBaseProps,
-  "iconKey" | "assetTag" | "formatSymbol" | "mono"
+  "symbol" | "assetTag" | "formatSymbol" | "mono"
 >) => {
   const formattedSymbol = formatSymbol
-    ? formatSymbol(iconKey.toString())
-    : formatSymbolForIcon({ symbol: iconKey.toString() });
+    ? formatSymbol(symbol?.toString() ?? "")
+    : formatSymbolForIcon({ symbol: symbol?.toString() ?? "" });
 
   if (typeof formattedSymbol !== "string") {
     return assetsNames[formattedSymbol.iconSymbol] ?? "Unknown";
@@ -29,17 +29,17 @@ export const getAssetName = ({
 };
 
 export const getAssetIconNameAndPath = ({
-  iconKey,
+  symbol,
   assetTag,
   formatSymbol,
   mono,
 }: Pick<
   IconComponentBaseProps,
-  "iconKey" | "assetTag" | "formatSymbol" | "mono"
+  "symbol" | "assetTag" | "formatSymbol" | "mono"
 >) => {
   const formattedSymbol = formatSymbol
-    ? formatSymbol(iconKey.toString())
-    : formatSymbolForIcon({ symbol: iconKey.toString() });
+    ? formatSymbol(symbol?.toString() ?? "")
+    : formatSymbolForIcon({ symbol: symbol?.toString() ?? "" });
 
   if (typeof formattedSymbol !== "string") {
     const symbol = formattedSymbol.iconSymbol;

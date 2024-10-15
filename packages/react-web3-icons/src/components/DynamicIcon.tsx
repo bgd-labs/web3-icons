@@ -17,8 +17,10 @@ import { formatMonoSvgCode, SVG } from "./SVG";
  * Wrapper for get icons dynamically
  */
 export const DynamicIcon = ({
-  iconKey,
-  iconType,
+  symbol,
+  chainId,
+  walletKey,
+  brandKey,
   assetTag,
   formatSymbol,
   mono,
@@ -26,8 +28,10 @@ export const DynamicIcon = ({
   ...props
 }: IconComponentBaseProps) => {
   const { iconKey: key, iconPathToRepo: githubSrc } = getIconData({
-    iconKey,
-    iconType,
+    symbol,
+    chainId,
+    walletKey,
+    brandKey,
     assetTag,
     formatSymbol,
     mono,

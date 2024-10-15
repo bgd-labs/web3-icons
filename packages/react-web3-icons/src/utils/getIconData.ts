@@ -5,42 +5,51 @@ import { getWalletIconNameAndPath } from "./getWalletInfo";
 import { IconComponentBaseProps } from "./types";
 
 export const getIconData = ({
-  iconKey,
-  iconType,
+  symbol,
+  chainId,
+  walletKey,
+  brandKey,
   assetTag,
   formatSymbol,
   mono,
 }: Pick<
   IconComponentBaseProps,
-  "iconKey" | "iconType" | "assetTag" | "formatSymbol" | "mono"
+  | "symbol"
+  | "chainId"
+  | "walletKey"
+  | "brandKey"
+  | "assetTag"
+  | "formatSymbol"
+  | "mono"
 >) => {
-  switch (iconType) {
-    case "asset":
-      return getAssetIconNameAndPath({
-        iconKey,
-        formatSymbol,
-        assetTag,
-        mono,
-      });
-    case "chain":
-      return getChainIconNameAndPath({
-        iconKey,
-        mono,
-      });
-    case "wallet":
-      return getWalletIconNameAndPath({
-        iconKey,
-        mono,
-      });
-    case "brand":
-      return getBrandIconNameAndPath({
-        iconKey,
-        mono,
-      });
-    default:
-      return {
-        iconKey: "",
-        iconPathToRepo: "",
-      };
+  if (symbol) {
+    return getAssetIconNameAndPath({
+      symbol,
+      formatSymbol,
+      assetTag,
+      mono,
+    });
   }
+  if (chainId) {
+    return getChainIconNameAndPath({
+      chainId,
+      mono,
+    });
+  }
+  if (walletKey) {
+    return getWalletIconNameAndPath({
+      walletKey,
+      mono,
+    });
+  }
+  if (brandKey) {
+    return getBrandIconNameAndPath({
+      brandKey,
+      mono,
+    });
+  }
+  return {
+    iconKey: "",
+    iconPathToRepo: "",
+  };
 };

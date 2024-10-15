@@ -13,8 +13,7 @@ const InstalledBrowserWalletWallet = () => {
       {walletName}
       <DynamicIcon
         className="size-[70px]"
-        iconType="wallet"
-        iconKey={walletName}
+        walletKey={walletName}
         loader={<IconLoader />}
       />
     </div>

@@ -14,8 +14,10 @@ import { formatMonoSvgCode, SVG } from "./SVG";
  * Wrapper for get icons directly from pack
  */
 export const StaticIcon = ({
-  iconKey,
-  iconType,
+  symbol,
+  chainId,
+  walletKey,
+  brandKey,
   assetTag,
   formatSymbol,
   iconsPack,
@@ -24,8 +26,10 @@ export const StaticIcon = ({
   ...props
 }: IconComponentBaseProps & { iconsPack: Record<string, string> }) => {
   const { iconKey: key, iconPathToRepo: githubSrc } = getIconData({
-    iconKey,
-    iconType,
+    symbol,
+    chainId,
+    walletKey,
+    brandKey,
     assetTag,
     formatSymbol,
     mono,
@@ -44,7 +48,7 @@ export const StaticIcon = ({
         ? iconsPack[`${iconFormattedKey}_mono`]
         : iconsPack[iconFormattedKey],
     );
-  }, [mono, iconKey]);
+  }, [mono, iconFormattedKey]);
 
   if (!isGithubError && githubSrc && !svgCode) {
     return (

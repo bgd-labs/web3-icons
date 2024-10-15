@@ -31,8 +31,7 @@ export const ChainIconCard = ({
     >
       <StaticIcon
         className="size-[70px]"
-        iconType="chain"
-        iconKey={chainId}
+        chainId={chainId}
         mono={variant === IconVariant.Mono}
         loader={<IconLoader />}
         iconsPack={chainsIconsPack}
