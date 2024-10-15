@@ -33,11 +33,17 @@ export const Web3Icon = ({
         iconKey={iconKey}
         iconsPack={iconsPack}
         githubSrc={iconPathToRepo}
+        mono={mono}
         {...props}
       />
     );
   }
   return (
-    <DynamicIcon iconKey={iconKey} githubSrc={iconPathToRepo} {...props} />
+    <DynamicIcon
+      iconKey={iconKey}
+      githubSrc={iconPathToRepo}
+      mono={mono}
+      {...props}
+    />
   );
 };
