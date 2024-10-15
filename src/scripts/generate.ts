@@ -5,18 +5,19 @@ import { z } from "zod";
 import { generateTokenIcon } from "../utils/generateTokenIcon.ts";
 import {
   generateIconsPack,
+  getAssetTagBySymbol,
   getPrefix,
   processIconFile,
   readJsonFile,
-  stakeAssetsSeparateIcons,
+  updateAliasesWithAddressBook,
 } from "../utils/helperFunctions.ts";
 import {
+  AssetAliases,
   IconFormat,
   IconInfo,
   IconInfoIcons,
   IconType,
   IconWithMetaType,
-  TokenTag,
   WalletType,
   WriteQueueItem,
 } from "./types.ts";
@@ -237,36 +238,11 @@ fs.writeFileSync(
   `export const assetsNames: Record<string, string> = ${JSON.stringify(assetsNames)};`,
 );
 console.log("✅ Assets names are generated");
-const assetsAliases: Record<
-  string,
-  { iconSymbol: string; symbol: string; tokenTag: string }
-> = {};
+const assetsAliases: AssetAliases = {};
 assets.forEach((item) => {
   item.aliases?.forEach((symbol) => {
     if (!isAddress(symbol)) {
-      const symbolArray = symbol.split(/(?<![A-Z])(?=[A-Z])/);
-      let tokenTag = "";
-      if (
-        symbolArray &&
-        symbolArray.length &&
-        !stakeAssetsSeparateIcons.includes(symbol)
-      ) {
-        const firstItem = symbolArray[0];
-        switch (firstItem.toLowerCase()) {
-          case TokenTag.aToken:
-            tokenTag = TokenTag.aToken;
-            break;
-          case TokenTag.stataToken:
-            tokenTag = TokenTag.stataToken;
-            break;
-          case "variable":
-            tokenTag = TokenTag.aToken;
-            break;
-          case TokenTag.stkToken:
-            tokenTag = TokenTag.stkToken;
-            break;
-        }
-      }
+      const tokenTag = getAssetTagBySymbol(symbol);
       assetsAliases[symbol.toLowerCase()] = {
         iconSymbol: item.symbol,
         symbol: `${tokenTag}${item.symbol.toUpperCase()}`,
@@ -275,9 +251,11 @@ assets.forEach((item) => {
     }
   });
 });
+const assetsAliasesWithAddressBook: AssetAliases =
+  updateAliasesWithAddressBook(assetsAliases);
 fs.writeFileSync(
   `${REACT_UTILS_PATH}/assetsAliases.ts`,
-  `export const assetsAliases: Record<string, { iconSymbol: string; symbol: string; tokenTag: string }> = ${JSON.stringify(assetsAliases)};`,
+  `export const assetsAliases: Record<string, { iconSymbol: string; symbol: string; tokenTag: string }> = ${JSON.stringify(assetsAliasesWithAddressBook)};`,
 );
 generateIconsPack(IconType.asset, assets);
 console.log("✅ Assets aliases are generated");
