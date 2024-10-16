@@ -1,4 +1,3 @@
-import { AssetTag } from "@bgd-labs/react-web3-icons/dist/utils/index";
 import Fuse from "fuse.js";
 import React, { useMemo } from "react";
 
@@ -63,7 +62,7 @@ async function IconsPage({
                       chainId={asset.chainId}
                       chainName={asset.chainName}
                       icons={asset.icons}
-                      assetTag={AssetTag.AToken}
+                      assetTag="a"
                     />
                   )}
                   {asset.icons[IconFormat.stataToken] && (
@@ -73,7 +72,7 @@ async function IconsPage({
                       chainId={asset.chainId}
                       chainName={asset.chainName}
                       icons={asset.icons}
-                      assetTag={AssetTag.StataToken}
+                      assetTag="stata"
                     />
                   )}
                   {asset.icons[IconFormat.stkToken] && (
@@ -83,7 +82,7 @@ async function IconsPage({
                       chainId={asset.chainId}
                       chainName={asset.chainName}
                       icons={asset.icons}
-                      assetTag={AssetTag.STKToken}
+                      assetTag="stk"
                     />
                   )}
                 </React.Fragment>

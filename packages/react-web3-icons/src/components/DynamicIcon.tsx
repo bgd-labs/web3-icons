@@ -5,9 +5,12 @@ import camelCase from "lodash.camelcase";
 import React from "react";
 import InlineSVG from "react-inlinesvg";
 
-import { Web3IconType } from "../icons/full";
-import { capitalize, IconComponentBaseProps } from "../utils";
-import { generateUniqueHash } from "../utils/generateUniqueHash";
+import {
+  BaseIconComponentProps,
+  capitalize,
+  generateUniqueHash,
+  IconComponentBaseProps,
+} from "../utils";
 import { formatMonoSvgCode, SVG } from "./SVG";
 
 /**
@@ -19,10 +22,7 @@ export const DynamicIcon = ({
   mono,
   loader,
   ...props
-}: {
-  iconKey: Web3IconType | string;
-  githubSrc?: string;
-} & IconComponentBaseProps) => {
+}: IconComponentBaseProps & BaseIconComponentProps) => {
   const [isError, setIsError] = React.useState(false);
 
   const Icon = loadable(

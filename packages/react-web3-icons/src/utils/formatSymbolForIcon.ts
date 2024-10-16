@@ -1,4 +1,4 @@
-import { assetsAliases } from "./assetsAliases";
+import { assetsAliases } from "../helpers";
 
 /**
  * Maps onchain symbols to different symbols.
