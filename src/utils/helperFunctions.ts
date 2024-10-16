@@ -21,15 +21,14 @@ import {
   AaveV3Optimism,
   AaveV3OptimismSepolia,
   AaveV3Polygon,
-  AaveV3PolygonZkEvm,
   AaveV3Scroll,
   AaveV3ScrollSepolia,
   AaveV3Sepolia,
   AaveV3ZkSync,
-  tokenlist,
 } from "@bgd-labs/aave-address-book";
 import fs from "fs";
 import { optimize } from "svgo";
+import { z } from "zod";
 
 import {
   AssetAliases,
@@ -239,7 +238,6 @@ const poolsSymbols: Record<string, string> = {
   [`${AaveV2Fuji.POOL}_${AaveV2Fuji.CHAIN_ID}`]: "Ava",
 
   // need test
-  [`${AaveV3PolygonZkEvm.POOL}_${AaveV3PolygonZkEvm.CHAIN_ID}`]: "ZkEvm",
   [`${AaveV3Fantom.POOL}_${AaveV3Fantom.CHAIN_ID}`]: "Fan",
   [`${AaveV3FantomTestnet.POOL}_${AaveV3FantomTestnet.CHAIN_ID}`]: "Fan",
 };
@@ -248,6 +246,69 @@ export const updateAliasesWithAddressBook = (
   assetsAliasesInitial: AssetAliases,
 ) => {
   const assetsAliases: AssetAliases = assetsAliasesInitial;
+
+  const TokenListSchema = z.object({
+    name: z.string(),
+    logoURI: z.string(),
+    keywords: z.array(z.string()),
+    tags: z.object({
+      underlying: z.object({
+        name: z.string(),
+        description: z.string(),
+      }),
+      aaveV2: z.object({
+        name: z.string(),
+        description: z.string(),
+      }),
+      aaveV3: z.object({
+        name: z.string(),
+        description: z.string(),
+      }),
+      aTokenV2: z.object({
+        name: z.string(),
+        description: z.string(),
+      }),
+      aTokenV3: z.object({
+        name: z.string(),
+        description: z.string(),
+      }),
+      stataToken: z.object({
+        name: z.string(),
+        description: z.string(),
+      }),
+      staticAT: z.object({
+        name: z.string(),
+        description: z.string(),
+      }),
+    }),
+    tokens: z.array(
+      z.object({
+        chainId: z.number(),
+        address: z.string(),
+        name: z.string(),
+        decimals: z.number(),
+        symbol: z.string(),
+        tags: z.array(z.string()),
+        logoURI: z.string(),
+        extensions: z
+          .object({
+            pool: z.string().or(z.undefined()),
+          })
+          .or(z.undefined()),
+      }),
+    ),
+    version: z.object({
+      major: z.number(),
+      minor: z.number(),
+      patch: z.number(),
+    }),
+    timestamp: z.string(),
+  });
+
+  const tokenlist = readJsonFile(
+    "node_modules/@bgd-labs/aave-address-book/tokenlist.json",
+    TokenListSchema,
+  );
 
   tokenlist.tokens.forEach((item: any) => {
     const iconSymbol =
@@ -259,13 +320,23 @@ export const updateAliasesWithAddressBook = (
         ).length - 1
       ] ?? "";
 
+    const iconSymbolArray = iconSymbol.split("_");
+    const formattedIconSymbol =
+      iconSymbolArray.length > 1
+        ? iconSymbolArray[1].toLowerCase() === "inch"
+          ? "1" + iconSymbolArray[1]
+          : iconSymbolArray[1]
+        : iconSymbol;
+
     const tokenTag = getAssetTagBySymbol(item.symbol);
-    assetsAliases[item.symbol.toLowerCase()] = {
-      iconSymbol: iconSymbol.toLowerCase(),
-      symbol: `${tokenTag}${iconSymbol.toUpperCase()}`,
-      tokenTag,
-      ...assetsAliases[item.symbol.toLowerCase()],
-    };
+    if (iconSymbolArray.length <= 2) {
+      assetsAliases[item.symbol.toLowerCase()] = {
+        iconSymbol: formattedIconSymbol.toLowerCase(),
+        symbol: `${tokenTag}${formattedIconSymbol.toUpperCase()}`,
+        tokenTag,
+        ...assetsAliases[item.symbol.toLowerCase()],
+      };
+    }
   });
 
   return assetsAliases;
