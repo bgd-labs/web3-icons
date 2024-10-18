@@ -3,7 +3,7 @@
 import React from "react";
 
 import { getChainIconNameAndPath, IconComponentBaseProps } from "../utils";
-import { DynamicIcon } from "./DynamicIcon";
+import { DynamicV2Icon } from "./DynamicV2/DynamicV2";
 
 /**
  * Get chain icon dynamically by chain id
@@ -21,11 +21,12 @@ export const ChainIcon = ({
     mono,
   });
   return (
-    <DynamicIcon
+    <DynamicV2Icon
       iconKey={iconKey}
       githubSrc={iconPathToRepo}
       mono={mono}
       loader={loader}
+      fallback={loader}
       {...props}
     />
   );

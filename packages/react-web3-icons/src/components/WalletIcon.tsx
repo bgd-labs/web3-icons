@@ -3,7 +3,7 @@
 import React from "react";
 
 import { getWalletIconNameAndPath, IconComponentBaseProps } from "../utils";
-import { DynamicIcon } from "./DynamicIcon";
+import { DynamicV2Icon } from "./DynamicV2/DynamicV2";
 
 /**
  * Get wallet icon dynamically by wallet name
@@ -21,11 +21,12 @@ export const WalletIcon = ({
     mono,
   });
   return (
-    <DynamicIcon
+    <DynamicV2Icon
       iconKey={iconKey}
       githubSrc={iconPathToRepo}
       mono={mono}
       loader={loader}
+      fallback={loader}
       {...props}
     />
   );

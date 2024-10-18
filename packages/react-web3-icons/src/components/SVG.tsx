@@ -33,6 +33,18 @@ const Image = ({
   );
 };
 
+const Icon = loadable(
+  async (props: Omit<Props, "svgCode">) => {
+    const svgCode = await import("../icons/full/build/icon-unknown.icon");
+    return {
+      default: () => <Image svgCode={svgCode.iconUnknown.data} {...props} />,
+    };
+  },
+  {
+    ssr: true,
+  },
+);
+
 /**
  * Wrapper for get svg image from svg code
  */
@@ -42,21 +54,8 @@ export const SVG = ({
   ...props
 }: { loader?: React.JSX.Element } & Props) => {
   if (!svgCode) {
-    const Icon = loadable(
-      async () => {
-        const svgCode = await import("../icons/full/build/icon-unknown.icon");
-        return {
-          default: () => (
-            <Image svgCode={svgCode.iconUnknown.data} {...props} />
-          ),
-        };
-      },
-      {
-        fallback: loader,
-        ssr: true,
-      },
-    );
-    return <Icon />;
+    // TODO What's the purpose of loading predefined icon dynamically?
+    return <Icon fallback={loader} />;
   }
   return <Image svgCode={svgCode} {...props} />;
 };

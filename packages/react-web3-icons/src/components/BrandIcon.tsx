@@ -3,7 +3,7 @@
 import React from "react";
 
 import { getBrandIconNameAndPath, IconComponentBaseProps } from "../utils";
-import { DynamicIcon } from "./DynamicIcon";
+import { DynamicV2Icon } from "./DynamicV2/DynamicV2";
 
 /**
  * Get brand icon dynamically by brand name or pool address
@@ -19,11 +19,12 @@ export const BrandIcon = ({
     mono,
   });
   return (
-    <DynamicIcon
+    <DynamicV2Icon
       iconKey={iconKey}
       githubSrc={iconPathToRepo}
       mono={mono}
       loader={loader}
+      fallback={loader}
       {...props}
     />
   );
