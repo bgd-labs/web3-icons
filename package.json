@@ -30,6 +30,7 @@
     "generate": "tsx src/scripts/generate.ts && svg-to-ts-files --config ./src/utils/genereteMonoTokensConfig.js && svg-to-ts-files --config ./src/utils/genereteFullTokensConfig.js"
   },
   "devDependencies": {
+    "@bgd-labs/aave-address-book": "^4.1.0",
     "@types/node": "^20.14.10",
     "eslint": "^9.6.0",
     "eslint-config-prettier": "^9.1.0",

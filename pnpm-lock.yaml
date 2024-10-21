@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@bgd-labs/aave-address-book':
+        specifier: ^4.1.0
+        version: 4.1.0
       '@types/node':
         specifier: ^20.14.10
         version: 20.14.10
@@ -182,6 +185,10 @@ packages:
     dependencies:
       regenerator-runtime: 0.14.1
     dev: false
+
+  /@bgd-labs/aave-address-book@4.1.0:
+    resolution: {integrity: sha512-5M3CW9R2hFvEbTXwuEty0zGCBmqFVpzinYx2OcW+labpf66WOiihfmXeiqLmYjvIz8q9AJzYreEUp3KZM6Diig==}
+    dev: true
 
   /@esbuild/aix-ppc64@0.21.5:
     resolution: {integrity: sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ==}

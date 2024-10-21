@@ -1,8 +1,8 @@
 import { githubIconsPath } from "../constants";
-import { assetsAliases } from "./assetsAliases";
-import { assetsNames } from "./assetsNames";
+import { assetsAliases, assetsNames } from "../helpers";
 import { formatSymbolForIcon } from "./formatSymbolForIcon";
-import { AssetIconProps, IconVariant } from "./types";
+import { IconComponentProps, IconVariant } from "./types";
+
 export const getHumanReadableAssetSymbol = (symbol: string) => {
   const assetInfo = assetsAliases[symbol.toLowerCase()];
   if (assetInfo) {
@@ -13,10 +13,13 @@ export const getHumanReadableAssetSymbol = (symbol: string) => {
 export const getAssetName = ({
   symbol,
   formatSymbol,
-}: Pick<AssetIconProps, "symbol" | "formatSymbol">) => {
+}: Pick<
+  IconComponentProps,
+  "symbol" | "assetTag" | "formatSymbol" | "mono"
+>) => {
   const formattedSymbol = formatSymbol
-    ? formatSymbol(symbol)
-    : formatSymbolForIcon({ symbol });
+    ? formatSymbol(symbol?.toString() ?? "")
+    : formatSymbolForIcon({ symbol: symbol?.toString() ?? "" });
 
   if (typeof formattedSymbol !== "string") {
     return assetsNames[formattedSymbol.iconSymbol] ?? "Unknown";
@@ -24,15 +27,19 @@ export const getAssetName = ({
     return assetsNames[formattedSymbol] ?? "Unknown";
   }
 };
+
 export const getAssetIconNameAndPath = ({
-  formatSymbol,
   symbol,
   assetTag,
+  formatSymbol,
   mono,
-}: AssetIconProps) => {
+}: Pick<
+  IconComponentProps,
+  "symbol" | "assetTag" | "formatSymbol" | "mono"
+>) => {
   const formattedSymbol = formatSymbol
-    ? formatSymbol(symbol)
-    : formatSymbolForIcon({ symbol });
+    ? formatSymbol(symbol?.toString() ?? "")
+    : formatSymbolForIcon({ symbol: symbol?.toString() ?? "" });
 
   if (typeof formattedSymbol !== "string") {
     const symbol = formattedSymbol.iconSymbol;

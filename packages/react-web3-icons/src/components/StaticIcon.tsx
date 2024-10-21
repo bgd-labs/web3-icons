@@ -3,9 +3,11 @@
 import React, { useEffect } from "react";
 import InlineSVG from "react-inlinesvg";
 
-import { Web3IconType } from "../icons/full";
-import { IconComponentBaseProps } from "../utils";
-import { generateUniqueHash } from "../utils/generateUniqueHash";
+import {
+  BaseIconComponentProps,
+  generateUniqueHash,
+  IconComponentBaseProps,
+} from "../utils";
 import { formatMonoSvgCode, SVG } from "./SVG";
 
 /**
@@ -13,16 +15,15 @@ import { formatMonoSvgCode, SVG } from "./SVG";
  */
 export const StaticIcon = ({
   iconKey,
-  githubSrc,
   iconsPack,
+  githubSrc,
   mono,
   loader,
   ...props
-}: {
-  iconKey: Web3IconType | string;
-  iconsPack: Record<string, string>;
-  githubSrc?: string;
-} & IconComponentBaseProps) => {
+}: IconComponentBaseProps &
+  BaseIconComponentProps & {
+    iconsPack: Record<string, string>;
+  }) => {
   const iconFormattedKey = iconKey.toLowerCase();
 
   const [isGithubError, setIsGithubError] = React.useState(false);
@@ -36,7 +37,7 @@ export const StaticIcon = ({
         ? iconsPack[`${iconFormattedKey}_mono`]
         : iconsPack[iconFormattedKey],
     );
-  }, [mono, iconKey]);
+  }, [mono, iconFormattedKey]);
 
   if (!isGithubError && githubSrc && !svgCode) {
     return (
