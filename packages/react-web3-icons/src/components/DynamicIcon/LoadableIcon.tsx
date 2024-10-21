@@ -1,25 +1,24 @@
-"use client";
-
 import loadable from "@loadable/component";
 import camelCase from "lodash.camelcase";
-import React from "react";
-import InlineSVG from "react-inlinesvg";
+import React, { JSX } from "react";
 
 import { Web3IconType } from "../../icons/full";
 import { capitalize, IconComponentBaseProps } from "../../utils";
-import { generateUniqueHash } from "../../utils/generateUniqueHash";
 import { formatMonoSvgCode, SVG } from "../SVG";
 
-export type DynamicIconProps = IconComponentBaseProps & {
+export type LoadableIconProps = IconComponentBaseProps & {
   iconKey: Web3IconType | string;
-  githubSrc?: string;
+  fallbackComponent?: JSX.Element;
 };
 
-/**
- * Wrapper for get icons dynamically
- */
-export const DynamicV2Icon = loadable(
-  async ({ iconKey, githubSrc, mono, loader, ...props }: DynamicIconProps) => {
+export const LoadableIcon = loadable(
+  async ({
+    iconKey,
+    mono,
+    loader,
+    fallbackComponent,
+    ...props
+  }: LoadableIconProps) => {
     try {
       const lowerCasedIconKey = iconKey.toLowerCase();
       const iconFileName = `icon-${lowerCasedIconKey}`;
@@ -29,19 +28,9 @@ export const DynamicV2Icon = loadable(
       );
       const iconData = icon[`icon${capitalize(camelCase(lowerCasedIconKey))}`];
 
-      if (!iconData && githubSrc) {
+      if (!iconData && fallbackComponent) {
         return {
-          default: () => (
-            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-            // @ts-expect-error
-            <InlineSVG
-              {...props}
-              src={githubSrc}
-              uniqueHash={generateUniqueHash()}
-              uniquifyIDs
-              loader={loader}
-            />
-          ),
+          default: () => <>{fallbackComponent}</>,
         };
       }
 

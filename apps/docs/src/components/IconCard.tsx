@@ -17,6 +17,7 @@ export const IconCard = ({
   fileName,
   setActiveType,
   activeType,
+  onTitleClick,
 }: {
   children: ReactNode;
   name: string;
@@ -26,6 +27,7 @@ export const IconCard = ({
   fileName: string;
   setActiveType: (type: IconVariant) => void;
   activeType: IconVariant;
+  onTitleClick?: () => void;
 }) => {
   const handleSetIconVariant = () => {
     if (activeType === IconVariant.Full) {
@@ -39,7 +41,12 @@ export const IconCard = ({
     <Box>
       <div className="relative flex min-h-[285px] w-[200px] flex-col justify-center overflow-hidden rounded-lg pb-4">
         <div className="relative flex-1 p-2">
-          <div className="text-sm font-semibold text-gray-800">{name}</div>
+          <div
+            onClick={onTitleClick}
+            className="cursor-pointer text-sm font-semibold text-gray-800"
+          >
+            {name}
+          </div>
           {subName && (
             <div className="font-mono text-xs uppercase text-gray-400">
               {subName}

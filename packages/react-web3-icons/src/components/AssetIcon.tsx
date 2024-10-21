@@ -7,7 +7,7 @@ import {
   getAssetIconNameAndPath,
   IconComponentBaseProps,
 } from "../utils";
-import { DynamicV2Icon } from "./DynamicV2/DynamicV2";
+import { DynamicIcon } from "./DynamicIcon/DynamicIcon";
 
 /**
  * Get asset icon dynamically by symbol
@@ -27,12 +27,11 @@ export const AssetIcon = ({
     mono,
   });
   return (
-    <DynamicV2Icon
+    <DynamicIcon
       iconKey={iconKey}
       githubSrc={iconPathToRepo}
       mono={mono}
       loader={loader}
-      fallback={loader}
       {...props}
     />
   );
