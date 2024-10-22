@@ -21,6 +21,7 @@ const Page: FC<PageProps> = ({ params }) => {
           assetTag="a"
           mono={false}
           loader={<IconLoader />}
+          className="size-[70px]"
         />
       </div>
     </div>
