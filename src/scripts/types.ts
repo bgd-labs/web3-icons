@@ -67,3 +67,8 @@ export type WalletType = {
   name: string;
   identityFlag?: string;
 };
+
+export type AssetAliases = Record<
+  string,
+  { iconSymbol: string; symbol: string; tokenTag: string }
+>;

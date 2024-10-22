@@ -1,12 +1,12 @@
 "use client";
 
+import { Web3Icon } from "@bgd-labs/react-web3-icons";
 import { githubIconsPath } from "@bgd-labs/react-web3-icons/dist/constants";
-import { AssetTag, IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
+import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-import { IconCard } from "@/components/IconCard";
-import { AssetIcon } from "@/components/Web3Icons/AssetIcon";
+import { IconCard, IconLoader } from "@/components/IconCard";
 
 import { IconInfoIcons } from "../../../../src/scripts/types";
 
@@ -23,7 +23,7 @@ export const AssetIconCard = ({
   icons: IconInfoIcons;
   chainId?: number;
   chainName?: string;
-  assetTag?: AssetTag;
+  assetTag?: "a" | "stata" | "stk";
 }) => {
   const router = useRouter();
 
@@ -32,11 +32,13 @@ export const AssetIconCard = ({
     ? // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
       icons[
-        assetTag === AssetTag.AToken
+        assetTag === "a"
           ? "aToken"
-          : assetTag === AssetTag.StataToken
+          : assetTag === "stata"
             ? "stataToken"
-            : "aToken"
+            : assetTag === "stk"
+              ? "stkToken"
+              : "aToken"
       ][variant]
     : icons[variant];
 
@@ -56,10 +58,12 @@ export const AssetIconCard = ({
       activeType={variant}
       onTitleClick={() => router.push(`/icon/${symbol}`)}
     >
-      <AssetIcon
+      <Web3Icon
+        className="size-[70px]"
         symbol={symbol}
         assetTag={assetTag}
         mono={variant === IconVariant.Mono}
+        loader={<IconLoader />}
       />
     </IconCard>
   );
