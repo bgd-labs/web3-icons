@@ -15,15 +15,13 @@ const Page: FC<PageProps> = ({ params }) => {
   const { iconSymbol } = params;
   return (
     <div>
-      <div>
-        <Web3Icon
-          symbol={iconSymbol}
-          assetTag="a"
-          mono={false}
-          loader={<IconLoader />}
-          className="size-[70px]"
-        />
-      </div>
+      <Web3Icon
+        symbol={iconSymbol}
+        assetTag="a"
+        mono={false}
+        loader={<IconLoader />}
+        className="size-[70px]"
+      />
     </div>
   );
 };

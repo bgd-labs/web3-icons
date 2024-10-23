@@ -3,8 +3,12 @@ import camelCase from "lodash.camelcase";
 import React, { JSX } from "react";
 
 import { Web3IconType } from "../../icons/full";
-import { capitalize, IconComponentBaseProps } from "../../utils";
-import { formatMonoSvgCode, SVG } from "../SVG";
+import {
+  capitalize,
+  formatMonoSvgCode,
+  IconComponentBaseProps,
+} from "../../utils";
+import { SVG } from "../SVG";
 
 export type LoadableIconProps = IconComponentBaseProps & {
   iconKey: Web3IconType | string;
@@ -12,13 +16,7 @@ export type LoadableIconProps = IconComponentBaseProps & {
 };
 
 export const LoadableIcon = loadable(
-  async ({
-    iconKey,
-    mono,
-    loader,
-    fallbackComponent,
-    ...props
-  }: LoadableIconProps) => {
+  async ({ iconKey, mono, fallbackComponent, ...props }: LoadableIconProps) => {
     try {
       const lowerCasedIconKey = iconKey.toLowerCase();
       const iconFileName = `icon-${lowerCasedIconKey}`;
@@ -42,14 +40,13 @@ export const LoadableIcon = loadable(
               svgCode: iconData?.data,
               ...props,
             })}
-            loader={loader}
             {...props}
           />
         ),
       };
     } catch (e) {
       return {
-        default: () => <SVG svgCode={undefined} loader={loader} {...props} />,
+        default: () => <SVG svgCode={undefined} {...props} />,
       };
     }
   },

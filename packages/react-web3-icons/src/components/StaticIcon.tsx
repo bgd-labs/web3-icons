@@ -2,9 +2,13 @@
 
 import React, { useState } from "react";
 
-import { BaseIconComponentProps, IconComponentBaseProps } from "../utils";
+import {
+  BaseIconComponentProps,
+  formatMonoSvgCode,
+  IconComponentBaseProps,
+} from "../utils";
 import GithubSVGIcon from "./GithubSVGIcon";
-import { formatMonoSvgCode, SVG } from "./SVG";
+import { SVG } from "./SVG";
 
 type StaticIconProps = IconComponentBaseProps &
   BaseIconComponentProps & {
@@ -40,10 +44,6 @@ export const StaticIcon = ({
   }
 
   return (
-    <SVG
-      svgCode={formatMonoSvgCode({ mono, svgCode, ...props })}
-      loader={loader}
-      {...props}
-    />
+    <SVG svgCode={formatMonoSvgCode({ mono, svgCode, ...props })} {...props} />
   );
 };
