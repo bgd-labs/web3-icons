@@ -1,6 +1,6 @@
 import React, { ComponentProps } from "react";
 
-import { iconUnknown } from "../icons/full/build/icon-unknown.icon";
+import { iconUnknown } from "../../icons/full/build/icon-unknown.icon";
 import { Image } from "./Image";
 
 type UnknownIconProps = ComponentProps<"img">;

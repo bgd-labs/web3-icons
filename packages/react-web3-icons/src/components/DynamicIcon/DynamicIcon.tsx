@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 import { Web3IconType } from "../../icons/full";
 import { IconComponentBaseProps } from "../../utils";
-import GithubSVGIcon from "../GithubSVGIcon";
+import GithubSVGIcon from "../Base/GithubSVGIcon";
 import { LoadableIcon } from "./LoadableIcon";
 
 export type DynamicIconProps = IconComponentBaseProps & {

@@ -8,7 +8,7 @@ import {
   formatMonoSvgCode,
   IconComponentBaseProps,
 } from "../../utils";
-import { SVG } from "../SVG";
+import { SVG } from "../Base/SVG";
 
 export type LoadableIconProps = IconComponentBaseProps & {
   iconKey: Web3IconType | string;

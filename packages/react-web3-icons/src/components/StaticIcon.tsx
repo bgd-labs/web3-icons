@@ -7,8 +7,8 @@ import {
   formatMonoSvgCode,
   IconComponentBaseProps,
 } from "../utils";
-import GithubSVGIcon from "./GithubSVGIcon";
-import { SVG } from "./SVG";
+import GithubSVGIcon from "./Base/GithubSVGIcon";
+import { SVG } from "./Base/SVG";
 
 type StaticIconProps = IconComponentBaseProps &
   BaseIconComponentProps & {

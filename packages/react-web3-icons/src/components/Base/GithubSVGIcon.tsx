@@ -1,8 +1,8 @@
 import React, { FC } from "react";
 import InlineSVG from "react-inlinesvg";
 
-import { IconComponentBaseProps } from "../utils";
-import { generateUniqueHash } from "../utils/generateUniqueHash";
+import { IconComponentBaseProps } from "../../utils";
+import { generateUniqueHash } from "../../utils/generateUniqueHash";
 
 type GithubSVGIconProps = {
   githubSrc: string;
