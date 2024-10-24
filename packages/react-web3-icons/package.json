@@ -54,7 +54,8 @@
     "@loadable/component": "5.16.4",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "react-inlinesvg": "^4.1.3"
+    "react-inlinesvg": "^4.1.3",
+    "to-words": "^4.1.0"
   },
   "keywords": [
     "BGD labs",
