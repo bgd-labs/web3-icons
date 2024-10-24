@@ -52,6 +52,6 @@ export const LoadableIcon = loadable(
   },
   {
     ssr: true,
-    cacheKey: (props) => props.iconKey,
+    cacheKey: ({ iconKey, mono }) => `${iconKey}-${mono}`,
   },
 );
