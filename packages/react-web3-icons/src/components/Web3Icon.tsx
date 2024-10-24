@@ -3,7 +3,7 @@
 import React from "react";
 
 import { getIconData, IconComponentProps } from "../utils";
-import { DynamicIcon } from "./DynamicIcon";
+import { DynamicIcon } from "./DynamicIcon/DynamicIcon";
 import { StaticIcon } from "./StaticIcon";
 
 export const Web3Icon = ({
