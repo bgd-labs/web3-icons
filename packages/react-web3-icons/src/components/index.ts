@@ -1,4 +1,3 @@
-export * from "./DynamicIcon";
+export * from "./Base/SVG";
 export * from "./StaticIcon";
-export * from "./SVG";
 export * from "./Web3Icon";

@@ -3,6 +3,7 @@
 import { Web3Icon } from "@bgd-labs/react-web3-icons";
 import { githubIconsPath } from "@bgd-labs/react-web3-icons/dist/constants";
 import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 import { IconCard, IconLoader } from "@/components/IconCard";
@@ -24,6 +25,8 @@ export const AssetIconCard = ({
   chainName?: string;
   assetTag?: "a" | "stata" | "stk";
 }) => {
+  const router = useRouter();
+
   const [variant, setVariant] = useState(IconVariant.Full);
   const iconPath = assetTag
     ? // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -53,6 +56,7 @@ export const AssetIconCard = ({
       fileName={`${(assetTag ? assetTag : "").toLowerCase()}${symbol.toUpperCase()}${variant === IconVariant.Full ? "" : variant}`}
       setActiveType={setVariant}
       activeType={variant}
+      onTitleClick={() => router.push(`/icon/${symbol}`)}
     >
       <Web3Icon
         className="size-[70px]"
