@@ -8,4 +8,5 @@ export * from "./getChainInfo";
 export * from "./getIconData";
 export * from "./getWalletInfo";
 export * from "./getWeb3WalletName";
+export * from "./symbolToComponentName";
 export * from "./types";
