@@ -19,7 +19,15 @@ export const DynamicIcon: FC<DynamicIconProps> = ({
   ...props
 }) => {
   return (
-    <LoadableIconV2 {...props} fallback={loader} />
+    <LoadableIconV2
+      {...props}
+      fallback={loader}
+      fallbackComponent={
+        githubSrc ? (
+          <GithubSVGIcon githubSrc={githubSrc} loader={loader} />
+        ) : undefined
+      }
+    />
     // <LoadableIcon
     //   {...props}
     //   fallback={loader}
