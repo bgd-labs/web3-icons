@@ -1,0 +1,27 @@
+{
+  "type": ["asset"],
+  "symbol": "ezeth",
+
+  "name": "Renzo Restaked ETH",
+
+  "aliases": [
+    "EZETH",
+    "ezETH",
+    "aEthezETH",
+    "aEthEZETH",
+    "variableDebtEthezETH",
+    "variableDebtEthEZETH",
+    "stataDebtEthezETH",
+    "stataDebtEthEZETH",
+    "aEthLidoezETH",
+    "aEthLidoEZETH",
+    "variableDebtEthLidoezETH",
+    "variableDebtEthLidoEZETH",
+    "stataDebtEthLidoezETH",
+    "stataDebtEthLidoEZETH"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
