@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.6.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.5.3...react-web3-icons@v1.6.0) (2024-10-26)
+
+
+### Features
+
+* upload dynamic icon in isolation ([#44](https://github.com/bgd-labs/web3-icons/issues/44)) ([8613032](https://github.com/bgd-labs/web3-icons/commit/86130325bbfc5fbb572f17145dfcace9101c2b65))
+
+
+### Bug Fixes
+
+* added ezETH asset icon ([#48](https://github.com/bgd-labs/web3-icons/issues/48)) ([bf6e04c](https://github.com/bgd-labs/web3-icons/commit/bf6e04c24a2c633a14b8a92ac1e57722275ab0a3))
+* update components in package ([#43](https://github.com/bgd-labs/web3-icons/issues/43)) ([28899a4](https://github.com/bgd-labs/web3-icons/commit/28899a4105ed2540499d3ff903ee80c2ddd5a469))
+
 ## [1.5.3](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.5.2...react-web3-icons@v1.5.3) (2024-10-03)
 
 
