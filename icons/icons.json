@@ -1033,6 +1033,45 @@
   },
   {
     "type": [
+      "asset"
+    ],
+    "symbol": "ezeth",
+    "name": "Renzo Restaked ETH",
+    "aliases": [
+      "EZETH",
+      "ezETH",
+      "aEthezETH",
+      "aEthEZETH",
+      "variableDebtEthezETH",
+      "variableDebtEthEZETH",
+      "stataDebtEthezETH",
+      "stataDebtEthEZETH",
+      "aEthLidoezETH",
+      "aEthLidoEZETH",
+      "variableDebtEthLidoezETH",
+      "variableDebtEthLidoEZETH",
+      "stataDebtEthLidoezETH",
+      "stataDebtEthLidoEZETH"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/ezeth.svg",
+      "full": "icons/full/ezeth.svg",
+      "aToken": {
+        "mono": "icons/mono/aezeth.svg",
+        "full": "icons/full/aezeth.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/stataezeth.svg",
+        "full": "icons/full/stataezeth.svg"
+      }
+    }
+  },
+  {
+    "type": [
       "chain"
     ],
     "chainId": 4002,
