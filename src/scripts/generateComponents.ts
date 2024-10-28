@@ -36,7 +36,7 @@ generateEntry(monoIconFiles, MONO_DIST_FOLDER);
 
 function generateComponent(mode: keyof IconStyle, src: string, dist: string) {
   return (iconFileName: string) => {
-    const iconFileNameWithoutExtension = iconFileName.slice(0, -3);
+    const iconFileNameWithoutExtension = iconFileName.replace(/\.[^/.]+$/, "");
     const componentName = iconFileNameToComponentName(iconFileName);
     const iconDataName = extractExport(path.resolve(src, iconFileName));
 
