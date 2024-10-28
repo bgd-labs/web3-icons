@@ -3,7 +3,7 @@ import React, { FC } from "react";
 import { Web3IconType } from "../../icons/full";
 import { IconComponentBaseProps } from "../../utils";
 import GithubSVGIcon from "../Base/GithubSVGIcon";
-import { LoadableIconV2 } from "./LoadableIconV2";
+import { LoadableIcon } from "./LoadableIcon";
 
 export type DynamicIconProps = IconComponentBaseProps & {
   iconKey: Web3IconType | string;
@@ -19,7 +19,7 @@ export const DynamicIcon: FC<DynamicIconProps> = ({
   ...props
 }) => {
   return (
-    <LoadableIconV2
+    <LoadableIcon
       {...props}
       fallback={loader}
       fallbackComponent={
@@ -28,14 +28,5 @@ export const DynamicIcon: FC<DynamicIconProps> = ({
         ) : undefined
       }
     />
-    // <LoadableIcon
-    //   {...props}
-    //   fallback={loader}
-    //   fallbackComponent={
-    //     githubSrc ? (
-    //       <GithubSVGIcon githubSrc={githubSrc} loader={loader} />
-    //     ) : undefined
-    //   }
-    // />
   );
 };

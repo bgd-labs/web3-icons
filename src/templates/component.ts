@@ -3,7 +3,7 @@ import template from "lodash.template";
 export const renderComponent = template(
   `
 // GENERATE BY ./src/scripts/generateComponents.ts
-// DON NOT EDIT IT MANUALLY
+// DO NOT EDIT IT MANUALLY
 
 import React from "react";
 
