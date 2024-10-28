@@ -14,16 +14,13 @@ export const createFolder = (path: string) => {
 };
 
 export const capitalize = (word: string) => {
-  if (word.length > 1) {
-    return word[0].toUpperCase() + word.slice(1);
-  }
-  return "";
+  return word.charAt(0).toUpperCase() + word.slice(1);
 };
 
 export const iconFileNameToComponentName = (iconFileName: string) => {
   const symbol = extractSymbol(iconFileName);
-
   const iconName = normalizeSymbol(symbol);
+
   return `${iconName}Icon`;
 };
 
@@ -33,19 +30,15 @@ export const iconFileNameToComponentName = (iconFileName: string) => {
  * This function should transform 1inch into oneInch using `to-words` npm package
  * */
 export const normalizeSymbol = (rawName: string) => {
-  const [firstNumChars] = extractBeginningNumber(rawName);
-
-  if (firstNumChars.length) {
-    const num = parseInt(firstNumChars, 10);
-    const remainingSubStr = rawName.slice(firstNumChars.length);
-    return `${toWords.convert(num)}${capitalize(remainingSubStr)}`;
-  }
-
-  return capitalize(rawName);
-};
-
-export const extractBeginningNumber = (str: string) => {
-  return str.match(/^\d*/);
+  return rawName
+    .split(/(\d)/)
+    .map((char) => {
+      if (isNumeric(char)) {
+        return capitalize(toWords.convert(parseInt(char, 10)));
+      }
+      return capitalize(char);
+    })
+    .join("");
 };
 
 /**
@@ -65,3 +58,7 @@ export const extractExport = (path: string) => {
 
   return exportName;
 };
+
+function isNumeric(char: string) {
+  return /^\d$/.test(char);
+}

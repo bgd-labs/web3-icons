@@ -1,5 +1,5 @@
 // GENERATE BY ./src/scripts/generateComponents.ts
-// DON NOT EDIT IT MANUALLY
+// DO NOT EDIT IT MANUALLY
 
 import React from "react";
 

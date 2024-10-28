@@ -1,9 +1,9 @@
 // GENERATE BY ./src/scripts/generateComponents.ts
-// DON NOT EDIT IT MANUALLY
+// DO NOT EDIT IT MANUALLY
 
 export { default as OneInchIcon } from './OneInchIcon';
 export { default as OneInchwalletIcon } from './OneInchwalletIcon';
-export { default as A1inchIcon } from './A1inchIcon';
+export { default as AOneInchIcon } from './AOneInchIcon';
 export { default as AaaveIcon } from './AaaveIcon';
 export { default as AamplIcon } from './AamplIcon';
 export { default as AarbIcon } from './AarbIcon';
@@ -80,7 +80,7 @@ export { default as AstethIcon } from './AstethIcon';
 export { default as AsteurIcon } from './AsteurIcon';
 export { default as AstgIcon } from './AstgIcon';
 export { default as AstkaaveIcon } from './AstkaaveIcon';
-export { default as Astkbptv2Icon } from './Astkbptv2Icon';
+export { default as AstkbptvTwoIcon } from './AstkbptvTwoIcon';
 export { default as AstkghoIcon } from './AstkghoIcon';
 export { default as AstmaticIcon } from './AstmaticIcon';
 export { default as AstusdIcon } from './AstusdIcon';
@@ -230,7 +230,7 @@ export { default as SequencewalletIcon } from './SequencewalletIcon';
 export { default as SethIcon } from './SethIcon';
 export { default as SfrxethIcon } from './SfrxethIcon';
 export { default as SnxIcon } from './SnxIcon';
-export { default as Stata1inchIcon } from './Stata1inchIcon';
+export { default as StataOneInchIcon } from './StataOneInchIcon';
 export { default as StataaaveIcon } from './StataaaveIcon';
 export { default as StataamplIcon } from './StataamplIcon';
 export { default as StataarbIcon } from './StataarbIcon';
@@ -300,7 +300,7 @@ export { default as StatastethIcon } from './StatastethIcon';
 export { default as StatasteurIcon } from './StatasteurIcon';
 export { default as StatastgIcon } from './StatastgIcon';
 export { default as StatastkaaveIcon } from './StatastkaaveIcon';
-export { default as Statastkbptv2Icon } from './Statastkbptv2Icon';
+export { default as StatastkbptvTwoIcon } from './StatastkbptvTwoIcon';
 export { default as StatastkghoIcon } from './StatastkghoIcon';
 export { default as StatastmaticIcon } from './StatastmaticIcon';
 export { default as StatastusdIcon } from './StatastusdIcon';
@@ -340,7 +340,7 @@ export { default as SteurIcon } from './SteurIcon';
 export { default as StgIcon } from './StgIcon';
 export { default as StkaaveIcon } from './StkaaveIcon';
 export { default as StkarbIcon } from './StkarbIcon';
-export { default as Stkbptv2Icon } from './Stkbptv2Icon';
+export { default as StkbptvTwoIcon } from './StkbptvTwoIcon';
 export { default as StkghoIcon } from './StkghoIcon';
 export { default as StmaticIcon } from './StmaticIcon';
 export { default as StusdIcon } from './StusdIcon';
