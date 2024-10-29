@@ -6,7 +6,7 @@ const toWords = new ToWords();
 
 export const symbolToComponentName = (symbol: string) => {
   const normalizedSymbol = symbol
-    .split(/(\d)/)
+    .split(/(\d+)/)
     .map((char) => {
       if (isNumeric(char)) {
         return capitalize(toWords.convert(parseInt(char, 10)));

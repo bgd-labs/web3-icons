@@ -31,7 +31,7 @@ export const iconFileNameToComponentName = (iconFileName: string) => {
  * */
 export const normalizeSymbol = (rawName: string) => {
   return rawName
-    .split(/(\d)/)
+    .split(/(\d+)/)
     .map((char) => {
       if (isNumeric(char)) {
         return capitalize(toWords.convert(parseInt(char, 10)));
