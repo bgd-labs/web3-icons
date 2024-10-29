@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconBnbx } from "../../../icons/mono/build/icon-bnbx.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const BnbxIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconBnbx.data} {...props} />;
+  return <Image svgCode={iconBnbx.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

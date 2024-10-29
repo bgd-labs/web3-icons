@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconHuobiwallet } from "../../../icons/full/build/icon-huobiwallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const HuobiwalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconHuobiwallet.data} {...props} />;
+  return <Image svgCode={iconHuobiwallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

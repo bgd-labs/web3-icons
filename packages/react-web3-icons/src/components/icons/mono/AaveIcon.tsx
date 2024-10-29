@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAave } from "../../../icons/mono/build/icon-aave.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AaveIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAave.data} {...props} />;
+  return <Image svgCode={iconAave.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconEtherfi } from "../../../icons/full/build/icon-etherfi.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const EtherfiIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconEtherfi.data} {...props} />;
+  return <Image svgCode={iconEtherfi.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

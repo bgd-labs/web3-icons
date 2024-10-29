@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconRabbywallet } from "../../../icons/mono/build/icon-rabbywallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const RabbywalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconRabbywallet.data} {...props} />;
+  return <Image svgCode={iconRabbywallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

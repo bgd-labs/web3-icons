@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconFrax } from "../../../icons/full/build/icon-frax.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const FraxIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconFrax.data} {...props} />;
+  return <Image svgCode={iconFrax.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

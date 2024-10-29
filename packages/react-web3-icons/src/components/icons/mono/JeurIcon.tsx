@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconJeur } from "../../../icons/mono/build/icon-jeur.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const JeurIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconJeur.data} {...props} />;
+  return <Image svgCode={iconJeur.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

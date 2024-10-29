@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconPolygonzkevm } from "../../../icons/full/build/icon-polygonzkevm.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const PolygonzkevmIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconPolygonzkevm.data} {...props} />;
+  return <Image svgCode={iconPolygonzkevm.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

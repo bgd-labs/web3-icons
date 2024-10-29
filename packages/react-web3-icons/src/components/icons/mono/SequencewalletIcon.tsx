@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconSequencewallet } from "../../../icons/mono/build/icon-sequencewallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const SequencewalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconSequencewallet.data} {...props} />;
+  return <Image svgCode={iconSequencewallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

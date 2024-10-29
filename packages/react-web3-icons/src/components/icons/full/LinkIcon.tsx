@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconLink } from "../../../icons/full/build/icon-link.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const LinkIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconLink.data} {...props} />;
+  return <Image svgCode={iconLink.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

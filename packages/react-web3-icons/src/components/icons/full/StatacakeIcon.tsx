@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconStatacake } from "../../../icons/full/build/icon-statacake.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const StatacakeIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconStatacake.data} {...props} />;
+  return <Image svgCode={iconStatacake.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

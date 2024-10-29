@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAvax } from "../../../icons/full/build/icon-avax.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AvaxIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAvax.data} {...props} />;
+  return <Image svgCode={iconAvax.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAzrx } from "../../../icons/mono/build/icon-azrx.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AzrxIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAzrx.data} {...props} />;
+  return <Image svgCode={iconAzrx.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

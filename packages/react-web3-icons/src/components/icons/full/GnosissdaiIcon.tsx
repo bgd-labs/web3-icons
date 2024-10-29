@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconGnosissdai } from "../../../icons/full/build/icon-gnosissdai.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const GnosissdaiIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconGnosissdai.data} {...props} />;
+  return <Image svgCode={iconGnosissdai.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

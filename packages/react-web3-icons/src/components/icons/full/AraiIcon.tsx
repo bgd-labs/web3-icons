@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconArai } from "../../../icons/full/build/icon-arai.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AraiIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconArai.data} {...props} />;
+  return <Image svgCode={iconArai.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconMana } from "../../../icons/mono/build/icon-mana.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const ManaIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconMana.data} {...props} />;
+  return <Image svgCode={iconMana.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

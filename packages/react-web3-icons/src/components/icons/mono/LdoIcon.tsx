@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconLdo } from "../../../icons/mono/build/icon-ldo.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const LdoIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconLdo.data} {...props} />;
+  return <Image svgCode={iconLdo.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

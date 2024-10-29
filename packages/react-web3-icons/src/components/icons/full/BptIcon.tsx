@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconBpt } from "../../../icons/full/build/icon-bpt.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const BptIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconBpt.data} {...props} />;
+  return <Image svgCode={iconBpt.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconSeth } from "../../../icons/full/build/icon-seth.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const SethIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconSeth.data} {...props} />;
+  return <Image svgCode={iconSeth.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

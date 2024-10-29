@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconTbtc } from "../../../icons/mono/build/icon-tbtc.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const TbtcIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconTbtc.data} {...props} />;
+  return <Image svgCode={iconTbtc.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

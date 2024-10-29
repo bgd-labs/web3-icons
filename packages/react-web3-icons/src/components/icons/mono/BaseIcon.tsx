@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconBase } from "../../../icons/mono/build/icon-base.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const BaseIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconBase.data} {...props} />;
+  return <Image svgCode={iconBase.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

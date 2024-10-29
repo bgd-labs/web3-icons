@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconWxdai } from "../../../icons/mono/build/icon-wxdai.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const WxdaiIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconWxdai.data} {...props} />;
+  return <Image svgCode={iconWxdai.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

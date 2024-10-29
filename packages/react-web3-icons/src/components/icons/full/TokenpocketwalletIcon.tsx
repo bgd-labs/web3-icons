@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconTokenpocketwallet } from "../../../icons/full/build/icon-tokenpocketwallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const TokenpocketwalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconTokenpocketwallet.data} {...props} />;
+  return <Image svgCode={iconTokenpocketwallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

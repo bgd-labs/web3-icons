@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconFrontierwallet } from "../../../icons/full/build/icon-frontierwallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const FrontierwalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconFrontierwallet.data} {...props} />;
+  return <Image svgCode={iconFrontierwallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

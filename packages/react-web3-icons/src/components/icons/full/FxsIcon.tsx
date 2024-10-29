@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconFxs } from "../../../icons/full/build/icon-fxs.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const FxsIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconFxs.data} {...props} />;
+  return <Image svgCode={iconFxs.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

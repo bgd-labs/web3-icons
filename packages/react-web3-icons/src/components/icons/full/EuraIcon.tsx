@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconEura } from "../../../icons/full/build/icon-eura.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const EuraIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconEura.data} {...props} />;
+  return <Image svgCode={iconEura.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

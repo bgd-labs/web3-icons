@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAampl } from "../../../icons/full/build/icon-aampl.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AamplIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAampl.data} {...props} />;
+  return <Image svgCode={iconAampl.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

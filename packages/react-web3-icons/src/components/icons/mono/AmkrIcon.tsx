@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAmkr } from "../../../icons/mono/build/icon-amkr.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AmkrIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAmkr.data} {...props} />;
+  return <Image svgCode={iconAmkr.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

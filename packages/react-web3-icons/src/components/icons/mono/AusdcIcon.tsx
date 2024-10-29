@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAusdc } from "../../../icons/mono/build/icon-ausdc.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AusdcIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAusdc.data} {...props} />;
+  return <Image svgCode={iconAusdc.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

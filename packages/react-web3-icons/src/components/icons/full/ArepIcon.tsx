@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconArep } from "../../../icons/full/build/icon-arep.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const ArepIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconArep.data} {...props} />;
+  return <Image svgCode={iconArep.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

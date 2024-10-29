@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAvalanchetestnet } from "../../../icons/mono/build/icon-avalanchetestnet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AvalanchetestnetIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAvalanchetestnet.data} {...props} />;
+  return <Image svgCode={iconAvalanchetestnet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

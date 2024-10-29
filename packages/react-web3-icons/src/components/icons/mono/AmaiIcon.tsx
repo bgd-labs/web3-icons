@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAmai } from "../../../icons/mono/build/icon-amai.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AmaiIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAmai.data} {...props} />;
+  return <Image svgCode={iconAmai.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

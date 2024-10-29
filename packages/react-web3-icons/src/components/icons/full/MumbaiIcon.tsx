@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconMumbai } from "../../../icons/full/build/icon-mumbai.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const MumbaiIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconMumbai.data} {...props} />;
+  return <Image svgCode={iconMumbai.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

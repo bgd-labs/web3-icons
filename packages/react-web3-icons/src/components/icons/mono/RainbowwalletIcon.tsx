@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconRainbowwallet } from "../../../icons/mono/build/icon-rainbowwallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const RainbowwalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconRainbowwallet.data} {...props} />;
+  return <Image svgCode={iconRainbowwallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconWavax } from "../../../icons/full/build/icon-wavax.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const WavaxIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconWavax.data} {...props} />;
+  return <Image svgCode={iconWavax.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

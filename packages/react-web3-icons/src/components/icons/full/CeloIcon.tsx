@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconCelo } from "../../../icons/full/build/icon-celo.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const CeloIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconCelo.data} {...props} />;
+  return <Image svgCode={iconCelo.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

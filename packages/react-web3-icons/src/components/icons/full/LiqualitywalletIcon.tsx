@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconLiqualitywallet } from "../../../icons/full/build/icon-liqualitywallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const LiqualitywalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconLiqualitywallet.data} {...props} />;
+  return <Image svgCode={iconLiqualitywallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

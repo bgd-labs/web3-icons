@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAfrax } from "../../../icons/full/build/icon-afrax.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AfraxIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAfrax.data} {...props} />;
+  return <Image svgCode={iconAfrax.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

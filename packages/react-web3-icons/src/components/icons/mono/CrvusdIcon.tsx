@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconCrvusd } from "../../../icons/mono/build/icon-crvusd.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const CrvusdIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconCrvusd.data} {...props} />;
+  return <Image svgCode={iconCrvusd.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

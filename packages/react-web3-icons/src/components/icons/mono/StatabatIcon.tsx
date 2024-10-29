@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconStatabat } from "../../../icons/mono/build/icon-statabat.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const StatabatIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconStatabat.data} {...props} />;
+  return <Image svgCode={iconStatabat.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

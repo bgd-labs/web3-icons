@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAwbeth } from "../../../icons/full/build/icon-awbeth.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AwbethIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAwbeth.data} {...props} />;
+  return <Image svgCode={iconAwbeth.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

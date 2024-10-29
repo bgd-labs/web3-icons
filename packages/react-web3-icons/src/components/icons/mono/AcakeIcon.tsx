@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAcake } from "../../../icons/mono/build/icon-acake.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AcakeIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAcake.data} {...props} />;
+  return <Image svgCode={iconAcake.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

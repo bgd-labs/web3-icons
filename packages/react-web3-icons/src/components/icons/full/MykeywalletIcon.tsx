@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconMykeywallet } from "../../../icons/full/build/icon-mykeywallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const MykeywalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconMykeywallet.data} {...props} />;
+  return <Image svgCode={iconMykeywallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconRenfil } from "../../../icons/mono/build/icon-renfil.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const RenfilIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconRenfil.data} {...props} />;
+  return <Image svgCode={iconRenfil.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

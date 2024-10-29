@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconSfrxeth } from "../../../icons/full/build/icon-sfrxeth.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const SfrxethIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconSfrxeth.data} {...props} />;
+  return <Image svgCode={iconSfrxeth.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

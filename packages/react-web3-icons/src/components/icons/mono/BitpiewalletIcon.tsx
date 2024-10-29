@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconBitpiewallet } from "../../../icons/mono/build/icon-bitpiewallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const BitpiewalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconBitpiewallet.data} {...props} />;
+  return <Image svgCode={iconBitpiewallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

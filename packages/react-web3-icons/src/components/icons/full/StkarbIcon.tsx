@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconStkarb } from "../../../icons/full/build/icon-stkarb.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const StkarbIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconStkarb.data} {...props} />;
+  return <Image svgCode={iconStkarb.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

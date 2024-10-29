@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconZerionwallet } from "../../../icons/full/build/icon-zerionwallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const ZerionwalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconZerionwallet.data} {...props} />;
+  return <Image svgCode={iconZerionwallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

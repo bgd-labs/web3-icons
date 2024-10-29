@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconBal } from "../../../icons/full/build/icon-bal.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const BalIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconBal.data} {...props} />;
+  return <Image svgCode={iconBal.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

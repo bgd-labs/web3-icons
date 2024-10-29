@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconPyusd } from "../../../icons/mono/build/icon-pyusd.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const PyusdIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconPyusd.data} {...props} />;
+  return <Image svgCode={iconPyusd.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

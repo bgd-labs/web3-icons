@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconOpmainnet } from "../../../icons/full/build/icon-opmainnet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const OpmainnetIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconOpmainnet.data} {...props} />;
+  return <Image svgCode={iconOpmainnet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

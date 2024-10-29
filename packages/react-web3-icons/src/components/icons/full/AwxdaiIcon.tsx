@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAwxdai } from "../../../icons/full/build/icon-awxdai.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AwxdaiIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAwxdai.data} {...props} />;
+  return <Image svgCode={iconAwxdai.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

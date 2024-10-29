@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconArbitrumsepolia } from "../../../icons/mono/build/icon-arbitrumsepolia.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const ArbitrumsepoliaIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconArbitrumsepolia.data} {...props} />;
+  return <Image svgCode={iconArbitrumsepolia.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

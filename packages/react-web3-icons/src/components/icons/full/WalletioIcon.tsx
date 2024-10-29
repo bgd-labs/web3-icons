@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconWalletio } from "../../../icons/full/build/icon-walletio.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const WalletioIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconWalletio.data} {...props} />;
+  return <Image svgCode={iconWalletio.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

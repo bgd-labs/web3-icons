@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconWeeth } from "../../../icons/mono/build/icon-weeth.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const WeethIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconWeeth.data} {...props} />;
+  return <Image svgCode={iconWeeth.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

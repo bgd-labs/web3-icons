@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconWbtc } from "../../../icons/mono/build/icon-wbtc.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const WbtcIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconWbtc.data} {...props} />;
+  return <Image svgCode={iconWbtc.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

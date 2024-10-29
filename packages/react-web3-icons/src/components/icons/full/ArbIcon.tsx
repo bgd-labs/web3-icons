@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconArb } from "../../../icons/full/build/icon-arb.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const ArbIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconArb.data} {...props} />;
+  return <Image svgCode={iconArb.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

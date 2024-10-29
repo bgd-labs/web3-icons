@@ -3,15 +3,21 @@ import React, { JSX } from "react";
 
 import { Web3IconType } from "../../icons/full";
 import { IconComponentBaseProps, symbolToComponentName } from "../../utils";
-import { SVG } from "../Base/SVG";
+import { IconPlaceholder } from "../Base/IconPlaceholder";
 
 export type LoadableIconProps = IconComponentBaseProps & {
   iconKey: Web3IconType | string;
+  abbreviation: string;
   fallbackComponent?: JSX.Element;
 };
 
 export const LoadableIcon = loadable(
-  async ({ iconKey, mono, fallbackComponent, ...props }: LoadableIconProps) => {
+  async ({
+    iconKey,
+    mono,
+    abbreviation,
+    fallbackComponent,
+  }: LoadableIconProps) => {
     const mode = mono ? "mono" : "full";
     const componentName = symbolToComponentName(iconKey);
     try {
@@ -24,7 +30,7 @@ export const LoadableIcon = loadable(
       }
 
       return {
-        default: () => <SVG svgCode={undefined} {...props} />,
+        default: () => <IconPlaceholder value={abbreviation} />,
       };
     }
   },

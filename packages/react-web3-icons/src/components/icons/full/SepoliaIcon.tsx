@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconSepolia } from "../../../icons/full/build/icon-sepolia.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const SepoliaIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconSepolia.data} {...props} />;
+  return <Image svgCode={iconSepolia.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

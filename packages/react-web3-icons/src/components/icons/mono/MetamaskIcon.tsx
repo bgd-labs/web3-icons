@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconMetamask } from "../../../icons/mono/build/icon-metamask.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const MetamaskIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconMetamask.data} {...props} />;
+  return <Image svgCode={iconMetamask.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

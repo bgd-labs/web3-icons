@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAeure } from "../../../icons/mono/build/icon-aeure.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AeureIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAeure.data} {...props} />;
+  return <Image svgCode={iconAeure.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

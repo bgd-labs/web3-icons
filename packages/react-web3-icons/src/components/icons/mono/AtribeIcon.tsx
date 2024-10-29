@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAtribe } from "../../../icons/mono/build/icon-atribe.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AtribeIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAtribe.data} {...props} />;
+  return <Image svgCode={iconAtribe.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

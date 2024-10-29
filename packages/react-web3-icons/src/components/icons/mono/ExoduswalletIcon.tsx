@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconExoduswallet } from "../../../icons/mono/build/icon-exoduswallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const ExoduswalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconExoduswallet.data} {...props} />;
+  return <Image svgCode={iconExoduswallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconMai } from "../../../icons/mono/build/icon-mai.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const MaiIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconMai.data} {...props} />;
+  return <Image svgCode={iconMai.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

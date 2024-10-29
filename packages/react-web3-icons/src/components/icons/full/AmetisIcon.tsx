@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAmetis } from "../../../icons/full/build/icon-ametis.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AmetisIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAmetis.data} {...props} />;
+  return <Image svgCode={iconAmetis.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

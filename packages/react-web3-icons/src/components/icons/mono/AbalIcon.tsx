@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAbal } from "../../../icons/mono/build/icon-abal.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AbalIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAbal.data} {...props} />;
+  return <Image svgCode={iconAbal.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

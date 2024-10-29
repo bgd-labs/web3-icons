@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconWftm } from "../../../icons/mono/build/icon-wftm.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const WftmIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconWftm.data} {...props} />;
+  return <Image svgCode={iconWftm.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

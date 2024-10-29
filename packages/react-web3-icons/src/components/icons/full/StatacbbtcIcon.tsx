@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconStatacbbtc } from "../../../icons/full/build/icon-statacbbtc.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const StatacbbtcIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconStatacbbtc.data} {...props} />;
+  return <Image svgCode={iconStatacbbtc.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

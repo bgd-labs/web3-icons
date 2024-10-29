@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconStataxsushi } from "../../../icons/full/build/icon-stataxsushi.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const StataxsushiIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconStataxsushi.data} {...props} />;
+  return <Image svgCode={iconStataxsushi.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

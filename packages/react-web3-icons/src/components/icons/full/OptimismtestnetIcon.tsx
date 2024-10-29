@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconOptimismtestnet } from "../../../icons/full/build/icon-optimismtestnet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const OptimismtestnetIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconOptimismtestnet.data} {...props} />;
+  return <Image svgCode={iconOptimismtestnet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

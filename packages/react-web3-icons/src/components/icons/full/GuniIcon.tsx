@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconGuni } from "../../../icons/full/build/icon-guni.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const GuniIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconGuni.data} {...props} />;
+  return <Image svgCode={iconGuni.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

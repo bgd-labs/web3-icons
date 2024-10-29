@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAmatic } from "../../../icons/full/build/icon-amatic.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AmaticIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAmatic.data} {...props} />;
+  return <Image svgCode={iconAmatic.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

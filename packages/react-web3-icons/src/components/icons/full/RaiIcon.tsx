@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconRai } from "../../../icons/full/build/icon-rai.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const RaiIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconRai.data} {...props} />;
+  return <Image svgCode={iconRai.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

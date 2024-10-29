@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconStatawbtc } from "../../../icons/full/build/icon-statawbtc.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const StatawbtcIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconStatawbtc.data} {...props} />;
+  return <Image svgCode={iconStatawbtc.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

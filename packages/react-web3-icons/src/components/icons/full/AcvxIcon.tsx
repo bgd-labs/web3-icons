@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAcvx } from "../../../icons/full/build/icon-acvx.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AcvxIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAcvx.data} {...props} />;
+  return <Image svgCode={iconAcvx.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

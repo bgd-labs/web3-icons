@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconSteur } from "../../../icons/full/build/icon-steur.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const SteurIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconSteur.data} {...props} />;
+  return <Image svgCode={iconSteur.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

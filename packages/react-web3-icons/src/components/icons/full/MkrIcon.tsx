@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconMkr } from "../../../icons/full/build/icon-mkr.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const MkrIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconMkr.data} {...props} />;
+  return <Image svgCode={iconMkr.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

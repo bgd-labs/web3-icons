@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconGhst } from "../../../icons/full/build/icon-ghst.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const GhstIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconGhst.data} {...props} />;
+  return <Image svgCode={iconGhst.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

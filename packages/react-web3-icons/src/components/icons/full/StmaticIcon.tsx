@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconStmatic } from "../../../icons/full/build/icon-stmatic.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const StmaticIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconStmatic.data} {...props} />;
+  return <Image svgCode={iconStmatic.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconBrowserwallet } from "../../../icons/mono/build/icon-browserwallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const BrowserwalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconBrowserwallet.data} {...props} />;
+  return <Image svgCode={iconBrowserwallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

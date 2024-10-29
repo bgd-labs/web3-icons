@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconSusd } from "../../../icons/full/build/icon-susd.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const SusdIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconSusd.data} {...props} />;
+  return <Image svgCode={iconSusd.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

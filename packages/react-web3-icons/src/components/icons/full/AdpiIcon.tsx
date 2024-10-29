@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAdpi } from "../../../icons/full/build/icon-adpi.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AdpiIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAdpi.data} {...props} />;
+  return <Image svgCode={iconAdpi.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

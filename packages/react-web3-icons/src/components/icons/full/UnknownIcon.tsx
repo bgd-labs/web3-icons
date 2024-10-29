@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconUnknown } from "../../../icons/full/build/icon-unknown.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const UnknownIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconUnknown.data} {...props} />;
+  return <Image svgCode={iconUnknown.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

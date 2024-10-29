@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconFantom } from "../../../icons/full/build/icon-fantom.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const FantomIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconFantom.data} {...props} />;
+  return <Image svgCode={iconFantom.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

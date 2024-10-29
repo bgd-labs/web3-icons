@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconBitkeepwallet } from "../../../icons/full/build/icon-bitkeepwallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const BitkeepwalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconBitkeepwallet.data} {...props} />;
+  return <Image svgCode={iconBitkeepwallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

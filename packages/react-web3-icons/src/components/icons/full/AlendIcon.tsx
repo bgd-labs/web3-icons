@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAlend } from "../../../icons/full/build/icon-alend.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AlendIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAlend.data} {...props} />;
+  return <Image svgCode={iconAlend.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

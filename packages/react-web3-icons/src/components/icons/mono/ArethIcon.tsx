@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAreth } from "../../../icons/mono/build/icon-areth.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const ArethIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAreth.data} {...props} />;
+  return <Image svgCode={iconAreth.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

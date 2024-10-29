@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAuni } from "../../../icons/full/build/icon-auni.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AuniIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAuni.data} {...props} />;
+  return <Image svgCode={iconAuni.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

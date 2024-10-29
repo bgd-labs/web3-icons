@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconBitskiwallet } from "../../../icons/full/build/icon-bitskiwallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const BitskiwalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconBitskiwallet.data} {...props} />;
+  return <Image svgCode={iconBitskiwallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

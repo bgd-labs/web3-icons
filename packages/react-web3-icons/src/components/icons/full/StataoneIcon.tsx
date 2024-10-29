@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconStataone } from "../../../icons/full/build/icon-stataone.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const StataoneIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconStataone.data} {...props} />;
+  return <Image svgCode={iconStataone.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

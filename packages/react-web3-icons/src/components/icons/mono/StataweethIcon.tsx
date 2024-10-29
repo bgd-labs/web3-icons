@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconStataweeth } from "../../../icons/mono/build/icon-stataweeth.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const StataweethIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconStataweeth.data} {...props} />;
+  return <Image svgCode={iconStataweeth.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

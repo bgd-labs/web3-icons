@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconStatazk } from "../../../icons/full/build/icon-statazk.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const StatazkIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconStatazk.data} {...props} />;
+  return <Image svgCode={iconStatazk.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAstmatic } from "../../../icons/mono/build/icon-astmatic.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AstmaticIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAstmatic.data} {...props} />;
+  return <Image svgCode={iconAstmatic.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

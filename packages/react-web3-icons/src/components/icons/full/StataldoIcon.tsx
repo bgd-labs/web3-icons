@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconStataldo } from "../../../icons/full/build/icon-stataldo.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const StataldoIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconStataldo.data} {...props} />;
+  return <Image svgCode={iconStataldo.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

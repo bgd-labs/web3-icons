@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconHyperpaywallet } from "../../../icons/full/build/icon-hyperpaywallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const HyperpaywalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconHyperpaywallet.data} {...props} />;
+  return <Image svgCode={iconHyperpaywallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

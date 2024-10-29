@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconCrv } from "../../../icons/full/build/icon-crv.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const CrvIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconCrv.data} {...props} />;
+  return <Image svgCode={iconCrv.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

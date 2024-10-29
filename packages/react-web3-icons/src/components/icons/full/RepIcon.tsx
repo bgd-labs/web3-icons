@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconRep } from "../../../icons/full/build/icon-rep.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const RepIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconRep.data} {...props} />;
+  return <Image svgCode={iconRep.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

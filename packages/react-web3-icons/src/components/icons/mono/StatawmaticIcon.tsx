@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconStatawmatic } from "../../../icons/mono/build/icon-statawmatic.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const StatawmaticIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconStatawmatic.data} {...props} />;
+  return <Image svgCode={iconStatawmatic.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

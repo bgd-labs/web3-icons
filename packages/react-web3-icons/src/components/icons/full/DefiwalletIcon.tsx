@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconDefiwallet } from "../../../icons/full/build/icon-defiwallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const DefiwalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconDefiwallet.data} {...props} />;
+  return <Image svgCode={iconDefiwallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAstkaave } from "../../../icons/mono/build/icon-astkaave.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AstkaaveIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAstkaave.data} {...props} />;
+  return <Image svgCode={iconAstkaave.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

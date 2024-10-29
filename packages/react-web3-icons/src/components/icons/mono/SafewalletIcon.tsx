@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconSafewallet } from "../../../icons/mono/build/icon-safewallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const SafewalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconSafewallet.data} {...props} />;
+  return <Image svgCode={iconSafewallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

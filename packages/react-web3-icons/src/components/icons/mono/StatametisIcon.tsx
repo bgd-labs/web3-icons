@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconStatametis } from "../../../icons/mono/build/icon-statametis.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const StatametisIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconStatametis.data} {...props} />;
+  return <Image svgCode={iconStatametis.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

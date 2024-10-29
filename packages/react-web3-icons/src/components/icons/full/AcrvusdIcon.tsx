@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAcrvusd } from "../../../icons/full/build/icon-acrvusd.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AcrvusdIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAcrvusd.data} {...props} />;
+  return <Image svgCode={iconAcrvusd.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconArpl } from "../../../icons/full/build/icon-arpl.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const ArplIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconArpl.data} {...props} />;
+  return <Image svgCode={iconArpl.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

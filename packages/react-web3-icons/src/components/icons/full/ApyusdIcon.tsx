@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconApyusd } from "../../../icons/full/build/icon-apyusd.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const ApyusdIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconApyusd.data} {...props} />;
+  return <Image svgCode={iconApyusd.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAfei } from "../../../icons/full/build/icon-afei.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AfeiIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAfei.data} {...props} />;
+  return <Image svgCode={iconAfei.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

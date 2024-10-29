@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAgho } from "../../../icons/mono/build/icon-agho.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AghoIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAgho.data} {...props} />;
+  return <Image svgCode={iconAgho.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

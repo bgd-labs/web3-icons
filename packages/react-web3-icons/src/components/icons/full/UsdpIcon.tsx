@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconUsdp } from "../../../icons/full/build/icon-usdp.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const UsdpIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconUsdp.data} {...props} />;
+  return <Image svgCode={iconUsdp.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

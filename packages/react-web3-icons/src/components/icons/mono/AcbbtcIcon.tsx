@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAcbbtc } from "../../../icons/mono/build/icon-acbbtc.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AcbbtcIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAcbbtc.data} {...props} />;
+  return <Image svgCode={iconAcbbtc.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

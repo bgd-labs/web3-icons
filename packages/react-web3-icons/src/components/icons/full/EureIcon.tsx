@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconEure } from "../../../icons/full/build/icon-eure.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const EureIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconEure.data} {...props} />;
+  return <Image svgCode={iconEure.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

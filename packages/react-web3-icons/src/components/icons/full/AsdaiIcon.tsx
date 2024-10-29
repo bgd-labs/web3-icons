@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAsdai } from "../../../icons/full/build/icon-asdai.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AsdaiIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAsdai.data} {...props} />;
+  return <Image svgCode={iconAsdai.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

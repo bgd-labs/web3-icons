@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconGusd } from "../../../icons/mono/build/icon-gusd.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const GusdIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconGusd.data} {...props} />;
+  return <Image svgCode={iconGusd.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

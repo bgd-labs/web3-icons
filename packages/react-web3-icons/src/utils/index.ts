@@ -1,7 +1,6 @@
 export * from "./capitalize";
 export * from "./formatMonoSvgCode";
 export * from "./formatSymbolForIcon";
-export * from "./generateUniqueHash";
 export * from "./getAssetInfo";
 export * from "./getBrandInfo";
 export * from "./getChainInfo";

@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconBat } from "../../../icons/full/build/icon-bat.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const BatIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconBat.data} {...props} />;
+  return <Image svgCode={iconBat.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

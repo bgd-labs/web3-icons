@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAenj } from "../../../icons/mono/build/icon-aenj.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AenjIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAenj.data} {...props} />;
+  return <Image svgCode={iconAenj.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

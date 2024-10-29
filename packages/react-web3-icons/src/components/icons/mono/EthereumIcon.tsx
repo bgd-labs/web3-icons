@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconEthereum } from "../../../icons/mono/build/icon-ethereum.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const EthereumIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconEthereum.data} {...props} />;
+  return <Image svgCode={iconEthereum.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

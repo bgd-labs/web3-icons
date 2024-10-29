@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconZksyncera } from "../../../icons/full/build/icon-zksyncera.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const ZksynceraIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconZksyncera.data} {...props} />;
+  return <Image svgCode={iconZksyncera.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

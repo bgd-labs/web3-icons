@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconStatuswallet } from "../../../icons/full/build/icon-statuswallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const StatuswalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconStatuswallet.data} {...props} />;
+  return <Image svgCode={iconStatuswallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

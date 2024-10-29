@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconSavax } from "../../../icons/mono/build/icon-savax.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const SavaxIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconSavax.data} {...props} />;
+  return <Image svgCode={iconSavax.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

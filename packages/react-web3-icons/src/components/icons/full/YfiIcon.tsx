@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconYfi } from "../../../icons/full/build/icon-yfi.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const YfiIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconYfi.data} {...props} />;
+  return <Image svgCode={iconYfi.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

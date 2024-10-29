@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAlphawallet } from "../../../icons/full/build/icon-alphawallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AlphawalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAlphawallet.data} {...props} />;
+  return <Image svgCode={iconAlphawallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

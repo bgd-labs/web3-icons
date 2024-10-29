@@ -24,10 +24,15 @@ export const Web3Icon = ({
     formatSymbol,
     mono,
   });
+  const iconIdentifier = String(
+    symbol || chainId || walletKey || brandKey || "?",
+  );
+  const abbreviation = iconIdentifier.charAt(0).toUpperCase();
 
   if (iconsPack) {
     return (
       <StaticIcon
+        abbreviation={abbreviation}
         iconKey={iconKey}
         iconsPack={iconsPack}
         githubSrc={iconPathToRepo}
@@ -38,6 +43,7 @@ export const Web3Icon = ({
   }
   return (
     <DynamicIcon
+      abbreviation={abbreviation}
       iconKey={iconKey}
       githubSrc={iconPathToRepo}
       mono={mono}

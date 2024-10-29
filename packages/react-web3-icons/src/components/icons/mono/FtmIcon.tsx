@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconFtm } from "../../../icons/mono/build/icon-ftm.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const FtmIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconFtm.data} {...props} />;
+  return <Image svgCode={iconFtm.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

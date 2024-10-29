@@ -9,10 +9,10 @@ import React from "react";
 
 import { <%= iconDataName %> } from "../../../icons/<%= mode %>/build/<%= fileName %>";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const <%= componentName %> = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={<%= iconDataName %>.data} {...props} />;
+  return <Image svgCode={<%= iconDataName %>.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconEthx } from "../../../icons/full/build/icon-ethx.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const EthxIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconEthx.data} {...props} />;
+  return <Image svgCode={iconEthx.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

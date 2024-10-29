@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconOwnbitwallet } from "../../../icons/full/build/icon-ownbitwallet.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const OwnbitwalletIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconOwnbitwallet.data} {...props} />;
+  return <Image svgCode={iconOwnbitwallet.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

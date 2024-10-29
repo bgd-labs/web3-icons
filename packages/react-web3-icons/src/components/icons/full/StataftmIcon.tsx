@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconStataftm } from "../../../icons/full/build/icon-stataftm.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const StataftmIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconStataftm.data} {...props} />;
+  return <Image svgCode={iconStataftm.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

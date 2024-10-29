@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconAldo } from "../../../icons/mono/build/icon-aldo.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const AldoIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconAldo.data} {...props} />;
+  return <Image svgCode={iconAldo.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

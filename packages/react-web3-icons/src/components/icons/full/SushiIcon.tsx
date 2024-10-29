@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconSushi } from "../../../icons/full/build/icon-sushi.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const SushiIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconSushi.data} {...props} />;
+  return <Image svgCode={iconSushi.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

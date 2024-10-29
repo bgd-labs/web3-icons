@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconMatic } from "../../../icons/mono/build/icon-matic.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const MaticIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconMatic.data} {...props} />;
+  return <Image svgCode={iconMatic.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {

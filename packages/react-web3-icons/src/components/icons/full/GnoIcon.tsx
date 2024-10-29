@@ -5,10 +5,10 @@ import React from "react";
 
 import { iconGno } from "../../../icons/full/build/icon-gno.icon";
 import { IconComponentBaseProps } from "../../../utils";
-import { SVG } from "../../Base/SVG";
+import { Image } from "../../Base/Image";
 
 const GnoIcon = (props: IconComponentBaseProps) => {
-  return <SVG svgCode={iconGno.data} {...props} />;
+  return <Image svgCode={iconGno.data} {...props} />;
 };
 
 if (process.env.NODE_ENV !== 'production') {
