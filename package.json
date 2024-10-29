@@ -27,7 +27,8 @@
   },
   "homepage": "https://github.com/bgd-labs/icons/blob/main/README.md",
   "scripts": {
-    "generate": "tsx src/scripts/generate.ts && svg-to-ts-files --config ./src/utils/genereteMonoTokensConfig.js && svg-to-ts-files --config ./src/utils/genereteFullTokensConfig.js",
+    "generate": "pnpm run generate-icons && pnpm run generate-components",
+    "generate-icons": "tsx src/scripts/generate.ts && svg-to-ts-files --config ./src/utils/genereteMonoTokensConfig.js && svg-to-ts-files --config ./src/utils/genereteFullTokensConfig.js",
     "generate-components": "tsx src/scripts/generateComponents.ts"
   },
   "devDependencies": {
