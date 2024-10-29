@@ -14,6 +14,8 @@ export default defineConfig([
       "./src/iconsPacks/chainsIconsPack.ts",
       "./src/iconsPacks/walletsIconsPack.ts",
       "./src/iconsPacks/brandsIconsPack.ts",
+      "./src/components/icons/full/index.ts",
+      "./src/components/icons/mono/index.ts",
     ],
     treeshake: true,
     sourcemap: true,
