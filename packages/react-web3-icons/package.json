@@ -36,6 +36,7 @@
     "dist"
   ],
   "main": "dist/index.js",
+  "type": "module",
   "typings": "dist/index.d.ts",
   "module": "dist/index.js",
   "sideEffects": false,
