@@ -289,7 +289,7 @@ export const updateAliasesWithAddressBook = (
         decimals: z.number(),
         symbol: z.string(),
         tags: z.array(z.string()),
-        logoURI: z.string(),
+        logoURI: z.string().or(z.undefined()),
         extensions: z
           .object({
             pool: z.string().or(z.undefined()),
