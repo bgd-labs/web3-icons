@@ -1,23 +1,5 @@
-import { ToWords } from "to-words";
-
-import { capitalize } from "./capitalize";
-
-const toWords = new ToWords();
+import { normalizeSymbol } from "../../../../src/utils/componentGenerationHelpers";
 
 export const symbolToComponentName = (symbol: string) => {
-  const normalizedSymbol = symbol
-    .split(/(\d+)/)
-    .map((char) => {
-      if (isNumeric(char)) {
-        return capitalize(toWords.convert(parseInt(char, 10)));
-      }
-      return capitalize(char);
-    })
-    .join("");
-
-  return `${normalizedSymbol}Icon.tsx`;
+  return `${normalizeSymbol(symbol)}Icon`;
 };
-
-function isNumeric(char: string) {
-  return /^\d$/.test(char);
-}
