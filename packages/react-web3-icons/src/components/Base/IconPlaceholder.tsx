@@ -5,8 +5,8 @@ type IconPlaceholderProps = DetailedHTMLProps<
   HTMLDivElement
 > & {
   value: string;
-  width?: number;
-  height?: number;
+  width?: number | string;
+  height?: number | string;
 };
 
 export const IconPlaceholder = ({

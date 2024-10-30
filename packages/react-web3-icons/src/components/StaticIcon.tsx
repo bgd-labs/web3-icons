@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 
 import {
   BaseIconComponentProps,
@@ -31,18 +31,16 @@ export const StaticIcon = ({
 }: StaticIconProps) => {
   const iconFormattedKey = iconKey.toLowerCase();
 
-  const [isGithubError, setIsGithubError] = useState(false);
   const svgCode = mono
     ? iconsPack[`${iconFormattedKey}_mono`]
     : iconsPack[iconFormattedKey];
 
-  if (!isGithubError && githubSrc && !svgCode) {
+  if (githubSrc && !svgCode) {
     return (
       <GithubSVGIcon
         abbreviation={abbreviation}
         githubSrc={githubSrc}
         loader={loader}
-        onError={() => setIsGithubError(true)}
       />
     );
   }
@@ -50,7 +48,7 @@ export const StaticIcon = ({
   const formattedSvgCode = formatMonoSvgCode({ mono, svgCode, ...props });
 
   if (!formattedSvgCode) {
-    return <IconPlaceholder value={abbreviation} />;
+    return <IconPlaceholder value={abbreviation} {...props} />;
   }
 
   return <Image svgCode={formattedSvgCode} {...props} />;

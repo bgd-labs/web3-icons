@@ -4,10 +4,10 @@ import { IconComponentBaseProps } from "../../utils";
 import { IconPlaceholder } from "./IconPlaceholder";
 import { Image } from "./Image";
 
-type GithubSVGIconProps = {
+type GithubSVGIconProps = Pick<IconComponentBaseProps, "loader"> & {
   githubSrc: string;
   abbreviation: string;
-} & IconComponentBaseProps;
+};
 
 const GithubSvgIcon: FC<GithubSVGIconProps> = ({
   githubSrc,
@@ -43,7 +43,7 @@ const GithubSvgIcon: FC<GithubSVGIconProps> = ({
   }
 
   if (!svgCode || isError) {
-    return <IconPlaceholder value={abbreviation} />;
+    return <IconPlaceholder value={abbreviation} {...props} />;
   }
 
   return <Image svgCode={svgCode} {...props} />;

@@ -17,6 +17,7 @@ export const LoadableIcon = loadable(
     mono,
     abbreviation,
     fallbackComponent,
+    ...props
   }: LoadableIconProps) => {
     const mode = mono ? "mono" : "full";
     const componentName = symbolToComponentName(iconKey);
@@ -30,7 +31,7 @@ export const LoadableIcon = loadable(
       }
 
       return {
-        default: () => <IconPlaceholder value={abbreviation} />,
+        default: () => <IconPlaceholder value={abbreviation} {...props} />,
       };
     }
   },
