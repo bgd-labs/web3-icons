@@ -5,32 +5,25 @@ type IconPlaceholderProps = DetailedHTMLProps<
   HTMLDivElement
 > & {
   value: string;
-  width?: number | string;
-  height?: number | string;
 };
 
 export const IconPlaceholder = ({
   value,
-  width = 32,
-  height = 32,
-  style,
+  className,
   ...divProps
 }: IconPlaceholderProps) => {
+  const classes = [
+    "flex",
+    "justify-center",
+    "items-center",
+    "size-[32px]",
+    "rounded-full",
+    "bg-black",
+    "text-white",
+    className,
+  ].filter((cl) => cl !== undefined);
   return (
-    <span
-      {...divProps}
-      style={{
-        width,
-        height,
-        borderRadius: "50%",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        backgroundColor: "#000",
-        color: "#fff",
-        ...style,
-      }}
-    >
+    <span {...divProps} className={classes.join(" ")}>
       {value}
     </span>
   );
