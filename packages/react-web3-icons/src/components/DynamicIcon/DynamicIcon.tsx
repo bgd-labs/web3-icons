@@ -18,11 +18,15 @@ export const DynamicIcon: FC<DynamicIconProps> = ({
   githubSrc,
   loader,
   abbreviation,
+  iconKey,
+  mono,
   ...props
 }) => {
   return (
     <LoadableIcon
       {...props}
+      mono={mono}
+      iconKey={iconKey}
       abbreviation={abbreviation}
       fallback={loader}
       fallbackComponent={
@@ -31,6 +35,7 @@ export const DynamicIcon: FC<DynamicIconProps> = ({
             abbreviation={abbreviation}
             githubSrc={githubSrc}
             loader={loader}
+            {...props}
           />
         ) : undefined
       }

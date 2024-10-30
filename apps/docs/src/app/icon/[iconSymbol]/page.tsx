@@ -16,7 +16,8 @@ const Page: FC<PageProps> = ({ params }) => {
   return (
     <div>
       <Web3Icon
-        symbol={iconSymbol}
+        // symbol={iconSymbol}
+        symbol={"something"}
         assetTag="a"
         mono={false}
         loader={<IconLoader />}
