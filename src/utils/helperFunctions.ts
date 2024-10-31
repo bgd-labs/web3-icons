@@ -212,9 +212,9 @@ const poolsSymbols: Record<string, string> = {
   [`${AaveV2EthereumAMM.POOL}_${AaveV2EthereumAMM.CHAIN_ID}`]: "Amm",
   // v3
   [`${AaveV3Ethereum.POOL}_${AaveV3Ethereum.CHAIN_ID}`]: "Eth",
-  [`${AaveV3EthereumLido.POOL}_${AaveV3EthereumLido.CHAIN_ID}`]: "Lido",
+  [`${AaveV3EthereumLido.POOL}_${AaveV3EthereumLido.CHAIN_ID}`]: "EthLido",
   [`${AaveV3EthereumEtherFi.POOL}_${AaveV3EthereumEtherFi.CHAIN_ID}`]:
-    "EtherFi",
+    "EthEtherFi",
   [`${AaveV3Polygon.POOL}_${AaveV3Polygon.CHAIN_ID}`]: "Pol",
   [`${AaveV3Avalanche.POOL}_${AaveV3Avalanche.CHAIN_ID}`]: "Ava",
   [`${AaveV3Base.POOL}_${AaveV3Base.CHAIN_ID}`]: "Bas",
@@ -222,7 +222,7 @@ const poolsSymbols: Record<string, string> = {
   [`${AaveV3BNB.POOL}_${AaveV3BNB.CHAIN_ID}`]: "Bnb",
   [`${AaveV3Harmony.POOL}_${AaveV3Harmony.CHAIN_ID}`]: "Har",
   [`${AaveV3Metis.POOL}_${AaveV3Metis.CHAIN_ID}`]: "Met",
-  [`${AaveV3ZkSync.POOL}_${AaveV3ZkSync.CHAIN_ID}`]: "Zk",
+  [`${AaveV3ZkSync.POOL}_${AaveV3ZkSync.CHAIN_ID}`]: "Zks",
   [`${AaveV3Gnosis.POOL}_${AaveV3Gnosis.CHAIN_ID}`]: "Gno",
   [`${AaveV3Optimism.POOL}_${AaveV3Optimism.CHAIN_ID}`]: "Opt",
   [`${AaveV3Scroll.POOL}_${AaveV3Scroll.CHAIN_ID}`]: "Scr",
