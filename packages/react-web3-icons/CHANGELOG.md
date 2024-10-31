@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.6.0...react-web3-icons@v1.7.0) (2024-10-31)
+
+
+### Features
+
+* static icon components generation ([#47](https://github.com/bgd-labs/web3-icons/issues/47)) ([44f7016](https://github.com/bgd-labs/web3-icons/commit/44f7016b2adb1d8b222e791ac23e788d820f67b6))
+
 ## [1.6.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.5.3...react-web3-icons@v1.6.0) (2024-10-26)
 
 
