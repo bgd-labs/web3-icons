@@ -8,6 +8,7 @@ import { LoadableIcon } from "./LoadableIcon";
 export type DynamicIconProps = IconComponentBaseProps & {
   iconKey: Web3IconType | string;
   githubSrc?: string;
+  abbreviation: string;
 };
 
 /**
@@ -16,15 +17,26 @@ export type DynamicIconProps = IconComponentBaseProps & {
 export const DynamicIcon: FC<DynamicIconProps> = ({
   githubSrc,
   loader,
+  abbreviation,
+  iconKey,
+  mono,
   ...props
 }) => {
   return (
     <LoadableIcon
       {...props}
+      mono={mono}
+      iconKey={iconKey}
+      abbreviation={abbreviation}
       fallback={loader}
       fallbackComponent={
         githubSrc ? (
-          <GithubSVGIcon githubSrc={githubSrc} loader={loader} />
+          <GithubSVGIcon
+            abbreviation={abbreviation}
+            githubSrc={githubSrc}
+            loader={loader}
+            {...props}
+          />
         ) : undefined
       }
     />

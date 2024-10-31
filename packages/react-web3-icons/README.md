@@ -46,7 +46,20 @@ export const ExampleUsage = () => {
   );
 };
 ```
-### 2) You can get chain or asset name without rpc call. Also you can check installed browser wallet name, and get icon for this wallet.
+### 2) You can import either full or mono icon directly from the package
+```tsx
+import { AaaveIcon } from "@bgd-labs/react-web3-icons/dist/components/icons/full";
+import { AaaveIcon as AaaveMonoIcon } from "@bgd-labs/react-web3-icons/dist/components/icons/mono";
+export const UsageExample = () => {
+  return (
+    <>
+      <AaaveIcon />
+      <AaaveMonoIcon />
+    </>
+  );
+};
+```
+### 3) You can get chain or asset name without rpc call. Also you can check installed browser wallet name, and get icon for this wallet.
 #### Get asset name
 | Parameter  | Type                             | Description |
 |:-----------|:---------------------------------| :------ |

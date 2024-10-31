@@ -1,0 +1,18 @@
+// GENERATE BY ./src/scripts/generateComponents.ts
+// DO NOT EDIT IT MANUALLY
+
+import React from "react";
+
+import { iconCoinbasewallet } from "../../../icons/full/build/icon-coinbasewallet.icon";
+import { IconComponentBaseProps } from "../../../utils";
+import { Image } from "../../Base/Image";
+
+const CoinbasewalletIcon = (props: IconComponentBaseProps) => {
+  return <Image svgCode={iconCoinbasewallet.data} {...props} />;
+};
+
+if (process.env.NODE_ENV !== 'production') {
+  CoinbasewalletIcon.displayName = 'CoinbasewalletIcon';
+}
+
+export default CoinbasewalletIcon;

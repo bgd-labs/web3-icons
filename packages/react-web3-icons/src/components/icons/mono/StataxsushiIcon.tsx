@@ -1,0 +1,18 @@
+// GENERATE BY ./src/scripts/generateComponents.ts
+// DO NOT EDIT IT MANUALLY
+
+import React from "react";
+
+import { iconStataxsushi } from "../../../icons/mono/build/icon-stataxsushi.icon";
+import { IconComponentBaseProps } from "../../../utils";
+import { Image } from "../../Base/Image";
+
+const StataxsushiIcon = (props: IconComponentBaseProps) => {
+  return <Image svgCode={iconStataxsushi.data} {...props} />;
+};
+
+if (process.env.NODE_ENV !== 'production') {
+  StataxsushiIcon.displayName = 'StataxsushiIcon';
+}
+
+export default StataxsushiIcon;

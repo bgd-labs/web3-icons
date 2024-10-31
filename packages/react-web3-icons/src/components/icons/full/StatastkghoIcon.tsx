@@ -1,0 +1,18 @@
+// GENERATE BY ./src/scripts/generateComponents.ts
+// DO NOT EDIT IT MANUALLY
+
+import React from "react";
+
+import { iconStatastkgho } from "../../../icons/full/build/icon-statastkgho.icon";
+import { IconComponentBaseProps } from "../../../utils";
+import { Image } from "../../Base/Image";
+
+const StatastkghoIcon = (props: IconComponentBaseProps) => {
+  return <Image svgCode={iconStatastkgho.data} {...props} />;
+};
+
+if (process.env.NODE_ENV !== 'production') {
+  StatastkghoIcon.displayName = 'StatastkghoIcon';
+}
+
+export default StatastkghoIcon;

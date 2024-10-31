@@ -1,0 +1,18 @@
+// GENERATE BY ./src/scripts/generateComponents.ts
+// DO NOT EDIT IT MANUALLY
+
+import React from "react";
+
+import { iconDefiwallet } from "../../../icons/full/build/icon-defiwallet.icon";
+import { IconComponentBaseProps } from "../../../utils";
+import { Image } from "../../Base/Image";
+
+const DefiwalletIcon = (props: IconComponentBaseProps) => {
+  return <Image svgCode={iconDefiwallet.data} {...props} />;
+};
+
+if (process.env.NODE_ENV !== 'production') {
+  DefiwalletIcon.displayName = 'DefiwalletIcon';
+}
+
+export default DefiwalletIcon;

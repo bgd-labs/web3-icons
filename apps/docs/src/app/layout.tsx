@@ -1,3 +1,4 @@
+import "@bgd-labs/react-web3-icons/dist/index.css";
 import "@/styles/globals.css";
 
 import { Inter, Space_Grotesk } from "next/font/google";

@@ -1,52 +1,37 @@
 import loadable from "@loadable/component";
-import camelCase from "lodash.camelcase";
 import React, { JSX } from "react";
 
 import { Web3IconType } from "../../icons/full";
-import {
-  capitalize,
-  formatMonoSvgCode,
-  IconComponentBaseProps,
-} from "../../utils";
-import { SVG } from "../Base/SVG";
+import { IconComponentBaseProps, symbolToComponentName } from "../../utils";
+import { IconPlaceholder } from "../Base/IconPlaceholder";
 
 export type LoadableIconProps = IconComponentBaseProps & {
   iconKey: Web3IconType | string;
+  abbreviation: string;
   fallbackComponent?: JSX.Element;
 };
 
 export const LoadableIcon = loadable(
-  async ({ iconKey, mono, fallbackComponent, ...props }: LoadableIconProps) => {
+  async ({
+    iconKey,
+    mono,
+    abbreviation,
+    fallbackComponent,
+    ...props
+  }: LoadableIconProps) => {
+    const mode = mono ? "mono" : "full";
+    const componentName = symbolToComponentName(iconKey);
     try {
-      const lowerCasedIconKey = iconKey.toLowerCase();
-      const iconFileName = `icon-${lowerCasedIconKey}`;
-      const folder = mono ? "mono" : "full";
-      const icon = await import(
-        `../../icons/${folder}/build/${iconFileName}.icon.ts`
-      );
-      const iconData = icon[`icon${capitalize(camelCase(lowerCasedIconKey))}`];
-
-      if (!iconData && fallbackComponent) {
+      return import(`../icons/${mode}/${componentName}`);
+    } catch (err) {
+      if (fallbackComponent) {
         return {
           default: () => <>{fallbackComponent}</>,
         };
       }
 
       return {
-        default: () => (
-          <SVG
-            svgCode={formatMonoSvgCode({
-              mono,
-              svgCode: iconData?.data,
-              ...props,
-            })}
-            {...props}
-          />
-        ),
-      };
-    } catch (e) {
-      return {
-        default: () => <SVG svgCode={undefined} {...props} />,
+        default: () => <IconPlaceholder value={abbreviation} {...props} />,
       };
     }
   },

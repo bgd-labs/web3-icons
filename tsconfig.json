@@ -8,11 +8,12 @@
     "moduleResolution": "node",
     "allowImportingTsExtensions": true,
     "jsx": "react",
-    "strictNullChecks": false
+    "strictNullChecks": false,
+    "sourceMap": true
   },
   "include": [
     "src/scripts/**/*.ts",
     "src/utils/**/*.ts"
   ],
-  "exclude": ["node_modules", "docs", "apps", "packages"],
+  "exclude": ["node_modules", "docs", "apps", "packages"]
 }
