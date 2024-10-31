@@ -19,8 +19,6 @@ const GithubSvgIcon: FC<GithubSVGIconProps> = ({
   const [svgCode, setSvgCode] = useState<string>();
   const [isError, setIsError] = useState(false);
 
-  console.log("render GithubSVGIcon");
-
   useEffect(() => {
     const loadSvg = async () => {
       const result = await fetch(githubSrc);
