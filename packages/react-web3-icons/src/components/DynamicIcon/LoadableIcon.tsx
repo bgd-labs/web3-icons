@@ -3,11 +3,13 @@ import React, { JSX } from "react";
 
 import { Web3IconType } from "../../icons/full";
 import { IconComponentBaseProps, symbolToComponentName } from "../../utils";
+import { omit } from "../../utils/omit";
 import { IconPlaceholder } from "../Base/IconPlaceholder";
 
-export type LoadableIconProps = IconComponentBaseProps & {
+export type LoadableIconProps = Omit<IconComponentBaseProps, "loader"> & {
   iconKey: Web3IconType | string;
   abbreviation: string;
+  fallback: Pick<IconComponentBaseProps, "loader">;
   fallbackComponent?: JSX.Element;
 };
 
@@ -22,7 +24,12 @@ export const LoadableIcon = loadable(
     const mode = mono ? "mono" : "full";
     const componentName = symbolToComponentName(iconKey);
     try {
-      return import(`../icons/${mode}/${componentName}`);
+      const iconEsModule = await import(`../icons/${mode}/${componentName}`);
+      const IconComponent = iconEsModule.default;
+      const imageComponentProps = omit(props, ["fallback"]);
+      return {
+        default: () => <IconComponent {...imageComponentProps} />,
+      };
     } catch (err) {
       if (fallbackComponent) {
         return {
