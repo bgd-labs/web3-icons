@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.7.0...react-web3-icons@v1.7.1) (2024-11-06)
+
+
+### Bug Fixes
+
+* stop passing unnecessary props to DOM nodes ([#52](https://github.com/bgd-labs/web3-icons/issues/52)) ([95a44f2](https://github.com/bgd-labs/web3-icons/commit/95a44f2b1da23e4c0e15cd6eb14c61a38ba6a88a))
+
 ## [1.7.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.6.0...react-web3-icons@v1.7.0) (2024-10-31)
 
 
