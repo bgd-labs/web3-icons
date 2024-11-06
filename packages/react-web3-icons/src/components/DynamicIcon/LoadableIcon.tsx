@@ -9,7 +9,7 @@ import { IconPlaceholder } from "../Base/IconPlaceholder";
 export type LoadableIconProps = Omit<IconComponentBaseProps, "loader"> & {
   iconKey: Web3IconType | string;
   abbreviation: string;
-  fallback: Pick<IconComponentBaseProps, "loader">;
+  fallback?: Pick<IconComponentBaseProps, "loader">;
   fallbackComponent?: JSX.Element;
 };
 
