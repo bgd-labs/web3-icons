@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.2](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.7.1...react-web3-icons@v1.7.2) (2024-11-19)
+
+
+### Bug Fixes
+
+* added rseth asset icon ([65b422a](https://github.com/bgd-labs/web3-icons/commit/65b422ace4ac3519ee662c5c05936dfa395f7f97))
+
 ## [1.7.1](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.7.0...react-web3-icons@v1.7.1) (2024-11-06)
 
 
