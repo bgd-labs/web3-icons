@@ -2302,6 +2302,39 @@
   },
   {
     "type": [
+      "asset"
+    ],
+    "symbol": "rseth",
+    "name": "Kelp DAO Restaked ETH",
+    "aliases": [
+      "RSETH",
+      "rsETH",
+      "aEthRSETH",
+      "aEthrsETH",
+      "variableDebtEthRSETH",
+      "variableDebtEthrsETH",
+      "stataEthRSETH",
+      "stataEthrsETH"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/rseth.svg",
+      "full": "icons/full/rseth.svg",
+      "aToken": {
+        "mono": "icons/mono/arseth.svg",
+        "full": "icons/full/arseth.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statarseth.svg",
+        "full": "icons/full/statarseth.svg"
+      }
+    }
+  },
+  {
+    "type": [
       "wallet"
     ],
     "identityFlag": "isSafePal",
