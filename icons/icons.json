@@ -1628,6 +1628,28 @@
   },
   {
     "type": [
+      "chain"
+    ],
+    "chainId": 59144,
+    "chainName": "Linea",
+    "icons": {
+      "mono": "icons/mono/linea.svg",
+      "full": "icons/full/linea.svg"
+    }
+  },
+  {
+    "type": [
+      "chain"
+    ],
+    "chainId": 59141,
+    "chainName": "Linea Sepolia",
+    "icons": {
+      "mono": "icons/mono/lineasepolia.svg",
+      "full": "icons/full/lineasepolia.svg"
+    }
+  },
+  {
+    "type": [
       "asset"
     ],
     "symbol": "link",

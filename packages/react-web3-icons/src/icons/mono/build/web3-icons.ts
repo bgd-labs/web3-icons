@@ -188,6 +188,8 @@ export type Web3IconType =
   | 'ldo'
   | 'lend'
   | 'lido'
+  | 'linea'
+  | 'lineasepolia'
   | 'link'
   | 'liqualitywallet'
   | 'lusd'

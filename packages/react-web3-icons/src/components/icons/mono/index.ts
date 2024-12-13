@@ -188,6 +188,8 @@ export { default as KnclIcon } from './KnclIcon';
 export { default as LdoIcon } from './LdoIcon';
 export { default as LendIcon } from './LendIcon';
 export { default as LidoIcon } from './LidoIcon';
+export { default as LineaIcon } from './LineaIcon';
+export { default as LineasepoliaIcon } from './LineasepoliaIcon';
 export { default as LinkIcon } from './LinkIcon';
 export { default as LiqualitywalletIcon } from './LiqualitywalletIcon';
 export { default as LusdIcon } from './LusdIcon';
