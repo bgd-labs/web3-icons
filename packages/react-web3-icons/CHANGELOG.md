@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.3](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.7.2...react-web3-icons@v1.7.3) (2024-12-13)
+
+
+### Bug Fixes
+
+* added linea chain icon ([96cb503](https://github.com/bgd-labs/web3-icons/commit/96cb503d5c8bf04b9ba5cd5c5b5aed58abdd175b))
+
 ## [1.7.2](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.7.1...react-web3-icons@v1.7.2) (2024-11-19)
 
 
