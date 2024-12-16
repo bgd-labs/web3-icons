@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.4](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.7.3...react-web3-icons@v1.7.4) (2024-12-16)
+
+
+### Bug Fixes
+
+* added `SCR` asset icon ([80c00d5](https://github.com/bgd-labs/web3-icons/commit/80c00d5a262b9c54b087935533375c8823e051ca))
+
 ## [1.7.3](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.7.2...react-web3-icons@v1.7.3) (2024-12-13)
 
 
