@@ -2408,13 +2408,38 @@
   },
   {
     "type": [
+      "asset",
       "chain"
     ],
+    "symbol": "scr",
     "chainId": 534352,
-    "chainName": "Scroll",
+    "name": "Scroll",
+    "aliases": [
+      "aScrSCR",
+      "variableDebtScrSCR",
+      "SCR",
+      "stataScrSCR"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken",
+      "stkToken"
+    ],
     "icons": {
-      "mono": "icons/mono/scroll.svg",
-      "full": "icons/full/scroll.svg"
+      "mono": "icons/mono/scr.svg",
+      "full": "icons/full/scr.svg",
+      "aToken": {
+        "mono": "icons/mono/ascr.svg",
+        "full": "icons/full/ascr.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statascr.svg",
+        "full": "icons/full/statascr.svg"
+      },
+      "stkToken": {
+        "mono": "icons/mono/stkscr.svg",
+        "full": "icons/full/stkscr.svg"
+      }
     }
   },
   {

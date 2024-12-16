@@ -1,0 +1,18 @@
+{
+  "type": ["asset", "chain"],
+  "symbol": "scr",
+  "chainId": 534352,
+  "name": "Scroll",
+
+  "aliases": [
+    "aScrSCR",
+    "variableDebtScrSCR",
+    "SCR",
+    "stataScrSCR"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken",
+    "stkToken"
+  ]
+}
