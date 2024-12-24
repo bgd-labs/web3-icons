@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.5](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.7.4...react-web3-icons@v1.7.5) (2024-12-24)
+
+
+### Bug Fixes
+
+* add AUSD asset icon ([#58](https://github.com/bgd-labs/web3-icons/issues/58)) ([665cd2c](https://github.com/bgd-labs/web3-icons/commit/665cd2c04949cd680151e1894bd58dca869d8cac))
+
 ## [1.7.4](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.7.3...react-web3-icons@v1.7.4) (2024-12-16)
 
 
