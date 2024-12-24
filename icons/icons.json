@@ -167,6 +167,35 @@
   },
   {
     "type": [
+      "asset"
+    ],
+    "symbol": "ausd",
+    "name": "Agora USD",
+    "aliases": [
+      "AUSD",
+      "aAvaAUSD",
+      "variableDebtAvaAUSD",
+      "stataAvaAUSD"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/ausd.svg",
+      "full": "icons/full/ausd.svg",
+      "aToken": {
+        "mono": "icons/mono/aausd.svg",
+        "full": "icons/full/aausd.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/stataausd.svg",
+        "full": "icons/full/stataausd.svg"
+      }
+    }
+  },
+  {
+    "type": [
       "chain"
     ],
     "chainId": 43113,
