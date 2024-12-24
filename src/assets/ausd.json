@@ -1,0 +1,17 @@
+{
+  "type": ["asset"],
+  "symbol": "ausd",
+
+  "name": "Agora USD",
+
+  "aliases": [
+    "AUSD",
+    "aAvaAUSD",
+    "variableDebtAvaAUSD",
+    "stataAvaAUSD"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
