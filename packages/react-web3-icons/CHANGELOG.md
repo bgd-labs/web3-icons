@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.6](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.7.5...react-web3-icons@v1.7.6) (2025-01-10)
+
+
+### Bug Fixes
+
+* widen version ([c5afeac](https://github.com/bgd-labs/web3-icons/commit/c5afeac510b82d1e9ecaf451d97eb1855cdeef1f))
+
 ## [1.7.5](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.7.4...react-web3-icons@v1.7.5) (2024-12-24)
 
 
