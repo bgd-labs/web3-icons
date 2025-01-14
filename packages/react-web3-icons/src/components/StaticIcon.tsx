@@ -8,13 +8,14 @@ import {
   IconComponentBaseProps,
 } from "../utils";
 import GithubSVGIcon from "./Base/GithubSVGIcon";
-import { IconPlaceholder } from "./Base/IconPlaceholder";
+import { IconPlaceholder, IconPlaceholderProps } from "./Base/IconPlaceholder";
 import { Image } from "./Base/Image";
 
 type StaticIconProps = IconComponentBaseProps &
   BaseIconComponentProps & {
     iconsPack: Record<string, string>;
     abbreviation: string;
+    fallbackProps?: Omit<IconPlaceholderProps, "value">;
   };
 
 /**
@@ -27,6 +28,7 @@ export const StaticIcon = ({
   mono,
   loader,
   abbreviation,
+  fallbackProps,
   ...props
 }: StaticIconProps) => {
   const iconFormattedKey = iconKey.toLowerCase();
@@ -41,6 +43,7 @@ export const StaticIcon = ({
         abbreviation={abbreviation}
         githubSrc={githubSrc}
         loader={loader}
+        {...fallbackProps}
       />
     );
   }
@@ -48,7 +51,7 @@ export const StaticIcon = ({
   const formattedSvgCode = formatMonoSvgCode({ mono, svgCode, ...props });
 
   if (!formattedSvgCode) {
-    return <IconPlaceholder value={abbreviation} {...props} />;
+    return <IconPlaceholder value={abbreviation} {...fallbackProps} />;
   }
 
   return <Image svgCode={formattedSvgCode} {...props} />;

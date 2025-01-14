@@ -4,13 +4,14 @@ import React, { JSX } from "react";
 import { Web3IconType } from "../../icons/full";
 import { IconComponentBaseProps, symbolToComponentName } from "../../utils";
 import { omit } from "../../utils/omit";
-import { IconPlaceholder } from "../Base/IconPlaceholder";
+import { IconPlaceholder, IconPlaceholderProps } from "../Base/IconPlaceholder";
 
 export type LoadableIconProps = Omit<IconComponentBaseProps, "loader"> & {
   iconKey: Web3IconType | string;
   abbreviation: string;
   fallback?: Pick<IconComponentBaseProps, "loader">;
   fallbackComponent?: JSX.Element;
+  fallbackProps?: Omit<IconPlaceholderProps, "value">;
 };
 
 export const LoadableIcon = loadable(
@@ -19,6 +20,7 @@ export const LoadableIcon = loadable(
     mono,
     abbreviation,
     fallbackComponent,
+    fallbackProps = {},
     ...props
   }: LoadableIconProps) => {
     const mode = mono ? "mono" : "full";
@@ -38,7 +40,9 @@ export const LoadableIcon = loadable(
       }
 
       return {
-        default: () => <IconPlaceholder value={abbreviation} {...props} />,
+        default: () => (
+          <IconPlaceholder value={abbreviation} {...fallbackProps} />
+        ),
       };
     }
   },
