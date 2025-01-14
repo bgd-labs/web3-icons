@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.8.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.7.6...react-web3-icons@v1.8.0) (2025-01-14)
+
+
+### Features
+
+* Update aave-address-book ([5721814](https://github.com/bgd-labs/web3-icons/commit/5721814e755b921da7ed3185bf42169d629af98e))
+* Update ezETH icon aliases ([85a7ff2](https://github.com/bgd-labs/web3-icons/commit/85a7ff201b2b9ab111d5f9e61e38a3a796721fd8))
+
 ## [1.7.6](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.7.5...react-web3-icons@v1.7.6) (2025-01-10)
 
 
