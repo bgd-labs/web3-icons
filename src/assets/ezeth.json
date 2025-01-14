@@ -18,7 +18,13 @@
     "variableDebtEthLidoezETH",
     "variableDebtEthLidoEZETH",
     "stataDebtEthLidoezETH",
-    "stataDebtEthLidoEZETH"
+    "stataDebtEthLidoEZETH",
+    "aArbezETH",
+    "variableDebtArbezETH",
+    "stataArbezETH",
+    "aBasezETH",
+    "variableDebtBasezETH",
+    "stataBasezETH"
   ],
   "variations": [
     "aToken",
