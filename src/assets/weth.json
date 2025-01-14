@@ -15,6 +15,7 @@
   ],
   "variations": [
     "aToken",
-    "stataToken"
+    "stataToken",
+    "stkToken"
   ]
 }
