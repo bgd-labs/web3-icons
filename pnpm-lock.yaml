@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@bgd-labs/aave-address-book':
-        specifier: ^4.2.1
-        version: 4.2.1
+        specifier: ^4.7.4
+        version: 4.7.4
       '@types/lodash.template':
         specifier: ^4.5.3
         version: 4.5.3
@@ -182,8 +182,8 @@ packages:
     resolution: {integrity: sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==}
     engines: {node: '>=6.9.0'}
 
-  '@bgd-labs/aave-address-book@4.2.1':
-    resolution: {integrity: sha512-HSdoflSXam3rnkFpLiXAavsmzBgHBbs8GQ4pVweFJvzMZbHxy1mRc7c6Tbt8boA72AY4myZHP44lgKAcrg2Zyw==}
+  '@bgd-labs/aave-address-book@4.7.4':
+    resolution: {integrity: sha512-PsNFXsydezmmMIZOunOCuvH86LcEWbYR5DWmDpT/a7JQ0RzuZlhqQRws4EUCCad0S4Jo3mFXrK3R4FnRBFwf6Q==}
 
   '@esbuild/aix-ppc64@0.23.1':
     resolution: {integrity: sha512-6VhYk1diRqrhBAqpJEdjASR/+WVRtfjpqKuNw11cLiaWpAT/Uu+nokB+UJnevzy/P9C/ty6AOe0dwueMrGh/iQ==}
@@ -2743,7 +2743,7 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.14.1
 
-  '@bgd-labs/aave-address-book@4.2.1': {}
+  '@bgd-labs/aave-address-book@4.7.4': {}
 
   '@esbuild/aix-ppc64@0.23.1':
     optional: true

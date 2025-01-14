@@ -36,7 +36,7 @@
     "generate-components": "tsx src/scripts/generateComponents.ts"
   },
   "devDependencies": {
-    "@bgd-labs/aave-address-book": "^4.2.1",
+    "@bgd-labs/aave-address-book": "^4.7.4",
     "@types/node": "^22.8.4",
     "@types/lodash.template": "^4.5.3",
     "eslint": "^9.13.0",
