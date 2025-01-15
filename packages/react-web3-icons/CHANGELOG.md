@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.9.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.8.0...react-web3-icons@v1.9.0) (2025-01-15)
+
+
+### Features
+
+* Add fallbackProps ([a60dc9e](https://github.com/bgd-labs/web3-icons/commit/a60dc9e7c198bfae10d209424001546aaffed0bc))
+* generate icons ([ea1e96c](https://github.com/bgd-labs/web3-icons/commit/ea1e96cf3c977972510fe2118cc72ef83919d3ee))
+* Generate umbrella icons for reserve tokens ([e84a006](https://github.com/bgd-labs/web3-icons/commit/e84a006eade2a615de7c40da28fc1ee96a15a0bc))
+
 ## [1.8.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.7.6...react-web3-icons@v1.8.0) (2025-01-14)
 
 
