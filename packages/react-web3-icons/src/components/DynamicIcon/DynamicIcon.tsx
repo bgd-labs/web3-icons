@@ -3,12 +3,14 @@ import React, { FC } from "react";
 import { Web3IconType } from "../../icons/full";
 import { IconComponentBaseProps } from "../../utils";
 import GithubSVGIcon from "../Base/GithubSVGIcon";
+import { IconPlaceholderProps } from "../Base/IconPlaceholder";
 import { LoadableIcon } from "./LoadableIcon";
 
 export type DynamicIconProps = IconComponentBaseProps & {
   iconKey: Web3IconType | string;
   githubSrc?: string;
   abbreviation: string;
+  fallbackProps?: Omit<IconPlaceholderProps, "value">;
 };
 
 /**

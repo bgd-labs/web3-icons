@@ -1,18 +1,20 @@
 import React, { FC, useEffect, useState } from "react";
 
 import { IconComponentBaseProps } from "../../utils";
-import { IconPlaceholder } from "./IconPlaceholder";
+import { IconPlaceholder, IconPlaceholderProps } from "./IconPlaceholder";
 import { Image } from "./Image";
 
 type GithubSVGIconProps = Pick<IconComponentBaseProps, "loader"> & {
   githubSrc: string;
   abbreviation: string;
+  fallbackProps?: Omit<IconPlaceholderProps, "value">;
 };
 
 const GithubSvgIcon: FC<GithubSVGIconProps> = ({
   githubSrc,
   loader,
   abbreviation,
+  fallbackProps = {},
   ...props
 }) => {
   const [loading, setLoading] = useState(false);
@@ -43,7 +45,7 @@ const GithubSvgIcon: FC<GithubSVGIconProps> = ({
   }
 
   if (!svgCode || isError) {
-    return <IconPlaceholder value={abbreviation} {...props} />;
+    return <IconPlaceholder value={abbreviation} {...fallbackProps} />;
   }
 
   return <Image svgCode={svgCode} {...props} />;

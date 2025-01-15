@@ -1,6 +1,7 @@
 import React, { DetailedHTMLProps, HTMLAttributes } from "react";
+import { twMerge } from "tailwind-merge";
 
-type IconPlaceholderProps = DetailedHTMLProps<
+export type IconPlaceholderProps = DetailedHTMLProps<
   HTMLAttributes<HTMLDivElement>,
   HTMLDivElement
 > & {
@@ -21,9 +22,11 @@ export const IconPlaceholder = ({
     "bg-black",
     "text-white",
     className,
-  ].filter((cl) => cl !== undefined);
+  ]
+    .filter((cl) => cl !== undefined)
+    .join(" ");
   return (
-    <span {...divProps} className={classes.join(" ")}>
+    <span {...divProps} className={twMerge(classes)}>
       {value}
     </span>
   );
