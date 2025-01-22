@@ -1615,6 +1615,35 @@
   },
   {
     "type": [
+      "asset"
+    ],
+    "symbol": "lbtc",
+    "name": "LBTC",
+    "aliases": [
+      "lBTC",
+      "LBTC",
+      "aEthlBTC",
+      "stataEthlBTC"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/lbtc.svg",
+      "full": "icons/full/lbtc.svg",
+      "aToken": {
+        "mono": "icons/mono/albtc.svg",
+        "full": "icons/full/albtc.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statalbtc.svg",
+        "full": "icons/full/statalbtc.svg"
+      }
+    }
+  },
+  {
+    "type": [
       "asset",
       "brand"
     ],

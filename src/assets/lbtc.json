@@ -1,0 +1,16 @@
+{
+  "type": ["asset"],
+  "symbol": "lbtc",
+  "name": "LBTC",
+
+  "aliases": [
+    "lBTC",
+    "LBTC",
+    "aEthlBTC",
+    "stataEthlBTC"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
