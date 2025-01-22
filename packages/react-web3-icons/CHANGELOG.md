@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.9.0...react-web3-icons@v1.10.0) (2025-01-22)
+
+
+### Features
+
+* add lbtc asset ([bf776f7](https://github.com/bgd-labs/web3-icons/commit/bf776f790ac9de927b7c1020e940d19134400d73))
+
 ## [1.9.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.8.0...react-web3-icons@v1.9.0) (2025-01-15)
 
 
