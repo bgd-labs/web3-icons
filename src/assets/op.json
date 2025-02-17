@@ -1,9 +1,7 @@
 {
-  "type": ["asset", "chain"],
+  "type": ["asset"],
   "symbol": "op",
-  "chainId": 10,
   "name": "Optimism",
-  "chainName": "OP Mainnet",
 
   "aliases": [
     "aOptOP",
