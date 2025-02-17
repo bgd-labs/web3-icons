@@ -1863,6 +1863,17 @@
   },
   {
     "type": [
+      "chain"
+    ],
+    "chainId": 5000,
+    "chainName": "Mantle",
+    "icons": {
+      "mono": "icons/mono/mantle.svg",
+      "full": "icons/full/mantle.svg"
+    }
+  },
+  {
+    "type": [
       "wallet"
     ],
     "identityFlag": "isMathWallet",
@@ -2686,6 +2697,17 @@
         "mono": "icons/mono/statasnx.svg",
         "full": "icons/full/statasnx.svg"
       }
+    }
+  },
+  {
+    "type": [
+      "chain"
+    ],
+    "chainId": 146,
+    "chainName": "Sonic",
+    "icons": {
+      "mono": "icons/mono/sonic.svg",
+      "full": "icons/full/sonic.svg"
     }
   },
   {
