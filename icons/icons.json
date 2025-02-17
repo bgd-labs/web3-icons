@@ -2074,13 +2074,10 @@
   },
   {
     "type": [
-      "asset",
-      "chain"
+      "asset"
     ],
     "symbol": "op",
-    "chainId": 10,
     "name": "Optimism",
-    "chainName": "OP Mainnet",
     "aliases": [
       "aOptOP",
       "variableDebtOptOP",
@@ -2113,6 +2110,17 @@
     "icons": {
       "mono": "icons/mono/operawallet.svg",
       "full": "icons/full/operawallet.svg"
+    }
+  },
+  {
+    "type": [
+      "chain"
+    ],
+    "chainId": 10,
+    "chainName": "OP Mainnet",
+    "icons": {
+      "mono": "icons/mono/opmainnet.svg",
+      "full": "icons/full/opmainnet.svg"
     }
   },
   {
