@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.11.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.10.0...react-web3-icons@v1.11.0) (2025-02-17)
+
+
+### Features
+
+* add sonic and mantle chain icons ([672be30](https://github.com/bgd-labs/web3-icons/commit/672be302192fa0dc8aa29e66c1f78f457f6fca2c))
+* change icon for Optimism mainnet ([7ca970a](https://github.com/bgd-labs/web3-icons/commit/7ca970af1abaf27509fbfbd41a9949f8a98c904a))
+
 ## [1.10.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.9.0...react-web3-icons@v1.10.0) (2025-01-22)
 
 
