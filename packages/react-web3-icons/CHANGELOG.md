@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.12.0...react-web3-icons@v1.13.0) (2025-02-18)
+
+
+### Features
+
+* new icon frames ([cc122af](https://github.com/bgd-labs/web3-icons/commit/cc122af77f6b26fe61ea1903aa7b941ba9cc0449))
+
 ## [1.12.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.11.0...react-web3-icons@v1.12.0) (2025-02-17)
 
 
