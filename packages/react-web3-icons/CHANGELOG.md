@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.14.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.13.0...react-web3-icons@v1.14.0) (2025-03-03)
+
+
+### Features
+
+* add ws icon ([1346baa](https://github.com/bgd-labs/web3-icons/commit/1346baa16b6a75e5f9d06b4246186a950c5e6888))
+* update mono icon ([90cd9ca](https://github.com/bgd-labs/web3-icons/commit/90cd9ca8211c567c13066df0111625f4ab5759b2))
+
 ## [1.13.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.12.0...react-web3-icons@v1.13.0) (2025-02-18)
 
 
