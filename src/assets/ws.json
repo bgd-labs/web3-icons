@@ -1,0 +1,10 @@
+{
+  "type": ["asset"],
+  "symbol": "ws",
+  "name": "Wrapped S",
+  "aliases": [],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
