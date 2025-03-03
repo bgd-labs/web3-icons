@@ -3665,6 +3665,30 @@
     "type": [
       "asset"
     ],
+    "symbol": "ws",
+    "name": "Wrapped S",
+    "aliases": [],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/ws.svg",
+      "full": "icons/full/ws.svg",
+      "aToken": {
+        "mono": "icons/mono/aws.svg",
+        "full": "icons/full/aws.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/stataws.svg",
+        "full": "icons/full/stataws.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "symbol": "wsteth",
     "name": "Wrapped liquid staked Ether 2.0",
     "aliases": [
