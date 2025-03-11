@@ -3665,8 +3665,41 @@
     "type": [
       "asset"
     ],
+    "symbol": "wrseth",
+    "name": "Kelp DAO Wrapped rsETH",
+    "aliases": [
+      "WRSETH",
+      "wrsETH",
+      "aEthWRSETH",
+      "aEthwrsETH",
+      "variableDebtEthWRSETH",
+      "variableDebtEthwrsETH",
+      "stataEthWRSETH",
+      "stataEthwrsETH"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/wrseth.svg",
+      "full": "icons/full/wrseth.svg",
+      "aToken": {
+        "mono": "icons/mono/awrseth.svg",
+        "full": "icons/full/awrseth.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statawrseth.svg",
+        "full": "icons/full/statawrseth.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "symbol": "ws",
-    "name": "Wrapped S",
+    "name": "Wrapped Sonic",
     "aliases": [],
     "variations": [
       "aToken",
