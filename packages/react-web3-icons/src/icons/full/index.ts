@@ -370,6 +370,7 @@ export * from './build/icon-stkcbeth.icon';
 export * from './build/icon-stkgho.icon';
 export * from './build/icon-stklink.icon';
 export * from './build/icon-stkscr.icon';
+export * from './build/icon-stkstatausdt.icon';
 export * from './build/icon-stkusdc.icon';
 export * from './build/icon-stkusdt.icon';
 export * from './build/icon-stkwbtc.icon';

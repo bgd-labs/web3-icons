@@ -366,6 +366,7 @@ export type Web3IconType =
   | 'stkgho'
   | 'stklink'
   | 'stkscr'
+  | 'stkstatausdt'
   | 'stkusdc'
   | 'stkusdt'
   | 'stkwbtc'
