@@ -997,6 +997,35 @@
     "type": [
       "asset"
     ],
+    "symbol": "eurc",
+    "name": "EURC",
+    "aliases": [
+      "EURC",
+      "aAvaEURC",
+      "variableDebtAvaEURC",
+      "stataAvaEURC"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/eurc.svg",
+      "full": "icons/full/eurc.svg",
+      "aToken": {
+        "mono": "icons/mono/aeurc.svg",
+        "full": "icons/full/aeurc.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/stataeurc.svg",
+        "full": "icons/full/stataeurc.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "symbol": "eure",
     "name": "Monerium EUR emoney",
     "aliases": [
