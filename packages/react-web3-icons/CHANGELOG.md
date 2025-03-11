@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.16.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.15.0...react-web3-icons@v1.16.0) (2025-03-11)
+
+
+### Features
+
+* add eurc icon ([f6e9456](https://github.com/bgd-labs/web3-icons/commit/f6e9456f8a944bf87f2364df1ea521cede84c7c0))
+
 ## [1.15.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.14.0...react-web3-icons@v1.15.0) (2025-03-11)
 
 
