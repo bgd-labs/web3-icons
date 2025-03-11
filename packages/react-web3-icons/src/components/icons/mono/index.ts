@@ -366,6 +366,7 @@ export { default as StkcbethIcon } from './StkcbethIcon';
 export { default as StkghoIcon } from './StkghoIcon';
 export { default as StklinkIcon } from './StklinkIcon';
 export { default as StkscrIcon } from './StkscrIcon';
+export { default as StkstatausdtIcon } from './StkstatausdtIcon';
 export { default as StkusdcIcon } from './StkusdcIcon';
 export { default as StkusdtIcon } from './StkusdtIcon';
 export { default as StkwbtcIcon } from './StkwbtcIcon';

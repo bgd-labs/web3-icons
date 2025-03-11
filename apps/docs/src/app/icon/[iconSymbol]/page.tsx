@@ -17,7 +17,7 @@ const Page: FC<PageProps> = ({ params }) => {
     <div>
       <Web3Icon
         symbol={iconSymbol}
-        assetTag="a"
+        assetTag="stkStata"
         mono={false}
         loader={<IconLoader />}
         className="size-[70px]"

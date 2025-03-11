@@ -1,5 +1,6 @@
 import { normalizeSymbol } from "../../../../src/utils/componentGenerationHelpers";
 
 export const symbolToComponentName = (symbol: string) => {
-  return `${normalizeSymbol(symbol)}Icon.tsx`;
+  const formattedIconKey = symbol.replace("stkStata", "stkstata");
+  return `${normalizeSymbol(formattedIconKey)}Icon.tsx`;
 };

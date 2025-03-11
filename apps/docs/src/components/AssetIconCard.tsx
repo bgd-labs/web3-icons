@@ -23,7 +23,7 @@ export const AssetIconCard = ({
   icons: IconInfoIcons;
   chainId?: number;
   chainName?: string;
-  assetTag?: "a" | "stata" | "stk";
+  assetTag?: "a" | "stata" | "stk" | "stkStata";
 }) => {
   const router = useRouter();
 
@@ -38,7 +38,7 @@ export const AssetIconCard = ({
             ? "stataToken"
             : assetTag === "stk"
               ? "stkToken"
-              : "aToken"
+              : "stkStataToken"
       ][variant]
     : icons[variant];
 

@@ -18,7 +18,7 @@ export type IconComponentBaseProps = {
 export type IconComponentProps = {
   // for asset
   symbol?: string;
-  assetTag?: "a" | "stata" | "stk";
+  assetTag?: "a" | "stata" | "stk" | "stkStata";
   formatSymbol?: (symbol: string) => string;
   // for chain
   chainId?: number;
