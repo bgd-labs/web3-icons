@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.14.0...react-web3-icons@v1.15.0) (2025-03-11)
+
+
+### Features
+
+* add wrseth and replace icon for rseth ([8bb1dbb](https://github.com/bgd-labs/web3-icons/commit/8bb1dbb8394575bfea9b7a72bc9b787ab60bb7c6))
+
 ## [1.14.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.13.0...react-web3-icons@v1.14.0) (2025-03-03)
 
 
