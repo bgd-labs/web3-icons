@@ -1,0 +1,21 @@
+{
+  "type": ["asset"],
+  "symbol": "wrseth",
+
+  "name": "Kelp DAO Wrapped rsETH",
+
+  "aliases": [
+    "WRSETH",
+    "wrsETH",
+    "aEthWRSETH",
+    "aEthwrsETH",
+    "variableDebtEthWRSETH",
+    "variableDebtEthwrsETH",
+    "stataEthWRSETH",
+    "stataEthwrsETH"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
