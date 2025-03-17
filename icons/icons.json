@@ -620,6 +620,32 @@
   },
   {
     "type": [
+      "asset"
+    ],
+    "symbol": "ceur",
+    "name": "Celo Euro",
+    "aliases": [
+      "cEUR"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/ceur.svg",
+      "full": "icons/full/ceur.svg",
+      "aToken": {
+        "mono": "icons/mono/aceur.svg",
+        "full": "icons/full/aceur.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/stataceur.svg",
+        "full": "icons/full/stataceur.svg"
+      }
+    }
+  },
+  {
+    "type": [
       "wallet"
     ],
     "identityFlag": "isToshi",
@@ -698,6 +724,32 @@
       "stataToken": {
         "mono": "icons/mono/statacrvusd.svg",
         "full": "icons/full/statacrvusd.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
+    "symbol": "cusd",
+    "name": "Celo Dollar",
+    "aliases": [
+      "cUSD"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/cusd.svg",
+      "full": "icons/full/cusd.svg",
+      "aToken": {
+        "mono": "icons/mono/acusd.svg",
+        "full": "icons/full/acusd.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statacusd.svg",
+        "full": "icons/full/statacusd.svg"
       }
     }
   },
@@ -3367,6 +3419,7 @@
       "m.USDT",
       "stataArbUSDT",
       "USDT",
+      "USD₮",
       "variableDebtArbUSDT",
       "aArbUSDT",
       "aAvaUSDT",
