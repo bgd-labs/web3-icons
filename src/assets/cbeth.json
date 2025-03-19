@@ -1,8 +1,9 @@
 {
-  "type": ["asset"],
+  "type": [
+    "asset"
+  ],
   "symbol": "cbeth",
   "name": "Coinbase Wrapped Staked ETH",
-
   "aliases": [
     "aEthcbETH",
     "variableDebtEthcbETH",
@@ -15,6 +16,7 @@
   "variations": [
     "aToken",
     "stataToken",
-    "stkToken"
+    "stkToken",
+    "stkStataToken"
   ]
 }

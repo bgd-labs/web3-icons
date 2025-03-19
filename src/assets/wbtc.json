@@ -1,8 +1,9 @@
 {
-  "type": ["asset"],
+  "type": [
+    "asset"
+  ],
   "symbol": "wbtc",
   "name": "Wrapped BTC",
-
   "aliases": [
     "WBTC",
     "WBTC.e",
@@ -11,6 +12,7 @@
   "variations": [
     "aToken",
     "stataToken",
-    "stkToken"
+    "stkToken",
+    "stkStataToken"
   ]
 }
