@@ -588,7 +588,8 @@
     "variations": [
       "aToken",
       "stataToken",
-      "stkToken"
+      "stkToken",
+      "stkStataToken"
     ],
     "icons": {
       "mono": "icons/mono/cbeth.svg",
@@ -604,6 +605,10 @@
       "stkToken": {
         "mono": "icons/mono/stkcbeth.svg",
         "full": "icons/full/stkcbeth.svg"
+      },
+      "stkStataToken": {
+        "mono": "icons/mono/stkstatacbeth.svg",
+        "full": "icons/full/stkstatacbeth.svg"
       }
     }
   },
@@ -1812,7 +1817,8 @@
     "variations": [
       "aToken",
       "stataToken",
-      "stkToken"
+      "stkToken",
+      "stkStataToken"
     ],
     "icons": {
       "mono": "icons/mono/link.svg",
@@ -1828,6 +1834,10 @@
       "stkToken": {
         "mono": "icons/mono/stklink.svg",
         "full": "icons/full/stklink.svg"
+      },
+      "stkStataToken": {
+        "mono": "icons/mono/stkstatalink.svg",
+        "full": "icons/full/stkstatalink.svg"
       }
     }
   },
@@ -3302,7 +3312,8 @@
     "variations": [
       "aToken",
       "stataToken",
-      "stkToken"
+      "stkToken",
+      "stkStataToken"
     ],
     "icons": {
       "mono": "icons/mono/usdc.svg",
@@ -3318,6 +3329,10 @@
       "stkToken": {
         "mono": "icons/mono/stkusdc.svg",
         "full": "icons/full/stkusdc.svg"
+      },
+      "stkStataToken": {
+        "mono": "icons/mono/stkstatausdc.svg",
+        "full": "icons/full/stkstatausdc.svg"
       }
     }
   },
@@ -3433,6 +3448,7 @@
     "variations": [
       "aToken",
       "stataToken",
+      "stkToken",
       "stkStataToken"
     ],
     "icons": {
@@ -3445,6 +3461,10 @@
       "stataToken": {
         "mono": "icons/mono/statausdt.svg",
         "full": "icons/full/statausdt.svg"
+      },
+      "stkToken": {
+        "mono": "icons/mono/stkusdt.svg",
+        "full": "icons/full/stkusdt.svg"
       },
       "stkStataToken": {
         "mono": "icons/mono/stkstatausdt.svg",
@@ -3569,7 +3589,8 @@
     "variations": [
       "aToken",
       "stataToken",
-      "stkToken"
+      "stkToken",
+      "stkStataToken"
     ],
     "icons": {
       "mono": "icons/mono/wbtc.svg",
@@ -3585,6 +3606,10 @@
       "stkToken": {
         "mono": "icons/mono/stkwbtc.svg",
         "full": "icons/full/stkwbtc.svg"
+      },
+      "stkStataToken": {
+        "mono": "icons/mono/stkstatawbtc.svg",
+        "full": "icons/full/stkstatawbtc.svg"
       }
     }
   },
@@ -3642,7 +3667,8 @@
     "variations": [
       "aToken",
       "stataToken",
-      "stkToken"
+      "stkToken",
+      "stkStataToken"
     ],
     "icons": {
       "mono": "icons/mono/weth.svg",
@@ -3658,6 +3684,10 @@
       "stkToken": {
         "mono": "icons/mono/stkweth.svg",
         "full": "icons/full/stkweth.svg"
+      },
+      "stkStataToken": {
+        "mono": "icons/mono/stkstataweth.svg",
+        "full": "icons/full/stkstataweth.svg"
       }
     }
   },
