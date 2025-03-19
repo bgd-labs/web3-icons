@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.17.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.16.0...react-web3-icons@v1.17.0) (2025-03-17)
+
+
+### Features
+
+* add celo-related icons ([e19f503](https://github.com/bgd-labs/web3-icons/commit/e19f50327586b7d36d74fccdacc01bdf31bb046b))
+
+
+### Bug Fixes
+
+* add bg to full cEUR icon ([cd42288](https://github.com/bgd-labs/web3-icons/commit/cd422880ffb7cd6d642dd1060815c81b7a0c1a10))
+
+## [1.16.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.15.0...react-web3-icons@v1.16.0) (2025-03-11)
+
+
+### Features
+
+* add eurc icon ([f6e9456](https://github.com/bgd-labs/web3-icons/commit/f6e9456f8a944bf87f2364df1ea521cede84c7c0))
+
+## [1.15.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.14.0...react-web3-icons@v1.15.0) (2025-03-11)
+
+
+### Features
+
+* add wrseth and replace icon for rseth ([8bb1dbb](https://github.com/bgd-labs/web3-icons/commit/8bb1dbb8394575bfea9b7a72bc9b787ab60bb7c6))
+
 ## [1.14.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.13.0...react-web3-icons@v1.14.0) (2025-03-03)
 
 

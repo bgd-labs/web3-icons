@@ -1,0 +1,17 @@
+{
+  "type": ["asset"],
+  "symbol": "eurc",
+
+  "name": "EURC",
+
+  "aliases": [
+    "EURC",
+    "aAvaEURC",
+    "variableDebtAvaEURC",
+    "stataAvaEURC"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

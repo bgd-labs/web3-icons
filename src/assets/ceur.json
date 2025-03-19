@@ -1,0 +1,14 @@
+{
+  "type": [
+    "asset"
+  ],
+  "symbol": "ceur",
+  "name": "Celo Euro",
+  "aliases": [
+    "cEUR"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

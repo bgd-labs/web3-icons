@@ -1,0 +1,14 @@
+{
+  "type": [
+    "asset"
+  ],
+  "symbol": "cusd",
+  "name": "Celo Dollar",
+  "aliases": [
+    "cUSD"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
