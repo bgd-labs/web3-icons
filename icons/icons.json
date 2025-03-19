@@ -3433,7 +3433,7 @@
     "variations": [
       "aToken",
       "stataToken",
-      "stkToken"
+      "stkStataToken"
     ],
     "icons": {
       "mono": "icons/mono/usdt.svg",
@@ -3446,9 +3446,9 @@
         "mono": "icons/mono/statausdt.svg",
         "full": "icons/full/statausdt.svg"
       },
-      "stkToken": {
-        "mono": "icons/mono/stkusdt.svg",
-        "full": "icons/full/stkusdt.svg"
+      "stkStataToken": {
+        "mono": "icons/mono/stkstatausdt.svg",
+        "full": "icons/full/stkstatausdt.svg"
       }
     }
   },

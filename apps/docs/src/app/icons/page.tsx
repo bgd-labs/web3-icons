@@ -85,6 +85,16 @@ async function IconsPage({
                       assetTag="stk"
                     />
                   )}
+                  {asset.icons[IconFormat.stkStataToken] && (
+                    <AssetIconCard
+                      name={asset.name ?? ""}
+                      symbol={asset?.symbol ?? ""}
+                      chainId={asset.chainId}
+                      chainName={asset.chainName}
+                      icons={asset.icons}
+                      assetTag="stkStata"
+                    />
+                  )}
                 </React.Fragment>
               );
             } else if (asset.type.includes(IconType.chain)) {

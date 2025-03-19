@@ -208,6 +208,12 @@ for (const icon of iconsArray) {
           IconFormat.stkToken,
         );
       }
+      if (variations.includes(IconFormat.stkStataToken)) {
+        generateIconsContents(
+          `stkstata${meta.symbol.toLowerCase()}`,
+          IconFormat.stkStataToken,
+        );
+      }
     }
   }
 
