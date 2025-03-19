@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.18.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.17.1...react-web3-icons@v1.18.0) (2025-03-19)
+
+
+### Features
+
+* add some stkStata tokens ([95c59a2](https://github.com/bgd-labs/web3-icons/commit/95c59a262c973107eead2fc1730a1fad81a5bff7))
+
 ## [1.17.1](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.17.0...react-web3-icons@v1.17.1) (2025-03-19)
 
 
