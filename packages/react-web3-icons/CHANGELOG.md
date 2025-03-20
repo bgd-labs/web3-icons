@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.19.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.18.0...react-web3-icons@v1.19.0) (2025-03-20)
+
+
+### Features
+
+* add aliases for cbETH ([4f86281](https://github.com/bgd-labs/web3-icons/commit/4f86281cfc60b804b1a75fe3c4cf8631b03882d7))
+
 ## [1.18.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.17.1...react-web3-icons@v1.18.0) (2025-03-19)
 
 
