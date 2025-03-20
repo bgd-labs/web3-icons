@@ -11,7 +11,9 @@
     "stataEthcbETH",
     "aBascbETH",
     "variableDebtBascbETH",
-    "stataBascbETH"
+    "stataBascbETH",
+    "aAvacbETH",
+    "stataAvacbETH"
   ],
   "variations": [
     "aToken",
