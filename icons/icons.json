@@ -3478,6 +3478,32 @@
     "type": [
       "asset"
     ],
+    "symbol": "usdt0",
+    "name": "USD₮0",
+    "aliases": [
+      "USD₮0"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/usdt0.svg",
+      "full": "icons/full/usdt0.svg",
+      "aToken": {
+        "mono": "icons/mono/ausdt0.svg",
+        "full": "icons/full/ausdt0.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statausdt0.svg",
+        "full": "icons/full/statausdt0.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "symbol": "ust",
     "name": "TerraUSD",
     "aliases": [
