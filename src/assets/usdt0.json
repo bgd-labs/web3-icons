@@ -1,0 +1,15 @@
+{
+  "type": [
+    "asset"
+  ],
+  "symbol": "usdt0",
+  "name": "USD₮0",
+  "aliases": [
+    "USD₮0",
+    "usdt0"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

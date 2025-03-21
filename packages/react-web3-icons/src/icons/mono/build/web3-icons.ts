@@ -406,6 +406,8 @@ export type Web3IconType =
   | 'usdp'
   | 'usds'
   | 'usdt'
+  | 'usdt_0_full'
+  | 'usdt_0_mono'
   | 'ust'
   | 'walletconnect'
   | 'walletio'

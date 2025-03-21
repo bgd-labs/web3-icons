@@ -406,6 +406,8 @@ export { default as UsdeIcon } from './UsdeIcon';
 export { default as UsdpIcon } from './UsdpIcon';
 export { default as UsdsIcon } from './UsdsIcon';
 export { default as UsdtIcon } from './UsdtIcon';
+export { default as UsdtZero_fullIcon } from './UsdtZero_fullIcon';
+export { default as UsdtZero_monoIcon } from './UsdtZero_monoIcon';
 export { default as UstIcon } from './UstIcon';
 export { default as WalletconnectIcon } from './WalletconnectIcon';
 export { default as WalletioIcon } from './WalletioIcon';

@@ -410,6 +410,8 @@ export * from './build/icon-usde.icon';
 export * from './build/icon-usdp.icon';
 export * from './build/icon-usds.icon';
 export * from './build/icon-usdt.icon';
+export * from './build/icon-usdt0_full.icon';
+export * from './build/icon-usdt0_mono.icon';
 export * from './build/icon-ust.icon';
 export * from './build/icon-walletconnect.icon';
 export * from './build/icon-walletio.icon';
