@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.21.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.20.0...react-web3-icons@v1.21.0) (2025-03-21)
+
+
+### Features
+
+* replace non latin symbols in icon name with '-' ([d01cf37](https://github.com/bgd-labs/web3-icons/commit/d01cf370d092398e943b8403be4082ab30248bbc))
+
 ## [1.20.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.19.0...react-web3-icons@v1.20.0) (2025-03-21)
 
 
