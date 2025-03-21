@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.20.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.19.0...react-web3-icons@v1.20.0) (2025-03-21)
+
+
+### Features
+
+* add usdt0 ([de758f7](https://github.com/bgd-labs/web3-icons/commit/de758f7c5b6f0cddede1ea7fa7418afe8d6b62c5))
+
 ## [1.19.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.18.0...react-web3-icons@v1.19.0) (2025-03-20)
 
 
