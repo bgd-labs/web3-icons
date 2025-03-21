@@ -99,7 +99,9 @@ for (const icon of iconsArray) {
     .split(")")
     .join("")
     .replace(/\s/g, "")
-    .toLowerCase();
+    .toLowerCase()
+    // Replace non latin symbols to prevent svg from rendering correctly (e.g. USD₮0 -> usd-0)
+    .replace(/[\u0250-\ue007]/g, "-");
 
   const iconInfo = {
     ...meta,
