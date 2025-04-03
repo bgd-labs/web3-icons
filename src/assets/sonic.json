@@ -1,5 +1,17 @@
 {
-  "type": ["chain"],
+  "type": ["asset", "chain"],
+  "symbol": "s",
+  "name": "Sonic",
   "chainName": "Sonic",
-  "chainId": 146
+  "chainId": 146,
+
+  "aliases": [
+    "S",
+    "aEths",
+    "stataEths"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
 }
