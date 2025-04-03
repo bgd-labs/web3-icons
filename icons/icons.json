@@ -873,6 +873,35 @@
     "type": [
       "asset"
     ],
+    "symbol": "ebtc",
+    "name": "eBTC",
+    "aliases": [
+      "eBTC",
+      "EBTC",
+      "aEtheBTC",
+      "stataEtheBTC"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/ebtc.svg",
+      "full": "icons/full/ebtc.svg",
+      "aToken": {
+        "mono": "icons/mono/aebtc.svg",
+        "full": "icons/full/aebtc.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/stataebtc.svg",
+        "full": "icons/full/stataebtc.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "symbol": "enj",
     "name": "Enjin Coin",
     "aliases": [

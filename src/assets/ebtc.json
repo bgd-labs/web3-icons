@@ -1,0 +1,8 @@
+{
+  "type": ["asset"],
+  "name": "eBTC",
+  "symbol": "ebtc",
+
+  "aliases": ["eBTC", "EBTC", "aEtheBTC", "stataEtheBTC"],
+  "variations": ["aToken", "stataToken"]
+}
