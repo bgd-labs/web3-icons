@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.23.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.22.0...react-web3-icons@v1.23.0) (2025-04-03)
+
+
+### Features
+
+* combine asset and chain for sonic ([337192e](https://github.com/bgd-labs/web3-icons/commit/337192e6bb33555a04766d4460c58b4b53957ce3))
+
 ## [1.22.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.21.0...react-web3-icons@v1.22.0) (2025-04-03)
 
 
