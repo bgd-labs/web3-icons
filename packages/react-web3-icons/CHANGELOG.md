@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.21.0...react-web3-icons@v1.22.0) (2025-04-03)
+
+
+### Features
+
+* add eBTC icon ([ce320c4](https://github.com/bgd-labs/web3-icons/commit/ce320c439955a6da6981cc2aca59821bd872cb84))
+
 ## [1.21.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.20.0...react-web3-icons@v1.21.0) (2025-03-21)
 
 
