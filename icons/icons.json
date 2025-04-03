@@ -2831,13 +2831,33 @@
   },
   {
     "type": [
+      "asset",
       "chain"
     ],
+    "symbol": "s",
     "chainId": 146,
+    "name": "Sonic",
     "chainName": "Sonic",
+    "aliases": [
+      "S",
+      "aEths",
+      "stataEths"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
     "icons": {
-      "mono": "icons/mono/sonic.svg",
-      "full": "icons/full/sonic.svg"
+      "mono": "icons/mono/s.svg",
+      "full": "icons/full/s.svg",
+      "aToken": {
+        "mono": "icons/mono/as.svg",
+        "full": "icons/full/as.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statas.svg",
+        "full": "icons/full/statas.svg"
+      }
     }
   },
   {
