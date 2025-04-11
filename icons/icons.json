@@ -3553,6 +3553,35 @@
     "type": [
       "asset"
     ],
+    "symbol": "usdtb",
+    "name": "USDtb",
+    "aliases": [
+      "USDtb",
+      "USDTB",
+      "aEthUSDtb",
+      "stataEthUSDtb"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/usdtb.svg",
+      "full": "icons/full/usdtb.svg",
+      "aToken": {
+        "mono": "icons/mono/ausdtb.svg",
+        "full": "icons/full/ausdtb.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statausdtb.svg",
+        "full": "icons/full/statausdtb.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "symbol": "ust",
     "name": "TerraUSD",
     "aliases": [
