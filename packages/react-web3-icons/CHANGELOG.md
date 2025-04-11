@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.24.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.23.0...react-web3-icons@v1.24.0) (2025-04-11)
+
+
+### Features
+
+* add USDtb icon ([7e4941e](https://github.com/bgd-labs/web3-icons/commit/7e4941e442dd49ee53c9d267357420a3102c0695))
+
 ## [1.23.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.22.0...react-web3-icons@v1.23.0) (2025-04-03)
 
 
