@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.25.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.24.0...react-web3-icons@v1.25.0) (2025-04-11)
+
+
+### Features
+
+* add rlusd icon ([6a13eb4](https://github.com/bgd-labs/web3-icons/commit/6a13eb4889e6aa2f6f1b041786f29bc9916cddd2))
+
 ## [1.24.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.23.0...react-web3-icons@v1.24.0) (2025-04-11)
 
 
