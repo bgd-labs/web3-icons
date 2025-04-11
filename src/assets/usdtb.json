@@ -1,0 +1,8 @@
+{
+  "type": ["asset"],
+  "symbol": "usdtb",
+  "name": "USDtb",
+
+  "aliases": ["USDtb", "USDTB", "aEthUSDtb", "stataEthUSDtb"],
+  "variations": ["aToken", "stataToken"]
+}
