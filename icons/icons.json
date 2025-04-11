@@ -2512,6 +2512,34 @@
     "type": [
       "asset"
     ],
+    "symbol": "rlusd",
+    "name": "RLUSD",
+    "aliases": [
+      "RLUSD",
+      "aEthRLUSD",
+      "stataEthRLUSD"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/rlusd.svg",
+      "full": "icons/full/rlusd.svg",
+      "aToken": {
+        "mono": "icons/mono/arlusd.svg",
+        "full": "icons/full/arlusd.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statarlusd.svg",
+        "full": "icons/full/statarlusd.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "symbol": "rpl",
     "name": "Rocket Pool Protocol",
     "aliases": [

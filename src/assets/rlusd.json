@@ -1,0 +1,7 @@
+{
+  "type": ["asset"],
+  "symbol": "rlusd",
+  "name": "RLUSD",
+  "aliases": ["rlUSD", "RLUSD", "aEthRLUSD", "stataEthRLUSD"],
+  "variations": ["aToken", "stataToken"]
+}
