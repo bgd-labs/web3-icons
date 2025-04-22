@@ -1,0 +1,17 @@
+{
+  "type": [
+    "asset"
+  ],
+  "symbol": "eusde",
+  "name": "Ethereal eUSDe",
+  "aliases": [
+    "eUSDe",
+    "eUSDE",
+    "aEthEUSDe",
+    "stataEthEUSDE"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

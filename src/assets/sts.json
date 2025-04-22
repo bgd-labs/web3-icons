@@ -1,0 +1,16 @@
+{
+  "type": [
+    "asset"
+  ],
+  "symbol": "sts",
+  "name": "Beets Staked Sonic",
+  "aliases": [
+    "stS",
+    "aStS",
+    "stataStS"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -1173,6 +1173,35 @@
   },
   {
     "type": [
+      "asset"
+    ],
+    "symbol": "eusde",
+    "name": "Ethereal eUSDe",
+    "aliases": [
+      "eUSDe",
+      "eUSDE",
+      "aEthEUSDe",
+      "stataEthEUSDE"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/eusde.svg",
+      "full": "icons/full/eusde.svg",
+      "aToken": {
+        "mono": "icons/mono/aeusde.svg",
+        "full": "icons/full/aeusde.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/stataeusde.svg",
+        "full": "icons/full/stataeusde.svg"
+      }
+    }
+  },
+  {
+    "type": [
       "wallet"
     ],
     "identityFlag": "isExodus",
@@ -1236,6 +1265,32 @@
     "icons": {
       "mono": "icons/mono/fantomtestnet.svg",
       "full": "icons/full/fantomtestnet.svg"
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
+    "symbol": "fbtc",
+    "name": "Fire Bitcoin",
+    "aliases": [
+      "fBTC"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/fbtc.svg",
+      "full": "icons/full/fbtc.svg",
+      "aToken": {
+        "mono": "icons/mono/afbtc.svg",
+        "full": "icons/full/afbtc.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statafbtc.svg",
+        "full": "icons/full/statafbtc.svg"
+      }
     }
   },
   {
@@ -2515,6 +2570,7 @@
     "symbol": "rlusd",
     "name": "RLUSD",
     "aliases": [
+      "rlUSD",
       "RLUSD",
       "aEthRLUSD",
       "stataEthRLUSD"
@@ -3050,6 +3106,34 @@
       "stataToken": {
         "mono": "icons/mono/statastmatic.svg",
         "full": "icons/full/statastmatic.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
+    "symbol": "sts",
+    "name": "Beets Staked Sonic",
+    "aliases": [
+      "stS",
+      "aStS",
+      "stataStS"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/sts.svg",
+      "full": "icons/full/sts.svg",
+      "aToken": {
+        "mono": "icons/mono/asts.svg",
+        "full": "icons/full/asts.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statasts.svg",
+        "full": "icons/full/statasts.svg"
       }
     }
   },

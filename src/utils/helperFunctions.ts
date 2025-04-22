@@ -12,11 +12,8 @@ import {
   AaveV3Ethereum,
   AaveV3EthereumEtherFi,
   AaveV3EthereumLido,
-  AaveV3Fantom,
-  AaveV3FantomTestnet,
   AaveV3Fuji,
   AaveV3Gnosis,
-  AaveV3Harmony,
   AaveV3Metis,
   AaveV3Optimism,
   AaveV3OptimismSepolia,
@@ -220,7 +217,6 @@ const poolsSymbols: Record<string, string> = {
   [`${AaveV3Base.POOL}_${AaveV3Base.CHAIN_ID}`]: "Bas",
   [`${AaveV3Arbitrum.POOL}_${AaveV3Arbitrum.CHAIN_ID}`]: "Arb",
   [`${AaveV3BNB.POOL}_${AaveV3BNB.CHAIN_ID}`]: "Bnb",
-  [`${AaveV3Harmony.POOL}_${AaveV3Harmony.CHAIN_ID}`]: "Har",
   [`${AaveV3Metis.POOL}_${AaveV3Metis.CHAIN_ID}`]: "Met",
   [`${AaveV3ZkSync.POOL}_${AaveV3ZkSync.CHAIN_ID}`]: "Zks",
   [`${AaveV3Gnosis.POOL}_${AaveV3Gnosis.CHAIN_ID}`]: "Gno",
@@ -236,10 +232,6 @@ const poolsSymbols: Record<string, string> = {
   [`${AaveV3ScrollSepolia.POOL}_${AaveV3ScrollSepolia.CHAIN_ID}`]: "Scr",
   // v2 testnets
   [`${AaveV2Fuji.POOL}_${AaveV2Fuji.CHAIN_ID}`]: "Ava",
-
-  // need test
-  [`${AaveV3Fantom.POOL}_${AaveV3Fantom.CHAIN_ID}`]: "Fan",
-  [`${AaveV3FantomTestnet.POOL}_${AaveV3FantomTestnet.CHAIN_ID}`]: "Fan",
 };
 
 export const updateAliasesWithAddressBook = (
