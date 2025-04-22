@@ -1173,6 +1173,33 @@
   },
   {
     "type": [
+      "asset"
+    ],
+    "symbol": "eusde",
+    "name": "Ethereal eUSDe",
+    "aliases": [
+      "eUSDe",
+      "eUSDE"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/eusde.svg",
+      "full": "icons/full/eusde.svg",
+      "aToken": {
+        "mono": "icons/mono/aeusde.svg",
+        "full": "icons/full/aeusde.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/stataeusde.svg",
+        "full": "icons/full/stataeusde.svg"
+      }
+    }
+  },
+  {
+    "type": [
       "wallet"
     ],
     "identityFlag": "isExodus",
