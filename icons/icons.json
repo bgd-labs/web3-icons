@@ -3084,6 +3084,32 @@
     "type": [
       "asset"
     ],
+    "symbol": "sts",
+    "name": "Beets Staked Sonic",
+    "aliases": [
+      "stS"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/sts.svg",
+      "full": "icons/full/sts.svg",
+      "aToken": {
+        "mono": "icons/mono/asts.svg",
+        "full": "icons/full/asts.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statasts.svg",
+        "full": "icons/full/statasts.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "symbol": "stusd",
     "name": "Angle Staked USD",
     "aliases": [
