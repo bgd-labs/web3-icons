@@ -1,0 +1,14 @@
+{
+  "type": [
+    "asset"
+  ],
+  "symbol": "fbtc",
+  "name": "Fire Bitcoin",
+  "aliases": [
+    "fBTC"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

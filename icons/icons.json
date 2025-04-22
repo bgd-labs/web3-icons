@@ -1242,6 +1242,32 @@
     "type": [
       "asset"
     ],
+    "symbol": "fbtc",
+    "name": "Fire Bitcoin",
+    "aliases": [
+      "fBTC"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/fbtc.svg",
+      "full": "icons/full/fbtc.svg",
+      "aToken": {
+        "mono": "icons/mono/afbtc.svg",
+        "full": "icons/full/afbtc.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statafbtc.svg",
+        "full": "icons/full/statafbtc.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "symbol": "fdusd",
     "name": "First Digital USD",
     "aliases": [
@@ -2515,6 +2541,7 @@
     "symbol": "rlusd",
     "name": "RLUSD",
     "aliases": [
+      "rlUSD",
       "RLUSD",
       "aEthRLUSD",
       "stataEthRLUSD"
