@@ -5,7 +5,9 @@
   "symbol": "sts",
   "name": "Beets Staked Sonic",
   "aliases": [
-    "stS"
+    "stS",
+    "aStS",
+    "stataStS"
   ],
   "variations": [
     "aToken",

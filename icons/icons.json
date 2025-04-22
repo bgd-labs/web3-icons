@@ -1179,7 +1179,9 @@
     "name": "Ethereal eUSDe",
     "aliases": [
       "eUSDe",
-      "eUSDE"
+      "eUSDE",
+      "aEthEUSDe",
+      "stataEthEUSDE"
     ],
     "variations": [
       "aToken",
@@ -3114,7 +3116,9 @@
     "symbol": "sts",
     "name": "Beets Staked Sonic",
     "aliases": [
-      "stS"
+      "stS",
+      "aStS",
+      "stataStS"
     ],
     "variations": [
       "aToken",
