@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.26.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.25.0...react-web3-icons@v1.26.0) (2025-04-22)
+
+
+### Features
+
+* add eusde ([d65e5eb](https://github.com/bgd-labs/web3-icons/commit/d65e5eb1c626f47b70e02f72149b83011e9cb470))
+* add fbtc ([6a42be4](https://github.com/bgd-labs/web3-icons/commit/6a42be4978e83ec63c8fbdc623c5456c84badbea))
+* add sts ([5229b8b](https://github.com/bgd-labs/web3-icons/commit/5229b8bfc539ef23c79f7399f0efbb5cbfc93146))
+* update susde icon ([6d9a3a6](https://github.com/bgd-labs/web3-icons/commit/6d9a3a601960a2d29cd27e88f6b3e2cdac12f0e6))
+
 ## [1.25.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.24.0...react-web3-icons@v1.25.0) (2025-04-11)
 
 
