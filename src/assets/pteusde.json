@@ -1,0 +1,17 @@
+{
+  "type": ["asset"],
+  "symbol": "pteusde",
+  "name": "PT Ethereal eUSDE",
+
+  "aliases": [
+    "PTeUSDE",
+    "PT-eUSDE",
+    "PT-eUSDe",
+    "aEthPT-eUSDe",
+    "stataEthPT-eUSDe",
+    "PT-eUSDE-29MAY2025",
+    "aEthPT-eUSDE-29MAY2025",
+    "stataEthPT-eUSDE-29MAY2025"
+  ],
+  "variations": ["aToken", "stataToken"]
+}

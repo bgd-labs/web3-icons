@@ -1,0 +1,17 @@
+{
+  "type": ["asset"],
+  "symbol": "ptsusde",
+  "name": "PT Ethena sUSDE",
+
+  "aliases": [
+    "PTsUSDE",
+    "PT-sUSDE",
+    "PT-sUSDe",
+    "aEthPT-sUSDe",
+    "stataEthPT-sUSDe",
+    "PT-sUSDE-31JUL2025",
+    "aEthPT-sUSDE-31JUL2025",
+    "stataEthPT-sUSDE-31JUL2025"
+  ],
+  "variations": ["aToken", "stataToken"]
+}
