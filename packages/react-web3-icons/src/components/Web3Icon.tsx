@@ -31,7 +31,7 @@ export const Web3Icon = ({
     mono,
   });
   const iconIdentifier = String(
-    symbol || chainId || walletKey || brandKey || "?",
+    symbol || chainId || walletKey || brandKey || "?"
   );
   const abbreviation = iconIdentifier.charAt(0).toUpperCase();
 

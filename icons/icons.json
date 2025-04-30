@@ -2377,6 +2377,72 @@
     "type": [
       "asset"
     ],
+    "symbol": "pteusde",
+    "name": "PT Ethereal eUSDE",
+    "aliases": [
+      "PTeUSDE",
+      "PT-eUSDE",
+      "PT-eUSDe",
+      "aEthPT-eUSDe",
+      "stataEthPT-eUSDe",
+      "PT-eUSDE-29MAY2025",
+      "aEthPT-eUSDE-29MAY2025",
+      "stataEthPT-eUSDE-29MAY2025"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/pteusde.svg",
+      "full": "icons/full/pteusde.svg",
+      "aToken": {
+        "mono": "icons/mono/apteusde.svg",
+        "full": "icons/full/apteusde.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statapteusde.svg",
+        "full": "icons/full/statapteusde.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
+    "symbol": "ptsusde",
+    "name": "PT Ethena sUSDE",
+    "aliases": [
+      "PTsUSDE",
+      "PT-sUSDE",
+      "PT-sUSDe",
+      "aEthPT-sUSDe",
+      "stataEthPT-sUSDe",
+      "PT-sUSDE-31JUL2025",
+      "aEthPT-sUSDE-31JUL2025",
+      "stataEthPT-sUSDE-31JUL2025"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/ptsusde.svg",
+      "full": "icons/full/ptsusde.svg",
+      "aToken": {
+        "mono": "icons/mono/aptsusde.svg",
+        "full": "icons/full/aptsusde.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/stataptsusde.svg",
+        "full": "icons/full/stataptsusde.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "symbol": "pyusd",
     "name": "PayPal USD",
     "aliases": [
