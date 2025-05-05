@@ -272,6 +272,7 @@ export * from './build/icon-sequencewallet.icon';
 export * from './build/icon-seth.icon';
 export * from './build/icon-sfrxeth.icon';
 export * from './build/icon-snx.icon';
+export * from './build/icon-soneium.icon';
 export * from './build/icon-sonic.icon';
 export * from './build/icon-stata1inch.icon';
 export * from './build/icon-stataaave.icon';

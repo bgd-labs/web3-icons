@@ -268,6 +268,7 @@ export type Web3IconType =
   | 'seth'
   | 'sfrxeth'
   | 'snx'
+  | 'soneium'
   | 'sonic'
   | 'stata_1_inch'
   | 'stataaave'
