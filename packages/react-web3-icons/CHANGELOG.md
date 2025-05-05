@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.28.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.27.0...react-web3-icons@v1.28.0) (2025-05-05)
+
+
+### Features
+
+* add soneium network ([e2c3523](https://github.com/bgd-labs/web3-icons/commit/e2c35231a0e31b1c6ab717eb3e4deb2d66bec8e7))
+
 ## [1.27.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.26.0...react-web3-icons@v1.27.0) (2025-04-30)
 
 
