@@ -2981,6 +2981,17 @@
   },
   {
     "type": [
+      "chain"
+    ],
+    "chainId": 1868,
+    "chainName": "Soneium",
+    "icons": {
+      "mono": "icons/mono/soneium.svg",
+      "full": "icons/full/soneium.svg"
+    }
+  },
+  {
+    "type": [
       "asset",
       "chain"
     ],

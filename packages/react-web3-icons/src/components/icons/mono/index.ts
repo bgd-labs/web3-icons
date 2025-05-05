@@ -268,6 +268,7 @@ export { default as SequencewalletIcon } from './SequencewalletIcon';
 export { default as SethIcon } from './SethIcon';
 export { default as SfrxethIcon } from './SfrxethIcon';
 export { default as SnxIcon } from './SnxIcon';
+export { default as SoneiumIcon } from './SoneiumIcon';
 export { default as SonicIcon } from './SonicIcon';
 export { default as StataOneInchIcon } from './StataOneInchIcon';
 export { default as StataaaveIcon } from './StataaaveIcon';
