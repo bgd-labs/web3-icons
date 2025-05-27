@@ -11,7 +11,13 @@
     "stataEthPT-eUSDe",
     "PT-eUSDE-29MAY2025",
     "aEthPT-eUSDE-29MAY2025",
-    "stataEthPT-eUSDE-29MAY2025"
+    "stataEthPT-eUSDE-29MAY2025",
+    "PT-eUSDE-14AUG2025",
+    "aEthPT-eUSDE-14AUG2025",
+    "stataEthPT-eUSDE-14AUG2025",
+    "PT-USDe-31JUL2025",
+    "aEthPT-USDe-31JUL2025",
+    "stataEthPT-USDe-31JUL2025"
   ],
   "variations": ["aToken", "stataToken"]
 }
