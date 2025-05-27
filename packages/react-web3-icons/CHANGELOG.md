@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.29.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.28.0...react-web3-icons@v1.29.0) (2025-05-27)
+
+
+### Miscellaneous Chores
+
+* release 1.29.0 ([18bb0d8](https://github.com/bgd-labs/web3-icons/commit/18bb0d87a07f7a213d330be276391bdb7e9d779f))
+
 ## [1.28.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.27.0...react-web3-icons@v1.28.0) (2025-05-05)
 
 
