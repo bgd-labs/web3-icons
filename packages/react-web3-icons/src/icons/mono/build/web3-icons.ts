@@ -10,6 +10,7 @@ export type Web3IconType =
   | 'aausd'
   | 'aavax'
   | 'aave'
+  | 'aavestkgho'
   | 'abal'
   | 'abat'
   | 'abnbx'

@@ -12,8 +12,5 @@
     "variableDebtArbGHO",
     "stataArbGHO"
   ],
-  "variations": [
-    "aToken",
-    "stataToken"
-  ]
+  "variations": ["aToken", "stataToken", "stkToken"]
 }

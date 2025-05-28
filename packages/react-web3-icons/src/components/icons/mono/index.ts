@@ -10,6 +10,7 @@ export { default as AarbIcon } from './AarbIcon';
 export { default as AausdIcon } from './AausdIcon';
 export { default as AavaxIcon } from './AavaxIcon';
 export { default as AaveIcon } from './AaveIcon';
+export { default as AavestkghoIcon } from './AavestkghoIcon';
 export { default as AbalIcon } from './AbalIcon';
 export { default as AbatIcon } from './AbatIcon';
 export { default as AbnbxIcon } from './AbnbxIcon';

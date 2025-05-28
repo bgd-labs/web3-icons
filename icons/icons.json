@@ -61,6 +61,22 @@
   },
   {
     "type": [
+      "asset"
+    ],
+    "symbol": "aavestkgho",
+    "name": "Aave stkGHO",
+    "aliases": [
+      "stkgho",
+      "stkGHO"
+    ],
+    "variations": [],
+    "icons": {
+      "mono": "icons/mono/aavestkgho.svg",
+      "full": "icons/full/aavestkgho.svg"
+    }
+  },
+  {
+    "type": [
       "wallet"
     ],
     "identityFlag": "isAlphaWallet",
@@ -1490,7 +1506,8 @@
     ],
     "variations": [
       "aToken",
-      "stataToken"
+      "stataToken",
+      "stkToken"
     ],
     "icons": {
       "mono": "icons/mono/gho.svg",
@@ -1502,6 +1519,10 @@
       "stataToken": {
         "mono": "icons/mono/statagho.svg",
         "full": "icons/full/statagho.svg"
+      },
+      "stkToken": {
+        "mono": "icons/mono/stkgho.svg",
+        "full": "icons/full/stkgho.svg"
       }
     }
   },
@@ -2387,7 +2408,13 @@
       "stataEthPT-eUSDe",
       "PT-eUSDE-29MAY2025",
       "aEthPT-eUSDE-29MAY2025",
-      "stataEthPT-eUSDE-29MAY2025"
+      "stataEthPT-eUSDE-29MAY2025",
+      "PT-eUSDE-14AUG2025",
+      "aEthPT-eUSDE-14AUG2025",
+      "stataEthPT-eUSDE-14AUG2025",
+      "PT-USDe-31JUL2025",
+      "aEthPT-USDe-31JUL2025",
+      "stataEthPT-USDe-31JUL2025"
     ],
     "variations": [
       "aToken",
@@ -3140,21 +3167,6 @@
     "icons": {
       "mono": "icons/mono/stkbptv2.svg",
       "full": "icons/full/stkbptv2.svg"
-    }
-  },
-  {
-    "type": [
-      "asset"
-    ],
-    "symbol": "stkgho",
-    "name": "Aave stkGHO",
-    "aliases": [
-      "stkGHO"
-    ],
-    "variations": [],
-    "icons": {
-      "mono": "icons/mono/stkgho.svg",
-      "full": "icons/full/stkgho.svg"
     }
   },
   {
