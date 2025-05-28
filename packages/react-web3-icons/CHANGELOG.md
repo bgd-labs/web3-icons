@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.30.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.29.0...react-web3-icons@v1.30.0) (2025-05-28)
+
+
+### Features
+
+* stkgho -&gt; aavestkgho, add stk variant for gho ([491b28e](https://github.com/bgd-labs/web3-icons/commit/491b28e186b8be8edd91c10bfe223d0e4fefdaf2))
+* update stkgho icon ([36f967e](https://github.com/bgd-labs/web3-icons/commit/36f967e84072016448827eb617af878f730be253))
+
 ## [1.29.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.28.0...react-web3-icons@v1.29.0) (2025-05-27)
 
 
