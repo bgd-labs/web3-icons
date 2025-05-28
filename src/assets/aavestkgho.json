@@ -1,8 +1,8 @@
 {
   "type": ["asset"],
-  "symbol": "stkgho",
+  "symbol": "aavestkgho",
   "name": "Aave stkGHO",
 
-  "aliases": ["stkGHO"],
+  "aliases": ["stkgho", "stkGHO"],
   "variations": []
 }

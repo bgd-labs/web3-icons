@@ -14,6 +14,7 @@ export * from './build/icon-aarb.icon';
 export * from './build/icon-aausd.icon';
 export * from './build/icon-aavax.icon';
 export * from './build/icon-aave.icon';
+export * from './build/icon-aavestkgho.icon';
 export * from './build/icon-abal.icon';
 export * from './build/icon-abat.icon';
 export * from './build/icon-abnbx.icon';
