@@ -427,6 +427,18 @@
   },
   {
     "type": [
+      "chain"
+    ],
+    "symbol": "bob",
+    "chainId": 60808,
+    "chainName": "BOB",
+    "icons": {
+      "mono": "icons/mono/bob.svg",
+      "full": "icons/full/bob.svg"
+    }
+  },
+  {
+    "type": [
       "asset"
     ],
     "symbol": "bpt",

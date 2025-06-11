@@ -150,6 +150,7 @@ export type Web3IconType =
   | 'blockwallet'
   | 'bnbsmartchain'
   | 'bnbx'
+  | 'bob'
   | 'bpt'
   | 'bravewallet'
   | 'browserwallet'

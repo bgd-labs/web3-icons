@@ -154,6 +154,7 @@ export * from './build/icon-bitskiwallet.icon';
 export * from './build/icon-blockwallet.icon';
 export * from './build/icon-bnbsmartchain.icon';
 export * from './build/icon-bnbx.icon';
+export * from './build/icon-bob.icon';
 export * from './build/icon-bpt.icon';
 export * from './build/icon-bravewallet.icon';
 export * from './build/icon-browserwallet.icon';
