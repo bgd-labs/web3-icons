@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.31.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.30.0...react-web3-icons@v1.31.0) (2025-06-11)
+
+
+### Features
+
+* add bob icon ([fb27cb1](https://github.com/bgd-labs/web3-icons/commit/fb27cb14c3f7c021a9548c3a2fb3f944bd2fb8c3))
+
 ## [1.30.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.29.0...react-web3-icons@v1.30.0) (2025-05-28)
 
 
