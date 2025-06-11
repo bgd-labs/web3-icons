@@ -150,6 +150,7 @@ export { default as BitskiwalletIcon } from './BitskiwalletIcon';
 export { default as BlockwalletIcon } from './BlockwalletIcon';
 export { default as BnbsmartchainIcon } from './BnbsmartchainIcon';
 export { default as BnbxIcon } from './BnbxIcon';
+export { default as BobIcon } from './BobIcon';
 export { default as BptIcon } from './BptIcon';
 export { default as BravewalletIcon } from './BravewalletIcon';
 export { default as BrowserwalletIcon } from './BrowserwalletIcon';

@@ -1,0 +1,8 @@
+{
+  "type": [
+    "chain"
+  ],
+  "symbol": "bob",
+  "chainId": 60808,
+  "chainName": "BOB"
+}
