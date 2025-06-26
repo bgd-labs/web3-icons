@@ -3353,6 +3353,34 @@
   },
   {
     "type": [
+      "asset"
+    ],
+    "symbol": "teth",
+    "name": "Treehouse ETH",
+    "aliases": [
+      "tETH",
+      "atETH",
+      "statatETH"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/teth.svg",
+      "full": "icons/full/teth.svg",
+      "aToken": {
+        "mono": "icons/mono/ateth.svg",
+        "full": "icons/full/ateth.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statateth.svg",
+        "full": "icons/full/statateth.svg"
+      }
+    }
+  },
+  {
+    "type": [
       "wallet"
     ],
     "identityFlag": "isTally",
