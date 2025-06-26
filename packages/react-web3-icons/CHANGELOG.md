@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.32.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.31.0...react-web3-icons@v1.32.0) (2025-06-26)
+
+
+### Features
+
+* add tEth ([5dc67ff](https://github.com/bgd-labs/web3-icons/commit/5dc67ffcf7ea63be5b8d7c89c024db12baedfc7b))
+
 ## [1.31.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.30.0...react-web3-icons@v1.31.0) (2025-06-11)
 
 
