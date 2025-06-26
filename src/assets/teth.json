@@ -1,0 +1,16 @@
+{
+  "type": [
+    "asset"
+  ],
+  "symbol": "teth",
+  "name": "Treehouse ETH",
+  "aliases": [
+    "tETH",
+    "atETH",
+    "statatETH"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
