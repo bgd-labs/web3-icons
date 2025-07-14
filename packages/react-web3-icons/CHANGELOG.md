@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.33.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.32.0...react-web3-icons@v1.33.0) (2025-07-14)
+
+
+### Features
+
+* update aliases for PTsUSDE ([f7d92b0](https://github.com/bgd-labs/web3-icons/commit/f7d92b0c69a6db06e90a935dbe8b53a5a5ee2525))
+
 ## [1.32.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.31.0...react-web3-icons@v1.32.0) (2025-06-26)
 
 
