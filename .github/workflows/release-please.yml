@@ -14,11 +14,9 @@ jobs:
     outputs:
       releaseCreated: ${{ steps.release.outputs.release_created }}
     steps:
-      - uses: google-github-actions/release-please-action@v4
+      - uses: googleapis/release-please-action@v4
         id: release
         with:
-          release-type: node
-          package-name: react-web3-icons
           config-file: .github/release-please-config.json
           manifest-file: .github/.release-please-manifest.json
 
