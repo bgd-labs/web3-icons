@@ -1,3 +1,4 @@
+name: release-please
 on:
   push:
     branches:
@@ -7,24 +8,23 @@ permissions:
   contents: write
   pull-requests: write
 
-name: release-please
 jobs:
   release-please:
     runs-on: ubuntu-latest
     outputs:
       releaseCreated: ${{ steps.release.outputs.release_created }}
     steps:
-      - uses: google-github-actions/release-please-action@v3
+      - uses: google-github-actions/release-please-action@v4
         id: release
         with:
           release-type: node
           package-name: react-web3-icons
-          pull-request-header: "I have created a release"
-          path: packages/react-web3-icons
-          monorepo-tags: true
-          tag-separator: '@'
+          config-file: .github/release-please-config.json
+          manifest-file: .github/.release-please-manifest.json
 
   release-node:
+    needs: release-please
+    if: ${{ needs.release-please.outputs.releaseCreated }}
     uses: bgd-labs/web3-icons/.github/workflows/release-node.yml@main
     secrets:
       NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
