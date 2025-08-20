@@ -1742,6 +1742,17 @@
   },
   {
     "type": [
+      "chain"
+    ],
+    "chainId": 57073,
+    "chainName": "Ink",
+    "icons": {
+      "mono": "icons/mono/ink.svg",
+      "full": "icons/full/ink.svg"
+    }
+  },
+  {
+    "type": [
       "asset"
     ],
     "symbol": "jeur",
@@ -2393,6 +2404,17 @@
     "icons": {
       "mono": "icons/mono/phantomwallet.svg",
       "full": "icons/full/phantomwallet.svg"
+    }
+  },
+  {
+    "type": [
+      "chain"
+    ],
+    "chainId": 9745,
+    "chainName": "Plasma",
+    "icons": {
+      "mono": "icons/mono/plasma.svg",
+      "full": "icons/full/plasma.svg"
     }
   },
   {
