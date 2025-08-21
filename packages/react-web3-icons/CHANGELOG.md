@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.35.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.34.0...react-web3-icons@v1.35.0) (2025-08-21)
+
+
+### Features
+
+* add ink and plasma icons ([3c05aaa](https://github.com/bgd-labs/web3-icons/commit/3c05aaaaae2ef52f25d4a8fe12972fa94a3aace5))
+
 ## [1.34.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.33.0...react-web3-icons@v1.34.0) (2025-07-30)
 
 
