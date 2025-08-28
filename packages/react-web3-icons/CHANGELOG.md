@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.36.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.35.0...react-web3-icons@v1.36.0) (2025-08-28)
+
+
+### Features
+
+* add xaut ([db9535a](https://github.com/bgd-labs/web3-icons/commit/db9535a6cf85e200cf44783700371de75474e05d))
+
 ## [1.35.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.34.0...react-web3-icons@v1.35.0) (2025-08-21)
 
 
