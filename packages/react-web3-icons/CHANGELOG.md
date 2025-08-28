@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.38.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.37.0...react-web3-icons@v1.38.0) (2025-08-28)
+
+
+### Features
+
+* trigger v1.37.0 release ([28801a8](https://github.com/bgd-labs/web3-icons/commit/28801a83dfaf1ec0c58b8a58f0f1a547541bf842))
+
 ## [1.37.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.36.0...react-web3-icons@v1.37.0) (2025-08-28)
 
 
