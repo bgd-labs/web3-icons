@@ -1,0 +1,11 @@
+{
+  "type": [
+    "asset"
+  ],
+  "symbol": "XAUt",
+  "name": "Tether Gold",
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

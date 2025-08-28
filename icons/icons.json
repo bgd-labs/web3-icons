@@ -35,6 +35,29 @@
     "type": [
       "asset"
     ],
+    "symbol": "XAUt",
+    "name": "Tether Gold",
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/xaut.svg",
+      "full": "icons/full/xaut.svg",
+      "aToken": {
+        "mono": "icons/mono/axaut.svg",
+        "full": "icons/full/axaut.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/stataxaut.svg",
+        "full": "icons/full/stataxaut.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "symbol": "aave",
     "name": "Aave Token",
     "aliases": [
