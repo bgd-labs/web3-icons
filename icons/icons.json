@@ -4310,6 +4310,32 @@
     "type": [
       "asset"
     ],
+    "symbol": "xaut0",
+    "name": "XAUT0",
+    "aliases": [
+      "XAU₮0"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/xaut0.svg",
+      "full": "icons/full/xaut0.svg",
+      "aToken": {
+        "mono": "icons/mono/axaut0.svg",
+        "full": "icons/full/axaut0.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/stataxaut0.svg",
+        "full": "icons/full/stataxaut0.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "symbol": "xdai",
     "name": "XDAI",
     "aliases": [
