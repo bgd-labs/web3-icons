@@ -22,9 +22,10 @@ jobs:
           pull-request-header: "I have created a release"
           path: packages/react-web3-icons
           monorepo-tags: true
-          tag-separator: '@'
+          tag-separator: "@"
 
   release-node:
+    needs: [release-please]
     uses: bgd-labs/web3-icons/.github/workflows/release-node.yml@main
     if: ${{ needs.release-please.outputs.releaseCreated }}
     secrets:
