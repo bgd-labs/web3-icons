@@ -1,5 +1,91 @@
 # Changelog
 
+## [1.41.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.4.1...react-web3-icons@v1.41.0) (2025-09-22)
+
+
+### Features
+
+* add aliases for cbETH ([4f86281](https://github.com/bgd-labs/web3-icons/commit/4f86281cfc60b804b1a75fe3c4cf8631b03882d7))
+* add bob icon ([fb27cb1](https://github.com/bgd-labs/web3-icons/commit/fb27cb14c3f7c021a9548c3a2fb3f944bd2fb8c3))
+* add celo-related icons ([e19f503](https://github.com/bgd-labs/web3-icons/commit/e19f50327586b7d36d74fccdacc01bdf31bb046b))
+* add eBTC icon ([ce320c4](https://github.com/bgd-labs/web3-icons/commit/ce320c439955a6da6981cc2aca59821bd872cb84))
+* add eurc icon ([f6e9456](https://github.com/bgd-labs/web3-icons/commit/f6e9456f8a944bf87f2364df1ea521cede84c7c0))
+* add eusde ([d65e5eb](https://github.com/bgd-labs/web3-icons/commit/d65e5eb1c626f47b70e02f72149b83011e9cb470))
+* Add fallbackProps ([a60dc9e](https://github.com/bgd-labs/web3-icons/commit/a60dc9e7c198bfae10d209424001546aaffed0bc))
+* add fbtc ([6a42be4](https://github.com/bgd-labs/web3-icons/commit/6a42be4978e83ec63c8fbdc623c5456c84badbea))
+* add ink and plasma icons ([3c05aaa](https://github.com/bgd-labs/web3-icons/commit/3c05aaaaae2ef52f25d4a8fe12972fa94a3aace5))
+* add lbtc asset ([bf776f7](https://github.com/bgd-labs/web3-icons/commit/bf776f790ac9de927b7c1020e940d19134400d73))
+* add PT-eUSDE and PT-sUSDE icons, small fixes ([394993b](https://github.com/bgd-labs/web3-icons/commit/394993b0a9a359a19ed0768715711b51ffe5fa83))
+* add rlusd icon ([6a13eb4](https://github.com/bgd-labs/web3-icons/commit/6a13eb4889e6aa2f6f1b041786f29bc9916cddd2))
+* add some stkStata tokens ([95c59a2](https://github.com/bgd-labs/web3-icons/commit/95c59a262c973107eead2fc1730a1fad81a5bff7))
+* add soneium network ([e2c3523](https://github.com/bgd-labs/web3-icons/commit/e2c35231a0e31b1c6ab717eb3e4deb2d66bec8e7))
+* add sonic and mantle chain icons ([672be30](https://github.com/bgd-labs/web3-icons/commit/672be302192fa0dc8aa29e66c1f78f457f6fca2c))
+* add stkStata token type ([1174d99](https://github.com/bgd-labs/web3-icons/commit/1174d992a767da7f799fa57ce559e6d083179a8b))
+* add sts ([5229b8b](https://github.com/bgd-labs/web3-icons/commit/5229b8bfc539ef23c79f7399f0efbb5cbfc93146))
+* add tEth ([5dc67ff](https://github.com/bgd-labs/web3-icons/commit/5dc67ffcf7ea63be5b8d7c89c024db12baedfc7b))
+* add usdt0 ([de758f7](https://github.com/bgd-labs/web3-icons/commit/de758f7c5b6f0cddede1ea7fa7418afe8d6b62c5))
+* add USDtb icon ([7e4941e](https://github.com/bgd-labs/web3-icons/commit/7e4941e442dd49ee53c9d267357420a3102c0695))
+* add wrseth and replace icon for rseth ([8bb1dbb](https://github.com/bgd-labs/web3-icons/commit/8bb1dbb8394575bfea9b7a72bc9b787ab60bb7c6))
+* add ws icon ([1346baa](https://github.com/bgd-labs/web3-icons/commit/1346baa16b6a75e5f9d06b4246186a950c5e6888))
+* add xaut ([db9535a](https://github.com/bgd-labs/web3-icons/commit/db9535a6cf85e200cf44783700371de75474e05d))
+* add xaut0 icon ([1af8442](https://github.com/bgd-labs/web3-icons/commit/1af84420815677e890192c78900671cfa55523f1))
+* brands icons and stk template ([#37](https://github.com/bgd-labs/web3-icons/issues/37)) ([f87e038](https://github.com/bgd-labs/web3-icons/commit/f87e038f3afbe8d46991848aa83ffa4930237e43))
+* change icon for Optimism mainnet ([7ca970a](https://github.com/bgd-labs/web3-icons/commit/7ca970af1abaf27509fbfbd41a9949f8a98c904a))
+* combine asset and chain for sonic ([337192e](https://github.com/bgd-labs/web3-icons/commit/337192e6bb33555a04766d4460c58b4b53957ce3))
+* generate icons ([ea1e96c](https://github.com/bgd-labs/web3-icons/commit/ea1e96cf3c977972510fe2118cc72ef83919d3ee))
+* Generate umbrella icons for reserve tokens ([e84a006](https://github.com/bgd-labs/web3-icons/commit/e84a006eade2a615de7c40da28fc1ee96a15a0bc))
+* new icon frames ([cc122af](https://github.com/bgd-labs/web3-icons/commit/cc122af77f6b26fe61ea1903aa7b941ba9cc0449))
+* replace non latin symbols in icon name with '-' ([d01cf37](https://github.com/bgd-labs/web3-icons/commit/d01cf370d092398e943b8403be4082ab30248bbc))
+* static icon components generation ([#47](https://github.com/bgd-labs/web3-icons/issues/47)) ([44f7016](https://github.com/bgd-labs/web3-icons/commit/44f7016b2adb1d8b222e791ac23e788d820f67b6))
+* stkgho -&gt; aavestkgho, add stk variant for gho ([491b28e](https://github.com/bgd-labs/web3-icons/commit/491b28e186b8be8edd91c10bfe223d0e4fefdaf2))
+* trigger v1.37.0 release ([28801a8](https://github.com/bgd-labs/web3-icons/commit/28801a83dfaf1ec0c58b8a58f0f1a547541bf842))
+* Update aave-address-book ([5721814](https://github.com/bgd-labs/web3-icons/commit/5721814e755b921da7ed3185bf42169d629af98e))
+* update aliases for PTsUSDE ([f7d92b0](https://github.com/bgd-labs/web3-icons/commit/f7d92b0c69a6db06e90a935dbe8b53a5a5ee2525))
+* Update ezETH icon aliases ([85a7ff2](https://github.com/bgd-labs/web3-icons/commit/85a7ff201b2b9ab111d5f9e61e38a3a796721fd8))
+* update mono icon ([90cd9ca](https://github.com/bgd-labs/web3-icons/commit/90cd9ca8211c567c13066df0111625f4ab5759b2))
+* update package.json version ([7a855e5](https://github.com/bgd-labs/web3-icons/commit/7a855e551e536f0519be0d24887a6d7351617999))
+* update stkgho icon ([36f967e](https://github.com/bgd-labs/web3-icons/commit/36f967e84072016448827eb617af878f730be253))
+* update susde icon ([6d9a3a6](https://github.com/bgd-labs/web3-icons/commit/6d9a3a601960a2d29cd27e88f6b3e2cdac12f0e6))
+* upload dynamic icon in isolation ([#44](https://github.com/bgd-labs/web3-icons/issues/44)) ([8613032](https://github.com/bgd-labs/web3-icons/commit/86130325bbfc5fbb572f17145dfcace9101c2b65))
+
+
+### Bug Fixes
+
+* add AUSD asset icon ([#58](https://github.com/bgd-labs/web3-icons/issues/58)) ([665cd2c](https://github.com/bgd-labs/web3-icons/commit/665cd2c04949cd680151e1894bd58dca869d8cac))
+* add bg to full cEUR icon ([cd42288](https://github.com/bgd-labs/web3-icons/commit/cd422880ffb7cd6d642dd1060815c81b7a0c1a10))
+* added `SCR` asset icon ([80c00d5](https://github.com/bgd-labs/web3-icons/commit/80c00d5a262b9c54b087935533375c8823e051ca))
+* added base sepolia icon ([42a2b99](https://github.com/bgd-labs/web3-icons/commit/42a2b99dc51222ed18df0c20f1090a8406c1fd77))
+* added ezETH asset icon ([#48](https://github.com/bgd-labs/web3-icons/issues/48)) ([bf6e04c](https://github.com/bgd-labs/web3-icons/commit/bf6e04c24a2c633a14b8a92ac1e57722275ab0a3))
+* added linea chain icon ([96cb503](https://github.com/bgd-labs/web3-icons/commit/96cb503d5c8bf04b9ba5cd5c5b5aed58abdd175b))
+* added new assets icons (cbbtc & tbtc) ([3ee5e89](https://github.com/bgd-labs/web3-icons/commit/3ee5e89547c258c72015845a4f283909eca080a3))
+* added rseth asset icon ([65b422a](https://github.com/bgd-labs/web3-icons/commit/65b422ace4ac3519ee662c5c05936dfa395f7f97))
+* added testnet chains icons ([e2023a9](https://github.com/bgd-labs/web3-icons/commit/e2023a971c0204cbde2918e07115cd9a8ff14941))
+* added the ability to set the color of mono icons ([#33](https://github.com/bgd-labs/web3-icons/issues/33)) ([369bef3](https://github.com/bgd-labs/web3-icons/commit/369bef3293c4567767bb0568b824e3c423d28e16))
+* aliasses ([#39](https://github.com/bgd-labs/web3-icons/issues/39)) ([9a8c9e1](https://github.com/bgd-labs/web3-icons/commit/9a8c9e19cb87fcdec26901128e46f20cb753944e))
+* constants ([26ec4d1](https://github.com/bgd-labs/web3-icons/commit/26ec4d1214b0fb0c31bb4d65547764a4d8c7a485))
+* deploy to ipfs ([18434f0](https://github.com/bgd-labs/web3-icons/commit/18434f0b99ebcef7d9068b3305f1f96b8d2eab67))
+* deploy to ipfs ([2a5d33b](https://github.com/bgd-labs/web3-icons/commit/2a5d33be5b5cd26f1c6665a3c8397340abba1ec6))
+* formatting ([29e1778](https://github.com/bgd-labs/web3-icons/commit/29e177836a26393fef0ca2f49b57a2600d249d02))
+* matic aliasses ([3b90812](https://github.com/bgd-labs/web3-icons/commit/3b908126fd6911e8ccaabc9b31110f0e2b67a7e0))
+* merge conflicts ([45408f1](https://github.com/bgd-labs/web3-icons/commit/45408f167cc30093275979234565dca1efdb9500))
+* stop passing unnecessary props to DOM nodes ([#52](https://github.com/bgd-labs/web3-icons/issues/52)) ([95a44f2](https://github.com/bgd-labs/web3-icons/commit/95a44f2b1da23e4c0e15cd6eb14c61a38ba6a88a))
+* update components in package ([#43](https://github.com/bgd-labs/web3-icons/issues/43)) ([28899a4](https://github.com/bgd-labs/web3-icons/commit/28899a4105ed2540499d3ff903ee80c2ddd5a469))
+* update package version to match current releases ([a18e9ac](https://github.com/bgd-labs/web3-icons/commit/a18e9ac509d9520f3a127a49b76a3c61b5950da6))
+* update symbol aliases logic ([#35](https://github.com/bgd-labs/web3-icons/issues/35)) ([3aeb8d2](https://github.com/bgd-labs/web3-icons/commit/3aeb8d2fdd77db79132f81ffa7ac765ed0fa1ad9))
+* update wallet icons and added `zk` asset icon ([8f30ab0](https://github.com/bgd-labs/web3-icons/commit/8f30ab0d145d26fc197efb992bd9aef9bd183a44))
+* update wallets icons ([8826e6f](https://github.com/bgd-labs/web3-icons/commit/8826e6f857a0a4146ce23d1e0fb5c09a4224dabe))
+
+
+### Miscellaneous Chores
+
+* release 1.27.0 ([808a036](https://github.com/bgd-labs/web3-icons/commit/808a03689dbad1b59079af91eea650bf685b5708))
+* release 1.29.0 ([18bb0d8](https://github.com/bgd-labs/web3-icons/commit/18bb0d87a07f7a213d330be276391bdb7e9d779f))
+* release 1.34.0 ([6739f9b](https://github.com/bgd-labs/web3-icons/commit/6739f9b09a4affe5a1a666913cc5c544f725a3f2))
+* release 1.37.0 ([ad03bf7](https://github.com/bgd-labs/web3-icons/commit/ad03bf7a23398be0ddfd6f97fae0b4a558ed675d))
+* release 1.39.0 ([ebbac29](https://github.com/bgd-labs/web3-icons/commit/ebbac2940cebfa6f49884f1bb207d37f01777209))
+* release 1.4.1 ([e08e282](https://github.com/bgd-labs/web3-icons/commit/e08e2823738bdb34c594cde5c222de0956bc40c5))
+* release 1.41.0 ([022e56a](https://github.com/bgd-labs/web3-icons/commit/022e56ae2e363eb716a3d8fd9e10913799454989))
+
 ## [1.4.1](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.40.0...react-web3-icons@v1.4.1) (2025-09-22)
 
 
