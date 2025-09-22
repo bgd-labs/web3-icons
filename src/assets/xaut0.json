@@ -1,0 +1,14 @@
+{
+  "type": [
+    "asset"
+  ],
+  "symbol": "xaut0",
+  "name": "XAUT0",
+  "aliases": [
+    "XAU₮0"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

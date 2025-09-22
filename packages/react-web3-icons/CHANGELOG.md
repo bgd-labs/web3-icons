@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.40.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.39.0...react-web3-icons@v1.40.0) (2025-09-22)
+
+
+### Features
+
+* add xaut0 icon ([1af8442](https://github.com/bgd-labs/web3-icons/commit/1af84420815677e890192c78900671cfa55523f1))
+
 ## [1.39.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.38.0...react-web3-icons@v1.39.0) (2025-09-03)
 
 
