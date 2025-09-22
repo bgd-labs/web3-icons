@@ -16,7 +16,7 @@ export const ChainIconCard = ({
   icons,
 }: {
   name: string;
-  chainId: number;
+  chainId: number | string;
   icons: IconInfoIcons;
 }) => {
   const [variant, setVariant] = useState(IconVariant.Full);

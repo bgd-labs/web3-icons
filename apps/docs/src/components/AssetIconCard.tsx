@@ -21,7 +21,7 @@ export const AssetIconCard = ({
   name: string;
   symbol: string;
   icons: IconInfoIcons;
-  chainId?: number;
+  chainId?: number | string;
   chainName?: string;
   assetTag?: "a" | "stata" | "stk" | "stkStata";
 }) => {

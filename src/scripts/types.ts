@@ -16,7 +16,7 @@ export type IconMetaData = {
   aliases?: string[];
   // for chain
   chainName?: string;
-  chainId?: number;
+  chainId?: number | string;
   // for asset
   symbol?: string;
   variations?: string[];
@@ -62,7 +62,7 @@ export type IconInfo = IconMetaData & {
 
 export type ChainType = {
   name: string;
-  chainId: number;
+  chainId: number | string;
 };
 
 export type WalletType = {

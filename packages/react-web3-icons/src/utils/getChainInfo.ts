@@ -2,7 +2,7 @@ import { githubIconsPath } from "../constants";
 import { chainsNames } from "../helpers";
 import { IconComponentProps, IconVariant } from "./types";
 
-export const getChainName = (chainId: number) => {
+export const getChainName = (chainId: number | string) => {
   return chainsNames[chainId] ?? "Unknown";
 };
 export const getChainIconNameAndPath = ({
