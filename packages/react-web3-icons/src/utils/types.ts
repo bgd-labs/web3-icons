@@ -21,7 +21,7 @@ export type IconComponentProps = {
   assetTag?: "a" | "stata" | "stk" | "stkStata";
   formatSymbol?: (symbol: string) => string;
   // for chain
-  chainId?: number;
+  chainId?: number | string;
   // for wallet
   walletKey?: string;
   // for brand

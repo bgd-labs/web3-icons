@@ -40,7 +40,7 @@ const REACT_UTILS_PATH = "packages/react-web3-icons/src/helpers";
 const IconMetaSchema = z.object({
   type: z.array(z.string()),
   symbol: z.string().or(z.undefined()),
-  chainId: z.number().or(z.undefined()),
+  chainId: z.number().or(z.string()).or(z.undefined()),
   identityFlag: z.string().or(z.undefined()),
 
   name: z.string().or(z.undefined()),
@@ -282,7 +282,7 @@ chains.forEach(
 );
 fs.writeFileSync(
   `${REACT_UTILS_PATH}/chainsNames.ts`,
-  `export const chainsNames: Record<number, string> = ${JSON.stringify(chainsNames)};`,
+  `export const chainsNames: Record<number | string, string> = ${JSON.stringify(chainsNames)};`,
 );
 generateIconsPack(IconType.chain, chains);
 console.log("✅ Chains names are generated");

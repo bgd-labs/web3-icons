@@ -1,0 +1,5 @@
+{
+  "type": ["chain"],
+  "chainName": "Solana Mainnet",
+  "chainId": "solana:mainnet"
+}

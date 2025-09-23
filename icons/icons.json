@@ -3073,6 +3073,39 @@
     "type": [
       "chain"
     ],
+    "chainId": "solana:devnet",
+    "chainName": "Solana Devnet",
+    "icons": {
+      "mono": "icons/mono/solanadevnet.svg",
+      "full": "icons/full/solanadevnet.svg"
+    }
+  },
+  {
+    "type": [
+      "chain"
+    ],
+    "chainId": "solana:mainnet",
+    "chainName": "Solana Mainnet",
+    "icons": {
+      "mono": "icons/mono/solanamainnet.svg",
+      "full": "icons/full/solanamainnet.svg"
+    }
+  },
+  {
+    "type": [
+      "chain"
+    ],
+    "chainId": "solana:testnet",
+    "chainName": "Solana Testnet",
+    "icons": {
+      "mono": "icons/mono/solanatestnet.svg",
+      "full": "icons/full/solanatestnet.svg"
+    }
+  },
+  {
+    "type": [
+      "chain"
+    ],
     "chainId": 1868,
     "chainName": "Soneium",
     "icons": {
