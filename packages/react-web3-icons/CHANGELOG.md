@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.51.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.50.0...react-web3-icons@v1.51.0) (2025-10-13)
+
+
+### Features
+
+* add usdg and kbtc ([05b9219](https://github.com/bgd-labs/web3-icons/commit/05b92197dad234e99d35c1643b59ab8a07446134))
+
 ## [1.50.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.41.0...react-web3-icons@v1.50.0) (2025-09-23)
 
 
