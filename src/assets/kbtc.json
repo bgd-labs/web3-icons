@@ -1,0 +1,11 @@
+{
+  "type": [
+    "asset"
+  ],
+  "symbol": "kbtc",
+  "name": "Kraken Wrapped Bitcoin",
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
