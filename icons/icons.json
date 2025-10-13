@@ -1807,6 +1807,29 @@
     "type": [
       "asset"
     ],
+    "symbol": "kbtc",
+    "name": "Kraken Wrapped Bitcoin",
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/kbtc.svg",
+      "full": "icons/full/kbtc.svg",
+      "aToken": {
+        "mono": "icons/mono/akbtc.svg",
+        "full": "icons/full/akbtc.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statakbtc.svg",
+        "full": "icons/full/statakbtc.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "symbol": "knc",
     "name": "Kyber Network Crystal v2",
     "aliases": [
@@ -3738,6 +3761,29 @@
       "stataToken": {
         "mono": "icons/mono/statausde.svg",
         "full": "icons/full/statausde.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
+    "symbol": "USDG",
+    "name": "Global Dollar",
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/usdg.svg",
+      "full": "icons/full/usdg.svg",
+      "aToken": {
+        "mono": "icons/mono/ausdg.svg",
+        "full": "icons/full/ausdg.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statausdg.svg",
+        "full": "icons/full/statausdg.svg"
       }
     }
   },

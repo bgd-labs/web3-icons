@@ -1,0 +1,11 @@
+{
+  "type": [
+    "asset"
+  ],
+  "symbol": "USDG",
+  "name": "Global Dollar",
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
