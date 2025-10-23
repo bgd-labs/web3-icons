@@ -1,0 +1,11 @@
+{
+  "type": [
+    "asset"
+  ],
+  "symbol": "syrupUSDT",
+  "name": "SyrupUSDT",
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

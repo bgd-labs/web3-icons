@@ -3462,6 +3462,52 @@
     "type": [
       "asset"
     ],
+    "symbol": "syrupUSDC",
+    "name": "SyrupUSDC",
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/syrupusdc.svg",
+      "full": "icons/full/syrupusdc.svg",
+      "aToken": {
+        "mono": "icons/mono/asyrupusdc.svg",
+        "full": "icons/full/asyrupusdc.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statasyrupusdc.svg",
+        "full": "icons/full/statasyrupusdc.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
+    "symbol": "syrupUSDT",
+    "name": "SyrupUSDT",
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/syrupusdt.svg",
+      "full": "icons/full/syrupusdt.svg",
+      "aToken": {
+        "mono": "icons/mono/asyrupusdt.svg",
+        "full": "icons/full/asyrupusdt.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statasyrupusdt.svg",
+        "full": "icons/full/statasyrupusdt.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "symbol": "teth",
     "name": "Treehouse ETH",
     "aliases": [
