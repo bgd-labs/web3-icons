@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.52.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.51.0...react-web3-icons@v1.52.0) (2025-10-23)
+
+
+### Features
+
+* add syrupUSDC and syrupUSDT ([e185928](https://github.com/bgd-labs/web3-icons/commit/e18592801ac27efb344193642d5a6c02102f8d6a))
+
 ## [1.51.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.50.0...react-web3-icons@v1.51.0) (2025-10-13)
 
 
