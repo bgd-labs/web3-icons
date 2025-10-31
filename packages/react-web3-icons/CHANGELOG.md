@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.53.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.52.0...react-web3-icons@v1.53.0) (2025-10-31)
+
+
+### Features
+
+* add aliases for new PTs ([e3d2d2d](https://github.com/bgd-labs/web3-icons/commit/e3d2d2d8029e9275935c53a05387368fdca00c4a))
+
 ## [1.52.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.51.0...react-web3-icons@v1.52.0) (2025-10-23)
 
 
