@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.54.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.53.0...react-web3-icons@v1.54.0) (2025-11-11)
+
+
+### Features
+
+* add XPL ([5f7033b](https://github.com/bgd-labs/web3-icons/commit/5f7033b14df1624ca10cf37fe18d16f39ca24167))
+
 ## [1.53.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.52.0...react-web3-icons@v1.53.0) (2025-10-31)
 
 
