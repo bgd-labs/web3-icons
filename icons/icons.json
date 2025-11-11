@@ -4502,6 +4502,29 @@
     "type": [
       "asset"
     ],
+    "symbol": "xpl",
+    "name": "Plasma",
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/xpl.svg",
+      "full": "icons/full/xpl.svg",
+      "aToken": {
+        "mono": "icons/mono/axpl.svg",
+        "full": "icons/full/axpl.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/stataxpl.svg",
+        "full": "icons/full/stataxpl.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "symbol": "xsushi",
     "name": "SushiBar",
     "aliases": [

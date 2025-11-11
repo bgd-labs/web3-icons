@@ -1,0 +1,11 @@
+{
+  "type": [
+    "asset"
+  ],
+  "symbol": "xpl",
+  "name": "Plasma",
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
