@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.55.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.54.0...react-web3-icons@v1.55.0) (2025-11-13)
+
+
+### Features
+
+* add wxpl alias ([3c5e62e](https://github.com/bgd-labs/web3-icons/commit/3c5e62e02319eb79d1f1e4034df1401444de9dcd))
+
 ## [1.54.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.53.0...react-web3-icons@v1.54.0) (2025-11-11)
 
 
