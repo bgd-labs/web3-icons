@@ -4,6 +4,9 @@
   ],
   "symbol": "xpl",
   "name": "Plasma",
+  "aliases": [
+    "WXPL"
+  ],
   "variations": [
     "aToken",
     "stataToken"
