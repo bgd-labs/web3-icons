@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.57.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.56.0...react-web3-icons@v1.57.0) (2025-12-01)
+
+
+### Features
+
+* add mUSD icon ([514a7c4](https://github.com/bgd-labs/web3-icons/commit/514a7c4e501f7db0b809d8fbcc38d07da16840f6))
+
 ## [1.56.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.55.0...react-web3-icons@v1.56.0) (2025-11-25)
 
 
