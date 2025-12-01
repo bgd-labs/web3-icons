@@ -1,0 +1,6 @@
+{
+  "type": ["asset"],
+  "symbol": "musd",
+  "name": "MetaMask USD",
+  "variations": ["aToken", "stataToken"]
+}

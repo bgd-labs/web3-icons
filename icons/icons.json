@@ -2293,6 +2293,29 @@
   },
   {
     "type": [
+      "asset"
+    ],
+    "symbol": "musd",
+    "name": "MetaMask USD",
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/musd.svg",
+      "full": "icons/full/musd.svg",
+      "aToken": {
+        "mono": "icons/mono/amusd.svg",
+        "full": "icons/full/amusd.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statamusd.svg",
+        "full": "icons/full/statamusd.svg"
+      }
+    }
+  },
+  {
+    "type": [
       "wallet"
     ],
     "identityFlag": "isMYKEY",
