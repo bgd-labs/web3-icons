@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.58.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.57.0...react-web3-icons@v1.58.0) (2025-12-15)
+
+
+### Features
+
+* add XLayer ([019936a](https://github.com/bgd-labs/web3-icons/commit/019936a1241407e1cb3ae86cff7c0e28c195e528))
+
 ## [1.57.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.56.0...react-web3-icons@v1.57.0) (2025-12-01)
 
 
