@@ -488,6 +488,7 @@ export type Web3IconType =
   | 'xaut_0'
   | 'xdai'
   | 'xdefiwallet'
+  | 'xlayer'
   | 'xpl'
   | 'xsushi'
   | 'yfi'

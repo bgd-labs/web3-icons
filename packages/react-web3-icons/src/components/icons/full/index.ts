@@ -488,6 +488,7 @@ export { default as XautIcon } from './XautIcon';
 export { default as XautZeroIcon } from './XautZeroIcon';
 export { default as XdaiIcon } from './XdaiIcon';
 export { default as XdefiwalletIcon } from './XdefiwalletIcon';
+export { default as XlayerIcon } from './XlayerIcon';
 export { default as XplIcon } from './XplIcon';
 export { default as XsushiIcon } from './XsushiIcon';
 export { default as YfiIcon } from './YfiIcon';

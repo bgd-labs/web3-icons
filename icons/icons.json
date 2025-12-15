@@ -4525,6 +4525,17 @@
   },
   {
     "type": [
+      "chain"
+    ],
+    "chainId": 196,
+    "chainName": "X Layer",
+    "icons": {
+      "mono": "icons/mono/xlayer.svg",
+      "full": "icons/full/xlayer.svg"
+    }
+  },
+  {
+    "type": [
       "asset"
     ],
     "symbol": "xpl",
