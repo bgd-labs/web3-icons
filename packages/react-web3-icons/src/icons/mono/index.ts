@@ -492,6 +492,7 @@ export * from './build/icon-xaut.icon';
 export * from './build/icon-xaut0.icon';
 export * from './build/icon-xdai.icon';
 export * from './build/icon-xdefiwallet.icon';
+export * from './build/icon-xlayer.icon';
 export * from './build/icon-xpl.icon';
 export * from './build/icon-xsushi.icon';
 export * from './build/icon-yfi.icon';
