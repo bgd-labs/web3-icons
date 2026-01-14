@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.59.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.58.0...react-web3-icons@v1.59.0) (2026-01-14)
+
+
+### Features
+
+* add megaeth ([adc305a](https://github.com/bgd-labs/web3-icons/commit/adc305a9d3f70c810d53ebb2be50d4cc7485b835))
+
 ## [1.58.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.57.0...react-web3-icons@v1.58.0) (2025-12-15)
 
 
