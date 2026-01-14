@@ -242,6 +242,7 @@ export * from './build/icon-mantle.icon';
 export * from './build/icon-mathwallet.icon';
 export * from './build/icon-matic.icon';
 export * from './build/icon-maticx.icon';
+export * from './build/icon-megaeth.icon';
 export * from './build/icon-metamask.icon';
 export * from './build/icon-metis.icon';
 export * from './build/icon-mkr.icon';

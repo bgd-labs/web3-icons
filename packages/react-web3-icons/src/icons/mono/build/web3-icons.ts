@@ -238,6 +238,7 @@ export type Web3IconType =
   | 'mathwallet'
   | 'matic'
   | 'maticx'
+  | 'megaeth'
   | 'metamask'
   | 'metis'
   | 'mkr'
