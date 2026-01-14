@@ -2211,6 +2211,17 @@
   },
   {
     "type": [
+      "chain"
+    ],
+    "chainId": 4326,
+    "chainName": "MegaETH",
+    "icons": {
+      "mono": "icons/mono/megaeth.svg",
+      "full": "icons/full/megaeth.svg"
+    }
+  },
+  {
+    "type": [
       "wallet"
     ],
     "identityFlag": "isMetaMask",

@@ -238,6 +238,7 @@ export { default as MantleIcon } from './MantleIcon';
 export { default as MathwalletIcon } from './MathwalletIcon';
 export { default as MaticIcon } from './MaticIcon';
 export { default as MaticxIcon } from './MaticxIcon';
+export { default as MegaethIcon } from './MegaethIcon';
 export { default as MetamaskIcon } from './MetamaskIcon';
 export { default as MetisIcon } from './MetisIcon';
 export { default as MkrIcon } from './MkrIcon';
