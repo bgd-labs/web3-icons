@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.61.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.60.0...react-web3-icons@v1.61.0) (2026-02-09)
+
+
+### Features
+
+* add PT_srUSDe ([72bce30](https://github.com/bgd-labs/web3-icons/commit/72bce30a8624c8c55f65d74ef6cd3df526f757da))
+
 ## [1.60.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.59.0...react-web3-icons@v1.60.0) (2026-02-09)
 
 
