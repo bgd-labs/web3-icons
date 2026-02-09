@@ -1,13 +1,17 @@
 {
-  "type": ["asset", "chain", "wallet"],
+  "type": [
+    "asset",
+    "chain",
+    "wallet"
+  ],
   "symbol": "wbnb",
   "chainId": 56,
   "identityFlag": "bbcSignTx",
   "name": "Wrapped BNB",
   "chainName": "BNB Smart Chain",
   "walletName": "Binance Smart Wallet",
-
   "aliases": [
+    "bnb",
     "aBnbWBNB",
     "variableDebtBnbWBNB",
     "WBNB",

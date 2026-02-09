@@ -405,6 +405,7 @@
     "chainName": "BNB Smart Chain",
     "walletName": "Binance Smart Wallet",
     "aliases": [
+      "bnb",
       "aBnbWBNB",
       "variableDebtBnbWBNB",
       "WBNB",
@@ -2531,6 +2532,7 @@
       "PT-USDe-15JAN2026",
       "PT-USDe-5FEB2026",
       "PT-USDe-27NOV2025",
+      "PT-USDe-7MAY2026",
       "aEthPT-USDe-31JUL2025",
       "stataEthPT-USDe-31JUL2025",
       "aEthPT-USDe-25SEP2025",
@@ -2570,6 +2572,8 @@
       "PT-sUSDE-15JAN2026",
       "PT-sUSDE-5FEB2026",
       "PT-sUSDE-27NOV2025",
+      "PT-sUSDE-9APR2026",
+      "PT-sUSDE-7MAY2026",
       "aEthPT-sUSDE-31JUL2025",
       "stataEthPT-sUSDE-31JUL2025",
       "aEthPT-sUSDE-25SEP2025",
@@ -2870,6 +2874,29 @@
       "stataToken": {
         "mono": "icons/mono/statarseth.svg",
         "full": "icons/full/statarseth.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
+    "symbol": "rusd",
+    "name": "RUSD",
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/rusd.svg",
+      "full": "icons/full/rusd.svg",
+      "aToken": {
+        "mono": "icons/mono/arusd.svg",
+        "full": "icons/full/arusd.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statarusd.svg",
+        "full": "icons/full/statarusd.svg"
       }
     }
   },
@@ -3870,6 +3897,32 @@
       "stataToken": {
         "mono": "icons/mono/statausdg.svg",
         "full": "icons/full/statausdg.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
+    "symbol": "usdm",
+    "name": "USDm",
+    "aliases": [
+      "USDM"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/usdm.svg",
+      "full": "icons/full/usdm.svg",
+      "aToken": {
+        "mono": "icons/mono/ausdm.svg",
+        "full": "icons/full/ausdm.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statausdm.svg",
+        "full": "icons/full/statausdm.svg"
       }
     }
   },
