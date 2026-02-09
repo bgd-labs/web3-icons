@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.60.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.59.0...react-web3-icons@v1.60.0) (2026-02-09)
+
+
+### Features
+
+* add rusd ([741225b](https://github.com/bgd-labs/web3-icons/commit/741225bd338a1177aa7e2b41f58ec43d7de15c25))
+* add usdm ([7007041](https://github.com/bgd-labs/web3-icons/commit/70070412172f027728cb621f4093601bb6bd0452))
+
+
+### Bug Fixes
+
+* alias for bnb asset ([10f9589](https://github.com/bgd-labs/web3-icons/commit/10f958980790469f915f08c75f6c6e0c868578a5))
+
 ## [1.59.0](https://github.com/bgd-labs/web3-icons/compare/react-web3-icons@v1.58.0...react-web3-icons@v1.59.0) (2026-01-14)
 
 
