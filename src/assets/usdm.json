@@ -1,0 +1,14 @@
+{
+  "type": [
+    "asset"
+  ],
+  "name": "USDm",
+  "symbol": "usdm",
+  "aliases": [
+    "USDM"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}

@@ -3881,6 +3881,32 @@
     "type": [
       "asset"
     ],
+    "symbol": "usdm",
+    "name": "USDm",
+    "aliases": [
+      "USDM"
+    ],
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/usdm.svg",
+      "full": "icons/full/usdm.svg",
+      "aToken": {
+        "mono": "icons/mono/ausdm.svg",
+        "full": "icons/full/ausdm.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statausdm.svg",
+        "full": "icons/full/statausdm.svg"
+      }
+    }
+  },
+  {
+    "type": [
+      "asset"
+    ],
     "symbol": "usdp",
     "name": "Pax Dollar",
     "aliases": [
