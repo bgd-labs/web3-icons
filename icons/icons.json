@@ -2879,6 +2879,29 @@
   },
   {
     "type": [
+      "asset"
+    ],
+    "symbol": "rusd",
+    "name": "RUSD",
+    "variations": [
+      "aToken",
+      "stataToken"
+    ],
+    "icons": {
+      "mono": "icons/mono/rusd.svg",
+      "full": "icons/full/rusd.svg",
+      "aToken": {
+        "mono": "icons/mono/arusd.svg",
+        "full": "icons/full/arusd.svg"
+      },
+      "stataToken": {
+        "mono": "icons/mono/statarusd.svg",
+        "full": "icons/full/statarusd.svg"
+      }
+    }
+  },
+  {
+    "type": [
       "wallet"
     ],
     "identityFlag": "isSafePal",

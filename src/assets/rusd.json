@@ -1,0 +1,11 @@
+{
+  "type": [
+    "asset"
+  ],
+  "symbol": "rusd",
+  "name": "RUSD",
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
