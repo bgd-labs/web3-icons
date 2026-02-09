@@ -1,0 +1,16 @@
+{
+  "type": [
+    "asset"
+  ],
+  "symbol": "ptsrusde",
+  "name": "PT srUSDe",
+  "aliases": [
+    "PTsrUSDE",
+    "PT-srUSDE",
+    "PT-srUSDe-2APR2026"
+  ],
+  "variations": [
+    "aToken",
+    "stataToken"
+  ]
+}
