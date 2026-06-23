@@ -7,11 +7,11 @@ Svg set of web3 icons and utils for easy generation and use.
 Package with some of web3 assets, chains and web3 wallets icons for easy use in the React.js ecosystem. Described in more detail [here](./packages/react-web3-icons/README.md).
 
 #### npm
-<code>npm i @bgd-labs/react-web3-icons</code>
+<code>npm i @aave-dao/react-web3-icons</code>
 #### yarn
-<code>yarn add @bgd-labs/react-web3-icons</code>
+<code>yarn add @aave-dao/react-web3-icons</code>
 #### pnpm
-<code>pnpm add @bgd-labs/react-web3-icons</code>
+<code>pnpm add @aave-dao/react-web3-icons</code>
 
 ### Adding new asset icon
 1. Add new `svg` icon files to `src/assets` folder

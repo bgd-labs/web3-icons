@@ -1,5 +1,5 @@
 {
-  "name": "@bgd-labs/web3-icons",
+  "name": "@aave-dao/web3-icons",
   "description": "Svg set of web3 assets icons and utils for easy generation.",
   "version": "0.0.1",
   "author": "BGD labs",
@@ -24,21 +24,21 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bgd-labs/icons.git"
+    "url": "git+https://github.com/aave-dao/web3-icons/icons.git"
   },
   "bugs": {
-    "url": "https://github.com/bgd-labs/icons/issues"
+    "url": "https://github.com/aave-dao/web3-icons/icons/issues"
   },
-  "homepage": "https://github.com/bgd-labs/icons/blob/main/README.md",
+  "homepage": "https://github.com/aave-dao/web3-icons/icons/blob/main/README.md",
   "scripts": {
     "generate": "pnpm run generate-icons && pnpm run generate-components",
     "generate-icons": "tsx src/scripts/generate.ts && svg-to-ts-files --config ./src/utils/genereteMonoTokensConfig.js && svg-to-ts-files --config ./src/utils/genereteFullTokensConfig.js",
     "generate-components": "tsx src/scripts/generateComponents.ts"
   },
   "devDependencies": {
-    "@bgd-labs/aave-address-book": "^4.7.4",
-    "@types/node": "^22.8.4",
+    "@aave-dao/aave-address-book": "^4.55.2",
     "@types/lodash.template": "^4.5.3",
+    "@types/node": "^22.8.4",
     "eslint": "^9.13.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.31.0",
@@ -47,15 +47,15 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "globals": "^15.11.0",
+    "lodash.template": "^4.5.0",
     "prettier": "^3.3.3",
     "svg-to-ts": "^12.0.0",
     "svgo": "^3.3.2",
+    "to-words": "^4.1.0",
     "tsx": "^4.19.2",
     "typescript": "^5.6.3",
     "typescript-eslint": "^7.18.0",
-    "zod": "^3.23.8",
-    "lodash.template": "^4.5.0",
-    "to-words": "^4.1.0"
+    "zod": "^3.23.8"
   },
   "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
 }

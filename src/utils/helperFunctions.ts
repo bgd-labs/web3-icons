@@ -22,7 +22,7 @@ import {
   AaveV3ScrollSepolia,
   AaveV3Sepolia,
   AaveV3ZkSync,
-} from "@bgd-labs/aave-address-book";
+} from "@aave-dao/aave-address-book";
 import fs from "fs";
 import { optimize } from "svgo";
 import { z } from "zod";
@@ -298,7 +298,7 @@ export const updateAliasesWithAddressBook = (
   });
 
   const tokenlist = readJsonFile(
-    "node_modules/@bgd-labs/aave-address-book/tokenlist.json",
+    "node_modules/@aave-dao/aave-address-book/tokenlist.json",
     TokenListSchema,
   );
 

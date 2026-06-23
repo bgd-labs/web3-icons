@@ -4,11 +4,11 @@ Package with some of web3 assets, chains and web3 wallets icons for easy use in 
 
 ### Installation
 #### npm
-<code>npm i @bgd-labs/react-web3-icons</code>
+<code>npm i @aave-dao/react-web3-icons</code>
 #### yarn
-<code>yarn add @bgd-labs/react-web3-icons</code>
+<code>yarn add @aave-dao/react-web3-icons</code>
 #### pnpm
-<code>pnpm add @bgd-labs/react-web3-icons</code>
+<code>pnpm add @aave-dao/react-web3-icons</code>
 
 ### Usage
 ### 1) You can use `Web3Icon` component.
@@ -25,11 +25,11 @@ Package with some of web3 assets, chains and web3 wallets icons for easy use in 
 | `iconsPack?`    | `Record<string, string>`     | Need to pass iconsPack from library, to using static imports. This option is not recommended for the `symbol` icon.
 
 ```tsx
-import { Web3Icon } from "@bgd-labs/react-web3-icons";
-import { assetsIconsPack } from "@bgd-labs/react-web3-icons/dist/iconsPacks/assetsIconsPack";
-import { chainsIconsPack } from "@bgd-labs/react-web3-icons/dist/iconsPacks/chainsIconsPack";
-import { walletsIconsPack } from "@bgd-labs/react-web3-icons/dist/iconsPacks/walletsIconsPack";
-import { brandsIconsPack } from "@bgd-labs/react-web3-icons/dist/iconsPacks/brandsIconsPack";
+import { Web3Icon } from "@aave-dao/react-web3-icons";
+import { assetsIconsPack } from "@aave-dao/react-web3-icons/dist/iconsPacks/assetsIconsPack";
+import { chainsIconsPack } from "@aave-dao/react-web3-icons/dist/iconsPacks/chainsIconsPack";
+import { walletsIconsPack } from "@aave-dao/react-web3-icons/dist/iconsPacks/walletsIconsPack";
+import { brandsIconsPack } from "@aave-dao/react-web3-icons/dist/iconsPacks/brandsIconsPack";
 export const ExampleUsage = () => {
   return (
     <div>
@@ -48,8 +48,8 @@ export const ExampleUsage = () => {
 ```
 ### 2) You can import either full or mono icon directly from the package
 ```tsx
-import { AaaveIcon } from "@bgd-labs/react-web3-icons/dist/components/icons/full";
-import { AaaveIcon as AaaveMonoIcon } from "@bgd-labs/react-web3-icons/dist/components/icons/mono";
+import { AaaveIcon } from "@aave-dao/react-web3-icons/dist/components/icons/full";
+import { AaaveIcon as AaaveMonoIcon } from "@aave-dao/react-web3-icons/dist/components/icons/mono";
 export const UsageExample = () => {
   return (
     <>
@@ -66,7 +66,7 @@ export const UsageExample = () => {
 | `symbol`   | `string`                         | The `symbol` parameter is not case sensitive, you can pass it as `AAVE` or `aave` or `AaVe`. The result will always be the AAVE asset token icon.
 | `formatSymbol`   | `(symbol: string) => string`     | If you have a special condition for asset symbol formatting, you can replace the formatting function inside the component.
 ```tsx
-import { Web3Icon } from "@bgd-labs/react-web3-icons";
+import { Web3Icon } from "@aave-dao/react-web3-icons";
 export const UsageExample = () => {
   const assetName = getAssetName({ symbol: "aave" });
   return (
@@ -82,7 +82,7 @@ export const UsageExample = () => {
 |:-----------|:---------------------------------| :------ |
 | `chainId`   | `number`                         | Id of the chain.
 ```tsx
-import { Web3Icon } from "@bgd-labs/react-web3-icons";
+import { Web3Icon } from "@aave-dao/react-web3-icons";
 export const UsageExample = () => {
   const chainName = getChainName({ chainId: 1 });
   return (
@@ -95,9 +95,9 @@ export const UsageExample = () => {
 ```
 #### Check installed wallet name and use icon from package
 ```tsx
-import { getWeb3WalletName } from "@bgd-labs/react-web3-icons/dist/utils";
+import { getWeb3WalletName } from "@aave-dao/react-web3-icons/dist/utils";
 import dynamic from "next/dynamic";
-import { Web3Icon } from "@bgd-labs/react-web3-icons";
+import { Web3Icon } from "@aave-dao/react-web3-icons";
 const InstalledBrowserWalletWallet = () => {
   const walletName = getWeb3WalletName();
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
+import { IconVariant } from "@aave-dao/react-web3-icons/dist/utils";
 import { ComponentProps, ReactNode } from "react";
 
 import { Box } from "@/components/Box";

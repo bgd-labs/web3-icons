@@ -1,9 +1,9 @@
 "use client";
 
-import { Web3Icon } from "@bgd-labs/react-web3-icons";
-import { githubIconsPath } from "@bgd-labs/react-web3-icons/dist/constants";
-import { chainsIconsPack } from "@bgd-labs/react-web3-icons/dist/iconsPacks/chainsIconsPack";
-import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
+import { Web3Icon } from "@aave-dao/react-web3-icons";
+import { githubIconsPath } from "@aave-dao/react-web3-icons/dist/constants";
+import { chainsIconsPack } from "@aave-dao/react-web3-icons/dist/iconsPacks/chainsIconsPack";
+import { IconVariant } from "@aave-dao/react-web3-icons/dist/utils";
 import { useState } from "react";
 
 import { IconCard, IconLoader } from "@/components/IconCard";

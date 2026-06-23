@@ -1,8 +1,8 @@
 "use client";
 
-import { Web3Icon } from "@bgd-labs/react-web3-icons";
-import { githubIconsPath } from "@bgd-labs/react-web3-icons/dist/constants";
-import { IconVariant } from "@bgd-labs/react-web3-icons/dist/utils";
+import { Web3Icon } from "@aave-dao/react-web3-icons";
+import { githubIconsPath } from "@aave-dao/react-web3-icons/dist/constants";
+import { IconVariant } from "@aave-dao/react-web3-icons/dist/utils";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 

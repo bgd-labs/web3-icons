@@ -1,7 +1,7 @@
 "use client";
 
-import { Web3Icon } from "@bgd-labs/react-web3-icons";
-import { getWeb3WalletName } from "@bgd-labs/react-web3-icons/dist/utils";
+import { Web3Icon } from "@aave-dao/react-web3-icons";
+import { getWeb3WalletName } from "@aave-dao/react-web3-icons/dist/utils";
 import dynamic from "next/dynamic";
 
 import { IconLoader } from "@/components/IconCard";
