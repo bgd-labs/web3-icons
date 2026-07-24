@@ -2,6 +2,7 @@
   "name": "@bgd-labs/react-web3-icons",
   "description": "Svg set of web3 icons.",
   "version": "1.64.0",
+  "deprecated": "Deprecated in favor of @bgd-labs/icons-react (https://github.com/bgd-labs/icons). Not a drop-in replacement.",
   "author": "BGD labs",
   "license": "MIT",
   "private": false,
@@ -24,12 +25,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bgd-labs/icons.git"
+    "url": "git+https://github.com/bgd-labs/web3-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/bgd-labs/icons/issues"
+    "url": "https://github.com/bgd-labs/web3-icons/issues"
   },
-  "homepage": "https://github.com/bgd-labs/icons/blob/main/README.md",
+  "homepage": "https://github.com/bgd-labs/web3-icons/blob/main/README.md",
   "scripts": {
     "start": "tsup src/index.ts --watch",
     "build": "tsup",

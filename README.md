@@ -1,7 +1,12 @@
+> [!WARNING]
+> **This repository is deprecated and no longer maintained.**
+>
+> Development has moved to [**bgd-labs/icons**](https://github.com/bgd-labs/icons). The npm package `@bgd-labs/react-web3-icons` is deprecated in favor of [`@bgd-labs/icons-react`](https://www.npmjs.com/package/@bgd-labs/icons-react).
+>
+> Note: this is **not** a drop-in replacement — the new package has a different API. Please refer to the new repo for migration guidance.
+
 # Web3 icons library
 Svg set of web3 icons and utils for easy generation and use.
-
-<!-- Trigger npm publish for 1.40.0 -->
 
 ### Installation
 Package with some of web3 assets, chains and web3 wallets icons for easy use in the React.js ecosystem. Described in more detail [here](./packages/react-web3-icons/README.md).
