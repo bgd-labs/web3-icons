@@ -1,3 +1,8 @@
+ > [!WARNING]
+> **`@bgd-labs/react-web3-icons` is deprecated and no longer maintained.**
+>
+> Use [`@bgd-labs/icons-react`](https://www.npmjs.com/package/@bgd-labs/icons-react) instead, developed in [bgd-labs/icons](https://github.com/bgd-labs/icons). This is **not** a drop-in replacement — the new package has a different API.
+
 # React web3 icons
 
 Package with some of web3 assets, chains and web3 wallets icons for easy use in the React.js ecosystem.

@@ -24,12 +24,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bgd-labs/icons.git"
+    "url": "git+https://github.com/bgd-labs/web3-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/bgd-labs/icons/issues"
+    "url": "https://github.com/bgd-labs/web3-icons/issues"
   },
-  "homepage": "https://github.com/bgd-labs/icons/blob/main/README.md",
+  "homepage": "https://github.com/bgd-labs/web3-icons/blob/main/README.md",
   "scripts": {
     "generate": "pnpm run generate-icons && pnpm run generate-components",
     "generate-icons": "tsx src/scripts/generate.ts && svg-to-ts-files --config ./src/utils/genereteMonoTokensConfig.js && svg-to-ts-files --config ./src/utils/genereteFullTokensConfig.js",
